@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-30 16:16:01
+🕐 **最近更新**：2026-04-30 21:33:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,23 +16,27 @@
 
 ## 🔥 今日热点
 
-1. [Meta 表示其商业人工智能现在每周可促成 1000 万次对话](https://aihot.bt199.com/news/b536347c3206/)
-   - Meta 表示，超过 80 亿广告商至少使用过其一代 AI 工具之一
+1. [ChatGPT Images 2.0 在印度很受欢迎，但在其他地方还不是大赢家](https://aihot.bt199.com/news/d02cf6c66a23/)
+   - 印度用户正在拥抱 ChatGPT Images 2.0 来实现创意、个人视觉效果——从头像到电影肖像
+   - `TechCrunch AI · 2026-05-01`
+
+2. [资料来源：Anthropic 潜在的 $900B+ 估值轮可能会在 2 周内发生](https://aihot.bt199.com/news/e0cea1ae2c83/)
+   - 据知情人士透露，Anthropic 要求投资者在未来 48 小时内提交该人工智能公司最新融资的分配情况
    - `TechCrunch AI · 2026-04-30`
 
-2. [软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO](https://aihot.bt199.com/news/19231aeade95/)
-   - 你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施
-   - `TechCrunch AI · 2026-04-30`
-
-3. [通过 Spotify 徽章验证让您知道这位艺术家不是 AI](https://aihot.bt199.com/news/9130292322b3/)
-   - Spotify 正在推出一项新的验证计划，以打击垃圾邮件、假货和人工智能。现在，一些艺术家的个人资料上会带有“由 Spo…
+3. [马斯克诉奥特曼案中最疯狂的部分发生在陪审团离开房间时](https://aihot.bt199.com/news/072b4665a19a/)
+   - 好吧，我不是律师，所以我只了解了刚刚发生的事情的一半。但鉴于当时的背景，我相当肯定埃隆·马斯克的律师可能刚刚搞砸了。马斯…
    - `The Verge AI · 2026-04-30`
 
-4. [Meta 上季度流失 2000 万用户](https://aihot.bt199.com/news/b794f0d69866/)
-   - 尽管注意到数百万用户似乎已经开始放弃其平台，Meta 仍计划今年在人工智能领域投入数十亿美元的投资。在周三的财报电话会议…
-   - `The Verge AI · 2026-04-30`
+4. [独家电子书：推销无脑克隆人的秘密初创公司内部](https://aihot.bt199.com/news/3d55333608bd/)
+   - 永生的终极计划是拥有一个全新的身体。这本仅限订阅者阅读的电子书探讨了 R3 Bio，这是一家小型初创公司，该公司提出了一…
+   - `MIT Tech Review · 2026-04-30`
 
-5. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
+5. [这家初创公司的新机械解释工具可让您调试法学硕士](https://aihot.bt199.com/news/9ec0466f0177/)
+   - 总部位于旧金山的初创公司 Goodfire 刚刚发布了一款名为 Silico 的新工具，它可以让研究人员和工程师在训练期…
+   - `MIT Tech Review · 2026-04-30`
+
+6. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
    - 安全公司发现自己尤其容易受到威胁
    - `Ars Technica AI · 2026-04-29`
 
@@ -119,6 +123,7 @@
 ---
 
 MIT License
+
 
 
 

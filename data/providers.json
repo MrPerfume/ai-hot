@@ -386,17 +386,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Grok 4.3",
       "Grok 4.20 Multi-Agent",
-      "Grok 4.20",
-      "Grok 4.1 Fast"
+      "Grok 4.20"
     ],
-    "model_count": 10,
-    "last_updated": "2026-03-31",
+    "model_count": 11,
+    "last_updated": "2026-04-30",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Grok 4.20 Multi-Agent",
+    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Grok 4.3",
     "provider_kind": "model_author"
   },
   {
@@ -1085,5 +1085,30 @@
     "last_updated": "",
     "modalities": [],
     "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "ibm-granite",
+    "name": "IBM",
+    "url": "https://openrouter.ai/ibm-granite",
+    "logo": "🆕",
+    "models": [
+      "IBM: Granite 4.1 8B",
+      "IBM: Granite 4.0 Micro"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "IBM: Granite 4.1 8B",
+      "IBM: Granite 4.0 Micro"
+    ],
+    "model_count": 2,
+    "last_updated": "2026-04-30",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 IBM: Granite 4.1 8B"
   }
 ]
