@@ -4498,6 +4498,29 @@
     "collected_at": "2026-04-23T13:09:11.417103"
   },
   {
+    "id": "github-1226315599",
+    "name": "jmerelnyc/ai-practice-examples",
+    "display_name": "ai-practice-examples",
+    "url": "https://github.com/jmerelnyc/ai-practice-examples",
+    "description": "Course examples demonstrating AI implementation with industry best practices",
+    "stars": 10,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [
+      "ai-examples",
+      "artificial-intelligence",
+      "best-practices",
+      "course-materials",
+      "machine-learning",
+      "typescript"
+    ],
+    "created_at": "2026-05-01T08:28:25Z",
+    "updated_at": "2026-05-01T23:24:58Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-05-02T09:53:59.228403"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",

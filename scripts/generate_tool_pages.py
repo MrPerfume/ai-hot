@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import re
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 TOOLS_JSON = ROOT / 'data' / 'tools.json'
 CONTENT_DIR = ROOT / 'site' / 'content' / 'tools'
 GENERATED_MARKER = '<!-- AUTO-GENERATED: tool page -->\n'

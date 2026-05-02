@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-01 16:07:52
+🕐 **最近更新**：2026-05-02 17:56:34
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,27 +16,31 @@
 
 ## 🔥 今日热点
 
-1. [ChatGPT Images 2.0 在印度很受欢迎，但在其他地方还不是大赢家](https://aihot.bt199.com/news/d02cf6c66a23/)
-   - 印度用户正在拥抱 ChatGPT Images 2.0 来实现创意、个人视觉效果——从头像到电影肖像
+1. [Meta 收购机器人初创公司以增强其人形人工智能雄心](https://aihot.bt199.com/news/0809bbe44568/)
+   - 该公司表示，Meta 收购了人形初创公司 Assured Robot Intelligence，以增强其机器人人工智能模…
    - `TechCrunch AI · 2026-05-01`
 
-2. [资料来源：Anthropic 潜在的 $900B+ 估值轮可能会在 2 周内发生](https://aihot.bt199.com/news/e0cea1ae2c83/)
-   - 据知情人士透露，Anthropic 要求投资者在未来 48 小时内提交该人工智能公司最新融资的分配情况
-   - `TechCrunch AI · 2026-04-30`
+2. [你知道你不能偷窃慈善机构吗？不用担心。埃隆·马斯克会提醒你。](https://aihot.bt199.com/news/f15b72a01048/)
+   - 本周，埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中在证人席上度过了三天的大部分时间，而且事情已经…
+   - `TechCrunch AI · 2026-05-01`
 
-3. [微软希望律师信任其在 Word 文档中的新 AI 代理](https://aihot.bt199.com/news/a28baaadcf88/)
-   - 微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文档编辑、谈判历史记录和复杂文档，以帮助法…
-   - `The Verge AI · 2026-05-01`
-
-4. [廉价的海底跳跃潜水器可能会推动深海科学和采矿业的发展](https://aihot.bt199.com/news/889806c7134e/)
-   - 美国国家海洋和大气管理局 (NOAA) 的雷尼尔号研究船正好位于澳大利亚和南美洲之间，目前正在执行一项任务，绘制 8,0…
+3. [马斯克诉奥特曼第一周：埃隆·马斯克说他被骗了，警告人工智能可能会杀死我们所有人，并承认 xAI 提炼了 OpenAI 的模型](https://aihot.bt199.com/news/572f1821c4c2/)
+   - 在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第一周，马斯克穿着挺括的黑色西装，打着领带出庭，辩称 Open…
    - `MIT Tech Review · 2026-05-01`
 
-5. [马斯克诉奥特曼案中最疯狂的部分发生在陪审团离开房间时](https://aihot.bt199.com/news/072b4665a19a/)
-   - 好吧，我不是律师，所以我只了解了刚刚发生的事情的一半。但鉴于当时的背景，我相当肯定埃隆·马斯克的律师可能刚刚搞砸了。马斯…
-   - `The Verge AI · 2026-04-30`
+4. [人工智能时代的网络不安全](https://aihot.bt199.com/news/6100f49737ff/)
+   - 在人工智能进入堆栈之前，网络安全就已经面临压力。现在，随着人工智能扩大攻击面并增加新的复杂性，传统方法的局限性变得越来越…
+   - `MIT Tech Review · 2026-05-01`
 
-6. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
+5. [五角大楼与 OpenAI、谷歌和 Nvidia 达成机密人工智能协议，但不与 Anthropic 达成](https://aihot.bt199.com/news/103feabc1f38/)
+   - 据周五发布的公告称，五角大楼已与 OpenAI、谷歌、微软、亚马逊、Nvidia、埃隆·马斯克的 xAI 以及初创公司…
+   - `The Verge AI · 2026-05-01`
+
+6. [埃隆·马斯克在法庭上度过了糟糕的一周](https://aihot.bt199.com/news/25346cb6d7fa/)
+   - 埃隆·马斯克是想要进行这次试验的人。他花了几个月的时间声称 OpenAI“窃取了一家非营利组织”，并表示他是目前科技领域…
+   - `The Verge AI · 2026-05-01`
+
+7. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
    - 安全公司发现自己尤其容易受到威胁
    - `Ars Technica AI · 2026-04-29`
 
@@ -123,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

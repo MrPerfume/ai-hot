@@ -8,7 +8,7 @@ import os
 import re
 from collections import defaultdict
 
-DATA_DIR = "/root/ai-hot/data"
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 MODELS_PATH = os.path.join(DATA_DIR, "models.json")
 
 NOISE_PATTERNS = [

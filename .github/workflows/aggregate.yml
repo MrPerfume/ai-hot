@@ -38,10 +38,11 @@ jobs:
         run: |
           git config user.name "AI热榜 Bot"
           git config user.email "bot@airebang.com"
-          git add data/ site/data/ README.md site/content/news/ scripts/ .github/workflows/aggregate.yml
+          git add data/ site/data/ README.md site/content/news/ site/content/tools/ site/static/ scripts/ .github/workflows/aggregate.yml
           if git diff --staged --quiet; then
             echo "No changes"
           else
             git commit -m "🔄 [auto] 数据更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
             git push
+            gh workflow run deploy.yml
           fi

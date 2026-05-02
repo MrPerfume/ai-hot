@@ -157,6 +157,19 @@ def main():
     finish_time = sh_now().strftime('%Y-%m-%d %H:%M:%S')
     write_meta(finish_time, results)
 
+    # README 依赖 meta.last_update。必须在最终 meta 写入后再刷新一次，
+    # 否则质量门禁会看到 README 仍停留在上一轮日期，导致定时任务失败并发邮件。
+    try:
+        result = update_readme_links()
+        results["📘 更新README"] = f"✅ {result}"
+        print(f"  📘 最终同步README...\n    → {result}")
+    except Exception as e:
+        results["📘 更新README"] = f"❌ {e}"
+        print(f"  📘 最终同步README...\n    → ❌ {e}")
+
+    # 记录最终 README 同步结果，避免 meta.results 留下过期状态。
+    write_meta(finish_time, results)
+
     print(f"\n✅ 采集流程结束 - {finish_time}")
 
 

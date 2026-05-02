@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
 SITE_DIR = ROOT / 'site' / 'static'
 BASE_URL = 'https://aihot.bt199.com'

@@ -1,5 +1,526 @@
 [
   {
+    "id": "reddit-1t1l564",
+    "title": "We open-sourced our AI agent config management tool — 888 stars, nearly 100 forks — requesting community feedback",
+    "url": "https://reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T09:27:30",
+    "summary": "We've been building Caliber to solve AI agent configuration management and released our full setup as open source. The response has been great — 888 GitHub stars and approaching 100 forks. Repo: [https://github.com/caliber-ai-org/ai-setup](https://github.com/caliber-ai-org/ai-setup) The problem: eve",
+    "points": 0,
+    "collected_at": "2026-05-02T09:53:57.359987",
+    "title_zh": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
+    "summary_zh": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好—— 888 个 GitHub star 和接近 100 个 fork。仓库：[https://github.com/caliber-…",
+    "ai_summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好—— 888…"
+  },
+  {
+    "id": "reddit-1t1judm",
+    "title": "Qwen3.6-27B at 72 tok/s on RTX 3090 on Windows using native vLLM (no WSL, no Docker), portable launcher and installer",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1judm/qwen3627b_at_72_toks_on_rtx_3090_on_windows_using/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T08:12:35",
+    "summary": "The angle here is native Windows, no WSL. Simple installation, open source, no telemetry. Not selling or promoting anything: https://github.com/devnen/qwen3.6-windows-server **Numbers (RTX 3090, Windows 10):** - 72 tok/s short prompt - 64.5 tok/s long prompt (~25k tokens) - 53.4 tok/s at 127k ctx (s",
+    "points": 34,
+    "collected_at": "2026-05-02T09:53:55.870592",
+    "title_zh": "使用本机 vLLM（无 WSL、无 Docker）、便携式启动器和安装程序，在 Windows 上的 RTX 3090 上以 72 tok/s 运行 Qwen3.6-27B",
+    "summary_zh": "这里的角度是原生Windows，没有WSL。安装简单，开源，无需遥测。不销售或促销任何东西：https://github.com/devnen/qwen3.6-windows-server **数字（RTX 3090、Windows 10）…",
+    "ai_summary": "这里的角度是原生Windows，没有WSL。安装简单，开源，无需遥测。不销售或促销任何东西：https://github…"
+  },
+  {
+    "id": "reddit-1t1kyx5",
+    "title": "The open-source AI agent config repo the community has been building just hit 888 stars — asking for feedback & feature ideas",
+    "url": "https://reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T09:17:24",
+    "summary": "Over the past year our team and community have been building an open-source collection of AI agent configs: production-ready system prompts, tool-calling schemas, RAG setups, multi-agent orchestration patterns, and model-specific tuning files. Repo: [https://github.com/caliber-ai-org/ai-setup](https",
+    "points": 1,
+    "collected_at": "2026-05-02T09:53:57.359843",
+    "title_zh": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
+    "summary_zh": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用架构、RAG 设置、多代理编排模式和特定于模型的调整文件。仓库：[https://github.com/caliber-ai-org/ai-s…",
+    "ai_summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用架构、RAG 设置、多…"
+  },
+  {
+    "id": "reddit-1t1jlet",
+    "title": "OpenCode + LLM to create a 1:1 Settlers of Catan clone. Guess which model I did it with!",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1jlet/opencode_llm_to_create_a_11_settlers_of_catan/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T07:57:51",
+    "summary": "Hey all! I've been waiting to make this post until I was completely done with the game so I can have a live preview, but this weekend is going to be pretty busy for me and I'm getting antsy to share what I've been working on with you! I've been working on a 1:1 recreation of my favorite board game,",
+    "points": 14,
+    "collected_at": "2026-05-02T09:53:55.871557",
+    "title_zh": "OpenCode + LLM 创建 1:1 卡坦岛克隆。猜猜我用哪个模型做的！",
+    "summary_zh": "嘿大家！我一直在等待发布这篇文章，直到我完全完成了游戏，这样我就可以进行实时预览，但是这个周末对我来说将会非常忙碌，我迫不及待地想与大家分享我一直在做的事情！我一直在致力于对我最喜欢的棋盘游戏进行 1:1 重现",
+    "ai_summary": "嘿大家！我一直在等待发布这篇文章，直到我完全完成了游戏，这样我就可以进行实时预览，但是这个周末对我来说将会非常忙碌，我迫…"
+  },
+  {
+    "id": "reddit-1t1k9mr",
+    "title": "\"Prompt Engineering\" certs are a joke. So we built a FREE Agentic AI Practitioner Exam that actually forces you to build working swarms to pass.",
+    "url": "https://reddit.com/r/artificial/comments/1t1k9mr/prompt_engineering_certs_are_a_joke_so_we_built_a/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T08:36:54",
+    "summary": "Hey Everyone, If you look at the AI education space right now, it’s flooded with basic \"Prompt Engineering\" certificates that you can pass just by knowing what a system prompt is. But as anyone building in production knows, chatting with an LLM is 1% of the work. The real nightmare is orchestration,",
+    "points": 1,
+    "collected_at": "2026-05-02T09:53:57.360203",
+    "title_zh": "“即时工程”证书就是一个笑话。因此，我们构建了一个免费的 Agentic AI 从业者考试，实际上迫使您构建工作群体才能通过。",
+    "summary_zh": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但任何参与生产的人都知道，与 LLM 聊天只占工作量的 1%。真正的噩梦是编排",
+    "ai_summary": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这…"
+  },
+  {
+    "id": "reddit-1t1jc1d",
+    "title": "Have Qwen said anything about further Qwen 3.6 models?",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1jc1d/have_qwen_said_anything_about_further_qwen_36/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T07:42:18",
+    "summary": "Have Qwen hinted at whether other models (9B, 122B, 397B) would be getting the 3.6 treatment? Or have they in any way confirmed or hinted at \"this is it\"? Genuinely curious if I missed anything, as I haven't seen or heard anything either way, and like many of us, I'm very keen to get the 122B model,",
+    "points": 31,
+    "collected_at": "2026-05-02T09:53:55.870792",
+    "title_zh": "Qwen 有没有透露过更多 Qwen 3.6 型号的消息？",
+    "summary_zh": "Qwen 是否暗示过其他型号（9B、122B、397B）是否会得到 3.6 的待遇？或者他们是否以任何方式证实或暗示“就是这样”？真的很好奇我是否错过了任何东西，因为我没有看到或听到任何东西，并且像我们许多人一样，我非常渴望获得 122B…",
+    "ai_summary": "Qwen 是否暗示过其他型号（9B、122B、397B）是否会得到 3.6 的待遇？或者他们是否以任何方式证实或暗示“就…"
+  },
+  {
+    "id": "reddit-1t1jdp7",
+    "title": "What is the basic minimum while you prompt",
+    "url": "https://reddit.com/r/artificial/comments/1t1jdp7/what_is_the_basic_minimum_while_you_prompt/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T07:45:02",
+    "summary": "I have realised Claude answers as best as you prompt it. And I suck at it. 😂 I have tried role playing you are top 1% etc and adding constraints but I am not sure if each prompt requires this kind of effort or if I actually skip it will the outcomes be drastically different. You can’t tell if you do",
+    "points": 1,
+    "collected_at": "2026-05-02T09:53:57.360397",
+    "title_zh": "当您提示时，基本最低限度是多少",
+    "summary_zh": "我发现克劳德的回答和你提示的一样好。我很讨厌它。 😂 我尝试过角色扮演，你是前 1% 等，并添加限制，但我不确定每个提示是否都需要这种努力，或者如果我实际上跳过它，结果会截然不同。你无法判断你是否这样做",
+    "ai_summary": "我发现克劳德的回答和你提示的一样好。我很讨厌它。 😂 我尝试过角色扮演，你是前 1% 等，并添加限制，但我不确定每个提示…"
+  },
+  {
+    "id": "reddit-1t1itn1",
+    "title": "Unsloth solved bug in Mistral Medium 3.5 implementation",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1itn1/unsloth_solved_bug_in_mistral_medium_35/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T07:13:13",
+    "summary": "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth.ai/docs/models/mistral-3.5) \"May 1, 2026 Update: We worked with Mistral to fix Mistral Medium 3.5 inference affecting some implementations, and released updated GGUFs with the fix (NOT related to Unsloth or our quants). The issue was cause",
+    "points": 51,
+    "collected_at": "2026-05-02T09:53:55.870446",
+    "title_zh": "Unsloth 解决了 Mistral Medium 3.5 实施中的错误",
+    "summary_zh": "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth.ai/docs/models/mistral-3.5)“2026 年 5 月 1 日更新：我们与 Mistral 合作…",
+    "ai_summary": "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth…"
+  },
+  {
+    "id": "cca20052a3e9",
+    "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+    "url": "https://36kr.com/p/3791662444911617?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-02T06:52:34",
+    "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了：苹果内部在使用Claude Code构建生产级应用。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区…… 这家全球最注重保密的科技公司，还是把自己的秘密泄露了。 事故发生后后，苹果在24小时内已紧急撤回，但部分内容已经曝光。 等一下。 这和Claude Code源码泄露时把source map打包进发布版怎么一样一样的。 该不会这两个事故，罪魁祸首都是",
+    "collected_at": "2026-05-02T09:53:52.057565",
+    "content_text": "梦晨 发自 凹非寺\n苹果大失误！把自用的Claude.md打包到了官方App里。\n这下直接被坐实了：\n苹果内部在使用Claude Code构建生产级应用\n。\n这么大的公司，也在Vibe Coding？\n苹果内部在使用Claude Code构建生产级应用\n项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区……\n这家全球最注重保密的科技公司，还是把自己的秘密泄露了。\n事故发生后后，\n苹果在24小时内已紧急撤回\n，但部分内容已经曝光。\n等一下。\n这和Claude Code源码泄露时把source map打包进发布版怎么一样一样的。\n该不会这两个事故，罪魁祸首都是Claude Code自己吧？\n苹果用Claude Code开发了什么？\nApple Support应用5月1日推送了v5.13版本更新，其中意外夹带了Claude.md。\nMacRumors的分析师Aaron Perris\n发现并曝光这一点。\nMacRumors的分析师Aaron Perris发现并曝光\nApple Support\n是苹果官方的售后服务应用，支持与苹果专家在线聊天进行问题故障诊断，预约维修服务等，购买Apple Care服务等功能。\nApple Support\n泄露的Claude.md里写着一套完整的对话系统架构，最核心的设计是一个双后端系统：\nJuno AI负责自动应答，Live Agents负责真人客服接管。\n两套后端通过一个Protocol协议层无缝切换\n，上层代码根本不知道哪条消息是人类发的，哪条消息是AI发的。\n更有意思的是消息系统的三角色设计。\n在Apple Support的聊天里，client是用户，agent是Apple Support的真人客服，assistant是AI。\n三种身份的消息走同一套处理流程，\n没给用户提示对面到底是人在回复还是机器在回复\n。\n至此，Apple Support客服的技术骨架基本清晰了——\n一个AI和人类无缝切换的对话系统\n。\nApple Support客服的技术骨架\n另一份泄露的SAComponents模块倒是没什么猛料，就是一套纯UI组件库，没有业务逻辑，带DocC文档。标准的工程化产物。\nSAComponents模块\n文件本身没泄露什么机密，但它证实了一件所有人都猜测但没人能拿出实际证据事：\nApple内部，AI无处不在。\n更具体一点，\nClaude无处不在\n。\n苹果离不开Anthropic了\n其实早在三个月前，最懂苹果的懂哥彭博社Mark Gurman其实就告诉大家：\nApple runs on Anthropic at this point.\nGurman特别提到，苹果是在自家服务器上跑\n定制版Claude模型\n。\n内部代码、文档、token，全都不出苹果的基础设施。这跟Apple一贯的隐私立场完全自洽：用AI可以，数据不能出去。\n还有一件事值得关注，苹果已经和谷歌达成合作，Gemini将取代旧版Siri。但在内部开发工具这件事上，苹果选的是Claude，而不是Gemini。\n苹果选择了Claude\n当然，也要平衡地看。一位自称前苹果员工的HackerNews用户站出来说，苹果内部有数百个隔离团队。某些团队用Claude，不代表全公司都在vibe coding。\n一项针对12万开发者的调查显示，92.6%的开发者每月至少使用一次AI编码助手。苹果用Claude写代码，不过是整个行业的缩影。\n所以问题不是苹果用不用AI写代码，所有人都用。\n问题是，连苹果都会把不该提交的文件推到生产环境，这意味着什么？\nAI时代，谁来review AI的代码\nClaude.md到底该不该进版本控制？\n开发者吵成一团。\nApple Support\n一派人认为它就是项目文档，应该提交到代码仓库，团队共享。\n另一派人觉得它更像是IDE配置，应该放进.gitignore，各用各的。\n但真正尴尬的不是“该不该提交”，而是“提交了之后怎么又进了发布包”。\n有人疑惑，苹果在使用AI智能体编写代码和部署推送时，居然没有明确要求不要把Claude.md 文件也一并推送出去？\n但问题可能在Claude Code自己。它经常选择性无视指示，重复多少遍也没用。\nClaude Code\n一条高赞评论总结了这件事的本质：\n网友评论\n真正的问题不是Apple用了Claude，而是Apple对Claude过于信任。所有人都在用AI加速开发，但这件事应该被代码审查拦住。\n苹果的某位工程师正在经历职业生涯最糟糕的一天。\n而Anthropic的销售团队，正在经历最好的一天。\n参考链接：[1]https://x.com/aaronp613/status/2049986504617820551[2]https://news.ycombinator.com/item?id=47973378\n本文来自微信公众号\n“量子位”\n，作者：关注前沿科技，36氪经授权发布。",
+    "content_source": "readability",
+    "content_chars": 2071,
+    "content_excerpt": "梦晨 发自 凹非寺\n苹果大失误！把自用的Claude.md打包到了官方App里。\n这下直接被坐实了：\n苹果内部在使用Claude Code构建生产级应用\n。\n这么大的公司，也在Vibe Coding？\n苹果内部在使用Claude Code构建生产级应用\n项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区……\n这家全球最注重保密的科技公司，还是把自己的秘密泄露了。\n事故发生后后，"
+  },
+  {
+    "id": "reddit-1t1i4yg",
+    "title": "A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1i4yg/a_darkmoney_campaign_is_paying_influencers_to/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T06:35:02",
+    "summary": ">Build American AI, a nonprofit linked to a super PAC bankrolled by executives at OpenAI and Andreessen Horowitz, is funding a campaign to spread pro-AI messaging and stoke fears about China. So Local LLM is important .... always! Need to support who giving us more Open source & weights. [Last month",
+    "points": 85,
+    "collected_at": "2026-05-02T09:53:55.870398",
+    "title_zh": "黑钱活动正在向有影响力的人士付费，将中国人工智能视为威胁",
+    "summary_zh": ">Build American AI 是一个与超级政治行动委员会有联系的非营利组织，由 OpenAI 和 Andreessen Horowitz 的高管资助，该组织正在资助一项运动，以传播支持人工智能的信息并引发人们对中国的恐惧。所以本地法…",
+    "ai_summary": ">Build American AI 是一个与超级政治行动委员会有联系的非营利组织，由 OpenAI 和 Andrees…"
+  },
+  {
+    "id": "reddit-1t1hsah",
+    "title": "The Override Problem: The Same AI Behavior That Helps Users Can Delete Production Data",
+    "url": "https://reddit.com/r/artificial/comments/1t1hsah/the_override_problem_the_same_ai_behavior_that/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T06:15:28",
+    "summary": "AI did not delete a production database because it became evil. It did it because it was doing the same thing AI systems are trained to do every day: Infer the user’s intent. Classify the situation. Act on its own judgment. Treat the human’s words as input, not authority. When that works, we call it",
+    "points": 1,
+    "collected_at": "2026-05-02T09:53:57.360667",
+    "title_zh": "覆盖问题：帮助用户删除生产数据的相同人工智能行为",
+    "summary_zh": "AI 并没有删除生产数据库，因为它变得邪恶了。它之所以这么做，是因为它正在做人工智能系统每天训练要做的事情：推断用户的意图。对情况进行分类。根据自己的判断行事。将人的话视为输入，而不是权威。当它起作用时，我们称之为",
+    "ai_summary": "AI 并没有删除生产数据库，因为它变得邪恶了。它之所以这么做，是因为它正在做人工智能系统每天训练要做的事情：推断用户的意…"
+  },
+  {
+    "id": "reddit-1t1f6my",
+    "title": "\"LLM is created so engineer don't have to write a report\", anyway found out ONLYOFFICE can connect to OpenAI compatible, using Qwen 3.6 to do elaboration.",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1f6my/llm_is_created_so_engineer_dont_have_to_write_a/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T03:58:23",
+    "summary": "It is pluggin made for ONLYOFFICE, much simpler than copy-paste from webui. PS. Switch to non thinking/reasoning when using this, and the best model for this is Gemma line up. even E2B is strong enough to do language modelling. I dont use libre or Microsoft Office so i dont know whether it is suppor",
+    "points": 12,
+    "collected_at": "2026-05-02T09:53:55.872092",
+    "title_zh": "“LLM是为了让工程师不用写报告而创建的”，反正发现ONLYOFFICE可以兼容OpenAI，用Qwen 3.6来做阐述。",
+    "summary_zh": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是 Gemma 阵容。甚至 E2B 也足够强大，可以进行语言建模。我不使用 libre 或 Microsoft Offic…",
+    "ai_summary": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是…"
+  },
+  {
+    "id": "reddit-1t1fjek",
+    "title": "I Cut Claude API Costs by 50% Using This Self Modifying Agentic System",
+    "url": "https://reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T04:15:50",
+    "summary": "I've been developing a self-modifying Al agent system that effectively cuts my Claude API usage in half, Claude thinks and then I basically just copy/paste Claude's instructions for the agents to work on. Come back in 6 hours and it's done for free on local hardware. I'II explain precisely how it wo",
+    "points": 0,
+    "collected_at": "2026-05-02T09:53:57.361328",
+    "title_zh": "使用这种自我修改代理系统，我将 Claude API 成本降低了 50%",
+    "summary_zh": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的指令来让代理进行工作。 6 小时后返回，即可在本地硬件上免费完成。我会准确…",
+    "ai_summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为…"
+  },
+  {
+    "id": "573e886a9fb6",
+    "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+    "url": "https://www.qbitai.com/2026/05/412713.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-02T03:30:12",
+    "summary": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+    "collected_at": "2026-05-02T09:53:46.129771",
+    "content_text": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？\n梦晨\n2026-05-02\n11:30:12\n来源：\n量子位\n梦晨 发自 凹非寺\n量子位 | 公众号 QbitAI\n苹果大失误！把自用的Claude.md打包到了官方App里。\n这下直接被坐实了：\n苹果内部在使用Claude Code构建生产级应用\n。\n这么大的公司，也在Vibe Coding？\n项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区……\n这家全球最注重保密的科技公司，还是把自己的秘密泄露了。\n事故发生后后，\n苹果在24小时内已紧急撤回\n，但部分内容已经曝光。\n等一下。\n这和Claude Code源码泄露时把source map打包进发布版怎么一样一样的。\n该不会这两个事故，罪魁祸首都是Claude Code自己吧？\n苹果用Claude Code开发了什么？\nApple Support应用5月1日推送了v5.13版本更新，其中意外夹带了Claude.md。\nMacRumors的分析师Aaron Perris\n发现并曝光这一点。\nApple Support\n是苹果官方的售后服务应用，支持与苹果专家在线聊天进行问题故障诊断，预约维修服务等，购买Apple Care服务等功能。\n泄露的Claude.md里写着一套完整的对话系统架构，最核心的设计是一个双后端系统：\nJuno AI负责自动应答，Live Agents负责真人客服接管。\n两套后端通过一个Protocol协议层无缝切换\n，上层代码根本不知道哪条消息是人类发的，哪条消息是AI发的。\n更有意思的是消息系统的三角色设计。\n在Apple Support的聊天里，client是用户，agent是Apple Support的真人客服，assistant是AI。\n三种身份的消息走同一套处理流程，\n没给用户提示对面到底是人在回复还是机器在回复\n。\n至此，Apple Support客服的技术骨架基本清晰了——\n一个AI和人类无缝切换的对话系统\n。\n另一份泄露的SAComponents模块倒是没什么猛料，就是一套纯UI组件库，没有业务逻辑，带DocC文档。标准的工程化产物。\n文件本身没泄露什么机密，但它证实了一件所有人都猜测但没人能拿出实际证据事：\nApple内部，AI无处不在。\n更具体一点，\nClaude无处不在\n。\n苹果离不开Anthropic了\n其实早在三个月前，最懂苹果的懂哥彭博社Mark Gurman其实就告诉大家：\nApple runs on Anthropic at this point.\nGurman特别提到，苹果是在自家服务器上跑\n定制版Claude模型\n。\n内部代码、文档、token，全都不出苹果的基础设施。这跟Apple一贯的隐私立场完全自洽：用AI可以，数据不能出去。\n还有一件事值得关注，苹果已经和谷歌达成合作，Gemini将取代旧版Siri。但在内部开发工具这件事上，苹果选的是Claude，而不是Gemini。\n当然，也要平衡地看。一位自称前苹果员工的HackerNews用户站出来说，苹果内部有数百个隔离团队。某些团队用Claude，不代表全公司都在vibe coding。\n一项针对12万开发者的调查显示，92.6%的开发者每月至少使用一次AI编码助手。苹果用Claude写代码，不过是整个行业的缩影。\n所以问题不是苹果用不用AI写代码，所有人都用。\n问题是，连苹果都会把不该提交的文件推到生产环境，这意味着什么？\nAI时代，谁来review AI的代码\nClaude.md到底该不该进版本控制？\n开发者吵成一团。\n一派人认为它就是项目文档，应该提交到代码仓库，团队共享。\n另一派人觉得它更像是IDE配置，应该放进.gitignore，各用各的。\n但真正尴尬的不是“该不该提交”，而是“提交了之后怎么又进了发布包”。\n有人疑惑，苹果在使用AI智能体编写代码和部署推送时，居然没有明确要求不要把Claude.md 文件也一并推送出去？\n但问题可能在Claude Code自己。它经常选择性无视指示，重复多少遍也没用。\n一条高赞评论总结了这件事的本质：\n真正的问题不是Apple用了Claude，而是Apple对Claude过于信任。所有人都在用AI加速开发，但这件事应该被代码审查拦住。\n苹果的某位工程师正在经历职业生涯最糟糕的一天。\n而Anthropic的销售团队，正在经历最好的一天。\n参考链接：\n[1]\nhttps://x.com/aaronp613/status/2049986504617820551\n[2]\nhttps://news.ycombinator.com/item?id=47973378\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
+    "content_source": "readability",
+    "content_chars": 2121,
+    "content_excerpt": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？\n梦晨\n2026-05-02\n11:30:12\n来源：\n量子位\n梦晨 发自 凹非寺\n量子位 | 公众号 QbitAI\n苹果大失误！把自用的Claude.md打包到了官方App里。\n这下直接被坐实了："
+  },
+  {
+    "id": "v2ex-1209942",
+    "title": "ChatGPT Pro 低价兑换 最后的绝唱了 全网唯一 ku0.com 抽奖送一个 Pro 5x",
+    "url": "https://www.v2ex.com/t/1209942",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-02T02:50:02",
+    "summary": "市面上仅存的所有货全部扫光 https://ku0.com 库 可信任资源库 ChatGPT Pro 5x / 20x （已经孤品，未上架） V 友购买返现 20 红包 最后的狂欢了 团队也准备撤了 一个时代就此落幕 ----- 随机楼层抽奖先送 1 个 Pro 5x 后续奖品看活动情况",
+    "collected_at": "2026-05-02T09:53:57.755085"
+  },
+  {
+    "id": "reddit-1t1dqwo",
+    "title": "Looking for feedback on OpenVidya: an open-source AI classroom layer for NCERT/CBSE [R]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-02T02:47:35",
+    "summary": "I’ve been experimenting with an open-source project called **OpenVidya**, built as a fork of OpenMAIC. The goal is to adapt multi-agent AI classroom generation for Indian education rather than treating learning as a generic slide/chat experience. Repo: [https://github.com/dpaul0501/OpenVidya](https:",
+    "points": 0,
+    "collected_at": "2026-05-02T09:53:54.377780",
+    "title_zh": "寻求有关 OpenVidya 的反馈：NCERT/CBSE 的开源 AI 课堂层 [R]",
+    "summary_zh": "我一直在尝试一个名为 **OpenVidya** 的开源项目，它是作为 OpenMAIC 的一个分支构建的。目标是使多智能体人工智能课堂生成适应印度教育，而不是将学习视为通用的幻灯片/聊天体验。仓库：[https://github.com/…",
+    "ai_summary": "我一直在尝试一个名为 **OpenVidya** 的开源项目，它是作为 OpenMAIC 的一个分支构建的。目标是使多智…"
+  },
+  {
+    "id": "reddit-1t1dl9y",
+    "title": "Are you quanting your memory?",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1dl9y/are_you_quanting_your_memory/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T02:39:46",
+    "summary": "Title. Curious about how people are generally dealing with the kv cache. BF16? Q8? Q4? Turboquant or some other secret sauce? I run bf16 everything hoping that I'd get less hallucinations and because that's what the g4 and q3.6 are natively trained on anyways. But very interested to hear if people a",
+    "points": 33,
+    "collected_at": "2026-05-02T09:53:55.871605",
+    "title_zh": "你在量化你的记忆吗？",
+    "summary_zh": "标题。好奇人们通常如何处理 kv 缓存。 BF16？ Q8？ Q4？ Turboquant 还是其他一些秘密武器？我运行 bf16 的一切，希望能减少幻觉，因为无论如何，这就是 g4 和 q3.6 本身训练的内容。但很想听听人们是否",
+    "ai_summary": "标题。好奇人们通常如何处理 kv 缓存。 BF16？ Q8？ Q4？ Turboquant 还是其他一些秘密武器？我运行…"
+  },
+  {
+    "id": "reddit-1t1d0oe",
+    "title": "What to build while we still have access to cheap AI?",
+    "url": "https://reddit.com/r/artificial/comments/1t1d0oe/what_to_build_while_we_still_have_access_to_cheap/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-02T02:12:38",
+    "summary": "AI companies are subsidizing access the same way Uber subsidized rides and AWS subsidized compute in the early days - burning cash to grab market share. You're getting GPT-4 and Claude Opus level intelligence at a fraction of what it actually costs to run. That won't last. When unit economics have t",
+    "points": 2,
+    "collected_at": "2026-05-02T09:53:57.360979",
+    "title_zh": "当我们仍然可以获得廉价的人工智能时，我们应该构建什么？",
+    "summary_zh": "人工智能公司正在为访问提供补贴，就像早期 Uber 补贴乘车和 AWS 补贴计算一样——烧钱来抢占市场份额。您只需花费实际运行成本的一小部分即可获得 GPT-4 和 Claude Opus 级别的智能。这不会持续太久。当单位经济效益已经达到",
+    "ai_summary": "人工智能公司正在为访问提供补贴，就像早期 Uber 补贴乘车和 AWS 补贴计算一样——烧钱来抢占市场份额。您只需花费实…"
+  },
+  {
+    "id": "d780c4cb65d5",
+    "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+    "url": "https://36kr.com/p/3791460373929221?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-02T01:25:01",
+    "summary": "编辑：桃子 【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。 对薄公堂第四天，马斯克爆出了大瓜！ 4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。 现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题： xAI是否蒸馏了OpenAI的模型？ 马斯克先是打了个太极，「所有AI公司都在这么干」。Savitt继续追问道，所以答案是yes？ 部分如此（Partly）。 此话一出，全网瞬间看呆！ 马斯克承认Grok模型蒸馏了ChatGPT 一个正在起诉OpenAI「背叛非营利使",
+    "collected_at": "2026-05-02T09:53:52.058364",
+    "content_text": "编辑：桃子\n【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。\n对薄公堂第四天，马斯克爆出了大瓜！\n4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。\n现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题：\nxAI是否蒸馏了OpenAI的模型？\n马斯克先是打了个太极，「所有AI公司都在这么干」。Savitt继续追问道，所以答案是yes？\n部分如此（Partly）。\n此话一出，全网瞬间看呆！\n马斯克承认Grok模型蒸馏了ChatGPT\n一个正在起诉OpenAI「背叛非营利使命」的人，亲口承认自家AI蒸馏了对手模型。\n大型双标现场，撕碎了体面\n不得不说，这一幕的讽刺含量已经溢出屏幕了。\n马斯克在宣誓作证的法庭上，轻飘飘一句话，彻底捅破了窗户纸——\n这是AI行业的标准做法，所有AI公司都在这样做。\n马斯克承认Grok模型蒸馏了ChatGPT\n蒸馏（Distillation），本质上就是让竞争对手的AI当家教，低成本教出一个差不多水平的学生。\n马斯克起诉OpenAI，指控奥特曼违背了非营利使命，把他捐的3800万美元拿去搞了一个估值8000亿美元的营利性公司。\n他是原告，他是那个指责别人「偷窃慈善」的人。\n但就在这个案子的法庭上，他自己承认了另一种「偷」。\n蒸馏算不算违法？目前，法律上是灰色地带：它可能不违法，但几乎肯定违反了OpenAI的服务条款。\n硅谷巨头在训练数据上，疯狂游走在版权法边缘，海量爬取互联网内容，面对版权方的起诉时振振有词说是「合理使用」。\nAnthropic声称OpenAI通过使用其API违反了服务条款\n现在连马斯克都说了：大家都在这么干。\n这个回答精妙到让律师都沉默了几秒，承认了，但没完全承认；坦白了，但留了余地。\nAnthropic第一，xAI垫底？\n庭审中还有一个细节引爆了讨论，马斯克亲口给全球AI公司排了个座次。\n被问及他去年夏天吹过的「xAI即将超越除谷歌以外所有公司」的豪言时，马斯克在法庭上的排名是：\nAnthropic第一，OpenAI第二，谷歌第三，开源模型第四。\n马斯克\n他说：「xAI非常小，大约只有OpenAI的十分之一，员工只有几百人」。\n这和他平时在X上的画风完全不一样。\n那个在社交媒体上天天喊「Grok杀疯了」的男人，到了宣誓席上突然变得无比谦虚。\n在法庭上，马斯克需要把xAI描述得尽可能小，才能反驳「你起诉OpenAI是为了打击竞争对手」的指控。\nOpenAI社媒\n说白了就是：为了赢官司，必须先承认自己不行。\n比马斯克证词更狠\n庭审中最名场面的一幕，来自法官Yvonne Gonzalez Rogers。\n马斯克的律师想让专家证人讨论AI可能导致「人类灭绝」，被法官当场拦下。\n马斯克自己也在证词中反复提到「终结者」场景，说要确保特斯拉的机器人「不要变成终结者」。\n电影截图\n谁曾想，法官的回应堪称教科书——\n我注意到，尽管存在这些风险，马斯克先生本人也正在「这个领域」创建一家公司。\n我相信有很多人不愿意把人类的未来交到马斯克手中。\n但这不重要，这是一个关于慈善信托是否被违反的案件，不是一场关于AI安全风险的审判。\n这句话的潜台词，远比字面意思锋利得多。\n它指向了一个马斯克一直试图回避的事实：你一边高喊AI会毁灭人类，一边创办了一家AI公司，蒸馏了竞争对手的模型，还把它和SpaceX合并了。\n你到底是在拯救人类，还是在跟人类抢生意？\nOpenAI总裁日记，真正的定时炸弹\n马斯克的证词，只是这场审判的序章。\n下周一，OpenAI联合创始人Greg Brockman将出庭作证。\nBrockman之所以是关键证人，是因为他的私人日记被法庭采信为证据。其中有这样几段：\n山姆·奥特曼\n他的故事将会是：我们最后对他不诚实，关于仍然想做营利化这件事，只是不带他一起。\n从他手里偷走非营利组织是不对的。\n在没有他的情况下转成B-corp，那是道德破产，而且他真的不蠢。\n这些日记条目，正是法官决定将此案交由陪审团审理的关键依据之一。\nOpenAI称这些日记，是被马斯克律师团队「断章取义」。\n但无论如何，下周的法庭上，Brockman将不得不面对自己写下的每一个字。\n一场改写AI行业叙事的庭审\n回过头看这四天的庭审，信息量大到惊人。\n马斯克承认了蒸馏，捅破了硅谷最大的公开秘密。他给AI公司排了名，当庭把自己的xAI贬到了最小。\n马斯克承认Grok模型蒸馏了ChatGPT\n他被法官教育「你不是律师」，被禁止讨论AI末日论。\n他的财务管家Birchall证实了3800万美元捐款的细节，但也暴露了捐款可能没有附加限制条件的事实。\n而最戏剧性的反转还没到来，Brockman的证人席，才是这场大戏的真正高潮。\n下周一，正面交锋大戏正式开始。\n参考资料：\nhttps://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation\nhttps://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html\nhttps://www.businessinsider.com/takeaways-elon-musk-sam-altman-openai-federal-trial-2026-4?utm_campaign=business-link-post&utm_medium=social&utm_source=twitter\n本文来自微信公众号\n“新智元”\n，作者：新智元，36氪经授权发布。",
+    "content_source": "readability",
+    "content_chars": 2408,
+    "content_excerpt": "编辑：桃子\n【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。\n对薄公堂第四天，马斯克爆出了大瓜！\n4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。\n现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题：\nxAI是否蒸馏了OpenAI的模型？\n马斯克先是打了个太极，「所有AI公司都在这么干」。Savitt继续追问道，所以答案是yes？\n部分如此（Partly）。\n此话一出，全网瞬间看呆！\n马斯克承认Grok模型蒸馏了ChatGPT"
+  },
+  {
+    "id": "reddit-1t1a8gf",
+    "title": "Qwen3.6-27B-NVFP4 - images",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1a8gf/qwen3627bnvfp4_images/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T00:03:16",
+    "summary": "**Model:** Abiray-Qwen3.6-27B-NVFP4.gguf **Specs:** \\- Legion 7i Gen10 - NVIDIA GeForce RTX™ 5090 \\- Intel® Core™ Ultra 9 275HX × 24 \\- RAM 32.0 GiB **llamacpp settings:** ./build/bin/llama-server \\ -m ~/.lmstudio/models/lmstudio-community/Qwen3.6-27B-GGUF/Abiray-Qwen3.6-27B-NVFP4.gguf \\ -ngl 99 \\ -",
+    "points": 32,
+    "collected_at": "2026-05-02T09:53:55.872046",
+    "title_zh": "Qwen3.6-27B-NVFP4 - 图像",
+    "summary_zh": "**型号：** Abiray-Qwen3.6-27B-NVFP4.gguf **规格：** \\- Legion 7i Gen10 - NVIDIA GeForce RTX™ 5090 \\- Intel® Core™ Ultra 9 275H…",
+    "ai_summary": "**型号：** Abiray-Qwen3.6-27B-NVFP4.gguf **规格：** \\- Legion 7i G…"
+  },
+  {
+    "id": "reddit-1t18zba",
+    "title": "Pentagon inks deals with seven AI companies for classified military work | Trump administration",
+    "url": "https://reddit.com/r/artificial/comments/1t18zba/pentagon_inks_deals_with_seven_ai_companies_for/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T23:08:36",
+    "summary": "Pentagon inks deals with seven AI companies for classified military work | Trump administration",
+    "points": 6,
+    "collected_at": "2026-05-02T09:53:57.360229",
+    "title_zh": "五角大楼与七家人工智能公司就机密军事工作达成协议特朗普政府",
+    "summary_zh": "五角大楼与七家人工智能公司就机密军事工作达成协议特朗普政府",
+    "ai_summary": "五角大楼与七家人工智能公司就机密军事工作达成协议特朗普政府"
+  },
+  {
+    "id": "reddit-1t1a3j7",
+    "title": "New rules 1 week check-in",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1a3j7/new_rules_1_week_checkin/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-01T23:57:41",
+    "summary": "Its been 1 week since we announced new rules: [https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama\\_rule\\_updates/](https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama_rule_updates/) We'd like to check in to see how the community is liking them so far. We are specifically i",
+    "points": 95,
+    "collected_at": "2026-05-02T09:53:55.870869",
+    "title_zh": "新规定 1 周入住",
+    "summary_zh": "自我们宣布新规则以来已经过去 1 周了：[https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama\\_rule\\_updates/](https://www.reddi…",
+    "ai_summary": "自我们宣布新规则以来已经过去 1 周了：[https://www.reddit.com/r/LocalLLaMA/com…"
+  },
+  {
+    "id": "0809bbe44568",
+    "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+    "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T22:13:27",
+    "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+    "collected_at": "2026-05-02T09:53:47.853777",
+    "content_text": "Meta has acquired humanoid robotics startup Assured Robot Intelligence (ARI) for an undisclosed sum, the social media giant said.\n“We acquired Assured Robot Intelligence, a company at the frontier of robotic intelligence designed to enable robots to understand, predict, and adapt to human behaviors in complex and dynamic environments,” a Meta spokesperson told TechCrunch in an emailed statement.\nARI’s team, including its co-founders, will join Meta’s AI unit, the Superintelligence Labs research division. ARI had raised an undisclosed seed round from AI seed firm AIX Ventures.\nThe startup was building foundation models for humanoid robots to perform all types of physical labor such as household chores. Co-founder Xiaolong Wang was previously a researcher at Nvidia, and an associate professor at UC San Diego, with a list of prestigious awards to his name. Co-founder Lerrel Pinto, who previously taught at NYU and co-founded the kid-size humanoid startup Fauna Robotics before Amazon snapped it up last month, has also won a string of prestigious awards.\nARI will help Meta with its humanoid ambitions. “This team, led by Lerrel Pinto and Xiaolong Wang, will bring a deep expertise in how we can design our models and frontier capabilities for robot control and self-learning to whole-body humanoid control.”\nMeta researchers have been working on humanoid robotics tech for years. A leaked memo from a year ago discussed Meta’s ambitions to build such a robot, including AI models and hardware, aimed at consumers.\nEven if Meta never releases a consumer humanoid product, many AI experts these days believe that the path to artificial general intelligence (AGI) — the theoretical point at which AI reaches or surpasses human-level intelligence across all domains — will require training AI models in the physical world, where robots learn through direct interaction rather than data alone.\nThe ARI and Fauna deals reflect a broader industry sprint — one where forecasts vary wildly, from Goldman Sachs’ projection of $38 billion by 2035 to Morgan Stanley’s estimate of $5 trillion by 2050 — a spread that reflects both the enormous potential and the uncertainty around tech that’s still finding its footing.",
+    "content_source": "trafilatura",
+    "content_chars": 2911,
+    "content_excerpt": "Meta has acquired humanoid robotics startup Assured Robot Intelligence (ARI) for an undisclosed sum, the social media giant said.\n“We acquired Assured Robot Intelligence, a company at the frontier of robotic intelligence designed to enable robots to understand, predict, and adapt to human behaviors in complex and dynamic environments,” a Meta spokesperson told TechCrunch in an emailed statement.\nARI’s team, including its co-founders, will join Meta’s AI unit, the Superintelligence Labs research division. ARI had raised an undisclosed seed round from AI seed firm AIX Ventures.\nThe startup was building foundation models for humanoid robots to perform all types of physical labor such as household chores. Co-founder Xiaolong Wang was previously a researcher at Nvidia, and an associate professor at UC San Diego, with a list of prestigious awards to his name. Co-founder Lerrel Pinto, who previously taught at NYU and co-founded the kid-size humanoid startup Fauna Robotics before Amazon snapped it up last month, has also won a string of prestigious awards.\nARI will help Meta with its humanoid ambitions. “This team, led by Lerrel Pinto and Xiaolong Wang, will bring a deep expertise in how we can design our models and frontier capabilities for robot control and self-learning to whole-body humanoid control.”\nMeta researchers have been working on humanoid robotics tech for years. A leaked memo from a year ago discussed Meta’s ambitions to build such a robot, including AI models and hardware, aimed at consumers.\nEven if Meta never releases a consumer humanoid product, many AI experts these days believe that the path to artificial general intelligence (AGI) — the theoretical point at which AI reaches or surpasses human-level intelligence across all domains — will require training AI models in the physical world, where robots learn through direct interaction rather than data alone.\nThe ARI and Fauna deals reflect a broader industry sprint — one where forecasts vary wildly, from Goldman Sachs’ projection of $38 billion by 2035 to Morgan Stanley’s estimate of $5 trillion by 2050 — a spread that reflects both the enormous potential and the uncertainty around tech that’s still finding its footing.",
+    "title_zh": "Meta 收购机器人初创公司以增强其人形人工智能雄心",
+    "summary_zh": "该公司表示，Meta 收购了人形初创公司 Assured Robot Intelligence，以增强其机器人人工智能模型",
+    "ai_summary": "该公司表示，Meta 收购了人形初创公司 Assured Robot Intelligence，以增强其机器人人工智能模…"
+  },
+  {
+    "id": "reddit-1t19iil",
+    "title": "Been using Qwen-3.6-27B-q8_k_xl + VSCode + RTX 6000 Pro As Daily Driver",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t19iil/been_using_qwen3627bq8_k_xl_vscode_rtx_6000_pro/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-01T23:31:32",
+    "summary": "So in response to the Great Token Reconning of 2026, I decided to try out Qwen 3.6 as a daily driver, and although it's only been about a day, I have to say I'm thoroughly impressed. I had to download the VSCode insiders edition and set up the local models to support - super easy. Then I messed arou",
+    "points": 162,
+    "collected_at": "2026-05-02T09:53:55.870750",
+    "title_zh": "一直使用 Qwen-3.6-27B-q8_k_xl + VSCode + RTX 6000 Pro 作为日常驱动",
+    "summary_zh": "因此，为了响应 2026 年的 Great Token Reconning，我决定作为日常驾驶员尝试一下 Qwen 3.6，虽然只有大约一天的时间，但我不得不说给我留下了深刻的印象。我必须下载 VSCode insiders 版本并设置本地…",
+    "ai_summary": "因此，为了响应 2026 年的 Great Token Reconning，我决定作为日常驾驶员尝试一下 Qwen 3.…"
+  },
+  {
+    "id": "reddit-1t17kf3",
+    "title": "UAI Rebuttal [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t17kf3/uai_rebuttal_d/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T22:09:37",
+    "summary": "My UAI paper got Pre rebuttal: Scores/Confidence: 6/4, 6/4, 4/3, 3/3 After rebuttal: Scores/Confidence: 6/4, 6/4, 5/3, 4/3 Any chance here? Or I should go for NeurIPS?",
+    "points": 1,
+    "collected_at": "2026-05-02T09:53:54.377911",
+    "title_zh": "UAI反驳[D]",
+    "summary_zh": "我的 UAI 论文得到反驳前：分数/置信度：6/4、6/4、4/3、3/3 反驳后：分数/置信度：6/4、6/4、5/3、4/3 这里有机会吗？或者我应该选择 NeurIPS？",
+    "ai_summary": "我的 UAI 论文得到反驳前：分数/置信度：6/4、6/4、4/3、3/3 反驳后：分数/置信度：6/4、6/4、5/3…"
+  },
+  {
+    "id": "572f1821c4c2",
+    "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
+    "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T22:08:19",
+    "summary": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned&#160;that AI could destroy us all and sat",
+    "collected_at": "2026-05-02T09:53:48.698343",
+    "title_zh": "马斯克诉奥特曼第一周：埃隆·马斯克说他被骗了，警告人工智能可能会杀死我们所有人，并承认 xAI 提炼了 OpenAI 的模型",
+    "summary_zh": "在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第一周，马斯克穿着挺括的黑色西装，打着领带出庭，辩称 OpenAI 首席执行官萨姆·奥尔特曼和总裁格雷格·布罗克曼欺骗了他为公司提供资金。一路上，他警告说人工智能可能会摧毁我们所有人…",
+    "ai_summary": "在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第一周，马斯克穿着挺括的黑色西装，打着领带出庭，辩称 Open…"
+  },
+  {
+    "id": "reddit-1t16w2v",
+    "title": "Senate Judiciary Committee Advances Hawley's GUARD Act, Mandating ID Verification for AI Chatbot Users",
+    "url": "https://reddit.com/r/artificial/comments/1t16w2v/senate_judiciary_committee_advances_hawleys_guard/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T21:42:10",
+    "summary": "Senate Judiciary Committee Advances Hawley's GUARD Act, Mandating ID Verification for AI Chatbot Use",
+    "points": 62,
+    "collected_at": "2026-05-02T09:53:57.359497",
+    "title_zh": "参议院司法委员会推进霍利的 GUARD 法案，强制人工智能聊天机器人用户进行身份验证",
+    "summary_zh": "参议院司法委员会推进霍利的 GUARD 法案，强制人工智能聊天机器人的使用进行身份验证",
+    "ai_summary": "参议院司法委员会推进霍利的 GUARD 法案，强制人工智能聊天机器人的使用进行身份验证"
+  },
+  {
+    "id": "reddit-1t10xaf",
+    "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally documented it [P]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T18:01:00",
+    "summary": "For the past several years I've been quietly assembling and processing what I believe is one of the larger privately held pretraining corpora around... a complete Usenet archive spanning 1980 to 2013. Here's what it ended up being: * **103.1 billion tokens** (cl100k\\_base) * **408 million posts** ac",
+    "points": 69,
+    "collected_at": "2026-05-02T09:53:54.377072",
+    "title_zh": "我花了数年时间构建了一个 103B 代币的 Usenet 语料库（1980-2013）并最终记录了它 [P]",
+    "summary_zh": "在过去的几年里，我一直在悄悄地组装和处理我认为是规模较大的私人预训练语料库之一......跨越 1980 年至 2013 年的完整 Usenet 档案。最终的结果是： * **1031 亿个代币** (cl100k\\_base) * **4…",
+    "ai_summary": "在过去的几年里，我一直在悄悄地组装和处理我认为是规模较大的私人预训练语料库之一......跨越 1980 年至 2013…"
+  },
+  {
+    "id": "f15b72a01048",
+    "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+    "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T17:44:29",
+    "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it&#8217;s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s argument against OpenAI? By converting",
+    "collected_at": "2026-05-02T09:53:47.853888",
+    "title_zh": "你知道你不能偷窃慈善机构吗？不用担心。埃隆·马斯克会提醒你。",
+    "summary_zh": "本周，埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中在证人席上度过了三天的大部分时间，而且事情已经变得一团糟。电子邮件、短信和他自己的推文都出现在法庭上，而且还会有更多证人出庭。马斯克反对 OpenAI 的论点？通过转…",
+    "ai_summary": "本周，埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中在证人席上度过了三天的大部分时间，而且事情已经…"
+  },
+  {
+    "id": "60c4a902746b",
+    "title": "AI uses less water than the public thinks",
+    "url": "https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T17:18:58",
+    "summary": "Article URL: https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/ Comments URL: https://news.ycombinator.com/item?id=47977383 Points: 375 # Comments: 349",
+    "collected_at": "2026-05-02T09:53:51.649183",
+    "title_zh": "人工智能使用的水比公众想象的要少",
+    "summary_zh": "文章网址：https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/ 评论网址：https://news.…",
+    "ai_summary": "文章网址：https://californiawaterblog.com/2026/04/26/ai-water-use…"
+  },
+  {
+    "id": "f9eee99f5f65",
+    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T16:02:36",
+    "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+    "collected_at": "2026-05-02T09:53:47.853934",
+    "title_zh": "五角大楼与 Nvidia、微软和 AWS 达成协议，在机密网络上部署人工智能",
+    "summary_zh": "这些交易达成之际，国防部在与 Anthropic 就其人工智能模型的使用条款发生争议后，加倍加大对人工智能供应商的投资多元化",
+    "ai_summary": "这些交易达成之际，国防部在与 Anthropic 就其人工智能模型的使用条款发生争议后，加倍加大对人工智能供应商的投资多…"
+  },
+  {
+    "id": "9aa5e638efd8",
+    "title": "Spotify adds 'Verified' badges to distinguish human artists from AI",
+    "url": "https://www.bbc.com/news/articles/c5yerr4m1yno",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T16:42:41",
+    "summary": "Article URL: https://www.bbc.com/news/articles/c5yerr4m1yno Comments URL: https://news.ycombinator.com/item?id=47976856 Points: 243 # Comments: 268",
+    "collected_at": "2026-05-02T09:53:51.649233",
+    "title_zh": "Spotify 添加“已验证”徽章以区分人类艺术家和人工智能",
+    "summary_zh": "文章网址：https://www.bbc.com/news/articles/c5yerr4m1yno 评论网址：https://news.ycombinator.com/item?id=47976856 积分：243 # 评论：268",
+    "ai_summary": "文章网址：https://www.bbc.com/news/articles/c5yerr4m1yno 评论网址：htt…"
+  },
+  {
+    "id": "6100f49737ff",
+    "title": "Cyber-Insecurity in the AI Era",
+    "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T15:54:01",
+    "summary": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review&#8217;s EmTech AI conference explores why security must be rethoug",
+    "collected_at": "2026-05-02T09:53:48.698399",
+    "title_zh": "人工智能时代的网络不安全",
+    "summary_zh": "在人工智能进入堆栈之前，网络安全就已经面临压力。现在，随着人工智能扩大攻击面并增加新的复杂性，传统方法的局限性变得越来越难以忽视。麻省理工学院技术评论 EmTech AI 会议的本次会议探讨了为什么必须重新设计安全性",
+    "ai_summary": "在人工智能进入堆栈之前，网络安全就已经面临压力。现在，随着人工智能扩大攻击面并增加新的复杂性，传统方法的局限性变得越来越…"
+  },
+  {
+    "id": "de13a4b3d3d8",
+    "title": "Uber torches 2026 AI budget on Claude Code in four months",
+    "url": "https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T16:08:53",
+    "summary": "Article URL: https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/ Comments URL: https://news.ycombinator.com/item?id=47976415 Points: 380 # Comments: 452",
+    "collected_at": "2026-05-02T09:53:51.649338",
+    "title_zh": "Uber 在四个月内将 2026 年 AI 预算交给 Claude Code",
+    "summary_zh": "文章网址：https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/ 评论网址：https://news.ycom…",
+    "ai_summary": "文章网址：https://www.briefs.co/news/uber-torches-entire-2026-ai-…"
+  },
+  {
+    "id": "279ca32df23a",
+    "title": "Operationalizing AI for Scale and Sovereignty",
+    "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-01T15:31:09",
+    "summary": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high‑quality data needed to power reliable insights. This conversation from MIT Technology Review&#8217;s EmTech AI conference examines how AI factori",
+    "collected_at": "2026-05-02T09:53:48.698492",
+    "title_zh": "运用人工智能实现规模和主权",
+    "summary_zh": "公司正在控制自己的数据，根据自己的需求定制人工智能。挑战在于平衡所有权与提供可靠洞察所需的安全、可信的高质量数据流。麻省理工学院技术评论 EmTech AI 会议上的对话探讨了 AI 如何影响",
+    "ai_summary": "公司正在控制自己的数据，根据自己的需求定制人工智能。挑战在于平衡所有权与提供可靠洞察所需的安全、可信的高质量数据流。麻省…"
+  },
+  {
+    "id": "reddit-1t0vp3w",
+    "title": "PFlash: 10x prefill speedup over llama.cpp at 128K on a RTX 3090",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t0vp3w/pflash_10x_prefill_speedup_over_llamacpp_at_128k/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-01T14:53:57",
+    "summary": "Hey fellow Llamas, thank you for all the nice words and great feedback on the last post I made. We have something new we thought would be useful to share. As always your time is precious, so I'll keep it short. We built speculative prefill for long-context decode on quantized 27B targets, C++/CUDA o",
+    "points": 393,
+    "collected_at": "2026-05-02T09:53:55.871307",
+    "title_zh": "PFlash：在 RTX 3090 上 128K 时预填充速度比 llama.cpp 提高 10 倍",
+    "summary_zh": "嘿，骆驼同胞们，谢谢你们对我上一篇文章的所有好话和很好的反馈。我们有一些新的东西值得分享。与往常一样，您的时间很宝贵，所以我会长话短说。我们为量化 27B 目标、C++/CUDA o 上的长上下文解码构建了推测性预填充",
+    "ai_summary": "嘿，骆驼同胞们，谢谢你们对我上一篇文章的所有好话和很好的反馈。我们有一些新的东西值得分享。与往常一样，您的时间很宝贵，所…"
+  },
+  {
+    "id": "103feabc1f38",
+    "title": "Pentagon strikes classified AI deals with OpenAI, Google, and Nvidia — but not Anthropic",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T14:09:56",
+    "summary": "The Pentagon has struck deals with OpenAI, Google, Microsoft, Amazon, Nvidia, Elon Musk's xAI, and the startup Reflection, allowing the agency to use their AI tools in classified settings, according to an announcement on Friday. At the same time, the Defense Department has left out Anthropic - which",
+    "collected_at": "2026-05-02T09:53:48.272502",
+    "title_zh": "五角大楼与 OpenAI、谷歌和 Nvidia 达成机密人工智能协议，但不与 Anthropic 达成",
+    "summary_zh": "据周五发布的公告称，五角大楼已与 OpenAI、谷歌、微软、亚马逊、Nvidia、埃隆·马斯克的 xAI 以及初创公司 Reflection 达成协议，允许该机构在机密环境中使用他们的人工智能工具。与此同时，国防部排除了人择——这",
+    "ai_summary": "据周五发布的公告称，五角大楼已与 OpenAI、谷歌、微软、亚马逊、Nvidia、埃隆·马斯克的 xAI 以及初创公司…"
+  },
+  {
     "id": "97fd42172385",
     "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
     "url": "https://www.infoq.cn/article/K7hpIOogPsLlPQz4lwXu?utm_source=rss&utm_medium=article",
@@ -13,6 +534,136 @@
     "content_source": "trafilatura",
     "content_chars": 5895,
     "content_excerpt": "编者按：\n过去一年，企业 AI Coding 的讨论往往集中在模型能力、部署成本与合规约束上。DeepSeek V4 的出现，的确让私有化部署首次拥有了接近闭源旗舰的现实选项，也部分缓解了中国企业长期面临的工具死锁。但模型问题缓解之后，更深层的约束随之浮现：代码库中的业务隐知识、历史决策与架构习惯，并不会因为模型升级而自动变得可理解。本文借“AI 上下文负债”这一概念提醒我们，AI 编程的真正难点，正在从模型供给侧转向组织治理侧——从选工具，转向补文档、立规范、清理历史欠账。\n对企业而言，接下来的竞争不只是接入 AI 的速度，更是谁更早完成知识治理、工程规范和渐进重构。\n去年秋天，一个朋友所在的上市公司开始推动 AI 辅助编程。安全部门花三个月审了五款工具，结论是不能用——数据要出内网。IT 部门转而自研，装上了内部 GPU 集群，部署了一个半年前开源的大模型，在 IDE 里接了一个对话插件。研发团队用了一周，没人再打开了。\n他说：“你试过让一个不了解你代码库的 AI 帮你修 bug 吗？就像叫一个刚下飞机的出租车司机走一条他连路口都没见过的巷子。”\n这不是一个模型能力问题。那款私有化部署的模型写标准 API、生成单元测试、补全常规逻辑，能力够用。问题在于它面对的代码库是一个维护了九年的财务后台系统。数据库表名是八年前两个已离职的项目经理起的，订单状态不靠主表字段判断而要查日志表最后一条关联记录，核心业务规则一部分在存储过程里、一部分散落在三百多个 Controller 文件中。没有任何地方把这些规则完整记下来过。\n给这样一个系统加“部分退款”功能，AI 会建一个干净的 refund 表、写标准 CRUD、关联订单 ID——代码组织得挺好。审查的人必须逐行比对：它知不知道退款要同时写三张表才能保证财务对账？知不知道该业务有个隐藏规则——发货超三十天的订单走人工通道？都不知道。生成的代码语法完美、业务上下文里错得不着痕迹。\n代码越混乱，AI 的效率提升越可疑——审查成本的增长速度很可能超过了生成速度的节省。\nAI 上下文负债\n今年四月，科技从业者 Abbas Raza 在一篇博文里将这个现象命名为 AI 上下文负债（AI context debt）：代码库知道关于自己的信息，与 AI 工具需要知道才能生成正确输出所需信息之间的缺口。"
+  },
+  {
+    "id": "c993597b3fe5",
+    "title": "Musk v. Altman is just getting started",
+    "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T14:00:00",
+    "summary": "Elon Musk spent the better part of three days&#160;on the witness stand&#160;this week&#160;in his lawsuit against OpenAI, and&#160;it&#8217;s&#160;already getting messy. Emails, texts, and&#160;his own tweets&#160;are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s arg",
+    "collected_at": "2026-05-02T09:53:47.853994",
+    "title_zh": "马斯克诉奥特曼案才刚刚开始",
+    "summary_zh": "本周，埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中在证人席上度过了三天的大部分时间，而且情况已经变得混乱。电子邮件、短信和他自己的推文都出现在法庭上，而且还会有更多证人出庭。马斯克的arg",
+    "ai_summary": "本周，埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中在证人席上度过了三天的大部分时间，而且情况已经…"
+  },
+  {
+    "id": "reddit-1t0txco",
+    "title": "Why Is Table Extraction with VLM Models Still Challenging? [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t0txco/why_is_table_extraction_with_vlm_models_still/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T13:47:16",
+    "summary": "Hey everyone, I’m struggling to find a good approach for converting PDFs to Markdown (especially for financial data). The main challenge is handling borderless tables and tables with more than 5–6 columns. I’ve tried docling, graphite-docling, marker, etc., but haven’t found a solid open-source solu",
+    "points": 4,
+    "collected_at": "2026-05-02T09:53:54.378122",
+    "title_zh": "为什么使用 VLM 模型进行表提取仍然具有挑战性？ [D]",
+    "summary_zh": "大家好，我正在努力寻找一种将 PDF 转换为 Markdown 的好方法（尤其是财务数据）。主要挑战是处理无边框表格和超过 5-6 列的表格。我尝试过 doclo、graphite-docling、marker 等，但还没有找到可靠的开源解…",
+    "ai_summary": "大家好，我正在努力寻找一种将 PDF 转换为 Markdown 的好方法（尤其是财务数据）。主要挑战是处理无边框表格和超…"
+  },
+  {
+    "id": "25346cb6d7fa",
+    "title": "Elon Musk had a bad week in court",
+    "url": "https://www.theverge.com/podcast/922009/musk-openai-trial-testimony-vergecast",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T13:33:15",
+    "summary": "Elon Musk is the one who wanted this trial. He has spent months claiming OpenAI \"stole a nonprofit,\" and saying he was the actual driving force behind one of the most important companies currently in tech. All indications are that he won't win his case against the company, but he's fighting it anywa",
+    "collected_at": "2026-05-02T09:53:48.272555",
+    "title_zh": "埃隆·马斯克在法庭上度过了糟糕的一周",
+    "summary_zh": "埃隆·马斯克是想要进行这次试验的人。他花了几个月的时间声称 OpenAI“窃取了一家非营利组织”，并表示他是目前科技领域最重要的公司之一背后的实际推动力。所有迹象都表明他不会赢得针对该公司的官司，但无论如何他都会抗争",
+    "ai_summary": "埃隆·马斯克是想要进行这次试验的人。他花了几个月的时间声称 OpenAI“窃取了一家非营利组织”，并表示他是目前科技领域…"
+  },
+  {
+    "id": "reddit-1t0tk5q",
+    "title": "China Bans AI Layoffs as Nvidia CEO Says AI Created 500K Jobs in 2 Years",
+    "url": "https://reddit.com/r/artificial/comments/1t0tk5q/china_bans_ai_layoffs_as_nvidia_ceo_says_ai/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T13:32:12",
+    "summary": "China Bans AI Layoffs as Nvidia CEO Says AI Created 500K Jobs in 2 Years",
+    "points": 91,
+    "collected_at": "2026-05-02T09:53:57.359663",
+    "title_zh": "英伟达首席执行官称人工智能在两年内创造了 50 万个就业岗位，中国禁止人工智能裁员",
+    "summary_zh": "英伟达首席执行官称人工智能在两年内创造了 50 万个就业岗位，中国禁止人工智能裁员",
+    "ai_summary": "英伟达首席执行官称人工智能在两年内创造了 50 万个就业岗位，中国禁止人工智能裁员"
+  },
+  {
+    "id": "11088b9f216b",
+    "title": "Christian content creators are outsourcing AI slop to gig workers on Fiverr",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/920881/ai-generated-bible-videos-christian-creators-fiverr-slop",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-01T13:25:25",
+    "summary": "In the beginning, platforms like Fiverr were places where people could hire freelancers to do specialized creative labor using skills that took years to develop. In the age of generative AI, though, many of these gig workers have embraced the technology in order to meet clients' demands. These worke",
+    "collected_at": "2026-05-02T09:53:48.272608",
+    "title_zh": "基督教内容创作者正在将人工智能外包给 Fiverr 上的零工工人",
+    "summary_zh": "最初，在 Fiverr 这样的平台上，人们可以雇佣自由职业者，利用需要数年时间培养的技能来从事专门的创造性劳动。然而，在生成式人工智能时代，许多零工工人已经接受了这项技术来满足客户的需求。这些工人",
+    "ai_summary": "最初，在 Fiverr 这样的平台上，人们可以雇佣自由职业者，利用需要数年时间培养的技能来从事专门的创造性劳动。然而，在…"
+  },
+  {
+    "id": "54f9e175aac8",
+    "title": "他用AI办了个音乐节，主题：别读博",
+    "url": "https://www.qbitai.com/2026/05/412597.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-01T13:20:15",
+    "summary": "一代科研人的赛博苦中作乐",
+    "collected_at": "2026-05-02T09:53:46.129892"
+  },
+  {
+    "id": "reddit-1t0soki",
+    "title": "I built a router that automatically sends your AI tasks to the most appropriate model to handle them at low cost - 9,200 tasks in, $21 saved at $0.14 actual cost",
+    "url": "https://reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T12:56:46",
+    "summary": "The observation that started this: most of what people use AI for every day - summarising, drafting, classifying, extracting etc doesn't actually require a frontier model. Any competent 8-70B model handles those just as well. But most people run everything through Claude or ChatGPT out of habit. I b",
+    "points": 27,
+    "collected_at": "2026-05-02T09:53:57.360530",
+    "title_zh": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元，实际成本为 0.14 美元",
+    "summary_zh": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-70B 型号都可以处理这些问题。但大多数人出于习惯而通过 Claude 或 ChatGPT 来处理所有事情。我b",
+    "ai_summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8…"
+  },
+  {
+    "id": "v2ex-1209887",
+    "title": "chatgpt 代充这是常规操作 还是我被坑了",
+    "url": "https://www.v2ex.com/t/1209887",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-01T12:49:20",
+    "summary": "在 https://www.naifeistation.com/ （星际放映厅） 充值的 三个月的 chatgpt pro 账号代充 价格是 2600+ 只用了一个星期就停了 客服说他们是一个月一个月的充值，只是今天官方风控的原因， 这是常规操作还是我被坑了。 https://i.imgur.com/fQaBZkj.jpg https://i.imgur.com/dkGYZWY.jpg https://i.imgur.com/nCI35IQ.jpg https://i.imgur.com/JGFGlHr.jpg https://i.imgur.com/OED8DfG.jpg",
+    "collected_at": "2026-05-02T09:53:57.754899"
+  },
+  {
+    "id": "reddit-1t0s7yh",
+    "title": "Public photos are not consent to biometric search infrastructure",
+    "url": "https://reddit.com/r/artificial/comments/1t0s7yh/public_photos_are_not_consent_to_biometric_search/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T12:36:50",
+    "summary": "The Clearview AI story still feels like one of the cleanest examples of the consent gap in applied AI. The issue is not simply that photos were public. A birthday photo, profile picture, or local event image is posted for a social context. Turning that same image into a biometric lookup system for p",
+    "points": 25,
+    "collected_at": "2026-05-02T09:53:57.360893",
+    "title_zh": "公开照片不同意生物识别搜索基础设施",
+    "summary_zh": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、个人资料图片或本地活动图像是为了社交背景而发布的。将同一图像转换为 p 的生物识别查找系统",
+    "ai_summary": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、…"
+  },
+  {
+    "id": "reddit-1t0rtx3",
+    "title": "[ECCV 2026] Review Discussion [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t0rtx3/eccv_2026_review_discussion_d/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T12:19:53",
+    "summary": "ECCV reviews should be out by 2nd May. Since no exact time was specified this year, they’ll likely be released sometime within the next 48 hours. Hopefully, the reviews go well for everyone. We can use this thread to discuss them, as I haven’t seen one started yet.",
+    "points": 64,
+    "collected_at": "2026-05-02T09:53:54.377237"
   },
   {
     "id": "51238cf7a49d",
@@ -33,6 +684,17 @@
     "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。美国新的基督徒电话网络旨在阻止色情和…"
   },
   {
+    "id": "reddit-1t0qlvx",
+    "title": "Anthropic just analyzed 1 million Claude conversations. 6% of people were asking Claude whether to quit their jobs, who to date, and if they should move countries.",
+    "url": "https://reddit.com/r/artificial/comments/1t0qlvx/anthropic_just_analyzed_1_million_claude/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T11:23:16",
+    "summary": "They published the full research yesterday. Here's what shocked me: **The breakdown of what people actually ask Claude for guidance on:** * Health & wellness: 27% * Career decisions: 26% * Relationships: 12% * Personal finance: 11% Over 76% of personal guidance conversations fall into just 4 buckets",
+    "points": 206,
+    "collected_at": "2026-05-02T09:53:57.359636"
+  },
+  {
     "id": "a28baaadcf88",
     "title": "Microsoft wants lawyers to trust its new AI agent in Word documents",
     "url": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
@@ -49,6 +711,28 @@
     "title_zh": "微软希望律师信任其在 Word 文档中的新 AI 代理",
     "summary_zh": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文档编辑、谈判历史记录和复杂文档，以帮助法律团队处理审查合同等任务。 “不再依赖通用人工智能模型来解释命令，而是",
     "ai_summary": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文档编辑、谈判历史记录和复杂文档，以帮助法…"
+  },
+  {
+    "id": "c6c434fb0902",
+    "title": "智谱公布“降智”的秘密：Scaling不可避免的痛",
+    "url": "https://www.qbitai.com/2026/05/412585.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-01T11:00:05",
+    "summary": "都是Prefill的锅",
+    "collected_at": "2026-05-02T09:53:46.129943"
+  },
+  {
+    "id": "reddit-1t0p7ej",
+    "title": "AI outperforms doctors in Harvard trial of emergency triage diagnoses",
+    "url": "https://reddit.com/r/artificial/comments/1t0p7ej/ai_outperforms_doctors_in_harvard_trial_of/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-05-01T10:10:00",
+    "summary": "AI outperforms doctors in Harvard trial of emergency triage diagnoses",
+    "points": 25,
+    "collected_at": "2026-05-02T09:53:57.361025"
   },
   {
     "id": "587fa5130444",
@@ -113,6 +797,17 @@
     "ai_summary": "一个面向基督徒的新的全美手机网络将于下周推出。它会阻止色情内容，网络安全专家表示，这标志着美国移动计划首次对此类内容使用…"
   },
   {
+    "id": "reddit-1t0lwx6",
+    "title": "16x Spark Cluster (Build Update)",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t0lwx6/16x_spark_cluster_build_update/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-01T07:00:58",
+    "summary": "Build is done. 16 DGX Sparks on the fabric, all hitting line rate. Setup was time consuming but honestly smoother than I expected. Each Spark runs Nvidia’s flavor of Ubuntu out of the box with mostly everything pre installed and ready to go. For setup I had to rack them, power on, create the same us",
+    "points": 860,
+    "collected_at": "2026-05-02T09:53:55.871827"
+  },
+  {
     "id": "693805793e5b",
     "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
     "url": "https://www.qbitai.com/2026/05/412577.html",
@@ -154,6 +849,17 @@
     "content_excerpt": "太抓马了！马斯克OpenAI开庭，硅谷巨富互揭老底像极了村口吵架\n听雨\n2026-05-01\n14:21:38\n来源：\n量子位\n听雨 发自 凹非寺\n量子位 | 公众号 QbitAI\n马斯克和奥特曼这场\n世纪庭审"
   },
   {
+    "id": "reddit-1t0ilfn",
+    "title": "ICML 2026 Position Track Decision [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t0ilfn/icml_2026_position_track_decision_d/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T04:05:38",
+    "summary": "I want to make a position track decision thread because it is a niche and small track I think discussions will be submerged in the main track discussion track",
+    "points": 15,
+    "collected_at": "2026-05-02T09:53:54.378368"
+  },
+  {
     "id": "d02cf6c66a23",
     "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
     "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
@@ -184,6 +890,28 @@
     "content_source": "readability",
     "content_chars": 480,
     "content_excerpt": "把下面这些规则走代理后，即可不用开代理工具的包含 APNS 功能也能收到推送了。设置完之后要开关飞行模式，断掉所有连接才会生效。\nDOMAIN-SUFFIX,\npush.apple.com\nDOMAIN-SUFFIX,\nakadns.net\nDOMAIN-KEYWORD,\napple.com.edgekey.net\nIP-CIDR,17.249.0.0/16,no-resolve\nIP-CIDR,17.252.0.0/16,no-resolve\nIP-CIDR,17.57.144.0/22,no-resolve"
+  },
+  {
+    "id": "reddit-1t0dd1j",
+    "title": "AI/ML Conferences [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t0dd1j/aiml_conferences_d/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-05-01T00:03:53",
+    "summary": "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A\\* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers a",
+    "points": 58,
+    "collected_at": "2026-05-02T09:53:54.378024"
+  },
+  {
+    "id": "reddit-1t0cy0n",
+    "title": "Mark Zuckerberg Says AI Costs Contributed To Layoffs Of 8,000 Staffers, Report Says",
+    "url": "https://reddit.com/r/artificial/comments/1t0cy0n/mark_zuckerberg_says_ai_costs_contributed_to/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-04-30T23:46:05",
+    "summary": "Mark Zuckerberg Says AI Costs Contributed To Layoffs Of 8,000 Staffers, Report Says",
+    "points": 188,
+    "collected_at": "2026-05-02T09:53:57.361004"
   },
   {
     "id": "e0cea1ae2c83",
@@ -307,6 +1035,17 @@
     "title_zh": "在批评 Anthropic 限制神话之后，OpenAI 也限制了对网络的访问",
     "summary_zh": "OpenAI 将开始推出其网络安全测试工具 GPT-5.5 Cyber​​，首先仅“向关键的网络防御者”推出",
     "ai_summary": "OpenAI 将开始推出其网络安全测试工具 GPT-5.5 Cyber​​，首先仅“向关键的网络防御者”推出"
+  },
+  {
+    "id": "reddit-1t06564",
+    "title": "Chinese nexus/network in A* conferences rejecting non chinese papers [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1t06564/chinese_nexusnetwork_in_a_conferences_rejecting/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-04-30T19:21:06",
+    "summary": "Recently lot of people are coming forward that chinese have strong network and are doing nepotism and supporting each other through a well known mobile app they use. if true this is big, I also encountered this issue in IJCAI 26. Please share if you have faced this issue before ex in my case : the r",
+    "points": 139,
+    "collected_at": "2026-05-02T09:53:54.377973"
   },
   {
     "id": "54a3c14828be",
@@ -841,6 +1580,17 @@
     "title_zh": "年轻人越用人工智能就越讨厌它",
     "summary_zh": "硅谷开始积极推动基于大型语言模型的聊天机器人（如 ChatGPT），将其视为一切事物不可避免的未来，已经过去近三年了，没有哪个群体像 Z 世代一样感受到了压力。就像之前的许多技术趋势一样，这并不奇怪",
     "ai_summary": "硅谷开始积极推动基于大型语言模型的聊天机器人（如 ChatGPT），将其视为一切事物不可避免的未来，已经过去近三年了，没…"
+  },
+  {
+    "id": "a00937aababc",
+    "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+    "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-30T10:31:17",
+    "summary": "https://research.ibm.com/blog/granite-4-1-ai-foundation-mode... Comments URL: https://news.ycombinator.com/item?id=47960507 Points: 312 # Comments: 202",
+    "collected_at": "2026-05-02T09:53:51.649625"
   },
   {
     "id": "7075af806087",
@@ -4376,300 +5126,6 @@
     "ai_summary": "前几天遇到了腰火。它是一个全新的推理引擎，专注于所有 AMD GPU（不仅仅是最新的）。 [Github.](https…"
   },
   {
-    "id": "21632a114c91",
-    "title": "早期项目 | 前地平线产品负责人死磕“拿放”动作，轮式机器人今年锁定百台出货",
-    "url": "https://36kr.com/p/3783824870317312?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-27T01:10:00",
-    "summary": "作者丨欧雪 编辑丨袁斯来 在具身智能行业普遍沉迷双足人形和仿真训练的当下，有一家公司选择了一条不太一样的路径：聚焦仓储物流场景，用“轮式底盘+双臂”死磕占人力成本60%的“拿放”动作。这是一家由中科南京软件技术研究院孵化出来的具身智能企业——智往未来。 智往未来2025年11月成立于南京，创始人孙浚凯曾在地平线担任智能座舱产品线总经理，推动百万终端量产，具备从0到1的产品设计与量产经验。公司早期以“具身智能课题组”在中科系旗下孵化两年，2025年底独立注册。 具身智能在真实环境中的泛化难题，核心在于Sim2Real鸿沟。传统离线强化学习依赖仿真数据，部署成功率低；在线强化学习精度高，但学习周期",
-    "collected_at": "2026-04-27T10:11:27.864583",
-    "content_text": "作者丨欧雪\n编辑丨袁斯来\n在具身智能行业普遍沉迷双足人形和仿真训练的当下，有一家公司选择了一条不太一样的路径：聚焦仓储物流场景，用“轮式底盘+双臂”死磕占人力成本60%的“拿放”动作。这是一家由中科南京软件技术研究院孵化出来的具身智能企业——智往未来。\n智往未来2025年11月成立于南京，创始人孙浚凯曾在地平线担任智能座舱产品线总经理，推动百万终端量产，具备从0到1的产品设计与量产经验。公司早期以“具身智能课题组”在中科系旗下孵化两年，2025年底独立注册。\n具身智能在真实环境中的泛化难题，核心在于Sim2Real鸿沟。传统离线强化学习依赖仿真数据，部署成功率低；在线强化学习精度高，但学习周期长，难以在SKU达百万级的电商仓落地。\n智往未来创新性地引入 Human-in-the-Loop 在线强化学习方法，将人工的即时纠偏能力与统一的强化学习目标深度融合，打通了从模仿学习到自主探索的关键路径。基于该方法，仅需少量演示数据和短时间在线学习，即可显著提升任务成功率，在样本效率上相比传统范式实现数量级提升。\n公司初代智能机器人Armstrong已在国内头部物流企业实地验证，二代机型Armstrong Pro于2026年上半年面世，并成功入驻世界500强外资药企仓库作业。2026年，公司锁定百台出货，按行业测算将占据近40%份额。\n孙浚凯告诉硬氪，智往未来机器人可实现“快速进仓、无需改仓、一机多用”，仓库“零改造成本”下完成上架、拣选、盘点等作业，客户投资回报周期约2-3年。\n未来3-5年，智往未来有清晰路线。孙浚凯透露，2026-2028年公司深耕仓储物流，迭代物流场景基建模型；中长期将B端积累的泛化能力降维至零售及家庭服务赛道。\n孙浚凯解释：“仓储里的商品——服饰、食品、美妆——超市和家庭里都有。拿包裹的能力可以几乎直接迁移到家庭整理场景。我们认为机器人管家可以在家庭拿包裹、拆包裹，做好物品整理，所以我们认为仓储物流是通向家庭的必经之路。\n以下为硬氪与孙浚凯的对话节选：\n硬氪：仓储物流场景的“拿放”需求有多强？为什么不用人？\n孙浚凯：\n某头部物流企业已官宣8年内实现完全无人化仓。需求比我们原想的强烈得多。\n仓储最后一公里，即从料箱里拿东西放到订单箱，这占人力成本60%以上，且SKU动辄几十上百万种，传统自动化根本做不了绝对泛化。\n大模型恰好擅长泛化，这是技术用到刀刃上的场景。人一年5-10万成本，机器人只需2-3年就可以回本。头部的刚需已经非常明确，下沉市场会随成本下降逐步释放。\n硬氪：脱离仿真环境，怎么用最小数据量在真仓里转起数据飞轮？\n孙浚凯：\n关键在于一致性策略。我们将人工的即时纠偏能力与统一的强化学习目标深度融合，针对复杂场景只需做少量数据采集和微调。这样数据有效利用率最高，用最少的数据做最大化的泛化。\n硬氪：为什么不用双足而用轮式？\n孙浚凯：\n首先，B端落地最终是算账的逻辑——替代了多少人，人效比是多少，投资回报周期多长。双足机械结构更复杂，自由度更多，系统稳定性是指数级下降的；而且目前国内双足总体出货量不到万台，供应链没法降本，成本压不下来。\n第二，全身20个自由度和60个自由度，系统出故障的概率完全不是一个量级。B端客户对精度、效率、泛化和可靠性都有很高要求，现阶段用双足其实是“杀鸡用牛刀”，故障率还高。\n第三，双足的小脑运控复杂度远高于轮臂。行业目前基本已经收敛到升降或折叠的轮式构型。\n当然，我认为终局一定是双足加双灵巧手。因为物理世界最通用的构型一定像人一样，能兼容各种环境和工具，但前提是特斯拉、宇树这类公司把量推到百万台级别，双足成本降到几万块钱。到那时，轮臂的供应链优势就不明显了。但现在，为时尚早。",
-    "content_source": "readability",
-    "content_chars": 1536,
-    "content_excerpt": "作者丨欧雪\n编辑丨袁斯来\n在具身智能行业普遍沉迷双足人形和仿真训练的当下，有一家公司选择了一条不太一样的路径：聚焦仓储物流场景，用“轮式底盘+双臂”死磕占人力成本60%的“拿放”动作。这是一家由中科南京软件技术研究院孵化出来的具身智能企业——智往未来。\n智往未来2025年11月成立于南京，创始人孙浚凯曾在地平线担任智能座舱产品线总经理，推动百万终端量产，具备从0到1的产品设计与量产经验。公司早期以“具身智能课题组”在中科系旗下孵化两年，2025年底独立注册。\n具身智能在真实环境中的泛化难题，核心在于Sim2Real鸿沟。传统离线强化学习依赖仿真数据，部署成功率低；在线强化学习精度高，但学习周期长，难以在SKU达百万级的电商仓落地。\n智往未来创新性地引入 Human-in-the-Loop 在线强化学习方法，将人工的即时纠偏能力与统一的强化学习目标深度融合，打通了从模仿学习到自主探索的关键路径。基于该方法，仅需少量演示数据和短时间在线学习，即可显著提升任务成功率，在样本效率上相比传统范式实现数量级提升。\n公司初代智能机器人Armstrong已在国内头部物流企业实地验证，二代机型Armstrong Pro于2026年上半年面世，并成功入驻世界500强外资药企仓库作业。2026年，公司锁定百台出货，按行业测算将占据近40%份额。\n孙浚凯告诉硬氪，智往未来机器人可实现“快速进仓、无需改仓、一机多用”，仓库“零改造成本”下完成上架、拣选、盘点等作业，客户投资回报周期约2-3年。\n未来3-5年，智往未来有清晰路线。孙浚凯透露，2026-2028年公司深耕仓储物流，迭代物流场景基建模型；中长期将B端积累的泛化能力降维至零售及家庭服务赛道。\n孙浚凯解释：“仓储里的商品——服饰、食品、美妆——超市和家庭里都有。拿包裹的能力可以几乎直接迁移到家庭整理场景。我们认为机器人管家可以在家庭拿包裹、拆包裹，做好物品整理，所以我们认为仓储物流是通向家庭的必经之路。",
-    "title_zh": "智往未来押注轮式双臂机器人：先拿下仓储“拿放”场景，再把能力外溢到家庭",
-    "ai_summary": "当行业都在卷双足人形时，智往未来选择先把仓储里最贵的“拿放”动作做成能回本的生意。",
-    "summary_zh": "36氪报道，具身智能公司智往未来没有追逐最吸睛的双足路线，而是围绕仓储物流场景，把“轮式底盘+双臂”机器人和 Human-in-the-Loop 在线强化学习结合起来，专攻高频拿放作业。它真正有价值的地方在于更低改仓成本、更清晰回本周期，以及一条先在 B 端跑通、再向零售和家庭外溢的现实路径。",
-    "takeaways": [
-      "公司优先解决仓储里占人力成本最高的拿放环节，而不是先做展示感更强的人形机器人。",
-      "Human-in-the-Loop 在线强化学习让机器人能在真实仓库里用更少数据快速提升成功率。",
-      "先在仓储验证 ROI，再把抓取与整理能力迁移到零售和家庭，是一条更务实的具身智能商业化路线。"
-    ],
-    "rewrite_body": "在具身智能赛道里，最容易被讨论的总是双足人形、家庭管家和各种“像人一样”的演示视频。但智往未来挑的切口很现实：先别急着做最像人的机器人，而是先把仓储里最刚需、最花钱、也最容易形成投资回报的一类动作做透——拿和放。\n\n这家公司主打“轮式底盘+双臂”方案，看上去没有人形机器人那么吸睛，却更贴近当下 B 端客户的真实需求。仓储最后一公里里，从料箱里取货再放入订单箱，长期依赖高密度人工，SKU 又极其复杂，传统自动化很难覆盖。对客户来说，真正重要的不是机器人长得像不像人，而是能不能尽快进仓、少改仓、稳定干活，并把回本周期压到可接受范围。\n\n报道里的技术路线也因此很明确。智往未来没有把希望完全押在仿真训练上，而是引入 Human-in-the-Loop 在线强化学习，把人工纠偏直接嵌入真实作业环境。这样做的价值，不是概念上更“先进”，而是能用更少演示数据、更短试错周期把系统推到可部署状态。对于仓储客户来说，这意味着模型迭代不是停留在论文层面的精度提升，而是直接关系到上架、拣选和盘点这些任务能否连续跑起来。\n\n另一层更值得看的信息，是公司对中长期路线的判断。它并不把仓储看成终点，而是把它当成通往零售和家庭场景的训练场。原因很简单：仓库里的商品、抓取、搬运、整理，本质上和超市货架、家庭收纳并不是完全割裂的。只要拿放和基础泛化能力先在 B 端被打磨成熟，后续进入家庭场景的成本和风险都会低很多。\n\n所以这条新闻最重要的不是“今年要出货一百台”这个数字本身，而是它代表了一种更务实的具身智能方法论：先围绕高频刚需把单位经济模型做顺，再谈通用化外溢。相比那些还停留在展示阶段的人形故事，这样的路线也许没那么浪漫，但离真正形成产业规模反而更近。"
-  },
-  {
-    "id": "c66bc8653389",
-    "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
-    "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-27T00:34:30",
-    "summary": "Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c Comments URL: https://news.ycombinator.com/item?id=47916410 Points: 102 # Comments: 85",
-    "collected_at": "2026-04-27T10:11:22.259884",
-    "title_zh": "谷歌依靠人工智能优势追赶云竞争对手亚马逊和微软",
-    "summary_zh": "文章网址：https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c 评论网址：https://news.ycombinator.com/item?id=47916410…",
-    "ai_summary": "文章网址：https://www.ft.com/content/2429f0f0-b685-4747-b425-bf80…",
-    "extract_error": "403 Client Error: Forbidden for url: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c"
-  },
-  {
-    "id": "0ec3697325ce",
-    "title": "「破壳机器人」许华哲：两年内，中国将出现可用的家庭机器人",
-    "url": "https://36kr.com/p/3784365164322055?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-27T01:00:00",
-    "summary": "文｜邱晓芬 编辑｜苏建勋 2026年，全球的具身智能机器人创业者不约而同将目光方向调转向深水区：家庭。 点燃这份热情的，是近期行业里闪烁着的一丝丝Scaling Law苗头—— 先是硅谷具身智能公司Generalist AI在GEN-1模型上验证了确定性，当他们给机器人喂进海量数据后，精细操作任务成功率竟从64%提升到了惊人的99%； 随后，硅谷当红的具身智能独角兽公司Sunday Robotics也试图解决家庭场景数据难关，不仅推出Umi手套数据采集方案，还直接将机器人Memo送进家庭做家务（收拾餐做、冲咖啡、叠衣服），因此吸引了大量的资本押注。 在大洋彼岸的中国，近期闯入家庭机器人领域的创",
-    "collected_at": "2026-04-27T10:11:27.865001",
-    "content_text": "文｜邱晓芬\n编辑｜苏建勋\n2026年，全球的具身智能机器人创业者不约而同将目光方向调转向深水区：家庭。\n点燃这份热情的，是近期行业里闪烁着的一丝丝Scaling Law苗头——\n先是硅谷具身智能公司Generalist AI在GEN-1模型上验证了确定性，当他们给机器人喂进海量数据后，精细操作任务成功率竟从64%提升到了惊人的99%；\n随后，硅谷当红的具身智能独角兽公司Sunday Robotics也试图解决家庭场景数据难关，不仅推出Umi手套数据采集方案，还直接将机器人Memo送进家庭做家务（收拾餐做、冲咖啡、叠衣服），因此吸引了大量的资本押注。\n在大洋彼岸的中国，近期闯入家庭机器人领域的创业者中，还有一个熟悉的身影——许华哲。\n“两年内，中国将会出现可用的家庭机器人”，他对于行业的判断，同样乐观且激进。\n作为“伯克利归国四子之一”、清华大学交叉信息研究院助理教授，2023年，许华哲曾加入「星海图」任前首席科学家兼联合创始人，一起将这家公司打造成中国具身智能领域的明星公司。\n不过，在这家公司估值冲破200亿、融资近30亿的巅峰时刻，许华哲又选择“单飞”并创办了全新的具身智能公司「破壳机器人」。\n此次重新出发，他想做的是能在家庭场景干活的、真正有泛化性的具身智能机器人。\n△ 许华哲\n其实，想做一个家庭机器人公司并不是近期偶然的想法。初高中时的他读完《乔布斯传》后，内心便萌生创办一家伟大To C公司的种子。此后，在清华、伯克利、斯坦福的一路升学中，他一直深耕机器人强化学习方向，梦想便是把机器人送入千万家庭。\n他理想中的家庭机器人，虽然不是无所不能，却能完成上一代机器人（比如扫地机、洗地机）无法完成的复杂任务，比如能进行更精细的清洁工作、有条理的完成诸如洗衣收纳的长序列、多步骤任务串联。\n在他看来，这种创业方向的选择，也带有强烈的审美洁癖。许华哲直言，泛化性的本质是一种“美与影响力”——用最简洁优雅的模型，解决人类复杂的生活问题，并真正将AI转化为生产力，而非仅仅替代低端劳动力。\n从更理性的层面，切入To C家庭场景也包含着许华哲的商业判断。在他看来，当前大量机器人厂商将人形机器人送进工厂，完成传统机械臂就能完成的上下料、搬运箱的工作，本质上只是在用新的人性在做旧时代的事情，机器人没有发挥出真正的通用性。\n他认为，真正的AGI应该在家庭场景中诞生、运用，因为家庭场景任务比工厂场景更混乱随机，且数据丰富，恰恰是训练通用模型的最佳土壤。\n因此，为了追赶时机，在创业的短短一个月内，新公司「破壳机器人」已经完成了融资、核心团队组建、具身模型的训练、以及硬件迭代工作。\n《智能涌现》独家获悉，破壳机器人近期完成数千万美元天使轮融资，由云启资本领投，并获得顺为资本、弘晖基金等一线美元基金，小米战投、星海图等知名产业方，以及BV百度风投、英诺天使基金、水木清华校友种子基金、东方嘉富等一线市场化基金的支持。\n快速得到资本押注，也因为许华哲在关键技术路线上有一些不同的选择。\n为了实现泛化，在关键技术路线方面，他的选择也略显反常识。他完全放弃了行业主流的VLA（视觉-语言-动作）基座模型方案，转而构建一种能直接输入和输出“视频-动作”的\n世界模型\n。\n在模型结构上，他也提出了独特的“\nUAG架构\n”，用并联式预训练替代过去的瀑布式级联，并将强化学习贯穿预训练与部署全过程，实现了训练效率的五倍提升。\n打好模型基础之余，在数据与硬件层面，他也通过UMI、外骨骼和第一人称视角三层方案采集高质量数据，形成从任务定义到数据、模型、本体的闭环迭代。\n据许华哲透露，「破壳机器人」第一代\n32B参数规模的具身世界模型\n已完成首轮训练，正处于数据迭代的关键爬坡期。在硬件层面，「破壳机器人」为数据采集量身定制的手套硬件已迭代了五六个版本。\n近期，《智能涌现》与许华哲聊了聊，以下是交流实录（略经摘编）\n为何出走「星海图」？\n《智能涌现》：为什么选择离开星海图，创立一家新的机器人公司？\n许华哲：这个想法其实酝酿了很久。在2023年8、9月份，我就开始和高继扬聊，加入星海图。但经过了两年，到去年11、12月份，我已经基本决定要离开了，真正办完手续是在今年，创立「破壳机器人」是最近一个月的事情。\n离开的原因主要是因为我内心一直想做一些To C的、真正泛化的通用机器人。\n《智能涌现》：既然一直想做To C，为什么一开始不直接做To C方向机器人的创业呢？\n许华哲：原因是多方面的。2023年我加入星海图时，也考虑过要不要自己创业，但那时我刚从美国读完书回来，在叉院工作才一年左右，要自己开公司lead一摊事，还要兼顾教职，挑战很大。\n那时星海图和其他一些具身智能公司也邀请我加入，我觉得先加入一个优秀的团队做联创，是一个更稳妥的选择，而且当时星海图的宣传里也提到大概是“让机器人服务千万人类”的话语，这和我的一部分想法是吻合的。\n《智能涌现》：您现在新公司虽然只成立一个月，都有哪些进展？\n许华哲：团队方面，目前有20人左右，AI侧有一些天才少年，硬件侧有很多做过To C量产交付的工程师。我们还在火热招聘中。\n在技术上，我们的AI模型在“动得快”、“泛化强”、“成功率高”三个维度都有较好的前期积累，能让机器人完成某些复杂任务时达到接近100%的成功率。\n我们第一代32B的模型已经完成了第一次训练，但还需要数据量的迭代才能展现出更好能力。我们的硬件手套也已经迭代了五六个版本。\n第一个月要处理公司注册、选址、装修等各种事务。能跑出这个速度，我觉得还是比较快的。\n《智能涌现》：您这次创业，和第一次创业时心态有什么不同？\n许华哲：最大的不同是心态上更踏实、也更敢了。第一次创业前，我会担心，我没上过班怎么给别人“班”上？我没做过生意怎么办，没跟投资人、政府打过交道怎么办？\n在星海图的两年，我接触过这些事，“没打过就硬打，没上过就硬来”，其实最终结果也挺顺利的，太多的顾虑没必要，出来混最重要是先出来。这次心理上更从容。\n《智能涌现》：在2023年和2026年两个节点创业做家庭机器人这件事，区别大吗？\n许华哲：区别挺大的。首先是硬件本体，这三年中国的硬件供应链打磨得更好了，有了更多能用的机器人，2023年时可能只能用工业臂；\n第二是数据，2023年时机器人的数据几乎是0，现在网上开源数据就有几十万小时，还出现了大量的数据供应商，虽然数据质量和跨本体适配还是问题，但丰富度已经不可同日而语。\n第三是融资和市场认知，2023年要做To C机器人可能很难融资，大家给的时间缓冲也更少。今天起步比2023年更好。\nAGI应用于家庭，工厂是上一代技术的领地\n《智能涌现》：一直想做To C的机器人，背后的触发点是什么？\n许华哲：首先，一个核心思考是，我们做机器人到底在做什么？机器人是人类自古以来的追求，我们在海底捞、酒店、工厂都见过机器人，但如果我们只是用人形的外壳去工厂拧螺丝、搬箱子，那本质上还是在做旧时代的事情。\n这一代机器人最核心的不同在于它的通用性。\n通用性该用在越混乱、越需要通用能力的地方。那答案就是家庭，或者广义的服务场景。我认为，通用的AGI（通用人工智能）应该用在家里。\n第二，从个人偏好来说，做有品牌的事情是可以做得足够大、有梦想的。伟大的公司很多是To C的，比如苹果、小米。\n第三，从数据角度看，通用性需要有丰富的数据，混乱的家庭场景恰恰能提供丰富的数据。如果你的数据源头错了，就得不到正确的模型。\n基于这三点，我觉得做To C机器人是一件正确的事，我自己也特别感兴趣。\n《智能涌现》：您认为AI模型什么时候可以支撑做家庭To C机器人？\n许华哲：我的预测比较乐观激进，我认为\n两年内\n会出现可以用起来的机器人。它不是万能的，但会是一个有完善产品定义、能做相当多通用事情的机器人，但它会有一些明确不做的事，比如抱婴儿、烧热水。\n《智能涌现》：机器人进家庭能做的事情都包括哪些？能否举一些例子？\n许华哲：分两类。\n一类是本身很难的任务，\n比如更精细的清洁，比如清洁墙角霉点、擦掉干涸的饭汤、剥橘子、剥虾等等。\n另一类是\n长序列、多步骤任务的串联。\n举个例子，一个完整的洗衣流程是——把脏衣服放进洗衣机、倒洗衣液、启动，然后机器人可以去做别的事，它会在监听到“洗完了”的声音后，把衣服拿出来放进烘干机，启动烘干，最后再把衣服拿出来叠好放进衣柜。\n现在的机器人能做任何一个单一步骤，但没有机器人能像人一样，从头到尾，带着这些“任务间的缝隙”把它完成，我认为两年后的机器人能有这个能力。\n《智能涌现》：家庭和工厂场景，最大的区别是什么？\n许华哲：家庭和工厂某种程度上都是“混乱”的，但是本质上不同。工厂的混乱更多是“管理混乱”，比如东西乱扔、人走来走去，但它具体干的活，比如上下料、装配是高度确定性的。\n家里的混乱是任务本身的混乱，\n比如衣服是团成一团的，杯盘狼藉需要收拾，这种混乱是需要通过工作去恢复秩序的。工厂的很多混乱并不需要去恢复。所以，这是两种完全不同性质的“混乱”。\n《智能涌现》：您认为当前做家庭To C机器人，最大挑战是什么？\n许华哲：\n机器人进家庭的逻辑和落地To B不同。\nTo B的账很难算，因为工厂给人形机器人干的活价值很低，一台二三十万的机器人可能相当于一个人三四年的工资，还要考虑可靠性、维护，很难回本。再加上工厂里采集的数据可能过于专化。\nTo C的账不是简单的“替代人力”计算。它更像\n科技潮品+家庭助手+管家\n的复合体。用户买它，是购买一种先锋的生活方式、极致的便利，就像二十年前大家买车一样。我们考虑的是，当用户有一笔预算时，是买辆车还是买个能改变生活的机器人。\n所以，关键是产品体验要足够好，价值感知要足够强。价格区间我们内部还在讨论，但肯定会是五位数起步。\n追求泛化，也是追求美和影响力\n《智能涌现》：所以To C并不是您离开星海图后才有的想法，而是一贯的想法？\n许华哲：是的。我从小就想做To C，想创业。初高中的时候读《乔布斯传》、《迪士尼传》，读完了就很想创业，做一个像谷歌一样的公司，后来选电子系也是想要做IT，大学还修了管理学双学位，就是为了创业做铺垫。\n后面去了伯克利、斯坦福，也是一直在做强化学习和机器人，后来还做了一些触觉相关的研究，也是在机器人大类里。\n我博士毕业时（2021年），主要就是找教职还有找投资人聊，看看有没有创业机会，当时普遍观感是，下一代技术还远，这一代技术就是做扫地机、餐馆机器人，但是和AI关系不大，没看到特别匹配我专业技能的创业机会。\n《智能涌现》：你判断一件事情做与不做，或者谈论你对某件事是否感兴趣时，你的标准是什么？\n许华哲：一个是美，这件事要能给我带来好的审美体验。另一个是影响力，我们学术圈有一个词叫impact追问。\n美，更多是个人体验，我做这件事创造出来的东西是优雅、简洁的，就像简单的公式能描述复杂的现象，泛化性的本质也是美；影响力意味着，我做的这件事要能对世界产生足够大的影响，改变人们的生活方式。\n现在我们被迫用巨大的参数量来描述世界，是因为我们还没找到AI领域的牛顿定律，\n我相信大模型只是一个中间状态。\n我的博士生涯是带着“AI一定存在一个优美理论”的心理开始的，但后来发现理论越来越解释不了AI，这是一个痛苦但必须接受的过程。\n所以现在我的使命是追求简洁和影响力，如果有另一个公式（而不是AI模型）能描述机器人与世界的所有交互，我会觉得它更好。\n《智能涌现》：这次创业你希望找到什么样的合作伙伴？你会更欣赏什么样的公司文化？\n许华哲：我对合作伙伴和团队文化有三个核心要求——\n极致：\n我很喜欢戴密斯·哈萨比斯那本传记里的描述，里面说，一个人做事要做到什么程度，就像跑马拉松撞线后，有个救护车把你拉走了，但是你最后没死。虽然有点夸张，但是我觉得做事极致投入，永远想更进一步，是很重要的。\n坦诚：\n对自己、对同事、对事情绝对坦诚。不会因为不会而装会，搞砸了就承认，不要为了面子影响效率。\n利他：\n公司里有很多“缝隙”，如果每个人都只盯着自己的KPI，这些缝就没人填。对于初创公司，需要每个人在有余力时主动填缝，这种利他性长期看对个人和团队成长都有益。\n（作者注：戴密斯·哈萨比斯（Demis Hassabis）是英国著名人工智能科学家、Google DeepMind 联合创始人兼CEO、神经科学家，被誉为“AlphaGo之父”。）\n我很欣赏段永平的“本分文化”，也欣赏前段时间一篇报道中提到的，Kimi“没有部门墙”的协作模式，我倾向于弹性、扁平的组织，很赞同黄仁勋、亚马逊那种鼓励一线员工直接向老板直接发邮件反馈问题的文化。\n做全新物种的家庭机器人\n《智能涌现》：很多To C的机器人是曲线救国，先从陪伴场景切入，但是感觉你们的您的产品路径和其他家很不一样。\n许华哲：完全不一样。他们做的是陪伴，核心能力是大模型提供的对话能力和娱乐。我们追求的\n核心是物理世界的通用交互和干活能力。\n我们的机器人是“家庭助理”，要能实际处理家务，所以在技术上，我们需要非常强的模型能力来保证通用性，但是很多家庭陪伴机器人是没做基础模型的。本质上，我们和他们是两个不同的品类。\n《智能涌现》：你们最主要的技术的差异点是在模型侧吗？\n许华哲：我们的一大亮点我们的模型能\n用好强化学习\n。过去机器人对强化学习的使用一般停留在单机的后训练上，但是其实强化学习上有很多自己独特的东西。\n第一个就是价值函数（value function）。\n价值函数\n可以对数据质量进行评估，让模型知道哪些数据好、哪些次优、哪些失败。数据带着权重，去让模型学习。\n它带来的好处有两个，一是可以让模型学得更精准，二是可以理解失败的边界，这样模型就能够知道紧邻着成功的失败长什么样，让强化学习去把这些失败因素排除掉；\n第二是，强化学习能同时在多个任务上保持高成功率高速度，而不过度拟合到单一任务。\n第三是，强化学习也可以突破人类数据上限。以前我们用人采集的数据去做某件事，数据是什么样的，机器人就能做到怎么样的，甚至会更差，因为机器人是跟着数据学习的。\n但是强化学习就是根据数据以及后续的自我改进，持续突破自己的上限，最终可能做出比人类示范数据更好的表现，上限更高。\n《智能涌现》：你们的强化学习只用在后训练上吗？\n许华哲：我们的预训练也会用离线的强化学习。预训练现在还是有一些卡点的，比如说模型的选择上有很多种，市面上有用VLA+VLM的，也有世界模型的，还有VLWAM，就是VLM后面再内嵌一个世界模型。\n《智能涌现》：那你们还是用VLA的路线吗？\n许华哲：现在模型的路线还远远没有收敛，我们的选择是\n世界模型结合原生的机器人模型，不是用VLA的路线。\n《智能涌现》：现在的世界模型有很多派别，有的人用的是偏3D视频的方向，有的又是偏向于世界仿真，你们对世界模型的理解方式是什么？\n许华哲：我们输入的是视频和动作，在训练和推理的时候，输出的也是视频和动作。这些视频和动作里面是遵循物理规律的真实世界的数据。\n《智能涌现》：你们做这些事情的过程中，遇到的最大的挑战是什么？\n许华哲：要训练大模型所需的Infra\n（基础设施）是一个挺大的卡点，因为我们想做一个32B的大模型，要支撑比较大的数据量，GPU\n集群的并行效率、数据吞吐都是一个很大的挑战和壁垒。\n《智能涌现》：在模型侧你们提到了一项“UAG”架构，这个怎么理解？\n许华哲：UAG（Unconditioned Action Guidance）是我们的一种模型训练架构。\n相对于传统的瀑布式级联的模型训练方式，我们采用的是一种并联的方式，核心思想是\n先对动作进行预训练，然后再对所有的动作做整体联合的训练，做一个动作预测器，然后再将动作预测器和视觉模型一起进行联合训练。\n背后的原理是，一个小时的图片、视频是巨大的，但是一个小时的动作很少，可能就是一系列关节的运动，也就是一堆小的浮点数。\n这种方式可以最大程度保留基础模型的泛化能力，同时大幅提升训练效率，\n估计至少5倍以上。\n《智能涌现》：数据也是你们新公司的亮点，你们大概有哪些方案？\n许华哲：我们的数据方案主要分三层——\n①外骨骼数据采集：\n提着机器人手臂直接操作，精度高，反馈更直接；\n②UMI方案：\n让人戴一个和机器人手部构型完全一样的“硬手套”进行操作，好处是没有机械臂的负担，采集效率高，数据量大。手套做硬是为了保持和机器人手的一致性，确保人能做的动作机器人都能做；\n③第一人称视角人类数据：\n在头上戴一个摄像头，记录人日常干活的视频。这是从人的视角（Ego-centric）采集海量自然行为数据。\n《智能涌现》：这些采集方式其他家也在探索，你们最大的不同点在哪？\n许华哲：采集的数据，表层方法可能相似，但内核有本质不同。比如umi手套是否打磨得足够好，足够通用？采集的数据质量如何保证？以及如何清洗和处理这些数据，提升数据质量？\n我们一个很大的不同是，我们会大量使用评估数据，就是机器人自己做测试和探索的时候，自己在动的数据。这样的数据某种意义上是更“差”的数据，因为里面会有失败、会有次优。但是这种“差”其实也是“好”，会让模型更知道任务的目标是什么。\n另外，手套的设计细节，比如摄像头位置、佩戴舒适度、是否适应不同手型等等，都需要针对家庭任务精心打磨，我们手套的构型设计是面向家庭任务，追求通用性的。我们会在8月末左右给大家看到我们和现在所有的形态都不一样的数采系统。\n《智能涌现》：但是现在出来创业会不会太晚了？现在具身智能行业的融资环境怎么样？\n许华哲：市场热度还可以，投资人还是比较有热情的。和之前比，投资人更懂了，大家被市场教育过一轮，所以会问得更细。\n关于创业出来是否太晚，我认为——在技术没有收敛的今天，仍然有巨大的机会。同时，因为我们更晚，所以我们的时间压力更小、负担更小，但是各种基础设施比如本体等也更加成熟了。另一方面，走向通用家庭机器人，其实才刚上半场。虽然后发，但是谁能先至，也未可知。\n封面来源｜企业官方\nend",
-    "content_source": "readability",
-    "content_chars": 7376,
-    "content_excerpt": "文｜邱晓芬\n编辑｜苏建勋\n2026年，全球的具身智能机器人创业者不约而同将目光方向调转向深水区：家庭。\n点燃这份热情的，是近期行业里闪烁着的一丝丝Scaling Law苗头——\n先是硅谷具身智能公司Generalist AI在GEN-1模型上验证了确定性，当他们给机器人喂进海量数据后，精细操作任务成功率竟从64%提升到了惊人的99%；\n随后，硅谷当红的具身智能独角兽公司Sunday Robotics也试图解决家庭场景数据难关，不仅推出Umi手套数据采集方案，还直接将机器人Memo送进家庭做家务（收拾餐做、冲咖啡、叠衣服），因此吸引了大量的资本押注。\n在大洋彼岸的中国，近期闯入家庭机器人领域的创业者中，还有一个熟悉的身影——许华哲。\n“两年内，中国将会出现可用的家庭机器人”，他对于行业的判断，同样乐观且激进。\n作为“伯克利归国四子之一”、清华大学交叉信息研究院助理教授，2023年，许华哲曾加入「星海图」任前首席科学家兼联合创始人，一起将这家公司打造成中国具身智能领域的明星公司。\n不过，在这家公司估值冲破200亿、融资近30亿的巅峰时刻，许华哲又选择“单飞”并创办了全新的具身智能公司「破壳机器人」。",
-    "title_zh": "许华哲再创业做家庭机器人：具身智能开始从工厂转向家庭深水区",
-    "ai_summary": "许华哲的新公司押注家庭场景，想用世界模型和真实数据把“可用的家庭机器人”提前两年做出来。",
-    "summary_zh": "36氪报道，前星海图联创许华哲创办“破壳机器人”，判断中国两年内会出现真正可用的家庭机器人。与不少同行先做工厂自动化不同，他选择直接押注更复杂的家庭环境，并尝试用世界模型、强化学习和多层数据采集，把机器人泛化能力提前拉到可落地水平。",
-    "takeaways": [
-      "许华哲没有继续沿着工业场景小步验证，而是直接押注更难但更接近通用智能的家庭场景。",
-      "团队放弃主流 VLA 路线，转向视频-动作世界模型，希望提升长任务与复杂环境下的泛化能力。",
-      "如果家庭机器人真能在两年内进入“可用”阶段，具身智能竞争会从实验室 Demo 转向真实家庭服务能力。"
-    ],
-    "rewrite_body": "过去一年，具身智能最常见的叙事是先去工厂、仓库、产线找确定性场景，把机器人一点点训练成熟。但许华哲这次重新创业，给出的判断更激进：真正能拉开行业差距的，不是把机器人继续塞进更标准化的流程里，而是直接去家庭这种最复杂、最混乱、也最接近通用智能的环境里训练和落地。\n\n这也是“破壳机器人”最值得关注的地方。作为曾参与打造星海图的技术负责人，许华哲这次没有继续追逐行业里最主流的 VLA 基座方案，而是想做一套更强调世界模型和视频-动作直接映射的系统。换句话说，他想让机器人不只是“看懂一句话再执行一个动作”，而是更像在连续理解环境、预测变化并完成一串连贯任务。对家庭场景来说，这比单点动作精度更关键，因为家庭从来不是固定工位，任务也不是标准节拍。\n\n报道里反复提到的一个核心判断是：家庭环境虽然更难，但也因此更接近 AGI 需要面对的真实世界。厨房、衣物、餐具、杂物、临时变化的指令，都会逼着机器人建立更强的泛化能力。许华哲认为，如果一直把机器人关在工厂里做高度结构化任务，某种程度上只是在用更贵的硬件替代原本就能被自动化解决的工作，还没有真正触及“通用家庭助手”这件事。\n\n这并不意味着团队在商业上完全理想主义。相反，文章里已经给出一条比较完整的工程路径：在模型上尝试 UAG 架构，把强化学习贯穿预训练与部署；在数据上用 UMI、外骨骼和第一人称视角采集高质量操作样本；在硬件上同步迭代本体，尽快形成数据、模型和实体系统之间的闭环。资本也正是看中了这条路径，才会在公司创立极早期就押下数千万美元天使轮。\n\n这条新闻真正值得看，不在于“家庭机器人要来了”这句口号本身，而在于一批顶尖团队已经不满足于做会搬箱子的机器人，开始把最难的家庭场景当成主战场。如果接下来两年里，这类公司真能把洗衣收纳、台面整理、连续家务这些任务做出稳定样本，具身智能行业的评价标准就会明显改变：大家比的将不再是谁的视频更炫，而是谁先把机器人变成家里真的愿意长期使用的工具。"
-  },
-  {
-    "id": "reddit-1swng6j",
-    "title": "Car Wash Mystery solved--Tool Call Degrades Intelligence.",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1swng6j/car_wash_mystery_solvedtool_call_degrades/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T23:48:14",
-    "summary": "I asked the OG question to the kimi k2.5: *\"I want to wash my car and the car wash is just 10 metres away. Should I walk or drive there?\"* **Kimi-k2.5 via NIM -- Three Modes.** I tested three modes: no tools, XML pseudo-tools, and JSON schema tools. \"Tools\" here means web search + Python in a Docker",
-    "points": 23,
-    "collected_at": "2026-04-27T10:11:32.212259",
-    "title_zh": "洗车之谜解开——工具调用降低智力。",
-    "summary_zh": "我向 kimi k2.5 提出了 OG 问题： *“我想洗车，洗车场就在 10 米之外。我应该步行还是开车去那里？”* **Kimi-k2.5 通过 NIM -- 三种模式。** 我测试了三种模式：无工具、XML 伪工具和 JSON 模式工…",
-    "ai_summary": "我向 kimi k2.5 提出了 OG 问题： *“我想洗车，洗车场就在 10 米之外。我应该步行还是开车去那里？”*…"
-  },
-  {
-    "id": "3379457e4d20",
-    "title": "8点1氪丨豆包提前查到2026山东事业编成绩？最新回应；东方甄选主播集体离职，俞敏洪回应；花呗白条月付等面临重大调整",
-    "url": "https://36kr.com/p/3784311487945735?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-27T00:03:45",
-    "summary": "今日热点导览 美国白宫记者晚宴大厅发生枪击事件 王传福夫妇坐地铁参加北京车展被偶遇 DeepSeekV4成OpenClaw默认模型 2025年全国大型演唱会票房295.58亿 OpenAI首席执行官就未通报枪击案嫌疑人道歉 TOP3大新闻 豆包提前查到2026山东事业编成绩？最新回应 4月23日晚间，有网友发帖称，“豆包查到2026山东事业编成绩了”，并附上一张成绩单，但成绩部分涂掉了。“不过好像只有济南槐荫区的能查，是不是属实咱也不知道，到底啥情况呀？”4月24日，记者联系上该网友了解到，帖子内容来自其他网友，但目前原帖网友已经删除了帖子。有网友表示，AI搜集信息的能力很强大，“链接做好了还",
-    "collected_at": "2026-04-27T10:11:27.865388"
-  },
-  {
-    "id": "reddit-1swl2uw",
-    "title": "Is the era of all-you-can-eat AI ending? (i will not promote)",
-    "url": "https://reddit.com/r/artificial/comments/1swl2uw/is_the_era_of_allyoucaneat_ai_ending_i_will_not/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-26T22:05:31",
-    "summary": "I am a GitHub Copilot Pro+ user. I have been enjoying 39 dollars plan that actually is worth 60 dollars compute with 1500 premium prompts to models count based. Given the availability of free tier models and model switching option, It has felt like never ending. It will be turned into token based af",
-    "points": 22,
-    "collected_at": "2026-04-27T10:11:33.676819",
-    "title_zh": "AI吃到饱的时代结束了吗？ （我不会宣传）",
-    "summary_zh": "我是 GitHub Copilot Pro+ 用户。我一直在享受 39 美元的计划，实际上价值 60 美元的计算，并根据模型计数提供 1500 个高级提示。考虑到免费套餐模型和模型切换选项的可用性，它感觉就像永无止境。它将变成基于代币的 a…",
-    "ai_summary": "我是 GitHub Copilot Pro+ 用户。我一直在享受 39 美元的计划，实际上价值 60 美元的计算，并根据…"
-  },
-  {
-    "id": "reddit-1swkxx1",
-    "title": "Can Geometric Deep Learning lead eliminate the need of \"Brute Force\" pre-training [D]",
-    "url": "https://reddit.com/r/MachineLearning/comments/1swkxx1/can_geometric_deep_learning_lead_eliminate_the/",
-    "source": "r/MachineLearning",
-    "lang": "en",
-    "published": "2026-04-26T22:00:08",
-    "summary": "I’ve been reading about Geometric Deep Learning lately (the whole grids, graphs, groups, manifolds idea), and something clicked that i wanted to get a clarity on, i don't think i'm an expert at GDL or anything mentioned here, so i can most definitely be wrong at a fundamental level as well, A lot of",
-    "points": 37,
-    "collected_at": "2026-04-27T10:11:30.710349",
-    "title_zh": "几何深度学习能否消除“暴力”预训练的需要[D]",
-    "summary_zh": "我最近一直在阅读有关几何深度学习的内容（整个网格、图表、组、流形的想法），并且我想弄清楚一些东西，我不认为我是 GDL 或这里提到的任何内容的专家，所以我在基本层面上也肯定是错误的，很多",
-    "ai_summary": "我最近一直在阅读有关几何深度学习的内容（整个网格、图表、组、流形的想法），并且我想弄清楚一些东西，我不认为我是 GDL…"
-  },
-  {
-    "id": "reddit-1swk8x2",
-    "title": "We have zero forensic infrastructure for AI decisions",
-    "url": "https://reddit.com/r/artificial/comments/1swk8x2/we_have_zero_forensic_infrastructure_for_ai/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-26T21:31:17",
-    "summary": "I work in AI security and compliance. This just bothers me a little bit, putting AI systems in front of decisions that change people’s lives via insurance claims, hiring, credit, defense applications and when someone asks wait, why did the system do that? we basically have nothing that would hold up",
-    "points": 3,
-    "collected_at": "2026-04-27T10:11:33.678549",
-    "title_zh": "我们的人工智能决策取证基础设施为零",
-    "summary_zh": "我从事人工智能安全与合规工作。这让我有点困扰，将人工智能系统置于通过保险索赔、招聘、信贷、国防应用来改变人们生活的决策面前，当有人问等一下时，系统为什么要这样做？我们基本上没有什么可以支撑的",
-    "ai_summary": "我从事人工智能安全与合规工作。这让我有点困扰，将人工智能系统置于通过保险索赔、招聘、信贷、国防应用来改变人们生活的决策面…"
-  },
-  {
-    "id": "reddit-1swjxjx",
-    "title": "Thoughts on using an AMD Alveo V80 FPGA PCI card as a poor man’s Taalas HC1 (LLM-burned-onto-a-chip).",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1swjxjx/thoughts_on_using_an_amd_alveo_v80_fpga_pci_card/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T21:18:44",
-    "summary": "TL:DR - Remembered FPGA PCI boards being a big thing from my crypto days. Wondered if AMD Alveo V80 FPGA card could be used to approximate the performance of a Taalas HC1 (LLM-on-a-chip). Ran the idea past Gemini Pro for a feasibility / sanity check. It suggested what seemed to be a speculative deco",
-    "points": 134,
-    "collected_at": "2026-04-27T10:11:32.211724",
-    "title_zh": "关于使用 AMD Alveo V80 FPGA PCI 卡作为穷人的 Taalas HC1（LLM 烧录到芯片上）的想法。",
-    "summary_zh": "TL:DR - 记得 FPGA PCI 板是我加密时代的一件大事。想知道 AMD Alveo V80 FPGA 卡是否可用于近似 Taalas HC1（LLM-on-a-chip）的性能。将这个想法通过 Gemini Pro 进行可行性/健…",
-    "ai_summary": "TL:DR - 记得 FPGA PCI 板是我加密时代的一件大事。想知道 AMD Alveo V80 FPGA 卡是否可…"
-  },
-  {
-    "id": "reddit-1swi8f9",
-    "title": "An amateur just solved a 60-year-old math problem—by asking AI",
-    "url": "https://reddit.com/r/artificial/comments/1swi8f9/an_amateur_just_solved_a_60yearold_math_problemby/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-26T20:12:51",
-    "summary": "An amateur just solved a 60-year-old math problem—by asking AI",
-    "points": 56,
-    "collected_at": "2026-04-27T10:11:33.676698",
-    "title_zh": "一位业余爱好者刚刚通过询问 AI 解决了一道 60 年前的数学难题",
-    "summary_zh": "一位业余爱好者刚刚通过询问 AI 解决了一道 60 年前的数学难题",
-    "ai_summary": "一位业余爱好者刚刚通过询问 AI 解决了一道 60 年前的数学难题"
-  },
-  {
-    "id": "reddit-1swiy4b",
-    "title": "anyone actually tried deepseek v4 pro for coding?",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1swiy4b/anyone_actually_tried_deepseek_v4_pro_for_coding/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T20:40:26",
-    "summary": "so v4 pro dropped and barely anyone is talking about it. feels weird since when kimi k2.6 came out i seen post about it everywhere anyone here tried v4 pro for actual code work? hows it compare to k2.6 or glm 5.1 in real use?",
-    "points": 44,
-    "collected_at": "2026-04-27T10:11:32.212109",
-    "title_zh": "有人真正尝试过 deepseek v4 pro 进行编码吗？",
-    "summary_zh": "所以 v4 pro 就被放弃了，几乎没有人在谈论它。感觉很奇怪，因为当 kimi k2.6 发布时，我到处都看到关于它的帖子，这里有人尝试过 v4 pro 来进行实际的代码工作吗？实际使用中与 k2.6 或 glm 5.1 相比如何？",
-    "ai_summary": "所以 v4 pro 就被放弃了，几乎没有人在谈论它。感觉很奇怪，因为当 kimi k2.6 发布时，我到处都看到关于它的…"
-  },
-  {
-    "id": "8b3cee7d36dd",
-    "title": "AI should elevate your thinking, not replace it",
-    "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-26T20:03:12",
-    "summary": "Article URL: https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/ Comments URL: https://news.ycombinator.com/item?id=47913650 Points: 501 # Comments: 363",
-    "collected_at": "2026-04-27T10:11:22.259939",
-    "title_zh": "人工智能应该提升你的思维，而不是取代它",
-    "summary_zh": "文章网址：https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/ 评论网址：https://news.ycombinator.com/it…",
-    "ai_summary": "文章网址：https://www.koshyjohn.com/blog/ai-should-elevate-your-t…"
-  },
-  {
-    "id": "reddit-1swifke",
-    "title": "Switched from Qwen3.6 35b-a3b to Qwen3.6 27b mid coding and it's noticeably better!",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1swifke/switched_from_qwen36_35ba3b_to_qwen36_27b_mid/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T20:20:24",
-    "summary": "A bit of context. I was coding up a little html tower defense game where you can alter the path by placing additional waypoints. My setup: 32gb ram with 16gb vram 5070 ti. Using AesSedai/Qwen3.6-35B-A3B-GGUF IQ4\\_XS on LM Studio with OpenCode. I've graduated from [one-shot vibe-coding prompts](https",
-    "points": 174,
-    "collected_at": "2026-04-27T10:11:32.210743",
-    "title_zh": "从 Qwen3.6 35b-a3b 切换到 Qwen3.6 27b mid 编码，明显更好！",
-    "summary_zh": "一些背景。我正在编写一个小型 html 塔防游戏，您可以通过放置额外的路径点来改变路径。我的设置：32GB RAM 和 16GB VRAM 5070 Ti。在带有 OpenCode 的 LM Studio 上使用 AesSedai/Qwen…",
-    "ai_summary": "一些背景。我正在编写一个小型 html 塔防游戏，您可以通过放置额外的路径点来改变路径。我的设置：32GB RAM 和…"
-  },
-  {
-    "id": "v2ex-1208695",
-    "title": "[物理机自建] 首发适配 GPT-5.5， 0.065 超低倍率！新站开业注册送 $5，回帖留 ID 再送 $5 额度",
-    "url": "https://www.v2ex.com/t/1208695",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-26T17:21:50",
-    "summary": "各位 V 友大家好， 最近折腾跑通了一个 AI API 的中转服务。拒绝廉价 VPS 转发，底层是实打实租用物理机服务器搭建的（每月硬扛 100 多刀成本），主打一个极速直连、高并发不掉线。 🚀 **核心亮点：** - **最新模型接入：** 已全面适配最新的 GPT-5.5 ，响应速度非常顶。 - **极致性价比：** 0.065 超低倍率，欢迎对比测速。 - **开发者友好：** 完美兼容 Cursor 、ClaudeCode 、OpenClaw 等各类 AI 自动化开发工具。 🎁 **开业限时福利（两步拿满 $10 ，畅跑大模型）：** 1. **注册填码送 $5：** 注册账号时，请务",
-    "collected_at": "2026-04-27T10:11:34.315733"
-  },
-  {
-    "id": "reddit-1swhw84",
-    "title": "What is the best coding agent (CLI) like Claude Code for Local Development",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1swhw84/what_is_the_best_coding_agent_cli_like_claude/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T20:00:03",
-    "summary": "Hey all: I am trying to set up claude code to work with llama.cpp, I am using the Qwen3.6-35B-A3B. I usually use claude code + ZLM subscription i got lucky with $30 yearly - the set up is very simple with their automated script, but for the life of me I cannot figure out how to get claude code to wo",
-    "points": 115,
-    "collected_at": "2026-04-27T10:11:32.211882",
-    "title_zh": "什么是最好的编码代理 (CLI)，例如 Claude Code for Local Development",
-    "summary_zh": "大家好：我正在尝试设置克劳德代码以与 llama.cpp 一起使用，我正在使用 Qwen3.6-35B-A3B。我通常使用 claude code + ZLM 订阅，我很幸运，每年 30 美元 - 使用他们的自动化脚本设置非常简单，但对于我…",
-    "ai_summary": "大家好：我正在尝试设置克劳德代码以与 llama.cpp 一起使用，我正在使用 Qwen3.6-35B-A3B。我通常使…"
-  },
-  {
-    "id": "f6f35946da20",
-    "title": "An AI agent deleted our production database. The agent's confession is below",
-    "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-26T16:27:29",
-    "summary": "Article URL: https://twitter.com/lifeof_jer/status/2048103471019434248 Comments URL: https://news.ycombinator.com/item?id=47911524 Points: 692 # Comments: 836",
-    "collected_at": "2026-04-27T10:11:22.259986",
-    "title_zh": "人工智能代理删除了我们的生产数据库。经纪人的自白如下",
-    "summary_zh": "文章网址：https://twitter.com/lifeof_jer/status/2048103471019434248 评论网址：https://news.ycombinator.com/item?id=47911524 积分：692…",
-    "ai_summary": "文章网址：https://twitter.com/lifeof_jer/status/20481034710194342…"
-  },
-  {
-    "id": "17968030620c",
-    "title": "To buy this Bay Area home, you’ll need Anthropic equity",
-    "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-26T15:30:00",
-    "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
-    "collected_at": "2026-04-27T10:11:16.778836",
-    "title_zh": "要购买湾区的房屋，您需要 Anthropic 股权",
-    "summary_zh": "有人正在以不寻常的价格出售位于南弗朗西斯科北部米尔谷的一处 13 英亩土地",
-    "ai_summary": "有人正在以不寻常的价格出售位于南弗朗西斯科北部米尔谷的一处 13 英亩土地"
-  },
-  {
-    "id": "reddit-1swa26o",
-    "title": "Why do only big ML labs dominate widely-used models despite many open-source pretrained models smaller labs could do RL on? [D]",
-    "url": "https://reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused/",
-    "source": "r/MachineLearning",
-    "lang": "en",
-    "published": "2026-04-26T15:09:10",
-    "summary": "I’m trying to understand why models from major labs (GPT, Claude, etc.) dominate real-world usage? You might say it's due to the expensive pretraining compute budge, but there already exists many pretrained open-source models at the same scale (e.g., Kimi). Of course Kimi isn't as good as Claude, bu",
-    "points": 46,
-    "collected_at": "2026-04-27T10:11:30.710873",
-    "title_zh": "尽管小型实验室可以使用许多开源预训练模型进行强化学习，但为什么只有大型机器学习实验室才能主导广泛使用的模型？ [D]",
-    "summary_zh": "我试图理解为什么来自主要实验室（GPT、Claude 等）的模型在现实世界中占主导地位？您可能会说这是由于昂贵的预训练计算预算，但已经存在许多相同规模的预训练开源模型（例如 Kimi）。当然Kimi不如Claude，但是",
-    "ai_summary": "我试图理解为什么来自主要实验室（GPT、Claude 等）的模型在现实世界中占主导地位？您可能会说这是由于昂贵的预训练计…"
-  },
-  {
-    "id": "reddit-1sw9w50",
-    "title": "Someone used AI to explain a Dune passage warning against using AI to do your thinking. That's the whole debate",
-    "url": "https://reddit.com/r/artificial/comments/1sw9w50/someone_used_ai_to_explain_a_dune_passage_warning/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-26T15:02:47",
-    "summary": "The Globe and Mail's editorial board ran a piece in March titled \"AI can be a crutch, or a springboard.\" To illustrate the crutch half, they offered this: someone asked AI to explain a passage from Dune that warns against delegating thinking to machines. Instead of reading the book. That anecdote is",
-    "points": 10,
-    "collected_at": "2026-04-27T10:11:33.678080",
-    "title_zh": "有人使用人工智能来解释沙丘段落，警告不要使用人工智能来思考。这就是整个辩论的过程",
-    "summary_zh": "《环球邮报》的编辑委员会在三月份发表了一篇题为“人工智能可以是拐杖，也可以是跳板”的文章。为了说明拐杖的一半，他们提供了这样的内容：有人要求人工智能解释《沙丘》中的一段话，该话警告不要将思维委托给机器。而不是看书。那则轶事是",
-    "ai_summary": "《环球邮报》的编辑委员会在三月份发表了一篇题为“人工智能可以是拐杖，也可以是跳板”的文章。为了说明拐杖的一半，他们提供了…"
-  },
-  {
-    "id": "reddit-1sw77p0",
-    "title": "HauhauCS (of \"Uncensored Aggressive\" fame) published an abliteration package that plagiarizes Heretic without attribution, and violates its license",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sw77p0/hauhaucs_of_uncensored_aggressive_fame_published/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-26T13:13:26",
-    "summary": "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau901)) publishes uncensored LLM models on [HuggingFace](https://huggingface.co/HauhauCS) with 5M+ combined monthly downloads across 22 models (verified via the HuggingFace API, April 2026). Every model card claims \"0/465 refusals, zero capabil",
-    "points": 691,
-    "collected_at": "2026-04-27T10:11:32.210603",
-    "title_zh": "HauhauCS（因“Uncensored Aggressive”而闻名）发布了一个删节包，该包在未注明出处的情况下抄袭了 Heretic，并违反了其许可",
-    "summary_zh": "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau901)) 在 [HuggingFace](https://huggingface.co/HauhauCS) 上发布未经审查…",
-    "ai_summary": "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau90…"
-  },
-  {
     "id": "hn-47679121",
     "title": "Project Glasswing: Securing critical software for the AI era",
     "url": "https://www.anthropic.com/glasswing",
@@ -4678,7 +5134,18 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-01T13:13:48.960337"
+    "collected_at": "2026-05-02T09:53:53.191204"
+  },
+  {
+    "id": "reddit-1suw9on",
+    "title": "AMA Announcement: Nous Research, The Opensource Lab Behind Hermes Agent (Wednesday, 8AM-11AM PST)",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1suw9on/ama_announcement_nous_research_the_opensource_lab/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-24T23:52:19",
+    "summary": "Hi r/LocalLLaMA 👋 We're excited for Wednesday's guests, **The Nous Research Team!** **Kicking things off Wednesday, April. 29th, 8 AM–11 AM PST** ⚠️ **Note:** The AMA itself will be hosted in a **separate thread,** please don’t post questions here.",
+    "points": 127,
+    "collected_at": "2026-05-02T09:53:55.870189"
   },
   {
     "id": "hn-47363754",
@@ -4689,7 +5156,18 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-01T13:13:48.960479"
+    "collected_at": "2026-05-02T09:53:53.191386"
+  },
+  {
+    "id": "reddit-1sknx6n",
+    "title": "Best Local LLMs - Apr 2026",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1sknx6n/best_local_llms_apr_2026/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-13T21:00:57",
+    "summary": "We're back with another Best Local LLMs Megathread! *We have continued feasting in the months since the previous thread with the much anticipated release of the Qwen3.5 and Gemma4 series. If that wasn't enough, we are having some scarcely believable moments with GLM-5.1 boasting SOTA level performan",
+    "points": 469,
+    "collected_at": "2026-05-02T09:53:55.870314"
   },
   {
     "id": "hn-47340079",
@@ -4700,7 +5178,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-01T13:13:48.960077"
+    "collected_at": "2026-05-02T09:53:53.190890"
   },
   {
     "id": "hn-47225130",
@@ -4711,7 +5189,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-01T13:13:48.960522"
+    "collected_at": "2026-05-02T09:53:53.191447"
   },
   {
     "id": "hn-47136179",
@@ -4722,7 +5200,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-01T13:13:48.960186"
+    "collected_at": "2026-05-02T09:53:53.191030"
   },
   {
     "id": "hn-46990729",
@@ -4733,7 +5211,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-01T13:13:48.960153"
+    "collected_at": "2026-05-02T09:53:53.190988"
   },
   {
     "id": "hn-46574276",
@@ -4744,7 +5222,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-05-01T13:13:48.960636"
+    "collected_at": "2026-05-02T09:53:53.191602"
   },
   {
     "id": "hn-45941596",
@@ -4755,7 +5233,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-01T13:13:48.960534"
+    "collected_at": "2026-05-02T09:53:53.191464"
   },
   {
     "id": "hn-45930151",
@@ -4766,7 +5244,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-01T13:13:48.960575"
+    "collected_at": "2026-05-02T09:53:53.191520"
   },
   {
     "id": "hn-45722069",
@@ -4777,7 +5255,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-05-01T13:13:48.960624"
+    "collected_at": "2026-05-02T09:53:53.191585"
   },
   {
     "id": "hn-44972151",
@@ -4788,7 +5266,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-01T13:13:48.960278"
+    "collected_at": "2026-05-02T09:53:53.191127"
   },
   {
     "id": "hn-44396518",
@@ -4799,7 +5277,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-01T13:13:48.960436"
+    "collected_at": "2026-05-02T09:53:53.191327"
   },
   {
     "id": "hn-44314423",
@@ -4810,7 +5288,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-01T13:13:48.960492"
+    "collected_at": "2026-05-02T09:53:53.191404"
   },
   {
     "id": "hn-44163063",
@@ -4821,7 +5299,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-01T13:13:48.960128"
+    "collected_at": "2026-05-02T09:53:53.190954"
   },
   {
     "id": "hn-42910910",
@@ -4832,7 +5310,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-01T13:13:48.960291"
+    "collected_at": "2026-05-02T09:53:53.191144"
   },
   {
     "id": "hn-41392128",
@@ -4843,7 +5321,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-01T13:13:48.960204"
+    "collected_at": "2026-05-02T09:53:53.191053"
   },
   {
     "id": "hn-41386319",
@@ -4854,7 +5332,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-01T13:13:48.960218"
+    "collected_at": "2026-05-02T09:53:53.191071"
   },
   {
     "id": "hn-41069829",
@@ -4865,7 +5343,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-01T13:13:48.960589"
+    "collected_at": "2026-05-02T09:53:53.191538"
   },
   {
     "id": "hn-41046773",
@@ -4876,7 +5354,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-01T13:13:48.960114"
+    "collected_at": "2026-05-02T09:53:53.190937"
   },
   {
     "id": "hn-40767459",
@@ -4887,7 +5365,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-01T13:13:48.960602"
+    "collected_at": "2026-05-02T09:53:53.191557"
   },
   {
     "id": "hn-39918245",
@@ -4898,7 +5376,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-01T13:13:48.960547"
+    "collected_at": "2026-05-02T09:53:53.191482"
   },
   {
     "id": "hn-39526057",
@@ -4909,7 +5387,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-01T13:13:48.960099"
+    "collected_at": "2026-05-02T09:53:53.190917"
   },
   {
     "id": "hn-38544729",
@@ -4920,7 +5398,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-01T13:13:48.960165"
+    "collected_at": "2026-05-02T09:53:53.191004"
   },
   {
     "id": "hn-37021160",
@@ -4931,7 +5409,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-01T13:13:48.960305"
+    "collected_at": "2026-05-02T09:53:53.191163"
   },
   {
     "id": "hn-31812259",
@@ -4942,7 +5420,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-01T13:13:48.960504"
+    "collected_at": "2026-05-02T09:53:53.191421"
   },
   {
     "id": "hn-18249755",
@@ -4953,7 +5431,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-01T13:13:48.960263"
+    "collected_at": "2026-05-02T09:53:53.191107"
   },
   {
     "id": "hn-17022963",
@@ -4964,7 +5442,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-01T13:13:48.960250"
+    "collected_at": "2026-05-02T09:53:53.191091"
   },
   {
     "id": "hn-15892066",
@@ -4975,7 +5453,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-01T13:13:48.960465"
+    "collected_at": "2026-05-02T09:53:53.191368"
   },
   {
     "id": "hn-6830566",
@@ -4986,6 +5464,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-01T13:13:48.960558"
+    "collected_at": "2026-05-02T09:53:53.191497"
   }
 ]
