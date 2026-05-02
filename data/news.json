@@ -260,6 +260,16 @@
     "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/comments/1t1dl9y/are_you_quanting_your_memory/"
   },
   {
+    "id": "v2ex-1209937",
+    "title": "AI 时代， Java 中短期的地位不降反增",
+    "url": "https://www.v2ex.com/t/1209937",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-02T02:37:01",
+    "summary": "AI 的兴起在 Java 面前只能算是一个稚童。 一些人借 AI 炒热度造铲子，搞得像新兴的邪修门派功法，并借此开宗立派喊口号，一度造成了几十年的名门正派中的内外门弟子都感觉马上要被颠覆的错觉。 但在真正的 AGI 到来前，AI 不会颠覆现在的传统编程语言，只会融入到传统编程语言中，这种新兴的理念会被名门正派所吸收。 Java 在企业级场景下占据主导地位。现实世界的逻辑是大量 Java 基建项目与 AI 结合，在原有的商业闭环中迭代与进步，这也是 Java 8 这些年屹立不动的原因——而不是幻想着用 AI 加上一门轻量快速的编程语言，就能随时造出商业铲子、一人 OPC 改变命运。 商业的本质是",
+    "collected_at": "2026-05-02T12:58:27.177573"
+  },
+  {
     "id": "reddit-1t1d0oe",
     "title": "What to build while we still have access to cheap AI?",
     "url": "https://reddit.com/r/artificial/comments/1t1d0oe/what_to_build_while_we_still_have_access_to_cheap/",
@@ -273,6 +283,16 @@
     "summary_zh": "人工智能公司正在为访问提供补贴，就像早期 Uber 补贴乘车和 AWS 补贴计算一样——烧钱来抢占市场份额。您只需花费实际运行成本的一小部分即可获得 GPT-4 和 Claude Opus 级别的智能。这不会持续太久。当单位经济效益已经达到",
     "ai_summary": "人工智能公司正在为访问提供补贴，就像早期 Uber 补贴乘车和 AWS 补贴计算一样——烧钱来抢占市场份额。您只需花费实…",
     "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1t1d0oe/what_to_build_while_we_still_have_access_to_cheap/"
+  },
+  {
+    "id": "v2ex-1209933",
+    "title": "2026 年 5 月，最新的穷鬼 AI 套餐有哪些？",
+    "url": "https://www.v2ex.com/t/1209933",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-02T01:46:37",
+    "summary": "月租 50 人民币以内，之前有 codex plus ， 现在已经没法开通了。 还有没有其他的平替呢？天才程序员已经陨落了两天了。",
+    "collected_at": "2026-05-02T12:58:27.177598"
   },
   {
     "id": "d780c4cb65d5",
@@ -4572,18 +4592,15 @@
     "ai_summary": "中国已要求 Meta 解除其价值数十亿美元的 Manus 收购案，这对扎克伯格进军人工智能领域的进程可能造成阻碍"
   },
   {
-    "id": "reddit-1sx35es",
-    "title": "INT8 quantization gives me better accuracy than FP16 ! [D]",
-    "url": "https://reddit.com/r/MachineLearning/comments/1sx35es/int8_quantization_gives_me_better_accuracy_than/",
-    "source": "r/MachineLearning",
+    "id": "hn-47679121",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "Hacker News",
     "lang": "en",
-    "published": "2026-04-27T13:06:41",
-    "summary": "Hi everyone, I’m working on a deep learning model and I noticed something strange. When I compare different precisions: FP32 (baseline) FP16 , INT8 (post-training quantization) I’m getting better inference accuracy with INT8 than FP16, which I didn’t expect. I thought FP16 should be closer to FP32 a",
-    "points": 10,
-    "collected_at": "2026-04-28T10:53:45.222894",
-    "title_zh": "INT8 量化比 FP16 提供更好的精度！ [D]",
-    "summary_zh": "大家好，我正在研究深度学习模型，我注意到一些奇怪的事情。当我比较不同的精度时：FP32（基线）FP16、INT8（训练后量化），我使用 INT8 获得了比 FP16 更好的推理精度，这是我没想到的。我认为 FP16 应该更接近 FP32 a",
-    "ai_summary": "大家好，我正在研究深度学习模型，我注意到一些奇怪的事情。当我比较不同的精度时：FP32（基线）FP16、INT8（训练后…"
+    "published": "2026-04-07T18:09:34Z",
+    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
+    "points": 1541,
+    "collected_at": "2026-05-02T12:58:26.819202"
   },
   {
     "id": "d26cae5cca28",
@@ -4600,17 +4617,6 @@
     "ai_summary": "关于 OpenAI 的硬件计划有很多传言，其中涉及推出一对耳机。行业分析师郭明池的一份新报告表明，这家人工智能公司可能正…"
   },
   {
-    "id": "hn-47679121",
-    "title": "Project Glasswing: Securing critical software for the AI era",
-    "url": "https://www.anthropic.com/glasswing",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-07T18:09:34Z",
-    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
-    "points": 1541,
-    "collected_at": "2026-05-02T10:38:35.155640"
-  },
-  {
     "id": "hn-47363754",
     "title": "Can I run AI locally?",
     "url": "https://www.canirun.ai/",
@@ -4619,7 +4625,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-02T10:38:35.155740"
+    "collected_at": "2026-05-02T12:58:26.819307"
   },
   {
     "id": "hn-47340079",
@@ -4630,7 +4636,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-02T10:38:35.155360"
+    "collected_at": "2026-05-02T12:58:26.818952"
   },
   {
     "id": "hn-47225130",
@@ -4641,7 +4647,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-02T10:38:35.155783"
+    "collected_at": "2026-05-02T12:58:26.819353"
   },
   {
     "id": "hn-47136179",
@@ -4652,7 +4658,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-02T10:38:35.155466"
+    "collected_at": "2026-05-02T12:58:26.819068"
   },
   {
     "id": "hn-46990729",
@@ -4663,7 +4669,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-02T10:38:35.155435"
+    "collected_at": "2026-05-02T12:58:26.819032"
   },
   {
     "id": "hn-46574276",
@@ -4674,7 +4680,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-05-02T10:38:35.155899"
+    "collected_at": "2026-05-02T12:58:26.819475"
   },
   {
     "id": "hn-45941596",
@@ -4685,7 +4691,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-02T10:38:35.155795"
+    "collected_at": "2026-05-02T12:58:26.819366"
   },
   {
     "id": "hn-45930151",
@@ -4696,7 +4702,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-02T10:38:35.155839"
+    "collected_at": "2026-05-02T12:58:26.819409"
   },
   {
     "id": "hn-45722069",
@@ -4707,7 +4713,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-05-02T10:38:35.155887"
+    "collected_at": "2026-05-02T12:58:26.819462"
   },
   {
     "id": "hn-44972151",
@@ -4718,7 +4724,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-02T10:38:35.155583"
+    "collected_at": "2026-05-02T12:58:26.819142"
   },
   {
     "id": "hn-44396518",
@@ -4729,7 +4735,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-02T10:38:35.155708"
+    "collected_at": "2026-05-02T12:58:26.819273"
   },
   {
     "id": "hn-44314423",
@@ -4740,7 +4746,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-02T10:38:35.155753"
+    "collected_at": "2026-05-02T12:58:26.819321"
   },
   {
     "id": "hn-44163063",
@@ -4751,7 +4757,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-02T10:38:35.155409"
+    "collected_at": "2026-05-02T12:58:26.819004"
   },
   {
     "id": "hn-42910910",
@@ -4762,7 +4768,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-02T10:38:35.155597"
+    "collected_at": "2026-05-02T12:58:26.819156"
   },
   {
     "id": "hn-41392128",
@@ -4773,7 +4779,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-02T10:38:35.155483"
+    "collected_at": "2026-05-02T12:58:26.819085"
   },
   {
     "id": "hn-41386319",
@@ -4784,7 +4790,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-02T10:38:35.155496"
+    "collected_at": "2026-05-02T12:58:26.819099"
   },
   {
     "id": "hn-41069829",
@@ -4795,7 +4801,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-02T10:38:35.155852"
+    "collected_at": "2026-05-02T12:58:26.819423"
   },
   {
     "id": "hn-41046773",
@@ -4806,7 +4812,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-02T10:38:35.155396"
+    "collected_at": "2026-05-02T12:58:26.818990"
   },
   {
     "id": "hn-40767459",
@@ -4817,7 +4823,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-02T10:38:35.155866"
+    "collected_at": "2026-05-02T12:58:26.819438"
   },
   {
     "id": "hn-39918245",
@@ -4828,7 +4834,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-02T10:38:35.155808"
+    "collected_at": "2026-05-02T12:58:26.819380"
   },
   {
     "id": "hn-39526057",
@@ -4839,7 +4845,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-02T10:38:35.155382"
+    "collected_at": "2026-05-02T12:58:26.818975"
   },
   {
     "id": "hn-38544729",
@@ -4850,7 +4856,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-02T10:38:35.155447"
+    "collected_at": "2026-05-02T12:58:26.819045"
   },
   {
     "id": "hn-37021160",
@@ -4861,7 +4867,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-02T10:38:35.155611"
+    "collected_at": "2026-05-02T12:58:26.819170"
   },
   {
     "id": "hn-31812259",
@@ -4872,7 +4878,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-02T10:38:35.155766"
+    "collected_at": "2026-05-02T12:58:26.819334"
   },
   {
     "id": "hn-18249755",
@@ -4883,7 +4889,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-02T10:38:35.155523"
+    "collected_at": "2026-05-02T12:58:26.819127"
   },
   {
     "id": "hn-17022963",
@@ -4894,7 +4900,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-02T10:38:35.155511"
+    "collected_at": "2026-05-02T12:58:26.819115"
   },
   {
     "id": "hn-15892066",
@@ -4905,7 +4911,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-02T10:38:35.155727"
+    "collected_at": "2026-05-02T12:58:26.819293"
   },
   {
     "id": "hn-6830566",
@@ -4916,6 +4922,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-02T10:38:35.155820"
+    "collected_at": "2026-05-02T12:58:26.819392"
   }
 ]

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "ECCV reviews should be out by 2nd May. Since no exact time was specified this year, they’ll likely be released sometime within the next 48 hours. Hopefully, the reviews go well for everyone. We can use this thread to discuss them, as I haven’t seen one started yet."
 summary_zh = ""
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Build is done. 16 DGX Sparks on the fabric, all hitting line rate. Setup was time consuming but honestly smoother than I expected. Each Spark runs Nvidia’s flavor of Ubuntu out of the box with mostly everything pre installed and ready to go. For setup I had to rack them, power on, create the same us"
 summary_zh = ""
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

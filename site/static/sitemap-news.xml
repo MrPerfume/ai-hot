@@ -109,7 +109,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aihot.bt199.com/news/v2ex-1209937/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aihot.bt199.com/news/reddit-1t1d0oe/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aihot.bt199.com/news/v2ex-1209933/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1795,19 +1807,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aihot.bt199.com/news/reddit-1sx35es/</loc>
+    <loc>https://aihot.bt199.com/news/hn-47679121/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aihot.bt199.com/news/d26cae5cca28/</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://aihot.bt199.com/news/hn-47679121/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
