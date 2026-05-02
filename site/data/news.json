@@ -165,19 +165,14 @@
     "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1t1hsah/the_override_problem_the_same_ai_behavior_that/"
   },
   {
-    "id": "reddit-1t1f6my",
-    "title": "\"LLM is created so engineer don't have to write a report\", anyway found out ONLYOFFICE can connect to OpenAI compatible, using Qwen 3.6 to do elaboration.",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1f6my/llm_is_created_so_engineer_dont_have_to_write_a/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-05-02T03:58:23",
-    "summary": "It is pluggin made for ONLYOFFICE, much simpler than copy-paste from webui. PS. Switch to non thinking/reasoning when using this, and the best model for this is Gemma line up. even E2B is strong enough to do language modelling. I dont use libre or Microsoft Office so i dont know whether it is suppor",
-    "points": 12,
-    "collected_at": "2026-05-02T09:53:55.872092",
-    "title_zh": "“LLM是为了让工程师不用写报告而创建的”，反正发现ONLYOFFICE可以兼容OpenAI，用Qwen 3.6来做阐述。",
-    "summary_zh": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是 Gemma 阵容。甚至 E2B 也足够强大，可以进行语言建模。我不使用 libre 或 Microsoft Offic…",
-    "ai_summary": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是…",
-    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/comments/1t1f6my/llm_is_created_so_engineer_dont_have_to_write_a/"
+    "id": "v2ex-1209960",
+    "title": "如何在国内受限网络环境下使用官方 claude 或 codex 等模型？",
+    "url": "https://www.v2ex.com/t/1209960",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-02T05:35:17",
+    "summary": "单位环境不能装 vpn ，但我自己账户还是订阅了 codex 等服务。想问下有没有什么优雅的方式使用原版服务呢？我目前有两种想法： 1. 海外搞个服务器，上面跑一个 CLI ，本地通过 ssh 连接 2. 海外服务器上部署 CLIProxyAPI 把 codex 转成 api 然后本地 codex 修改供应商到这个 api 这两种办法有尝试过吗？感觉第二个更方便但第一个更安全？大佬们有什么经验吗？",
+    "collected_at": "2026-05-02T10:38:35.544738"
   },
   {
     "id": "reddit-1t1fjek",
@@ -193,6 +188,21 @@
     "summary_zh": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的指令来让代理进行工作。 6 小时后返回，即可在本地硬件上免费完成。我会准确…",
     "ai_summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为…",
     "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/"
+  },
+  {
+    "id": "reddit-1t1f6my",
+    "title": "\"LLM is created so engineer don't have to write a report\", anyway found out ONLYOFFICE can connect to OpenAI compatible, using Qwen 3.6 to do elaboration.",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1t1f6my/llm_is_created_so_engineer_dont_have_to_write_a/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-05-02T03:58:23",
+    "summary": "It is pluggin made for ONLYOFFICE, much simpler than copy-paste from webui. PS. Switch to non thinking/reasoning when using this, and the best model for this is Gemma line up. even E2B is strong enough to do language modelling. I dont use libre or Microsoft Office so i dont know whether it is suppor",
+    "points": 12,
+    "collected_at": "2026-05-02T09:53:55.872092",
+    "title_zh": "“LLM是为了让工程师不用写报告而创建的”，反正发现ONLYOFFICE可以兼容OpenAI，用Qwen 3.6来做阐述。",
+    "summary_zh": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是 Gemma 阵容。甚至 E2B 也足够强大，可以进行语言建模。我不使用 libre 或 Microsoft Offic…",
+    "ai_summary": "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是…",
+    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/comments/1t1f6my/llm_is_created_so_engineer_dont_have_to_write_a/"
   },
   {
     "id": "573e886a9fb6",
@@ -4590,20 +4600,6 @@
     "ai_summary": "关于 OpenAI 的硬件计划有很多传言，其中涉及推出一对耳机。行业分析师郭明池的一份新报告表明，这家人工智能公司可能正…"
   },
   {
-    "id": "a47d3e3f135f",
-    "title": "Rebuilding the data stack for AI",
-    "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-27T13:00:00",
-    "summary": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI a",
-    "collected_at": "2026-04-28T10:16:38.072036",
-    "title_zh": "重建人工智能数据堆栈",
-    "summary_zh": "人工智能可能在董事会议程中占据主导地位，但许多企业发现，有意义地采用人工智能的最大障碍是其数据状态。虽然面向消费者的人工智能工具以其速度和易用性让用户眼花缭乱，但企业领导者发现部署人工智能",
-    "ai_summary": "人工智能可能在董事会议程中占据主导地位，但许多企业发现，有意义地采用人工智能的最大障碍是其数据状态。虽然面向消费者的人工…"
-  },
-  {
     "id": "hn-47679121",
     "title": "Project Glasswing: Securing critical software for the AI era",
     "url": "https://www.anthropic.com/glasswing",
@@ -4612,7 +4608,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-02T10:22:41.034967"
+    "collected_at": "2026-05-02T10:38:35.155640"
   },
   {
     "id": "hn-47363754",
@@ -4623,7 +4619,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-02T10:22:41.035077"
+    "collected_at": "2026-05-02T10:38:35.155740"
   },
   {
     "id": "hn-47340079",
@@ -4634,7 +4630,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-02T10:22:41.034712"
+    "collected_at": "2026-05-02T10:38:35.155360"
   },
   {
     "id": "hn-47225130",
@@ -4645,7 +4641,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-02T10:22:41.035124"
+    "collected_at": "2026-05-02T10:38:35.155783"
   },
   {
     "id": "hn-47136179",
@@ -4656,7 +4652,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-02T10:22:41.034823"
+    "collected_at": "2026-05-02T10:38:35.155466"
   },
   {
     "id": "hn-46990729",
@@ -4667,7 +4663,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-02T10:22:41.034788"
+    "collected_at": "2026-05-02T10:38:35.155435"
   },
   {
     "id": "hn-46574276",
@@ -4678,7 +4674,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-05-02T10:22:41.035267"
+    "collected_at": "2026-05-02T10:38:35.155899"
   },
   {
     "id": "hn-45941596",
@@ -4689,7 +4685,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-02T10:22:41.035138"
+    "collected_at": "2026-05-02T10:38:35.155795"
   },
   {
     "id": "hn-45930151",
@@ -4700,7 +4696,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-02T10:22:41.035183"
+    "collected_at": "2026-05-02T10:38:35.155839"
   },
   {
     "id": "hn-45722069",
@@ -4711,7 +4707,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-05-02T10:22:41.035254"
+    "collected_at": "2026-05-02T10:38:35.155887"
   },
   {
     "id": "hn-44972151",
@@ -4722,7 +4718,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-02T10:22:41.034902"
+    "collected_at": "2026-05-02T10:38:35.155583"
   },
   {
     "id": "hn-44396518",
@@ -4733,7 +4729,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-02T10:22:41.035042"
+    "collected_at": "2026-05-02T10:38:35.155708"
   },
   {
     "id": "hn-44314423",
@@ -4744,7 +4740,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-02T10:22:41.035091"
+    "collected_at": "2026-05-02T10:38:35.155753"
   },
   {
     "id": "hn-44163063",
@@ -4755,7 +4751,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-02T10:22:41.034762"
+    "collected_at": "2026-05-02T10:38:35.155409"
   },
   {
     "id": "hn-42910910",
@@ -4766,7 +4762,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-02T10:22:41.034919"
+    "collected_at": "2026-05-02T10:38:35.155597"
   },
   {
     "id": "hn-41392128",
@@ -4777,7 +4773,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-02T10:22:41.034841"
+    "collected_at": "2026-05-02T10:38:35.155483"
   },
   {
     "id": "hn-41386319",
@@ -4788,7 +4784,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-02T10:22:41.034856"
+    "collected_at": "2026-05-02T10:38:35.155496"
   },
   {
     "id": "hn-41069829",
@@ -4799,7 +4795,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-02T10:22:41.035198"
+    "collected_at": "2026-05-02T10:38:35.155852"
   },
   {
     "id": "hn-41046773",
@@ -4810,7 +4806,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-02T10:22:41.034747"
+    "collected_at": "2026-05-02T10:38:35.155396"
   },
   {
     "id": "hn-40767459",
@@ -4821,7 +4817,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-02T10:22:41.035229"
+    "collected_at": "2026-05-02T10:38:35.155866"
   },
   {
     "id": "hn-39918245",
@@ -4832,7 +4828,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-02T10:22:41.035152"
+    "collected_at": "2026-05-02T10:38:35.155808"
   },
   {
     "id": "hn-39526057",
@@ -4843,7 +4839,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-02T10:22:41.034732"
+    "collected_at": "2026-05-02T10:38:35.155382"
   },
   {
     "id": "hn-38544729",
@@ -4854,7 +4850,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-02T10:22:41.034801"
+    "collected_at": "2026-05-02T10:38:35.155447"
   },
   {
     "id": "hn-37021160",
@@ -4865,7 +4861,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-02T10:22:41.034935"
+    "collected_at": "2026-05-02T10:38:35.155611"
   },
   {
     "id": "hn-31812259",
@@ -4876,7 +4872,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-02T10:22:41.035105"
+    "collected_at": "2026-05-02T10:38:35.155766"
   },
   {
     "id": "hn-18249755",
@@ -4887,7 +4883,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-02T10:22:41.034886"
+    "collected_at": "2026-05-02T10:38:35.155523"
   },
   {
     "id": "hn-17022963",
@@ -4898,7 +4894,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-02T10:22:41.034872"
+    "collected_at": "2026-05-02T10:38:35.155511"
   },
   {
     "id": "hn-15892066",
@@ -4909,7 +4905,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-02T10:22:41.035063"
+    "collected_at": "2026-05-02T10:38:35.155727"
   },
   {
     "id": "hn-6830566",
@@ -4920,6 +4916,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-02T10:22:41.035165"
+    "collected_at": "2026-05-02T10:38:35.155820"
   }
 ]
