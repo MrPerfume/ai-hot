@@ -20,7 +20,7 @@ ai_summary = "五角大楼与七家人工智能公司就机密军事工作达成
 summary = "Pentagon inks deals with seven AI companies for classified military work | Trump administration"
 summary_zh = "五角大楼与七家人工智能公司就机密军事工作达成协议特朗普政府"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

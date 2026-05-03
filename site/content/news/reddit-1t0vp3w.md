@@ -20,7 +20,7 @@ ai_summary = "嘿，骆驼同胞们，谢谢你们对我上一篇文章的所有
 summary = "Hey fellow Llamas, thank you for all the nice words and great feedback on the last post I made. We have something new we thought would be useful to share. As always your time is precious, so I'll keep it short. We built speculative prefill for long-context decode on quantized 27B targets, C++/CUDA o"
 summary_zh = "嘿，骆驼同胞们，谢谢你们对我上一篇文章的所有好话和很好的反馈。我们有一些新的东西值得分享。与往常一样，您的时间很宝贵，所以我会长话短说。我们为量化 27B 目标、C++/CUDA o 上的长上下文解码构建了推测性预填充"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

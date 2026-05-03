@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "I want to make a position track decision thread because it is a niche and small track I think discussions will be submerged in the main track discussion track"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

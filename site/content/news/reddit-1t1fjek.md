@@ -20,7 +20,7 @@ ai_summary = "我一直在开发一个自我修改的人工智能代理系统，
 summary = "I've been developing a self-modifying Al agent system that effectively cuts my Claude API usage in half, Claude thinks and then I basically just copy/paste Claude's instructions for the agents to work on. Come back in 6 hours and it's done for free on local hardware. I'II explain precisely how it wo"
 summary_zh = "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的指令来让代理进行工作。 6 小时后返回，即可在本地硬件上免费完成。我会准确…"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "此举标志着谷歌致力于将更先进的对话式人工智能
 summary = "The move signals Google’s push to bring more advanced, conversational AI into the driving experience."
 summary_zh = "此举标志着谷歌致力于将更先进的对话式人工智能带入驾驶体验"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

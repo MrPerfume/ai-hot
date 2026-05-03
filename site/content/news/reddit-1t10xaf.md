@@ -20,7 +20,7 @@ ai_summary = "在过去的几年里，我一直在悄悄地组装和处理我认
 summary = "For the past several years I've been quietly assembling and processing what I believe is one of the larger privately held pretraining corpora around... a complete Usenet archive spanning 1980 to 2013. Here's what it ended up being: * **103.1 billion tokens** (cl100k\\_base) * **408 million posts** ac"
 summary_zh = "在过去的几年里，我一直在悄悄地组装和处理我认为是规模较大的私人预训练语料库之一......跨越 1980 年至 2013 年的完整 Usenet 档案。最终的结果是： * **1031 亿个代币** (cl100k\\_base) * **4…"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

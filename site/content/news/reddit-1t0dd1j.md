@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "As a fellow ML researcher, I feel disheartened and discouraged after seeing the experiences of people who submitted their work to ICML 2026. Given the sheer number of papers submitted to A\\* AI/ML conferences, the current review system does not seem to work well. For example, in some cases, papers a"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->
