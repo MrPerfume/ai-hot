@@ -1,5 +1,131 @@
 [
   {
+    "id": "a168596f1396",
+    "title": "Image AI models now drive app growth, beating chatbot upgrades",
+    "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T19:12:49",
+    "summary": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+    "collected_at": "2026-05-04T19:19:07.685957",
+    "content_text": "Image model releases are driving growth for AI mobile apps, generating 6.5 times more downloads than traditional model updates, according to a new report from app intelligence provider Appfigures.\nThis marks a shift from earlier days, when the release of new models powering the conversational experiences drove more demand, alongside the new features like a voice chat interface.\nFor instance, ChatGPT and Gemini each added tens of millions of new downloads after releasing their respective image models, Appfigures found.\nFor Google’s Gemini, the release of its image model Nano Banana drove an additional 22+ million downloads in the 28 days following the introduction of the Gemini 2.5 Flash image model last August. This launch lifted the app’s downloads by more than four times over that period, the data showed.\nMeanwhile, ChatGPT added more than 12 million incremental installs in the 28 days after the introduction of its GPT-4o image model in March of last year. That’s roughly 4.5 times more downloads than it saw for its GPT-4o, GPT-4.5, and GPT-5 model releases, Appfigures pointed out.\nOther model releases followed similar trends, though on a smaller scale. Meta AI’s introduction of its AI video feed Vibes added an estimated 2.6 million incremental downloads in the 28 days after its September 2025 release. (Yes, technically, this is a video model, but it’s ultimately about visual content, not just text.)\nStill, the report cautioned, additional downloads don’t always translate into increased mobile revenue.\nInstead, new image model releases give people a reason to install the app and try out its improved image generation capabilities. That doesn’t mean they’ll necessarily convert to paying subscribers. For example, Appfigures noted that Nano Banana drove only $181,000 in estimated gross consumer spending during the 28-day window following its release, even though it produced a larger spike in downloads than ChatGPT’s 4o image model release.\nMeta AI’s launch of Vibes also led to additional downloads, but no meaningful revenue.\nAmong the three, only ChatGPT turned the increased attention into actual dollars.\nOpenAI’s 4o image generation model led to an estimated $70 million in gross consumer spending over the 28 days after its launch, compared with its prior baseline, Appfigures said.\nThe company also looked at DeepSeek in its analysis, but it didn’t fit the pattern.\nWhile DeepSeek R1 drove 28 million downloads after its January 2025 release, it wasn’t a typical model comparison event. This was DeepSeek’s breakout moment, when it went from being relatively unknown to an overnight sensation as the tech industry learned about the techniques it used to train its AI models at a fraction of the cost of its competitors. This case highlights how curiosity can drive downloads — though in this instance, the interest wasn’t tied to an image model.",
+    "content_source": "trafilatura",
+    "content_chars": 3577,
+    "content_excerpt": "Image model releases are driving growth for AI mobile apps, generating 6.5 times more downloads than traditional model updates, according to a new report from app intelligence provider Appfigures.\nThis marks a shift from earlier days, when the release of new models powering the conversational experiences drove more demand, alongside the new features like a voice chat interface.\nFor instance, ChatGPT and Gemini each added tens of millions of new downloads after releasing their respective image models, Appfigures found.\nFor Google’s Gemini, the release of its image model Nano Banana drove an additional 22+ million downloads in the 28 days following the introduction of the Gemini 2.5 Flash image model last August. This launch lifted the app’s downloads by more than four times over that period, the data showed.\nMeanwhile, ChatGPT added more than 12 million incremental installs in the 28 days after the introduction of its GPT-4o image model in March of last year. That’s roughly 4.5 times more downloads than it saw for its GPT-4o, GPT-4.5, and GPT-5 model releases, Appfigures pointed out.\nOther model releases followed similar trends, though on a smaller scale. Meta AI’s introduction of its AI video feed Vibes added an estimated 2.6 million incremental downloads in the 28 days after its September 2025 release. (Yes, technically, this is a video model, but it’s ultimately about visual content, not just text.)\nStill, the report cautioned, additional downloads don’t always translate into increased mobile revenue.\nInstead, new image model releases give people a reason to install the app and try out its improved image generation capabilities. That doesn’t mean they’ll necessarily convert to paying subscribers. For example, Appfigures noted that Nano Banana drove only $181,000 in estimated gross consumer spending during the 28-day window following its release, even though it produced a larger spike in downloads than ChatGPT’s 4o image model release.\nMeta AI’s launch of Vibes also led to additional downloads, but no meaningful revenue.\nAmong the three, only ChatGPT turned the increased attention into actual dollars.",
+    "title_zh": "图像人工智能模型现在推动应用程序增长，击败聊天机器人升级",
+    "summary_zh": "Appfigures 发现视觉模型的发布使下载量增加了 6.5 倍，但大多数人并没有将这一峰值转化为收入",
+    "ai_summary": "Appfigures 发现视觉模型的发布使下载量增加了 6.5 倍，但大多数人并没有将这一峰值转化为收入"
+  },
+  {
+    "id": "5836d0d07257",
+    "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
+    "url": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/",
+    "source": "Ars Technica AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-04T17:57:46",
+    "summary": "Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.",
+    "collected_at": "2026-05-04T19:19:08.210869",
+    "content_text": "GameStop yesterday made an unsolicited offer to buy eBay for $55.5 billion. GameStop claims that eBay has underperformed and spends too much on sales and marketing and argues that it would become a stronger company if it cuts costs and is combined with GameStop’s physical retail locations.\n“GameStop’s ~1,600 US locations give eBay a national network for authentication, intake, fulfillment, and live commerce,” GameStop Chairman and CEO Ryan Cohen wrote in a letter to eBay Chairman Paul Pressler.\neBay’s market capitalization is over four times larger than GameStop’s. GameStop faces skepticism about the viability of its offer but says it will obtain debt financing and pay with a mix of cash and stock.\nGameStop’s proposal envisions a system in which GameStop staff inspect and verify items to be listed on eBay. “GameStop staff already inspect and grade hardware and trading cards every day. Sellers walk in, items are verified on the spot, and listings carry a trust badge,” the proposal said.\nThe stores will “serve as drop-off and shipping nodes,” providing “a national fulfillment network without incremental eBay capital expenditure,” GameStop said. The stores, according to GameStop’s plan, will “double as broadcasting studios. eBay supplies the inventory and the buyer base; GameStop supplies the physical footprint to compete in the live-commerce category.” This would apparently help eBay sellers use livestreaming to promote their products.\nCohen intends to become CEO of the post-merger company if eBay accepts the deal and completes it. A GameStop press release said that Cohen “owns ~9% of GameStop and receives no salary, no cash bonuses, and no golden parachute. He will be compensated solely based on the performance of the combined company.”\nDoubts about GameStop’s ability to finance deal\nGameStop is still chugging along five years after its meme-stock mania, though it reportedly closed about 470 stores in the US at the beginning of 2026. It also closed 590 US-based stores in 2024. As of this writing, GameStop’s stock price had fallen about 2 percent today, while eBay’s had risen about 5 percent.",
+    "content_source": "trafilatura",
+    "content_chars": 2127,
+    "content_excerpt": "GameStop yesterday made an unsolicited offer to buy eBay for $55.5 billion. GameStop claims that eBay has underperformed and spends too much on sales and marketing and argues that it would become a stronger company if it cuts costs and is combined with GameStop’s physical retail locations.\n“GameStop’s ~1,600 US locations give eBay a national network for authentication, intake, fulfillment, and live commerce,” GameStop Chairman and CEO Ryan Cohen wrote in a letter to eBay Chairman Paul Pressler.\neBay’s market capitalization is over four times larger than GameStop’s. GameStop faces skepticism about the viability of its offer but says it will obtain debt financing and pay with a mix of cash and stock.\nGameStop’s proposal envisions a system in which GameStop staff inspect and verify items to be listed on eBay. “GameStop staff already inspect and grade hardware and trading cards every day. Sellers walk in, items are verified on the spot, and listings carry a trust badge,” the proposal said.\nThe stores will “serve as drop-off and shipping nodes,” providing “a national fulfillment network without incremental eBay capital expenditure,” GameStop said. The stores, according to GameStop’s plan, will “double as broadcasting studios. eBay supplies the inventory and the buyer base; GameStop supplies the physical footprint to compete in the live-commerce category.” This would apparently help eBay sellers use livestreaming to promote their products.\nCohen intends to become CEO of the post-merger company if eBay accepts the deal and completes it. A GameStop press release said that Cohen “owns ~9% of GameStop and receives no salary, no cash bonuses, and no golden parachute. He will be compensated solely based on the performance of the combined company.”\nDoubts about GameStop’s ability to finance deal\nGameStop is still chugging along five years after its meme-stock mania, though it reportedly closed about 470 stores in the US at the beginning of 2026. It also closed 590 US-based stores in 2024. As of this writing, GameStop’s stock price had fallen about 2 percent today, while eBay’s had risen about 5 percent.",
+    "title_zh": "GameStop 出价 560 亿美元收购 eBay，但难以解释将如何支付这笔费用",
+    "summary_zh": "由于收入下降和商店关闭，GameStop 希望收购规模更大的 eBay",
+    "ai_summary": "由于收入下降和商店关闭，GameStop 希望收购规模更大的 eBay"
+  },
+  {
+    "id": "cde12b0c15be",
+    "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T16:57:47",
+    "summary": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+    "collected_at": "2026-05-04T19:19:07.686007",
+    "content_text": "When do we take AI doomers seriously?\nThat’s a key subtext of Elon Musk’s attempt to shut down OpenAI’s for-profit AI business. His attorneys argue that the organization was set up as a charity focused on AI safety and lost its way in pursuit of lucre. To prove that, they cite old emails and statements from the organization’s founders about the need for a public-spirited counterweight to Google DeepMind.\nToday, they called the only expert witness to speak directly to AI technology: Stuart Russell, a University of California, Berkeley computer science professor who has studied AI for decades. His job was to offer background on AI and establish that this technology is dangerous enough to worry about.\nRussell signed an open letter in March 2023 calling for a six-month pause in AI research. In a sign of the contradictions here, Musk also signed the same letter, even as he was launching xAI, his own for-profit AI lab.\nRussell told jurors and Judge Yvonne Gonzalez Rogers that there were a variety of risks associated with the development of AI, ranging from cybersecurity threats to problems with misalignment and the winner-take-all nature of developing artificial general intelligence (AGI). Ultimately, he said that there was a tension between the pursuit of AGI and safety.\nRussell’s larger concerns about the existential threats of unconstrained AI didn’t get aired in open court after objections from OpenAI’s attorneys led the judge to limit Russell’s testimony. But Russell has long been a critic of the arms-race dynamic created by frontier labs around the globe competing to reach AGI first, and called for governments to regulate the field more tightly.\nOpenAI’s attorneys spent their cross-examination establishing that Russell wasn’t directly evaluating the organization’s corporate structure or its specific safety policies.\nBut this reporter (as well as the judge and the jurors) will be weighing how much value to put on the relationship between corporate greed and AI safety concerns. Virtually every one of the OpenAI founders have strenuously warned about the risks of AI, while also emphasizing the benefits, attempting to build AI as fast as possible — and hatching plans for AI-focused for-profit enterprises they would control.\nFrom the outside, a clear issue here is the growing realization inside OpenAI after its founding that the organization simply needed more compute spend if it was to succeed. That money could only come from for-profit investors. The founding team’s fear of AGI in the hands of a single organization pushed them to seek the capital that ultimately tore the team apart, creating the arms race we know today—and bringing us to this lawsuit.\nThe same dynamic is already playing out at a national level: Senator Bernie Sanders’ push for a law imposing a moratorium on data center construction cites AI fears enunciated by Musk, Sam Altman, Geoffrey Hinton and others. Hoden Omar, who works at the trade organization the Center for Data Innovation, objected to Sanders citing their fears without their hopes, telling TechCrunch that “it is unclear why the public should discount everything tech billionaires say except when their words can be recruited to fill gaps in a precarious argument.”\nNow, both sides of the case are asking the court to do just that: take part of Altman and Musk’s arguments seriously, but discount the parts that are less useful for their legal argument.\nCorrection: The article was updated to correct name of a Stuart Russell, University of California, Berkeley computer science professor.",
+    "content_source": "trafilatura",
+    "content_chars": 4263,
+    "content_excerpt": "When do we take AI doomers seriously?\nThat’s a key subtext of Elon Musk’s attempt to shut down OpenAI’s for-profit AI business. His attorneys argue that the organization was set up as a charity focused on AI safety and lost its way in pursuit of lucre. To prove that, they cite old emails and statements from the organization’s founders about the need for a public-spirited counterweight to Google DeepMind.\nToday, they called the only expert witness to speak directly to AI technology: Stuart Russell, a University of California, Berkeley computer science professor who has studied AI for decades. His job was to offer background on AI and establish that this technology is dangerous enough to worry about.\nRussell signed an open letter in March 2023 calling for a six-month pause in AI research. In a sign of the contradictions here, Musk also signed the same letter, even as he was launching xAI, his own for-profit AI lab.\nRussell told jurors and Judge Yvonne Gonzalez Rogers that there were a variety of risks associated with the development of AI, ranging from cybersecurity threats to problems with misalignment and the winner-take-all nature of developing artificial general intelligence (AGI). Ultimately, he said that there was a tension between the pursuit of AGI and safety.\nRussell’s larger concerns about the existential threats of unconstrained AI didn’t get aired in open court after objections from OpenAI’s attorneys led the judge to limit Russell’s testimony. But Russell has long been a critic of the arms-race dynamic created by frontier labs around the globe competing to reach AGI first, and called for governments to regulate the field more tightly.\nOpenAI’s attorneys spent their cross-examination establishing that Russell wasn’t directly evaluating the organization’s corporate structure or its specific safety policies.\nBut this reporter (as well as the judge and the jurors) will be weighing how much value to put on the relationship between corporate greed and AI safety concerns. Virtually every one of the OpenAI founders have strenuously warned about the risks of AI, while also emphasizing the benefits, attempting to build AI as fast as possible — and hatching plans for AI-focused for-profit enterprises they would control.\nFrom the outside, a clear issue here is the growing realization inside OpenAI after its founding that the organization simply needed more compute spend if it was to succeed. That money could only come from for-profit investors. The founding team’s fear of AGI in the hands of a single organization pushed them to seek the capital that ultimately tore the team apart, creating the arms race we know today—and bringing us to this lawsuit.\nThe same dynamic is already playing out at a national level: Senator Bernie Sanders’ push for a law imposing a moratorium on data center construction cites AI fears enunciated by Musk, Sam Altman, Geoffrey Hinton and others. Hoden Omar, who works at the trade organization the Center for Data Innovation, objected to Sanders citing their fears without their hopes, telling TechCrunch that “it is unclear why the public should discount everything tech billionaires say except when their words can be recruited to fill gaps in a precarious argument.”",
+    "title_zh": "埃隆·马斯克 (Elon Musk) 在 OpenAI 审判中唯一的人工智能专家证人担心 AGI 军备竞赛",
+    "summary_zh": "Stuart Russell 是一位长期的人工智能研究员，他认为政府需要限制前沿实验室",
+    "ai_summary": "Stuart Russell 是一位长期的人工智能研究员，他认为政府需要限制前沿实验室"
+  },
+  {
+    "id": "d3576286998f",
+    "title": "The creator of Roomba is back with a furry robot companion",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T16:51:38",
+    "summary": "Colin Angle, the maker of the Roomba and the man who helped put 50 million household robots into people's homes, is back with a new robot. But this one is designed as a companion, not a cleaner. The first robot from Angle's new company, Familiar Machines &#38; Magic, is a dog-sized robotic pet that",
+    "collected_at": "2026-05-04T19:19:07.864897",
+    "content_text": "Colin Angle, the maker of the Roomba and the man who helped put\n50 million household robots\ninto people’s homes, is back with a new robot. But this one is designed as a companion, not a cleaner.\nThe first robot from Angle’s new company,\nFamiliar Machines & Magic\n, is a dog-sized robotic pet that resembles a cross between a bear, a barn owl, and a golden retriever. It has an expressive face, with movable eyebrows, ears, and eyes, and the company calls it a “Familiar,” a name meant to evoke folklore around the idea of a supernatural companion. Based on a demo video I saw ahead of its appearance at the\nWSJ Future of Everything\nconference this week, the quadruped robot can move around your home on all fours independently, like a pet.\nThe Familiar is a “physically embodied AI system” that will use generative AI, via an on-device model, to engage with its owner with the intent of forming an emotional connection and develop “a distinct personality,” Angle told me in an interview. Robots that can react and respond to humans should, in theory, be more effective serving in what Angle calls “high human connection roles,” such as companionship, entertainment, hospitality, smart home, eldercare, and parental support. “The next era of robotics is not just about dexterity or humanoid form — it’s about machines that can build and sustain human connection,” says Angle.\nFamiliar Machines & Magic is built on the idea that if physical AI is to be used in consumer-facing robotics, such as eldercare, companionship, and parental support, it must be capable of developing and sustaining a human connection.\nImage: Familiar Machines & Magic\nInternally codenamed Ami, the first Familiar won’t be available to buy until next year at the earliest, and will cost “around the same as pet ownership,” Angle said. Its exact features are also still under wraps, but Angle says initial use cases are focused on families with young children, companionship for the elderly, and addressing the\nglobal loneliness epidemic\n. It’s a bold move for a man who built a career on robots that clean floors.\nAngle says his entire three-decade career in robotics has led to this moment. The original name for iRobot, founded in 1990, was Artificial Creatures Inc. But back then, the tech to create artificial life didn’t exist. “Finally, I get to do what I originally set out to do. It’s not just about building cool animatronics. Now is finally the time where the tech exists — if properly and responsibly used — to start creating Familiars.”\nAfter iRobot’s\nfailed sale to Amazon\n, Angle\nstepped down as CEO in 2024\n. In the time since, he and Familiar Machines cofounders Angle, along with cofounders (and iRobot veterans) Ira Renfrew and Chris Jones, have assembled a team of roboticists and engineers from Disney, MIT, Boston Dynamics, Amazon, Bose, and Sonos. Their goal is to create a robot that is not just a toy or a chatbot slapped into a piece of plastic, as we\nsaw everywhere at CES this year\n.\nThe Familiar should be able to learn household routines and interact with humans to encourage healthier activities, says Angle.\nIt might encourage playtime.\nNudge its owner to take it for a walk (but it’s not waterproof)\n.\nAnd help with wellness activities.\nFrom the get-go, the team dismissed the idea of a humanoid robot, believing it unnecessarily complicated for their purpose. The robot is a deliberately unidentifiable creature because, Angle says, if you create a specific animal or form-factor, people will have preconceived ideas about its abilities.\nThey also decided not to have the Familiar talk. Instead, it will make nonverbal sounds — the two units shown off at WSJ Future of Everything made meowing and purring noises. “By design, it will avoid giving factual advice about things that maybe it shouldn’t be giving factual advice about,” says Angle, with a nod toward the hot water LLM-powered chatbots keep getting themselves in.\n“If this is a toy, we’ve failed. If this is a creature that you want in your world, then we’ve knocked it out of the park.”\n— Colin Angle\nPrimary communication will be through expression and body language, aided by a camera-based vision system and microphone array. With 23 degrees of freedom, the robot can move its head, neck, ears, eyes, and eyebrows, and walk at a slow human pace, but it can’t grip things or climb stairs. Its four legs provide stability, which should help with concerns around the robot falling and damaging property or injuring people.\nFamiliar Machines’ goal is to use AI to create a robot that can learn from its owners, remember patterns, and adapt to their routines, with the aim of fostering long-term engagement, says Angle. They want to avoid being stuck in a closet or falling victim to the fate of dozens of earlier home robots (see\nJibo, Aibo, Vector, Astro\n, etc.). “If this is a toy, we’ve failed,” says Angle. “If this is a creature that you want in your world, then we’ve knocked it out of the park. It’s kind of one way or the other.”\nThe Familiar is powered by Nvidia’s\nJetson Orin\nchip. “Its onboard edge AI stack is powered by a custom small multimodal model optimized for social reasoning, combining vision, audio, language, and memory to create socially responsive behaviors in real time,” says Angle. It doesn’t require an internet connection, although it can be connected, and it doesn’t stream audio or video to the cloud, a purposeful design decision to protect privacy and improve latency. However, it’s still a device with cameras and mics in your family space.\nPhysical AI for human connections?\nSo, why would anyone want this robot in their home? While Angle is coy about specifics, since the robot is still in development, he says an AI-powered companion could help address the\ngrowing problem of loneliness\nand provide an alternative to technology that keeps us glued to screens.\n“If your Familiar gets you up and out of your room and walking around — that’s a real way to try to address isolation and loneliness,” he says. Most attempts at companion robots so far fail the “plate of glass” test, says Angle. “If a sheet of glass between you and the device wouldn’t change the experience, it should just be a screen.” This is why the robot is designed to interact with you, including nudging you and hugging you. It also has a “luxurious” touch-sensitive coat, says Angle.\nThe video demo I saw of the Familiar showed a boy putting down his tablet to pet it, a man deciding to stop doomscrolling and go to bed after a nudge from the robot, an elderly woman walking Ami, and a younger woman doing yoga next to it. The idea is that if it encourages you to do things other than being on a screen or sitting alone at home, you’re more likely to engage with other people.\nIt’s going to take a lot more than a robotic pet to unglue my teenager from TikTok.\nWhile more non-screen-based interactive technology could be an antidote to our screen-obsessed society, it’s an extremely tenuous link to more human interaction. It’s going to take a lot more than a robotic pet to unglue my teenager from TikTok. And it is still a robot, not a human you are interacting with. By offering a substitute for some aspects of human companionship, it could just as easily become as big a barrier to real social interaction as screens are.\nAssuming Angle and his team can pull off the robotic and personality parts, success will still depend heavily on how consumers respond to bringing a robot into their homes. And how much it costs. The first Roomba was a hit because it cost under $200 and vacuumed the floor. “Pet ownership costs” is a dizzyingly broad range. While Angle claims interest in the Familiar is “higher than what we saw with Roomba,” the lack of a clear purpose feels like a problem.\nColin Angle, CEO and cofounder of Familiar Machines & Magic.\nImage: Familiar Magic & Machines\nThe strongest use cases Angle hinted at are as a parent support tool — a device that interacts with your children when you can’t and is better than a tablet or TV screen — and as elder support, helping alleviate loneliness and managing routines for medication and movement. The latter is similar to one of the few successful companion robots so far,\nIntuition Robotics’ ElliQ\n. (Angle is on the company’s board).\nMany people will look at this Familiar concept and say, “I’d rather have a real dog or a cat.” As a devoted pet owner, I know I would prefer to give my cat snuggles, walk my dog, or hang out with my chickens than spend time with a machine. Angle points out that there are many reasons people can’t have pets, sharing a statistic that claims pet ownership\ndeclines to just 9 percent after age 68\n, when it can become harder for someone to care for an animal. For those who want an animal companion but for whatever reason can’t have one, the Familiar could be an interesting alternative.\nAngle demoed two Familiars on stage at the WSJ conference, showing them moving around, walking, and interacting with people, and making meowing and purring noises. The units were partially operator-controlled. Angle didn’t say to what extent, but he says the Familiar will be fully autonomous by the time it launches next year. “This is a demo, but it’s a demo on its way to a product; we’re already in factories,” he told the audience.\nEven then, it’s not clear how close it will be to Angle’s vision. These are very big promises in a field filled with failures and sky-high expectations, and all we’ve seen so far are tightly controlled demos. What is clear is that Angle believes his team has already made significant strides toward their vision of creating artificial life. “It’s not a toy. It’s a real robot,” he says. “There is enough to it that it’s beautiful, wonderful to pet and give a hug to, and it can keep up with you. It’s the agency. For some definition of alive, it’s alive.”\nFollow topics and authors\nfrom this story to see more like this in your personalized homepage feed and to receive email updates.\nJennifer Pattison Tuohy\nAI\nNews\nReport\nRobot\nTech",
+    "content_source": "readability",
+    "content_chars": 10026,
+    "content_excerpt": "Colin Angle, the maker of the Roomba and the man who helped put\n50 million household robots\ninto people’s homes, is back with a new robot. But this one is designed as a companion, not a cleaner.\nThe first robot from Angle’s new company,\nFamiliar Machines & Magic\n, is a dog-sized robotic pet that resembles a cross between a bear, a barn owl, and a golden retriever. It has an expressive face, with movable eyebrows, ears, and eyes, and the company calls it a “Familiar,” a name meant to evoke folklore around the idea of a supernatural companion. Based on a demo video I saw ahead of its appearance at the\nWSJ Future of Everything\nconference this week, the quadruped robot can move around your home on all fours independently, like a pet.\nThe Familiar is a “physically embodied AI system” that will use generative AI, via an on-device model, to engage with its owner with the intent of forming an emotional connection and develop “a distinct personality,” Angle told me in an interview. Robots that can react and respond to humans should, in theory, be more effective serving in what Angle calls “high human connection roles,” such as companionship, entertainment, hospitality, smart home, eldercare, and parental support. “The next era of robotics is not just about dexterity or humanoid form — it’s about machines that can build and sustain human connection,” says Angle.\nFamiliar Machines & Magic is built on the idea that if physical AI is to be used in consumer-facing robotics, such as eldercare, companionship, and parental support, it must be capable of developing and sustaining a human connection.",
+    "title_zh": "Roomba 的创造者带着毛茸茸的机器人伴侣回来了",
+    "summary_zh": "Roomba 的制造商科林·安格 (Colin Angle) 曾帮助将 5000 万台家用机器人带入千家万户，如今他带着一款新机器人回来了。但这款产品被设计为伴侣，而不是清洁工。 Angle 的新公司 Familiar Machines &…",
+    "ai_summary": "Roomba 的制造商科林·安格 (Colin Angle) 曾帮助将 5000 万台家用机器人带入千家万户，如今他带着…"
+  },
+  {
+    "id": "791e2ed7efba",
+    "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+    "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T16:45:55",
+    "summary": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+    "collected_at": "2026-05-04T19:19:07.686055",
+    "content_text": "Bret Taylor’s AI startup Sierra is raising a $950 million funding round led by Tiger Global and GV, the company announced Monday, pushing its post-money valuation above $15 billion. The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the “global standard” for AI-powered customer experiences.\nLike a lot of AI companies, Sierra has, smartly, been very proactive in touting its own growth in a crowded market. The company says it started with just four design partners a couple of years ago. Today it claims to have more than 40% of the Fortune 50 as customers, and says the agents running on its platform are handling billions of interactions, from refinancing mortgages to processing insurance claims, managing returns, and powering nonprofit fundraising campaigns.\nIndeed, the funding news follows a stretch of breakneck revenue growth as shared by Sierra, which first said it hit $100 million in annual recurring revenue in late November, then published another post in early February, saying it had hit $150 million in ARR.\nThat pacing reflects both the urgency enterprises feel about deploying AI and the costs that come with it. Taylor, who also serves as chairman of OpenAI and was formerly co-CEO of Salesforce, has said that the best-case outcome for agentic AI is lower costs and higher revenue for clients, but before those returns materialize, the ramp-up phase can be pricey.\nThat exact scenario showed up in a conversation at one of TechCrunch’s StrictlyVC events last week. Uber CTO Praveen Neppalli Naga put it plainly in conversation with this editor, saying that Uber “blew through our [AI] budget” soon after opening the door to agentic AI tools late last year. He also said the company is starting to see meaningful results.\nAcross a staff of roughly 8,000 engineers and technical workers, about 10% of all code being produced at the company is now generated autonomously, he said, adding that “10% at our scale is huge.” As a proof-of-concept, Uber tasked one team with building a new hotel-booking integration using only agentic workflows. Work that would normally take a year was done in six months, he said.\nSierra is also moving to expand what its platform can do beyond customer-facing agents. In April, the company launched Ghostwriter, an “agent as a service” tool designed to build other agents. Users describe what they need in natural language, and Ghostwriter autonomously creates and deploys a specialized agent to handle it.\nFor Taylor, the tool underlines a broader thesis he laid out at the HumanX conference in San Francisco last month. Many enterprise software tools, he argued, are barely used. Employees log into Workday when they onboard and again at open enrollment, and that’s about it. The future Sierra and its investors are betting on is one where people never need to navigate complex systems at all.",
+    "content_source": "trafilatura",
+    "content_chars": 3595,
+    "content_excerpt": "Bret Taylor’s AI startup Sierra is raising a $950 million funding round led by Tiger Global and GV, the company announced Monday, pushing its post-money valuation above $15 billion. The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the “global standard” for AI-powered customer experiences.\nLike a lot of AI companies, Sierra has, smartly, been very proactive in touting its own growth in a crowded market. The company says it started with just four design partners a couple of years ago. Today it claims to have more than 40% of the Fortune 50 as customers, and says the agents running on its platform are handling billions of interactions, from refinancing mortgages to processing insurance claims, managing returns, and powering nonprofit fundraising campaigns.\nIndeed, the funding news follows a stretch of breakneck revenue growth as shared by Sierra, which first said it hit $100 million in annual recurring revenue in late November, then published another post in early February, saying it had hit $150 million in ARR.\nThat pacing reflects both the urgency enterprises feel about deploying AI and the costs that come with it. Taylor, who also serves as chairman of OpenAI and was formerly co-CEO of Salesforce, has said that the best-case outcome for agentic AI is lower costs and higher revenue for clients, but before those returns materialize, the ramp-up phase can be pricey.\nThat exact scenario showed up in a conversation at one of TechCrunch’s StrictlyVC events last week. Uber CTO Praveen Neppalli Naga put it plainly in conversation with this editor, saying that Uber “blew through our [AI] budget” soon after opening the door to agentic AI tools late last year. He also said the company is starting to see meaningful results.\nAcross a staff of roughly 8,000 engineers and technical workers, about 10% of all code being produced at the company is now generated autonomously, he said, adding that “10% at our scale is huge.” As a proof-of-concept, Uber tasked one team with building a new hotel-booking integration using only agentic workflows. Work that would normally take a year was done in six months, he said.\nSierra is also moving to expand what its platform can do beyond customer-facing agents. In April, the company launched Ghostwriter, an “agent as a service” tool designed to build other agents. Users describe what they need in natural language, and Ghostwriter autonomously creates and deploys a specialized agent to handle it.\nFor Taylor, the tool underlines a broader thesis he laid out at the HumanX conference in San Francisco last month. Many enterprise software tools, he argued, are barely used. Employees log into Workday when they onboard and again at open enrollment, and that’s about it. The future Sierra and its investors are betting on is one where people never need to navigate complex systems at all.",
+    "title_zh": "Sierra 融资 9.5 亿美元，企业人工智能竞争愈演愈烈",
+    "summary_zh": "此次融资为 Sierra 提供了超过 10 亿美元的资金，该公司表示将利用这笔资金成为人工智能驱动的客户体验的“全球标准”",
+    "ai_summary": "此次融资为 Sierra 提供了超过 10 亿美元的资金，该公司表示将利用这笔资金成为人工智能驱动的客户体验的“全球标准…"
+  },
+  {
+    "id": "dcf3412565ed",
+    "title": "Week one of the Musk v. Altman trial: What it was like in the room",
+    "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-04T15:51:27",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Two of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, allegin",
+    "collected_at": "2026-05-04T19:19:08.043000",
+    "content_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nTwo of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, alleging that the millions he spent to fund it around a decade ago were meant for a nonprofit, not a corporation, and that the company has reneged on that mission since.\nThe stakes are high—even a partial win for Musk could set OpenAI back as it reportedly plans to go public this year. But most of the attention comes from the spectacle of a feud on X now playing out in federal court. “Cringey texts, raw diary entries, and endless scheming behind the founding and growth of OpenAI are expected to come to light,” my colleague Michelle Kim wrote before it began. And the trial unfolds as the cultural backlash against AI swells; some of the signs held by protesters outside the courthouse suggest that to a significant number of people, whatever the outcome of Musk v. Altman, we all lose.\nMost of us have had to observe the trial from afar, but Michelle, who also happens to be a lawyer, has been in court each day. I caught up with her to learn what’s unfolded thus far and what might come next.\nCan you give us the overview of what this case is actually about? What exactly is being decided, and who is favored right now?\nElon Musk is arguing that Sam Altman and OpenAI president Greg Brockman have breached the company’s charitable trust by effectively converting OpenAI into a for-profit company. Musk alleges that is not what they promised him in the company’s early days. He has asked for several remedies, like a crazy amount of damages and removing Sam Altman. But the main remedy he wants is unwinding OpenAI’s restructuring. [In October 2025 OpenAI struck deals with the attorneys general of California and Delaware that would essentially allow its nonprofit portion to have less day-to-day control of OpenAI. It’s a compromise from what OpenAI originally proposed, but Musk still wants to stop it.]\nOpenAI argues that Elon Musk actually agreed to have the company operate a for-profit arm, because he knew building AI is very expensive. So it’s about proving what Musk knew, what he didn’t know, and whether he really was deceived by Altman and Brockman.\nThere’s a big debate about when exactly Musk found out about this alleged misconduct. Musk founded OpenAI with Altman and Brockman in 2015, and he brought the suit in 2024. There’s a statute of limitations for charitable trust claims; you need to have brought a claim within three to four years after you find out about the alleged misconduct. So Musk tries to paint a picture that back in the day he was a little suspicious, but that it was really only in 2022 that he realized OpenAI was no longer committed to its original charitable mission, and that he had been scammed. It’s only the first week of trial, but I’m not sure Musk has proved this to the judge and jury.\nWhat were some standout moments thus far?\nAt one point one of Elon Musk’s lawyers said, “We could all die as a result of AI.” I think a lot of the people in the room were really shaken by this comment, and the judge told Musk’s lawyer: You talk about all these safety risks that OpenAI has when building AI, but Musk is also creating a company that’s in the same exact space. She basically said, I’m sure there’s plenty of people who also don’t want to put the future of humanity in Elon Musk’s hands.\nAnd then the lawyers just kept going on and on about the catastrophic risks of AI and whether Elon Musk or OpenAI was in the better position to steward AI safety. And the judge sort of snapped. She said very sternly that this trial was not about whether or not artificial intelligence has damaged humanity. And I thought that was a really striking standout moment of the trial that pointed at how even though it is technically just about whether Elon Musk was really deceived by OpenAI, it’s also become a huge discussion about AI safety and some of the practices that the labs are engaging in when building AI.\nCan you give us a look behind the curtain at how getting into this trial works?\nThere are tons of reporters. This is a very high-profile suit, so I have to wake up around 4:30 a.m. and show up to the Oakland courthouse at 6 a.m. sharp to get in line. And on some days, even 6 a.m. doesn’t get you into the courtroom. There are lots of photographers in front of the courthouse, especially on days when you know Musk or Altman and Brockman are present. And there’s also some concerned citizens who want to watch the trial. I usually have to wait, like, two hours in line to get in to be one of the 30 people who claim the unreserved seats in the courtroom.\nWhat has it felt like to see Elon Musk testify? How would you describe his demeanor?\nHe shows up in a crisp black suit. He can be this inflammatory person on X, but in the courtroom, he is calm, cool, collected, and looks very comfortable. He has been in a lot of lawsuits. He knows how to talk to the jury and how to present himself in front of them and the judge. He’s also cracking jokes with his lawyer and even the opposing party’s lawyer and the judge.\nAnd he can be witty. There was this one moment when OpenAI’s lawyer was asking Musk a question and sort of fed him an answer. And Musk said “That’s not a leading question, that’s a leading answer.” The judge intervened and said, “You’re not a lawyer, Elon.” And then he was like, “Well, I did take Law 101.”\nThat said, he does get flustered and uncomfortable when OpenAI’s lawyer asks tough, piercing questions. Which he’s been doing.\nWhat are the biggest things we’ve learned that weren’t clear in the earlier phases of this case?\nOn the fourth day of the trial, Musk admitted during cross-examination that xAI distills OpenAI’s models to train its own models, which was shocking. Musk followed up by saying that this is standard practice among all the labs now and that xAI wasn’t doing anything beyond what others were already doing. But a lot of the journalists started typing away at their laptops as soon as Musk made this comment.\nI also learned that there’s just so much scheming among Big Tech executives. You know about it vaguely, but to hear firsthand accounts and read their emails and text messages is fascinating.\nFor example, there was a text message between Musk and Mark Zuckerberg of Meta, where they’re kind of teaming up to stop OpenAI’s restructuring. They’re even trying to make a bid to buy all the assets of OpenAI’s nonprofit. The level of scheming that goes on among these executives is mind-blowing.\nWhat happens next?\nOpenAI’s president, Greg Brockman, who was meticulously taking notes during some of Elon Musk’s testimony, is expected to testify next week. And Stuart Russell, a computer scientist at UC Berkeley, will testify about AI safety. I’m expecting that to open the floodgates to this crazy discussion about who can be trusted to build AI.\nA bunch of other high-profile people are expected to testify, like former OpenAI chief scientist Ilya Sutskever, former CTO Mira Murati, and Microsoft CEO Satya Nadella.\nThe trial is supposed to last around three weeks. The nine jurors will deliver an advisory verdict that guides the judge on how to decide Musk’s claims against OpenAI. The judge doesn’t have to listen to the jury and can decide however she wants. If she decides OpenAI is liable, then she’ll decide what sort of remedies are appropriate.\nMIT Technology Review will have ongoing coverage of Musk v. Altman until its conclusion. Follow @techreview or @michelletomkim on X for up-to-the-minute reporting.\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nHow Pokémon Go is giving delivery robots an inch-perfect view of the world\nExclusive: Niantic's AI spinout is training a new world model using 30 billion images of urban landmarks crowdsourced from players.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+    "content_source": "trafilatura",
+    "content_chars": 8284,
+    "content_excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nTwo of the most powerful people in AI—Sam Altman and Elon Musk—began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, alleging that the millions he spent to fund it around a decade ago were meant for a nonprofit, not a corporation, and that the company has reneged on that mission since.\nThe stakes are high—even a partial win for Musk could set OpenAI back as it reportedly plans to go public this year. But most of the attention comes from the spectacle of a feud on X now playing out in federal court. “Cringey texts, raw diary entries, and endless scheming behind the founding and growth of OpenAI are expected to come to light,” my colleague Michelle Kim wrote before it began. And the trial unfolds as the cultural backlash against AI swells; some of the signs held by protesters outside the courthouse suggest that to a significant number of people, whatever the outcome of Musk v. Altman, we all lose.\nMost of us have had to observe the trial from afar, but Michelle, who also happens to be a lawyer, has been in court each day. I caught up with her to learn what’s unfolded thus far and what might come next.\nCan you give us the overview of what this case is actually about? What exactly is being decided, and who is favored right now?\nElon Musk is arguing that Sam Altman and OpenAI president Greg Brockman have breached the company’s charitable trust by effectively converting OpenAI into a for-profit company. Musk alleges that is not what they promised him in the company’s early days. He has asked for several remedies, like a crazy amount of damages and removing Sam Altman. But the main remedy he wants is unwinding OpenAI’s restructuring. [In October 2025 OpenAI struck deals with the attorneys general of California and Delaware that would essentially allow its nonprofit portion to have less day-to-day control of OpenAI. It’s a compromise from what OpenAI originally proposed, but Musk still wants to stop it.]\nOpenAI argues that Elon Musk actually agreed to have the company operate a for-profit arm, because he knew building AI is very expensive. So it’s about proving what Musk knew, what he didn’t know, and whether he really was deceived by Altman and Brockman.\nThere’s a big debate about when exactly Musk found out about this alleged misconduct. Musk founded OpenAI with Altman and Brockman in 2015, and he brought the suit in 2024. There’s a statute of limitations for charitable trust claims; you need to have brought a claim within three to four years after you find out about the alleged misconduct. So Musk tries to paint a picture that back in the day he was a little suspicious, but that it was really only in 2022 that he realized OpenAI was no longer committed to its original charitable mission, and that he had been scammed. It’s only the first week of trial, but I’m not sure Musk has proved this to the judge and jury.\nWhat were some standout moments thus far?\nAt one point one of Elon Musk’s lawyers said, “We could all die as a result of AI.” I think a lot of the people in the room were really shaken by this comment, and the judge told Musk’s lawyer: You talk about all these safety risks that OpenAI has when building AI, but Musk is also creating a company that’s in the same exact space. She basically said, I’m sure there’s plenty of people who also don’t want to put the future of humanity in Elon Musk’s hands.",
+    "title_zh": "马斯克诉奥特曼审判的第一周：房间里的情况",
+    "summary_zh": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。人工智能领域最有权势的两位人物——萨姆·奥尔特曼和埃隆·马斯克——上周在加利福尼亚州奥克兰的法庭上开始了对峙。马斯克起诉 OpenAI…",
+    "ai_summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。人工智能领域最有…"
+  },
+  {
+    "id": "4507c485b2ba",
+    "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
+    "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T16:36:03",
+    "summary": "Musk texted OpenAI's president and co-founder saying that he and CEO Sam Altman \"will be the most hated men in America\" if OpenAI doesn't settle the suit.",
+    "collected_at": "2026-05-04T19:19:07.686091",
+    "content_text": "Two days before the Elon Musk vs. OpenAI trial began last week, Musk texted the model maker’s president and co-founder Greg Brockman. Musk suggested to Brockman that OpenAI settle the suit.\nAfter Brockman replied by suggesting both sides drop their suits, the exchange went off the rails, with Musk responding: “By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.”\nSo says a new filing submitted on\nSunday by OpenAI’s lawyers.\nThe filing didn’t include copies of the text exchange, and most of it was dedicated to convincing the judge why this exchange on settlement talks should be admitted into evidence. The judge, however, was not having it — ruling the exchange inadmissible, per TechCrunch reporter Tim Fernholz,\nwho is on-site covering the trial\n.\nThe implication, however, is clear. Musk’s lawsuit seeks to unwind OpenAI’s for-profit structure, require its tech be made available to the public, strip Microsoft’s licensing agreement, and compel OpenAI to pay him general, compensatory, and punitive damages plus his lawyer’s fees. After OpenAI’s lawyers publicly shared this “settle-or-else” text,\nobservers instantly clocked\nthat maybe this trial isn’t about Musk’s concern for AI safety, but about demanding money from its success while kneecapping a rival. This is, essentially, what OpenAI’s countersuit alleges.\nMeanwhile, the trial continues.",
+    "content_source": "readability",
+    "content_chars": 1410,
+    "content_excerpt": "Two days before the Elon Musk vs. OpenAI trial began last week, Musk texted the model maker’s president and co-founder Greg Brockman. Musk suggested to Brockman that OpenAI settle the suit.\nAfter Brockman replied by suggesting both sides drop their suits, the exchange went off the rails, with Musk responding: “By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.”\nSo says a new filing submitted on\nSunday by OpenAI’s lawyers.\nThe filing didn’t include copies of the text exchange, and most of it was dedicated to convincing the judge why this exchange on settlement talks should be admitted into evidence. The judge, however, was not having it — ruling the exchange inadmissible, per TechCrunch reporter Tim Fernholz,\nwho is on-site covering the trial\n.\nThe implication, however, is clear. Musk’s lawsuit seeks to unwind OpenAI’s for-profit structure, require its tech be made available to the public, strip Microsoft’s licensing agreement, and compel OpenAI to pay him general, compensatory, and punitive damages plus his lawyer’s fees. After OpenAI’s lawyers publicly shared this “settle-or-else” text,\nobservers instantly clocked\nthat maybe this trial isn’t about Musk’s concern for AI safety, but about demanding money from its success while kneecapping a rival. This is, essentially, what OpenAI’s countersuit alleges.",
+    "title_zh": "OpenAI 声称，埃隆·马斯克在要求和解后向格雷格·布罗克曼、山姆·奥尔特曼发送了不祥的短信",
+    "summary_zh": "马斯克给 OpenAI 总裁兼联合创始人发短信称，如果 OpenAI 不解决诉讼，他和首席执行官萨姆·奥尔特曼“将成为美国最令人讨厌的人”",
+    "ai_summary": "马斯克给 OpenAI 总裁兼联合创始人发短信称，如果 OpenAI 不解决诉讼，他和首席执行官萨姆·奥尔特曼“将成为美…"
+  },
+  {
     "id": "0ca39b129128",
     "title": "Tailoring AI solutions for health care needs",
     "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
@@ -18,6 +144,24 @@
     "ai_summary": "人工智能市场充满了巨大变革的前景。医疗保健是这些承诺的主要目标，因为它受到财政压力、劳动力短缺和日益沉重的人口老龄化负担…"
   },
   {
+    "id": "2df0f916df05",
+    "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+    "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T15:59:24",
+    "summary": "Both Anthropic and OpenAI have partnered with asset managers to more aggressively market their enterprise AI products.",
+    "collected_at": "2026-05-04T19:19:07.686122",
+    "content_text": "On Monday, Anthropic\nannounced\na joint venture focusing on deploying enterprise AI services. Blackstone, Hellman & Friedman, and Goldman Sachs will be founding partners in the new venture, which is backed by a group of VCs, hedge funds, and private equity firms, including Apollo Global Management, General Atlantic, GIC, Leonard Green, and Sequoia Capital.\nThe Wall Street Journal, which first reported news of the partnership,\nreported the new venture was valued at $1.5 billion\n, which includes a $300 million commitment each from Anthropic, Blackstone, and Hellman & Friedman.\nThe announcement comes just as Anthropic’s chief rival is preparing to make a similar move. Mere hours before the Anthropic announcement,\nBloomberg reported\nthat OpenAI was raising funds for a new venture called The Development Company, along very similar lines. OpenAI’s venture would operate at a larger scale, raising $4 billion from 19 investors against a $10 billion valuation. Named investors include TPG, Brookfield Asset Management, Advent, and Bain Capital, with no apparent overlap in investment between the OpenAI venture and Anthropic’s competitor.\nThe overall logic of the two ventures is the same, raising money from alternative asset managers to create new channels for enterprise AI deals. The ventures will presumably get preferred sales access to their investors’ portfolio companies, while the investors will capture more value from any resulting contracts.\nThe new capital will also allow more engineering resources to be devoted to each individual, embracing the forward-deployed engineer (FDE) model popularized by Palantir.\nAs Anthropic put it in its announcement: “An engagement might begin with the company’s engineering team sitting down with clinicians and IT staff to build tools that fit into the workflows that staff already use… Engagements like this will run across mid-sized companies across industries, each shaped by the people closest to the work.”\nThe new ventures come as both AI labs fundraise at a blistering pace, while circling possible IPOs. OpenAI announced $122 billion in new funding\nat the end of March\n, against a valuation of $852 billion.\nTechCrunch reported last week\nthat Anthropic is in the final stages of its own funding round, seeking $50 billion of new funding against a $900 billion valuation.",
+    "content_source": "readability",
+    "content_chars": 2332,
+    "content_excerpt": "On Monday, Anthropic\nannounced\na joint venture focusing on deploying enterprise AI services. Blackstone, Hellman & Friedman, and Goldman Sachs will be founding partners in the new venture, which is backed by a group of VCs, hedge funds, and private equity firms, including Apollo Global Management, General Atlantic, GIC, Leonard Green, and Sequoia Capital.\nThe Wall Street Journal, which first reported news of the partnership,\nreported the new venture was valued at $1.5 billion\n, which includes a $300 million commitment each from Anthropic, Blackstone, and Hellman & Friedman.\nThe announcement comes just as Anthropic’s chief rival is preparing to make a similar move. Mere hours before the Anthropic announcement,\nBloomberg reported\nthat OpenAI was raising funds for a new venture called The Development Company, along very similar lines. OpenAI’s venture would operate at a larger scale, raising $4 billion from 19 investors against a $10 billion valuation. Named investors include TPG, Brookfield Asset Management, Advent, and Bain Capital, with no apparent overlap in investment between the OpenAI venture and Anthropic’s competitor.\nThe overall logic of the two ventures is the same, raising money from alternative asset managers to create new channels for enterprise AI deals. The ventures will presumably get preferred sales access to their investors’ portfolio companies, while the investors will capture more value from any resulting contracts.",
+    "title_zh": "Anthropic 和 OpenAI 均成立合资企业提供企业人工智能服务",
+    "summary_zh": "Anthropic 和 OpenAI 都与资产管理公司合作，更积极地营销其企业人工智能产品",
+    "ai_summary": "Anthropic 和 OpenAI 都与资产管理公司合作，更积极地营销其企业人工智能产品"
+  },
+  {
     "id": "1a713a06ddca",
     "title": "CNCF警告：仅靠Kubernetes不足以保障LLM工作负载的安全性",
     "url": "https://www.infoq.cn/article/IR1rJFXFZbChzBuKcAVl?utm_source=rss&utm_medium=article",
@@ -33,19 +177,22 @@
     "content_excerpt": "云原生计算基金会(CNCF)\n发布的\n一篇博客文章\n指出，企业在\nKubernetes\n上部署大语言模型(LLM)时存在一个关键的安全缺口，那就是尽管 Kubernetes 擅长编排和隔离工作负载，但它本身无法理解或控制 AI 系统的行为，由此形成了一类完全不同且更为复杂的威胁模型。\n文章认为，LLM 引入了一类新的风险，因为它们处理的是不受信任的输入，并且能够动态决定行动方式，这与传统应用不同。在典型部署中，例如，通过 API 或聊天界面暴露一个 LLM，Kubernetes 可以保证 Pod 运行正常、资源状态稳定，但它无法感知提示词是否是恶意的、敏感数据是否泄露，或模型是否以不安全方式与内部系统交互。这会导致一种糟糕的局面，那就是，基础设施表面健康，而底层风险却未被发现。\nCNCF 强调，基于 LLM 的系统必须被视为可编程、可决策的实体，而不仅仅是计算工作负载。当组织把 LLM 置于内部工具、日志、API 或凭据之前时，实际上是引入了一个可被提示词输入影响的新抽象层。这会打开一系列风险入口，例如，提示词注入、意外数据暴露以及对已连接工具的滥用，而这些威胁并非传统 Kubernetes 安全控制最初所要解决的问题。\n这种转变反映了云原生系统更广泛的演进：Kubernetes 正越来越多地被用于运行 AI 和生成式工作负载。随着采用规模的增长，这个平台正在从最初管理无状态微服务的定位，被扩展到编排数据密集型、智能体驱动和推理密集型系统。然而，安全模型尚未完全跟上这些新场景。\n虽然 Kubernetes 为调度、隔离和资源管理提供了强有力的基础能力，但它缺乏对 AI 系统施加应用层或语义层控制的内置机制。比如，它无法判断一个提示词是否应被执行、一个响应是否泄露敏感信息，或某个 LLM 是否应访问特定工具或 API。"
   },
   {
-    "id": "23ee692be402",
-    "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
-    "url": "https://36kr.com/p/3794799114476809?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-04T09:49:40",
-    "summary": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。 豆包 目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。” 据接近豆包的人士透露，付费",
-    "collected_at": "2026-05-04T13:27:58.009390",
-    "content_text": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。\n豆包\n目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。”\n据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。",
-    "content_source": "trafilatura",
-    "content_chars": 425,
-    "content_excerpt": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。\n豆包\n目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。”\n据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。"
+    "id": "abf86860a849",
+    "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-04T13:00:00",
+    "summary": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
+    "collected_at": "2026-05-04T19:19:07.686205",
+    "content_text": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create websites based on their app listings.\nThe onboarding tool works similarly to the one\nAmazon launched in 2024\n. Merchants can point the tool to their website, from which it will automatically fetch information such as photos, store hours, and menu items to create a listing on the app. Merchants can review and edit all of this information before publishing the listing.\nDoorDash has also revamped its video library. The library now lets merchants tag dishes in videos so that customers can order those items directly. The library also shows stats such as total views, video-driven sales, and new customer sales.\nRestaurants are getting a few photo-editing tools, too: AI Retouch can replace backgrounds, sharpen images, and optimize lighting without changing the dish; and AI Replate manipulates pictures of dishes so they look like they’re plated professionally, changing lighting and color. Merchants can also provide a reference image to apply a particular style to an existing image.\nImage Credits:\nDoorDash\n“At DoorDash, we’re constantly building tools to help merchants succeed, from their very first day on the platform, to every order after. These new tools reflect our belief that the right technology should remove friction, not add it, so merchants can focus on what they do best: making great food and delivering incredible customer experiences,” Brian Tolkin, head of merchant product at DoorDash, said in a statement.\nThe company is adding new features to its\ncommerce platform\nas well, one of which lets restaurant owners spin up a website based on existing DoorDash content, such as menu items and photos. The company said during a test of the new feature merchants saw order conversion rates of nearly 10% on average.\nThe company has also added a new marketing campaign builder that lets merchants automate content creation, email outreach, and scheduling.\nTechcrunch event\nSan Francisco, CA\n|\nOctober 13-15, 2026",
+    "content_source": "readability",
+    "content_chars": 2067,
+    "content_excerpt": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create websites based on their app listings.\nThe onboarding tool works similarly to the one\nAmazon launched in 2024\n. Merchants can point the tool to their website, from which it will automatically fetch information such as photos, store hours, and menu items to create a listing on the app. Merchants can review and edit all of this information before publishing the listing.\nDoorDash has also revamped its video library. The library now lets merchants tag dishes in videos so that customers can order those items directly. The library also shows stats such as total views, video-driven sales, and new customer sales.\nRestaurants are getting a few photo-editing tools, too: AI Retouch can replace backgrounds, sharpen images, and optimize lighting without changing the dish; and AI Replate manipulates pictures of dishes so they look like they’re plated professionally, changing lighting and color. Merchants can also provide a reference image to apply a particular style to an existing image.\nImage Credits:\nDoorDash\n“At DoorDash, we’re constantly building tools to help merchants succeed, from their very first day on the platform, to every order after. These new tools reflect our belief that the right technology should remove friction, not add it, so merchants can focus on what they do best: making great food and delivering incredible customer experiences,” Brian Tolkin, head of merchant product at DoorDash, said in a statement.\nThe company is adding new features to its",
+    "title_zh": "DoorDash 添加人工智能工具以加快商家入职速度、编辑菜肴照片",
+    "summary_zh": "DoorDash 周一添加了新的人工智能驱动工具，可以让商家加快入职速度、编辑照片以使菜肴看起来更好，以及根据现有内容创建新网站",
+    "ai_summary": "DoorDash 周一添加了新的人工智能驱动工具，可以让商家加快入职速度、编辑照片以使菜肴看起来更好，以及根据现有内容创…"
   },
   {
     "id": "efe69600d94f",
@@ -63,14 +210,14 @@
     "content_excerpt": "Cloudflare 在\nAgents Week\n期间宣布\nAgent Memory\n已开启私人测试。这是一项托管服务，可为 AI 智能体提供跨会话、上下文压缩以及重启后的持久化记忆能力。该服务无需把所有内容都塞进上下文窗口，而是从对话中提取结构化记忆，只在需要时检索相关内容。Cloudflare 工程团队的 Tyson Trautmann 与 Rob Sutter\n撰文\n表示：\n我们之所以构建 Agent Memory，是因为平台上实际运行的工作负载暴露出了现有方案无法彻底解决的短板。那些在真实代码库和生产系统中运行数周乃至数月的智能体需要一种能够随规模扩大持续可用的记忆能力，而不仅仅是在标准基准数据集上表现良好的记忆。\n该服务解决了业界所说的上下文衰减（Context Rot）问题。即便上下文窗口已突破百万级词元，相关研究表明，随着上下文不断被填满，模型输出质量会随之下降。开发者陷入两难困境：要么保留全部信息，任由输出质量下滑，要么大幅精简内容，但会丢失智能体后续所需的关键信息。研究还表明，模型在上下文更少、但内容更相关的情况下能够生成更优质的结果，这也让记忆功能不再只是单纯的存储管理工具，更成为提升输出质量的重要手段。\nCartesian 首席软件架构师、InfoQ 编辑 Eran Stiller 在领英上"
   },
   {
-    "id": "v2ex-1210195",
-    "title": "正确使用 claude 的姿势是什么？怎么能降低 Token 消耗",
-    "url": "https://www.v2ex.com/t/1210195",
+    "id": "v2ex-1210221",
+    "title": "26 年是 llm 泡沫崩破之年还是又冲高之年？",
+    "url": "https://www.v2ex.com/t/1210221",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-04T08:35:13",
-    "summary": "## RT 开的 claude pro ； 平时只用 claude opus4.7 写页面。codex 写后端； 目前使用的姿势。 桌面端的 desktop ，模型 opus4.7 high ，从写这个项目开始，一直都是一个对话框来对话。 举例做个功能，让他修改一个 vue 项目，一页面增加一个按钮，点击按钮弹出对话框。 这一个功能要用掉 70%。 1 个问题直接 limit 。 是不是姿势不对 ~ 求大佬指点",
-    "collected_at": "2026-05-04T13:27:59.739457"
+    "published": "2026-05-04T11:16:12",
+    "summary": "算力、能源、商业模式、安全、隐私、政治政策等等因素 26 年的 llm 是否会降温。",
+    "collected_at": "2026-05-04T19:19:14.775960"
   },
   {
     "id": "0c1342c5b648",
@@ -88,19 +235,19 @@
     "content_excerpt": "开源 DevOps 供应商\nGitLab\n发布其 DevSecOps 平台的\n18.10\n和\n18.11\n版本。本次更新让免费用户也能使用自主式 AI 功能，降低了自动化代码分析的单次审查成本，让管理员可以设定团队每月可消耗的 AI 积分额度上限。\n根据 GitLab 的报告，在使用 AI 编码工具的公司中，代码审查时间增加了 91%。在大型企业中，普通工程师在请求合并之前通常需要等待 13 小时，这也是此次调整定价的动因。一边要加快代码发布速度，一边审查任务堆积如山，这是一个自相矛盾的循环，而 GitLab 18.10 版本主要就是为了解决这一问题。\n本次定价调整的核心是：每次自动化代码审查统一收取 0.25 美元，无论合并请求的规模或复杂程度如何。GitLab 指出，竞争对手采用按 Token 计费的模式，每次审查收费 15 至 25 美元，这种计费结构会促使团队将 AI 审查资源优先用于最重要的变更，进而导致工作积压和延误。GitLab 认为，以每次审查 0.25 美元定价，即使是规模较小或风险较低的变更，团队也没有太多理由跳过审查了。\n开发团队正在以前所未有的速度交付更多的代码，负责保障代码安全并确保其安全部署的 AI 自动化技术必须与之保持同步——它必须覆盖每个项目和每个团队，并兼顾整个平台的整体情况。"
   },
   {
-    "id": "a6e365eac6be",
-    "title": "“DeepSeek版Claude Code”，Github 2.3k星",
-    "url": "https://www.qbitai.com/2026/05/412914.html",
-    "source": "量子位",
+    "id": "23ee692be402",
+    "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
+    "url": "https://36kr.com/p/3794799114476809?f=rss",
+    "source": "36氪",
     "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-04T06:09:16",
-    "summary": "专门针对DeepSeek优化",
-    "collected_at": "2026-05-04T08:20:05.607292",
-    "content_text": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。\n刚刚，这个项目的星标数突然开始骤增，来到了2.3k，还登上了GitHub热榜。\n这是一个用Rust语言编写的TUI编程工具，像Claude Code一样在终端里运行，但专门针对DeepSeek做了优化适配。\n为了向国内网友宣传自己的作品，作者Hunter Bown还特意用DeepSeek把宣传推文翻译成了中文。\n当DeepSeek-TUI在GitHub上如他所愿爆火之后，Hunter发图哦直言这是自己人生中最疯狂的两天，并用中文向“鲸鱼兄弟”们表示了感谢。\n“DeepSeek版Claude Code”\nDeepSeek-TUI就是一个住在终端里的编程Agent，再简单点理解，就是“DeepSeek版Claude Code”。\n它在今年1月由美国独立开发者Hunter Bown发起，用Rust语言编写，MIT协议开源，但一直不温不火，直到DeepSeek-V4的发布和Hunter的中文宣传，这个项目在这个五一假期开始爆火。\n像读写文件、执行Shell、搜网页、管Git、调度子Agent、接MCP服务器……这些Claude Code能干活的它基本都能干，也支持安装Skills，只不过换成了DeepSeek V4在背后跑。\n整个工具从设计逻辑到功能细节，都在围绕DeepSeek的特性转。\n最直接的一个是思维链。\nDeepSeek-TUI把模型的推理过程直接流式输出到终端里——模型怎么分析问题、走了哪条路、中途改没改主意，全部实时可见。\n然后是上下文。V4支持100万token的上下文窗口，项目默认就把这个用满，跑复杂任务从头到尾不用担心记忆断档。\n上下文快填满时，TUI会自动对内容进行压缩，也可以手动/compact触发。\n压缩策略专门考虑了DeepSeek的前缀缓存机制——尽量保住前面稳定的部分，让缓存能继续命中。\n这个TUI还有一个设计叫RLM，思路“很DeepSeek”——既然DeepSeek便宜到可以拿来堆数量，这个工具就把这个特性直接用进来了。\n在RLM模式中，一个主模型指挥最多16个V4 Flash子任务同时跑，用来做批量分析或任务拆解。Flash的输出价格大约是Pro的三分之一，把不需要强推理的子任务交给它，整体花费能砍不少。\n模型切换也做了专门处理，除了DeepSeek官方API，还支持NVIDIA NIM、Fireworks、自托管的SGLang几条路径。\n操作模式则一共有三档：\nYOLO顾名思义，全自动放行，不想被打断就开它。会话可以保存恢复，工作区有独立Git快照兜底，按轮次回滚不动原仓库，翻车了也不慌。\n不过有一点需要注意的是，子Agent开多了，缓存命中率很难保证。\n要知道，未命中的token价格是命中的10倍，项目界面上有逐轮费用显示，跑长会话建议留意一下，别跑完账单吓一跳。\n安装上，Linux、macOS、Windows都有预编译二进制，npm install -g deepseek-tui一条命令搞定。\n另外，作者还给国内用户准备了专门的中文版README文档和专门配置路径，支持TUNA Cargo镜像，release包还可以托管到阿里云OSS或腾讯云COS。\n项目1月19日建仓，到现在不到4个月，已经迭代到v0.8.8，发布了37个版本，节奏不慢。\n从更新记录来看，大致分几个阶段。\n早期版本主要在搭骨架——工具调用、session管理、基础的Git快照，把Agent跑起来是第一优先级。\nv0.7.x阶段开始往细节上打磨，加了多语言界面支持（v0.7.6）、中文等语言的TUI提示、帮助文本、状态栏开始本地化，这也是为国内用户做适配的一步。\nv0.8.x是最近几个版本的主轴，重心在稳定性和体验打磨上。\nv0.8.6/v0.8.7往上加了一批交互功能，包括限流或服务器报错时显示倒计时重试横幅、输入历史搜索、运行中消息队列可视化；\nv0.8.8在这个基础上做了一轮收口，同时把Linux ARM64预编译二进制补上了。\n整体节奏上看，这个迭代路径中功能更新密集，但每个版本基本都有明确的问题要解决。\n“爱科学的音乐家”\n实际上，Hunter一直是一名DeepSeek狂热粉丝，自打V4出来之后，他就发过很多推文不断称赞。\n同时他也爱好其他中国模型，参加过小米的百万亿Token创造者激励计划。\n而Hunter Bown的起点，其实是音乐，他曾立志当一名乐队指挥。\n他先是在北得克萨斯州大学修读音乐教育，毕业后继续深造，取得了南方卫理公会大学的音乐教育硕士。\n硕士毕业后，Hunter如愿当了3年的乐队指挥。\n后来，他拿了得克萨斯大学达拉斯分校的MBA，之后又回到了之前的母校SMU，进入法学院专攻专利法。\n至于码代码这件事，就更是“半路出家”的选择了。\n但这个“半路”不是转行，更像是几条线最终汇到了一起。\n他在学声乐科学时接触到一个概念叫“缺失基音”（missing fundamental）——人耳可以从泛音里重建出一个物理上并不存在的音高。\n他后来发现这和信息论直接对应，你不需要把所有信息都显式给出，系统本身也会补全。\n这个从音乐里来的直觉，成了他理解AI系统的一把钥匙。\n去年，他给自己创立了一个工作室，名字叫Shannon Labs，定位是“AGI时代的下一个贝尔实验室”。\nDeepSeek-TUI在他这里只是众多研究项目之一，他的GitHub上有65个公开仓库，包括面向NVIDIA Nemotron的同款终端Agent NeMoCode，以及MLX kernel工具包等等。\nShannon Labs旗下的项目跨度更大。\nHegelion是一个辩证推理引擎，走的是”正题→反题→合题”的循环逻辑；\nAleph是一个MCP服务器，主打零token成本的大容量上下文；\nHeliosinger则把太阳风数据实时转化成声音，从AI基础设施一路跨界到了到太空声学。\n他还自己建了三套软件架构（SCU、Driftlock、Hegelion）和一个硬件方案（Driftlock Choir），在他看来，这些拼在一起，是在为AGI时代做基础设施。\n能把这些方向拼在一起，也和他的家族故事颇具关联。\n他的曾祖父Ralph Bown Sr.是贝尔实验室的研究副总裁、无线电先驱，业余时间喜欢自制蜡筒、跑去卡内基音乐厅录音。\nHunter在专利法课堂上意识到，自己正在走一条和这位先祖交汇的路——\n把音乐人的感知方式带进技术研究，去发现那些“因为没有这种背景的研究者而被忽视的想法”。\n他在个人网站上将自己和曾祖父进行了对比，“他是科学家，爱音乐；我是音乐家，爱科学。”\nOne More Thing\n在DeepSeek-TUI的贡献者列表当中，还能看到一些我们熟悉的影子。\n其中包括了Claude、Gemini、Qwen等一系列AI模型和Cursor、GitHub Copilot等编程工具。\n详细记录则表明，大部分的代码由Hunter直接提交，还有150多次commit是Claude做的，另外还有一些真人贡献者提交了少量的commit。\n半路出家的程序员，用AI辅助编程给AI写辅助编程框架，这工作流也是闭环了（手动狗头）。\nGitHub地址：\nhttps://github.com/Hmbown/DeepSeek-TUI\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 3320,
-    "content_excerpt": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。"
+    "priority": 4,
+    "published": "2026-05-04T09:49:40",
+    "summary": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。 豆包 目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。” 据接近豆包的人士透露，付费",
+    "collected_at": "2026-05-04T13:27:58.009390",
+    "content_text": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。\n豆包\n目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。”\n据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。",
+    "content_source": "trafilatura",
+    "content_chars": 425,
+    "content_excerpt": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。\n豆包\n目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。”\n据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。"
   },
   {
     "id": "a96943de4b9d",
@@ -118,14 +265,14 @@
     "content_excerpt": "Cloudflare 通过发布\n由Code Mode驱动的全新模型上下文（Model Context Protocol，MCP）服务器，显著降低了与其完整API平台交互的成本\n，这代表了 AI 智能体访问复杂 API 方式的一次重要演进。这一新方法也展示了 MCP 生态中智能体与工具集成的新路径。\nMCP 本质上是一项新兴的标准，它通过暴露结构化的工具，让大语言模型（LLM）在执行期间能够调用这些工具并与外部工具和 API 交互。传统做法中，暴露给智能体的每个 API 端点都对应一个独立的工具定义。该模型虽然简单直接，但每次工具规范占用模型有限输入预算中的 Token 时，都会带来显著的上下文窗口成本，从而压缩模型用于推理用户任务的空间。\nCloudflare 解决方案工程师\nLuuk Hofman\n表示：\n所以，我们尝试了一种新的方式：把 MCP 工具转换成 TypeScript API，然后直接让 LLM 基于它编写代码。\nCloudflare 的\nCode Mode"
   },
   {
-    "id": "v2ex-1210181",
-    "title": "微信输入法这么扯淡都没有切换输入法的选项的吗？",
-    "url": "https://www.v2ex.com/t/1210181",
+    "id": "v2ex-1210195",
+    "title": "正确使用 claude 的姿势是什么？怎么能降低 Token 消耗",
+    "url": "https://www.v2ex.com/t/1210195",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-04T05:43:10",
-    "summary": "我不懂具体这个东西有没有什么规范和标准，但是我印象中，你一个输入法，肯定要有切换到别的输入法的选项或者按钮对吧。比如 Google 的 Gboard ，那个地球图标，长按就能切换到比如微信输入法、讯飞、搜狗之类的。 但是微信输入法（ Android ）居然连这个选项和按钮都没有，我首先是在键盘上找，没找到，工具栏上找，没找到，然后进输入法 app 选项，也没有找到。太操蛋了。 要切换只能去系统设置那里切换。这不相当于就是“我不给你切，你激活了我的输入法，就一直用我家的”。 我下了个豆包输入法，以为不这样，结果一样，也是找不到切换的入口。 我以前用过讯飞，讯飞是在二级菜单，也就是在输入法界面点开",
-    "collected_at": "2026-05-04T13:27:59.739413"
+    "published": "2026-05-04T08:35:13",
+    "summary": "## RT 开的 claude pro ； 平时只用 claude opus4.7 写页面。codex 写后端； 目前使用的姿势。 桌面端的 desktop ，模型 opus4.7 high ，从写这个项目开始，一直都是一个对话框来对话。 举例做个功能，让他修改一个 vue 项目，一页面增加一个按钮，点击按钮弹出对话框。 这一个功能要用掉 70%。 1 个问题直接 limit 。 是不是姿势不对 ~ 求大佬指点",
+    "collected_at": "2026-05-04T13:27:59.739457"
   },
   {
     "id": "8427fe1a4763",
@@ -143,14 +290,29 @@
     "content_excerpt": "Netflix 已从传统的视频点播平台迈向直播平台，通过将自动化技术系统与结构化的人类运营层相结合来实现这一转型，相关内容在其最新发布的 Netflix Technology Blog\n文章\n中进行了说明。\n在多年打磨异步分发能力之后，像\n迈克·泰森与杰克·保罗\n拳击比赛这样的高关注度直播事件（全球约有 1.08 亿观众同时观看）对实时基础设施的管理提出了新的要求。这促使团队构建了所谓的“人类基础设施”（human infrastructure），即一个专门的运营层，用于应对直播过程中固有的不确定性。\n这一转变也反映了整个行业面临的共同挑战。Amazon Web Services 提供了\nElemental MediaLive\n服务，帮助广播机构在大规模场景下处理类似的同步与编码任务。\n其他主要平台也遇到了类似难题；Disney+ Hotstar 此前曾分享其在全球板球赛事期间如何应对"
   },
   {
-    "id": "v2ex-1210177",
-    "title": "因为炒币合约亏太多了，用 ai 做了一个裸 K 实盘训练的网页，不用登陆欢迎大家来玩",
-    "url": "https://www.v2ex.com/t/1210177",
+    "id": "a6e365eac6be",
+    "title": "“DeepSeek版Claude Code”，Github 2.3k星",
+    "url": "https://www.qbitai.com/2026/05/412914.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-04T06:09:16",
+    "summary": "专门针对DeepSeek优化",
+    "collected_at": "2026-05-04T08:20:05.607292",
+    "content_text": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。\n刚刚，这个项目的星标数突然开始骤增，来到了2.3k，还登上了GitHub热榜。\n这是一个用Rust语言编写的TUI编程工具，像Claude Code一样在终端里运行，但专门针对DeepSeek做了优化适配。\n为了向国内网友宣传自己的作品，作者Hunter Bown还特意用DeepSeek把宣传推文翻译成了中文。\n当DeepSeek-TUI在GitHub上如他所愿爆火之后，Hunter发图哦直言这是自己人生中最疯狂的两天，并用中文向“鲸鱼兄弟”们表示了感谢。\n“DeepSeek版Claude Code”\nDeepSeek-TUI就是一个住在终端里的编程Agent，再简单点理解，就是“DeepSeek版Claude Code”。\n它在今年1月由美国独立开发者Hunter Bown发起，用Rust语言编写，MIT协议开源，但一直不温不火，直到DeepSeek-V4的发布和Hunter的中文宣传，这个项目在这个五一假期开始爆火。\n像读写文件、执行Shell、搜网页、管Git、调度子Agent、接MCP服务器……这些Claude Code能干活的它基本都能干，也支持安装Skills，只不过换成了DeepSeek V4在背后跑。\n整个工具从设计逻辑到功能细节，都在围绕DeepSeek的特性转。\n最直接的一个是思维链。\nDeepSeek-TUI把模型的推理过程直接流式输出到终端里——模型怎么分析问题、走了哪条路、中途改没改主意，全部实时可见。\n然后是上下文。V4支持100万token的上下文窗口，项目默认就把这个用满，跑复杂任务从头到尾不用担心记忆断档。\n上下文快填满时，TUI会自动对内容进行压缩，也可以手动/compact触发。\n压缩策略专门考虑了DeepSeek的前缀缓存机制——尽量保住前面稳定的部分，让缓存能继续命中。\n这个TUI还有一个设计叫RLM，思路“很DeepSeek”——既然DeepSeek便宜到可以拿来堆数量，这个工具就把这个特性直接用进来了。\n在RLM模式中，一个主模型指挥最多16个V4 Flash子任务同时跑，用来做批量分析或任务拆解。Flash的输出价格大约是Pro的三分之一，把不需要强推理的子任务交给它，整体花费能砍不少。\n模型切换也做了专门处理，除了DeepSeek官方API，还支持NVIDIA NIM、Fireworks、自托管的SGLang几条路径。\n操作模式则一共有三档：\nYOLO顾名思义，全自动放行，不想被打断就开它。会话可以保存恢复，工作区有独立Git快照兜底，按轮次回滚不动原仓库，翻车了也不慌。\n不过有一点需要注意的是，子Agent开多了，缓存命中率很难保证。\n要知道，未命中的token价格是命中的10倍，项目界面上有逐轮费用显示，跑长会话建议留意一下，别跑完账单吓一跳。\n安装上，Linux、macOS、Windows都有预编译二进制，npm install -g deepseek-tui一条命令搞定。\n另外，作者还给国内用户准备了专门的中文版README文档和专门配置路径，支持TUNA Cargo镜像，release包还可以托管到阿里云OSS或腾讯云COS。\n项目1月19日建仓，到现在不到4个月，已经迭代到v0.8.8，发布了37个版本，节奏不慢。\n从更新记录来看，大致分几个阶段。\n早期版本主要在搭骨架——工具调用、session管理、基础的Git快照，把Agent跑起来是第一优先级。\nv0.7.x阶段开始往细节上打磨，加了多语言界面支持（v0.7.6）、中文等语言的TUI提示、帮助文本、状态栏开始本地化，这也是为国内用户做适配的一步。\nv0.8.x是最近几个版本的主轴，重心在稳定性和体验打磨上。\nv0.8.6/v0.8.7往上加了一批交互功能，包括限流或服务器报错时显示倒计时重试横幅、输入历史搜索、运行中消息队列可视化；\nv0.8.8在这个基础上做了一轮收口，同时把Linux ARM64预编译二进制补上了。\n整体节奏上看，这个迭代路径中功能更新密集，但每个版本基本都有明确的问题要解决。\n“爱科学的音乐家”\n实际上，Hunter一直是一名DeepSeek狂热粉丝，自打V4出来之后，他就发过很多推文不断称赞。\n同时他也爱好其他中国模型，参加过小米的百万亿Token创造者激励计划。\n而Hunter Bown的起点，其实是音乐，他曾立志当一名乐队指挥。\n他先是在北得克萨斯州大学修读音乐教育，毕业后继续深造，取得了南方卫理公会大学的音乐教育硕士。\n硕士毕业后，Hunter如愿当了3年的乐队指挥。\n后来，他拿了得克萨斯大学达拉斯分校的MBA，之后又回到了之前的母校SMU，进入法学院专攻专利法。\n至于码代码这件事，就更是“半路出家”的选择了。\n但这个“半路”不是转行，更像是几条线最终汇到了一起。\n他在学声乐科学时接触到一个概念叫“缺失基音”（missing fundamental）——人耳可以从泛音里重建出一个物理上并不存在的音高。\n他后来发现这和信息论直接对应，你不需要把所有信息都显式给出，系统本身也会补全。\n这个从音乐里来的直觉，成了他理解AI系统的一把钥匙。\n去年，他给自己创立了一个工作室，名字叫Shannon Labs，定位是“AGI时代的下一个贝尔实验室”。\nDeepSeek-TUI在他这里只是众多研究项目之一，他的GitHub上有65个公开仓库，包括面向NVIDIA Nemotron的同款终端Agent NeMoCode，以及MLX kernel工具包等等。\nShannon Labs旗下的项目跨度更大。\nHegelion是一个辩证推理引擎，走的是”正题→反题→合题”的循环逻辑；\nAleph是一个MCP服务器，主打零token成本的大容量上下文；\nHeliosinger则把太阳风数据实时转化成声音，从AI基础设施一路跨界到了到太空声学。\n他还自己建了三套软件架构（SCU、Driftlock、Hegelion）和一个硬件方案（Driftlock Choir），在他看来，这些拼在一起，是在为AGI时代做基础设施。\n能把这些方向拼在一起，也和他的家族故事颇具关联。\n他的曾祖父Ralph Bown Sr.是贝尔实验室的研究副总裁、无线电先驱，业余时间喜欢自制蜡筒、跑去卡内基音乐厅录音。\nHunter在专利法课堂上意识到，自己正在走一条和这位先祖交汇的路——\n把音乐人的感知方式带进技术研究，去发现那些“因为没有这种背景的研究者而被忽视的想法”。\n他在个人网站上将自己和曾祖父进行了对比，“他是科学家，爱音乐；我是音乐家，爱科学。”\nOne More Thing\n在DeepSeek-TUI的贡献者列表当中，还能看到一些我们熟悉的影子。\n其中包括了Claude、Gemini、Qwen等一系列AI模型和Cursor、GitHub Copilot等编程工具。\n详细记录则表明，大部分的代码由Hunter直接提交，还有150多次commit是Claude做的，另外还有一些真人贡献者提交了少量的commit。\n半路出家的程序员，用AI辅助编程给AI写辅助编程框架，这工作流也是闭环了（手动狗头）。\nGitHub地址：\nhttps://github.com/Hmbown/DeepSeek-TUI\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
+    "content_source": "readability",
+    "content_chars": 3320,
+    "content_excerpt": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。"
+  },
+  {
+    "id": "v2ex-1210181",
+    "title": "微信输入法这么扯淡都没有切换输入法的选项的吗？",
+    "url": "https://www.v2ex.com/t/1210181",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-04T04:55:15",
-    "summary": "灵感来源是在抖音刷到有博主用这种训练软件来教学裸 K 盘感和一些指标技巧，自己也跟着弄了一个；用的 nextjs 做的小训练平台，地址： https://trade-me.vercel.app/training ；支持限价市价止盈止损，内置排行榜功能=。=",
-    "collected_at": "2026-05-04T13:27:59.739488"
+    "published": "2026-05-04T05:43:10",
+    "summary": "我不懂具体这个东西有没有什么规范和标准，但是我印象中，你一个输入法，肯定要有切换到别的输入法的选项或者按钮对吧。比如 Google 的 Gboard ，那个地球图标，长按就能切换到比如微信输入法、讯飞、搜狗之类的。 但是微信输入法（ Android ）居然连这个选项和按钮都没有，我首先是在键盘上找，没找到，工具栏上找，没找到，然后进输入法 app 选项，也没有找到。太操蛋了。 要切换只能去系统设置那里切换。这不相当于就是“我不给你切，你激活了我的输入法，就一直用我家的”。 我下了个豆包输入法，以为不这样，结果一样，也是找不到切换的入口。 我以前用过讯飞，讯飞是在二级菜单，也就是在输入法界面点开",
+    "collected_at": "2026-05-04T13:27:59.739413"
   },
   {
     "id": "4ec0ed4665fa",
@@ -162,6 +324,16 @@
     "published": "2026-05-04T04:40:42",
     "summary": "近日，豆包App Store页面出现付费版本服务声明。对此，豆包官方回应称，豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，相关方案细节目前还在测试阶段。另据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。（第一财经）",
     "collected_at": "2026-05-04T08:22:26.261649"
+  },
+  {
+    "id": "v2ex-1210177",
+    "title": "因为炒币合约亏太多了，用 ai 做了一个裸 K 实盘训练的网页，不用登陆欢迎大家来玩",
+    "url": "https://www.v2ex.com/t/1210177",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-04T04:55:15",
+    "summary": "灵感来源是在抖音刷到有博主用这种训练软件来教学裸 K 盘感和一些指标技巧，自己也跟着弄了一个；用的 nextjs 做的小训练平台，地址： https://trade-me.vercel.app/training ；支持限价市价止盈止损，内置排行榜功能=。=",
+    "collected_at": "2026-05-04T13:27:59.739488"
   },
   {
     "id": "01b7165cd4b6",
@@ -4395,167 +4567,6 @@
     "collected_at": "2026-04-28T10:16:42.706491"
   },
   {
-    "id": "reddit-1sxvn8h",
-    "title": "Do the \"*Claude-4.6-Opus-Reasoning-Distilled\" really bring something new to the original models?",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxvn8h/do_the_claude46opusreasoningdistilled_really/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T08:45:16",
-    "summary": "No offense to the fine-tune model providers, just curious. IMO the original models were already trained on massive amount of high quality data, so why bother with this fine-tune? Just to make the model's language style sounds like Claude? Or it really reshape the chain of thought ?",
-    "points": 15,
-    "collected_at": "2026-04-28T10:53:47.292544",
-    "title_zh": "“*Claude-4.6-Opus-Reasoning-Distilled”真的给原始模型带来了新的东西吗？",
-    "summary_zh": "无意冒犯微调模型提供者，只是好奇。在我看来，原始模型已经接受了大量高质量数据的训练，那么为什么还要进行这种微调呢？只是为了让模特的语言风格听起来像克劳德？或者说它真的重塑了思想链条？",
-    "ai_summary": "无意冒犯微调模型提供者，只是好奇。在我看来，原始模型已经接受了大量高质量数据的训练，那么为什么还要进行这种微调呢？只是为…",
-    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/LocalLLaMA/comments/1sxvn8h/do_the_claude46opusreasoningdistilled_really/"
-  },
-  {
-    "id": "v2ex-1209141",
-    "title": "我开始使用呼吸机睡觉了",
-    "url": "https://www.v2ex.com/t/1209141",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-28T08:22:25",
-    "summary": "之前我妻子跟我说其实她睡眠越来越差，每晚都能听到我打呼，有的时候还有那种吸不上来气的感觉，我一下子就连联想到我的父亲和祖父，小时候和他们一起睡，就算其他房间也能听到打呼，而且经常有吸不上来气然后就像启动拖拉机似的要猛吸几口并伴随着让人心悸的声音。 没想到我也这样了。我和妻子也是坐下来聊了聊，其实这里有个第三者，gemini ，简单聊过就是要去看医生。但是苦于我在东京，日语也不好，家附近搜了几家诊所，感觉都不行。日本这边的就医体验和医生关系很大，很多医生看你不懂日语，压根不多说，就说大丈夫开始赶人。当时也没当回事，就这么放着了。 后面我自己发现，虽然我每天睡了一觉，但是早上起来依然感觉身心俱疲，",
-    "collected_at": "2026-04-29T02:15:52.643173",
-    "content_text": "之前我妻子跟我说其实她睡眠越来越差，每晚都能听到我打呼，有的时候还有那种吸不上来气的感觉，我一下子就连联想到我的父亲和祖父，小时候和他们一起睡，就算其他房间也能听到打呼，而且经常有吸不上来气然后就像启动拖拉机似的要猛吸几口并伴随着让人心悸的声音。\n没想到我也这样了。我和妻子也是坐下来聊了聊，其实这里有个第三者，gemini ，简单聊过就是要去看医生。但是苦于我在东京，日语也不好，家附近搜了几家诊所，感觉都不行。日本这边的就医体验和医生关系很大，很多医生看你不懂日语，压根不多说，就说大丈夫开始赶人。当时也没当回事，就这么放着了。\n后面我自己发现，虽然我每天睡了一觉，但是早上起来依然感觉身心俱疲，这个状态持续很久了。而且打呼大概率是肥胖引起的，以前上大学的时候我 120 斤，现在已经快 150 斤了，我的妻子也说我之前是不打呼的。我不抽烟不喝酒，除了肥胖也没有其他可能了，所以开始超慢跑并且跟着一些视频教程来改善打呼的情况。\n打呼这玩意，按我妻子的说法，就像是有自己的意识，她经常被我吵得起来捏住我的嘴，但是我的呼声会停止一会儿，然后又开始打，然后她在做同样的动作就没有用了。我锻炼完，第一晚信心满满，妻子也告诉我，那个晚上她睡得挺好的，但是第二晚就打回原形了。从这里开始，我逐渐焦虑，渐渐地晚上入睡也困难了。可能是我以为的入睡困难，但是妻子总是跟我说你都在打呼了，这些话我小时候不理解，我的祖父总会起来说“我没有睡着呀”，结果现在发生在我身上，但是我确实处于一个我认为的清醒状态，我感觉我并没有睡着，还能控制身体，但是确实听不见打呼的声音，仅有几次能有那种呼不上气然后发出巨大声音的感觉。\n接下来是一次 1on1 和主管聊到这个事，他极力推荐我去做 sleep study ，我当时还在想这是啥，人挺好的主管还给我解释了美国做这个都是什么流程。当天我就通过 Gemini 找了一些说英语的诊所，在港区那边有一家评分很高的耳鼻喉科诊所，医生耶鲁毕业，随后我预约了并且去了。\n不得不说，医生态度很好，老医生，给我做了解释并且检查了我的喉咙。顺便帮我看了我很久以来的耳朵痒的问题。日本这边 sleep study 是诊所给你寄一台机器，然后看情况戴一个或者两个晚上，再把机器寄回去。第一个晚上我就失眠了，很久才睡，毕竟鼻子上戴一个东西，手指再上个夹子，很难说舒服对吧。\n过了三周我去复诊，得到化验的结果是耳朵是真菌感染不是中耳炎，当时通过他开的药就已经不痒了。睡眠的问题直接给我下了判书，我每个小时会呼吸暂停 41 次，而正常值是 5 次以下，最长的暂停时间快到 2 分钟，情况属于非常严重，介入手段就是带呼吸机。之前主管也跟我说，呼吸机 CPAP machine 其实不能治疗打呼，但是可以让自己的生活改善，每天起床至少恢复精力然后再去做其他的事。所以我也算是欣然接受并抱着期待。\n日本医保会报销呼吸机的月租费用，我直接不需要花什么钱。但是我似乎选错了面罩，我目前选的是一个覆盖嘴巴的，这个东西链接的管子就很多，把自己的脑袋环绕了一圈，这半个月以来，我从来没能戴着它睡着。我目前放弃了，等着下次复诊和医生沟通换一个鼻塞式的。主管也是很关心我的这个情况，告诉我美国那边医生其实会教你如何使用。我第一晚压根儿没有戴对，面罩漏气的声音巨大无比。国内我看了基本上护士也会教，而且还会配合加湿器，我这个租的并没有配加湿器。\n不过这件事也算是让我下定决心减肥了（虽然感觉这个决心下了很多次了），最近也是成功减了 1 公斤（ XD ），不知道是我先适应呼吸机还是我先通过减肥根治打呼。",
-    "content_source": "trafilatura",
-    "content_chars": 1487,
-    "content_excerpt": "之前我妻子跟我说其实她睡眠越来越差，每晚都能听到我打呼，有的时候还有那种吸不上来气的感觉，我一下子就连联想到我的父亲和祖父，小时候和他们一起睡，就算其他房间也能听到打呼，而且经常有吸不上来气然后就像启动拖拉机似的要猛吸几口并伴随着让人心悸的声音。\n没想到我也这样了。我和妻子也是坐下来聊了聊，其实这里有个第三者，gemini ，简单聊过就是要去看医生。但是苦于我在东京，日语也不好，家附近搜了几家诊所，感觉都不行。日本这边的就医体验和医生关系很大，很多医生看你不懂日语，压根不多说，就说大丈夫开始赶人。当时也没当回事，就这么放着了。\n后面我自己发现，虽然我每天睡了一觉，但是早上起来依然感觉身心俱疲，这个状态持续很久了。而且打呼大概率是肥胖引起的，以前上大学的时候我 120 斤，现在已经快 150 斤了，我的妻子也说我之前是不打呼的。我不抽烟不喝酒，除了肥胖也没有其他可能了，所以开始超慢跑并且跟着一些视频教程来改善打呼的情况。\n打呼这玩意，按我妻子的说法，就像是有自己的意识，她经常被我吵得起来捏住我的嘴，但是我的呼声会停止一会儿，然后又开始打，然后她在做同样的动作就没有用了。我锻炼完，第一晚信心满满，妻子也告诉我，那个晚上她睡得挺好的，但是第二晚就打回原形了。从这里开始，我逐渐焦虑，渐渐地晚上入睡也困难了。可能是我以为的入睡困难，但是妻子总是跟我说你都在打呼了，这些话我小时候不理解，我的祖父总会起来说“我没有睡着呀”，结果现在发生在我身上，但是我确实处于一个我认为的清醒状态，我感觉我并没有睡着，还能控制身体，但是确实听不见打呼的声音，仅有几次能有那种呼不上气然后发出巨大声音的感觉。\n接下来是一次 1on1 和主管聊到这个事，他极力推荐我去做 sleep study ，我当时还在想这是啥，人挺好的主管还给我解释了美国做这个都是什么流程。当天我就通过 Gemini 找了一些说英语的诊所，在港区那边有一家评分很高的耳鼻喉科诊所，医生耶鲁毕业，随后我预约了并且去了。\n不得不说，医生态度很好，老医生，给我做了解释并且检查了我的喉咙。顺便帮我看了我很久以来的耳朵痒的问题。日本这边 sleep study 是诊所给你寄一台机器，然后看情况戴一个或者两个晚上，再把机器寄回去。第一个晚上我就失眠了，很久才睡，毕竟鼻子上戴一个东西，手指再上个夹子，很难说舒服对吧。\n过了三周我去复诊，得到化验的结果是耳朵是真菌感染不是中耳炎，当时通过他开的药就已经不痒了。睡眠的问题直接给我下了判书，我每个小时会呼吸暂停 41 次，而正常值是 5 次以下，最长的暂停时间快到 2 分钟，情况属于非常严重，介入手段就是带呼吸机。之前主管也跟我说，呼吸机 CPAP machine 其实不能治疗打呼，但是可以让自己的生活改善，每天起床至少恢复精力然后再去做其他的事。所以我也算是欣然接受并抱着期待。\n日本医保会报销呼吸机的月租费用，我直接不需要花什么钱。但是我似乎选错了面罩，我目前选的是一个覆盖嘴巴的，这个东西链接的管子就很多，把自己的脑袋环绕了一圈，这半个月以来，我从来没能戴着它睡着。我目前放弃了，等着下次复诊和医生沟通换一个鼻塞式的。主管也是很关心我的这个情况，告诉我美国那边医生其实会教你如何使用。我第一晚压根儿没有戴对，面罩漏气的声音巨大无比。国内我看了基本上护士也会教，而且还会配合加湿器，我这个租的并没有配加湿器。\n不过这件事也算是让我下定决心减肥了（虽然感觉这个决心下了很多次了），最近也是成功减了 1 公斤（ XD ），不知道是我先适应呼吸机还是我先通过减肥根治打呼。"
-  },
-  {
-    "id": "reddit-1sxv5vw",
-    "title": "I built a solo AI platform from Algeria with no funding, no team and no ad spend - here's what's inside it after 2 months",
-    "url": "https://reddit.com/r/artificial/comments/1sxv5vw/i_built_a_solo_ai_platform_from_algeria_with_no/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-28T08:16:20",
-    "summary": "Hello, 20 years old here just got into the Ai platform and launched this last two weeks and here is what I have on it so far. \\- **Latest Ai models Comparison**: ChatGPT 5.4 Claude Sonnet 4.6 and many more will be included as well \\-**Ai models**: at the moment we have over 40+ different Ai models a",
-    "points": 1,
-    "collected_at": "2026-04-28T10:53:50.525563",
-    "title_zh": "我在阿尔及利亚建立了一个单独的人工智能平台，没有资金，没有团队，也没有广告支出——这是两个月后的内容",
-    "summary_zh": "你好，我 20 岁了，刚刚进入 Ai 平台并在过去两周推出，这是我到目前为止所掌握的内容。 \\- **最新 Ai 模型比较**：ChatGPT 5.4 Claude Sonnet 4.6 等也将包括在内 \\-**Ai 模型**：目前我们有超…",
-    "ai_summary": "你好，我 20 岁了，刚刚进入 Ai 平台并在过去两周推出，这是我到目前为止所掌握的内容。 \\- **最新 Ai 模型比…",
-    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1sxv5vw/i_built_a_solo_ai_platform_from_algeria_with_no/"
-  },
-  {
-    "id": "v2ex-1209118",
-    "title": "公司买 api 一般是官 key 还是中转？",
-    "url": "https://www.v2ex.com/t/1209118",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-28T07:22:41",
-    "summary": "老板体验了 claude 后拍板要把 claude 嵌入全公司工作流，让我去解决采购渠道问题，要求数据不得经过非正规公司传送，大概意思估计是买大厂 vps 自建 api 代理可以，但不能买贩子的中转站。但是先不说走什么代理的问题，国内几乎都找不到官 key 的货源啊，都是 5 刀 20 刀这种个人用的，总不能让老板去小黄鱼买吧。 问了几家能做对公的，都是中转，拍胸脯保证他们客户都是大厂，绝对稳定高质量，但那个价格感觉就像假的。 老板要求 3 天内必须给结果，老板不懂电脑，跟他没法解释",
-    "collected_at": "2026-04-29T02:15:52.643268",
-    "content_text": "如果公司用、不差钱，在 AWS 官网找正规 AWS 合作经销商，先问他们能否解决 KYC 的问题，因为在 AWS 上“启用”某个模型，也有一步 KYC 的步骤，无法规避，如果不能解决就不要签约、换下一家（这块应该属于灰色地带……）。\nGCP 、Azure 同理，它们也可以用 Anthropic 的模型，但是前些天 AWS 出了这么一篇新闻：\nhttps://aws.amazon.com/claude-platform/\n大概就是说，可以通过 AWS 访问 Anthropic 官方 API ，同时使用 AWS 的鉴权认证、账单付款。\n（但有一说一 Anthropic 官方 API 可用性不咋地就是了……）\nPS：\nAnthropic 官方 API 有一些特性是没开放给第三方云厂商的，比如 Opus 4.6 Fast Mode 、比如 Advisor Tool……官方文档上都有写，如果某家宣称是官方 API ，可以问问看是否支持这些特性。",
-    "content_source": "readability",
-    "content_chars": 423,
-    "content_excerpt": "如果公司用、不差钱，在 AWS 官网找正规 AWS 合作经销商，先问他们能否解决 KYC 的问题，因为在 AWS 上“启用”某个模型，也有一步 KYC 的步骤，无法规避，如果不能解决就不要签约、换下一家（这块应该属于灰色地带……）。\nGCP 、Azure 同理，它们也可以用 Anthropic 的模型，但是前些天 AWS 出了这么一篇新闻：\nhttps://aws.amazon.com/claude-platform/\n大概就是说，可以通过 AWS 访问 Anthropic 官方 API ，同时使用 AWS 的鉴权认证、账单付款。\n（但有一说一 Anthropic 官方 API 可用性不咋地就是了……）\nPS：\nAnthropic 官方 API 有一些特性是没开放给第三方云厂商的，比如 Opus 4.6 Fast Mode 、比如 Advisor Tool……官方文档上都有写，如果某家宣称是官方 API ，可以问问看是否支持这些特性。"
-  },
-  {
-    "id": "reddit-1sxv0sh",
-    "title": "AI in Medicine - PLEASE give me your opinions good and bad for my journalism paper",
-    "url": "https://reddit.com/r/artificial/comments/1sxv0sh/ai_in_medicine_please_give_me_your_opinions_good/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-28T08:07:55",
-    "summary": "Hi everyone! My journalism professor is making us write a feature article with multiple interviews. The topic I got is the relationship between the healthcare and technology sectors in California. I am specifically focusing on how the push and pull between these two sectors is driving the rapid corp",
-    "points": 3,
-    "collected_at": "2026-04-28T10:53:50.525344",
-    "title_zh": "医学中的人工智能 - 请给我你对我的新闻论文好的和坏的意见",
-    "summary_zh": "大家好！我的新闻学教授让我们写一篇包含多次采访的专题文章。我得到的主题是加州医疗保健和科技行业之间的关系。我特别关注这两个部门之间的推拉如何推动公司的快速发展",
-    "ai_summary": "大家好！我的新闻学教授让我们写一篇包含多次采访的专题文章。我得到的主题是加州医疗保健和科技行业之间的关系。我特别关注这两…",
-    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1sxv0sh/ai_in_medicine_please_give_me_your_opinions_good/"
-  },
-  {
-    "id": "4a0bf9af03fb",
-    "title": "AI真能搞钱了！这家公司把大模型玩成闭环赚钱机器",
-    "url": "https://www.qbitai.com/2026/04/410294.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-28T07:21:21",
-    "summary": "跑通AI盈利正循环，还教你躺着用Agent赚钱。",
-    "collected_at": "2026-04-28T10:09:54.854442",
-    "content_text": "AI真能搞钱了！这家公司把大模型玩成闭环赚钱机器\n田, 晏林\n2026-04-28\n15:21:21\n来源：\n量子位\n田晏林 发自 凹非寺\n量子位 | 公众号 QbitAI\n当全行业还在卷大模型参数、烧算力、拼Token消耗时，已经有企业实打实地在用大模型\n帮客户赚到真金白银\n。\n这些年，天下苦SaaS久矣，更苦“AI好看不好用”。\n大模型发展突飞猛进，新模型不断涌现。但早期B端企业获得感较弱，模型多数只能聊天，无法开箱即用，更别提能实际执行任务、做出业绩、能替代真人干活了。\n企业老板们最烦恼的莫过于：花了一堆钱买系统、搭模型，最后得到的效果像「抽卡」、交付不稳定、大模型幻觉频发……\n在这样的行业困局里，\n零犀科技\n走出了一条完全不同的路。\n其自研的\n因果大模型\n，不做炫技，也不赚虚高的Token钱，只做一件事：用AI智能体帮企业\n提升销售、拿到结果\n。\n有保险客户接入零犀销售智能体，\n一年新增保费20亿元\n；\n更少见的是，在普遍烧钱的大模型行业里，零犀科技在2025年已实现\n规模盈利、正现金流\n，成为最早跑通大模型商业闭环的大模型应用公司。\n销售的终极难题\n“这款产品挺适合您的，要不您再考虑考虑？”\n电话那头，客户只淡淡回了一句：“我再想想。”随后便是忙音。\n销售圈几乎天天上演这一幕，而对新手来说，这永远是一道\n终极难题\n。\n继续追问，怕被客户拉黑；不追吧，又怕煮熟的鸭子飞了。\n△AI生成\n金牌销售却能秒懂背后的潜台词，经常一句话就能打消客户顾虑，重掌主动权。\n这其实跟现在大模型落地行业的真实困境很像。\n通用大模型具备很强的上下文理解能力与泛化能力，能陪客户聊天、精准复述销售话术。\n但这种通用能力，无法直接满足专业场景的结果要求。\n一旦遇到保险、金融这类重逻辑、高确定性的场景，很难做出\n精准决策\n。\n这很像一个刚毕业的大学生，有潜力，没经验。\n零犀的因果大模型，就是要把大学生培养成能独当一面的\n行业专家\n，不仅跟客户沟通时有逻辑，会推理，还能形成\n稳定、可复制、可持续优化\n的专业能力。\n不止于训练专家，更要让模型自进化\n怎么培养行业专家才好呢？这不是喂几本手册、调几个API就能搞定的。\n作为国内最早布局大模型研发的团队之一，零犀给的解法是：因果AI+大模型后训练。\n销售业务是“难以自动验证结果”的。客户的一句“我再想想”，到底是真犹豫、还是委婉拒绝？\n零犀用\n“因果逻辑”\n给模型搭了个\n业务判断标尺\n。\n就像老销售判断一个新人好不好，不只是看他开了多少单，更看他面对客户时的应对逻辑、节奏把控、情绪感知对不对。\n这也是该公司从2021年就在研究的事——提升AI的“归因”能力，完成从\n知其然\n到\n知其所以然\n的范式转变。\n销售本就是一门高度复杂、极度依赖人性、结果至上的苦活。\n强调因果逻辑，让\nAI能够像从业多年的行业专家\n一样，想客户之所想，急客户之所急，以及知道他们为何这样想，为何这么急。\n有了像行业专家一样的因果理解能力后，如何稳定输出成\n可复制、可持续优化\n的专业能力？才是衡量\n大模型技术先进性\n的重要标尺。\n零犀的做法是：\n押注后训练\n。\n基座模型很像面向全社会的“大学教育”，提供的是通用能力底座。\n单纯靠灌输知识，不能真正改变模型的决策方式和能力边界。\n能和竞争对手拉开差距的，只有后训练。\n和传统后训练不同，零犀的后训练分成了三步走。\n一是训练\n对象\n更深。\n真人销冠的风格千差万别，但底层逻辑始终如一：拆透需求，匹配策略，用最戳人的表达推动成交。\n零犀想要训练一支AI销冠队伍，把真人销冠的整套本事拆解开，包含用户识别、策略选择、结果反馈等模块。\n他们让模型学会\n像真人专家一样思考做决定\n，而不是“怎么背答案”。\n二是训练\n信号\n更强。\n零犀建立了独特的\n奖励模型与迭代机制\n，不是只看模型输出像不像，而是把真实结果反馈、推理链路、因果归因和反事实分析一起纳入评分与奖惩。\n越接近有效决策路径，得分越高。\n本质上，就是给AI配了一个\n专属金牌导师\n，\n实时复盘打分\n。\n通过奖励与约束机制，\n模型权重\n能够持续\n向更优\n的业务决策方向收敛，\n越跑越聪明\n。\n就像销售团队定期要开“复盘会”：聊得好的经验被沉淀，踩过的坑被规避。\n不同的是，AI的复盘，每秒都在发生。\n△AI生成\n三是训练\n闭环\n更完整。\n模型不是一次训练就定型。它会一直在真实业务里跑、实时接收效果反馈，不断复盘修正、迭代再训练。\n靠着这套持续运转的闭环，模型还能让\n「行业专家」开启自进化\n。\n从因果大模型在金融、保险、汽车、教育这些垂直领域的实际表现看，与碳基销售对比，在不影响甲方用户体验和销售成交结果的前提下，模型替代率从早期的20%～30%，提升到现在的100%，在垂类领域具备\n类AGI能力\n。\n随着基础模型持续进步，零犀杠杆效应将会持续放大。\n不抽卡、不注水，只为业绩买单\n零犀特有的后训练“三步走”，正是其技术核心壁垒所在——\n分别对应着：通过因果AI获得的数据壁垒、关于业务know-how的AI化，以及迭代速度壁垒。\n三者环环相扣，成为同行最难在短期复制的护城河。\n零犀科技CTO曾文佳告诉量子位，公司从一开始就非常重视后训练强化模型的推理与决策能力，而不是停留在通用模型调用层。\n核心原因在于公司的商业模式是\n按交付结果付费（Raas）\n。\n这意味着模型不能只“会说”，还得真能帮助客户成交。\n在行业普遍依赖通用大模型调用、轻量化AI工具输出的当下，零犀从技术路线到商业模式，走出了一条完全差异化的路径。\n比起SaaS让客户“先花钱再赌结果”，RaaS与客户风险共担、利益捆绑，不成事不收费。\n这条重交付、重结果的赛道看似 “自虐”，却让零犀跳出行业同质化内卷。\n早期依托人机协作模式，零犀深耕金融、保险等高门槛赛道，持续沉淀真实销售交互数据、拆解全链路业务逻辑、积累深耕场景化行业know-how。\n伴随通用大模型技术成熟，长期沉淀的数据与场景经验全面释放，AI智能体逐步摆脱人工依赖，实现全流程自主交互、自主决策、自主转化，\nRaaS模式的商业价值全面释放\n。\n当下，越来越多企业开始意识到\n结果导向\n服务的价值，纷纷布局RaaS模式，但零犀早已完成长期深耕与规模化验证。\n传统SaaS、项目定制化服务，极易在投标、POC阶段陷入功能堆砌、方案同质化、低价恶性竞争的困局，价值难以量化。\n而零犀的RaaS模式，直接以\n保费增量、营收提升、转化效率\n等硬核经营指标量化价值。\n这种聚焦结果的商业模式，也让零犀在行业中走出了独立行情。\n2025年，该公司实现\n规模化盈利\n与\n正现金流\n，在大量AI公司仍在烧钱融资时，零犀已经凭借RaaS模式\n实现健康的商业循环\n。\n就连当前行业爆火的Token经济，本质上也还是AI底层基础设施的生意。\n卖的是“工具能力”，只提供底座，不负责结果。\nRaaS和Token经济完全不在同一价值维度，它更像是对后者的升维颠覆。\n类比移动互联网，最大的赢家不是运营商，而是抖音、美团这类在带宽之上做价值创造的平台。\nAI行业也是同理，\nToken是基础，上层服务与结果交付才是未来。\nAI真正的价值，一定在算力与Token之上。\n只做业绩增量，拒绝工具化浅层交付\n依托自研因果大模型能力，零犀没有半成品式的AI工具输出，聚焦企业核心经营痛点，直接交付可落地、可考核、可量产成交的全链路销售智能体。\n他们很明确要为企业创造\n确定性业务增量\n，而非提供辅助类数字化工具。\nACE（Agentic Customer Engagement）客户经营智能体，是该公司的核心产品，负责任务规划、分解和调起\n子智能体\n，以完成各项任务。\n无论是大模型技术，还是提供的产品，零犀都是围绕销售场景死磕。\n零犀科技联合创始人翁绍斌告诉量子位：销售是企业真正的痛点，聚焦销售可直接为客户带来业务增量，获得更多回报，且该预算相对容易获取。\n而且，选择销售切入，能快速获得正反馈，深化业务发展，与单纯卖工具相比，为客户带来的增量，更难被替代。\n凭借成熟的智能体矩阵与落地经验，零犀已实现保险、银行、汽车、教育等多赛道规模化落地，合作覆盖奇瑞、北京越野、高途、猿辅导等头部企业，跨行业复制能力持续验证。\n背后团队\n零犀科技的核心团队脱胎于百度人工智能技术部门原班人马，是国内最早一批开始大语言模型技术研发的团队，兼具\n大模型研发\n与\n企业级交付\n经验。\n团队成员在AI领域平均拥有超10年的实战积累，既是国内最早探索大模型技术的先行者，也是大模型与场景应用融合的标杆实践者。\n这支“百度系”天团，磨合时间长、配合默契，既懂模型底层研发，又懂企业真实业务痛点。\n对比海外同类玩家，国内Agentic Sales赛道已形成显著优势。\n中国在大模型场景落地、产业渗透、语音智能体规模化商用上，\n应用深度与商业化成熟度领跑全球。\n不同于海外侧重通用模型与工具化输出，国内企业更聚焦实体产业需求，跑出了以RaaS为核心、结果交付的先进商业模式，商业闭环更扎实、可持续性更强。\n目前，国内基础大模型企业已\n在二级市场完成价值重估\n。\n随着AI产业从基座竞争全面迈入应用爆发期，聚焦产业场景、可量化创收的AI应用公司，价值认知也将加速修复。\nAI终极价值不在于算力与参数比拼，而在于深耕产业、落地实效、创造增量。\n可以肯定的是，拥有技术壁垒、稳定盈利与结果交付能力的头部应用企业，会迎来确定性的价值释放。\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 4015,
-    "content_excerpt": "AI真能搞钱了！这家公司把大模型玩成闭环赚钱机器\n田, 晏林\n2026-04-28\n15:21:21\n来源：\n量子位\n田晏林 发自 凹非寺\n量子位 | 公众号 QbitAI\n当全行业还在卷大模型参数、烧算力、拼Token消耗时，已经有企业实打实地在用大模型\n帮客户赚到真金白银"
-  },
-  {
-    "id": "reddit-1sxtui9",
-    "title": "Is it reasonable to force AI companies to produce at least half of their electricity?",
-    "url": "https://reddit.com/r/artificial/comments/1sxtui9/is_it_reasonable_to_force_ai_companies_to_produce/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-28T06:59:42",
-    "summary": "People are growingly becoming more affected by the surge of electricity needed to power these data centers, is it reasonable or even possible? Maybe im letting my imagination take a hold of me but I think it’s crazy that all these people are ending up paying for things that they don’t want a part of",
-    "points": 29,
-    "collected_at": "2026-04-28T10:53:50.525076",
-    "title_zh": "强制人工智能公司生产至少一半的电力是否合理？",
-    "summary_zh": "人们越来越受到为这些数据中心供电所需电力激增的影响，这是否合理甚至可能？也许我让我的想象力控制了我，但我认为所有这些人最终都为他们不想要的东西付出了代价，这很疯狂",
-    "ai_summary": "人们越来越受到为这些数据中心供电所需电力激增的影响，这是否合理甚至可能？也许我让我的想象力控制了我，但我认为所有这些人最…",
-    "extract_error": "403 Client Error: Blocked for url: https://www.reddit.com/r/artificial/comments/1sxtui9/is_it_reasonable_to_force_ai_companies_to_produce/"
-  },
-  {
-    "id": "0876864b8943",
-    "title": "DeepSeek不惜代价保住它！V4关键特性被挖出来了",
-    "url": "https://www.qbitai.com/2026/04/409896.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-28T06:15:23",
-    "summary": "技术报告越挖越有",
-    "collected_at": "2026-04-28T10:09:54.854598",
-    "content_text": "DeepSeek不惜代价保住它！V4关键特性被挖出来了\n鱼羊\n2026-04-28\n14:15:23\n来源：\n量子位\n鱼羊 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek V4技术报告，还在被深挖。\n常看常新的那种——一个引起关注的新发现是，V4在工程上为了保留核心设计「\nbatch invariance\n」，都有点不计代价了。\n怎么说？\nDeepSeek V4同时做到了「超长上下文」「复杂后训练/推理管线」「自研高性能kernel栈」这几件很容易打架的事，而背后的关键，正是batch invariance（批次不变性）。\n但batch invariance并非没有代价，甚至代价还挺大：GPU利用率、推理速度下降，工程复杂度还更高了……\n所以，为什么DeepSeek V4会对这一设计如此执着？我们具体来拆析一下。\n什么是batch invariance\n先来看看batch invariance的定义：\n对于同一个token，无论它在批次里排第几、无论批次多大、无论和谁一起批处理，输出都能保持逐比特完全一致。\n论文提到，其核心设计目的，是确保预训练、后训练和推理全流程的可复现性，保证各个环节之间的对齐。\n这样做的好处是，首先，能\n保证线上推理结果稳定\n。\n线上服务会动态batching，同一个用户请求，今天可能和A、B请求拼在一起，明天可能和C、D请求拼在一起。\n如果没有batch invariance，同样的提示词就可能因为batch组合不同、底层kernel归约顺序不同等因素，被放大成完全不同的答案。\n也就是说，batch invariance能让\n同一个输入，尽量得到严格一致的输出\n。\n其次，\n保证预训练、后训练、推理之间的对齐\n。\nDeepSeek V4有预训练、SFT、RL、on-policy distillation、推理服务等多条链路。\n这就导致了一个问题：模型行为变化到底是来自数据、RL、蒸馏、量化，还是来自batch shape/ kernel路径变化？\n有了batch invariance，工程团队更容易判断，是不是batch组织方式改变了数值结果。\n当问题能够被准确定位，异常也就更容易复现，提高了可复现性和可调试性。\n另外，\nbatch invariance也是复杂上下文系统的底座之一\n。\nV4同时用了长上下文attention、压缩KV、稀疏注意力、MoE、FP4/FP8、Muon、mHC、自研 kernel等很多复杂组件。\n组件越多，数值不确定性的来源越多。batch invariance相当于给底层执行系统加了一条硬约束：可以优化性能，但不能因为batch变了，就让同一个token的结果变了。\nbatch invariance\n还能让后训练更稳定。\nRL、蒸馏、长链推理对细微差异很敏感。一点点数值差异，可能改变采样路径；采样路径一变，reward、teacher-student对齐、训练信号都会变。\nbatch invariance能够减少随机数值扰动，让模型行为更可控。\n总结一下，就是batch invariance是DeepSeek V4的底层工程稳定器，可以在在极复杂的长上下文训练、后训练和推理系统里，保证同一输入的数值行为不被batch组织、kernel调度和归约顺序污染，实现可复现、可调试、可对齐、可稳定部署的工程确定性。\n牺牲了什么\n这样看来，batch invariance确实很重要。\n但，就像前面说的，代价不少。\n为了batch invariance，V4不能随便使用一些常见性能优化了，比如split-KV、split-K。\n在attention里，split-KV会把单条序列的注意力计算分摊到多个SM上，以提高负载均衡和GPU利用率。但这种做法会改变并行归约路径，难以保证同一个token在不同batch组织方式下的逐比特一致性。\n在GEMM里，split-K的做法是把矩阵乘法的归约维度K切开并行计算。多路并行求和之后还要再归约，而浮点加法的归约顺序一变，最终结果的bi 就可能不同，因此也和batch invariance存在冲突。\n为此，DeepSeek在attention侧提出了\ndual-kernel\n：为同一个注意力解码任务准备两套计算程序，分别处理“GPU吃得满”和“GPU吃不满”的情况，同时保证两套程序算出来的结果逐比特一致。\n矩阵乘法方面，V4在大多数场景中放弃split-K，转而做更受约束的 batch-invariant GEMM。他们用自研\nDeepGEMM\n替代了通用的cuBLAS。\n这些都导致了工程复杂度的明显上升：很多原本可以交给通用库或常规优化策略的工作，都必须由自研kernel和更严格的计算路径来承担。\n如此种种，简单总结起来意味着DeepSeek V4在以下几个方面做了牺牲：\nGPU 利用率（波前量化问题）\n小批量/短序列速度\n原生算子兼容性\n部分稀疏加速的自由度\n以换取：\n训练/推理/RL三阶段逐比特可复现\n长上下文、Agent、RL训练稳定度\n多机多卡跑出来的结果完全对齐\nOne More Thing\nDeepSeek V4发布了这么些天，但这个技术报告属实是越挖越有。\n看点还包括，把10个以上专家教师模型蒸馏成一个学生模型等等。\n并且每个问题背后都有坚实的数学解释。\nHugging Face的Transformers负责人Arthur Zucker就感慨：\n把数月乃至数年的努力全部免费公开，让任何人都能受益，这是真正的GOAT（Greatest of All Times）。\n参考链接：\n[1]\nhttps://x.com/teortaxesTex/status/2048707398886404524?s=20\n[2]\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 2621,
-    "content_excerpt": "DeepSeek不惜代价保住它！V4关键特性被挖出来了\n鱼羊\n2026-04-28\n14:15:23\n来源：\n量子位\n鱼羊 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek V4技术报告，还在被深挖。\n常看常新的那种——一个引起关注的新发现是，V4在工程上为了保留核心设计「"
-  },
-  {
-    "id": "reddit-1sxsqux",
-    "title": "I got 3× faster HFQ4 prefill on Strix Halo in hipfire with an opt-in MMQ path",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxsqux/i_got_3_faster_hfq4_prefill_on_strix_halo_in/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T05:57:40",
-    "summary": "I recently contributed an experimental HFQ4-G256 MMQ prefill path to hipfire, an RDNA-focused LLM inference engine. **Disclaimer: I authored the PR, so this is partly a contribution note, but I am mainly looking for independent validation from other AMD users.** Before this PR, HFQ4 prefill in hipfi",
-    "points": 29,
-    "collected_at": "2026-04-28T10:53:47.292501",
-    "title_zh": "我在 hipfire 中的 Strix Halo 上通过选择加入 MMQ 路径获得了 3 倍更快的 HFQ4 预填充",
-    "summary_zh": "我最近为 hipfire（一个专注于 RDNA 的 LLM 推理引擎）贡献了一个实验性 HFQ4-G256 MMQ 预填充路径。 **免责声明：我撰写了 PR，因此这部分是贡献说明，但我主要是在寻找其他 AMD 用户的独立验证。** 在此…",
-    "ai_summary": "我最近为 hipfire（一个专注于 RDNA 的 LLM 推理引擎）贡献了一个实验性 HFQ4-G256 MMQ 预填…"
-  },
-  {
-    "id": "5613a9ad6071",
-    "title": "36氪首发 | 韩国现代、微光创投押注焊接机器人，营收预计破数亿，拿下船厂数千万订单",
-    "url": "https://36kr.com/p/3785955616152839?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-28T03:53:31",
-    "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，专注于焊接垂直场景的具身智能机器人公司——昇视唯盛已完成数千万元A+轮融资。本轮融资由韩国现代、微光创投联合投资，资金将主要用于“具身大脑”的研发、软硬件产品的迭代以及市场推广。 昇视唯盛成立于2020年，核心团队由来自哈尔滨工业大学、上海交通大学等高校的机器人领域专家，以及拥有多年工业自动化从业经验的资深人员组成。创始人王德钊及核心团队在机器人及自动化领域拥有十余年产业经验，对焊接场景的工艺需求及行业痛点有深刻理解。 昇视唯盛的核心技术优势在于其“AI算法+焊接工艺+机器人本体”三合一的自主核心能力。公司于2022年收购哈工现代机器人有限公司，控股子公司哈",
-    "collected_at": "2026-04-28T10:16:41.379662",
-    "content_text": "作者丨欧雪\n编辑丨袁斯来\n硬氪获悉，专注于焊接垂直场景的具身智能机器人公司——昇视唯盛已完成数千万元A+轮融资。本轮融资由韩国现代、微光创投联合投资，资金将主要用于“具身大脑”的研发、软硬件产品的迭代以及市场推广。\n昇视唯盛成立于2020年，核心团队由来自哈尔滨工业大学、上海交通大学等高校的机器人领域专家，以及拥有多年工业自动化从业经验的资深人员组成。创始人王德钊及核心团队在机器人及自动化领域拥有十余年产业经验，对焊接场景的工艺需求及行业痛点有深刻理解。\n昇视唯盛的核心技术优势在于其“AI算法+焊接工艺+机器人本体”三合一的自主核心能力。公司于2022年收购哈工现代机器人有限公司，控股子公司哈工现代位于浙江海宁的智慧工厂年产能达数千台机器人，累计出货近万台。\n这使得公司成为国内少数具备从本体硬件设计制造、到具身AI模型、再到焊接工艺数据全部自主开发与深度融合能力的智能机器人企业。\n在AI算法层面，昇视唯盛采用“端到端的具身AI模型”路径，基于多模态焊接垂类大模型训练机器人理解焊接任务。该模型结合公司在焊接领域积累的大量工艺数据进行仿真训练，使机器人能够在非标、复杂工况下具备更强适应性，可实现熔池实时跟踪、动态工艺调整等高阶功能。\n“行业多数玩家仅具备其中一至两项能力，而我们是从底层开始全部自主开发。”王德钊向硬氪表示，这种闭环能力使公司在成本控制和产品裂变迭代上具有显著优势，技术上限会更高。\n（图源/企业）\n昇视唯盛的产品线分为三代：第一代为通用型工业机器人；第二代为智能焊接机器人，具备AI识别与3D重构能力，可实现免示教、一键启动；第三代为自主移动焊接机器人，支持轮式与多足形态，进一步拓展柔性作业场景。\n目前，二代产品已批量出货，三代轮式产品已经于2025年推出并应用，移动具身焊接机器人已出demo版，预计今年正式推向市场。\n“二代产品是在固定空间内工作，三代产品加上了四足和轮式，可以真正实现工厂全空间内自主感知和移动，成为一个不限空间的‘机械焊工’。”王德钊解释了两代产品的核心区别。\n在技术层面，三代产品在算法上增加了多组协同控制，同时对具身模型进行了全新迭代，使其能够适应更广泛的开放场景。王德钊表示，二代产品在实际落地中，吊装工件的时间约占整个生产时间的30%，三代产品通过“机器人到工件”的工作模式，可帮助客户将这30%的时间节省下来，效率提升约30%。\n在市场策略上，昇视唯盛采用“三驾马车”模式推动销售：集成商代理、终端直签与机器人劳务服务。客户覆盖中铁、宝钢、国家电网、中车、上汽等大型国企与制造业龙头。\n2025年，昇视唯盛在船舶领域取得了较大突破。王德钊介绍，公司与韩国现代造船签订了数千万元左右的订单，同时在国内也与长江和沿海的民船企业展开合作。\n“船舶是仍在增长的行业，船厂订单已经排到2029年，且船舶生产中70%以上都是焊接工序，这是非常适合我们替代的场景。”\n昇视唯盛近三年收入年均增速超50%，2025年营收近亿元，公司预计2026年将突破数亿。\n在技术迭代方向，王德钊表示，公司将持续深耕焊接场景的具身能力，提升泛化能力、执行效率和降低出错率。同时，未来还将探索“统一大脑”的集群控制，调动多个机器人进行协同生产。\n“我们定位是工业制造领域的具身智能机器人。焊接、打磨、喷涂是真正的核心制造环节，我们希望依托焊接领域积累的模型和数据，未来能够延展到这样的机械工人集群，完成整个生产制造的协同。”王德钊说。\n出海方面，公司已通过韩国现代的投资切入海外市场，未来计划重点开拓东南亚、中东、日韩等市场。王德钊表示，日韩焊工工资是中国的3-4倍，对智能化焊接机器人的需求非常旺盛。\n韩国现代机器人总部社长到访公司（图源/企业）\n投资方观点：\n韩国现代代表人表示\n：作为韩国现代机器人全资子公司，现代机器人与昇视唯盛、哈工现代建立长期深度战略合作。我们高度认可昇视唯盛“机器人本体+AI算法+焊接工艺”三合一核心竞争力，及其在具身智能、AI+3D视觉焊接领域的技术优势，其产品可适配HD现代集团旗下造船厂集群的非标焊接需求，助力集团造船板块智能化转型，破解焊工短缺、复杂工况作业等痛点。本次融资将加速其技术迭代与产能提升，未来我方将深化三方协同，依托现代机器人全球销售网络及HD现代集团产业资源，联合开拓韩国、欧美、印度等海外市场，推动智能焊接机器人规模化落地，打造具身智能工业制造全球标杆。",
-    "content_source": "readability",
-    "content_chars": 1823,
-    "content_excerpt": "作者丨欧雪\n编辑丨袁斯来\n硬氪获悉，专注于焊接垂直场景的具身智能机器人公司——昇视唯盛已完成数千万元A+轮融资。本轮融资由韩国现代、微光创投联合投资，资金将主要用于“具身大脑”的研发、软硬件产品的迭代以及市场推广。\n昇视唯盛成立于2020年，核心团队由来自哈尔滨工业大学、上海交通大学等高校的机器人领域专家，以及拥有多年工业自动化从业经验的资深人员组成。创始人王德钊及核心团队在机器人及自动化领域拥有十余年产业经验，对焊接场景的工艺需求及行业痛点有深刻理解。\n昇视唯盛的核心技术优势在于其“AI算法+焊接工艺+机器人本体”三合一的自主核心能力。公司于2022年收购哈工现代机器人有限公司，控股子公司哈工现代位于浙江海宁的智慧工厂年产能达数千台机器人，累计出货近万台。\n这使得公司成为国内少数具备从本体硬件设计制造、到具身AI模型、再到焊接工艺数据全部自主开发与深度融合能力的智能机器人企业。\n在AI算法层面，昇视唯盛采用“端到端的具身AI模型”路径，基于多模态焊接垂类大模型训练机器人理解焊接任务。该模型结合公司在焊接领域积累的大量工艺数据进行仿真训练，使机器人能够在非标、复杂工况下具备更强适应性，可实现熔池实时跟踪、动态工艺调整等高阶功能。\n“行业多数玩家仅具备其中一至两项能力，而我们是从底层开始全部自主开发。”王德钊向硬氪表示，这种闭环能力使公司在成本控制和产品裂变迭代上具有显著优势，技术上限会更高。\n（图源/企业）\n昇视唯盛的产品线分为三代：第一代为通用型工业机器人；第二代为智能焊接机器人，具备AI识别与3D重构能力，可实现免示教、一键启动；第三代为自主移动焊接机器人，支持轮式与多足形态，进一步拓展柔性作业场景。"
-  },
-  {
-    "id": "reddit-1sxs71y",
-    "title": "Duality of r/LocalLLaMA",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxs71y/duality_of_rlocalllama/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T05:27:57",
-    "summary": "Duality of r/LocalLLaMA",
-    "points": 204,
-    "collected_at": "2026-04-28T10:53:47.291718",
-    "title_zh": "r/LocalLLaMA 的二元性",
-    "summary_zh": "r/LocalLLaMA 的二元性",
-    "ai_summary": "r/LocalLLaMA 的二元性"
-  },
-  {
     "id": "hn-47679121",
     "title": "Project Glasswing: Securing critical software for the AI era",
     "url": "https://www.anthropic.com/glasswing",
@@ -4564,21 +4575,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-04T13:27:59.522460"
-  },
-  {
-    "id": "reddit-1sxqa2c",
-    "title": "I'm done with using local LLMs for coding",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T03:50:38",
-    "summary": "I think gave it a fair shot over the past few weeks, forcing myself to use local models for non-work tech asks. I use Claude Code at my job so that's what I'm comparing to. I used Qwen 27B and Gemma 4 31B, these are considered the best local models under the multi-hundred LLMs. I also tried multiple",
-    "points": 405,
-    "collected_at": "2026-04-28T10:53:47.291695",
-    "title_zh": "我已经不再使用本地法学硕士进行编码了",
-    "summary_zh": "我认为在过去的几周里给了它一个公平的机会，强迫自己使用本地模型来满足非工作技术要求。我在工作中使用 Claude Code，所以这就是我所比较的。我用的是Qwen 27B和Gemma 4 31B，这些被认为是数百个LLM下最好的本地模型。我…",
-    "ai_summary": "我认为在过去的几周里给了它一个公平的机会，强迫自己使用本地模型来满足非工作技术要求。我在工作中使用 Claude Cod…"
+    "collected_at": "2026-05-04T19:19:14.140088"
   },
   {
     "id": "hn-47363754",
@@ -4589,7 +4586,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-04T13:27:59.522564"
+    "collected_at": "2026-05-04T19:19:14.140199"
   },
   {
     "id": "hn-47340079",
@@ -4600,7 +4597,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-04T13:27:59.522178"
+    "collected_at": "2026-05-04T19:19:14.139833"
   },
   {
     "id": "hn-47225130",
@@ -4611,7 +4608,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-04T13:27:59.522610"
+    "collected_at": "2026-05-04T19:19:14.140247"
   },
   {
     "id": "hn-47136179",
@@ -4622,7 +4619,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-04T13:27:59.522286"
+    "collected_at": "2026-05-04T19:19:14.139947"
   },
   {
     "id": "hn-46990729",
@@ -4633,7 +4630,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-04T13:27:59.522252"
+    "collected_at": "2026-05-04T19:19:14.139912"
   },
   {
     "id": "hn-46574276",
@@ -4644,7 +4641,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-05-04T13:27:59.522725"
+    "collected_at": "2026-05-04T19:19:14.140373"
   },
   {
     "id": "hn-45941596",
@@ -4655,7 +4652,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-04T13:27:59.522623"
+    "collected_at": "2026-05-04T19:19:14.140261"
   },
   {
     "id": "hn-45930151",
@@ -4666,7 +4663,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-04T13:27:59.522665"
+    "collected_at": "2026-05-04T19:19:14.140306"
   },
   {
     "id": "hn-45722069",
@@ -4677,7 +4674,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-05-04T13:27:59.522713"
+    "collected_at": "2026-05-04T19:19:14.140360"
   },
   {
     "id": "hn-44972151",
@@ -4688,7 +4685,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-04T13:27:59.522394"
+    "collected_at": "2026-05-04T19:19:14.140028"
   },
   {
     "id": "hn-44396518",
@@ -4699,7 +4696,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-04T13:27:59.522530"
+    "collected_at": "2026-05-04T19:19:14.140164"
   },
   {
     "id": "hn-44314423",
@@ -4710,7 +4707,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-04T13:27:59.522578"
+    "collected_at": "2026-05-04T19:19:14.140213"
   },
   {
     "id": "hn-44163063",
@@ -4721,7 +4718,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-04T13:27:59.522227"
+    "collected_at": "2026-05-04T19:19:14.139885"
   },
   {
     "id": "hn-42910910",
@@ -4732,7 +4729,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-04T13:27:59.522410"
+    "collected_at": "2026-05-04T19:19:14.140042"
   },
   {
     "id": "hn-41392128",
@@ -4743,7 +4740,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-04T13:27:59.522302"
+    "collected_at": "2026-05-04T19:19:14.139964"
   },
   {
     "id": "hn-41386319",
@@ -4754,7 +4751,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-04T13:27:59.522317"
+    "collected_at": "2026-05-04T19:19:14.139979"
   },
   {
     "id": "hn-41069829",
@@ -4765,7 +4762,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-04T13:27:59.522678"
+    "collected_at": "2026-05-04T19:19:14.140321"
   },
   {
     "id": "hn-41046773",
@@ -4776,7 +4773,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-04T13:27:59.522213"
+    "collected_at": "2026-05-04T19:19:14.139871"
   },
   {
     "id": "hn-40767459",
@@ -4787,7 +4784,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-04T13:27:59.522692"
+    "collected_at": "2026-05-04T19:19:14.140336"
   },
   {
     "id": "hn-39918245",
@@ -4798,7 +4795,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-04T13:27:59.522637"
+    "collected_at": "2026-05-04T19:19:14.140275"
   },
   {
     "id": "hn-39526057",
@@ -4809,7 +4806,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-04T13:27:59.522198"
+    "collected_at": "2026-05-04T19:19:14.139856"
   },
   {
     "id": "hn-38544729",
@@ -4820,7 +4817,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-04T13:27:59.522265"
+    "collected_at": "2026-05-04T19:19:14.139925"
   },
   {
     "id": "hn-37021160",
@@ -4831,7 +4828,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-04T13:27:59.522426"
+    "collected_at": "2026-05-04T19:19:14.140057"
   },
   {
     "id": "hn-31812259",
@@ -4842,7 +4839,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-04T13:27:59.522591"
+    "collected_at": "2026-05-04T19:19:14.140227"
   },
   {
     "id": "hn-18249755",
@@ -4853,7 +4850,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-04T13:27:59.522345"
+    "collected_at": "2026-05-04T19:19:14.140011"
   },
   {
     "id": "hn-17022963",
@@ -4864,7 +4861,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-04T13:27:59.522332"
+    "collected_at": "2026-05-04T19:19:14.139998"
   },
   {
     "id": "hn-15892066",
@@ -4875,7 +4872,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-04T13:27:59.522550"
+    "collected_at": "2026-05-04T19:19:14.140185"
   },
   {
     "id": "hn-6830566",
@@ -4886,6 +4883,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-04T13:27:59.522648"
+    "collected_at": "2026-05-04T19:19:14.140288"
   }
 ]

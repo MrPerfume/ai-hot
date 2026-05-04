@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://semgrep.dev/blog/2026/malicious-dependency-
 summary = "Article URL: https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=47964617 Points: 331 # Comments: 111"
 summary_zh = "文章网址：https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/ 评论网址：https://news.yco…"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

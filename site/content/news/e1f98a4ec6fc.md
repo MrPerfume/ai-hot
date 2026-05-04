@@ -20,7 +20,7 @@ ai_summary = "一个面向基督徒的新的全美手机网络将于下周推出
 summary = "A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks porn, which experts in network security say marks the first time a US cell plan has used network-level blocking for such content that can’t be turned off even by adult account owners. It’s also rolling out"
 summary_zh = "一个面向基督徒的新的全美手机网络将于下周推出。它会阻止色情内容，网络安全专家表示，这标志着美国移动计划首次对此类内容使用网络级阻止，即使成人帐户所有者也无法关闭这些内容。也正在陆续推出"
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "我发现克劳德的回答和你提示的一样好。我很讨厌
 summary = "I have realised Claude answers as best as you prompt it. And I suck at it. 😂 I have tried role playing you are top 1% etc and adding constraints but I am not sure if each prompt requires this kind of effort or if I actually skip it will the outcomes be drastically different. You can’t tell if you do"
 summary_zh = "我发现克劳德的回答和你提示的一样好。我很讨厌它。 😂 我尝试过角色扮演，你是前 1% 等，并添加限制，但我不确定每个提示是否都需要这种努力，或者如果我实际上跳过它，结果会截然不同。你无法判断你是否这样做"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

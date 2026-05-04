@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T13:28:43.622545+00:00",
+  "updated_at": "2026-05-04T19:19:59.631551+00:00",
   "window_days": 30,
-  "candidate_count": 3,
+  "candidate_count": 2,
   "items": [
     {
       "id": "github-1201656210",
@@ -12,7 +12,7 @@
       "stars": 48439,
       "created_at": "2026-04-05T01:12:07Z",
       "window_days": 30,
-      "score": 4326.163331720323,
+      "score": 4290.697452803794,
       "reason": "最近值得点开的开源 AI 项目"
     },
     {
@@ -25,18 +25,6 @@
       "score": 362093,
       "window_days": 30,
       "reason": "你的个人AI助手，跨平台、全功能。Any OS, Any Platform"
-    },
-    {
-      "id": "github-1201476594",
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "type": "project",
-      "stars": 36873,
-      "created_at": "2026-04-04T18:21:18Z",
-      "window_days": 30,
-      "score": 3557.505765210505,
-      "reason": "基于 Claude Code 的求职自动化工作流系统"
     },
     {
       "id": "github-1222376231",

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-04 21:29:25
+🕐 **最近更新**：2026-05-05 03:21:04
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,33 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [“这很好”创作者说人工智能初创公司偷了他的艺术](https://aihot.bt199.com/news/01b7165cd4b6/)
-   - 这则广告来自 Artisan，这是一家人工智能初创公司，其广告牌背后敦促企业“停止雇用人类”
-   - `TechCrunch AI · 2026-05-03`
+1. [图像人工智能模型现在推动应用程序增长，击败聊天机器人升级](https://aihot.bt199.com/news/a168596f1396/)
+   - Appfigures 发现视觉模型的发布使下载量增加了 6.5 倍，但大多数人并没有将这一峰值转化为收入
+   - `TechCrunch AI · 2026-05-04`
 
-2. [在哈佛大学的研究中，人工智能提供的诊断比急诊室医生更准确](https://aihot.bt199.com/news/452d5889b4ba/)
-   - 一项新的研究考察了大型语言模型在各种医疗环境中的表现，包括真实的急诊室病例，其中至少有一个模型似乎比人类医生更准确
-   - `TechCrunch AI · 2026-05-03`
+2. [埃隆·马斯克 (Elon Musk) 在 OpenAI 审判中唯一的人工智能专家证人担心 AGI 军备竞赛](https://aihot.bt199.com/news/cde12b0c15be/)
+   - Stuart Russell 是一位长期的人工智能研究员，他认为政府需要限制前沿实验室
+   - `TechCrunch AI · 2026-05-04`
 
-3. [为医疗保健需求量身定制人工智能解决方案](https://aihot.bt199.com/news/0ca39b129128/)
+3. [Roomba 的创造者带着毛茸茸的机器人伴侣回来了](https://aihot.bt199.com/news/d3576286998f/)
+   - Roomba 的制造商科林·安格 (Colin Angle) 曾帮助将 5000 万台家用机器人带入千家万户，如今他带着…
+   - `The Verge AI · 2026-05-04`
+
+4. [马斯克诉奥特曼审判的第一周：房间里的情况](https://aihot.bt199.com/news/dcf3412565ed/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。人工智能领域最有…
+   - `MIT Tech Review · 2026-05-04`
+
+5. [为医疗保健需求量身定制人工智能解决方案](https://aihot.bt199.com/news/0ca39b129128/)
    - 人工智能市场充满了巨大变革的前景。医疗保健是这些承诺的主要目标，因为它受到财政压力、劳动力短缺和日益沉重的人口老龄化负担…
    - `MIT Tech Review · 2026-05-04`
 
-4. [互联网上最受欢迎的松鼠爸爸如何打造 2026 年最热门的相机应用](https://aihot.bt199.com/news/2d552d61c9ed/)
+6. [互联网上最受欢迎的松鼠爸爸如何打造 2026 年最热门的相机应用](https://aihot.bt199.com/news/2d552d61c9ed/)
    - 称 DualShot Recorder 一夜爆红并不夸张。从发布仅12个小时就登上App Store付费应用排行榜第一名…
    - `The Verge AI · 2026-05-03`
 
-5. [人工智能音乐正在涌入流媒体服务——但谁想要它呢？](https://aihot.bt199.com/news/3800b60792a2/)
-   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变音乐和音乐产业的更多…
-   - `The Verge AI · 2026-05-03`
-
-6. [马斯克诉奥特曼第一周：埃隆·马斯克说他被骗了，警告人工智能可能会杀死我们所有人，并承认 xAI 提炼了 OpenAI 的模型](https://aihot.bt199.com/news/572f1821c4c2/)
-   - 在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第一周，马斯克穿着挺括的黑色西装，打着领带出庭，辩称 Open…
-   - `MIT Tech Review · 2026-05-01`
-
-7. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
-   - 安全公司发现自己尤其容易受到威胁
-   - `Ars Technica AI · 2026-04-29`
+7. [GameStop 出价 560 亿美元收购 eBay，但难以解释将如何支付这笔费用](https://aihot.bt199.com/news/5836d0d07257/)
+   - 由于收入下降和商店关闭，GameStop 希望收购规模更大的 eBay
+   - `Ars Technica AI · 2026-05-04`
 
 
 ## 🤖 AI 简报
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 
