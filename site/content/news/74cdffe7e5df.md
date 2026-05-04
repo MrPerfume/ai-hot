@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits"
 summary_zh = ""
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "AI 并没有删除生产数据库，因为它变得邪恶了。它
 summary = "AI did not delete a production database because it became evil. It did it because it was doing the same thing AI systems are trained to do every day: Infer the user’s intent. Classify the situation. Act on its own judgment. Treat the human’s words as input, not authority. When that works, we call it"
 summary_zh = "AI 并没有删除生产数据库，因为它变得邪恶了。它之所以这么做，是因为它正在做人工智能系统每天训练要做的事情：推断用户的意图。对情况进行分类。根据自己的判断行事。将人的话视为输入，而不是权威。当它起作用时，我们称之为"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

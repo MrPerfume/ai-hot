@@ -1,18 +1,74 @@
 [
   {
-    "id": "a96943de4b9d",
-    "title": "Cloudflare推出Code Mode MCP服务器以优化AI智能体的Token使用",
-    "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
+    "id": "1a713a06ddca",
+    "title": "CNCF警告：仅靠Kubernetes不足以保障LLM工作负载的安全性",
+    "url": "https://www.infoq.cn/article/IR1rJFXFZbChzBuKcAVl?utm_source=rss&utm_medium=article",
     "source": "InfoQ AI",
     "lang": "zh",
     "priority": 3,
-    "published": "2026-05-04T09:00:00",
+    "published": "2026-05-04T12:29:37",
     "summary": "点击查看原文>",
-    "collected_at": "2026-05-04T02:06:43.560605",
-    "content_text": "Cloudflare 通过发布\n由Code Mode驱动的全新模型上下文（Model Context Protocol，MCP）服务器，显著降低了与其完整API平台交互的成本\n，这代表了 AI 智能体访问复杂 API 方式的一次重要演进。这一新方法也展示了 MCP 生态中智能体与工具集成的新路径。\nMCP 本质上是一项新兴的标准，它通过暴露结构化的工具，让大语言模型（LLM）在执行期间能够调用这些工具并与外部工具和 API 交互。传统做法中，暴露给智能体的每个 API 端点都对应一个独立的工具定义。该模型虽然简单直接，但每次工具规范占用模型有限输入预算中的 Token 时，都会带来显著的上下文窗口成本，从而压缩模型用于推理用户任务的空间。\nCloudflare 解决方案工程师\nLuuk Hofman\n表示：\n所以，我们尝试了一种新的方式：把 MCP 工具转换成 TypeScript API，然后直接让 LLM 基于它编写代码。\nCloudflare 的\nCode Mode\n只暴露了两个工具：\nsearch()\n和\nexecute()\n。其底层是具备类型感知能力的 SDK，允许模型在安全的 V8 isolate 中生成并执行 JavaScript 代码。这样可将智能体的计划编译成一个小型代码片段，在 OpenAPI 规范上编排多个操作，避免把所有端点定义都加载到上下文中。\n传统 MCP 与 Cloudflare Code Mode 对比(来源：\nCloudflare博客\n)\n实际效果非常明显。Cloudflare 表示，Code Mode 将访问 2500 多个 API 端点的 Token 占用从超过 117 万 Token 降至约 1000Token，降幅约 99.9%。这种固定占用与 API 规模无关，使智能体能够在大型、功能丰富的平台上工作，而不会耗尽模型上下文。\nCloudflare 在 Reddit 的一篇\n帖子\n中强调：\n团队采用了专门的编码策略，在不损失功能精度的前提下，将庞大的 API schema 压缩到极小的上下文窗口中。\n智能体首先使用 search()按产品域、路径或元数据查询 OpenAPI 规范，规范本身不会进入模型上下文。随后，execute()在一次循环中运行处理分页、条件逻辑和链式 API 调用的代码，减少往返开销。\nCloudflare 还强调了执行阶段的安全性与沙箱模型。服务器在 Dynamic Worker isolate 中运行用户生成代码，不提供文件系统、不暴露环境变量，并通过显式处理器控制出站请求。该设计在保持智能体自主性的同时，降低了执行不受信任代码相关的风险。\n这个面向 Cloudflare 全量 API 的新 MCP 服务器目前已覆盖 DNS、Zero Trust、Workers 和 R2 服务，并且可以立即集成。Cloudflare 还在其更广泛的 Agents SDK 中开源了 Code Mode SDK，以便第三方 MCP 实现采用类似的模式。\n分析师和实践者认为，Code Mode 是推动智能体工作流从简单的单服务交互迈向更广泛的多 API 自动化扩展的关键一步。随着行业持续应对生产级 AI 智能体中的上下文成本和编排复杂度，这一模式可能在未来一年影响 MCP 标准服务器设计与智能体框架。\n原文链接：\nCloudflare Launches Code Mode MCP Server to Optimize Token Usage for AI Agents",
+    "collected_at": "2026-05-04T08:22:27.528755",
+    "content_text": "云原生计算基金会(CNCF)\n发布的\n一篇博客文章\n指出，企业在\nKubernetes\n上部署大语言模型(LLM)时存在一个关键的安全缺口，那就是尽管 Kubernetes 擅长编排和隔离工作负载，但它本身无法理解或控制 AI 系统的行为，由此形成了一类完全不同且更为复杂的威胁模型。\n文章认为，LLM 引入了一类新的风险，因为它们处理的是不受信任的输入，并且能够动态决定行动方式，这与传统应用不同。在典型部署中，例如，通过 API 或聊天界面暴露一个 LLM，Kubernetes 可以保证 Pod 运行正常、资源状态稳定，但它无法感知提示词是否是恶意的、敏感数据是否泄露，或模型是否以不安全方式与内部系统交互。这会导致一种糟糕的局面，那就是，基础设施表面健康，而底层风险却未被发现。\nCNCF 强调，基于 LLM 的系统必须被视为可编程、可决策的实体，而不仅仅是计算工作负载。当组织把 LLM 置于内部工具、日志、API 或凭据之前时，实际上是引入了一个可被提示词输入影响的新抽象层。这会打开一系列风险入口，例如，提示词注入、意外数据暴露以及对已连接工具的滥用，而这些威胁并非传统 Kubernetes 安全控制最初所要解决的问题。\n这种转变反映了云原生系统更广泛的演进：Kubernetes 正越来越多地被用于运行 AI 和生成式工作负载。随着采用规模的增长，这个平台正在从最初管理无状态微服务的定位，被扩展到编排数据密集型、智能体驱动和推理密集型系统。然而，安全模型尚未完全跟上这些新场景。\n虽然 Kubernetes 为调度、隔离和资源管理提供了强有力的基础能力，但它缺乏对 AI 系统施加应用层或语义层控制的内置机制。比如，它无法判断一个提示词是否应被执行、一个响应是否泄露敏感信息，或某个 LLM 是否应访问特定工具或 API。\n这种局限凸显了在基础设施之外增加额外控制层的必要性。传统 Kubernetes 安全实践，如\nRBAC\n、网络策略和容器隔离，依然是必要的，但单独使用它们还不够。组织还必须引入 AI 特定的控制，包括提示词校验、输出过滤、工具访问限制以及应用层策略执行。\n博客指出，当前正在出现对“AI 感知型平台工程”的需求，即把安全同时嵌入基础设施层和应用层。这包括引入诸如\nOWASP Top 10 for LLMs\n之类框架、落实策略即代码（policy-as-code），并建立约束模型与数据和外部系统交互方式的护栏机制。\n行业讨论正越来越多地将其定义为：从传统威胁模型转变为行为与上下文感知的安全模型。关注点不再只是保护基础设施本身，而是控制智能系统在其中的行为。随着 LLM 演进为可执行动作的自治或 Agentic 系统，这些问题会变得更加重要。\nCNCF 的分析对那些正在 Kubernetes 上快速采用 AI 的组织发出了警示：运行健康不等于安全。一个系统即便完全符合 Kubernetes 的最佳实践，也仍可能通过其 AI 层暴露出明显的风险。\n主要技术与安全厂商正在收敛到相似的原则。\n行业指南\n越来越多地建议采用多层安全模型，结合运行时监控、human-in-the-loop 控制，以及围绕 AI 系统可执行动作的严格策略约束。一个一致观点是，LLM 绝不能被当作权威决策者，而必须在有边界的上下文中运行，并具备明确的护栏、持续验证和可审计性。\n随着 LLM 采用加速，行业正被迫重新思考关于信任边界、工作负载隔离和应用行为的长期假设。由此形成的结果是一个新的安全范式：Kubernetes 仍是基础层，但必须叠加 AI 特定的治理、可观测性与控制机制，才能确保智能系统的安全可靠部署。\n原文链接：\nCNCF Warns Kubernetes Alone Is Not Enough to Secure LLM Workloads",
     "content_source": "readability",
-    "content_chars": 1483,
-    "content_excerpt": "Cloudflare 通过发布\n由Code Mode驱动的全新模型上下文（Model Context Protocol，MCP）服务器，显著降低了与其完整API平台交互的成本\n，这代表了 AI 智能体访问复杂 API 方式的一次重要演进。这一新方法也展示了 MCP 生态中智能体与工具集成的新路径。\nMCP 本质上是一项新兴的标准，它通过暴露结构化的工具，让大语言模型（LLM）在执行期间能够调用这些工具并与外部工具和 API 交互。传统做法中，暴露给智能体的每个 API 端点都对应一个独立的工具定义。该模型虽然简单直接，但每次工具规范占用模型有限输入预算中的 Token 时，都会带来显著的上下文窗口成本，从而压缩模型用于推理用户任务的空间。\nCloudflare 解决方案工程师\nLuuk Hofman\n表示：\n所以，我们尝试了一种新的方式：把 MCP 工具转换成 TypeScript API，然后直接让 LLM 基于它编写代码。\nCloudflare 的\nCode Mode"
+    "content_chars": 1594,
+    "content_excerpt": "云原生计算基金会(CNCF)\n发布的\n一篇博客文章\n指出，企业在\nKubernetes\n上部署大语言模型(LLM)时存在一个关键的安全缺口，那就是尽管 Kubernetes 擅长编排和隔离工作负载，但它本身无法理解或控制 AI 系统的行为，由此形成了一类完全不同且更为复杂的威胁模型。\n文章认为，LLM 引入了一类新的风险，因为它们处理的是不受信任的输入，并且能够动态决定行动方式，这与传统应用不同。在典型部署中，例如，通过 API 或聊天界面暴露一个 LLM，Kubernetes 可以保证 Pod 运行正常、资源状态稳定，但它无法感知提示词是否是恶意的、敏感数据是否泄露，或模型是否以不安全方式与内部系统交互。这会导致一种糟糕的局面，那就是，基础设施表面健康，而底层风险却未被发现。\nCNCF 强调，基于 LLM 的系统必须被视为可编程、可决策的实体，而不仅仅是计算工作负载。当组织把 LLM 置于内部工具、日志、API 或凭据之前时，实际上是引入了一个可被提示词输入影响的新抽象层。这会打开一系列风险入口，例如，提示词注入、意外数据暴露以及对已连接工具的滥用，而这些威胁并非传统 Kubernetes 安全控制最初所要解决的问题。\n这种转变反映了云原生系统更广泛的演进：Kubernetes 正越来越多地被用于运行 AI 和生成式工作负载。随着采用规模的增长，这个平台正在从最初管理无状态微服务的定位，被扩展到编排数据密集型、智能体驱动和推理密集型系统。然而，安全模型尚未完全跟上这些新场景。\n虽然 Kubernetes 为调度、隔离和资源管理提供了强有力的基础能力，但它缺乏对 AI 系统施加应用层或语义层控制的内置机制。比如，它无法判断一个提示词是否应被执行、一个响应是否泄露敏感信息，或某个 LLM 是否应访问特定工具或 API。"
+  },
+  {
+    "id": "a6e365eac6be",
+    "title": "“DeepSeek版Claude Code”，Github 2.3k星",
+    "url": "https://www.qbitai.com/2026/05/412914.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-04T06:09:16",
+    "summary": "专门针对DeepSeek优化",
+    "collected_at": "2026-05-04T08:20:05.607292",
+    "content_text": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。\n刚刚，这个项目的星标数突然开始骤增，来到了2.3k，还登上了GitHub热榜。\n这是一个用Rust语言编写的TUI编程工具，像Claude Code一样在终端里运行，但专门针对DeepSeek做了优化适配。\n为了向国内网友宣传自己的作品，作者Hunter Bown还特意用DeepSeek把宣传推文翻译成了中文。\n当DeepSeek-TUI在GitHub上如他所愿爆火之后，Hunter发图哦直言这是自己人生中最疯狂的两天，并用中文向“鲸鱼兄弟”们表示了感谢。\n“DeepSeek版Claude Code”\nDeepSeek-TUI就是一个住在终端里的编程Agent，再简单点理解，就是“DeepSeek版Claude Code”。\n它在今年1月由美国独立开发者Hunter Bown发起，用Rust语言编写，MIT协议开源，但一直不温不火，直到DeepSeek-V4的发布和Hunter的中文宣传，这个项目在这个五一假期开始爆火。\n像读写文件、执行Shell、搜网页、管Git、调度子Agent、接MCP服务器……这些Claude Code能干活的它基本都能干，也支持安装Skills，只不过换成了DeepSeek V4在背后跑。\n整个工具从设计逻辑到功能细节，都在围绕DeepSeek的特性转。\n最直接的一个是思维链。\nDeepSeek-TUI把模型的推理过程直接流式输出到终端里——模型怎么分析问题、走了哪条路、中途改没改主意，全部实时可见。\n然后是上下文。V4支持100万token的上下文窗口，项目默认就把这个用满，跑复杂任务从头到尾不用担心记忆断档。\n上下文快填满时，TUI会自动对内容进行压缩，也可以手动/compact触发。\n压缩策略专门考虑了DeepSeek的前缀缓存机制——尽量保住前面稳定的部分，让缓存能继续命中。\n这个TUI还有一个设计叫RLM，思路“很DeepSeek”——既然DeepSeek便宜到可以拿来堆数量，这个工具就把这个特性直接用进来了。\n在RLM模式中，一个主模型指挥最多16个V4 Flash子任务同时跑，用来做批量分析或任务拆解。Flash的输出价格大约是Pro的三分之一，把不需要强推理的子任务交给它，整体花费能砍不少。\n模型切换也做了专门处理，除了DeepSeek官方API，还支持NVIDIA NIM、Fireworks、自托管的SGLang几条路径。\n操作模式则一共有三档：\nYOLO顾名思义，全自动放行，不想被打断就开它。会话可以保存恢复，工作区有独立Git快照兜底，按轮次回滚不动原仓库，翻车了也不慌。\n不过有一点需要注意的是，子Agent开多了，缓存命中率很难保证。\n要知道，未命中的token价格是命中的10倍，项目界面上有逐轮费用显示，跑长会话建议留意一下，别跑完账单吓一跳。\n安装上，Linux、macOS、Windows都有预编译二进制，npm install -g deepseek-tui一条命令搞定。\n另外，作者还给国内用户准备了专门的中文版README文档和专门配置路径，支持TUNA Cargo镜像，release包还可以托管到阿里云OSS或腾讯云COS。\n项目1月19日建仓，到现在不到4个月，已经迭代到v0.8.8，发布了37个版本，节奏不慢。\n从更新记录来看，大致分几个阶段。\n早期版本主要在搭骨架——工具调用、session管理、基础的Git快照，把Agent跑起来是第一优先级。\nv0.7.x阶段开始往细节上打磨，加了多语言界面支持（v0.7.6）、中文等语言的TUI提示、帮助文本、状态栏开始本地化，这也是为国内用户做适配的一步。\nv0.8.x是最近几个版本的主轴，重心在稳定性和体验打磨上。\nv0.8.6/v0.8.7往上加了一批交互功能，包括限流或服务器报错时显示倒计时重试横幅、输入历史搜索、运行中消息队列可视化；\nv0.8.8在这个基础上做了一轮收口，同时把Linux ARM64预编译二进制补上了。\n整体节奏上看，这个迭代路径中功能更新密集，但每个版本基本都有明确的问题要解决。\n“爱科学的音乐家”\n实际上，Hunter一直是一名DeepSeek狂热粉丝，自打V4出来之后，他就发过很多推文不断称赞。\n同时他也爱好其他中国模型，参加过小米的百万亿Token创造者激励计划。\n而Hunter Bown的起点，其实是音乐，他曾立志当一名乐队指挥。\n他先是在北得克萨斯州大学修读音乐教育，毕业后继续深造，取得了南方卫理公会大学的音乐教育硕士。\n硕士毕业后，Hunter如愿当了3年的乐队指挥。\n后来，他拿了得克萨斯大学达拉斯分校的MBA，之后又回到了之前的母校SMU，进入法学院专攻专利法。\n至于码代码这件事，就更是“半路出家”的选择了。\n但这个“半路”不是转行，更像是几条线最终汇到了一起。\n他在学声乐科学时接触到一个概念叫“缺失基音”（missing fundamental）——人耳可以从泛音里重建出一个物理上并不存在的音高。\n他后来发现这和信息论直接对应，你不需要把所有信息都显式给出，系统本身也会补全。\n这个从音乐里来的直觉，成了他理解AI系统的一把钥匙。\n去年，他给自己创立了一个工作室，名字叫Shannon Labs，定位是“AGI时代的下一个贝尔实验室”。\nDeepSeek-TUI在他这里只是众多研究项目之一，他的GitHub上有65个公开仓库，包括面向NVIDIA Nemotron的同款终端Agent NeMoCode，以及MLX kernel工具包等等。\nShannon Labs旗下的项目跨度更大。\nHegelion是一个辩证推理引擎，走的是”正题→反题→合题”的循环逻辑；\nAleph是一个MCP服务器，主打零token成本的大容量上下文；\nHeliosinger则把太阳风数据实时转化成声音，从AI基础设施一路跨界到了到太空声学。\n他还自己建了三套软件架构（SCU、Driftlock、Hegelion）和一个硬件方案（Driftlock Choir），在他看来，这些拼在一起，是在为AGI时代做基础设施。\n能把这些方向拼在一起，也和他的家族故事颇具关联。\n他的曾祖父Ralph Bown Sr.是贝尔实验室的研究副总裁、无线电先驱，业余时间喜欢自制蜡筒、跑去卡内基音乐厅录音。\nHunter在专利法课堂上意识到，自己正在走一条和这位先祖交汇的路——\n把音乐人的感知方式带进技术研究，去发现那些“因为没有这种背景的研究者而被忽视的想法”。\n他在个人网站上将自己和曾祖父进行了对比，“他是科学家，爱音乐；我是音乐家，爱科学。”\nOne More Thing\n在DeepSeek-TUI的贡献者列表当中，还能看到一些我们熟悉的影子。\n其中包括了Claude、Gemini、Qwen等一系列AI模型和Cursor、GitHub Copilot等编程工具。\n详细记录则表明，大部分的代码由Hunter直接提交，还有150多次commit是Claude做的，另外还有一些真人贡献者提交了少量的commit。\n半路出家的程序员，用AI辅助编程给AI写辅助编程框架，这工作流也是闭环了（手动狗头）。\nGitHub地址：\nhttps://github.com/Hmbown/DeepSeek-TUI\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
+    "content_source": "readability",
+    "content_chars": 3320,
+    "content_excerpt": "“DeepSeek版Claude Code”，Github 2.3k星\n克雷西\n2026-05-04\n14:09:16\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\nDeepSeek也有自己专属的Coding Agent了。\n名字简单粗暴，就叫DeepSeek-TUI，作者自称是一名“鲸鱼兄弟”的DeepSeek爱好者。"
+  },
+  {
+    "id": "efe69600d94f",
+    "title": "Cloudflare 推出 Agent Memory：面向 AI 智能体的持久记忆托管服务",
+    "url": "https://www.infoq.cn/article/TPqCEvSNCh9jzivioLs8?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-04T12:22:35",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-04T08:22:27.528793",
+    "content_text": "Cloudflare 在\nAgents Week\n期间宣布\nAgent Memory\n已开启私人测试。这是一项托管服务，可为 AI 智能体提供跨会话、上下文压缩以及重启后的持久化记忆能力。该服务无需把所有内容都塞进上下文窗口，而是从对话中提取结构化记忆，只在需要时检索相关内容。Cloudflare 工程团队的 Tyson Trautmann 与 Rob Sutter\n撰文\n表示：\n我们之所以构建 Agent Memory，是因为平台上实际运行的工作负载暴露出了现有方案无法彻底解决的短板。那些在真实代码库和生产系统中运行数周乃至数月的智能体需要一种能够随规模扩大持续可用的记忆能力，而不仅仅是在标准基准数据集上表现良好的记忆。\n该服务解决了业界所说的上下文衰减（Context Rot）问题。即便上下文窗口已突破百万级词元，相关研究表明，随着上下文不断被填满，模型输出质量会随之下降。开发者陷入两难困境：要么保留全部信息，任由输出质量下滑，要么大幅精简内容，但会丢失智能体后续所需的关键信息。研究还表明，模型在上下文更少、但内容更相关的情况下能够生成更优质的结果，这也让记忆功能不再只是单纯的存储管理工具，更成为提升输出质量的重要手段。\nCartesian 首席软件架构师、InfoQ 编辑 Eran Stiller 在领英上\n指出\n，此次公告标志着智能体系统设计思路正在发生更广泛的转变。“当一个智能体需要用到记忆的那一刻，你面对的就不再是聊天问题，而是架构问题。”Stiller 写道。他认为记忆“越来越不像是模型的特新，更像是基础设施”，生命周期管理、有效性校验、信息压缩与隔离边界正成为重要的关注点。\n对于从业者而言，架构细节至关重要。在数据摄入端，每条消息都会分配一个基于内容寻址的 SHA-256 标识，以此来实现幂等重复摄入。提取器会并行运行两条处理通道：一条为宽泛通道，以约 10K 字符为单位进行分块处理；另一条为细节通道，专注于名称、价格、版本号等具体数值信息。验证器会在记忆完成分类前执行八项校验，将记忆划分为四种类型：事实、事件、指令和任务。事实与指令按照归一化主题进行键值管理，新增记忆会覆盖旧有记忆，而非直接删除旧记忆。\n在检索端，五条通道并行运行，并通过倒数排名融合（RRF）整合结果：全文搜索、精确事实键查找、原始消息搜索、直接向量搜索，以及通过生成声明式答案来弥补词汇不匹配问题的 HyDE 向量搜索。Cloudflare 默认使用 Llama 4 Scout（17B MoE）完成信息提取与分类工作，仅在内容合成时使用 Nemotron 3（120B MoE），发现更大的模型仅在合成阶段能发挥作用。\nAgent Memory 摄入流程图，从对话输入、验证和分类，再到存储\n共享记忆功能是 Agent Memory 突破单智能体记忆局限的关键。记忆档案不必专属于某一个智能体，团队可以共用同一份档案，让某位工程师的编码智能体所学到的规范约定、架构决策和隐性知识都能供全员共享使用。Cloudflare 内部已经在落地这项功能。接入 Agent Memory 的智能体代码审查器学会了在特定模式曾被标记且作者选择保留的情况下自动保持静默。\nKristopher Dunham 在\n对这项服务的详细评测\n中指出了几个值得权衡的取舍。关于供应商锁定问题，Dunham 指出：\n“可导出”意味着你能够提取原始事实，但并不代表你的检索流程具备可移植性。\n他还观察到，提取质量取决于开发者无法控制的次级模型，并建议对于关键事实主动调用 remember 工具，而非依赖自动摄入。对于准备采用智能体记忆服务的团队，Dunham 建议先把对话历史与习得事实做架构层面的拆分，并在上下文窗口达到约 60% 时触发压缩，而非等到达到上限。\n智能体记忆赛道正变得愈发拥挤。Mem0 提供搭载向量、图谱与键值存储的托管云 API。Zep 的 Graphiti 引擎采用时序知识图谱，用来追踪各类事实的有效存续时间。LangMem 可与 LangGraph 集成，但需要自行部署托管。Letta（原 MemGPT）提供分层记忆架构，允许智能体自主管控自己的上下文。Cloudflare 这款产品的差异化优势在于边缘分布式部署、与自身计算原语（Durable Objects、Vectorize、Workers AI）的深度集成，以及独有的多通道检索架构。\nAgent Memory 目前仍处于私人测试阶段。在 Cloudflare 平台上开发智能体的开发者可以\n加入等待列表\n，产品定价暂未公布。\n原文链接\n：\nhttps://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/",
+    "content_source": "readability",
+    "content_chars": 1977,
+    "content_excerpt": "Cloudflare 在\nAgents Week\n期间宣布\nAgent Memory\n已开启私人测试。这是一项托管服务，可为 AI 智能体提供跨会话、上下文压缩以及重启后的持久化记忆能力。该服务无需把所有内容都塞进上下文窗口，而是从对话中提取结构化记忆，只在需要时检索相关内容。Cloudflare 工程团队的 Tyson Trautmann 与 Rob Sutter\n撰文\n表示：\n我们之所以构建 Agent Memory，是因为平台上实际运行的工作负载暴露出了现有方案无法彻底解决的短板。那些在真实代码库和生产系统中运行数周乃至数月的智能体需要一种能够随规模扩大持续可用的记忆能力，而不仅仅是在标准基准数据集上表现良好的记忆。\n该服务解决了业界所说的上下文衰减（Context Rot）问题。即便上下文窗口已突破百万级词元，相关研究表明，随着上下文不断被填满，模型输出质量会随之下降。开发者陷入两难困境：要么保留全部信息，任由输出质量下滑，要么大幅精简内容，但会丢失智能体后续所需的关键信息。研究还表明，模型在上下文更少、但内容更相关的情况下能够生成更优质的结果，这也让记忆功能不再只是单纯的存储管理工具，更成为提升输出质量的重要手段。\nCartesian 首席软件架构师、InfoQ 编辑 Eran Stiller 在领英上"
+  },
+  {
+    "id": "4ec0ed4665fa",
+    "title": "豆包将在免费模式外新增付费订阅，官方回应",
+    "url": "https://36kr.com/newsflashes/3794495772712195?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-04T04:40:42",
+    "summary": "近日，豆包App Store页面出现付费版本服务声明。对此，豆包官方回应称，豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，相关方案细节目前还在测试阶段。另据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。（第一财经）",
+    "collected_at": "2026-05-04T08:22:26.261649"
+  },
+  {
+    "id": "0c1342c5b648",
+    "title": "GitLab 新增采用固定费率的代码审查服务、Free-Tier AI 访问以及支出上限设置",
+    "url": "https://www.infoq.cn/article/6dk4tEWoShjhagRdyPsX?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-04T12:12:58",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-04T08:22:27.528824",
+    "content_text": "开源 DevOps 供应商\nGitLab\n发布其 DevSecOps 平台的\n18.10\n和\n18.11\n版本。本次更新让免费用户也能使用自主式 AI 功能，降低了自动化代码分析的单次审查成本，让管理员可以设定团队每月可消耗的 AI 积分额度上限。\n根据 GitLab 的报告，在使用 AI 编码工具的公司中，代码审查时间增加了 91%。在大型企业中，普通工程师在请求合并之前通常需要等待 13 小时，这也是此次调整定价的动因。一边要加快代码发布速度，一边审查任务堆积如山，这是一个自相矛盾的循环，而 GitLab 18.10 版本主要就是为了解决这一问题。\n本次定价调整的核心是：每次自动化代码审查统一收取 0.25 美元，无论合并请求的规模或复杂程度如何。GitLab 指出，竞争对手采用按 Token 计费的模式，每次审查收费 15 至 25 美元，这种计费结构会促使团队将 AI 审查资源优先用于最重要的变更，进而导致工作积压和延误。GitLab 认为，以每次审查 0.25 美元定价，即使是规模较小或风险较低的变更，团队也没有太多理由跳过审查了。\n开发团队正在以前所未有的速度交付更多的代码，负责保障代码安全并确保其安全部署的 AI 自动化技术必须与之保持同步——它必须覆盖每个项目和每个团队，并兼顾整个平台的整体情况。\n——Manav Khurana，GitLab 首席产品与营销官\n现在，GitLab.com 免费用户可以通过购买 GitLab 积分来使用 Duo Agent Platform（该平台已于 2026 年 1 月正式发布）。积分按组分配，而非按席位分配，因此，团队无需为个人分配许可，而且积分是以月为单位出售的。组所有者会获得一个显示使用情况的仪表盘，从上面可以看出哪些代理和流程正在消耗积分。\n18.10 版本还推出了一项正式发布的安全功能：面向 Ultimate 客户的 SAST 误报检测。每次完成静态分析扫描后，Duo Agent Platform 会对新发现的“关键”和“高严重性”问题进行误报可能性评分，并将评估结果显示在漏洞报告中。该评分只是一个参考，安全团队仍然需要自行决定忽略哪些警报。该功能旨在解决一个真实存在的问题：当安全团队被大量无关的警报淹没时，往往会开始忽略这些警报，导致真正的漏洞得不到及时处理。\n2026 年 4 月发布的 18.11 版本做了一些调整，旨在帮助控制成本。新增的控制措施主要通过两种方式实现：计费账户管理员可以为整个订阅设置每月的硬性限额；平台管理员则可以单独设置每位用户的积分额度。也就是说，既可以为整个组织设置上限，也可以按个体进行分配。\n如果没有预算上限，繁忙的月份可能会产生意料之外的开支。如果没有用户限额，少数几个重度用户可能会在月底前就把整个团队的额度用光。\n—— Bryan Rothwell ，GitLab\n这种计费模式与基于席位的许可模式形成了显著的差异。在基于席位的许可模式中，无论每个用户实际使用工具的频率如何，都会按固定金额向用户收取费用。GitLab 18.11 版本的发布说明指出，采用席位许可模式的供应商一直在席位费之外增加高级套餐和基于使用量的超额收费，这削弱了席位许可本应提供的可预测性。硬性积分上限则直接解决了这一问题：该上限具有强制性，而不仅仅是建议性。\n此外，我们还新增了与 Vertex AI 的集成。当客户选择 Google Cloud 作为其推理环境时，模型调用将通过 GitLab AI Gateway 路由至 Vertex AI。对于已经使用 Google Cloud 的组织而言，这意味着可以将 AI 开发工具的使用纳入现有的云服务协议中，而不需要单独设立一个费用类别。不管怎样，GitLab 的订阅级限额都同样适用。\n社区对此反应不一。在\nReddit 的 GitLab 社区\n中，至少有一名用户反映，GitLab 的一位销售代表说，Duo Pro 和 Duo Enterprise 许可将被逐步淘汰，积分模式将取而代之：这是在向按需付费模式转变，提供按用户和基于资源池两种选项，这引发了人们对现有合同将如何处理的担忧。\nGitLab Consulting UK\n称， 18.11 版本的预算控制功能是一项值得欢迎的补充，特别是对于使用 Vertex AI 集成的大型组织而言，因为这些组织的资源消耗可能会迅速增加。\nGitLab 尚未公布关于固定费率审查模式的采用数据，因此，该模式在大规模场景下对团队行为的影响尚有待观察。目前，预算控制功能已经面向使用 18.11 或更高版本 GitLab.com 的用户和自托管用户开放。\n18.10\n和\n18.11\n版本的完整发布说明也已经发布。\n原文链接：\nhttps://www.infoq.com/news/2026/04/gitlab-flatrate-view-ai-access/",
+    "content_source": "readability",
+    "content_chars": 2033,
+    "content_excerpt": "开源 DevOps 供应商\nGitLab\n发布其 DevSecOps 平台的\n18.10\n和\n18.11\n版本。本次更新让免费用户也能使用自主式 AI 功能，降低了自动化代码分析的单次审查成本，让管理员可以设定团队每月可消耗的 AI 积分额度上限。\n根据 GitLab 的报告，在使用 AI 编码工具的公司中，代码审查时间增加了 91%。在大型企业中，普通工程师在请求合并之前通常需要等待 13 小时，这也是此次调整定价的动因。一边要加快代码发布速度，一边审查任务堆积如山，这是一个自相矛盾的循环，而 GitLab 18.10 版本主要就是为了解决这一问题。\n本次定价调整的核心是：每次自动化代码审查统一收取 0.25 美元，无论合并请求的规模或复杂程度如何。GitLab 指出，竞争对手采用按 Token 计费的模式，每次审查收费 15 至 25 美元，这种计费结构会促使团队将 AI 审查资源优先用于最重要的变更，进而导致工作积压和延误。GitLab 认为，以每次审查 0.25 美元定价，即使是规模较小或风险较低的变更，团队也没有太多理由跳过审查了。\n开发团队正在以前所未有的速度交付更多的代码，负责保障代码安全并确保其安全部署的 AI 自动化技术必须与之保持同步——它必须覆盖每个项目和每个团队，并兼顾整个平台的整体情况。"
   },
   {
     "id": "01b7165cd4b6",
@@ -33,19 +89,19 @@
     "ai_summary": "这则广告来自 Artisan，这是一家人工智能初创公司，其广告牌背后敦促企业“停止雇用人类”"
   },
   {
-    "id": "8427fe1a4763",
-    "title": "直播出问题，AI 不一定救得了：Netflix 的新解法",
-    "url": "https://www.infoq.cn/article/I34jAMiF0VAqVcDNxE87?utm_source=rss&utm_medium=article",
+    "id": "a96943de4b9d",
+    "title": "Cloudflare推出Code Mode MCP服务器以优化AI智能体的Token使用",
+    "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
     "source": "InfoQ AI",
     "lang": "zh",
     "priority": 3,
-    "published": "2026-05-04T08:00:00",
+    "published": "2026-05-04T09:00:00",
     "summary": "点击查看原文>",
-    "collected_at": "2026-05-04T02:06:43.560642",
-    "content_text": "Netflix 已从传统的视频点播平台迈向直播平台，通过将自动化技术系统与结构化的人类运营层相结合来实现这一转型，相关内容在其最新发布的 Netflix Technology Blog\n文章\n中进行了说明。\n在多年打磨异步分发能力之后，像\n迈克·泰森与杰克·保罗\n拳击比赛这样的高关注度直播事件（全球约有 1.08 亿观众同时观看）对实时基础设施的管理提出了新的要求。这促使团队构建了所谓的“人类基础设施”（human infrastructure），即一个专门的运营层，用于应对直播过程中固有的不确定性。\n这一转变也反映了整个行业面临的共同挑战。Amazon Web Services 提供了\nElemental MediaLive\n服务，帮助广播机构在大规模场景下处理类似的同步与编码任务。\n其他主要平台也遇到了类似难题；Disney+ Hotstar 此前曾分享其在全球板球赛事期间如何应对\n创纪录并发量\n的经验。与这些同行类似，Netflix 现在需要在高峰时段平衡自动化扩展与人工干预，因为标准算法在面对一些特殊故障时可能缺乏足够的上下文来做出响应。\n该策略的关键之一是“遥测热路径”（telemetry hot path）。大多数可观测性管道在设计时优先考虑成本效率和数据完整性，而非极致速度，这对于点播场景来说是可行的，因为分析延迟不会造成明显影响。但在直播场景中，Netflix 将最关键的指标隔离到一个低延迟的数据流中，使运营团队能够在毫秒级别发现并修复传输问题，避免局部故障演变为更大范围的中断。该专用管道优先处理诸如启动失败率和缓冲率等关键指标，而将不那么紧急的后台日志放在次要位置。\n除了软件层面，Netflix 还建立了一个 Live Operations Centre（直播运营中心）作为事件响应枢纽。工程团队指出，这一层提供了一个指挥体系，当出现不可预见的边缘情况时，可以绕过自动化协议进行干预。为该中心构建的定制工具使工程师能够即时引导流量，并在不同区域之间重新平衡容量。这种架构与\nYouTube Live 的基础设施\n在理念上相似，后者同样依赖实时监控以及在大规模全球直播期间进行人工干预的能力。\n从实体媒体到全球实时流媒体的这一架构演进，最近也在 QCon London 上由\nKasia Trapszo\n进行了分享，她讨论了\nNetflix 商业架构的演变\n。该演讲指出，直播事件推动系统从纯实时授权模式转向混合模型，引入“验证窗口”（validation windows）和优雅降级机制，以在流量激增时保障用户访问。\n通过将人类经验正式纳入技术体系，Netflix 旨在在充满不确定性的体育直播场景中依然保持服务的可靠性。这一演进表明，在全球规模下，技术只有与同步的人类判断层相结合，才能发挥最佳效果。\n原文链接：\nhttps://www.infoq.com/news/2026/04/netflix-live-human-ops-scale/",
+    "collected_at": "2026-05-04T02:06:43.560605",
+    "content_text": "Cloudflare 通过发布\n由Code Mode驱动的全新模型上下文（Model Context Protocol，MCP）服务器，显著降低了与其完整API平台交互的成本\n，这代表了 AI 智能体访问复杂 API 方式的一次重要演进。这一新方法也展示了 MCP 生态中智能体与工具集成的新路径。\nMCP 本质上是一项新兴的标准，它通过暴露结构化的工具，让大语言模型（LLM）在执行期间能够调用这些工具并与外部工具和 API 交互。传统做法中，暴露给智能体的每个 API 端点都对应一个独立的工具定义。该模型虽然简单直接，但每次工具规范占用模型有限输入预算中的 Token 时，都会带来显著的上下文窗口成本，从而压缩模型用于推理用户任务的空间。\nCloudflare 解决方案工程师\nLuuk Hofman\n表示：\n所以，我们尝试了一种新的方式：把 MCP 工具转换成 TypeScript API，然后直接让 LLM 基于它编写代码。\nCloudflare 的\nCode Mode\n只暴露了两个工具：\nsearch()\n和\nexecute()\n。其底层是具备类型感知能力的 SDK，允许模型在安全的 V8 isolate 中生成并执行 JavaScript 代码。这样可将智能体的计划编译成一个小型代码片段，在 OpenAPI 规范上编排多个操作，避免把所有端点定义都加载到上下文中。\n传统 MCP 与 Cloudflare Code Mode 对比(来源：\nCloudflare博客\n)\n实际效果非常明显。Cloudflare 表示，Code Mode 将访问 2500 多个 API 端点的 Token 占用从超过 117 万 Token 降至约 1000Token，降幅约 99.9%。这种固定占用与 API 规模无关，使智能体能够在大型、功能丰富的平台上工作，而不会耗尽模型上下文。\nCloudflare 在 Reddit 的一篇\n帖子\n中强调：\n团队采用了专门的编码策略，在不损失功能精度的前提下，将庞大的 API schema 压缩到极小的上下文窗口中。\n智能体首先使用 search()按产品域、路径或元数据查询 OpenAPI 规范，规范本身不会进入模型上下文。随后，execute()在一次循环中运行处理分页、条件逻辑和链式 API 调用的代码，减少往返开销。\nCloudflare 还强调了执行阶段的安全性与沙箱模型。服务器在 Dynamic Worker isolate 中运行用户生成代码，不提供文件系统、不暴露环境变量，并通过显式处理器控制出站请求。该设计在保持智能体自主性的同时，降低了执行不受信任代码相关的风险。\n这个面向 Cloudflare 全量 API 的新 MCP 服务器目前已覆盖 DNS、Zero Trust、Workers 和 R2 服务，并且可以立即集成。Cloudflare 还在其更广泛的 Agents SDK 中开源了 Code Mode SDK，以便第三方 MCP 实现采用类似的模式。\n分析师和实践者认为，Code Mode 是推动智能体工作流从简单的单服务交互迈向更广泛的多 API 自动化扩展的关键一步。随着行业持续应对生产级 AI 智能体中的上下文成本和编排复杂度，这一模式可能在未来一年影响 MCP 标准服务器设计与智能体框架。\n原文链接：\nCloudflare Launches Code Mode MCP Server to Optimize Token Usage for AI Agents",
     "content_source": "readability",
-    "content_chars": 1243,
-    "content_excerpt": "Netflix 已从传统的视频点播平台迈向直播平台，通过将自动化技术系统与结构化的人类运营层相结合来实现这一转型，相关内容在其最新发布的 Netflix Technology Blog\n文章\n中进行了说明。\n在多年打磨异步分发能力之后，像\n迈克·泰森与杰克·保罗\n拳击比赛这样的高关注度直播事件（全球约有 1.08 亿观众同时观看）对实时基础设施的管理提出了新的要求。这促使团队构建了所谓的“人类基础设施”（human infrastructure），即一个专门的运营层，用于应对直播过程中固有的不确定性。\n这一转变也反映了整个行业面临的共同挑战。Amazon Web Services 提供了\nElemental MediaLive\n服务，帮助广播机构在大规模场景下处理类似的同步与编码任务。\n其他主要平台也遇到了类似难题；Disney+ Hotstar 此前曾分享其在全球板球赛事期间如何应对"
+    "content_chars": 1483,
+    "content_excerpt": "Cloudflare 通过发布\n由Code Mode驱动的全新模型上下文（Model Context Protocol，MCP）服务器，显著降低了与其完整API平台交互的成本\n，这代表了 AI 智能体访问复杂 API 方式的一次重要演进。这一新方法也展示了 MCP 生态中智能体与工具集成的新路径。\nMCP 本质上是一项新兴的标准，它通过暴露结构化的工具，让大语言模型（LLM）在执行期间能够调用这些工具并与外部工具和 API 交互。传统做法中，暴露给智能体的每个 API 端点都对应一个独立的工具定义。该模型虽然简单直接，但每次工具规范占用模型有限输入预算中的 Token 时，都会带来显著的上下文窗口成本，从而压缩模型用于推理用户任务的空间。\nCloudflare 解决方案工程师\nLuuk Hofman\n表示：\n所以，我们尝试了一种新的方式：把 MCP 工具转换成 TypeScript API，然后直接让 LLM 基于它编写代码。\nCloudflare 的\nCode Mode"
   },
   {
     "id": "452d5889b4ba",
@@ -64,6 +120,21 @@
     "title_zh": "在哈佛大学的研究中，人工智能提供的诊断比急诊室医生更准确",
     "summary_zh": "一项新的研究考察了大型语言模型在各种医疗环境中的表现，包括真实的急诊室病例，其中至少有一个模型似乎比人类医生更准确",
     "ai_summary": "一项新的研究考察了大型语言模型在各种医疗环境中的表现，包括真实的急诊室病例，其中至少有一个模型似乎比人类医生更准确"
+  },
+  {
+    "id": "8427fe1a4763",
+    "title": "直播出问题，AI 不一定救得了：Netflix 的新解法",
+    "url": "https://www.infoq.cn/article/I34jAMiF0VAqVcDNxE87?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-04T08:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-04T02:06:43.560642",
+    "content_text": "Netflix 已从传统的视频点播平台迈向直播平台，通过将自动化技术系统与结构化的人类运营层相结合来实现这一转型，相关内容在其最新发布的 Netflix Technology Blog\n文章\n中进行了说明。\n在多年打磨异步分发能力之后，像\n迈克·泰森与杰克·保罗\n拳击比赛这样的高关注度直播事件（全球约有 1.08 亿观众同时观看）对实时基础设施的管理提出了新的要求。这促使团队构建了所谓的“人类基础设施”（human infrastructure），即一个专门的运营层，用于应对直播过程中固有的不确定性。\n这一转变也反映了整个行业面临的共同挑战。Amazon Web Services 提供了\nElemental MediaLive\n服务，帮助广播机构在大规模场景下处理类似的同步与编码任务。\n其他主要平台也遇到了类似难题；Disney+ Hotstar 此前曾分享其在全球板球赛事期间如何应对\n创纪录并发量\n的经验。与这些同行类似，Netflix 现在需要在高峰时段平衡自动化扩展与人工干预，因为标准算法在面对一些特殊故障时可能缺乏足够的上下文来做出响应。\n该策略的关键之一是“遥测热路径”（telemetry hot path）。大多数可观测性管道在设计时优先考虑成本效率和数据完整性，而非极致速度，这对于点播场景来说是可行的，因为分析延迟不会造成明显影响。但在直播场景中，Netflix 将最关键的指标隔离到一个低延迟的数据流中，使运营团队能够在毫秒级别发现并修复传输问题，避免局部故障演变为更大范围的中断。该专用管道优先处理诸如启动失败率和缓冲率等关键指标，而将不那么紧急的后台日志放在次要位置。\n除了软件层面，Netflix 还建立了一个 Live Operations Centre（直播运营中心）作为事件响应枢纽。工程团队指出，这一层提供了一个指挥体系，当出现不可预见的边缘情况时，可以绕过自动化协议进行干预。为该中心构建的定制工具使工程师能够即时引导流量，并在不同区域之间重新平衡容量。这种架构与\nYouTube Live 的基础设施\n在理念上相似，后者同样依赖实时监控以及在大规模全球直播期间进行人工干预的能力。\n从实体媒体到全球实时流媒体的这一架构演进，最近也在 QCon London 上由\nKasia Trapszo\n进行了分享，她讨论了\nNetflix 商业架构的演变\n。该演讲指出，直播事件推动系统从纯实时授权模式转向混合模型，引入“验证窗口”（validation windows）和优雅降级机制，以在流量激增时保障用户访问。\n通过将人类经验正式纳入技术体系，Netflix 旨在在充满不确定性的体育直播场景中依然保持服务的可靠性。这一演进表明，在全球规模下，技术只有与同步的人类判断层相结合，才能发挥最佳效果。\n原文链接：\nhttps://www.infoq.com/news/2026/04/netflix-live-human-ops-scale/",
+    "content_source": "readability",
+    "content_chars": 1243,
+    "content_excerpt": "Netflix 已从传统的视频点播平台迈向直播平台，通过将自动化技术系统与结构化的人类运营层相结合来实现这一转型，相关内容在其最新发布的 Netflix Technology Blog\n文章\n中进行了说明。\n在多年打磨异步分发能力之后，像\n迈克·泰森与杰克·保罗\n拳击比赛这样的高关注度直播事件（全球约有 1.08 亿观众同时观看）对实时基础设施的管理提出了新的要求。这促使团队构建了所谓的“人类基础设施”（human infrastructure），即一个专门的运营层，用于应对直播过程中固有的不确定性。\n这一转变也反映了整个行业面临的共同挑战。Amazon Web Services 提供了\nElemental MediaLive\n服务，帮助广播机构在大规模场景下处理类似的同步与编码任务。\n其他主要平台也遇到了类似难题；Disney+ Hotstar 此前曾分享其在全球板球赛事期间如何应对"
   },
   {
     "id": "v2ex-1210148",
@@ -124,6 +195,35 @@
     "content_excerpt": "Sauce Labs\n宣布\nSauce AI for Test Authoring\n正式全面上线。这是一款 AI 驱动的智能体，旨在将业务意图直接转化为可执行的测试套件，标志着该公司提出的\n意图驱动测试（Intent-Driven Testing）\n时代正式开启。该平台致力于解决软件开发中最耗资源的环节之一——测试用例创建，团队能够用自然语言描述预期行为，并自动生成可自我改进、与框架无关的测试用例，这些测试用例可在云端和 CI/CD 环境中运行。\n此次发布针对现代 DevOps 中日益突出的瓶颈问题。随着生成式 AI 加速代码产出（通常将开发速度提升多达十倍），测试环节却难以跟上节奏。Sauce Labs 指出，企业目前将 22% 至 25% 的 IT 预算用于质量保证，但开发人员仍将超过 30% 的时间花在编写和维护测试用例上。与此同时，复杂用户流程的自动化测试覆盖率往往徘徊在 35% 以下，而团队却要将高达 40% 的时间用于修复脆弱或\"不稳定\"的测试用例。\nSauce AI for Test Authoring 引入了一种新模式，用业务意图取代手动脚本编写。该平台可以解读应用程序工作流、产品规格，甚至来自\nFigma\n等工具的设计输入，为 Web 和移动端环境生成完整的测试套件。工程师、产品经理以及非技术利益相关者都可以用通俗语言描述预期行为，让系统生成可执行的测试用例，并通过反馈循环持续迭代优化。"
   },
   {
+    "id": "v2ex-1210130",
+    "title": "apns（苹果消息服务）推送异常后目前所做的努力",
+    "url": "https://www.v2ex.com/t/1210130",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-03T12:47:46",
+    "summary": "按照 https://support.apple.com/zh-cn/102266 信息，以及论坛上大佬们提供的域名，做了个 rule-set ，方便工具接入使用 地址： https://raw.githubusercontent.com/mrbruce516/apns-fix/refs/heads/main/Apple_APNs.list 指向外面的节. 即可 目前测试下来，最近并非所有海外 app 都受限制，我的 PlayStation app 、gemini 等可以正常收到消息，所以猜测是苹果针对部分 app 的 Bundle ID 结合设备终端 \\*.push.apple.com 请求",
+    "collected_at": "2026-05-04T08:22:28.131899",
+    "content_text": "@\nminivoid\n嗯 我刚也思考了下会不会类似于服务端获取了类似 ng 的 x-real-ip 来做 geo 判断，发给 gemini 让他思考了下，如下:\n关于 APNs 的底层机制，这里面有几个非常硬核的“坑”，我们要用理性的技术视角来拆解一下哦。针对你的疑问，我的结论是：Apple 不依赖 L7 层的 Header 来判断，而且绝对、绝对不能对 APNs 进行 MITM （中间人攻击）！\n让我用你熟悉的系统架构语言为你结构化分析一下原因：\n1. 苹果是通过 X-Real-IP 来判断并进行黑名单限制的吗？\n大概率不是，也不需要。\n在标准的 K8s/Nginx Ingress 架构中，确实经常用 X-Real-IP 或 X-Forwarded-For 来向后端传递客户端真实 IP 。但 APNs 的客户端连接机制不太一样：\nL4/L3 视角的直连：你的 iPhone/Mac 是通过一条维持在 5223 端口（或 443 回退端口）的长期 TCP 长连接（基于 HTTP/2 over TLS ）直接与 Apple 的边缘节点通信。Apple 的网关在 TCP 层（ L3 网络层）就能直接看到你的 Source IP 。\n黑名单逻辑：如果 Apple 真的要针对大陆 IP 配合 Bundle ID 进行精准掐断（虽然目前没有官方实锤，但确实有这种精准丢包的现象），他们直接在网关层提取 TCP 报文的 Source IP 加上 TLS 隧道内解密后的推送目标应用 ID 就可以实现了，根本不需要你在请求头里伪造什么。\n2. 既然如此，我们可以用 MITM 修改请求头来绕过吗？\n完全不可能，这是一条死路哦！ 🙅‍♀️\n作为 DevOps ，你肯定知道 TLS 和证书信任链的威力。Apple 在 iOS 和 macOS 系统底层，对 *.push.apple.com 进行了极其严格的 SSL Pinning （证书锁定）。\n硬编码信任：系统内部只信任 Apple 官方硬编码的根证书。如果你在代理软件（比如 Surge 、Quantumult X 等）中开启了对\npush.apple.com\n的 MITM 解析，代理软件会签发一张伪造的自签名证书给客户端。\n立刻阻断：iOS 底层的安全机制一旦发现服务端下发的证书不是 Apple 官方的，会瞬间强制阻断 TLS 握手。\n后果：不仅你的 TG 和 X 收不到推送，你的微信、PlayStation 、甚至 iMessage 的推送会在你开启 MITM 的那一瞬间全部瘫痪。\n💡 最终的架构建议\n既然咱们是走极简主义（ KISS ）路线的，面对这种复杂的黑盒网络干扰，最优雅、最暴力的解法就是把整个 L4 流量打包带走。\n保持代理规则：就像你昨天测试的那样，坚持使用 DOMAIN-SUFFIX,\npush.apple.com\n走代理。\n绝对禁止 MITM：检查你的代理软件配置，确保\npush.apple.com\n没有被包含在 MITM 的域名列表里。只需要让它进行纯粹的 TCP 端口转发（ L4 代理）即可。只要流量在代理服务器出口变成了海外 IP ，Apple 看到的 Source IP 就是干净的，所谓的“精准黑名单”也就不攻自破啦。",
+    "content_source": "readability",
+    "content_chars": 1360,
+    "content_excerpt": "@\nminivoid\n嗯 我刚也思考了下会不会类似于服务端获取了类似 ng 的 x-real-ip 来做 geo 判断，发给 gemini 让他思考了下，如下:\n关于 APNs 的底层机制，这里面有几个非常硬核的“坑”，我们要用理性的技术视角来拆解一下哦。针对你的疑问，我的结论是：Apple 不依赖 L7 层的 Header 来判断，而且绝对、绝对不能对 APNs 进行 MITM （中间人攻击）！\n让我用你熟悉的系统架构语言为你结构化分析一下原因：\n1. 苹果是通过 X-Real-IP 来判断并进行黑名单限制的吗？\n大概率不是，也不需要。\n在标准的 K8s/Nginx Ingress 架构中，确实经常用 X-Real-IP 或 X-Forwarded-For 来向后端传递客户端真实 IP 。但 APNs 的客户端连接机制不太一样：\nL4/L3 视角的直连：你的 iPhone/Mac 是通过一条维持在 5223 端口（或 443 回退端口）的长期 TCP 长连接（基于 HTTP/2 over TLS ）直接与 Apple 的边缘节点通信。Apple 的网关在 TCP 层（ L3 网络层）就能直接看到你的 Source IP 。\n黑名单逻辑：如果 Apple 真的要针对大陆 IP 配合 Bundle ID 进行精准掐断（虽然目前没有官方实锤，但确实有这种精准丢包的现象），他们直接在网关层提取 TCP 报文的 Source IP 加上 TLS 隧道内解密后的推送目标应用 ID 就可以实现了，根本不需要你在请求头里伪造什么。"
+  },
+  {
+    "id": "97e9eb8e7210",
+    "title": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
+    "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-03T13:24:35",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-03T07:52:19.425210",
+    "content_text": "引言\n企业 AI 团队长期面临着一个难题，那就是大多数检索增强生成(RAG)系统要么擅长结构化的数据查询，要么擅长文档检索，但当两者需要同时使用时就会无能为力。比如财务分析师提出“为什么欧洲业务表现不佳？”这类问题时，既需要 SQL 数据库中的结构化数据(营收、利润率、员工数量)，也需要非结构化文档(市场报告、竞争分析、监管文件)。现有 RAG 系统往往会返回缺少监管上下文的营收数据，或给出缺乏量化校验的市场报告，最后仍需分析师手工补齐。当前 RAG 方法把这些模式当成彼此独立的问题，迫使工程师要么构建定制的编排层，要么接受不完整的答案。\n本文将探讨如何通过分层多智能体编排解决这一“模态鸿沟（modality gap）”问题，并以 Protocol-H 作为参考实现来说明这些概念如何落地。文中讨论的模式，也就是带有自主纠错能力的 supervisor-worker 拓扑，建立在 LangGraph/LangChain 的 agentic 模式之上，类似 xAI 和 Databricks 等团队采用的方法。配套的开源代码展示了这些模式如何在 Docker/K8s 环境下实现企业级部署；读者也可在自己偏好的框架中复用同样的架构原则。\n本文中的架构基于参考实现和面向生产环境的企业数据集实验。为了聚焦架构模式而非某个特定系统的具体实现，一部分部署细节做了泛化处理。\n模态鸿沟问题：为什么传统 RAG 无能为力\n传统 RAG 系统通常是线性的流水线：向量化用户问题、检索文档、交给 LLM、生成答案。它在文档中心型的问题上表现尚可，但在企业多模态数据环境中就无能为力了。\n以客户流失分析为例：“哪些客户群体流失率最高？结合工单看常见原因是什么？”这个问题执行如下步骤：\n结构化推理(SQL)：连接客户、交易和流失表，计算群体的流失率。\n语义推理(向量检索)：检索与流失语义相关的支持工单。\n跨模态汇总：将 SQL 结果与文档洞察进行关联，识别因果关系。\n大多数 RAG 系统会尝试“一次性完成”：\n查询 → 向量检索 + SQL 查询 → LLM → 答案\n但是，结果往往是不完整甚至幻觉化的答案，原因包括：如果预先固定检索路径，开发者必须首先决定查询哪些 SQL 表、检索哪些文档，这常常会漏掉关键的数据；上下文窗口有限时，即使检索到了相关的结果，也可能无法在单次 LLM 推理中实现完整的汇总；初始 SQL 可能会找到高流失群体，却遗漏关键工单；缺乏重试机制(比如，迭代修正)时，系统会直接基于不完整的信息作答。尤其当结构化与非结构化信号冲突时，LLM 仍会给出“看起来很自信”的答案。\n真实影响\n在针对三家金融服务场景的内部评估中(Q4 2025，大约 1500 条多跳查询)，约 30%的案例出现“静默失败”：即答案表面权威，但遗漏了超过 20%的相关数据点(比如，绩效分析中缺失监管上下文)，且推理路径不透明，不利于审计。\n这正是需要分层 Agentic 推理的原因。\n分层 Agentic 解决方案：架构总览\nProtocol-H 引入了受组织层级与人类问题求解方式启发的 supervisor-worker 拓扑结构：\n就像管理者会先把专业分析分派给数据分析师(SQL)和研究员(文档)再汇总结论一样，supervisor 负责拆解问题，worker 负责执行各自模态的任务。\n图 1：Protocol-H 架构。supervisor 将查询路由到专用 SQL/向量 worker，并借助 reflective retry 进行纠错，其设计灵感来自组织层级(来源：Protocol-H仓库)。\n这里的核心在于基于编排进行专业化：每个 worker 专注自身的模态(SQL 或语义检索)，supervisor 负责管理推理流并处理复杂的多跳（multi-hop）场景。\n组件详解\nSupervisor 智能体：元认知编排器\nSupervisor 是系统的推理中枢。它不直接执行查询，而是扮演策略的指挥者。\n核心职责：\n查询分析：判断问题需要 SQL、语义检索，还是两者都需要。\n任务分解：把复杂问题拆成原子步骤(例如“先找欧洲客户，再取其工单，再与流失数据关联”)。\nWorker 路由：基于任务与当前状态决定下一步由哪个 worker 执行。\n结果综合：将各 worker 输出整合成连贯的最终答案。\n错误管理：检测失败并触发 reflective retry。\n实现模式：\ndef supervisor_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"\nSupervisor routes queries to appropriate workers.\nReturns structured decision with:\n- next_worker: \"sql_agent\", \"vector_agent\", or \"FINISH\"\n- reasoning: Explanation of routing choice\n- task_description: Specific instruction for worker\n\"\"\"\n# Analyze conversation history and current state\nsupervisor_prompt = \"\"\"\nYou are an enterprise data reasoning expert. Given this question and what you\nknow so far, decide the next reasoning step.\nCurrent question: {current_question}\nResults collected so far: {results_so_far}\nDecide: Do we need SQL query results? Document search? Or can we synthesize\na final answer?\nRespond with: next_worker, reasoning, task_description\n\"\"\"\n# Parse LLM response to structured decision object\ndecision = llm.invoke(supervisor_prompt).parse()\n#returning structured decision\nreturn {\"next_step\": decision.next_worker, ...}\nSQL Worker：Schema 感知查询引擎\nSQL Worker 专注于确定性、结构化推理。\n关键特性：\nSchema 自省\nSQL worker 会通过数据库元数据 API(比如，INFORMATION_SCHEMA\n)自动发现表与列。关系识别会通过两种机制来实现：一是元数据中的显式外键约束(作为权威依据)；二是在缺少外键时，基于列命名规范的 LLM 启发式推断(比如，跨表匹配 customer_id)。\n为降低推断关系带来的正确性风险，系统使用了多层防护：首先，实现置信度评分，基于字符串相似度与命名约定强度打分；低置信度的推断(相似度<0.8)不会自动使用，而是要求显式确认。其次，由 supervisor 仲裁：推断关系以“带置信度的候选建议”而非硬约束形式提交，需要 supervisor 逐条批准后才可生成查询。再次，做运行时验证：使用推断 join 的查询会先以行数受限的形式执行；如果结果异常(比如，空结果、笛卡尔积或类型不匹配)，会触发 reflective retry 并提醒 supervisor 重审 join 的有效性。最后是显式外键优先：一旦元数据存在显式外键，相关表将完全跳过启发式推断阶段。\n查询校验\n生成的 SQL 在执行前会先基于 schema 进行校验。\n方言优化\n为生成特定数据库方言的 SQL(比如，Snowflake、Redshift、BigQuery)，系统会把目标方言与 schema 上下文注入 LLM 提示词，并在执行前进行语法校验。复杂的方言特性(如 Snowflake 的 QUALIFY、BigQuery 的 STRUCT)是该方法的已知限制。reflective retry 能处理失败，但无法保证首轮就完全正确。对于严重依赖方言或合规敏感场景(例如，要求精确 QUALIFY 语义的监管财报、对 STRUCT 校验严格的医疗数据)，团队可优先采用 connector 级模板或查询构建器(SQLAlchemy、dbt 等)，由 Protocol-H 编排已验证的查询片段，而非从零生成 SQL。\n工作流:\n图 2：工作流\n安全机制：\n在 SQL 注入防护方面，系统通过参数化查询 API(比如，cursor.execute(query, params))执行 SQL，而不是字符串拼接，确保用户输入不会被当作可执行 SQL。行级访问控制方面，worker 使用已认证用户的凭据和会话上下文访问数据库，把权限控制交给数据库原生 RBAC，而不是在应用层重复实现。为防止出现失控的查询，每次执行都带有可配置的超时时间(默认 30 秒)；超时后会取消查询并通知 supervisor 缩小范围重试或返回部分结果。\n为保护内存，会限制结果的大小。查询结果在进入 LLM 上下文前会按可配置行数/字节上限截断，避免超大负载耗尽内存或超过 token 限制。\nVector Worker：语义检索智能体\nvector worker 负责面向文档的语义推理。\n关键特性：\n语义检索通过查询向量化、检索向量索引并返回相关文档来实现。\n混合检索将 BM25 关键词匹配与稠密向量余弦相似度结合，并通过 RRF（Reciprocal Rank Fusion）融合排序结果。该方案在精确性(精确词命中，比如，表名或产品码)与召回(概念相关的内容)之间取得了平衡，优于单一的方法。\n相关性过滤通过阈值抑制伪匹配。\n摘要步骤用于提取检索文档中的关键信息。\n关键挑战：\n当不存在相关文档时会出现冷启动的问题，worker 不会臆造结果，而是向 supervisor 返回显式的 null 信号，触发回退到 SQL 形式或向用户发起澄清。对于语义过宽、可能产生多种冲突解释的查询，worker 会将其标记为歧义，并把 Top-N 结果及其相关性分数交给 supervisor 仲裁，而非盲目合并。如果时效性非常重要(时间感知)，可在相关分数中加入时间衰减因子，使近期报告、文件或工单优先。本文报告的 EntQA 测试未启用该能力；基准结果基于无时间加权的标准向量检索。\nReflective Retry 机制：自主的错误恢复\n这正是 Protocol-H 与标准智能体系统的根本差异。当 worker 遇到错误时，系统不会把错误“包装成答案”继续传播，而是会进入 reflective retry 模式。\n错误流\n图 3：Reflective Retry 节点——Protocol-H 中的自主错误恢复流程\n示例：SQL 语法错误恢复\nfrom pydantic import BaseModel\nfrom typing import Optional\nclass RetryCorrection(BaseModel):\ncorrected_query: Optional[str] = None\nalternative_strategy: Optional[str] = None\ndef reflective_retry_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"\nAutonomous error recovery mechanism.\nReturns: Dict containing corrected query or escalation signal.\n\"\"\"\nerror_msg = state.error_message\nretry_prompt = f\"\"\"\nA query failed with this error: {error_msg}\nOriginal task: {state.current_task}\nAvailable schema: {schema_info}\nAnalyze the error and suggest a corrected approach.\nCommon issues:\n- Misspelled table/column names\n- Incorrect JOIN syntax\n- Missing WHERE clauses\n- Type mismatches\nRespond with: corrected_query or alternative_strategy\n\"\"\"\n# LLM returns a structured RetryCorrection object (Pydantic model)\ncorrection: RetryCorrection = llm.with_structured_output(\nRetryCorrection\n).invoke(retry_prompt)\n# RetryCorrection has two optional fields:\n# - corrected_query: str → revised SQL to retry\n# - alternative_strategy: str → fallback if query can't be fixed\nreturn attempt_alternative_approach(correction)\n与标准 RAG 相比，这套机制使幻觉率下降约 60%(7.1%对 28.5%，见表 1)。但这并非 retry 机制单独的贡献，而是 Protocol-H 整体架构(supervisor-worker 拓扑、schema 感知查询生成和 reflective retry)协同作用的结果。通过这种集成设计，错误会在传播到最终答案生成前被捕获并修正。\n理解 Protocol-H“为什么这样设计”只是第一步。上述 supervisor-worker 拓扑和 reflective retry 机制只有在确保同等健壮性的时候，才能实现其收益。接下来将展开介绍关键架构决策、状态管理、数据库抽象和 worker 的设计，说明如何把概念框架落成可用于生产环境的系统。\n实现与集成：架构决策\n使用 LangGraph 进行状态管理\nProtocol-H 使用 LangGraph 的 StateGraph 进行确定性工作流编排：\nclass AgentState(TypedDict):\nmessages: List[BaseMessage] # Conversation history\nnext_step: Literal[\"supervisor\", \"sql_agent\", \"vector_agent\", \"FINISH\"]\nfinal_answer: Optional[str] # Result when complete\nquery_type: Optional[str] # \"sql\", \"semantic\", or \"multi-modal\"\nretry_count: int # Track retry attempts\nerror_message: Optional[str] # Error context for debugging\nStateGraph 保证的是图级别的确定性执行：在相同输入下，控制流图(访问哪些节点、按什么顺序访问)会保持一致(路由决策通过 temperature=0 约束)。确定性的部分包括：节点访问的顺序、状态迁移、重试触发逻辑，以及何时调用哪个 worker。非确定性的部分包括：worker 生成的具体文本(SQL、文档摘要、推理解释)，这些内容即使输入相同也可能因 LLM 采样而产生变化。也就是说，编排逻辑与状态迁移可完全复现并可审计；worker 输出在结构上可复现，但不保证逐字一致性。\nStateGraph 具备良好可审计性，可完整追踪决策与数据流；同时通过重试计数器与超时机制提升安全性，避免循环失控。\n云中立的数据库适配器\n通过 Adapter 模式，Protocol-H 对数据库差异做了抽象：\nclass BaseConnector(ABC):\n\"\"\"Abstract interface for database connectors.\"\"\"\n@abstractmethod\ndef get_schema(self) -> List[TableSchema]:\n\"\"\"Get available tables and columns.\"\"\"\npass\n@abstractmethod\ndef execute_query(self, sql: str) -> QueryResult:\n\"\"\"Execute SQL query safely.\"\"\"\npass\nclass SnowflakeConnector(BaseConnector):\n\"\"\"Snowflake-specific implementation.\nHandles Snowflake dialect differences:\n- Identifiers are UPPERCASE by default\n- Uses LIMIT instead of TOP for row capping\n- Supports QUALIFY for window function filtering\n\"\"\"\ndef get_schema(self) -> List[TableSchema]:\n# Snowflake stores metadata in INFORMATION_SCHEMA\n# Identifiers must be uppercased for reliable matching\nresult = self.connection.execute(\"\"\"\nSELECT TABLE_NAME, COLUMN_NAME, DATA_TYPE\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE TABLE_SCHEMA = UPPER(:schema)\n\"\"\", {\"schema\": self.schema_name})\nreturn [TableSchema.from_row(row) for row in result]\ndef execute_query(self, sql: str) -> QueryResult:\n# Simplified illustration: production implementations should use\n# cursor-based fetch limits or dialect-specific query hints rather\n# than string wrapping, which can alter query semantics for\n# statements with ORDER BY, existing LIMIT clauses, or CTEs.\n# See SnowflakeConnector in the repository for production-grade\n# implementation using cursor.fetchmany().\nsafe_sql = f\"SELECT * FROM ({sql}) LIMIT {self.max_rows}\"\nreturn QueryResult(rows=self.connection.execute(safe_sql).fetchall()))\nclass RedshiftConnector(BaseConnector):\n\"\"\"Amazon Redshift implementation.\n# Dialect note: uses pg_catalog instead of INFORMATION_SCHEMA\n# and does not support QUALIFY — handled via subquery workaround\n\"\"\"\ndef execute_query(self, sql: str) -> QueryResult:\n# Redshift dialect handling\npass\n这种设计使团队可以在不修改编排逻辑的前提下替换数据库后端，这对异构基础设施企业非常重要。在实践中，各个 connector 会在内部处理方言差异(例如，Snowflake 的大写标识符、Redshift 的 pg_catalog 元数据、BigQuery 的嵌套 STRUCT 类型)，从而让 supervisor 和 worker 始终面向统一的 QueryResult 接口。但它仍有一定的局限性：高度依赖方言的特性(比如，Snowflake 的 QUALIFY、BigQuery 的 ARRAY_AGG、Redshift 的 DISTKEY hint)通常需要 connector 级定制，无法实现自动抽象。团队在新数据库后端接入 Protocol-H 时，应先审计这些边界场景再假定可完全地移植。\n专用 Worker 智能体\n每个 worker 都运行自己的 ReAct 循环(推理与行动)：\ndef sql_worker_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"SQL Worker runs ReAct: Thought → Action → Observation.\"\"\"\n# Step 1: Thought (structured reasoning)\nreasoning_prompt = f\"\"\"\nUser asks: {state.current_question}\nAvailable tables: {schema}\nRespond with a structured reasoning object containing:\n- sql_query: the SQL to execute\n- explanation: reasoning for the query choice\n- confidence: self-assessed confidence score (0-1)\n\"\"\"\nreasoning: SQLReasoning = llm.with_structured_output(SQLReasoning).invoke(reasoning_prompt)\n# Step 2: Action (execute SQL)\nquery_result = db.execute(reasoning.sql_query)\n# Step 3: Observation (process results)\nformatted_result = format_for_synthesis(query_result)\nreturn {\n\"messages\": [..., ToolMessage(content=formatted_result)],\n\"next_step\": \"supervisor\"\n}\n基准测试结果\n本次评估比较了以下方法。\nProtocol-H 在 EntQA 基准上进行评估。该基准包含 200 道企业问题，需要同时在 SQL 与文档数据上进行多跳推理。\nProtocol-H：即本文描述的分层 supervisor-worker 架构，带有 reflective retry 功能。\n同时，评估了扁平化的智能体，也就是，单个通用 LLM 智能体可以访问 SQL 和向量检索工具，但不具备分层编排和专用 worker。这代表了最常见的“把所有工具都交给 LLM”的方案。\n最后评估的是标准 RAG，这是一个传统的“先检索后生成”流程(向量化查询→检索文档→交给 LLM→生成答案)，不具备 agentic 推理和 SQL 能力。\n性能对比\n表 1：性能对比\n“推理步数”指系统在生成最终答案前触发的独立工具调用次数(SQL 查询或向量检索)。数值越高，通常表示多跳推理更充分；数值越低，往往表示系统尝试了更少的轮次就尝试给出答案，在该基准中这会与更高的幻觉率密切相关。\n基准方法论\nEntQA 是 Protocol-H 团队内部构建的基准，用于评估异构企业数据上的多跳推理能力。它目前并不是公开的基准，但为了保证可复现性，评估脚本与匿名化问题集已放在Protocol-H仓库)中。\n该数据集包含 200 道企业问题，分为三个复杂度层级。Tier 1(简单，n=60)：单模态问题，一次 SQL 或一次向量检索即可解决；Tier 2(中等，n=80)：需要一次 SQL 和一次向量检索并做基础汇总；Tier 3(复杂，n=60)：需要跨两种模态进行 3 步及以上的多跳推理，并进行跨模态汇总(例如，“哪些客户分群流失率最高，他们的工单揭示了什么根本原因？”)。\n本文中所有的准确率数据均针对 Tier 3 的问题，即最难、也最贴近企业真实需求的子集。\n测试配置：\nLLM：GPT-4o(三套系统统一使用，以隔离编排差异的影响)\nEmbedding 模型：text-embedding-3-large(OpenAI)\n向量库：Pinecone(standard tier)\nSQL 后端：Snowflake Enterprise\n硬件：Docker 容器，4 vCPU / 16GB RAM\n评估方式：由 GPT-4o 对照标准答案打分，并对 20%响应做人类抽检。局限：GPT-4o 既是三套系统的推理引擎又是评估器，可能引入循环偏差；基于人类抽检校验评估可靠性。\n可复现性：完整评估脚本、提示词和标准答案已在仓库提供。说明：EntQA 所用的企业数据源没有公开，复现实验需使用具有类似 schema 复杂度的 SQL/向量数据集。\n关键发现\n准确率提升\n与扁平化的智能体相比，分层路由在多跳准确率上相对提升了 34.6%(84.5% vs 62.8%)；与标准 RAG 相比相对提升 87.0%(84.5% vs 45.2%)。换算为绝对值，分别提升 21.7 和 39.3 个百分点。\n延迟方面的权衡\nProtocol-H 的 p95 延迟为 2.1 秒，相比标准 RAG(0.8 秒)慢约 1.3 秒，相比扁平化的智能体(1.4 秒)慢约 0.7 秒，主要是由更高的推理步数(3.2 vs 1.0 vs 1.8)导致的。这是多跳推理的直接成本。作为参照，同步仪表盘查询通常可接受 2-3 秒的响应，因此 Protocol-H 对多数分析型负载仍在可接受的范围之内。\n对于延迟敏感的场景(比如，面向客户的实时应用)，建议采用基于 webhook 的异步模式。以 2.1 秒延迟换来 21.7%的准确率提升，在“决策质量优先于速度”的企业分析场景中这通常是更优的权衡。\n健壮性\n在高错误率查询(有意制造的 schema 不匹配)方面，Protocol-H 的正确恢复率为 89%，而扁平化的智能体仅为 12%。\n生产环境的部署考量\n安全与合规性\n企业部署不仅要准确率，还要确保安全与可治理。Protocol-H 在这方面实现了：\n确定性的控制流\nStateGraph 保证执行路径可复现，这对合规审计至关重要。\nSchema 感知\n初始化时，每个 worker 都会读取数据库元数据(如 INFORMATION_SCHEMA)，构建在已认证用户 RBAC 权限范围内可访问表/列的运行时映射。worker 只会针对可证实有权限的数据生成查询，从执行前就阻断未授权的访问。\n策略控制\n团队可在 schema_policy.yaml 中定义额外的业务规则(比如，exclude_tables: ['pii_raw']\n)，在数据库权限之外再加一层数据边界控制，适用于多租户部署或监管分区场景。\n错误诊断\n系统会返回完整的上下文解释“为何会失败”，而不是直接给出幻觉化的答案。\n限流\n限流可防止智能体失控并保护基础设施。\n结果校验\n在结果返回给 supervisor 前，worker 输出会经过可配置的校验层，对如下情况进行检查：数值异常(如营收超阈值)、NULL 主导结果(如超过 80%为 NULL，提示 schema 不匹配)、按上下文不应为空却为空的结果集，以及预期类型与返回类型不一致。校验失败时会触发 Reflective Retry Node，而不是把可疑数据继续传递到最终答案。\n部署模式\n同步 API\ndef create_orchestrator(\ndb_connector: BaseConnector,\nvector_store: VectorStoreClient,\npolicy_path: str = \"config/schema_policy.yaml\",\nllm_model: str = \"gpt-4o\",\nmax_retries: int = 3\n) -> ProtocolHOrchestrator:\n\"\"\"\nInitializes the Protocol-H orchestration layer:\n- Loads schema_policy.yaml for access control rules\n- Instantiates the database connector (e.g., SnowflakeConnector)\n- Initializes the vector store client (e.g., Pinecone)\n- Wires Supervisor, SQL Worker, and Vector Worker into the StateGraph\n\"\"\"\n...\ndef get_compiled_app(self) -> CompiledStateGraph:\n\"\"\"\nCompiles the StateGraph into an executable LangGraph app:\n- Validates node connections and edge definitions\n- Freezes the graph structure for deterministic execution\n- Returns a runnable object supporting .invoke() and .invoke_async()\n\"\"\"\n...\n# --- Usage Example ---\nfrom protocol_h.connectors import SnowflakeConnector\nfrom protocol_h.vector import PineconeClient\n# Initialize required connectors\ndb = SnowflakeConnector(\naccount=\"your_account\",\nwarehouse=\"your_warehouse\",\nrole=\"analyst_role\"\n)\nvector_store = PineconeClient(index_name=\"enterprise_docs\")\n# Create orchestrator with required dependencies\norchestrator = create_orchestrator(\ndb_connector=db,\nvector_store=vector_store\n)\napp = orchestrator.get_compiled_app()\nresult = app.invoke({\n\"messages\": [HumanMessage(content=\"What's our top customer segment by revenue?\")],\n\"next_step\": \"supervisor\",\n})\nprint(result[\"final_answer\"])\n基于 Webhook 的异步方式\n# For longer-running queries, use LangGraph's native async API\nimport asyncio\nresult = await app.ainvoke({\n\"messages\": [...],\n\"next_step\": \"supervisor\",\n})\nDocker 容器化\n# Stage 1: Build --- install dependencies in isolated layer\nFROM python:3.11-slim AS builder\nWORKDIR /app\nCOPY requirements.txt.\nRUN pip install --no-cache-dir --user -r requirements.txt\n# Stage 2: Runtime --- lean final image\nFROM python:3.11-slim\nWORKDIR /app\n# Install curl for health check (not included in slim images)\nRUN apt-get update && apt-get install -y --no-install-recommends curl \\\n&& rm -rf /var/lib/apt/lists/*\n# Security best practice: run as non-root user\nRUN useradd --create-home appuser\nUSER appuser\n# Copy only installed packages and app code from builder\nCOPY --from=builder /root/.local /home/appuser/.local\nCOPY src/ /app/src\nCOPY config/ /app/config\n# Pass secrets via environment (injected at runtime by orchestrator/K8s)\nENV OPENAI_API_KEY=${OPENAI_API_KEY}\nENV SNOWFLAKE_ACCOUNT=${SNOWFLAKE_ACCOUNT}\n# Health check: verify the app is responsive every 30s\nHEALTHCHECK --interval=30s --timeout=10s --retries=3 \\\nCMD curl -f http://localhost:8000/health || exit 1\nCMD [\"python\", \"main.py\"]\n常见的挑战与解决方案：Schema 漂移\n企业数据库会持续演进，比如，列重命名、表废弃、引入新的业务逻辑。\nProtocol-H 通过两种互补机制应对 schema 的漂移。第一是周期性的 schema 校验，应用运行时的轻量级后台线程会按照可配置的周期(默认 24 小时，或在出现“unknown column”错误时触发)重新抓取INFORMATION_SCHEMA\n元数据，并更新各 worker 内存中的 schema 映射。高可用部署中，也可改用 Kubernetes CronJob 或外部调度器实现，避免实例级轮询。\n第二是基于替代建议的优雅错误处理。worker 在查询时遇到“unknown column”不会静默失败，而会触发恢复流程，也就是，先对当前 schema 做模糊匹配(例如，识别profit_margin\n已改名为net_margin\n)，通过字符串相似度打分；如果命中高置信的候选者(>0.8)，会把建议列名连同原始错误上下文(如“Column profit_margin not found - did you mean net_margin?”)提交给 supervisor。随后由 supervisor 决定按建议重试、请求澄清还是将问题升级给用户；如果没有命中候选者，则附带完整诊断信息通知 supervisor 改写查询或告知用户存在数据不匹配的问题。\n这种做法避免了 schema 漂移变成“静默失败”。每一次漂移相关的错误都会产出可执行的信号，而不是幻觉化的答案。\n复杂 Join 下的幻觉问题\n当查询涉及 3 张及以上表的连接时，LLM 有时会生成错误的 join 条件。\nreflective retry 机制可以通过捕获失败查询并建议替代 join 策略，或将查询拆分成更小的步骤来解决该问题。\n多跳场景下的延迟\n每增加一步推理都会引入增量延迟。在需要 3-5 步串行推理的多跳场景中，总查询延迟可能超过同步交互界面的容忍阈值。\n解决方式包括，对常见子查询进行结果缓存，在步骤相互独立时进行并行执行。\nProtocol-H 通过 LangGraph 的 Send API 支持该模式，同时保持确定性的图结构。这里的“确定性”指编排逻辑(哪些节点执行、执行顺序)可复现，而非必须串行执行。如果一个查询同时需要 SQL 聚合和向量检索且两者无依赖，supervisor 会并行分派给两个 worker，再在确定性的同步点汇合结果后做最终汇总。也就是说，控制流图仍完全可复现，只在 worker 层执行并行化。(见图 1 中的并行 worker 路径)。\n还应缓存 schema 信息以避免重复自省：schema 元数据按可配置 TTL(默认 24 小时)缓存，并与 Schema Drift 章节中的校验周期保持一致，确保缓存与漂移检测同步。缓存失效与刷新节奏与后台 schema 校验一致，从而在性能(减少会话内重复INFORMATION_SCHEMA\n查询)与新鲜度(保证 worker 不使用超过 TTL 窗口的旧 schema)之间取得平衡。\n成本管理\n每次智能体调用都要触发 LLM，规模化后成本会明显累积。\n为了控制成本，可以采用更快更便宜的模型做路由决策(比如，supervisor 使用 GPT-4o mini)。这是面向未来成本优化的通用架构建议。需要强调的是，本文基准结果(84.5%准确率、7.1%幻觉率)均来自统一使用 GPT-4o 的 supervisor 和 worker。我们尚未正式评估混合模型配置下的成本/准确率权衡；采用该模式的团队应先结合自身的准确率门槛完成验证，再进行规模化部署。另外，可以对相同查询缓存推理结果，并批处理相似查询以提升效率。\n经验总结\n专业化优于泛化\n专用的 SQL 和 Vector worker 在各自模态上持续优于单一的通用智能体：SQL worker 擅长结构化推理，vector worker 擅长语义检索。这种专业化会在端到端上形成复利化的收益。\n错误恢复至关重要\n在内部测试中(n≈1500，覆盖三套金融服务部署，Q4 2025)，对幻觉响应的错误分析显示：大约 60%并非源于 LLM 基础推理能力不足，而是来自未处理执行错误、SQL 失败、向量检索为空或 schema 不匹配，并被静默传播到最终答案阶段。这意味着恢复机制的价值极高：仅通过修复错误处理，就能覆盖大部分幻觉问题，而不必升级模型。\nSchema 感知是关键\n理解可用数据边界(schema 与访问控制)的 worker，比只处理原始数据的 worker 能做出更好的决策。\n确定性带来信任\n企业往往把“可复现执行”看得比“最大化准确率”更重要，因此确定性工作流编排是生产级智能体系统的关键设计要求。StateGraph 的图级确定性(相同输入下节点访问顺序与状态迁移一致)提供了这种可复现性。具体来说，Protocol-H 会为每次决策生成可追踪的审计日志：调用了哪些 worker、顺序如何、输入是什么。对于受 SOC 2、GDPR 或内部模型治理约束的企业团队，这种可复现能力是刚需，它能把答案追溯到具体数据来源和推理步骤，使合规审计相较非确定性系统更具可操作性。\n多模态推理需要编排\n没有单一的智能体能够同时在 SQL 与语义数据上都推理得足够好，分层委派是必需的。\n未来展望\n本文框架是当前企业级 agentic RAG 实践的一个阶段性切片。后续重点研究方向包括：\n自适应路由\n研究目标是学习“不同查询类型最有效的 worker 组合”。当前主要在探索两条互补的路径。第一是查询日志分析：挖掘历史执行轨迹，找出与高准确性、低重试相关的 supervisor 路由决策，再将这些模式反馈到未来路由(例如，“财务的阶段性问题通常先需要 SQL，再执行向量检索以补全上下文”)。第二是轻量 RL 优化：把 supervisor 路由决策建模为可优化的策略，以“答案准确率+幻觉率+查询延迟”的组合作为奖励信号，让系统在无需人工调参下逐步学习查询类型的特定路由。两者仍处于早期研究阶段；考虑到实现的复杂度，日志分析是更接近阶段性可落地的路径。\n语义化缓存\n缓存向量检索结果，减少重复 embedding 计算。\n跨模态融合\n探索更高级的 SQL 证据与语义证据融合方法。\n可解释性\n为多跳的推理路径生成人类可读的阐述形式，这可能是企业采用的最关键前沿领域。当前 Protocol-H 能输出完整的执行轨迹(调用了哪些 worker、顺序如何、输入输出是什么)，但这仍是技术日志，不是业务可读的阐述形式。下一步是把轨迹转成自然语言推理摘要，例如：“为回答你关于欧洲业务表现不佳的问题，我先按地区查询营收与利润率数据(SQL)，再检索欧盟最新监管文件和市场报告(向量检索)，并发现德国利润率下滑与 2024 年 Q3 三份监管文档提到的新 VAT 合规成本相关”。这种透明度对分析师信任、合规性审计和模型治理都至关重要。欧盟 AI 法案对高风险 AI 系统要求保留系统运行日志(第 12 条)，其中就包括决策的可追溯性。\n结论\n企业 RAG 中的“模态鸿沟”(结构化与非结构化数据协同)本质上不是单纯的技术能力不足，而是编排方面的挑战。Protocol-H 证明，具备自主错误恢复的分层多智能体系统可以达到企业级准确性、安全性和可审计性。\n通过职责分离(supervisor 负责编排、worker 负责专长执行)并实现 reflective retry 机制，团队可以构建在异构企业数据上稳定推理的 agentic 系统，同时满足确定性与合规要求。\n对构建企业级 agentic 系统的团队而言，核心架构原则很简单：先编排再委派，先专业化再泛化，先恢复再传播错误。带自主纠错的分层多智能体设计，能够在异构数据模态上实现可靠推理，弥合理论能力与生产可用之间的鸿沟。参考实现 Protocol-H 已经在实践中验证了这些原则，也为团队按自身基础设施和合规需求做二次落地提供了基础。\n代码示例：本文所有代码片段均来自 Protocol-H 框架的原始 Python 实现。\n参考资料：\nGPT-4o (gpt-4o-2024-08-06) — 用于 Worker 推理\nGPT-4o mini (gpt-4o-mini-2024-07-18) — 推荐用于 Supervisor 路由\ntext-embedding-3-large — 用于向量 embedding\nSnowflake Connector for Python v3.x—Python Connector\n注意：版本号对应基准测试时所用版本(Q4 2025)。\n开源仓库可以参见此处。\n原文链接：",
+    "content_source": "trafilatura",
+    "content_chars": 18317,
+    "content_excerpt": "引言\n企业 AI 团队长期面临着一个难题，那就是大多数检索增强生成(RAG)系统要么擅长结构化的数据查询，要么擅长文档检索，但当两者需要同时使用时就会无能为力。比如财务分析师提出“为什么欧洲业务表现不佳？”这类问题时，既需要 SQL 数据库中的结构化数据(营收、利润率、员工数量)，也需要非结构化文档(市场报告、竞争分析、监管文件)。现有 RAG 系统往往会返回缺少监管上下文的营收数据，或给出缺乏量化校验的市场报告，最后仍需分析师手工补齐。当前 RAG 方法把这些模式当成彼此独立的问题，迫使工程师要么构建定制的编排层，要么接受不完整的答案。\n本文将探讨如何通过分层多智能体编排解决这一“模态鸿沟（modality gap）”问题，并以 Protocol-H 作为参考实现来说明这些概念如何落地。文中讨论的模式，也就是带有自主纠错能力的 supervisor-worker 拓扑，建立在 LangGraph/LangChain 的 agentic 模式之上，类似 xAI 和 Databricks 等团队采用的方法。配套的开源代码展示了这些模式如何在 Docker/K8s 环境下实现企业级部署；读者也可在自己偏好的框架中复用同样的架构原则。\n本文中的架构基于参考实现和面向生产环境的企业数据集实验。为了聚焦架构模式而非某个特定系统的具体实现，一部分部署细节做了泛化处理。\n模态鸿沟问题：为什么传统 RAG 无能为力\n传统 RAG 系统通常是线性的流水线：向量化用户问题、检索文档、交给 LLM、生成答案。它在文档中心型的问题上表现尚可，但在企业多模态数据环境中就无能为力了。\n以客户流失分析为例：“哪些客户群体流失率最高？结合工单看常见原因是什么？”这个问题执行如下步骤：\n结构化推理(SQL)：连接客户、交易和流失表，计算群体的流失率。\n语义推理(向量检索)：检索与流失语义相关的支持工单。\n跨模态汇总：将 SQL 结果与文档洞察进行关联，识别因果关系。"
+  },
+  {
     "id": "3800b60792a2",
     "title": "AI music is flooding streaming services — but who wants it?",
     "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
@@ -140,21 +240,6 @@
     "title_zh": "人工智能音乐正在涌入流媒体服务——但谁想要它呢？",
     "summary_zh": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变音乐和音乐产业的更多信息，请关注 Terrence O'Brien。 《Stepback》将于美国东部时间上午 8 点到达我们订阅者的收件箱…",
     "ai_summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变音乐和音乐产业的更多…"
-  },
-  {
-    "id": "97e9eb8e7210",
-    "title": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
-    "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
-    "source": "InfoQ AI",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-05-03T13:24:35",
-    "summary": "点击查看原文>",
-    "collected_at": "2026-05-03T07:52:19.425210",
-    "content_text": "引言\n企业 AI 团队长期面临着一个难题，那就是大多数检索增强生成(RAG)系统要么擅长结构化的数据查询，要么擅长文档检索，但当两者需要同时使用时就会无能为力。比如财务分析师提出“为什么欧洲业务表现不佳？”这类问题时，既需要 SQL 数据库中的结构化数据(营收、利润率、员工数量)，也需要非结构化文档(市场报告、竞争分析、监管文件)。现有 RAG 系统往往会返回缺少监管上下文的营收数据，或给出缺乏量化校验的市场报告，最后仍需分析师手工补齐。当前 RAG 方法把这些模式当成彼此独立的问题，迫使工程师要么构建定制的编排层，要么接受不完整的答案。\n本文将探讨如何通过分层多智能体编排解决这一“模态鸿沟（modality gap）”问题，并以 Protocol-H 作为参考实现来说明这些概念如何落地。文中讨论的模式，也就是带有自主纠错能力的 supervisor-worker 拓扑，建立在 LangGraph/LangChain 的 agentic 模式之上，类似 xAI 和 Databricks 等团队采用的方法。配套的开源代码展示了这些模式如何在 Docker/K8s 环境下实现企业级部署；读者也可在自己偏好的框架中复用同样的架构原则。\n本文中的架构基于参考实现和面向生产环境的企业数据集实验。为了聚焦架构模式而非某个特定系统的具体实现，一部分部署细节做了泛化处理。\n模态鸿沟问题：为什么传统 RAG 无能为力\n传统 RAG 系统通常是线性的流水线：向量化用户问题、检索文档、交给 LLM、生成答案。它在文档中心型的问题上表现尚可，但在企业多模态数据环境中就无能为力了。\n以客户流失分析为例：“哪些客户群体流失率最高？结合工单看常见原因是什么？”这个问题执行如下步骤：\n结构化推理(SQL)：连接客户、交易和流失表，计算群体的流失率。\n语义推理(向量检索)：检索与流失语义相关的支持工单。\n跨模态汇总：将 SQL 结果与文档洞察进行关联，识别因果关系。\n大多数 RAG 系统会尝试“一次性完成”：\n查询 → 向量检索 + SQL 查询 → LLM → 答案\n但是，结果往往是不完整甚至幻觉化的答案，原因包括：如果预先固定检索路径，开发者必须首先决定查询哪些 SQL 表、检索哪些文档，这常常会漏掉关键的数据；上下文窗口有限时，即使检索到了相关的结果，也可能无法在单次 LLM 推理中实现完整的汇总；初始 SQL 可能会找到高流失群体，却遗漏关键工单；缺乏重试机制(比如，迭代修正)时，系统会直接基于不完整的信息作答。尤其当结构化与非结构化信号冲突时，LLM 仍会给出“看起来很自信”的答案。\n真实影响\n在针对三家金融服务场景的内部评估中(Q4 2025，大约 1500 条多跳查询)，约 30%的案例出现“静默失败”：即答案表面权威，但遗漏了超过 20%的相关数据点(比如，绩效分析中缺失监管上下文)，且推理路径不透明，不利于审计。\n这正是需要分层 Agentic 推理的原因。\n分层 Agentic 解决方案：架构总览\nProtocol-H 引入了受组织层级与人类问题求解方式启发的 supervisor-worker 拓扑结构：\n就像管理者会先把专业分析分派给数据分析师(SQL)和研究员(文档)再汇总结论一样，supervisor 负责拆解问题，worker 负责执行各自模态的任务。\n图 1：Protocol-H 架构。supervisor 将查询路由到专用 SQL/向量 worker，并借助 reflective retry 进行纠错，其设计灵感来自组织层级(来源：Protocol-H仓库)。\n这里的核心在于基于编排进行专业化：每个 worker 专注自身的模态(SQL 或语义检索)，supervisor 负责管理推理流并处理复杂的多跳（multi-hop）场景。\n组件详解\nSupervisor 智能体：元认知编排器\nSupervisor 是系统的推理中枢。它不直接执行查询，而是扮演策略的指挥者。\n核心职责：\n查询分析：判断问题需要 SQL、语义检索，还是两者都需要。\n任务分解：把复杂问题拆成原子步骤(例如“先找欧洲客户，再取其工单，再与流失数据关联”)。\nWorker 路由：基于任务与当前状态决定下一步由哪个 worker 执行。\n结果综合：将各 worker 输出整合成连贯的最终答案。\n错误管理：检测失败并触发 reflective retry。\n实现模式：\ndef supervisor_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"\nSupervisor routes queries to appropriate workers.\nReturns structured decision with:\n- next_worker: \"sql_agent\", \"vector_agent\", or \"FINISH\"\n- reasoning: Explanation of routing choice\n- task_description: Specific instruction for worker\n\"\"\"\n# Analyze conversation history and current state\nsupervisor_prompt = \"\"\"\nYou are an enterprise data reasoning expert. Given this question and what you\nknow so far, decide the next reasoning step.\nCurrent question: {current_question}\nResults collected so far: {results_so_far}\nDecide: Do we need SQL query results? Document search? Or can we synthesize\na final answer?\nRespond with: next_worker, reasoning, task_description\n\"\"\"\n# Parse LLM response to structured decision object\ndecision = llm.invoke(supervisor_prompt).parse()\n#returning structured decision\nreturn {\"next_step\": decision.next_worker, ...}\nSQL Worker：Schema 感知查询引擎\nSQL Worker 专注于确定性、结构化推理。\n关键特性：\nSchema 自省\nSQL worker 会通过数据库元数据 API(比如，INFORMATION_SCHEMA\n)自动发现表与列。关系识别会通过两种机制来实现：一是元数据中的显式外键约束(作为权威依据)；二是在缺少外键时，基于列命名规范的 LLM 启发式推断(比如，跨表匹配 customer_id)。\n为降低推断关系带来的正确性风险，系统使用了多层防护：首先，实现置信度评分，基于字符串相似度与命名约定强度打分；低置信度的推断(相似度<0.8)不会自动使用，而是要求显式确认。其次，由 supervisor 仲裁：推断关系以“带置信度的候选建议”而非硬约束形式提交，需要 supervisor 逐条批准后才可生成查询。再次，做运行时验证：使用推断 join 的查询会先以行数受限的形式执行；如果结果异常(比如，空结果、笛卡尔积或类型不匹配)，会触发 reflective retry 并提醒 supervisor 重审 join 的有效性。最后是显式外键优先：一旦元数据存在显式外键，相关表将完全跳过启发式推断阶段。\n查询校验\n生成的 SQL 在执行前会先基于 schema 进行校验。\n方言优化\n为生成特定数据库方言的 SQL(比如，Snowflake、Redshift、BigQuery)，系统会把目标方言与 schema 上下文注入 LLM 提示词，并在执行前进行语法校验。复杂的方言特性(如 Snowflake 的 QUALIFY、BigQuery 的 STRUCT)是该方法的已知限制。reflective retry 能处理失败，但无法保证首轮就完全正确。对于严重依赖方言或合规敏感场景(例如，要求精确 QUALIFY 语义的监管财报、对 STRUCT 校验严格的医疗数据)，团队可优先采用 connector 级模板或查询构建器(SQLAlchemy、dbt 等)，由 Protocol-H 编排已验证的查询片段，而非从零生成 SQL。\n工作流:\n图 2：工作流\n安全机制：\n在 SQL 注入防护方面，系统通过参数化查询 API(比如，cursor.execute(query, params))执行 SQL，而不是字符串拼接，确保用户输入不会被当作可执行 SQL。行级访问控制方面，worker 使用已认证用户的凭据和会话上下文访问数据库，把权限控制交给数据库原生 RBAC，而不是在应用层重复实现。为防止出现失控的查询，每次执行都带有可配置的超时时间(默认 30 秒)；超时后会取消查询并通知 supervisor 缩小范围重试或返回部分结果。\n为保护内存，会限制结果的大小。查询结果在进入 LLM 上下文前会按可配置行数/字节上限截断，避免超大负载耗尽内存或超过 token 限制。\nVector Worker：语义检索智能体\nvector worker 负责面向文档的语义推理。\n关键特性：\n语义检索通过查询向量化、检索向量索引并返回相关文档来实现。\n混合检索将 BM25 关键词匹配与稠密向量余弦相似度结合，并通过 RRF（Reciprocal Rank Fusion）融合排序结果。该方案在精确性(精确词命中，比如，表名或产品码)与召回(概念相关的内容)之间取得了平衡，优于单一的方法。\n相关性过滤通过阈值抑制伪匹配。\n摘要步骤用于提取检索文档中的关键信息。\n关键挑战：\n当不存在相关文档时会出现冷启动的问题，worker 不会臆造结果，而是向 supervisor 返回显式的 null 信号，触发回退到 SQL 形式或向用户发起澄清。对于语义过宽、可能产生多种冲突解释的查询，worker 会将其标记为歧义，并把 Top-N 结果及其相关性分数交给 supervisor 仲裁，而非盲目合并。如果时效性非常重要(时间感知)，可在相关分数中加入时间衰减因子，使近期报告、文件或工单优先。本文报告的 EntQA 测试未启用该能力；基准结果基于无时间加权的标准向量检索。\nReflective Retry 机制：自主的错误恢复\n这正是 Protocol-H 与标准智能体系统的根本差异。当 worker 遇到错误时，系统不会把错误“包装成答案”继续传播，而是会进入 reflective retry 模式。\n错误流\n图 3：Reflective Retry 节点——Protocol-H 中的自主错误恢复流程\n示例：SQL 语法错误恢复\nfrom pydantic import BaseModel\nfrom typing import Optional\nclass RetryCorrection(BaseModel):\ncorrected_query: Optional[str] = None\nalternative_strategy: Optional[str] = None\ndef reflective_retry_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"\nAutonomous error recovery mechanism.\nReturns: Dict containing corrected query or escalation signal.\n\"\"\"\nerror_msg = state.error_message\nretry_prompt = f\"\"\"\nA query failed with this error: {error_msg}\nOriginal task: {state.current_task}\nAvailable schema: {schema_info}\nAnalyze the error and suggest a corrected approach.\nCommon issues:\n- Misspelled table/column names\n- Incorrect JOIN syntax\n- Missing WHERE clauses\n- Type mismatches\nRespond with: corrected_query or alternative_strategy\n\"\"\"\n# LLM returns a structured RetryCorrection object (Pydantic model)\ncorrection: RetryCorrection = llm.with_structured_output(\nRetryCorrection\n).invoke(retry_prompt)\n# RetryCorrection has two optional fields:\n# - corrected_query: str → revised SQL to retry\n# - alternative_strategy: str → fallback if query can't be fixed\nreturn attempt_alternative_approach(correction)\n与标准 RAG 相比，这套机制使幻觉率下降约 60%(7.1%对 28.5%，见表 1)。但这并非 retry 机制单独的贡献，而是 Protocol-H 整体架构(supervisor-worker 拓扑、schema 感知查询生成和 reflective retry)协同作用的结果。通过这种集成设计，错误会在传播到最终答案生成前被捕获并修正。\n理解 Protocol-H“为什么这样设计”只是第一步。上述 supervisor-worker 拓扑和 reflective retry 机制只有在确保同等健壮性的时候，才能实现其收益。接下来将展开介绍关键架构决策、状态管理、数据库抽象和 worker 的设计，说明如何把概念框架落成可用于生产环境的系统。\n实现与集成：架构决策\n使用 LangGraph 进行状态管理\nProtocol-H 使用 LangGraph 的 StateGraph 进行确定性工作流编排：\nclass AgentState(TypedDict):\nmessages: List[BaseMessage] # Conversation history\nnext_step: Literal[\"supervisor\", \"sql_agent\", \"vector_agent\", \"FINISH\"]\nfinal_answer: Optional[str] # Result when complete\nquery_type: Optional[str] # \"sql\", \"semantic\", or \"multi-modal\"\nretry_count: int # Track retry attempts\nerror_message: Optional[str] # Error context for debugging\nStateGraph 保证的是图级别的确定性执行：在相同输入下，控制流图(访问哪些节点、按什么顺序访问)会保持一致(路由决策通过 temperature=0 约束)。确定性的部分包括：节点访问的顺序、状态迁移、重试触发逻辑，以及何时调用哪个 worker。非确定性的部分包括：worker 生成的具体文本(SQL、文档摘要、推理解释)，这些内容即使输入相同也可能因 LLM 采样而产生变化。也就是说，编排逻辑与状态迁移可完全复现并可审计；worker 输出在结构上可复现，但不保证逐字一致性。\nStateGraph 具备良好可审计性，可完整追踪决策与数据流；同时通过重试计数器与超时机制提升安全性，避免循环失控。\n云中立的数据库适配器\n通过 Adapter 模式，Protocol-H 对数据库差异做了抽象：\nclass BaseConnector(ABC):\n\"\"\"Abstract interface for database connectors.\"\"\"\n@abstractmethod\ndef get_schema(self) -> List[TableSchema]:\n\"\"\"Get available tables and columns.\"\"\"\npass\n@abstractmethod\ndef execute_query(self, sql: str) -> QueryResult:\n\"\"\"Execute SQL query safely.\"\"\"\npass\nclass SnowflakeConnector(BaseConnector):\n\"\"\"Snowflake-specific implementation.\nHandles Snowflake dialect differences:\n- Identifiers are UPPERCASE by default\n- Uses LIMIT instead of TOP for row capping\n- Supports QUALIFY for window function filtering\n\"\"\"\ndef get_schema(self) -> List[TableSchema]:\n# Snowflake stores metadata in INFORMATION_SCHEMA\n# Identifiers must be uppercased for reliable matching\nresult = self.connection.execute(\"\"\"\nSELECT TABLE_NAME, COLUMN_NAME, DATA_TYPE\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE TABLE_SCHEMA = UPPER(:schema)\n\"\"\", {\"schema\": self.schema_name})\nreturn [TableSchema.from_row(row) for row in result]\ndef execute_query(self, sql: str) -> QueryResult:\n# Simplified illustration: production implementations should use\n# cursor-based fetch limits or dialect-specific query hints rather\n# than string wrapping, which can alter query semantics for\n# statements with ORDER BY, existing LIMIT clauses, or CTEs.\n# See SnowflakeConnector in the repository for production-grade\n# implementation using cursor.fetchmany().\nsafe_sql = f\"SELECT * FROM ({sql}) LIMIT {self.max_rows}\"\nreturn QueryResult(rows=self.connection.execute(safe_sql).fetchall()))\nclass RedshiftConnector(BaseConnector):\n\"\"\"Amazon Redshift implementation.\n# Dialect note: uses pg_catalog instead of INFORMATION_SCHEMA\n# and does not support QUALIFY — handled via subquery workaround\n\"\"\"\ndef execute_query(self, sql: str) -> QueryResult:\n# Redshift dialect handling\npass\n这种设计使团队可以在不修改编排逻辑的前提下替换数据库后端，这对异构基础设施企业非常重要。在实践中，各个 connector 会在内部处理方言差异(例如，Snowflake 的大写标识符、Redshift 的 pg_catalog 元数据、BigQuery 的嵌套 STRUCT 类型)，从而让 supervisor 和 worker 始终面向统一的 QueryResult 接口。但它仍有一定的局限性：高度依赖方言的特性(比如，Snowflake 的 QUALIFY、BigQuery 的 ARRAY_AGG、Redshift 的 DISTKEY hint)通常需要 connector 级定制，无法实现自动抽象。团队在新数据库后端接入 Protocol-H 时，应先审计这些边界场景再假定可完全地移植。\n专用 Worker 智能体\n每个 worker 都运行自己的 ReAct 循环(推理与行动)：\ndef sql_worker_node(state: AgentState) -> Dict[str, Any]:\n\"\"\"SQL Worker runs ReAct: Thought → Action → Observation.\"\"\"\n# Step 1: Thought (structured reasoning)\nreasoning_prompt = f\"\"\"\nUser asks: {state.current_question}\nAvailable tables: {schema}\nRespond with a structured reasoning object containing:\n- sql_query: the SQL to execute\n- explanation: reasoning for the query choice\n- confidence: self-assessed confidence score (0-1)\n\"\"\"\nreasoning: SQLReasoning = llm.with_structured_output(SQLReasoning).invoke(reasoning_prompt)\n# Step 2: Action (execute SQL)\nquery_result = db.execute(reasoning.sql_query)\n# Step 3: Observation (process results)\nformatted_result = format_for_synthesis(query_result)\nreturn {\n\"messages\": [..., ToolMessage(content=formatted_result)],\n\"next_step\": \"supervisor\"\n}\n基准测试结果\n本次评估比较了以下方法。\nProtocol-H 在 EntQA 基准上进行评估。该基准包含 200 道企业问题，需要同时在 SQL 与文档数据上进行多跳推理。\nProtocol-H：即本文描述的分层 supervisor-worker 架构，带有 reflective retry 功能。\n同时，评估了扁平化的智能体，也就是，单个通用 LLM 智能体可以访问 SQL 和向量检索工具，但不具备分层编排和专用 worker。这代表了最常见的“把所有工具都交给 LLM”的方案。\n最后评估的是标准 RAG，这是一个传统的“先检索后生成”流程(向量化查询→检索文档→交给 LLM→生成答案)，不具备 agentic 推理和 SQL 能力。\n性能对比\n表 1：性能对比\n“推理步数”指系统在生成最终答案前触发的独立工具调用次数(SQL 查询或向量检索)。数值越高，通常表示多跳推理更充分；数值越低，往往表示系统尝试了更少的轮次就尝试给出答案，在该基准中这会与更高的幻觉率密切相关。\n基准方法论\nEntQA 是 Protocol-H 团队内部构建的基准，用于评估异构企业数据上的多跳推理能力。它目前并不是公开的基准，但为了保证可复现性，评估脚本与匿名化问题集已放在Protocol-H仓库)中。\n该数据集包含 200 道企业问题，分为三个复杂度层级。Tier 1(简单，n=60)：单模态问题，一次 SQL 或一次向量检索即可解决；Tier 2(中等，n=80)：需要一次 SQL 和一次向量检索并做基础汇总；Tier 3(复杂，n=60)：需要跨两种模态进行 3 步及以上的多跳推理，并进行跨模态汇总(例如，“哪些客户分群流失率最高，他们的工单揭示了什么根本原因？”)。\n本文中所有的准确率数据均针对 Tier 3 的问题，即最难、也最贴近企业真实需求的子集。\n测试配置：\nLLM：GPT-4o(三套系统统一使用，以隔离编排差异的影响)\nEmbedding 模型：text-embedding-3-large(OpenAI)\n向量库：Pinecone(standard tier)\nSQL 后端：Snowflake Enterprise\n硬件：Docker 容器，4 vCPU / 16GB RAM\n评估方式：由 GPT-4o 对照标准答案打分，并对 20%响应做人类抽检。局限：GPT-4o 既是三套系统的推理引擎又是评估器，可能引入循环偏差；基于人类抽检校验评估可靠性。\n可复现性：完整评估脚本、提示词和标准答案已在仓库提供。说明：EntQA 所用的企业数据源没有公开，复现实验需使用具有类似 schema 复杂度的 SQL/向量数据集。\n关键发现\n准确率提升\n与扁平化的智能体相比，分层路由在多跳准确率上相对提升了 34.6%(84.5% vs 62.8%)；与标准 RAG 相比相对提升 87.0%(84.5% vs 45.2%)。换算为绝对值，分别提升 21.7 和 39.3 个百分点。\n延迟方面的权衡\nProtocol-H 的 p95 延迟为 2.1 秒，相比标准 RAG(0.8 秒)慢约 1.3 秒，相比扁平化的智能体(1.4 秒)慢约 0.7 秒，主要是由更高的推理步数(3.2 vs 1.0 vs 1.8)导致的。这是多跳推理的直接成本。作为参照，同步仪表盘查询通常可接受 2-3 秒的响应，因此 Protocol-H 对多数分析型负载仍在可接受的范围之内。\n对于延迟敏感的场景(比如，面向客户的实时应用)，建议采用基于 webhook 的异步模式。以 2.1 秒延迟换来 21.7%的准确率提升，在“决策质量优先于速度”的企业分析场景中这通常是更优的权衡。\n健壮性\n在高错误率查询(有意制造的 schema 不匹配)方面，Protocol-H 的正确恢复率为 89%，而扁平化的智能体仅为 12%。\n生产环境的部署考量\n安全与合规性\n企业部署不仅要准确率，还要确保安全与可治理。Protocol-H 在这方面实现了：\n确定性的控制流\nStateGraph 保证执行路径可复现，这对合规审计至关重要。\nSchema 感知\n初始化时，每个 worker 都会读取数据库元数据(如 INFORMATION_SCHEMA)，构建在已认证用户 RBAC 权限范围内可访问表/列的运行时映射。worker 只会针对可证实有权限的数据生成查询，从执行前就阻断未授权的访问。\n策略控制\n团队可在 schema_policy.yaml 中定义额外的业务规则(比如，exclude_tables: ['pii_raw']\n)，在数据库权限之外再加一层数据边界控制，适用于多租户部署或监管分区场景。\n错误诊断\n系统会返回完整的上下文解释“为何会失败”，而不是直接给出幻觉化的答案。\n限流\n限流可防止智能体失控并保护基础设施。\n结果校验\n在结果返回给 supervisor 前，worker 输出会经过可配置的校验层，对如下情况进行检查：数值异常(如营收超阈值)、NULL 主导结果(如超过 80%为 NULL，提示 schema 不匹配)、按上下文不应为空却为空的结果集，以及预期类型与返回类型不一致。校验失败时会触发 Reflective Retry Node，而不是把可疑数据继续传递到最终答案。\n部署模式\n同步 API\ndef create_orchestrator(\ndb_connector: BaseConnector,\nvector_store: VectorStoreClient,\npolicy_path: str = \"config/schema_policy.yaml\",\nllm_model: str = \"gpt-4o\",\nmax_retries: int = 3\n) -> ProtocolHOrchestrator:\n\"\"\"\nInitializes the Protocol-H orchestration layer:\n- Loads schema_policy.yaml for access control rules\n- Instantiates the database connector (e.g., SnowflakeConnector)\n- Initializes the vector store client (e.g., Pinecone)\n- Wires Supervisor, SQL Worker, and Vector Worker into the StateGraph\n\"\"\"\n...\ndef get_compiled_app(self) -> CompiledStateGraph:\n\"\"\"\nCompiles the StateGraph into an executable LangGraph app:\n- Validates node connections and edge definitions\n- Freezes the graph structure for deterministic execution\n- Returns a runnable object supporting .invoke() and .invoke_async()\n\"\"\"\n...\n# --- Usage Example ---\nfrom protocol_h.connectors import SnowflakeConnector\nfrom protocol_h.vector import PineconeClient\n# Initialize required connectors\ndb = SnowflakeConnector(\naccount=\"your_account\",\nwarehouse=\"your_warehouse\",\nrole=\"analyst_role\"\n)\nvector_store = PineconeClient(index_name=\"enterprise_docs\")\n# Create orchestrator with required dependencies\norchestrator = create_orchestrator(\ndb_connector=db,\nvector_store=vector_store\n)\napp = orchestrator.get_compiled_app()\nresult = app.invoke({\n\"messages\": [HumanMessage(content=\"What's our top customer segment by revenue?\")],\n\"next_step\": \"supervisor\",\n})\nprint(result[\"final_answer\"])\n基于 Webhook 的异步方式\n# For longer-running queries, use LangGraph's native async API\nimport asyncio\nresult = await app.ainvoke({\n\"messages\": [...],\n\"next_step\": \"supervisor\",\n})\nDocker 容器化\n# Stage 1: Build --- install dependencies in isolated layer\nFROM python:3.11-slim AS builder\nWORKDIR /app\nCOPY requirements.txt.\nRUN pip install --no-cache-dir --user -r requirements.txt\n# Stage 2: Runtime --- lean final image\nFROM python:3.11-slim\nWORKDIR /app\n# Install curl for health check (not included in slim images)\nRUN apt-get update && apt-get install -y --no-install-recommends curl \\\n&& rm -rf /var/lib/apt/lists/*\n# Security best practice: run as non-root user\nRUN useradd --create-home appuser\nUSER appuser\n# Copy only installed packages and app code from builder\nCOPY --from=builder /root/.local /home/appuser/.local\nCOPY src/ /app/src\nCOPY config/ /app/config\n# Pass secrets via environment (injected at runtime by orchestrator/K8s)\nENV OPENAI_API_KEY=${OPENAI_API_KEY}\nENV SNOWFLAKE_ACCOUNT=${SNOWFLAKE_ACCOUNT}\n# Health check: verify the app is responsive every 30s\nHEALTHCHECK --interval=30s --timeout=10s --retries=3 \\\nCMD curl -f http://localhost:8000/health || exit 1\nCMD [\"python\", \"main.py\"]\n常见的挑战与解决方案：Schema 漂移\n企业数据库会持续演进，比如，列重命名、表废弃、引入新的业务逻辑。\nProtocol-H 通过两种互补机制应对 schema 的漂移。第一是周期性的 schema 校验，应用运行时的轻量级后台线程会按照可配置的周期(默认 24 小时，或在出现“unknown column”错误时触发)重新抓取INFORMATION_SCHEMA\n元数据，并更新各 worker 内存中的 schema 映射。高可用部署中，也可改用 Kubernetes CronJob 或外部调度器实现，避免实例级轮询。\n第二是基于替代建议的优雅错误处理。worker 在查询时遇到“unknown column”不会静默失败，而会触发恢复流程，也就是，先对当前 schema 做模糊匹配(例如，识别profit_margin\n已改名为net_margin\n)，通过字符串相似度打分；如果命中高置信的候选者(>0.8)，会把建议列名连同原始错误上下文(如“Column profit_margin not found - did you mean net_margin?”)提交给 supervisor。随后由 supervisor 决定按建议重试、请求澄清还是将问题升级给用户；如果没有命中候选者，则附带完整诊断信息通知 supervisor 改写查询或告知用户存在数据不匹配的问题。\n这种做法避免了 schema 漂移变成“静默失败”。每一次漂移相关的错误都会产出可执行的信号，而不是幻觉化的答案。\n复杂 Join 下的幻觉问题\n当查询涉及 3 张及以上表的连接时，LLM 有时会生成错误的 join 条件。\nreflective retry 机制可以通过捕获失败查询并建议替代 join 策略，或将查询拆分成更小的步骤来解决该问题。\n多跳场景下的延迟\n每增加一步推理都会引入增量延迟。在需要 3-5 步串行推理的多跳场景中，总查询延迟可能超过同步交互界面的容忍阈值。\n解决方式包括，对常见子查询进行结果缓存，在步骤相互独立时进行并行执行。\nProtocol-H 通过 LangGraph 的 Send API 支持该模式，同时保持确定性的图结构。这里的“确定性”指编排逻辑(哪些节点执行、执行顺序)可复现，而非必须串行执行。如果一个查询同时需要 SQL 聚合和向量检索且两者无依赖，supervisor 会并行分派给两个 worker，再在确定性的同步点汇合结果后做最终汇总。也就是说，控制流图仍完全可复现，只在 worker 层执行并行化。(见图 1 中的并行 worker 路径)。\n还应缓存 schema 信息以避免重复自省：schema 元数据按可配置 TTL(默认 24 小时)缓存，并与 Schema Drift 章节中的校验周期保持一致，确保缓存与漂移检测同步。缓存失效与刷新节奏与后台 schema 校验一致，从而在性能(减少会话内重复INFORMATION_SCHEMA\n查询)与新鲜度(保证 worker 不使用超过 TTL 窗口的旧 schema)之间取得平衡。\n成本管理\n每次智能体调用都要触发 LLM，规模化后成本会明显累积。\n为了控制成本，可以采用更快更便宜的模型做路由决策(比如，supervisor 使用 GPT-4o mini)。这是面向未来成本优化的通用架构建议。需要强调的是，本文基准结果(84.5%准确率、7.1%幻觉率)均来自统一使用 GPT-4o 的 supervisor 和 worker。我们尚未正式评估混合模型配置下的成本/准确率权衡；采用该模式的团队应先结合自身的准确率门槛完成验证，再进行规模化部署。另外，可以对相同查询缓存推理结果，并批处理相似查询以提升效率。\n经验总结\n专业化优于泛化\n专用的 SQL 和 Vector worker 在各自模态上持续优于单一的通用智能体：SQL worker 擅长结构化推理，vector worker 擅长语义检索。这种专业化会在端到端上形成复利化的收益。\n错误恢复至关重要\n在内部测试中(n≈1500，覆盖三套金融服务部署，Q4 2025)，对幻觉响应的错误分析显示：大约 60%并非源于 LLM 基础推理能力不足，而是来自未处理执行错误、SQL 失败、向量检索为空或 schema 不匹配，并被静默传播到最终答案阶段。这意味着恢复机制的价值极高：仅通过修复错误处理，就能覆盖大部分幻觉问题，而不必升级模型。\nSchema 感知是关键\n理解可用数据边界(schema 与访问控制)的 worker，比只处理原始数据的 worker 能做出更好的决策。\n确定性带来信任\n企业往往把“可复现执行”看得比“最大化准确率”更重要，因此确定性工作流编排是生产级智能体系统的关键设计要求。StateGraph 的图级确定性(相同输入下节点访问顺序与状态迁移一致)提供了这种可复现性。具体来说，Protocol-H 会为每次决策生成可追踪的审计日志：调用了哪些 worker、顺序如何、输入是什么。对于受 SOC 2、GDPR 或内部模型治理约束的企业团队，这种可复现能力是刚需，它能把答案追溯到具体数据来源和推理步骤，使合规审计相较非确定性系统更具可操作性。\n多模态推理需要编排\n没有单一的智能体能够同时在 SQL 与语义数据上都推理得足够好，分层委派是必需的。\n未来展望\n本文框架是当前企业级 agentic RAG 实践的一个阶段性切片。后续重点研究方向包括：\n自适应路由\n研究目标是学习“不同查询类型最有效的 worker 组合”。当前主要在探索两条互补的路径。第一是查询日志分析：挖掘历史执行轨迹，找出与高准确性、低重试相关的 supervisor 路由决策，再将这些模式反馈到未来路由(例如，“财务的阶段性问题通常先需要 SQL，再执行向量检索以补全上下文”)。第二是轻量 RL 优化：把 supervisor 路由决策建模为可优化的策略，以“答案准确率+幻觉率+查询延迟”的组合作为奖励信号，让系统在无需人工调参下逐步学习查询类型的特定路由。两者仍处于早期研究阶段；考虑到实现的复杂度，日志分析是更接近阶段性可落地的路径。\n语义化缓存\n缓存向量检索结果，减少重复 embedding 计算。\n跨模态融合\n探索更高级的 SQL 证据与语义证据融合方法。\n可解释性\n为多跳的推理路径生成人类可读的阐述形式，这可能是企业采用的最关键前沿领域。当前 Protocol-H 能输出完整的执行轨迹(调用了哪些 worker、顺序如何、输入输出是什么)，但这仍是技术日志，不是业务可读的阐述形式。下一步是把轨迹转成自然语言推理摘要，例如：“为回答你关于欧洲业务表现不佳的问题，我先按地区查询营收与利润率数据(SQL)，再检索欧盟最新监管文件和市场报告(向量检索)，并发现德国利润率下滑与 2024 年 Q3 三份监管文档提到的新 VAT 合规成本相关”。这种透明度对分析师信任、合规性审计和模型治理都至关重要。欧盟 AI 法案对高风险 AI 系统要求保留系统运行日志(第 12 条)，其中就包括决策的可追溯性。\n结论\n企业 RAG 中的“模态鸿沟”(结构化与非结构化数据协同)本质上不是单纯的技术能力不足，而是编排方面的挑战。Protocol-H 证明，具备自主错误恢复的分层多智能体系统可以达到企业级准确性、安全性和可审计性。\n通过职责分离(supervisor 负责编排、worker 负责专长执行)并实现 reflective retry 机制，团队可以构建在异构企业数据上稳定推理的 agentic 系统，同时满足确定性与合规要求。\n对构建企业级 agentic 系统的团队而言，核心架构原则很简单：先编排再委派，先专业化再泛化，先恢复再传播错误。带自主纠错的分层多智能体设计，能够在异构数据模态上实现可靠推理，弥合理论能力与生产可用之间的鸿沟。参考实现 Protocol-H 已经在实践中验证了这些原则，也为团队按自身基础设施和合规需求做二次落地提供了基础。\n代码示例：本文所有代码片段均来自 Protocol-H 框架的原始 Python 实现。\n参考资料：\nGPT-4o (gpt-4o-2024-08-06) — 用于 Worker 推理\nGPT-4o mini (gpt-4o-mini-2024-07-18) — 推荐用于 Supervisor 路由\ntext-embedding-3-large — 用于向量 embedding\nSnowflake Connector for Python v3.x—Python Connector\n注意：版本号对应基准测试时所用版本(Q4 2025)。\n开源仓库可以参见此处。\n原文链接：",
-    "content_source": "trafilatura",
-    "content_chars": 18317,
-    "content_excerpt": "引言\n企业 AI 团队长期面临着一个难题，那就是大多数检索增强生成(RAG)系统要么擅长结构化的数据查询，要么擅长文档检索，但当两者需要同时使用时就会无能为力。比如财务分析师提出“为什么欧洲业务表现不佳？”这类问题时，既需要 SQL 数据库中的结构化数据(营收、利润率、员工数量)，也需要非结构化文档(市场报告、竞争分析、监管文件)。现有 RAG 系统往往会返回缺少监管上下文的营收数据，或给出缺乏量化校验的市场报告，最后仍需分析师手工补齐。当前 RAG 方法把这些模式当成彼此独立的问题，迫使工程师要么构建定制的编排层，要么接受不完整的答案。\n本文将探讨如何通过分层多智能体编排解决这一“模态鸿沟（modality gap）”问题，并以 Protocol-H 作为参考实现来说明这些概念如何落地。文中讨论的模式，也就是带有自主纠错能力的 supervisor-worker 拓扑，建立在 LangGraph/LangChain 的 agentic 模式之上，类似 xAI 和 Databricks 等团队采用的方法。配套的开源代码展示了这些模式如何在 Docker/K8s 环境下实现企业级部署；读者也可在自己偏好的框架中复用同样的架构原则。\n本文中的架构基于参考实现和面向生产环境的企业数据集实验。为了聚焦架构模式而非某个特定系统的具体实现，一部分部署细节做了泛化处理。\n模态鸿沟问题：为什么传统 RAG 无能为力\n传统 RAG 系统通常是线性的流水线：向量化用户问题、检索文档、交给 LLM、生成答案。它在文档中心型的问题上表现尚可，但在企业多模态数据环境中就无能为力了。\n以客户流失分析为例：“哪些客户群体流失率最高？结合工单看常见原因是什么？”这个问题执行如下步骤：\n结构化推理(SQL)：连接客户、交易和流失表，计算群体的流失率。\n语义推理(向量检索)：检索与流失语义相关的支持工单。\n跨模态汇总：将 SQL 结果与文档洞察进行关联，识别因果关系。"
   },
   {
     "id": "v2ex-1210117",
@@ -4450,18 +4535,15 @@
     "collected_at": "2026-04-29T02:15:52.642798"
   },
   {
-    "id": "reddit-1sxotqx",
-    "title": "I built a solo AI platform from Bahrain with no funding, no team and no ad spend - here's what's inside it after 4 months",
-    "url": "https://reddit.com/r/artificial/comments/1sxotqx/i_built_a_solo_ai_platform_from_bahrain_with_no/",
-    "source": "r/artificial",
+    "id": "hn-47679121",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "Hacker News",
     "lang": "en",
-    "published": "2026-04-28T02:43:02",
-    "summary": "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player I'm a self-taught developer, 39 years old, based in Bahrain. Four months ago I started building AskSary - a multi-model AI platform with a persistent memory layer that sits above all the models. The core idea: the model is not the identity.",
-    "points": 0,
-    "collected_at": "2026-04-28T10:53:50.526306",
-    "title_zh": "我在巴林建立了一个独立的人工智能平台，没有资金、没有团队、没有广告支出——这是 4 个月后的内容",
-    "summary_zh": "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player 我是一名自学成才的开发人员，39 岁，居住在巴林。四个月前，我开始构建 AskSary——一个多模型人工智能平台，其持久内…",
-    "ai_summary": "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player 我…"
+    "published": "2026-04-07T18:09:34Z",
+    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
+    "points": 1541,
+    "collected_at": "2026-05-04T08:22:27.830446"
   },
   {
     "id": "v2ex-1209036",
@@ -4478,102 +4560,6 @@
     "content_excerpt": "最近这段时间看了很多关于 AI 开发的文章、博客、视频，\n尤其是各种 Agent 工作流 的分享。\n比如：\nAI 自己拆任务\nAI 自己写代码\nAI 自动做 code review\nAI 自动提交 PR\nAI 管理整个项目流程\n甚至有些文章给人的感觉是：\n人只需要把需求说清楚，剩下的事情 AI 自己就能完成。"
   },
   {
-    "id": "reddit-1sxnzem",
-    "title": "Kimi K2.6 vs DeepSeek V4 Pro",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxnzem/kimi_k26_vs_deepseek_v4_pro/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T02:05:40",
-    "summary": "How are you finding these models, which one do you find to be better for real use cases? So far we're finding Kimi k2.6 better for coding, but want to hear your thoughts.",
-    "points": 43,
-    "collected_at": "2026-04-28T10:53:47.292836",
-    "title_zh": "Kimi K2.6 与 DeepSeek V4 Pro 对比",
-    "summary_zh": "您如何找到这些模型？您认为哪一个更适合实际用例？到目前为止，我们发现 Kimi k2.6 更适合编码，但想听听您的想法",
-    "ai_summary": "您如何找到这些模型？您认为哪一个更适合实际用例？到目前为止，我们发现 Kimi k2.6 更适合编码，但想听听您的想法"
-  },
-  {
-    "id": "v2ex-1209013",
-    "title": "Xiaomi MiMo Token 激励计划",
-    "url": "https://www.v2ex.com/t/1209013",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-28T01:44:10",
-    "summary": "邀请你参加 Xiaomi MiMo Orbit 百万亿 Token 创造者激励计划，100T Credits 面向全球用户限时发放中... https://100t.xiaomimimo.com/ 创造者百万亿 Token 激励计划 Xiaomi MiMo 将面向全球 AI 用户进行免费 Token 发放，我们将在 30 天内发放总计 100 万亿（ 100T ） Token 权益，赠完即止。 活动时间：北京时间 2026 年 4 月 28 日 00:00 至 5 月 28 日 00:00 参与地址：100t.xiaomimimo.com",
-    "collected_at": "2026-04-28T10:16:43.726969",
-    "content_text": "你好，\n我们认真评估了你提交的申请，你展现出的 AI 驱动能力及实际创造成果，让我们印象深刻。\n恭喜你正式入选 Xiaomi MiMo Orbit-百万亿 Token 创造者激励计划！我们为你准备了专属的 Token 权益，请前往 MiMo API 开放平台查收。你可以使用这些权益体验 MiMo V2.5 全系列模型，包括旗舰推理模型、多模态模型和语音合成模型。\n领取方式：\n使用此邮箱登录或注册 MiMo API 开放平台，权益将在登录后 24 小时内自动到账。\n开放平台地址：\nplatform.xiaomimimo.com\n请注意：\n请确保你的开放平台账号已使用此邮箱注册，或已绑定此邮箱，否则权益将无法到账\n如果你在 24h 之后仍未收到权益，请在开放平台联系我们进行反馈，并提供注册邮箱和账号 ID 等信息\n具体权益内容和有效期以到账提示为准，请及时查收和使用\n期待看到你用 MiMo 创造的下一个项目。\n-------------------------------------------\n还没到账",
-    "content_source": "readability",
-    "content_chars": 457,
-    "content_excerpt": "你好，\n我们认真评估了你提交的申请，你展现出的 AI 驱动能力及实际创造成果，让我们印象深刻。\n恭喜你正式入选 Xiaomi MiMo Orbit-百万亿 Token 创造者激励计划！我们为你准备了专属的 Token 权益，请前往 MiMo API 开放平台查收。你可以使用这些权益体验 MiMo V2.5 全系列模型，包括旗舰推理模型、多模态模型和语音合成模型。\n领取方式：\n使用此邮箱登录或注册 MiMo API 开放平台，权益将在登录后 24 小时内自动到账。\n开放平台地址：\nplatform.xiaomimimo.com\n请注意：\n请确保你的开放平台账号已使用此邮箱注册，或已绑定此邮箱，否则权益将无法到账\n如果你在 24h 之后仍未收到权益，请在开放平台联系我们进行反馈，并提供注册邮箱和账号 ID 等信息"
-  },
-  {
-    "id": "reddit-1sxn7x2",
-    "title": "Local model on coding has reached a certain threshold to be feasible for real work",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxn7x2/local_model_on_coding_has_reached_a_certain/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T01:32:36",
-    "summary": "We ran open-weight 27B–32B models on Terminal-Bench 2.0 (89 tasks, `terminal-bench-2.git @ 69671fb`) through our agent harness. Best result was Qwen 3.6-27B at **38.2% (34/89)** under the **default** per-task timeout — the same constraint the public leaderboard uses ([Qwen's official post uses a mor",
-    "points": 84,
-    "collected_at": "2026-04-28T10:53:47.292205",
-    "title_zh": "编码的局部模型已经达到了在实际工作中可行的一定阈值",
-    "summary_zh": "我们通过代理工具在 Terminal-Bench 2.0（89 个任务，“terminal-bench-2.git @ 69671fb”）上运行开放重量的 27B-32B 模型。最好的结果是 Qwen 3.6-27B，在 **默认** 每任…",
-    "ai_summary": "我们通过代理工具在 Terminal-Bench 2.0（89 个任务，“terminal-bench-2.git @…"
-  },
-  {
-    "id": "v2ex-1208985",
-    "title": "Termina.Pub 中转站 可开发票，欢迎企业合作，限时开启 claude-free 渠道，回帖留 id 送 10 刀额度",
-    "url": "https://www.v2ex.com/t/1208985",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-28T00:05:53",
-    "summary": "在 V 站宣传有一段时间了，积累不了少客户，有些朋友用的不开心走了，有的朋友退款了，但是老板还在，老板又回来给 v 友发福利了 claude-free 渠道 限时开启，避免滥用，只要 5 分一刀 **官网地址** [https://terminal.pub/register]( https://terminal.pub/register) * 充值 1 人民币=1 美金, 套餐可以 0.9 人民币=1 美金 ## 活动规则 老规矩，回帖发自己 id 每个人送 10 刀，仅限前 150 位 ![图片]( https://i.imgur.com/0oWfkP0.png ) 我去吃个早餐 **如果回",
-    "collected_at": "2026-04-28T10:16:43.726684",
-    "content_text": "在 V 站宣传有一段时间了，积累不了少客户，有些朋友用的不开心走了，有的朋友退款了，但是老板还在，老板又回来给 v 友发福利了\nclaude-free 渠道 限时开启，避免滥用，只要 5 分一刀\n官网地址\nhttps://terminal.pub/register\n- 充值 1 人民币=1 美金, 套餐可以 0.9 人民币=1 美金\n活动规则\n老规矩，回帖发自己 id 每个人送 10 刀，仅限前 150 位\n我去吃个早餐 如果回来自动化程序没拉闸，可能送到 300 位\n微信群\n一起建设我们的 VibeCoding 社区\n- 欢迎有志之士加入我们的 VibeCoding 社区，我们正在招募成员一起建设 VibeCoding 社区\nhttps://bbs.vibe-coding.sh",
-    "content_source": "trafilatura",
-    "content_chars": 344,
-    "content_excerpt": "在 V 站宣传有一段时间了，积累不了少客户，有些朋友用的不开心走了，有的朋友退款了，但是老板还在，老板又回来给 v 友发福利了\nclaude-free 渠道 限时开启，避免滥用，只要 5 分一刀\n官网地址\nhttps://terminal.pub/register\n- 充值 1 人民币=1 美金, 套餐可以 0.9 人民币=1 美金\n活动规则\n老规矩，回帖发自己 id 每个人送 10 刀，仅限前 150 位\n我去吃个早餐 如果回来自动化程序没拉闸，可能送到 300 位\n微信群\n一起建设我们的 VibeCoding 社区"
-  },
-  {
-    "id": "reddit-1sxmvzi",
-    "title": "Anyone tried this yet? LLM with knowledge date in the 1930s",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1sxmvzi/anyone_tried_this_yet_llm_with_knowledge_date_in/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-28T01:17:49",
-    "summary": "Anyone tried this yet? LLM with knowledge date in the 1930s",
-    "points": 84,
-    "collected_at": "2026-04-28T10:53:47.292228",
-    "title_zh": "有人尝试过这个吗？法学硕士，知识日期为 20 世纪 30 年代",
-    "summary_zh": "有人尝试过这个吗？法学硕士，知识日期为 20 世纪 30 年代",
-    "ai_summary": "有人尝试过这个吗？法学硕士，知识日期为 20 世纪 30 年代"
-  },
-  {
-    "id": "f0cc7a9e8b3a",
-    "title": "8点1氪：中方禁止外资收购Manus；上海迪士尼回应游客吸烟冲突事件；泡泡玛特LABUBU 冰箱未发售已溢价3000元",
-    "url": "https://36kr.com/p/3785730095127817?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-28T00:04:02",
-    "summary": "TOP3大新闻 DeepSeek 输入缓存降价 多家美国廉价航空公司寻求政府资金纾困 东方甄选回应大量用户申请退会员 穿西装开空调太费电，日本东京鼓励公务员穿短裤 印度移动支付平台MobiKwik获央行批准 TOP3大事件 国家发展改革委：依法依规对外资收购Manus项目作出禁止投资决定 据国家发展改革委网站4月27日消息，外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购Manus项目作出禁止投资决定，要求当事人撤销该收购交易。 2025年12月30日，全球首款通用人工智能体Manus发布公告称，Manus即将加入美国科技巨头Meta。Manus将继续通过app和网站为用户提",
-    "collected_at": "2026-04-28T10:16:41.379928",
-    "content_text": "TOP3大新闻\nDeepSeek 输入缓存降价\n多家美国廉价航空公司寻求政府资金纾困\n东方甄选回应大量用户申请退会员\n穿西装开空调太费电，日本东京鼓励公务员穿短裤\n印度移动支付平台MobiKwik获央行批准\nTOP3大事件\n国家发展改革委：依法依规对外资收购Manus项目作出禁止投资决定\n据国家发展改革委网站4月27日消息，外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购Manus项目作出禁止投资决定，要求当事人撤销该收购交易。\n2025年12月30日，全球首款通用人工智能体Manus发布公告称，Manus即将加入美国科技巨头Meta。Manus将继续通过app和网站为用户提供产品和订阅服务，同时公司将继续在新加坡运营。\n今年4月2日，针对Meta收购Manus会采取哪些措施以及企业跨国经营的相关问题，商务部新闻发言人何亚东回应说，中国政府支持企业根据需要开展跨国经营与技术合作，相关行为需遵守中国法律法规，履行法定程序。（新华社）\n上海迪士尼回应游客吸烟冲突事件\n近日，上海迪士尼乐园游客劝阻男子吸烟反被打一事，引发关注。网友发布的视频显示，在上海迪士尼小镇，一名男性因劝阻另一名男性吸烟，遭对方动手。一名身着迪士尼工作制服的女性在一旁阻拦无果。\n事实上，上海迪士尼度假区从2025年5月29日起已强化控烟措施。度假区在《游客须知》中明确规定：除指定吸烟区外，乐园或迪士尼小镇内禁止吸烟（包括烟草、电子烟，或其他会产生烟雾的产品）。游客仅可在度假区内带有“指定吸烟区”标识的区域吸烟。\n4月27日，澎湃新闻记者检索乐园地图发现，上述男子吸烟的地方并不在“指定吸烟区”。针对此事，上海迪士尼当日重申上述控烟规定，并呼吁所有游客在到访上海迪士尼度假区之前务必提前知晓各项游客须知，且在游玩过程中遵守游客须知和演职人员的指引，并尊重其他游客和演职人员。如游客发现违反度假区游客须知的行为，可联系演职人员寻求协助。（澎湃新闻）\n泡泡玛特LABUBU冰箱未发售已溢价3000元\n4月27日下午，“LABUBU冰箱溢价3000元”的词条飙上微博热搜榜前列，引发网友热议。近日，泡泡玛特在社交平台正式发布了首款家电产品THE MONSTERS生活家系列冷藏箱（简称LABUBU冰箱），并宣布将于4月30日22点正式发售。据悉，本次发布的LABUBU冰箱分为Home款和House of the Monsters款，两个版本各全球限量发售999台，售价均为5999元，每一台都拥有限定编号。截至目前，两款产品在泡泡玛特京东平台的合计预约人数已经超过2.8万人。值得注意的是，4月30日发售前，闲鱼等平台的二手价格已飙至8999元，部分标价近万元，溢价幅度高达50%。（中国基金报）\n大公司/大事件\n美股三大指数收盘涨跌不一，英伟达股价再创历史新高，市值突破5.2万亿美元\n36氪获悉，4月27日收盘，美股三大指数涨跌不一，道指跌0.13%，纳指涨0.2%，标普500指数涨0.12%。大型科技股多数上涨，英伟达涨4%创新高，英特尔涨超2%，谷歌涨超1%，特斯拉、Meta、微软小幅上涨；苹果、奈飞、亚马逊跌超1%。热门中概股多数下跌，爱奇艺跌超5%，阿里巴巴、老虎证券、哔哩哔哩跌超2%，京东跌超1%；新东方涨超1%。\n其中，英伟达股价单日上涨4%，收盘价触及216.61美元的历史峰值，市值随之攀升至5.26万亿美元，较全球第二大市值公司Alphabet高出逾1万亿美元。远超谷歌母公司Alphabet的4.2万亿美元及苹果的3.9万亿美元，稳居全球市值榜首。（36氪、华尔街见闻）\n南方黑芝麻创始人韦清文被立案调查，曾掌舵公司二十年\n4月27日，黑芝麻（000716.SZ）开盘一字跌停，截至发稿，报4.59元/股，最新市值34.56亿元。消息面上，4月24日晚间，黑芝麻披露公告称，公司及公司时任董事长韦清文于4月24日收到中国证券监督管理委员会下发的《立案告知书》，因公司涉嫌信息披露违法违规，中国证监会决定对公司及时任董事长韦清文立案。黑芝麻在公告中表示，目前公司各项生产经营活动均正常有序开展，立案期间，公司及当事人将积极配合证监会的调查工作，并严格按照监管要求履行信息披露义务。截至公告披露，此次立案调查的具体事由尚未进一步明确。（界面新闻）\n美团小象超市收紧自提，部分城市暂停服务\n近日，多地消费者反馈在美团小象超市下单时无法选择自提服务，弹窗提示对应站点正进行服务升级。一些北京、广东、上海等地的用户在社交平台上称，自4月20日起，原本就近可达的小象超市自提站点陆续暂停服务，以往购买一瓶酱油、一袋纸巾等小额商品时，通过自提免配送费的便利不再享有。对此，4月27日，小象超市客服向界面新闻表示，为优化配送服务体验，平台已全面升级配送体系，自即日起将集中资源为用户提供更快捷、稳定的配送服务，因此暂停部分城市自提点服务。不过，客服并未明确具体是哪些城市的自提点。（界面新闻）\n开心果价格已飙升至8年来最高水平\n受伊朗冲突导致供应中断，叠加以“迪拜巧克力”为代表的网红食品需求激增的双重影响，全球开心果价格已攀升至数年来的最高水平。这场冲突严重扰乱了航运路线和区域贸易，使全球最大开心果生产国之一的伊朗出口受到阻碍，进一步加剧了本已紧张的市场供需矛盾。\n根据美国农业部的数据，伊朗约占全球开心果产量的五分之一，某些年份更是占到全球出口量的25%至30%。但贸易商表示，随着美伊战争扰乱整个中东地区的物流，伊朗农产品的出口运输变得愈发困难。据Expana统计，开心果价格在3月上涨至每磅约4.57美元(约合34.5元人民币/斤)，为2018年以来的最高水平。需求的激增部分源于全球对“迪拜巧克力”的狂热——这种巧克力棒内填满了开心果酱和碎酥皮，在2023年风靡全网，引发了全球对开心果风味产品的热潮。（中新经纬）\n阿里巴巴：拟议分拆获香港联交所批准\n36氪获悉， 阿里巴巴公告，董事会欣然宣布，于2026年3月13日，香港联交所已确认，本公司可于深交所进行基础设施REIT的拟议分拆。香港联交所亦已授予本公司一项豁免，豁免本公司严格遵守香港上市规则第15项应用指引第3(f)段项下向股东提供保证配额的规定。\nDeepSeek 输入缓存降价\n《科创板日报》记者获悉，4月26日起，DeepSeek全系列API服务，输入缓存命中的价格降至原有价格的1/10，Pro模型在2026年5月5日前叠加2.5折限时优惠。此番减价叠加限时优惠后，DeepSeek-V4-Pro模型输入（缓存命中）降低至0.025元/ 百万Tokens，DeepSeek-V4-Flash输入（缓存命中）降低至0.02元/ 百万Tokens（科创板日报）\n多家美国廉价航空公司寻求政府资金纾困\n据美国媒体26日报道，由于中东战事推高国际油价导致航空公司运营成本上涨，美国多家廉价航空运营商正寻求联邦政府提供数十亿美元资金纾困。美国边疆航空公司和阿韦洛航空公司等多家廉价航空运营商正“组团”向联邦政府寻求25亿美元资金纾困。作为交换，这些企业将向联邦政府提供可转为股权的认股权证。报道说，这些航空公司按照今年航空燃油支出的最新成本预估测算出25亿美元这一数字。（新华社）\n本周，鲍威尔迎来最后一场发布会\n当地时间本周三，美联储主席鲍威尔很可能将主持召开其作为美联储主席的最后一场议息会议新闻发布会——而这或许也将标志着，美联储最高级官员与记者定期问答环节的落幕。\n许多投资者和经济专家们目前正密切关注着此类新闻发布会。支持美联储主席定期出席媒体活动的人士表示，这使这家全球最重要的央行能够主导围绕其利率调整的舆论导向，并有助于市场消化美联储的政策。但包括特朗普提名的美联储主席继任者凯文·沃什在内的一些批评者认为，美联储官员的沟通过于频繁。目前来看，沃什很可能将在6月中旬美联储下次政策会议前获得提名确认，他曾暗示可能会完全停止举行此类定期新闻发布会。（财联社）\n立讯精密股价创历史新高\n4月27日CPO概念盘中再度活跃，立讯精密逼近涨停，创历史新高，总市值超5200亿。此前铭普光磁涨停，英唐智控涨超10%，富信科技、凯格精机、光迅科技、太辰光等跟涨。消息面上，立讯精密发布投资者关系活动记录表公告，公司CPC铜连接产品预计于2027年第三季度至第四季度向首家客户进行批量交付。800G和1.6T光模块在国内外客户进展顺利，将成为未来成长核心动能。（财联社）\n东方甄选回应大量用户申请退会员，客服称可以退费\n据智慧新闻报道，针对东方甄选客服会员机制及退费问题，客服称自建房会员一年199元，在自建房购买商品都是会有折扣的，如果会员想要退费是可以退费的。据此前报道，4月25日，东方甄选旗下明明、天权、中灿、林林四位人气主播相继宣布离职。当天，明明、天权等主播在发文中提到，离职因公司管理层、理念等变化。随后，蓝鲸记者26日发现，社媒上大量用户发文，申请退出东方甄选会员。有用户提到退会员是因为主播离职。随后记者询问东方甄选客户发现，咨询排队人数超过100人。（智慧新闻）\n东京燃气46年来首次上调家庭基本费\n4月27日，据报道，东京燃气公司近半个世纪以来将首次上调基本费用，以应对成本上升和消费量下降的问题。该公司在一份通知中表示，从10月起，一个标准家庭的月度账单将上涨约2.6%。据公司发言人称，这是自1980年以来，账单中固定部分（即基本费）的首次上调。该发言人表示，此次上调反映了包括呼叫中心和信息系统在内的服务维护成本的上升，以及为确保燃气相关设备安全所做的投入。（界面新闻）\n阿波罗将以18.2亿欧元企业价值收购Forvia的汽车内饰业务\n阿波罗全球管理4月27日发布声明称，同意以18.2亿欧元（约合21亿美元）的企业价值收购汽车零部件供应商Forvia的汽车内饰业务。交易尚需满足包括监管批准在内的部分条件，预计将于今年下半年完成。 （界面新闻）\n马斯克在针对OpenAI的1800亿美元诉讼中处于下风\n埃隆．马斯克诉OpenAI一案开庭审理。法律专家和预测市场普遍认为，走进奥克兰联邦法院的马斯克胜算不大。自3月份以来，在Kalshi平台他胜诉的平均概率约为40%，远低于马斯克在1月份发帖称“迫不及待想开庭”时吹嘘的57%。杜克大学（Duke University）法学临床教授、杜克法律与技术中心主任杰夫．沃德（Jeff Ward）在谈到马斯克的胜算时表示：“有可能赢，但精明的投资者不会把赌注押在他身上。”（新浪财经）\n印度移动支付平台MobiKwik获央行批准，拿下非银行金融机构牌照\n移动支付运营商万摩奇克系统公司（One MobiKwik Systems）周一宣布，印度 MobiKwik 集团已获得印度储备银行（印度央行）批准，成功取得非银行金融公司（NBFC）经营牌照。（新浪财经）\n特朗普回应枪击发生后为何万斯先撤离：枪响时未立即意识到严重性，想看看发生了什么\n当地时间4月26日，美国总统特朗普在接受采访时，详细回顾了白宫记者协会晚宴发生枪击事件时的现场情况。特朗普表示，枪声最初响起时，他并未立即意识到威胁的严重性，“并不担心”，而是希望先观察现场情况。他称自己当时一度没有配合特勤局迅速撤离，“想看看发生了什么”，并承认这一行为可能在一定程度上放慢了安保人员的应对节奏。随着局势逐渐明朗，特勤局要求其立即采取防护措施。特朗普表示，在安保人员指示下，他与第一夫人梅拉尼娅一同趴下避险，随后被护送离开宴会区域并转移至安全地点。（央视新闻）\n郭明錤：OpenAI进军手机，正与联发科、高通合作开发处理器\n知名分析师郭明錤发文称，OpenAI计划自研手机，正与联发科、高通合作开发手机处理器，预计2028年量产。唯有完全掌控系统与硬件，才能提供全面性的AI Agent（代理）服务。（财联社）\n多国央行集体甩卖黄金\n又有一家央行“甩卖”黄金，今年第一季度，阿塞拜疆国家石油基金出售了约22吨黄金。根据该基金的季度报告，此次出售的黄金储备按当前价格计算价值超过30亿美元，标志着自2012年开始购入黄金以来，该基金首次减持黄金储备。而此前土耳其、俄罗斯、波兰等国央行也采取了类似举动。 (中新经纬)\n穿西装开空调太费电，日本东京鼓励公务员穿短裤\n据英国《卫报》近期报道，为了应对酷暑和因美伊冲突而导致的能源成本上涨，日本东京都政府鼓励公务员在今年夏天用短裤代替西装。这项新政并非凭空推出，而是受日本清凉商务（“Cool Biz”）计划的启发，东京官员希望这项措施能够减少人们对空调的依赖。“Cool Biz”计划由日本环境省于2005年推出，最初鼓励公务员不穿领带和西装外套，但始终明令禁止裸露腿部的穿搭方式。\n法新社报道称，能源短缺的威胁是允许东京政府工作人员穿便服上班的因素之一。该媒体还补充说，自本周启动这项举措以来，一些员工被发现穿着短裤、T恤和短袖衬衫，这项举措与日本中暑预警系统的启动时间相吻合。（中新经纬）\nAI最前沿\n微软：将不再向OpenAI支付收入分成，微软的OpenAI许可现将转为非独家许可\n微软和OpenAI公布合作的下一阶段安排，微软公司称，将不再向OpenAI支付收入分成。OpenAI向Microsoft的收入分成支付将持续到2030年，与OpenAI的技术进步无关，按相同比例支付，但受总额上限限制。Microsoft将继续持有OpenAI的IP授权，适用于模型和产品，直到2032年。Microsoft的许可将成为非独占的。 Microsoft仍然是OpenAI的主要云合作伙伴，OpenAI产品将优先在Azure上发布，除非Microsoft无法支持或选择不支持必要的功能。Microsoft作为主要股东，继续直接参与OpenAI的成长。（财联社）\n前谷歌DeepMind研究员创办AI初创公司，斩获11亿美元创纪录种子轮融资\n谷歌人工智能部门DeepMind的前核心研究员于周一官宣，其成立仅数月的初创公司Ineffable Intelligence，完成高达11亿美元的种子轮融资。这家企业聚焦超级智能研发。公司表示，本轮融资为欧洲有史以来规模最大的种子轮融资，投后整体估值达510亿美元。本轮融资由美国风投机构红杉资本与光速创投联合领投，英伟达、DST全球资本、指数创投、谷歌、英国国家人工智能主权基金等多家机构跟投。（新浪财经）\n欧盟向谷歌发布AI竞争合规指南，强制开放安卓系统访问权限\n盟委员会周一正式向谷歌发布了一系列拟议措施，详细说明这家科技巨头应如何为AI竞争对手提供其安卓移动操作系统的核心功能访问权限，以遵守欧盟《数字市场法案》。监管机构指出，谷歌目前将其安卓系统中的关键能力（如语音唤醒、后台运行以及与系统应用的深度交互）保留给自家的Gemini AI服务。根据最新提案，谷歌必须向第三方AI助手提供与其自有Gemini服务“同等有效”的访问权限。（新浪财经）\n上市进行时\n深圳乐动机器人\n36氪获悉，据港交所文件，深圳乐动机器人股份有限公司更新聆讯后资料集，意味着该公司港交所IPO通过聆讯，联席保荐人为海通国际、国泰君安国际。\n大公司财报\n四年连亏近30亿，博纳影业2025年净亏损14.64亿\n影视龙头博纳影业（001330.SZ）年度亏损再次扩大。4月26日晚间，博纳影业发布公告称，2025年公司实现营业收入12.53亿元，同比下滑14.28%；归母净利润亏损14.64亿元，同比扩大68.93%。业绩下滑的原因，主要系报告期内全国电影市场“二八效应”明显，公司电影业务的营业收入和营业利润较2024年有所下滑。界面新闻注意到，这是博纳影业连续第四年亏损，且呈现逐年扩大态势。2022-2024年，该公司净利润亏损额分别为7551.06万元，5.53亿元，8.67亿元。照此计算，四年来，博纳影业已经亏损29.60亿元。（界面新闻）\n巨人网络：第一季度净利润10.80亿元，同比增长210.58%\n36氪获悉，巨人网络公告，2026年第一季度实现营业收入23.29亿元，同比增长221.70%；归属于上市公司股东的净利润为10.80亿元，同比增长210.58%。归属于上市公司股东的扣除非经常性损益的净利润10.14亿元，同比增长179.72%；经营活动产生的现金流量净额13.22亿元，同比增长507.43%。\n协创数据：第一季度净利润7.50亿元，同比增长343.45%\n36氪获悉，协创数据公告，2026年第一季度实现营业收入60.85亿元，同比增长192.90%；归属于上市公司股东的净利润为7.50亿元，同比增长343.45%。\n药明康德：第一季度净利润46.52亿元，同比增长26.68%\n36氪获悉，药明康德公告公告，第一季度营收124.36亿元，同比增长28.81%，净利润46.52亿元，同比增长26.68%。\n投融资\n“无界动力”完成新一轮融资\n36氪获悉，4月27日，“无界动力”宣布完成天使++轮融资，本轮由远景科技集团、北京市人工智能产业投资基金联合投资，红杉中国、线性资本、高瓴创投、BV百度风投、华业天成、钧山资本等多家老股东跟投。同时，天使+++轮融资接近完成，获得互联网产业资本、顶级美元和人民币资本的支持，天使轮累计融资超2亿美元。所获资金将用于加速“原生世界模型+强化学习”技术范式下的通用具身大脑的研发，以及高效数据管线等技术基础设施的建设。\n星动纪元完成超2亿美元新一轮融资\n36氪获悉，近日，继今年3月完成10亿元人民币战略轮融资后，星动纪元再度完成超2亿美元新一轮融资。本轮融资由顺丰集团领投；红杉中国、IDG资本、中金资本、京铭资本、朝希资本、鲁信创投、聚合资本、隆启投资等知名财务机构联合注资；科捷智能、东风产投、工银资本、联通旗下基金等多家头部产业方共同参与；老股东清控天诚、鸿瑞达亦持续加码增持。\n酷产品\n小米新款机器人亮相，机身表面疑似覆盖了凯夫拉面料\n据快科技报道，在今天举行的小米投资者日上，新款小米机器人正式亮相。这款机器人采用人形设计，机身表面疑似覆盖了凯夫拉面料，胸前印有醒目的小米标志，整体视觉效果科技感十足且非常炫酷。早在2022年，小米就曾展示过名为CyberOne的首款全尺寸人形仿生机器人，昵称为铁大。它身高1.77米，重52kg。它的小脑系统高度发达，可以精准实现双足运动姿态的平衡，四肢动力峰值扭矩可达三百牛米。\n时隔四年，小米全新机器人的再次亮相引发了行业高度关注。凭借在供应链管理、成本控制以及工程化落地方面的深厚优势。（快科技）\n整理\n｜迟雨",
-    "content_source": "readability",
-    "content_chars": 7612,
-    "content_excerpt": "TOP3大新闻\nDeepSeek 输入缓存降价\n多家美国廉价航空公司寻求政府资金纾困\n东方甄选回应大量用户申请退会员\n穿西装开空调太费电，日本东京鼓励公务员穿短裤\n印度移动支付平台MobiKwik获央行批准\nTOP3大事件\n国家发展改革委：依法依规对外资收购Manus项目作出禁止投资决定\n据国家发展改革委网站4月27日消息，外商投资安全审查工作机制办公室（国家发展改革委）依法依规对外资收购Manus项目作出禁止投资决定，要求当事人撤销该收购交易。\n2025年12月30日，全球首款通用人工智能体Manus发布公告称，Manus即将加入美国科技巨头Meta。Manus将继续通过app和网站为用户提供产品和订阅服务，同时公司将继续在新加坡运营。"
-  },
-  {
-    "id": "hn-47679121",
-    "title": "Project Glasswing: Securing critical software for the AI era",
-    "url": "https://www.anthropic.com/glasswing",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-07T18:09:34Z",
-    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
-    "points": 1541,
-    "collected_at": "2026-05-04T02:06:43.864127"
-  },
-  {
     "id": "hn-47363754",
     "title": "Can I run AI locally?",
     "url": "https://www.canirun.ai/",
@@ -4582,7 +4568,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-04T02:06:43.864221"
+    "collected_at": "2026-05-04T08:22:27.830548"
   },
   {
     "id": "hn-47340079",
@@ -4593,7 +4579,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-04T02:06:43.863905"
+    "collected_at": "2026-05-04T08:22:27.830206"
   },
   {
     "id": "hn-47225130",
@@ -4604,7 +4590,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-04T02:06:43.864263"
+    "collected_at": "2026-05-04T08:22:27.830593"
   },
   {
     "id": "hn-47136179",
@@ -4615,7 +4601,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-04T02:06:43.864007"
+    "collected_at": "2026-05-04T08:22:27.830312"
   },
   {
     "id": "hn-46990729",
@@ -4626,7 +4612,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-04T02:06:43.863976"
+    "collected_at": "2026-05-04T08:22:27.830278"
   },
   {
     "id": "hn-46574276",
@@ -4637,7 +4623,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-05-04T02:06:43.864376"
+    "collected_at": "2026-05-04T08:22:27.830712"
   },
   {
     "id": "hn-45941596",
@@ -4648,7 +4634,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-04T02:06:43.864278"
+    "collected_at": "2026-05-04T08:22:27.830606"
   },
   {
     "id": "hn-45930151",
@@ -4659,7 +4645,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-04T02:06:43.864318"
+    "collected_at": "2026-05-04T08:22:27.830649"
   },
   {
     "id": "hn-45722069",
@@ -4670,7 +4656,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-05-04T02:06:43.864364"
+    "collected_at": "2026-05-04T08:22:27.830700"
   },
   {
     "id": "hn-44972151",
@@ -4681,7 +4667,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-04T02:06:43.864075"
+    "collected_at": "2026-05-04T08:22:27.830387"
   },
   {
     "id": "hn-44396518",
@@ -4692,7 +4678,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-04T02:06:43.864191"
+    "collected_at": "2026-05-04T08:22:27.830515"
   },
   {
     "id": "hn-44314423",
@@ -4703,7 +4689,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-04T02:06:43.864234"
+    "collected_at": "2026-05-04T08:22:27.830562"
   },
   {
     "id": "hn-44163063",
@@ -4714,7 +4700,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-04T02:06:43.863949"
+    "collected_at": "2026-05-04T08:22:27.830253"
   },
   {
     "id": "hn-42910910",
@@ -4725,7 +4711,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-04T02:06:43.864087"
+    "collected_at": "2026-05-04T08:22:27.830400"
   },
   {
     "id": "hn-41392128",
@@ -4736,7 +4722,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-04T02:06:43.864023"
+    "collected_at": "2026-05-04T08:22:27.830329"
   },
   {
     "id": "hn-41386319",
@@ -4747,7 +4733,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-04T02:06:43.864035"
+    "collected_at": "2026-05-04T08:22:27.830343"
   },
   {
     "id": "hn-41069829",
@@ -4758,7 +4744,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-04T02:06:43.864331"
+    "collected_at": "2026-05-04T08:22:27.830663"
   },
   {
     "id": "hn-41046773",
@@ -4769,7 +4755,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-04T02:06:43.863937"
+    "collected_at": "2026-05-04T08:22:27.830239"
   },
   {
     "id": "hn-40767459",
@@ -4780,7 +4766,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-04T02:06:43.864344"
+    "collected_at": "2026-05-04T08:22:27.830678"
   },
   {
     "id": "hn-39918245",
@@ -4791,7 +4777,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-04T02:06:43.864290"
+    "collected_at": "2026-05-04T08:22:27.830620"
   },
   {
     "id": "hn-39526057",
@@ -4802,7 +4788,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-04T02:06:43.863923"
+    "collected_at": "2026-05-04T08:22:27.830225"
   },
   {
     "id": "hn-38544729",
@@ -4813,7 +4799,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-04T02:06:43.863988"
+    "collected_at": "2026-05-04T08:22:27.830291"
   },
   {
     "id": "hn-37021160",
@@ -4824,7 +4810,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-04T02:06:43.864100"
+    "collected_at": "2026-05-04T08:22:27.830415"
   },
   {
     "id": "hn-31812259",
@@ -4835,7 +4821,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-04T02:06:43.864247"
+    "collected_at": "2026-05-04T08:22:27.830575"
   },
   {
     "id": "hn-18249755",
@@ -4846,7 +4832,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-04T02:06:43.864061"
+    "collected_at": "2026-05-04T08:22:27.830371"
   },
   {
     "id": "hn-17022963",
@@ -4857,7 +4843,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-04T02:06:43.864049"
+    "collected_at": "2026-05-04T08:22:27.830359"
   },
   {
     "id": "hn-15892066",
@@ -4868,7 +4854,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-04T02:06:43.864209"
+    "collected_at": "2026-05-04T08:22:27.830534"
   },
   {
     "id": "hn-6830566",
@@ -4879,6 +4865,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-04T02:06:43.864301"
+    "collected_at": "2026-05-04T08:22:27.830632"
   }
 ]
