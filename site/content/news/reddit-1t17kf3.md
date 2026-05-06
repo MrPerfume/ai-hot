@@ -20,7 +20,7 @@ ai_summary = "我的 UAI 论文得到反驳前：分数/置信度：6/4、6/4、
 summary = "My UAI paper got Pre rebuttal: Scores/Confidence: 6/4, 6/4, 4/3, 3/3 After rebuttal: Scores/Confidence: 6/4, 6/4, 5/3, 4/3 Any chance here? Or I should go for NeurIPS?"
 summary_zh = "我的 UAI 论文得到反驳前：分数/置信度：6/4、6/4、4/3、3/3 反驳后：分数/置信度：6/4、6/4、5/3、4/3 这里有机会吗？或者我应该选择 NeurIPS？"
 tags = []
-list_page = 15
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

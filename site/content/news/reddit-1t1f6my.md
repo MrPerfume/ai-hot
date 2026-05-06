@@ -20,7 +20,7 @@ ai_summary = "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单
 summary = "It is pluggin made for ONLYOFFICE, much simpler than copy-paste from webui. PS. Switch to non thinking/reasoning when using this, and the best model for this is Gemma line up. even E2B is strong enough to do language modelling. I dont use libre or Microsoft Office so i dont know whether it is suppor"
 summary_zh = "它是为ONLYOFFICE制作的插件，比从webui复制粘贴简单得多。附言。使用此功能时切换到非思考/推理，最好的模型是 Gemma 阵容。甚至 E2B 也足够强大，可以进行语言建模。我不使用 libre 或 Microsoft Offic…"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

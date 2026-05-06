@@ -20,7 +20,7 @@ ai_summary = "马斯克诉奥特曼案审判大约一周后，我们听到了科
 summary = "About a week into the Musk v. Altman trial, we've heard from some of the most powerful people in tech - including OpenAI president Greg Brockman, Elon Musk's fixer Jared Birchall, and Musk himself. But one of the most prominent characters is hovering around the margins: Demis Hassabis, CEO of Google"
 summary_zh = "马斯克诉奥特曼案审判大约一周后，我们听到了科技界一些最有权势的人士的声音，包括 OpenAI 总裁格雷格·布罗克曼 (Greg Brockman)、埃隆·马斯克 (Elon Musk) 的修复者贾里德·伯查尔 (Jared Birchall…"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

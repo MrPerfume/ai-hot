@@ -20,7 +20,7 @@ ai_summary = "每隔几个世纪，信息流动方式的变化就会重塑社会
 summary = "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping give rise to the Reformation and, eventually, representative government. The telegraph made it possible to administer vast nations like the US, accele"
 summary_zh = "每隔几个世纪，信息流动方式的变化就会重塑社会的自我管理方式。印刷机传播了白话文，帮助促成了宗教改革，并最终促成了代议制政府。电报使管理像美国这样的广大国家成为可能，加速了"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

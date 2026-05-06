@@ -20,7 +20,7 @@ ai_summary = "在过去的一年里，我们的团队和社区一直在构建 AI
 summary = "Over the past year our team and community have been building an open-source collection of AI agent configs: production-ready system prompts, tool-calling schemas, RAG setups, multi-agent orchestration patterns, and model-specific tuning files. Repo: [https://github.com/caliber-ai-org/ai-setup](https"
 summary_zh = "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用架构、RAG 设置、多代理编排模式和特定于模型的调整文件。仓库：[https://github.com/caliber-ai-org/ai-s…"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

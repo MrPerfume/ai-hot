@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-06 16:14:58
+🕐 **最近更新**：2026-05-06 21:53:18
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,23 +24,19 @@
    - Wonder 希望将其机器人厨房变成人工智能驱动的“餐厅工厂”，让任何人都可以在提示下创建一个虚拟食品品牌
    - `TechCrunch AI · 2026-05-06`
 
-3. [Google Home 的 Gemini AI 可以处理更复杂的请求](https://aihot.bt199.com/news/2c86cbbc5016/)
-   - Google Home 用户现在可以要求 Gemini 完成更复杂的多步骤任务，并将多个任务合并到一个命令中。谷歌已将…
-   - `The Verge AI · 2026-05-05`
+3. [谷歌的人工智能搜索摘要现在将引用 Reddit](https://aihot.bt199.com/news/a60f500c7502/)
+   - 谷歌正在更新其人工智能搜索功能，以便用户更轻松地从他们知道和信任的来源查找信息。其中一个更显着的变化引入了来自社交媒体、…
+   - `The Verge AI · 2026-05-06`
 
-4. [苹果同意向未提供 AI Siri 的 iPhone 用户支付 2.5 亿美元](https://aihot.bt199.com/news/6b299ce73670/)
-   - 苹果公司同意支付 2.5 亿美元来和解一项集体诉讼，该诉讼指控该公司在 Apple Intelligence 功能的可用…
-   - `The Verge AI · 2026-05-05`
+4. [Chrome 的 AI 功能可能会占用您 4GB 的计算机存储空间](https://aihot.bt199.com/news/a7f445bf9120/)
+   - 由于设备上存在大型 AI 模型文件，Google Chrome 可能会占用比预期更多的存储空间，在某些情况下，该文件会自…
+   - `The Verge AI · 2026-05-06`
 
-5. [利用人工智能加强民主的蓝图](https://aihot.bt199.com/news/c9dd6bc7b13c/)
-   - 每隔几个世纪，信息流动方式的变化就会重塑社会的自我管理方式。印刷机传播了白话文，帮助促成了宗教改革，并最终促成了代议制政…
-   - `MIT Tech Review · 2026-05-05`
-
-6. [广泛使用的 Daemon Tools 磁盘应用程序在长达一个月的供应链攻击中存在后门](https://aihot.bt199.com/news/b9dc4e2fd76e/)
+5. [广泛使用的 Daemon Tools 磁盘应用程序在长达一个月的供应链攻击中存在后门](https://aihot.bt199.com/news/b9dc4e2fd76e/)
    - Daemon Tools 用户：是时候检查您的计算机是否有隐秘感染了，stat
    - `Ars Technica AI · 2026-05-05`
 
-7. [为什么 Reddit 阻止我每天访问其移动网站](https://aihot.bt199.com/news/93c12d76db8c/)
+6. [为什么 Reddit 阻止我每天访问其移动网站](https://aihot.bt199.com/news/93c12d76db8c/)
    - Reddit 真的希望你使用它的应用程序
    - `Ars Technica AI · 2026-05-05`
 
@@ -127,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 

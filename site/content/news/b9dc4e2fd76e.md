@@ -20,7 +20,7 @@ ai_summary = "Daemon Tools 用户：是时候检查您的计算机是否有隐�
 summary = "Daemon Tools users: It's time to check your machines for stealthy infections, stat."
 summary_zh = "Daemon Tools 用户：是时候检查您的计算机是否有隐秘感染了，stat"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

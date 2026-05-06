@@ -20,7 +20,7 @@ ai_summary = "微软正在 Word 中推出一款专为法律团队设计的新人
 summary = "Microsoft is launching a new AI agent inside Word that's specifically designed for legal teams. Legal Agent handles document edits, negotiation history, and complex documents to help legal teams handle tasks like reviewing contracts. \"Instead of relying on general AI models to interpret commands, th"
 summary_zh = "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文档编辑、谈判历史记录和复杂文档，以帮助法律团队处理审查合同等任务。 “不再依赖通用人工智能模型来解释命令，而是"
 tags = []
-list_page = 18
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->

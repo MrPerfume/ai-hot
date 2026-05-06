@@ -20,7 +20,7 @@ ai_summary = "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth…"
 summary = "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth.ai/docs/models/mistral-3.5) \"May 1, 2026 Update: We worked with Mistral to fix Mistral Medium 3.5 inference affecting some implementations, and released updated GGUFs with the fix (NOT related to Unsloth or our quants). The issue was cause"
 summary_zh = "[https://unsloth.ai/docs/models/mistral-3.5](https://unsloth.ai/docs/models/mistral-3.5)“2026 年 5 月 1 日更新：我们与 Mistral 合作…"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

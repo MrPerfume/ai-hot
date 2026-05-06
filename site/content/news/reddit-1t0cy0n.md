@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Mark Zuckerberg Says AI Costs Contributed To Layoffs Of 8,000 Staffers, Report Says"
 summary_zh = ""
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

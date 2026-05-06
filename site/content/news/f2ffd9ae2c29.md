@@ -20,7 +20,7 @@ ai_summary = "该公司表示，该模型减少了法律、医学和金融等敏
 summary = "The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor."
 summary_zh = "该公司表示，该模型减少了法律、医学和金融等敏感领域的幻觉，同时保持了其前身的低延迟"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
