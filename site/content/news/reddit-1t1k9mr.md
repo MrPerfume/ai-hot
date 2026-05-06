@@ -20,7 +20,7 @@ ai_summary = "大家好，如果你看看现在的人工智能教育领域，你
 summary = "Hey Everyone, If you look at the AI education space right now, it’s flooded with basic \"Prompt Engineering\" certificates that you can pass just by knowing what a system prompt is. But as anyone building in production knows, chatting with an LLM is 1% of the work. The real nightmare is orchestration,"
 summary_zh = "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但任何参与生产的人都知道，与 LLM 聊天只占工作量的 1%。真正的噩梦是编排"
 tags = []
-list_page = 11
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

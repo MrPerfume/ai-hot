@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "https://research.ibm.com/blog/granite-4-1-ai-foundation-mode... Comments URL: https://news.ycombinator.com/item?id=47960507 Points: 312 # Comments: 202"
 summary_zh = ""
 tags = []
-list_page = 22
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

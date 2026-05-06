@@ -20,7 +20,7 @@ ai_summary = "苹果操作系统的下一次更新可能会允许用户选择他
 summary = "The next update to Apple's operating systems could allow users to choose their preferred AI model for running Apple Intelligence. According to Bloomberg's Mark Gurman, Apple is planning to allow third-party chatbots to power its AI features system-wide in iOS 27, iPadOS 27, and macOS 27, all expecte"
 summary_zh = "苹果操作系统的下一次更新可能会允许用户选择他们喜欢的人工智能模型来运行苹果智能。据彭博社的 Mark Gurman 称，苹果计划允许第三方聊天机器人在 iOS 27、iPadOS 27 和 macOS 27 中的全系统范围内支持其人工智能功…"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

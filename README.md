@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-06 10:07:16
+🕐 **最近更新**：2026-05-06 16:14:58
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [SAP 在成立 18 个月的德国人工智能实验室上押注 1.16B 美元，并对 NemoClaw 表示同意](https://aihot.bt199.com/news/412ad8a3329d/)
-   - SAP计划收购德国人工智能初创公司Prior Labs，并对其进行大力投资。它还禁止客户代理使用 Nvidia 的 Ne…
-   - `TechCrunch AI · 2026-05-05`
+1. [Peter Sarlin 的 QuTwo 在天使轮融资中估值达到 3.8 亿美元](https://aihot.bt199.com/news/5ce2f9b9bc89/)
+   - QyTw0 是由前 AMD Silo AI 首席执行官 Peter Sarlin 创立的芬兰人工智能实验室，在筹集了 2…
+   - `TechCrunch AI · 2026-05-06`
 
-2. [Altara 获得 700 万美元资金，以弥补减缓物理科学发展的数据差距](https://aihot.bt199.com/news/adb40e368632/)
-   - Altara 的人工智能旨在通过统一电子表格和遗留系统中的孤立数据来诊断故障并帮助加快研发速度
-   - `TechCrunch AI · 2026-05-05`
+2. [Marc Lore 表示人工智能很快将使任何人都能开餐馆](https://aihot.bt199.com/news/18521d413e03/)
+   - Wonder 希望将其机器人厨房变成人工智能驱动的“餐厅工厂”，让任何人都可以在提示下创建一个虚拟食品品牌
+   - `TechCrunch AI · 2026-05-06`
 
 3. [Google Home 的 Gemini AI 可以处理更复杂的请求](https://aihot.bt199.com/news/2c86cbbc5016/)
    - Google Home 用户现在可以要求 Gemini 完成更复杂的多步骤任务，并将多个任务合并到一个命令中。谷歌已将…
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

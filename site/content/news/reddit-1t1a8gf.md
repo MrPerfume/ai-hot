@@ -20,7 +20,7 @@ ai_summary = "**型号：** Abiray-Qwen3.6-27B-NVFP4.gguf **规格：** \\- Legi
 summary = "**Model:** Abiray-Qwen3.6-27B-NVFP4.gguf **Specs:** \\- Legion 7i Gen10 - NVIDIA GeForce RTX™ 5090 \\- Intel® Core™ Ultra 9 275HX × 24 \\- RAM 32.0 GiB **llamacpp settings:** ./build/bin/llama-server \\ -m ~/.lmstudio/models/lmstudio-community/Qwen3.6-27B-GGUF/Abiray-Qwen3.6-27B-NVFP4.gguf \\ -ngl 99 \\ -"
 summary_zh = "**型号：** Abiray-Qwen3.6-27B-NVFP4.gguf **规格：** \\- Legion 7i Gen10 - NVIDIA GeForce RTX™ 5090 \\- Intel® Core™ Ultra 9 275H…"
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

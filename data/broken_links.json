@@ -1,5 +1,12 @@
 [
   {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "status": 405,
+    "file": "tools.json"
+  },
+  {
     "id": "codeium",
     "name": "Codeium",
     "url": "https://codeium.com",
@@ -10,7 +17,7 @@
     "id": "midjourney",
     "name": "Midjourney",
     "url": "https://midjourney.com",
-    "status": 403,
+    "status": 0,
     "file": "tools.json"
   },
   {
@@ -49,17 +56,10 @@
     "file": "tools.json"
   },
   {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
-    "status": 0,
-    "file": "tools.json"
-  },
-  {
     "id": "midjourney",
     "name": "Midjourney",
     "url": "https://midjourney.com",
-    "status": 0,
+    "status": 403,
     "file": "tools.json"
   },
   {

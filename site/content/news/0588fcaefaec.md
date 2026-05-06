@@ -20,7 +20,7 @@ ai_summary = "“蒸馏”是一个热门话题，因为前沿实验室试图阻
 summary = "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models."
 summary_zh = "“蒸馏”是一个热门话题，因为前沿实验室试图阻止规模较小的竞争对手复制他们的模型"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

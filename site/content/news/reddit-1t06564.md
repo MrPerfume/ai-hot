@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Recently lot of people are coming forward that chinese have strong network and are doing nepotism and supporting each other through a well known mobile app they use. if true this is big, I also encountered this issue in IJCAI 26. Please share if you have faced this issue before ex in my case : the r"
 summary_zh = ""
 tags = []
-list_page = 19
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

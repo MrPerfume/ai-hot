@@ -20,7 +20,7 @@ ai_summary = "人工智能公司正在为访问提供补贴，就像早期 Uber 
 summary = "AI companies are subsidizing access the same way Uber subsidized rides and AWS subsidized compute in the early days - burning cash to grab market share. You're getting GPT-4 and Claude Opus level intelligence at a fraction of what it actually costs to run. That won't last. When unit economics have t"
 summary_zh = "人工智能公司正在为访问提供补贴，就像早期 Uber 补贴乘车和 AWS 补贴计算一样——烧钱来抢占市场份额。您只需花费实际运行成本的一小部分即可获得 GPT-4 和 Claude Opus 级别的智能。这不会持续太久。当单位经济效益已经达到"
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->
