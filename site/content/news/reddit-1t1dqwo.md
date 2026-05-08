@@ -20,7 +20,7 @@ ai_summary = "我一直在尝试一个名为 **OpenVidya** 的开源项目，它
 summary = "I’ve been experimenting with an open-source project called **OpenVidya**, built as a fork of OpenMAIC. The goal is to adapt multi-agent AI classroom generation for Indian education rather than treating learning as a generic slide/chat experience. Repo: [https://github.com/dpaul0501/OpenVidya](https:"
 summary_zh = "我一直在尝试一个名为 **OpenVidya** 的开源项目，它是作为 OpenMAIC 的一个分支构建的。目标是使多智能体人工智能课堂生成适应印度教育，而不是将学习视为通用的幻灯片/聊天体验。仓库：[https://github.com/…"
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

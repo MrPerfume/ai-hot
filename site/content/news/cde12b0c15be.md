@@ -20,7 +20,7 @@ ai_summary = "Stuart Russell 是一位长期的人工智能研究员，他认为
 summary = "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs."
 summary_zh = "Stuart Russell 是一位长期的人工智能研究员，他认为政府需要限制前沿实验室"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

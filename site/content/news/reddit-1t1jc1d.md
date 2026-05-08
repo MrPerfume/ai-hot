@@ -20,7 +20,7 @@ ai_summary = "Qwen 是否暗示过其他型号（9B、122B、397B）是否会得
 summary = "Have Qwen hinted at whether other models (9B, 122B, 397B) would be getting the 3.6 treatment? Or have they in any way confirmed or hinted at \"this is it\"? Genuinely curious if I missed anything, as I haven't seen or heard anything either way, and like many of us, I'm very keen to get the 122B model,"
 summary_zh = "Qwen 是否暗示过其他型号（9B、122B、397B）是否会得到 3.6 的待遇？或者他们是否以任何方式证实或暗示“就是这样”？真的很好奇我是否错过了任何东西，因为我没有看到或听到任何东西，并且像我们许多人一样，我非常渴望获得 122B…"
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

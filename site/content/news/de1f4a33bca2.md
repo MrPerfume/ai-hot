@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "随着 AI 推理成为其核心工作负载，它们的主要产出已转变为以 Token 形式制造的智能"
 summary_zh = ""
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

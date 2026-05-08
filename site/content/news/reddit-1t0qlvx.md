@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "They published the full research yesterday. Here's what shocked me: **The breakdown of what people actually ask Claude for guidance on:** * Health & wellness: 27% * Career decisions: 26% * Relationships: 12% * Personal finance: 11% Over 76% of personal guidance conversations fall into just 4 buckets"
 summary_zh = ""
 tags = []
-list_page = 27
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

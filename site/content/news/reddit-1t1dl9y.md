@@ -20,7 +20,7 @@ ai_summary = "标题。好奇人们通常如何处理 kv 缓存。 BF16？ Q8？
 summary = "Title. Curious about how people are generally dealing with the kv cache. BF16? Q8? Q4? Turboquant or some other secret sauce? I run bf16 everything hoping that I'd get less hallucinations and because that's what the g4 and q3.6 are natively trained on anyways. But very interested to hear if people a"
 summary_zh = "标题。好奇人们通常如何处理 kv 缓存。 BF16？ Q8？ Q4？ Turboquant 还是其他一些秘密武器？我运行 bf16 的一切，希望能减少幻觉，因为无论如何，这就是 g4 和 q3.6 本身训练的内容。但很想听听人们是否"
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

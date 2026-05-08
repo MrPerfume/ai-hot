@@ -20,7 +20,7 @@ ai_summary = "嘿大家！我一直在等待发布这篇文章，直到我完全
 summary = "Hey all! I've been waiting to make this post until I was completely done with the game so I can have a live preview, but this weekend is going to be pretty busy for me and I'm getting antsy to share what I've been working on with you! I've been working on a 1:1 recreation of my favorite board game,"
 summary_zh = "嘿大家！我一直在等待发布这篇文章，直到我完全完成了游戏，这样我就可以进行实时预览，但是这个周末对我来说将会非常忙碌，我迫不及待地想与大家分享我一直在做的事情！我一直在致力于对我最喜欢的棋盘游戏进行 1:1 重现"
 tags = []
-list_page = 22
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

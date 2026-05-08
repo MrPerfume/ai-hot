@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "还反向挑出审稿人的毛病"
 summary_zh = ""
 tags = []
-list_page = 10
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

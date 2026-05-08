@@ -20,7 +20,7 @@ ai_summary = "OpenAI 前首席技术官米拉·穆拉蒂 (Mira Murati) 宣誓作
 summary = "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a ne"
 summary_zh = "OpenAI 前首席技术官米拉·穆拉蒂 (Mira Murati) 宣誓作证，称首席执行官萨姆·奥尔特曼 (Sam Altman) 在新人工智能模型的安全标准问题上向她撒谎。在周三正在进行的马斯克诉 Altman 审判期间播放的视频证词中…"
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

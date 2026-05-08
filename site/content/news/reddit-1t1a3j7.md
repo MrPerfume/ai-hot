@@ -20,7 +20,7 @@ ai_summary = "自我们宣布新规则以来已经过去 1 周了：[https://www
 summary = "Its been 1 week since we announced new rules: [https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama\\_rule\\_updates/](https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama_rule_updates/) We'd like to check in to see how the community is liking them so far. We are specifically i"
 summary_zh = "自我们宣布新规则以来已经过去 1 周了：[https://www.reddit.com/r/LocalLLaMA/comments/1su3ao4/rlocalllama\\_rule\\_updates/](https://www.reddi…"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->
