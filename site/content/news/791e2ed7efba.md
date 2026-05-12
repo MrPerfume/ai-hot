@@ -20,7 +20,7 @@ ai_summary = "此次融资为 Sierra 提供了超过 10 亿美元的资金，该
 summary = "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences."
 summary_zh = "此次融资为 Sierra 提供了超过 10 亿美元的资金，该公司表示将利用这笔资金成为人工智能驱动的客户体验的“全球标准”"
 tags = []
-list_page = 28
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

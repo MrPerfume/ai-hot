@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-12 03:33:01
+🕐 **最近更新**：2026-05-12 10:16:06
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [没有足够的火箭用于太空数据中心。 Cowboy Space 筹集了 2.75 亿美元来建造它们。](https://aihot.bt199.com/news/8b55c4119673/)
-   - 牛仔航天公司希望将数据中心送入轨道。首先，它必须建造火箭才能到达那里
+1. [Robinhood 乘着人工智能的浪潮准备第二次零售企业 IPO](https://aihot.bt199.com/news/7a7c4cf1151c/)
+   - Robinhood 秘密提交了第二个风险基金的申请，这次的目标是成长型企业和早期初创企业
+   - `TechCrunch AI · 2026-05-12`
+
+2. [通用汽车刚刚解雇了数百名 IT 员工，转而雇用人工智能技能更强的员工](https://aihot.bt199.com/news/a8dd42f86055/)
+   - 一些职位专注于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及即时工程和新的人工智能工作流程
    - `TechCrunch AI · 2026-05-11`
 
-2. [一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事](https://aihot.bt199.com/news/18e29f063a54/)
+3. [一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事](https://aihot.bt199.com/news/18e29f063a54/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。在获得 2024…
    - `MIT Tech Review · 2026-05-11`
-
-3. [谷歌阻止了一项零日攻击，据称该攻击是用人工智能开发的](https://aihot.bt199.com/news/5b6afa769aec/)
-   - 谷歌首次表示，它已经发现并阻止了人工智能开发的零日漏洞。根据谷歌威胁情报小组（GTIG）的一份报告，“著名的网络犯罪威胁…
-   - `The Verge AI · 2026-05-11`
 
 4. [通过客户支持工程促进突破性人工智能创新](https://aihot.bt199.com/news/14c481f9151a/)
    - 麦肯锡的研究表明，尽管数字化已经进行了多年，但组织从数字投资中获得的价值还不到预期的三分之一。这是因为大多数大公司都是从…
    - `MIT Tech Review · 2026-05-11`
 
-5. [人工智能数据中心的所有最新更新](https://aihot.bt199.com/news/3bc01457309b/)
-   - 大规模的新数据中心是科技公司对人工智能的希望和梦想的物理基础。但急于扩建装满高耗能服务器的仓库的做法也引发了世界各地关于…
-   - `The Verge AI · 2026-05-08`
-
-6. [Mozilla 表示 Mythos 发现的 271 个漏洞“几乎没有误报”](https://aihot.bt199.com/news/9fc187e8a48d/)
+5. [Mozilla 表示 Mythos 发现的 271 个漏洞“几乎没有误报”](https://aihot.bt199.com/news/9fc187e8a48d/)
    - Firefox 的开发商表示，它已经“完全接受”人工智能辅助的错误发现
    - `Ars Technica AI · 2026-05-07`
 
-7. [广泛使用的 Daemon Tools 磁盘应用程序在长达一个月的供应链攻击中存在后门](https://aihot.bt199.com/news/b9dc4e2fd76e/)
+6. [广泛使用的 Daemon Tools 磁盘应用程序在长达一个月的供应链攻击中存在后门](https://aihot.bt199.com/news/b9dc4e2fd76e/)
    - Daemon Tools 用户：是时候检查您的计算机是否有隐秘感染了，stat
    - `Ars Technica AI · 2026-05-05`
-
-8. [Digg 再次尝试，这次是作为人工智能新闻聚合器](https://aihot.bt199.com/news/0b86095285b9/)
-   - Digg（再次）作为阅读人工智能新闻的另一个地方回归
-   - `TechCrunch AI · 2026-05-11`
 
 
 ## 🤖 AI 简报
@@ -131,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 

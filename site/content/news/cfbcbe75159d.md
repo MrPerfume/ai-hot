@@ -20,7 +20,7 @@ ai_summary = "嗨，大家好。我一直在研究一些我认为在今天的人
 summary = "hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents.vcs.i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `"
 summary_zh = "嗨，大家好。我一直在研究一些我认为在今天的人工智能代理工作流程中根本缺失的东西。vcs.我发现自己正在努力解决代理无法回答的问题，例如“你为什么这样做？”，“你什么时候删除这个文件夹？为什么？”等等，或者尝试/rewind（在/compac…"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.nytimes.com/2026/05/08/technology/meta-
 summary = "Article URL: https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html Comments URL: https://news.ycombinator.com/item?id=48077126 Points: 432 # Comments: 509"
 summary_zh = "文章网址：https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html 评论网址：https://news.ycombinator.com/it…"
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

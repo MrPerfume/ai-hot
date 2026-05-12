@@ -1,0 +1,38 @@
++++
+title = "微软给OpenAI的营收分成付款目前上限设为380亿美元"
+description = "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）"
+seo_title = "微软给OpenAI的营收分成付款目前上限设为380亿美元｜AI资讯解读 - AI热榜"
+seo_description = "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）"
+seo_keywords = "微软给OpenAI的营收分成付款目前上限设为380亿美元, 36氪, AI新闻, AI资讯, AI热榜"
+slug = "a0cabb87a3af"
+type = "news"
+
+[params]
+id = "a0cabb87a3af"
+name = "微软给OpenAI的营收分成付款目前上限设为380亿美元"
+title_en = "微软给OpenAI的营收分成付款目前上限设为380亿美元"
+original_url = "https://36kr.com/newsflashes/3805623314701826?f=rss"
+source = "36氪"
+published = "2026-05-12T01:33:09"
+lang = "zh"
+intro = "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）"
+ai_summary = ""
+summary = "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）"
+summary_zh = ""
+tags = []
+list_page = 1
++++
+
+<!-- AUTO-GENERATED: news page -->
+
+据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。
+
+在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。
+
+（财联社）
+
+## 🔗 原始来源
+
+如果你要核对细节，可以再看原文：
+[36氪原文链接](https://36kr.com/newsflashes/3805623314701826?f=rss)
+

@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.citizen.co.za/news/home-affairs-officia
 summary = "Article URL: https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/ Comments URL: https://news.ycombinator.com/item?id=48053842 Points: 115 # Comments: 27"
 summary_zh = "文章网址：https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/ 评论网址：https://news.ycombinator.co…"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.thatprivacyguy.com/blog/chrome-silent-n
 summary = "Article URL: https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/ Comments URL: https://news.ycombinator.com/item?id=48019219 Points: 455 # Comments: 423"
 summary_zh = "文章网址：https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/ 评论网址：https://news.ycombinator.com/item?id=48019219…"
 tags = []
-list_page = 26
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->
