@@ -3586,6 +3586,47 @@
     "is_core": true
   },
   {
+    "id": "hf-ScenemaAI--scenema-audio",
+    "name": "ScenemaAI/scenema-audio",
+    "display_name": "scenema-audio",
+    "url": "https://huggingface.co/ScenemaAI/scenema-audio",
+    "author": "ScenemaAI",
+    "pipeline_tag": "text-to-speech",
+    "likes": 41,
+    "downloads": 0,
+    "tags": [
+      "scenema-audio",
+      "audio-generation",
+      "diffusion",
+      "text-to-audio",
+      "voice-cloning",
+      "speech-generation",
+      "expressive-speech",
+      "voice-acting",
+      "text-to-speech",
+      "en",
+      "de",
+      "fr",
+      "es",
+      "it",
+      "pt",
+      "ja",
+      "zh",
+      "ko",
+      "ru",
+      "ar",
+      "hi",
+      "sw",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2026-04-26T01:37:45.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-05-14T02:31:09.229483",
+    "display_priority": 99,
+    "is_core": true
+  },
+  {
     "id": "hf-ibm-granite--granite-speech-4.1-2b-nar",
     "name": "ibm-granite/granite-speech-4.1-2b-nar",
     "display_name": "granite-speech-4.1-2b-nar",
@@ -3623,7 +3664,7 @@
     "created_at": "2026-03-10T12:21:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-05T13:21:22.339381",
-    "display_priority": 99,
+    "display_priority": 100,
     "is_core": true
   },
   {
@@ -3658,7 +3699,7 @@
     "created_at": "2026-05-02T18:30:02.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-02T18:52:15.666108",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3685,7 +3726,7 @@
     "created_at": "2026-05-01T12:57:10.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-01T13:13:50.687297",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3710,7 +3751,7 @@
     "created_at": "2026-04-29T19:02:58.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T19:15:02.966320",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3831,7 +3872,7 @@
     "created_at": "2026-04-23T07:12:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-23T07:27:21.081938",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -3865,7 +3906,7 @@
     "created_at": "2026-04-24T08:14:31.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-24T08:20:51.403160",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -3892,7 +3933,7 @@
     "created_at": "2026-04-29T02:10:27.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T02:15:56.733383",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -3916,7 +3957,7 @@
     "created_at": "2026-05-02T10:11:42.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-02T10:22:45.281296",
-    "display_priority": 106,
+    "display_priority": 107,
     "is_core": true
   },
   {
@@ -3936,7 +3977,7 @@
     "created_at": "2026-05-04T01:58:23.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-04T02:06:47.724868",
-    "display_priority": 107,
+    "display_priority": 108,
     "is_core": true
   },
   {
@@ -3966,7 +4007,7 @@
     "created_at": "2026-04-21T18:53:18.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-21T19:03:19.043986",
-    "display_priority": 108,
+    "display_priority": 109,
     "is_core": true
   },
   {
@@ -3995,7 +4036,7 @@
     "created_at": "2026-04-22T01:43:08.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-22T01:53:36.008535",
-    "display_priority": 109,
+    "display_priority": 110,
     "is_core": true
   },
   {
@@ -4024,7 +4065,7 @@
     "created_at": "2026-04-22T01:35:53.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-22T01:53:36.008578",
-    "display_priority": 110,
+    "display_priority": 111,
     "is_core": true
   },
   {
@@ -4053,7 +4094,7 @@
     "created_at": "2026-04-22T01:30:17.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-22T01:53:36.008591",
-    "display_priority": 111,
+    "display_priority": 112,
     "is_core": true
   },
   {
@@ -4081,7 +4122,7 @@
     "created_at": "2026-04-24T01:41:54.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-24T01:57:38.435026",
-    "display_priority": 112,
+    "display_priority": 113,
     "is_core": true
   },
   {
@@ -4109,7 +4150,7 @@
     "created_at": "2026-04-29T01:52:38.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T02:15:56.733453",
-    "display_priority": 113,
+    "display_priority": 114,
     "is_core": true
   },
   {
@@ -4138,7 +4179,7 @@
     "created_at": "2026-05-02T10:16:14.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-02T10:38:40.056986",
-    "display_priority": 114,
+    "display_priority": 115,
     "is_core": true
   },
   {
@@ -4174,42 +4215,6 @@
     "created_at": "2026-05-03T12:38:49.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-03T12:54:04.293715",
-    "display_priority": 115,
-    "is_core": true
-  },
-  {
-    "id": "hf-Shinzmann--soro-tts-ibo",
-    "name": "Shinzmann/soro-tts-ibo",
-    "display_name": "soro-tts-ibo",
-    "url": "https://huggingface.co/Shinzmann/soro-tts-ibo",
-    "author": "Shinzmann",
-    "pipeline_tag": "text-to-speech",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "vits",
-      "text-to-audio",
-      "text-to-speech",
-      "tts",
-      "mms",
-      "nigerian-languages",
-      "low-resource",
-      "waxal",
-      "soro-tts",
-      "igbo",
-      "ibo",
-      "dataset:google/WaxalNLP",
-      "arxiv:2305.13516",
-      "license:cc-by-nc-4.0",
-      "model-index",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-05-04T08:14:10.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-05-04T08:22:33.165196",
     "display_priority": 116,
     "is_core": true
   },
@@ -6106,6 +6111,186 @@
     "source": "hf-newest",
     "collected_at": "2026-05-13T14:16:25.337068",
     "display_priority": 186,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-kqn",
+    "name": "WindstormLabs/translate-en-kqn",
+    "display_name": "translate-en-kqn",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-kqn",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "kaonde",
+      "en",
+      "kqn",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:30.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362460",
+    "display_priority": 187,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-kj",
+    "name": "WindstormLabs/translate-en-kj",
+    "display_name": "translate-en-kj",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-kj",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "kuanyama",
+      "en",
+      "kj",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:25.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362466",
+    "display_priority": 188,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-kg",
+    "name": "WindstormLabs/translate-en-kg",
+    "display_name": "translate-en-kg",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-kg",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "kongo",
+      "en",
+      "kg",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:21.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362468",
+    "display_priority": 189,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-jap",
+    "name": "WindstormLabs/translate-en-jap",
+    "display_name": "translate-en-jap",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-jap",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "japanese-(alias)",
+      "en",
+      "jap",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:16.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362474",
+    "display_priority": 190,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-itc",
+    "name": "WindstormLabs/translate-en-itc",
+    "display_name": "translate-en-itc",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-itc",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "italic",
+      "italian",
+      "spanish",
+      "portuguese",
+      "french",
+      "catalan",
+      "romanian",
+      "en",
+      "itc",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:12.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362476",
+    "display_priority": 191,
+    "is_core": true
+  },
+  {
+    "id": "hf-WindstormLabs--translate-en-it",
+    "name": "WindstormLabs/translate-en-it",
+    "display_name": "translate-en-it",
+    "url": "https://huggingface.co/WindstormLabs/translate-en-it",
+    "author": "WindstormLabs",
+    "pipeline_tag": "translation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "translation",
+      "marian",
+      "windyword",
+      "english",
+      "italian",
+      "en",
+      "it",
+      "license:cc-by-4.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-05-14T02:28:05.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-05-14T02:31:09.362479",
+    "display_priority": 192,
     "is_core": true
   }
 ]

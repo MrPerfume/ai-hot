@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "谷歌把Gemini塞进了Android"
 summary_zh = ""
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

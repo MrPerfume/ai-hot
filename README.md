@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-14 03:46:58
+🕐 **最近更新**：2026-05-14 10:32:49
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,23 +16,27 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic 的 Cat Wu 表示，未来，人工智能将在你知道需求是什么之前预测你的需求](https://aihot.bt199.com/news/b5a2360916db/)
-   - Claude Code and Cowork 的产品负责人表示，人工智能的下一个重要步骤是主动性
+1. [Notion刚刚将其工作空间变成了人工智能代理的中心](https://aihot.bt199.com/news/e4edfbe33d59/)
+   - 随着公司深入推进代理生产力软件，Notion 的新开发者平台让团队可以将人工智能代理、外部数据源和自定义代码直接连接到他…
    - `TechCrunch AI · 2026-05-13`
 
-2. [Origin Lab 融资 800 万美元，帮助视频游戏公司向世界模型构建者出售数据](https://aihot.bt199.com/news/f0c8a6dd55de/)
-   - Origin Lab 将成为人工智能实验室可以购买高质量许可数据、视频游戏公司可以出售这些数据的市场
+2. [马斯克的 xAI 在其密西西比州数据中心运行着近 50 台未经检查的燃气轮机](https://aihot.bt199.com/news/29058bb3c4c1/)
+   - xAI Colossus 2 数据中心的燃气轮机因该公司使用“移动”燃气轮机作为发电厂而提起诉讼
    - `TechCrunch AI · 2026-05-13`
 
-3. [人工智能聊天机器人正在泄露人们的真实电话号码](https://aihot.bt199.com/news/110d107a61de/)
+3. [微软的 Edge Copilot 更新使用人工智能从选项卡中提取信息](https://aihot.bt199.com/news/4e1c17be14ec/)
+   - Microsoft Edge 添加了一项新功能，允许其 Copilot AI 聊天机器人从所有打开的选项卡中收集信息。当…
+   - `The Verge AI · 2026-05-13`
+
+4. [人工智能聊天机器人正在泄露人们的真实电话号码](https://aihot.bt199.com/news/110d107a61de/)
    - 人们报告说，他们的个人联系信息被 Google AI 泄露了，而且显然没有简单的方法可以阻止这种情况。 一位 Reddi…
    - `MIT Tech Review · 2026-05-13`
 
-4. [马克·扎克伯格宣布“完全私密”的加密 Meta AI 聊天](https://aihot.bt199.com/news/7bb505f9cb46/)
+5. [马克·扎克伯格宣布“完全私密”的加密 Meta AI 聊天](https://aihot.bt199.com/news/7bb505f9cb46/)
    - Meta 首席执行官马克·扎克伯格表示，其新的隐身聊天是“第一个在服务器上不存储对话日志的主要人工智能产品”。隐身聊天中…
    - `The Verge AI · 2026-05-13`
 
-5. [Mozilla 表示 Mythos 发现的 271 个漏洞“几乎没有误报”](https://aihot.bt199.com/news/9fc187e8a48d/)
+6. [Mozilla 表示 Mythos 发现的 271 个漏洞“几乎没有误报”](https://aihot.bt199.com/news/9fc187e8a48d/)
    - Firefox 的开发商表示，它已经“完全接受”人工智能辅助的错误发现
    - `Ars Technica AI · 2026-05-07`
 
@@ -119,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 

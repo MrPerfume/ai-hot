@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://unsloth.ai/blog/nvidia-collab 评论网址�
 summary = "Article URL: https://unsloth.ai/blog/nvidia-collab Comments URL: https://news.ycombinator.com/item?id=48046397 Points: 104 # Comments: 20"
 summary_zh = "文章网址：https://unsloth.ai/blog/nvidia-collab 评论网址：https://news.ycombinator.com/item?id=48046397 积分：104 # 评论：20"
 tags = []
-list_page = 28
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

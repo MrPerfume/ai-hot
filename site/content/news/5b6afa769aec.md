@@ -20,7 +20,7 @@ ai_summary = "谷歌首次表示，它已经发现并阻止了人工智能开发
 summary = "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed th"
 summary_zh = "谷歌首次表示，它已经发现并阻止了人工智能开发的零日漏洞。根据谷歌威胁情报小组（GTIG）的一份报告，“著名的网络犯罪威胁行为者”正计划利用该漏洞进行“大规模利用事件”，这将允许"
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->
