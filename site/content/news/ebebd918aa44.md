@@ -20,7 +20,7 @@ ai_summary = "“在硅谷，这种对话是围绕一件事进行的，而消费
 summary = "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\""
 summary_zh = "“在硅谷，这种对话是围绕一件事进行的，而消费者之间正在发生一种完全不同的对话。”"
 tags = []
-list_page = 7
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

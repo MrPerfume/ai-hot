@@ -20,7 +20,7 @@ ai_summary = "麻省理工学院技术评论解释：让我们的作者解开复
 summary = "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers aboard a Dutch-flagged cruise ship have contracted a type of hantavirus, a rare virus transmitted by rat"
 summary_zh = "麻省理工学院技术评论解释：让我们的作者解开复杂、混乱的技术世界，帮助您了解接下来会发生什么。您可以在此处阅读该系列的更多内容。一艘悬挂荷兰国旗的游轮上的八名乘客感染了一种汉坦病毒，这是一种由老鼠传播的罕见病毒"
 tags = []
-list_page = 29
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->

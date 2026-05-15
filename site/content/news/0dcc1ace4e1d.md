@@ -20,7 +20,7 @@ ai_summary = "Alexa for Shopping 在移动设备、桌面设备和 Echo Show 智
 summary = "Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers."
 summary_zh = "Alexa for Shopping 在移动设备、桌面设备和 Echo Show 智能显示屏上提供支持语音和触摸的购物体验。 Alexa for Shopping 提供更加个性化的推荐，并自动化亚马逊和其他在线零售商的购物体验"
 tags = []
-list_page = 9
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

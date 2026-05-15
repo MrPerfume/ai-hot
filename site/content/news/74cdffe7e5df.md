@@ -20,7 +20,7 @@ ai_summary = "萨姆·奥尔特曼 (Sam Altman) 和埃隆·马斯克 (Elon Musk)
 summary = "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits"
 summary_zh = "萨姆·奥尔特曼 (Sam Altman) 和埃隆·马斯克 (Elon Musk) 正在一场高风险的试验中对峙，这场试验可能会改变 OpenAI 及其最著名的产品 ChatGPT 的未来。 2024年，马斯克提起诉讼，指控OpenAI放弃开发…"
 tags = []
-list_page = 4
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

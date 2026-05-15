@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-15 16:44:39
+🕐 **最近更新**：2026-05-15 21:51:15
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [埃隆·马斯克 (Elon Musk) 的 SpaceXAI 自合并以来一直在裁员](https://aihot.bt199.com/news/a798c83d7c0e/)
+1. [Osaurus 将本地和云端 AI 模型带到您的 Mac 上](https://aihot.bt199.com/news/5d5f0482cd39/)
+   - Osaurus￼ 将本地和云 AI 模型结合在 Mac 应用程序中，将用户的内存、文件和工具保留在自己的硬件上
+   - `TechCrunch AI · 2026-05-15`
+
+2. [埃隆·马斯克 (Elon Musk) 的 SpaceXAI 自合并以来一直在裁员](https://aihot.bt199.com/news/a798c83d7c0e/)
    - 据报道，自 2 月份以来，已有 50 多名员工离开了埃隆·马斯克 (Elon Musk) 新合并的 SpaceXAI，引…
    - `TechCrunch AI · 2026-05-14`
 
-2. [关门时间](https://aihot.bt199.com/news/1d0c2f9f5af6/)
+3. [AI研究论文越来越好，对科学家来说是个大问题](https://aihot.bt199.com/news/0a3c404dc0b5/)
+   - 去年夏天，彼得·德根的博士后导师向他提出了一个不寻常的问题：他的一篇论文被引用过多。引用是学术界的通货，但引用却有些不寻…
+   - `The Verge AI · 2026-05-15`
+
+4. [中国短剧如何成为AI内容机器](https://aihot.bt199.com/news/03022e48742f/)
+   - 在一间灯光昏暗的卧室里，一名受惊的年轻女子被一名高大、肌肉发达的男子扔到床上。他抓住她的手，火焰般的藤蔓爬过她的身体，与…
+   - `MIT Tech Review · 2026-05-15`
+
+5. [关门时间](https://aihot.bt199.com/news/1d0c2f9f5af6/)
    - 今天是马斯克诉奥特曼案审判的结案陈词，写下我刚刚目睹的令人难以置信的拆除德比，我几乎感觉很糟糕。马斯克的律师史蒂文·莫洛…
    - `The Verge AI · 2026-05-14`
-
-3. [看哪，埃隆·马斯克的傻瓜奖杯](https://aihot.bt199.com/news/173612216323/)
-   - 昨天，在马斯克诉奥特曼一案中，在陪审员到来之前，山姆·奥特曼的团队放弃了从远处看像是一个小联盟奖杯的东西。事实并非如此…
-   - `The Verge AI · 2026-05-14`
-
-4. [金融服务中代理人工智能的数据准备情况](https://aihot.bt199.com/news/7db00b81e7f6/)
-   - 金融服务公司在商业人工智能方面有独特的需求。他们在监管最严格的行业之一运营，同时对第二个更新的外部事件做出响应。因此，代…
-   - `MIT Tech Review · 2026-05-14`
-
-5. [在自治系统时代建立人工智能和数据主权](https://aihot.bt199.com/news/f187631eef2e/)
-   - 当生成式人工智能首次从研究实验室转移到现实世界的商业应用时，企业达成了默契：“现在提供能力，稍后进行控制。”将您的专有数…
-   - `MIT Tech Review · 2026-05-14`
-
-6. [OpenAI 表示 Codex 即将登陆你的手机](https://aihot.bt199.com/news/5cc6e708b103/)
-   - 此次更新为用户管理工作流程提供了更大的灵活性
-   - `TechCrunch AI · 2026-05-14`
 
 
 ## 🤖 AI 简报
@@ -123,6 +119,8 @@
 ---
 
 MIT License
+
+
 
 
 
