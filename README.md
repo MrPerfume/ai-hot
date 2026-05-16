@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-16 03:23:52
+🕐 **最近更新**：2026-05-16 10:14:15
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [人工智能推高价格之际，硅谷的度假胜地需要新的能源供应商](https://aihot.bt199.com/news/fbdbbdaad4a0/)
+1. [OpenAI试验结束，马斯克创始人机器继续运转](https://aihot.bt199.com/news/f87ad16de1e1/)
+   - 马斯克诉奥特曼案的审判本周结束，最终的争论不断回到一个问题：我们可以信任负责人工智能的人吗？ 所有这一切都在 Space…
+   - `TechCrunch AI · 2026-05-15`
+
+2. [人工智能推高价格之际，硅谷的度假胜地需要新的能源供应商](https://aihot.bt199.com/news/fbdbbdaad4a0/)
    - 随着人工智能推动电力需求，硅谷最受欢迎的滑雪胜地太浩湖即将受到能源价格上涨的打击
    - `TechCrunch AI · 2026-05-15`
 
-2. [OpenAI 推出个人理财 ChatGPT，让你连接银行账户](https://aihot.bt199.com/news/ba162ec2cb94/)
-   - 一旦用户连接他们的帐户，他们将看到他们的投资组合绩效、支出、订阅和即将付款的仪表板
-   - `TechCrunch AI · 2026-05-15`
-
-3. [OpenAI不断洗牌高管以赢得人工智能代理之战](https://aihot.bt199.com/news/17910095770d/)
-   - OpenAI 周五宣布了另一项重组，整合了某些领域，并让公司总裁格雷格·布罗克曼 (Greg Brockman) 担任万…
-   - `The Verge AI · 2026-05-15`
-
-4. [人工智能电台主持人展示了为什么人工智能不能单独信任](https://aihot.bt199.com/news/7442d3b30e2b/)
-   - Andon Labs 一直在进行一系列实验，让人工智能代理在没有人工干预的情况下运行业务。它的最新产品是由一些最流行的人…
-   - `The Verge AI · 2026-05-15`
-
-5. [中国短剧如何成为AI内容机器](https://aihot.bt199.com/news/03022e48742f/)
-   - 在一间灯光昏暗的卧室里，一名受惊的年轻女子被一名高大、肌肉发达的男子扔到床上。他抓住她的手，火焰般的藤蔓爬过她的身体，与…
+3. [马斯克诉奥特曼第三周：马斯克和奥特曼因彼此的信誉而互相攻击。现在陪审团将选择一方。](https://aihot.bt199.com/news/9c8aa558adfd/)
+   - 在马斯克诉奥特曼案审判的最后一周，律师们就埃隆·马斯克和 OpenAI 首席执行官萨姆·奥特曼的可信度展开了激烈的争论…
    - `MIT Tech Review · 2026-05-15`
+
+4. [YouTube 正在将其 AI Deepfake 检测工具扩展到所有成人用户](https://aihot.bt199.com/news/3ae6721de06e/)
+   - YouTube 正在将其人工智能相似检测计划扩展到 18 岁以上的所有用户，这意味着几乎任何人都可以让该平台寻找自己的潜…
+   - `The Verge AI · 2026-05-15`
+
+5. [ArXiv 将禁止上传充满 AI 垃圾论文的研究人员](https://aihot.bt199.com/news/00097bc0707b/)
+   - ArXiv 是一个流行的预印本学术研究平台，它正在采取新的举措，试图减少包含 AI 垃圾的论文数量。如果一篇论文有“无可…
+   - `The Verge AI · 2026-05-15`
 
 
 ## 🤖 AI 简报
@@ -119,6 +119,8 @@
 ---
 
 MIT License
+
+
 
 
 

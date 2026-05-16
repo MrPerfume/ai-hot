@@ -1,5 +1,114 @@
 [
   {
+    "id": "9e9dd2ae8494",
+    "title": "记忆感知的大模型 KVCache 优化｜AICon上海",
+    "url": "https://www.infoq.cn/article/JrjkdccVRjyzNUAhl9Lm?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-16T10:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-16T02:11:48.178729",
+    "content_text": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n阿里云高级技术专家马腾已确认出席 “\n大模型推理优化\n” 专题，并发表题为《\n记忆感知的大模型 KVCache 优化\n》的主题分享。本次分享重点介绍以 KVCache 为中心的开源大模型服务框架——Mooncake。将大模型推理引擎中的 KVCache 视作智能体系统最核心的“物理工作记忆”载体。通过打破传统推理中计算与存储的强耦合，Mooncake 实现了 Prefill 与 Decode 的分离式架构，并构建了全局共享的 KVCache 池。这种设计使得多智能体在频繁交互与协同工作时，能够通过跨节点的底层张量零拷贝与高效复用，实现记忆的“一次计算、全局共享”。\n马腾，阿里云高级技术专家，在阿里云主要大模型软件栈在新硬件环境下国产化的研究工作，并共同创建了大模型开源项目 Mooncake（5K Star）。目前 Mooncake 已经有阿里云 / 清华 / 月之暗面 / 蚂蚁 / 字节 / 趋境科技等多方参与，并且成功接入 vLLM/SGLang/LMDeploy/LMCache 等社区。同时他也是 SGLang, RBG 等社区的 Committer。他在 SOSP, ASPLOS, ATC, SC, INFOCOM, VLDB, TPDS 等顶级会议和期刊上发表论文二十余篇，相关成果授权美国 / 中国专利 10 项。他曾入选 CCF 系统软件专委会优秀博士论文激励计划，担任 PPoPP, FAST, DASFAA, TPDS, ICME, TC, JSC 等国际会议 / 期刊的程序委员会成员和审稿人。他在本次会议的详细演讲内容如下：\n演讲提纲：\n多智能体时代的记忆挑战\n从单一对话到多智能体协作的演进趋势\nAgent Memory 的构成：系统提示词、工具描述、多轮交互历史、智能体间状态传递\n当前推理架构的瓶颈：重复 Prefill 计算、显存碎片化与端到端延迟\n核心视角：KVCache 作为智能体的\"物理工作记忆\"\n重新定义 KVCache 的角色——从推理缓存到记忆载体\n\"一次计算、全局共享\"的设计目标\nMooncake：以 KVCache 为中心的开源推理服务框架\nPrefill 与 Decode 分离式架构（Disaggregated Architecture）\n全局共享 KVCache 池的构建\n跨节点张量零拷贝与高效复用机制\n多智能体落地的底层技术挑战\n基于记忆感知（Memory-aware）的请求调度与路由策略\n长短记忆在物理显存中的动态分层与淘汰机制（Eviction）\n高并发场景下的吞吐极限优化\n总结与展望\nAgent Memory 需要下沉至物理推理基础设施\n通过底层\"记忆流转\"释放算力与智能潜能\n听众收益：\n了解记忆系统和 KVCache 的无缝结合\n了解如何通过推理优化，显著提升 Agent 性能\n除此之外，本次大会还策划了\n端侧 AI、物理与数字空间智能化\n、\n世界模型与多模态智能突破\n、\nAgent 架构与工程化实践\n、\nAgent 安全与可信治理\n、\n企业级研发体系重构\n、\nAI 原生数据工程\n、\nAI 时代的个人提效与组织变革\n等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。\n更多详情可扫码或联系票务经理 13269078023 进行咨询。",
+    "content_source": "readability",
+    "content_chars": 1680,
+    "content_excerpt": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n阿里云高级技术专家马腾已确认出席 “\n大模型推理优化\n” 专题，并发表题为《\n记忆感知的大模型 KVCache 优化\n》的主题分享。本次分享重点介绍以 KVCache 为中心的开源大模型服务框架——Mooncake。将大模型推理引擎中的 KVCache 视作智能体系统最核心的“物理工作记忆”载体。通过打破传统推理中计算与存储的强耦合，Mooncake 实现了 Prefill 与 Decode 的分离式架构，并构建了全局共享的 KVCache 池。这种设计使得多智能体在频繁交互与协同工作时，能够通过跨节点的底层张量零拷贝与高效复用，实现记忆的“一次计算、全局共享”。\n马腾，阿里云高级技术专家，在阿里云主要大模型软件栈在新硬件环境下国产化的研究工作，并共同创建了大模型开源项目 Mooncake（5K Star）。目前 Mooncake 已经有阿里云 / 清华 / 月之暗面 / 蚂蚁 / 字节 / 趋境科技等多方参与，并且成功接入 vLLM/SGLang/LMDeploy/LMCache 等社区。同时他也是 SGLang, RBG 等社区的 Committer。他在 SOSP, ASPLOS, ATC, SC, INFOCOM, VLDB, TPDS 等顶级会议和期刊上发表论文二十余篇，相关成果授权美国 / 中国专利 10 项。他曾入选 CCF 系统软件专委会优秀博士论文激励计划，担任 PPoPP, FAST, DASFAA, TPDS, ICME, TC, JSC 等国际会议 / 期刊的程序委员会成员和审稿人。他在本次会议的详细演讲内容如下："
+  },
+  {
+    "id": "f9457a7a7ca9",
+    "title": "36氪首发｜前苹果工程师跨界骨传导耳机，独创技术路线，打破头部企业专利垄断",
+    "url": "https://36kr.com/p/3810520138243593?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-16T02:00:00",
+    "summary": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，苏州索迩电子技术有限公司（骨传导运动耳机品牌Mojawa的母公司，以下简称“索迩电子”）于近日完成数千万元人民币的A+轮融资，本轮融资由正海资本领投。 据悉，本轮资金将主要用于拓展海外线下渠道，以及推进产品的AI智能化研发。 在音频产品市场中，由于对无线和开耳式聆听技术的需求不断增加，骨传导耳机市场出现了显著增长。 调研机构Market Growth统计的数据显示，2024年骨传导耳机市场规模为12.8亿美元，预计到2025年将增长到16.11亿美元，到2033年将超过81.5亿美元，复合年增长率为22.8%。 不过，该市场集中度较高，少数头部品牌",
+    "collected_at": "2026-05-16T02:11:46.916986",
+    "content_text": "作者 | 张子怡\n编辑 | 袁斯来\n硬氪获悉，苏州索迩电子技术有限公司（骨传导运动耳机品牌Mojawa的母公司，以下简称“索迩电子”）于近日完成数千万元人民币的A+轮融资，本轮融资由正海资本领投。\n据悉，本轮资金将主要用于拓展海外线下渠道，以及推进产品的AI智能化研发。\n在音频产品市场中，由于对无线和开耳式聆听技术的需求不断增加，骨传导耳机市场出现了显著增长。\n调研机构Market Growth统计的数据显示，2024年骨传导耳机市场规模为12.8亿美元，预计到2025年将增长到16.11亿美元，到2033年将超过81.5亿美元，复合年增长率为22.8%。\n不过，该市场集中度较高，少数头部品牌（如韶音）占据主要份额，并建立相对完善的声学专利布局，提高了新品牌的准入门槛。\n索迩电子通过不同的技术路径切入这一市场。公司成立于2020年，早期业务聚焦于B端的触觉反馈技术（Haptics），为VR手柄、智能座舱等提供宽频振动马达。2021年，团队将独创的“宽频振动技术”应用至声学领域，以此来改善骨传导耳机在低频频段的响应表现。\n基于这一底层技术的平移，索迩电子创立自有品牌Mojawa墨觉。这种基于触觉马达延伸出的新一代发声架构，不仅在物理层面增加了中低频的下潜，也为骨传导耳机提供了一种新的技术方案，在一定程度上规避了和传统声学路线的专利重合。\n在产品定位上，Mojawa避开了中低端市场的价格竞争，主要面向专业运动人群推出中高端产品；产品线上，Mojawa推出了多款细分产品，包括主打轻量化（26克）的Run Air，支持“蓝牙+MP3”双模式的Run Plus，以及集成心率监测功能的Terra；渠道测方面，在国内市场，Mojawa目前已进入中国山姆会员店（Sam's Club）的供应链体系。\n海外市场是Mojawa营收的重要组成部分。2025年下半年，Mojawa入驻了美国BestBuy、Walmart.com、Target、Office Depot等主流KA线上平台。2026年，团队计划进一步拓展北美、欧洲及亚太核心市场的线下渠道。\n本轮融资完成后，Mojawa计划从运动耳机品牌，向AI运动智能平台发展。由于骨传导耳机佩戴时贴合人体头部，具备集成心率、环境感知等多维传感器的物理条件。\n基于此，Mojawa正在开发结合AI算法的运动辅助功能，试图覆盖用户训练前（方案推荐）、训练中（心率监测与预警）、训练后（数据复盘）的完整体验。\n索迩电子创始人兼CEO Robin Cao告诉硬氪：“AI时代，真正的壁垒是对用户的深度理解和持续服务能力，而Mojawa在传感器数据和骨传导技术上的积累，让我们有能力构建出别人短期内无法复制的运动AI体验。”\n团队背景方面，索迩电子创始人Robin Cao拥有硬件与供应链从业经历。创立索迩之前，其在苹果公司任职八年，曾参与iPhone及Apple Watch触觉产品线的开发与商业化。相关的技术与供应链经验，为索迩的研发和生产提供了基础。\n创始人问答：\n硬氪：在高端产品线（如Terra）中，Mojawa加入了心率监测等功能。当时是出于怎样的考量决定向“智能穿戴”方向探索的？\nRobin Cao：\n这源于真实的运动痛点。专业运动人群通常会佩戴智能手表和耳机，但在很多特定场景下，手表的交互并不方便。比如冬天在户外跑步，穿着厚羽绒服、戴着手套，或者在健身房举铁戴着护腕时，用户很难低头去看表盘数据。如果耳机能实时通过语音播报心率并进行运动指导，就能完美填补这个场景空缺。\n从技术实现上看，骨传导耳机贴合在耳前的位置，内部紧贴着主动脉，比手腕处的毛细血管测心率要精准得多。为了把心率传感器和算法植入耳机，我们花了长达一年多的时间搞研发，投入大量的研发费用。\n我们希望骨传导耳机不仅仅是一个音频播放器，而是一个能主动理解用户生理状态、提供科学指引的智能穿戴设备，这也是我们建立产品护城河的核心方向。\n硬氪：作为一个成长期的初创企业，面对拥有绝对体量优势的头部品牌，Mojawa在竞争策略上是怎么规划的？\nRobin Cao：\n我们的底色是追求原生的技术创新，通过技术溢价来获取合理的商业利润。因此，我们从一开始就拒绝参与低价内卷，不去做几百块钱的“廉价平替”。我们瞄准的是中高端的专业运动人群，也就是所谓的“装备党”，他们看重的是产品的专业属性和真实体验。\n在竞争维度上，我们本质上是跨界进来的。头部品牌更偏向传统的声学积累，而我们是做触觉和宽频振动起家的，这种底层的技术差异让我们在低频音质上具备物理优势，也天然规避了对方的专利封锁。未来我们会持续向AI交互和健康数据监测方向深耕，走出一条属于自己的智能化硬件道路。",
+    "content_source": "readability",
+    "content_chars": 1937,
+    "content_excerpt": "作者 | 张子怡\n编辑 | 袁斯来\n硬氪获悉，苏州索迩电子技术有限公司（骨传导运动耳机品牌Mojawa的母公司，以下简称“索迩电子”）于近日完成数千万元人民币的A+轮融资，本轮融资由正海资本领投。\n据悉，本轮资金将主要用于拓展海外线下渠道，以及推进产品的AI智能化研发。\n在音频产品市场中，由于对无线和开耳式聆听技术的需求不断增加，骨传导耳机市场出现了显著增长。\n调研机构Market Growth统计的数据显示，2024年骨传导耳机市场规模为12.8亿美元，预计到2025年将增长到16.11亿美元，到2033年将超过81.5亿美元，复合年增长率为22.8%。\n不过，该市场集中度较高，少数头部品牌（如韶音）占据主要份额，并建立相对完善的声学专利布局，提高了新品牌的准入门槛。\n索迩电子通过不同的技术路径切入这一市场。公司成立于2020年，早期业务聚焦于B端的触觉反馈技术（Haptics），为VR手柄、智能座舱等提供宽频振动马达。2021年，团队将独创的“宽频振动技术”应用至声学领域，以此来改善骨传导耳机在低频频段的响应表现。\n基于这一底层技术的平移，索迩电子创立自有品牌Mojawa墨觉。这种基于触觉马达延伸出的新一代发声架构，不仅在物理层面增加了中低频的下潜，也为骨传导耳机提供了一种新的技术方案，在一定程度上规避了和传统声学路线的专利重合。\n在产品定位上，Mojawa避开了中低端市场的价格竞争，主要面向专业运动人群推出中高端产品；产品线上，Mojawa推出了多款细分产品，包括主打轻量化（26克）的Run Air，支持“蓝牙+MP3”双模式的Run Plus，以及集成心率监测功能的Terra；渠道测方面，在国内市场，Mojawa目前已进入中国山姆会员店（Sam's Club）的供应链体系。"
+  },
+  {
+    "id": "9c8aa558adfd",
+    "title": "Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.",
+    "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-15T23:39:35",
+    "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w",
+    "collected_at": "2026-05-16T02:11:44.326300",
+    "content_text": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development of artificial general intelligence (AGI)—powerful AI that can compete with humans on most cognitive tasks.\nAs evidence of their commitment to AI safety, OpenAI brought out a golden trophy of a donkey’s ass that was gifted to an employee after he was called a “jackass” for standing up to Musk’s plans to race toward AGI.\nLawyers for both sides also presented their closing arguments, floating unflattering mugshot-style photos of Musk and Altman next to each other on a giant screen. Musk’s lawyer Steven Molo argued that Altman and OpenAI president Greg Brockman broke their promise to use money Musk donated to maintain OpenAI as a nonprofit that develops AI for the benefit of humanity. Instead, they created a for-profit subsidiary that made them extraordinarily wealthy.\nOpenAI’s lawyer Sarah Eddy argued that Altman and Brockman never promised to keep OpenAI a nonprofit. She added that even though it’s been restructured, OpenAI remains a nonprofit dedicated to developing AI safely.\nShe claimed that Musk sued too late—and that his real motive is to sabotage a competitor to his own AI company, xAI, which he launched in 2023.\nMusk is asking the court to unwind the 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles. He is also seeking as much as $134 billion in damages from OpenAI and Microsoft, to be awarded to OpenAI’s nonprofit.\nThe jury will begin deliberating on Monday and deliver an advisory verdict as soon as next week. The jury verdict is not binding on the judge, who will decide the case.\nIf the judge rules in Musk’s favor, it could upend OpenAI’s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI is expected to go public as a part of Musk’s rocket company SpaceX as early as June, at a target valuation of $1.75 trillion.\nMusk the power-seeker, Altman the liar.\nIn the first week of the trial, Musk said he was suing to save OpenAI’s mission to build AI safely for the benefit of humanity. This week, Altman denied Musk was a paladin of AI safety and painted him as a power-seeker who wanted to control OpenAI.\nAltman told the jury that in 2017, when Musk and other cofounders were discussing creating a for-profit arm, they asked Musk what would happen to his control over such an entity if he died. “Maybe the control of OpenAI should pass to my children,” Musk said, according to Altman.\nMusk’s lawyer shot back, grilling Altman on his alleged history of lying. He pointed out that OpenAI’s former executives Ilya Sutskever and Mira Murati, and former board members Helen Toner and Tasha McCauley, all testified that Altman had lied to them. In 2023, Altman was briefly fired as CEO over the alleged behavior.\nMolo also pressed Altman about his personal investments in startups that do business with OpenAI. Altman testified that he tried to steer OpenAI to buying power from the nuclear energy company Helion Energy, a third of which he owns.\n(Last Friday, the US House oversight committee launched an investigation into Altman’s potential conflicts of interest. Attorneys general from more than a half-dozen states called for the Securities and Exchange Commission to review them.)\nDuring his closing statement, Molo put Altman’s credibility on the stand again. “Imagine that you’re on a hike, and you come upon one of those wooden bridges that you see on a trail, and it’s over a gorge,” he said. “A woman standing by the entry to the bridge says, ‘Don’t worry—the bridge is built on Sam Altman’s version of the truth.’ Would you walk across that bridge?”\nAltman, who sat behind his lawyers, looked up uneasily every time his name was mentioned.\nDuring her closing argument, Eddy fired back. Musk “never cared about the nonprofit structure,” she said. “What he cared about was winning.\"\nMusk, though, was absent. Despite the judge’s order that he remain available, he flew to China with President Trump.\nDid Altman promise to keep OpenAI a nonprofit?\nDuring her closing argument, Eddy argued that no testimony or evidence showed any conditions on Musk’s donations, or any promises made by Altman and Brockman to keep the company a nonprofit. “No commitments or promises were made. No restrictions were placed on Mr. Musk’s donations,” she said.\nEddy added that it was evident Musk wasn’t truly committed to keeping OpenAI a nonprofit. She noted that in 2017, he tried to create a for-profit subsidiary and fought a bitter battle with Altman and Brockman to have control over it.\n“I was not opposed to there being a small for-profit that provides funding to the nonprofit,” Musk told the jury earlier in the trial, “as long as the tail didn’t wag the dog.”\nEddy then argued that Musk sued too late, filing in 2024 after the statutes of limitations on his claims ran out. In 2019, OpenAI created a for-profit subsidiary, under which employees and investors received a capped return on their investment.\nBut Musk testified that he discovered OpenAI had abandoned its nonprofit mission only in 2022, when Microsoft was preparing to invest $10 billion in OpenAI—a deal that closed in 2023. “I was disturbed to see OpenAI with a $20B valuation,” he texted Altman after reading the news. “This is a bait and switch.”\nMusk told the jury that the $20 billion valuation made him realize “the for-profit is the tail wagging the dog.”\n“The 2023 deal was different,” Molo hammered home during his closing argument.\nIs OpenAI still a nonprofit committed to its mission?\nA central question raised in the last week of trial was whether OpenAI remains a nonprofit committed to developing AGI safely for the benefit of humanity. Eddy, the OpenAI lawyer, argued that the nonprofit still controls the for-profit and seeks to “help AGI turn out well for humanity.” “The OpenAI nonprofit is the best-resourced nonprofit in the world,” thanks to the for-profit, she added.\nMolo countered that while the OpenAI’s nonprofit nominally controls the company, it does not do so in practice. OpenAI’s nonprofit and for-profit are controlled by the same people—seven of the nonprofit’s eight board members are on the for-profit’s board. The nonprofit hired employees only a month before the trial started and does work only in grant-making rather than AI research.\nMolo played a video interview of Altman saying that the nonprofit board’s failure to fire him in 2023 was “its own kind of governance failure.\"\n“We’re left with this nonprofit that doesn’t have any voice,” Jill Horwitz, a law professor at Northwestern University who studies nonprofits, told MIT Technology Review. “It doesn’t have much money, and OpenAI doesn’t think it has any obligation to fund it. It barely has a staff,” she says. “It’s unclear how on earth the nonprofit is supposed to exercise its duties and control the entire company.”\nCivil society groups and policymakers have spoken out against OpenAI’s restructuring over the years. So has Musk, although his own stake in the AI race makes him a dubious champion for the public interest.\n“The public interest in the nonprofit loses, no matter who wins or loses this trial,” says Horwitz.\nJackass for AI safety\nDespite US District Judge Yvonne Gonzalez Rogers’s warning during the first week that this trial was not about AI safety, the issue stole the show again. Throughout the trial, the lawyers from both sides traded barbs over the safety track records of ChatGPT (which has allegedly caused teen suicides) and Grok (which has flooded X with porn).\nOn the last day of testimony, OpenAI’s lawyer Bradley Wilson handed the judge a small golden trophy of a donkey’s ass, inscribed: “Never stop being a jackass for safety.”\nThe trophy belonged to Joshua Achiam, OpenAI’s chief futurist. He testified that he’d warned, when Musk announced in 2018 that he was leaving OpenAI to race toward building AGI, that speed could compromise safety. Musk snapped and called him a “jackass,” said Achiam. His colleagues, including Dario Amodei, now CEO of Anthropic, gave him the trophy to enshrine the diss.\n“I don’t want it,” said the judge.\nThe shenanigans spilled out into the street too. In front of the Oakland courthouse, a protester paraded around wearing a costume of Musk holding a bag of ketamine and driving a Cybertruck. Another held a photo of Sam Altman and a poster reading, “Stop AGI or we’re all gonna die.”\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nWant to understand the current state of AI? Check out these charts.\nAccording to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.\nMusk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models\nMusk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+    "content_source": "trafilatura",
+    "content_chars": 9473,
+    "content_excerpt": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development of artificial general intelligence (AGI)—powerful AI that can compete with humans on most cognitive tasks.\nAs evidence of their commitment to AI safety, OpenAI brought out a golden trophy of a donkey’s ass that was gifted to an employee after he was called a “jackass” for standing up to Musk’s plans to race toward AGI.\nLawyers for both sides also presented their closing arguments, floating unflattering mugshot-style photos of Musk and Altman next to each other on a giant screen. Musk’s lawyer Steven Molo argued that Altman and OpenAI president Greg Brockman broke their promise to use money Musk donated to maintain OpenAI as a nonprofit that develops AI for the benefit of humanity. Instead, they created a for-profit subsidiary that made them extraordinarily wealthy.\nOpenAI’s lawyer Sarah Eddy argued that Altman and Brockman never promised to keep OpenAI a nonprofit. She added that even though it’s been restructured, OpenAI remains a nonprofit dedicated to developing AI safely.\nShe claimed that Musk sued too late—and that his real motive is to sabotage a competitor to his own AI company, xAI, which he launched in 2023.\nMusk is asking the court to unwind the 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles. He is also seeking as much as $134 billion in damages from OpenAI and Microsoft, to be awarded to OpenAI’s nonprofit.\nThe jury will begin deliberating on Monday and deliver an advisory verdict as soon as next week. The jury verdict is not binding on the judge, who will decide the case.\nIf the judge rules in Musk’s favor, it could upend OpenAI’s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI is expected to go public as a part of Musk’s rocket company SpaceX as early as June, at a target valuation of $1.75 trillion.\nMusk the power-seeker, Altman the liar.\nIn the first week of the trial, Musk said he was suing to save OpenAI’s mission to build AI safely for the benefit of humanity. This week, Altman denied Musk was a paladin of AI safety and painted him as a power-seeker who wanted to control OpenAI.",
+    "title_zh": "马斯克诉奥特曼第三周：马斯克和奥特曼因彼此的信誉而互相攻击。现在陪审团将选择一方。",
+    "summary_zh": "在马斯克诉奥特曼案审判的最后一周，律师们就埃隆·马斯克和 OpenAI 首席执行官萨姆·奥特曼的可信度展开了激烈的争论。 Altman 因其涉嫌在与 OpenAI 开展业务的公司中撒谎和自我交易的历史而受到盘问。但他予以反击，将马斯克描绘成…",
+    "ai_summary": "在马斯克诉奥特曼案审判的最后一周，律师们就埃隆·马斯克和 OpenAI 首席执行官萨姆·奥特曼的可信度展开了激烈的争论…"
+  },
+  {
+    "id": "83bbb6ff8fed",
+    "title": "高瓴增持英伟达、英特尔、台积电、Lumentum",
+    "url": "https://36kr.com/newsflashes/3811273252560387?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-16T01:07:38",
+    "summary": "13F报告显示，高瓴一季度建仓叮咚买菜、迈威尔科技，增持唯品会、英特尔、康宁公司、英伟达、高意公司Coherent、台积电、Lumentum等。（财联社）",
+    "collected_at": "2026-05-16T02:11:46.918314"
+  },
+  {
+    "id": "3ae6721de06e",
+    "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
+    "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-15T22:25:00",
+    "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there",
+    "collected_at": "2026-05-16T02:11:44.167919",
+    "content_text": "YouTube is expanding its AI likeness detection program to all users over the age of 18 — meaning just about anyone can have the platform hunt for potential deepfakes of themselves.\nYouTube is expanding its AI deepfake detection tool to all adult users\nLikeness detection, which scans YouTube for facial matches, will now be available to anyone 18 years or older with a YouTube account.\nLikeness detection, which scans YouTube for facial matches, will now be available to anyone 18 years or older with a YouTube account.\nThe likeness detection feature uses a selfie-style scan of a person’s face to monitor YouTube for lookalikes. If there is a match, YouTube alerts the user; the person then has the option to request that YouTube remove the content. YouTube has said in the past that it has found the number of removal requests to be “very small.”\nYouTube began testing the feature with content creators, and then expanded it to government officials, politicians, journalists, and finally the entertainment industry. The expansion to any user 18 years or older is a significant shift — it essentially gives the average person the ability to constantly monitor content on YouTube that could use their likeness. Takedown requests are evaluated using YouTube’s privacy policy, and the company says it considers removals based on criteria like whether the content is realistic, is labeled as AI-generated, and if a person can be uniquely identified. There are carveouts for things like parody or satire, and the tool only covers facial likeness, not other identifying features like a person’s voice. Users can withdraw from the program and have YouTube delete their data.\nThe news was announced on YouTube’s creator forum, but spokesperson Jack Malon says there are no requirements on what constitutes a “creator” who is eligible.\n“With this expansion, we’re making clear that whether creators have been uploading to YouTube for a decade or are just starting, they’ll have access to the same level of protection,” Malon said in an email.\nDeepfake content often centers on celebrities, politicians, or other public figures, but the ability to create a convincing digital replica is a concern for private citizens, too. There have been instances of teenagers being deepfaked by classmates, and three teenagers sued xAI alleging that the company’s Grok chatbot generated child sexual abuse material (CSAM) of them.",
+    "content_source": "trafilatura",
+    "content_chars": 2408,
+    "content_excerpt": "YouTube is expanding its AI likeness detection program to all users over the age of 18 — meaning just about anyone can have the platform hunt for potential deepfakes of themselves.\nYouTube is expanding its AI deepfake detection tool to all adult users\nLikeness detection, which scans YouTube for facial matches, will now be available to anyone 18 years or older with a YouTube account.\nLikeness detection, which scans YouTube for facial matches, will now be available to anyone 18 years or older with a YouTube account.\nThe likeness detection feature uses a selfie-style scan of a person’s face to monitor YouTube for lookalikes. If there is a match, YouTube alerts the user; the person then has the option to request that YouTube remove the content. YouTube has said in the past that it has found the number of removal requests to be “very small.”\nYouTube began testing the feature with content creators, and then expanded it to government officials, politicians, journalists, and finally the entertainment industry. The expansion to any user 18 years or older is a significant shift — it essentially gives the average person the ability to constantly monitor content on YouTube that could use their likeness. Takedown requests are evaluated using YouTube’s privacy policy, and the company says it considers removals based on criteria like whether the content is realistic, is labeled as AI-generated, and if a person can be uniquely identified. There are carveouts for things like parody or satire, and the tool only covers facial likeness, not other identifying features like a person’s voice. Users can withdraw from the program and have YouTube delete their data.\nThe news was announced on YouTube’s creator forum, but spokesperson Jack Malon says there are no requirements on what constitutes a “creator” who is eligible.\n“With this expansion, we’re making clear that whether creators have been uploading to YouTube for a decade or are just starting, they’ll have access to the same level of protection,” Malon said in an email.\nDeepfake content often centers on celebrities, politicians, or other public figures, but the ability to create a convincing digital replica is a concern for private citizens, too. There have been instances of teenagers being deepfaked by classmates, and three teenagers sued xAI alleging that the company’s Grok chatbot generated child sexual abuse material (CSAM) of them.",
+    "title_zh": "YouTube 正在将其 AI Deepfake 检测工具扩展到所有成人用户",
+    "summary_zh": "YouTube 正在将其人工智能相似检测计划扩展到 18 岁以上的所有用户，这意味着几乎任何人都可以让该平台寻找自己的潜在深度伪造品。相似检测功能使用自拍式扫描人脸来监控 YouTube 上的相似者。如果有",
+    "ai_summary": "YouTube 正在将其人工智能相似检测计划扩展到 18 岁以上的所有用户，这意味着几乎任何人都可以让该平台寻找自己的潜…"
+  },
+  {
+    "id": "0fa3fe113173",
+    "title": "I believe there are entire companies right now under AI psychosis",
+    "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-15T20:26:47",
+    "summary": "https://xcancel.com/mitchellh/status/2055380239711457578https://hachyderm.io/@mitchellh/116580433508108130 Comments URL: https://news.ycombinator.com/item?id=48153379 Points: 825 # Comments: 360",
+    "collected_at": "2026-05-16T02:11:45.441463",
+    "title_zh": "我相信现在整个公司都处于人工智能精神病状态",
+    "summary_zh": "https://xcancel.com/mitchellh/status/2055380239711457578https://hachyderm.io/@mitchellh/116580433508108130 评论网址：https://…",
+    "ai_summary": "https://xcancel.com/mitchellh/status/2055380239711457578http…"
+  },
+  {
+    "id": "00097bc0707b",
+    "title": "ArXiv will ban researchers who upload papers full of AI slop",
+    "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-15T20:38:19",
+    "summary": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop. If a paper has \"incontrovertible evidence that the authors did not check the results of LLM generation,\" such as hallucinated references or \"meta-comments\" l",
+    "collected_at": "2026-05-16T02:11:44.167961",
+    "content_text": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop.\nArXiv will ban researchers who upload papers full of AI slop\nLeaving AI prompts or other ‘incontrovertible evidence’ will make it harder to use the site going forward.\nLeaving AI prompts or other ‘incontrovertible evidence’ will make it harder to use the site going forward.\nIf a paper has “incontrovertible evidence that the authors did not check the results of LLM generation,” such as hallucinated references or “meta-comments” left by an LLM, authors will be banned from ArXiv for a year, according to Thomas Dietterich, ArXiv’s section chair of its computer science section. Future ArXiv submissions will also have to be accepted at “a reputable peer-reviewed venue.”\nAttention @arxiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated.\nIf generative AI tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).\nWe have recently clarified our penalties for this. If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can’t trust anything in the paper.\nThe penalty is a 1-year ban from arXiv followed by the requirement that subsequent arXiv submissions must first be accepted at a reputable peer-reviewed venue.\nExamples of incontrovertible evidence: hallucinated references, meta-comments from the LLM (“here is a 200 word summary; would you like me to make any changes?”; “the data in this table is illustrative, fill it in with the real numbers from your experiments”)\nAuthors can appeal ban decisions, Dietterich told 404Media. He also noted that this policy will only apply “to cases of incontrovertible evidence” and that “our internal process requires first a moderator to document the problem and then for the Section Chair to confirm before imposing the penalty.”\nLast year, ArXiv also updated its policies to reduce AI slop by only allowing computer science review articles and position papers to be published if they have been peer reviewed and have been accepted at a conference or a journal. “The advent of large language models have made this type of content relatively easy to churn out on demand, and the majority of the review articles we receive are little more than annotated bibliographies, with no substantial discussion of open research issues,” ArXiv said at the time.",
+    "content_source": "trafilatura",
+    "content_chars": 2729,
+    "content_excerpt": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop.\nArXiv will ban researchers who upload papers full of AI slop\nLeaving AI prompts or other ‘incontrovertible evidence’ will make it harder to use the site going forward.\nLeaving AI prompts or other ‘incontrovertible evidence’ will make it harder to use the site going forward.\nIf a paper has “incontrovertible evidence that the authors did not check the results of LLM generation,” such as hallucinated references or “meta-comments” left by an LLM, authors will be banned from ArXiv for a year, according to Thomas Dietterich, ArXiv’s section chair of its computer science section. Future ArXiv submissions will also have to be accepted at “a reputable peer-reviewed venue.”\nAttention @arxiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated.\nIf generative AI tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).\nWe have recently clarified our penalties for this. If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can’t trust anything in the paper.\nThe penalty is a 1-year ban from arXiv followed by the requirement that subsequent arXiv submissions must first be accepted at a reputable peer-reviewed venue.\nExamples of incontrovertible evidence: hallucinated references, meta-comments from the LLM (“here is a 200 word summary; would you like me to make any changes?”; “the data in this table is illustrative, fill it in with the real numbers from your experiments”)",
+    "title_zh": "ArXiv 将禁止上传充满 AI 垃圾论文的研究人员",
+    "summary_zh": "ArXiv 是一个流行的预印本学术研究平台，它正在采取新的举措，试图减少包含 AI 垃圾的论文数量。如果一篇论文有“无可争议的证据表明作者没有检查LLM生成的结果”，例如幻觉的参考文献或“元评论”l",
+    "ai_summary": "ArXiv 是一个流行的预印本学术研究平台，它正在采取新的举措，试图减少包含 AI 垃圾的论文数量。如果一篇论文有“无可…"
+  },
+  {
     "id": "2a9cfc82264a",
     "title": "Kubernetes v1.36 发布：安全默认配置强化，AI 工作负载支持日趋成熟",
     "url": "https://www.infoq.cn/article/kNkrHGzRvA7r6pRtlGB5?utm_source=rss&utm_medium=article",
@@ -13,6 +122,24 @@
     "content_source": "readability",
     "content_chars": 3406,
     "content_excerpt": "Kubernetes\n发布 1.36 版本\n，代号 Haru，这是 2026 年的首个重要版本。该版本包含 70 项增强功能：18 项进入 Stable 阶段，25 项进入 Beta 阶段，以及 25 项新的 Alpha 功能，重点聚焦安全加固、人工智能和机器学习工作负载，以及大规模 API 的可扩展性。由编辑 Chad M. Crowell、Kirti Goyal、Sophia Ugochukwu、Swathi Rao 和 Utkarsh Umre 撰写的发布博客将此次发布描述为“时节更迭、山巅光影流转”之时如约而至，共有 106 家公司和 491 位个人参与了贡献。\n本次发布最亮眼的安全功能是用户命名空间（User Namespaces）正式达到 GA，该功能已经历多个版本周期的打磨。该功能可将容器内的 root 用户映射为主机上的非特权用户，即便进程突破容器隔离，也无法获取底层节点的管理权限。同样达到 GA 的还有可变准入策略（Mutating Admission Policies），允许团队借助通用表达式语言（CEL）把变更逻辑定义为原生 Kubernetes 对象，无需再单独维护独立的 Webhook 服务器。发布博客表示，这“为传统 Webhook 提供了原生、高性能的替代方案”，同时降低了“管理自定义准入 Webhook 带来的延迟与运维复杂度”。Kloia 官方\n博客\n也对此做了详细解读并配有原理图示。\n细粒度 Kubelet API 授权也在本版本中正式达到 GA。该功能于 v1.32 版本首次以 Alpha 状态引入，支持对 Kubelet HTTPS API 进行更精细的最小权限访问控制，替代了监控与可观测性工具以往所需的过度宽泛的\nnodes/proxy\n权限。SELinux 卷标签功能进入 Stable 阶段，通过\nmount -o context=XYZ"
+  },
+  {
+    "id": "f87ad16de1e1",
+    "title": "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
+    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-15T19:24:16",
+    "summary": "The Musk v. Altman trial came to a close this week, and the final arguments kept circling back to one question:&#160;can we trust the people in charge of AI?&#160;All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with&#160;a whole generati",
+    "collected_at": "2026-05-16T02:11:43.902288",
+    "content_text": "The Musk v. Altman trial came to a close this week, and the final arguments kept circling back to one question: can we trust the people in charge of AI? All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with a whole generation of founders already spinning out of the Musk empire.\nOn this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane break down the trial’s closing stretch and what the growing Elon Musk founder ecosystem looks like on the ground, and the other deals that caught our eye this week.\nListen to the full episode to hear about:\n- How Anduril landed a $5 billion Series H, more than doubling the valuation it landed just under a year ago\n- Why investors just can’t say no to Rivian’s RJ Scaringe, who’s raked in over $1 billion for spinout Mind Robotics\n- How voice AI startup Vapi beat out over 40 other companies to secure a contract handling all of Ring’s customer support\n- The Anthropic report about why AI agents tried to blackmailing its developers, and the debate over whether sci-fi narratives influenced its behavior.\nSubscribe to Equity on YouTube, Apple Podcasts, Overcast, Spotify and all the casts. You also can follow Equity on X and Threads, at @EquityPod.",
+    "content_source": "trafilatura",
+    "content_chars": 1284,
+    "content_excerpt": "The Musk v. Altman trial came to a close this week, and the final arguments kept circling back to one question: can we trust the people in charge of AI? All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with a whole generation of founders already spinning out of the Musk empire.\nOn this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane break down the trial’s closing stretch and what the growing Elon Musk founder ecosystem looks like on the ground, and the other deals that caught our eye this week.\nListen to the full episode to hear about:\n- How Anduril landed a $5 billion Series H, more than doubling the valuation it landed just under a year ago\n- Why investors just can’t say no to Rivian’s RJ Scaringe, who’s raked in over $1 billion for spinout Mind Robotics\n- How voice AI startup Vapi beat out over 40 other companies to secure a contract handling all of Ring’s customer support\n- The Anthropic report about why AI agents tried to blackmailing its developers, and the debate over whether sci-fi narratives influenced its behavior.\nSubscribe to Equity on YouTube, Apple Podcasts, Overcast, Spotify and all the casts. You also can follow Equity on X and Threads, at @EquityPod.",
+    "title_zh": "OpenAI试验结束，马斯克创始人机器继续运转",
+    "summary_zh": "马斯克诉奥特曼案的审判本周结束，最终的争论不断回到一个问题：我们可以信任负责人工智能的人吗？ 所有这一切都在 SpaceX 向着可能成为美国历史上最大的 IPO 之一的目标上演，整整一代人都在努力",
+    "ai_summary": "马斯克诉奥特曼案的审判本周结束，最终的争论不断回到一个问题：我们可以信任负责人工智能的人吗？ 所有这一切都在 Space…"
   },
   {
     "id": "17910095770d",
@@ -473,6 +600,31 @@
     "collected_at": "2026-05-15T08:42:46.144423"
   },
   {
+    "id": "v2ex-1212995",
+    "title": "人，尤其是男人，需要有另一半，需要有家庭。",
+    "url": "https://www.v2ex.com/t/1212995",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-15T07:28:17",
+    "summary": "> 趁着 AI 写代码的空挡，来写个帖子，输出以下我的观点 0. 先说防杠声明：人类的数量实在太多了，我的观点只是对大部分人而言，一定有人比较特殊，但是对我的观点本身并无影响。 1. 其实人类的本质，或者说怎么能唯一确定一个人呢？我觉得并不是身份证，并不是你的外形，并不是你的各种外在的特征，真正能确定一个人，能构建一个人的是：你对外的投射。什么意思呢，简单来说，你对上学有兴趣，每天放学回家还得自学到 12 点，那你就是个爱学习的人；如果你，每顿饭都要吃鸡蛋，那你就是一个爱吃鸡蛋/每天都要吃鸡蛋的人。 > 说白了，你怎么看待这个世界，你就是一个怎么样的人。 > 所以人必须要有另一半，需要有家庭，",
+    "collected_at": "2026-05-16T02:11:49.244276",
+    "content_text": "趁着 AI 写代码的空挡，来写个帖子，输出以下我的观点\n- 先说防杠声明：人类的数量实在太多了，我的观点只是对大部分人而言，一定有人比较特殊，但是对我的观点本身并无影响。\n- 其实人类的本质，或者说怎么能唯一确定一个人呢？我觉得并不是身份证，并不是你的外形，并不是你的各种外在的特征，真正能确定一个人，能构建一个人的是：你对外的投射。什么意思呢，简单来说，你对上学有兴趣，每天放学回家还得自学到 12 点，那你就是个爱学习的人；如果你，每顿饭都要吃鸡蛋，那你就是一个爱吃鸡蛋/每天都要吃鸡蛋的人。\n说白了，你怎么看待这个世界，你就是一个怎么样的人。\n所以人必须要有另一半，需要有家庭，家人，因为如果没有，你对另一半，对家人的投射，就没有了，定义你这个人的因素就少了一部分，定义会变得模糊。\n然后你怎么看待这个世界，其实是会变化的，但这个变化，一定是你的灵魂层面先发生改变，而另一半，家人，就是让你的灵魂发生改变的最强大的力量。\n说人话就是，有些言语，有些行为，只有你的另一半对你说，对你做才对你有作用；有些言语，只有你的父母，你的孩子对你说才对你有作用。有些话，有些事，陌生人是没法跟你做的。\n-\n那为啥我说尤其是男人需要呢？因为女人本身就是一个心思细腻，情感外放，与朋友链接比较紧密的人，比如两个女生会手拉手去厕所，俩男人会吗？\n-\n为什么我全篇都是在用“另一半”，而没有用丈夫/妻子呢？额，毕竟还有 Gay 和拉拉，Gay 就去找 Gay ，拉拉就去找拉拉，直男直女互相找，结婚，组成家庭是非常重要的。\n-\n但是无论你是直是弯，一定有一个前提，就是你的另一半是正常人。。。我相信一定会有人反驳我，说结婚之后就后悔，还不如不结婚呢。。。。那你找了一个非正常人，跟我的观点也不冲突啊。慢慢找吧，世界上这么多人，还是正常人多，从概率学的角度来说，你只要尝试的多，总会找到那个正常人的。",
+    "content_source": "trafilatura",
+    "content_chars": 791,
+    "content_excerpt": "趁着 AI 写代码的空挡，来写个帖子，输出以下我的观点\n- 先说防杠声明：人类的数量实在太多了，我的观点只是对大部分人而言，一定有人比较特殊，但是对我的观点本身并无影响。\n- 其实人类的本质，或者说怎么能唯一确定一个人呢？我觉得并不是身份证，并不是你的外形，并不是你的各种外在的特征，真正能确定一个人，能构建一个人的是：你对外的投射。什么意思呢，简单来说，你对上学有兴趣，每天放学回家还得自学到 12 点，那你就是个爱学习的人；如果你，每顿饭都要吃鸡蛋，那你就是一个爱吃鸡蛋/每天都要吃鸡蛋的人。\n说白了，你怎么看待这个世界，你就是一个怎么样的人。\n所以人必须要有另一半，需要有家庭，家人，因为如果没有，你对另一半，对家人的投射，就没有了，定义你这个人的因素就少了一部分，定义会变得模糊。\n然后你怎么看待这个世界，其实是会变化的，但这个变化，一定是你的灵魂层面先发生改变，而另一半，家人，就是让你的灵魂发生改变的最强大的力量。\n说人话就是，有些言语，有些行为，只有你的另一半对你说，对你做才对你有作用；有些言语，只有你的父母，你的孩子对你说才对你有作用。有些话，有些事，陌生人是没法跟你做的。\n-\n那为啥我说尤其是男人需要呢？因为女人本身就是一个心思细腻，情感外放，与朋友链接比较紧密的人，比如两个女生会手拉手去厕所，俩男人会吗？\n-"
+  },
+  {
+    "id": "40b00c379388",
+    "title": "毅华新能源与维桢新材料联合研发MOFs-聚合物复合固态电池",
+    "url": "https://36kr.com/newsflashes/3810285312843273?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-15T08:22:39",
+    "summary": "36氪获悉，近日，毅华新能源与维桢新材料正式完成签约，双方将联合研发MOFs-聚合物复合固态电池，并同步推进技术产业化落地。据了解，合作均面向低空经济、人形机器人、AI硬件等应用场景展开布局。目前毅华新能源已开启第二轮融资，资金主要用于产线建设与技术研发。",
+    "collected_at": "2026-05-15T08:42:46.144579"
+  },
+  {
     "id": "ec44f46fb884",
     "title": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强",
     "url": "https://www.qbitai.com/2026/05/417961.html",
@@ -486,17 +638,6 @@
     "content_source": "readability",
     "content_chars": 1170,
     "content_excerpt": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强\n量子位的朋友们\n2026-05-15\n15:14:36\n来源：\n量子位\n5 月 15 日，蚂蚁百灵宣布其旗舰级思考模型 Ring-2.6-1T 正式开源，权重文件同步上线 Hugging Face、ModelScope 平台。此前，该模型上线 OpenRouter，并开放限时免费 API 体验。\nRing-2.6-1T 的核心设计逻辑是“按需思考”，模型引入了可调节的 Reasoning Effort 机制，支持 high 与 xhigh 两种推理强度，开发者可以根据任务特性动态分配推理资源。其中，high 模式面向高频 Agent 工作流获得更高效率，适合多轮对话、工具协作与任务拆解；xhigh 模式则面向数学竞赛、科研分析等高难任务，释放能力上限。有开发者表示，这是“工程实用性”的进步。\n根据权威评测，Ring-2.6-1T 的两档模式各有所长。high 模式下，PinchBench 得分 87.60，高于 GPT-5.4 xHigh和Gemini-3.1-Pro high，Tau2-Bench Telecom 达到 95.32，Agent 场景执行能力显著。xhigh 模式下，AIME 26 得分 95.83，接近多家头部模型水平；GPQA Diamond 达到 88.27，体现出稳健的科学知识理解与复杂推理能力。\n在训练层面，Ring-2.6-1T 采用异步（Async）强化学习训练架构，将策略采样与参数更新解耦为独立流水线，解决了传统同步训练中 GPU 资源等待、训练吞吐不足的问题，并支持更长周期的持续训练。在此基础上，百灵将此前在 Ring-1T 中验证过的“棒冰算法”引入异步 RL 训练，解决训练不稳定问题。百灵表示，相关技术细节将在后续技术报告中公开。"
-  },
-  {
-    "id": "40b00c379388",
-    "title": "毅华新能源与维桢新材料联合研发MOFs-聚合物复合固态电池",
-    "url": "https://36kr.com/newsflashes/3810285312843273?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-15T08:22:39",
-    "summary": "36氪获悉，近日，毅华新能源与维桢新材料正式完成签约，双方将联合研发MOFs-聚合物复合固态电池，并同步推进技术产业化落地。据了解，合作均面向低空经济、人形机器人、AI硬件等应用场景展开布局。目前毅华新能源已开启第二轮融资，资金主要用于产线建设与技术研发。",
-    "collected_at": "2026-05-15T08:42:46.144579"
   },
   {
     "id": "v2ex-1212987",
@@ -4398,19 +4539,15 @@
     "content_excerpt": "在 AI Coding 飞速发展的当下，工程师的价值正从“如何实现”转向“解决什么问题”，那么，手敲代码还有意义吗？作为一名坚持编码近 30 年的架构师，微软最有价值专家 (MVP)、开源项目创作者、现任 Aviva Solutions 的代码架构师 Dennis Doomen 的观点直截了当：如果你不深入代码，就无法做出优秀的架构决策。\n最近，Dennis 在播客节目中，与主持人 Patrick Akil 对话，他以大量一线经验为基础，探讨了一个更现实的问题：在 AI 可以生成代码的时代，我们究竟该如何保持对代码质量的掌控？基于该播客视频，InfoQ 对内容进行了整理与部分删改。\n核心观点如下：\n作为架构负责人，同时仍保持动手实践，这是团队中唯一有效的软件开发方式。\n软件工程的核心，无论过去还是未来，都是在已有系统与不断增长的复杂性之间维持平衡。如果对过去的决策缺乏理解，却仍机械遵循，就会不断累积复杂性，而时间会放大这一问题，甚至决定系统成败。\n即便未来我们可能不再需要编写代码，现阶段仍然需要对 AI 生成的结果进行接管和维护。\n无论是提交记录还是代码评审说明，都应尽量记录决策意图，而不仅是技术细节。\n成为高效软件架构师的唯一方式\nPatrick：你曾说自己不愿意全职做会议演讲，因为你太热爱现在的工作了。\nDennis："
   },
   {
-    "id": "cff2a28fc4c5",
-    "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
-    "url": "https://www.qbitai.com/2026/05/414827.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-09T08:07:08",
-    "summary": "实现过程开源可复现",
-    "collected_at": "2026-05-11T02:26:33.520211",
-    "content_text": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件\n实现过程开源可复现\n闻乐 发自 凹非寺\n量子位 | 公众号 QbitAI\n没有训练梯度的AI，打破了Atari游戏满分纪录。\nOpenAI核心研究员翁家翌提出了一个强化学习新范式——\n启发式学习（Heuristic Learning, HL）。\n全程无神经网络训练、无梯度更新，全程靠GPT-5.4驱动的Codex自主迭代，硬是在经典游戏Breakout上打到了864分理论满分。\n与传统深度强化学习优化神经网络参数不同，HL不依赖可微权重存储策略，而是将决策逻辑迁移到离散程序空间，以代码编辑替代梯度下降，通过显式的符号规则实现状态-动作映射。\n在游戏、机器人仿真多项任务里，该方法性能甚至超过老牌强化学习算法PPO。\n以程序代码为载体\n传统深度强化学习（DRL）长期默认智能体的决策核心必须依托神经网络实现。\n比如在游戏里，当观测到游戏小球位于左侧时，神经网络通过复杂映射直接输出「向左移动」的动作；\n但整个决策过程是隐式黑箱的，没人能清晰拆解内部逻辑，只能依赖梯度下降算法盲目迭代拟合。\n也正因这种底层架构，深度强化学习始终难以逾越三大核心瓶颈。\n一是灾难性遗忘。神经网络以参数存储习得技能，新任务的梯度迭代会直接覆盖旧有权重，无法实现多任务持续学习。\n二是决策黑箱、不可解释。智能体每一次动作选择都隐藏在海量网络权重与矩阵运算中，无法追溯决策依据，也不能人工干预、拆解逻辑。\n三是样本效率低下。依赖海量环境交互数据完成训练迭代，收敛周期长、算力消耗巨大，整体研发与落地成本高。\nHL的思路很直接，既然参数更新是问题的根源，那干脆不要参数。\n它把智能体的决策策略从神经网络的权重转化为可读的程序代码，把学习从梯度优化变成代码编辑。\n在HL的框架里，AI维护的不再是单一策略文件，而是一套完整的智能化软件系统：\n显式的状态检测器（“球在左上方，速度向右”）、显式的规则逻辑（“如果球将落在左侧，则向左移动”）、还有测试用例、回归检查、失败记录、版本历史。\n每次迭代，Codex会审视系统表现，阅读失败录像，分析日志，然后做出结构性调整。\n这种范式的关键的优势是：知识是显式的。\n旧能力不会被覆盖，而是封装成模块和测试，随时可调用、可验证、可传承。\n就像翁家翌说的：\nHL把持续学习从“如何更新参数”变成了”如何维护一个持续吸收反馈的软件系统”。\n当然，HL并不是完全排斥梯度技术，它内部某些组件（如模型预测控制MPC）仍然会用梯度做局部搜索。\n但关键在于这类梯度运算不用于神经网络训练与参数更新，仅服务于实时动作决策。\n而且这种架构设计让HL原生自带可解释、抗遗忘、高效率的特性。\nAtari满分，机器人控制SOTA\n不只是拿到Breakout的864分，翁家翌完成了完整的Atari 57大规模测试（Atari 57是行业公认的强化学习基准测试集，包含57款不同类型的经典游戏，覆盖离散动作空间的各类决策场景）。\n每款游戏设置两种观测模式，各自重复三轮实验，最终生成342条独立的智能编码迭代轨迹。\n结果显示，在统一环境交互步数的前提下，启发式学习HL的整体中位表现，已经和PPO等主流深度强化学习算法持平。\n在Breakout、Asterix、Jamesbond等多款经典游戏中，成绩甚至超越人类玩家基准水平。\n相比游戏离散决策，MuJoCo机器人连续控制任务难度更高。\n以四足机器人Ant为例，需要协同调控8个关节，在高维连续动作空间中维持动态平衡。\n启发式学习HL从基础节律步态规则起步，逐步迭代加入姿态反馈、触地信号感知、短程模型预测等逻辑，最终综合评分突破6000 分，性能完全对标专业深度强化学习模型。\n在HalfCheetah猎豹仿真任务中，HL更是跑出了11836的平均高分，展现出在复杂连续控制场景的极强适配能力。\n不过翁家翌也没有回避HL的边界。\n他直言：\n在我目前认知范围内，我想不出有个agent能搓出一个纯Python code、不用神经网络去解决 ImageNet。\n从原始像素中完成目标识别、特征抽象，依旧是深度神经网络不可替代的强项。\n而启发式学习HL的核心价值，集中体现在策略持续迭代层面，当环境动态变化、需要长期自适应调整行为逻辑时，显性化的代码规则系统更适配持续学习需求。\n所以，当下关键的命题在于如何把神经网络与HL有机融合，一并攻克在线学习与持续学习两大难题。\n翁家翌指出最具落地前景的思路是，依托HL实时处理在线环境数据流，快速沉淀可复用的在线行为经验；\n再将这些显性经验整理、内化，转化为可训练、可回归、可筛选的高质量数据集，反过来对神经网络做周期性迭代更新。\n参考链接：\n[1]https://x.com/Trinkle23897/status/2052596837547495549\n[2]https://trinkle23897.github.io/learning-beyond-gradients\n- 数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果2026-05-11\n- 小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪2026-04-29\n- 一台中国空间相机，打破索尼富士Adobe的影像垄断2026-04-27\n- AI开始接管实验室了！玻尔·跃迁实验室：试剂、设备、数据一个入口搞定，1800+设备即插即用2026-04-18",
-    "content_source": "trafilatura",
-    "content_chars": 2288,
-    "content_excerpt": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件\n实现过程开源可复现\n闻乐 发自 凹非寺\n量子位 | 公众号 QbitAI\n没有训练梯度的AI，打破了Atari游戏满分纪录。\nOpenAI核心研究员翁家翌提出了一个强化学习新范式——\n启发式学习（Heuristic Learning, HL）。\n全程无神经网络训练、无梯度更新，全程靠GPT-5.4驱动的Codex自主迭代，硬是在经典游戏Breakout上打到了864分理论满分。\n与传统深度强化学习优化神经网络参数不同，HL不依赖可微权重存储策略，而是将决策逻辑迁移到离散程序空间，以代码编辑替代梯度下降，通过显式的符号规则实现状态-动作映射。\n在游戏、机器人仿真多项任务里，该方法性能甚至超过老牌强化学习算法PPO。"
+    "id": "hn-48019219",
+    "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+    "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-05-05T07:34:55Z",
+    "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+    "points": 1755,
+    "collected_at": "2026-05-16T02:11:48.689198"
   },
   {
     "id": "5499a95c89db",
@@ -4428,18 +4565,15 @@
     "content_excerpt": "安全研究员 Alexander Hanff（网名 ThatPrivacyGuy）报告称，Chrome 一直在静默安装本地 Gemini Nano 大模型。它会以一个名为 weights.bin 的文件形式，存放在用户 Chrome 配置目录下的 OptGuideOnDeviceModel 文件夹中。\n只要 Chrome 判断你的设备满足硬件要求，这个 4GB 的下载就会自动发生。整个过程既不会请求授权，也不会发送任何通知。此外，如果你找到并删除该文件，Chrome 会自动下载一份新的副本并恢复它。\n事件引发争议后，谷歌昨天发表声明称，自 2024 年起他们就开始为 Chrome 提供 Gemini Nano 这一轻量级“本地模型”，并表示已逐步推出关闭选项。但声明回避了透明度和用户同意的核心问题——从头到尾，没人问过你同不同意。\n14 分 28 秒：Chrome 如何把 Gemini Nano 写进用户磁盘\n就在不久前，也就是 2026 年 5 月初，Alexander Hanff 公开了自己的发现。而在此之前两周，他刚刚揭露过 Anthropic 的一项类似操作：Claude Desktop 会在用户电脑上，悄悄向七个基于 Chromium 的浏览器注册一个“桥接程序”。换句话说，用户启动产品 A 时，Anthropic 会安装这个桥接程序，并在未经用户许可的情况下，把配置信息写入用户安装的产品 B、C、D、E、F、G、H 中（如 Brave、Edge、Arc、Vivaldi、Opera 等）。\n并且这涉及到对大约 300 万台 Claude Desktop 用户设备进行了浏览器自动化预授权，当时，Hanff 写道：“这种做法突破了厂商的信任边界。没有征求用户同意的对话框，也没有退出选项。”\n他没想到的是，仅仅两周后，他又在 Google Chrome 上发现了几乎相同的模式。\n在任何安装了 Chrome 浏览器的设备上，用户配置文件中都有一个名为 OptGuideOnDeviceModel 的目录。该目录下有一个名为 weights.bin 的文件。该文件大小约为 4 GB，是 Gemini Nano 权重文件，可用于运行设备端推理，也是 Google Prompt API 背后的基础组件之一。\n关键是，Google 压根没问你。在 Chrome 设置里，并没有一个清楚的选项写着：“是否允许 Chrome 下载一个约 4GB 的本地 AI 模型？”也没有弹窗提示用户：接下来浏览器会占用你的磁盘空间，下载一个用于 AI 功能的模型文件。下载会在 Chrome 的 AI 功能启用时触发，而这些功能在最新版本的 Chrome 中默认启用。在任何满足硬件要求的设备上，Chrome 都会将用户的硬件视为交付目标并写入模型。\n更麻烦的是，删除并不能解决问题。"
   },
   {
-    "id": "05e2bb91bda8",
-    "title": "All my clients wanted a carousel, now it's an AI chatbot",
-    "url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
-    "source": "Hacker News AI",
+    "id": "hn-47679121",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "Hacker News",
     "lang": "en",
-    "priority": 2,
-    "published": "2026-05-09T07:23:40",
-    "summary": "Article URL: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md Comments URL: https://news.ycombinator.com/item?id=48072720 Points: 185 # Comments: 77",
-    "collected_at": "2026-05-11T02:28:50.340869",
-    "title_zh": "我所有的客户都想要一个轮播，现在它是一个人工智能聊天机器人",
-    "summary_zh": "文章网址：https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md 评论网址：https://news.ycomb…",
-    "ai_summary": "文章网址：https://adele.pages.casa/md/blog/all-my-clients-wanted-…"
+    "published": "2026-04-07T18:09:34Z",
+    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
+    "points": 1541,
+    "collected_at": "2026-05-16T02:11:48.689283"
   },
   {
     "id": "1cbc7c95219b",
@@ -4453,15 +4587,15 @@
     "collected_at": "2026-05-11T02:28:53.699520"
   },
   {
-    "id": "4c2830f528ab",
-    "title": "谷歌「AI联合数学家」来了！刷新最难数学AI基准SOTA，牛津教授用它解开群论悬案",
-    "url": "https://www.qbitai.com/2026/05/414788.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-09T07:12:48",
-    "summary": "谷歌AI for Math迈出最新一步",
-    "collected_at": "2026-05-11T02:26:33.520240"
+    "id": "hn-47363754",
+    "title": "Can I run AI locally?",
+    "url": "https://www.canirun.ai/",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-03-13T12:46:10Z",
+    "summary": "Can I run AI locally?",
+    "points": 1520,
+    "collected_at": "2026-05-16T02:11:48.689381"
   },
   {
     "id": "279f269886a2",
@@ -4475,15 +4609,15 @@
     "collected_at": "2026-05-11T02:28:53.699546"
   },
   {
-    "id": "68b00e95dbc3",
-    "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
-    "url": "https://www.qbitai.com/2026/05/414547.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-09T06:24:18",
-    "summary": "Jim Fan全新暴论出炉",
-    "collected_at": "2026-05-11T02:26:33.520270"
+    "id": "hn-47340079",
+    "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+    "url": "https://news.ycombinator.com/newsguidelines.html#generated",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-03-11T19:29:29Z",
+    "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+    "points": 4229,
+    "collected_at": "2026-05-16T02:11:48.688987"
   },
   {
     "id": "76350eef4824",
@@ -4497,15 +4631,15 @@
     "collected_at": "2026-05-11T02:28:53.699571"
   },
   {
-    "id": "12b465936998",
-    "title": "AI开始接管年轻人的「精神自留地」",
-    "url": "https://36kr.com/p/3801461350702855?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-09T02:54:40",
-    "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击，伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了��� 这个让蝈蝈短暂“活过来”的应用，不是什么专业团队做的。而是一个同样被工作折磨的网友@二旬老人，在灵光APP免费花30秒随手“搓”出来的。 这届年轻人，连发泄情绪都要精打细算",
-    "collected_at": "2026-05-11T02:28:52.189265"
+    "id": "hn-47225130",
+    "title": "Meta’s AI smart glasses and data privacy concerns",
+    "url": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-03-02T22:32:35Z",
+    "summary": "Meta’s AI smart glasses and data privacy concerns",
+    "points": 1448,
+    "collected_at": "2026-05-16T02:11:48.689423"
   },
   {
     "id": "797cad6f3c58",
@@ -4519,114 +4653,6 @@
     "collected_at": "2026-05-11T02:28:53.699597"
   },
   {
-    "id": "e40918bf32d1",
-    "title": "9点1氪丨DeepSeek拟募资最高500亿；“全国销冠”被刑拘，泰康人寿回应；OPPO就母亲节文案致歉",
-    "url": "https://36kr.com/p/3801348046151428?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-09T00:57:59",
-    "summary": "整理｜Kris 今日热点导览 香港拿下世界杯转播权，FIFA与央视谈判仍陷僵局 油价上调，加满一箱92号汽油将多花12.5元 钱江摩托否认“围剿张雪机车” 30条中日航线4月取消全部航班 SpaceX冲刺上市，资本开支飙升数百亿 TOP3大新闻 DeepSeek拟募资最高500亿元 据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。(财联社) “全国销冠”任晓敏被刑拘，泰康人寿回应 5月7日，泰康人寿方面对记者表示，近日，泰康人寿青岛分公司个人代理人任某某被青岛市公安机关立案侦查，引发社会广泛关注。对此，公司高度重视，第一时间组织专项工作组派驻青岛",
-    "collected_at": "2026-05-11T02:28:52.189751"
-  },
-  {
-    "id": "0418b324e16d",
-    "title": "People Hate AI Art",
-    "url": "https://mccue.dev/pages/5-8-26-ai-art",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-05-09T00:39:58",
-    "summary": "Article URL: https://mccue.dev/pages/5-8-26-ai-art Comments URL: https://news.ycombinator.com/item?id=48070548 Points: 150 # Comments: 172",
-    "collected_at": "2026-05-11T02:28:50.340897",
-    "title_zh": "人们讨厌人工智能艺术",
-    "summary_zh": "文章网址：https://mccue.dev/pages/5-8-26-ai-art 评论网址：https://news.ycombinator.com/item?id=48070548 积分：150 # 评论：172",
-    "ai_summary": "文章网址：https://mccue.dev/pages/5-8-26-ai-art 评论网址：https://news…"
-  },
-  {
-    "id": "8e2b23460141",
-    "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-    "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-05-08T23:59:19",
-    "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t",
-    "collected_at": "2026-05-11T02:28:49.226426",
-    "title_zh": "马斯克诉奥特曼第二周：OpenAI 反击，Shivon Zilis 透露马斯克试图挖走山姆·奥特曼",
-    "summary_zh": "在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第二周，马斯克提起诉讼的动机受到了密切关注。上周，马斯克出庭，指控 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 和总裁格雷格·布罗克曼 (Greg Brockm…",
-    "ai_summary": "在埃隆·马斯克和 OpenAI 之间具有里程碑意义的审判的第二周，马斯克提起诉讼的动机受到了密切关注。上周，马斯克出庭…"
-  },
-  {
-    "id": "3db6af49a0c9",
-    "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-    "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-08T22:59:05",
-    "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-    "collected_at": "2026-05-11T02:28:48.906165",
-    "title_zh": "被解雇的甲骨文员工试图通过谈判获得更好的遣散费。甲骨文说不。",
-    "summary_zh": "一些人发现他们没有资格获得警告法案的保护，比如提前两个月通知，因为公司已将他们归类为远程员工",
-    "ai_summary": "一些人发现他们没有资格获得警告法案的保护，比如提前两个月通知，因为公司已将他们归类为远程员工"
-  },
-  {
-    "id": "hn-48019219",
-    "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-    "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-05-05T07:34:55Z",
-    "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-    "points": 1755,
-    "collected_at": "2026-05-15T19:22:08.092565"
-  },
-  {
-    "id": "hn-47679121",
-    "title": "Project Glasswing: Securing critical software for the AI era",
-    "url": "https://www.anthropic.com/glasswing",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-07T18:09:34Z",
-    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
-    "points": 1541,
-    "collected_at": "2026-05-15T19:22:08.092653"
-  },
-  {
-    "id": "hn-47363754",
-    "title": "Can I run AI locally?",
-    "url": "https://www.canirun.ai/",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-03-13T12:46:10Z",
-    "summary": "Can I run AI locally?",
-    "points": 1520,
-    "collected_at": "2026-05-15T19:22:08.092777"
-  },
-  {
-    "id": "hn-47340079",
-    "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
-    "url": "https://news.ycombinator.com/newsguidelines.html#generated",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-03-11T19:29:29Z",
-    "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
-    "points": 4229,
-    "collected_at": "2026-05-15T19:22:08.092377"
-  },
-  {
-    "id": "hn-47225130",
-    "title": "Meta’s AI smart glasses and data privacy concerns",
-    "url": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-03-02T22:32:35Z",
-    "summary": "Meta’s AI smart glasses and data privacy concerns",
-    "points": 1448,
-    "collected_at": "2026-05-15T19:22:08.092822"
-  },
-  {
     "id": "hn-47136179",
     "title": "IDF killed Gaza aid workers at point blank range in 2025 massacre: Report",
     "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot",
@@ -4635,7 +4661,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-15T19:22:08.092490"
+    "collected_at": "2026-05-16T02:11:48.689125"
   },
   {
     "id": "hn-46990729",
@@ -4646,7 +4672,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-15T19:22:08.092454"
+    "collected_at": "2026-05-16T02:11:48.689062"
   },
   {
     "id": "hn-45941596",
@@ -4657,7 +4683,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-15T19:22:08.092835"
+    "collected_at": "2026-05-16T02:11:48.689435"
   },
   {
     "id": "hn-45930151",
@@ -4668,7 +4694,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-15T19:22:08.092882"
+    "collected_at": "2026-05-16T02:11:48.689476"
   },
   {
     "id": "hn-44972151",
@@ -4679,7 +4705,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-15T19:22:08.092593"
+    "collected_at": "2026-05-16T02:11:48.689225"
   },
   {
     "id": "hn-44396518",
@@ -4690,7 +4716,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-15T19:22:08.092741"
+    "collected_at": "2026-05-16T02:11:48.689350"
   },
   {
     "id": "hn-44314423",
@@ -4701,7 +4727,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-15T19:22:08.092791"
+    "collected_at": "2026-05-16T02:11:48.689393"
   },
   {
     "id": "hn-44163063",
@@ -4712,7 +4738,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-15T19:22:08.092428"
+    "collected_at": "2026-05-16T02:11:48.689036"
   },
   {
     "id": "hn-42910910",
@@ -4723,7 +4749,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-15T19:22:08.092606"
+    "collected_at": "2026-05-16T02:11:48.689237"
   },
   {
     "id": "hn-41392128",
@@ -4734,7 +4760,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-15T19:22:08.092507"
+    "collected_at": "2026-05-16T02:11:48.689142"
   },
   {
     "id": "hn-41386319",
@@ -4745,7 +4771,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-15T19:22:08.092521"
+    "collected_at": "2026-05-16T02:11:48.689156"
   },
   {
     "id": "hn-41069829",
@@ -4756,7 +4782,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-15T19:22:08.092896"
+    "collected_at": "2026-05-16T02:11:48.689489"
   },
   {
     "id": "hn-41046773",
@@ -4767,7 +4793,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-15T19:22:08.092414"
+    "collected_at": "2026-05-16T02:11:48.689023"
   },
   {
     "id": "hn-40767459",
@@ -4778,7 +4804,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-15T19:22:08.092911"
+    "collected_at": "2026-05-16T02:11:48.689502"
   },
   {
     "id": "hn-39918245",
@@ -4789,7 +4815,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-15T19:22:08.092850"
+    "collected_at": "2026-05-16T02:11:48.689448"
   },
   {
     "id": "hn-39526057",
@@ -4800,7 +4826,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-15T19:22:08.092399"
+    "collected_at": "2026-05-16T02:11:48.689009"
   },
   {
     "id": "hn-38544729",
@@ -4811,7 +4837,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-15T19:22:08.092466"
+    "collected_at": "2026-05-16T02:11:48.689074"
   },
   {
     "id": "hn-37021160",
@@ -4822,7 +4848,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-15T19:22:08.092620"
+    "collected_at": "2026-05-16T02:11:48.689251"
   },
   {
     "id": "hn-31812259",
@@ -4833,7 +4859,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-15T19:22:08.092804"
+    "collected_at": "2026-05-16T02:11:48.689405"
   },
   {
     "id": "hn-18249755",
@@ -4844,7 +4870,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-15T19:22:08.092577"
+    "collected_at": "2026-05-16T02:11:48.689210"
   },
   {
     "id": "hn-17022963",
@@ -4855,7 +4881,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-15T19:22:08.092550"
+    "collected_at": "2026-05-16T02:11:48.689184"
   },
   {
     "id": "hn-15892066",
@@ -4866,7 +4892,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-15T19:22:08.092763"
+    "collected_at": "2026-05-16T02:11:48.689368"
   },
   {
     "id": "hn-6830566",
@@ -4877,6 +4903,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-15T19:22:08.092865"
+    "collected_at": "2026-05-16T02:11:48.689460"
   }
 ]

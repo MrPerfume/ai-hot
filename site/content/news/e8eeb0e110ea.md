@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "前 20 篇 InfoQ首发优质内容，奖励 ¥100 京东卡点击查看原文>"
 summary_zh = ""
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

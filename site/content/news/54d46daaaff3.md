@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，业内人士透露，韩国无水氢氟酸生产商，包括Solbrain、ENF Technology、Huseong等将向包括三星电子和SK海力士在内的半导体公司供应电子级氢氟酸，且价格预计将在6月和7月大幅上涨。（界面）"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

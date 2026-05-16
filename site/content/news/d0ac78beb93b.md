@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地"
 summary_zh = ""
 tags = []
-list_page = 29
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->
