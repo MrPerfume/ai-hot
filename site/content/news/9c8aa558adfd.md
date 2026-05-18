@@ -20,7 +20,7 @@ ai_summary = "在马斯克诉奥特曼案审判的最后一周，律师们就埃
 summary = "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who w"
 summary_zh = "在马斯克诉奥特曼案审判的最后一周，律师们就埃隆·马斯克和 OpenAI 首席执行官萨姆·奥特曼的可信度展开了激烈的争论。 Altman 因其涉嫌在与 OpenAI 开展业务的公司中撒谎和自我交易的历史而受到盘问。但他予以反击，将马斯克描绘成…"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.seangoedecke.com/steering-vectors/ 评�
 summary = "Article URL: https://www.seangoedecke.com/steering-vectors/ Comments URL: https://news.ycombinator.com/item?id=48160807 Points: 128 # Comments: 47"
 summary_zh = "文章网址：https://www.seangoedecke.com/steering-vectors/ 评论网址：https://news.ycombinator.com/item?id=48160807 积分：128 # 评论：47"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-18 03:00:44
+🕐 **最近更新**：2026-05-18 10:38:43
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,8 +16,8 @@
 
 ## 🔥 今日热点
 
-1. [TechCrunch Mobility：汽车领域的人工智能技能军备竞赛即将来临](https://aihot.bt199.com/news/481cbcf6e999/)
-   - 欢迎回到 TechCrunch Mobility——您获取关于未来交通的新闻和见解的中心枢纽
+1. [为什么信任是 Elon Musk-OpenAI 试验中的一个大问题](https://aihot.bt199.com/news/0687ec213c6d/)
+   - 审判最后几天的一个重要主题是 OpenAI 首席执行官 Sam Altman 是否值得信任
    - `TechCrunch AI · 2026-05-17`
 
 2. [据报道，改进后的 Siri 将提供自动删除聊天记录的功能](https://aihot.bt199.com/news/5c90a84245fe/)
@@ -119,6 +119,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -1,5 +1,59 @@
 [
   {
+    "id": "3651d1340c7e",
+    "title": "从 Vibe Coding 到需求托管交付 Agent，菜鸟 AI 研发效能实践｜AICon上海",
+    "url": "https://www.infoq.cn/article/PrTG5MYs9cj38FclfCPl?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-18T10:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-18T02:37:05.372853",
+    "content_text": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n菜鸟网络研发总监郭凤钊已确认出席 “\n企业级研发体系的重构\n” 专题，并发表题为《\n从 Vibe Coding 到需求托管交付 Agent，菜鸟 AI 研发效能实践\n》的主题分享。AI Coding 工具正在快速渗透研发流程，但大部分企业的落地仍停留在“辅助写代码”阶段，缺乏体系化的工程方法论。菜鸟 AI 研发效能团队从 2023 年开始推进 AI Coding 落地，AI 代码贡献率从 10% 提升至 80%+，部分团队接近 100%。经历了从 Vibe Coding 到 Harness Engineering 的演进，本次分享将完整呈现这条从工具采用到工作流重构的实践路径，以及过程中踩过的坑。\n郭凤钊，菜鸟 AI 研发效能负责人 / 架构师，负责研发效能、稳定性与 FinOps 体系，双 11 等大促技术 PM。专注于 AI 赋能企业研发效能的实践与落地，是菜鸟内部 AI 技术布道的核心推动者。鲲鹏会杭州会员。他在本次会议的详细演讲内容如下：\n演讲提纲：\n从 Vibe Coding 到 Harness Engineering，近 3 年的认知升级路径\n以 Agent-Friendly 的理念重塑需求交付全流程\n硅基程序员，实现从 Coding Copilot 到需求的托管交付\n研发效能度量的世纪难题与 AI Coding 的价值呈现\n听众收益：\n拿到一套可迁移的 AI Coding 工程化方法论。 分层上下文管理、Playbook 驱动的流程编排、确定性质量门控，可以直接迁移到自己团队的技术栈上\n理解从 Vibe Coding 到生产级 AI 工程的完整演进路径和踩坑经验。 包括微服务场景的失败模式、上下文污染的解决方案、度量指标的坑\n获得\"硅基程序员\"从概念到落地的具体架构参考。 完整呈现一个 AI Agent 如何从 Copilot 级别的辅助工具演进为可托管需求交付的硅基员工\n除此之外，本次大会还策划了\n端侧 AI、物理与数字空间智能化\n、\n世界模型与多模态智能突破\n、\nAgent 架构与工程化实践\n、\nAgent 安全与可信治理\n、\n企业级研发体系重构\n、\nAI 原生数据工程\n、\nAI 时代的个人提效与组织变革\n等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。\n更多详情可扫码或联系票务经理 13269078023 进行咨询。",
+    "content_source": "readability",
+    "content_chars": 1303,
+    "content_excerpt": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n菜鸟网络研发总监郭凤钊已确认出席 “\n企业级研发体系的重构\n” 专题，并发表题为《\n从 Vibe Coding 到需求托管交付 Agent，菜鸟 AI 研发效能实践\n》的主题分享。AI Coding 工具正在快速渗透研发流程，但大部分企业的落地仍停留在“辅助写代码”阶段，缺乏体系化的工程方法论。菜鸟 AI 研发效能团队从 2023 年开始推进 AI Coding 落地，AI 代码贡献率从 10% 提升至 80%+，部分团队接近 100%。经历了从 Vibe Coding 到 Harness Engineering 的演进，本次分享将完整呈现这条从工具采用到工作流重构的实践路径，以及过程中踩过的坑。\n郭凤钊，菜鸟 AI 研发效能负责人 / 架构师，负责研发效能、稳定性与 FinOps 体系，双 11 等大促技术 PM。专注于 AI 赋能企业研发效能的实践与落地，是菜鸟内部 AI 技术布道的核心推动者。鲲鹏会杭州会员。他在本次会议的详细演讲内容如下："
+  },
+  {
+    "id": "e9a847371acf",
+    "title": "北京今日宜休公司增资",
+    "url": "https://36kr.com/newsflashes/3814174639988226?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-18T02:19:05",
+    "summary": "36氪获悉，天眼查App显示，近日，北京今日宜休科技有限责任公司发生工商变更，新增深圳弘晖天使创新投资合伙企业（有限合伙）、青岛君礼星浩创业投资合伙企业（有限合伙）等为股东，注册资本由约110.9万人民币增至约120万人民币，同时，部分高管发生变更。该公司成立于2026年1月，法定代表人为王腾，经营范围包括软件开发、人工智能应用软件开发、智能家庭消费设备销售等，由王腾、北京星河好梦企业管理咨询合伙企业（有限合伙）及上述新增股东等共同持股。",
+    "collected_at": "2026-05-18T02:37:04.038046"
+  },
+  {
+    "id": "v2ex-1213387",
+    "title": "AI 时代，程序员被清楚地分为了两类人",
+    "url": "https://www.v2ex.com/t/1213387",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-18T01:04:06",
+    "summary": "看到一个 V 友的帖子[ai coding 后已经慢慢丧失了对程序员这份职业的热爱了]( https://www.v2ex.com/t/1213164)，看下面的回复，我发现有两种回复，一种是觉得同感的，另外一种是觉得比之前更喜欢了，我发现这其中的关键是，是喜欢编程这件事本身，还是喜欢通过编程来实现自己的想法，如果前者，现在逐行手写代码的古法编程模式已经被取代了，那肯定是觉得没有任何乐趣了。如果是后者，那现在简直是最好的时代，以前受限于时间精力有限，很多想法没有机会实现，现在在 AI 的加持下，各种想法的实现成本大大降低了，可以更快更好的实现自己的想法了。",
+    "collected_at": "2026-05-18T02:37:06.137213"
+  },
+  {
+    "id": "0687ec213c6d",
+    "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
+    "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-17T19:46:34",
+    "summary": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+    "collected_at": "2026-05-18T02:37:00.174672",
+    "content_text": "Lawyers for Elon Musk and OpenAI made their closing arguments this week, and now it’s up to jurors to decide whether OpenAI did anything wrong as it’s transformed into\na slightly-more-for-profit\norganization.\nBut as Kirsten Korosec, Sean O’Kane, and I noted on the latest episode of\nTechCrunch’s Equity podcast\n, a big theme in the trial’s final days was\nwhether OpenAI CEO Sam Altman is trustworthy\n— for example, Musk’s attorney Steve Molo grilled Altman about whether statements he’d made during congressional testimony were truthful.\nKirsten noted that Musk has\nmade plenty of misleading statements of his own\n, and that trust isn’t just an issue for Altman.\n“This is a fundamental question [for] a lot of tech journalists, policymakers, and more and more consumers, about all the AI labs,” she said. “It’s really come down to trust, because we don’t have the insight, necessarily — these are all privately held companies, there’s a lot behind the veil still.”\nKeep reading for a preview of our conversation, edited for length and clarity.\nAnthony Ha:\n[The end of the trial] led to this really provocative headline from one of our writers, Tim Fernholz, [that] just says,\n“Who trusts Sam Altman?”\nDoes anyone want to take a stab at answering this?\nKirsten Korosec:\nYeah, Anthony, I’m going to throw it right back to you. Do you trust Sam Altman?\nAnthony:\nIt's an interesting question because it feels like something that's kind of a wild question to discuss in a journalistic context, but actually that's the core of the trial, in a lot of ways.\nSean O’Kane:\nThat’s not a yes.\nAnthony:\nAnd it actually seems to be [at the] core of understanding so much of what's happened at OpenAI, especially this big executive power struggle that they now call The Blip.\nIt just seems like a lot of people who've worked with Altman\ndon't trust him\n. And he's acknowledged this a little bit, because he'll talk about the fact that\nhe recognizes he's been conflict averse\n, telling people what they want to hear, and he's trying to work on that.\nI mean, it sounds plausible, and I can understand how that can lead to misunderstandings in some situations. [But] I'm also a very conflict-averse person and I'd like to think that if any of this stuff went to trial, that people would not be asking, “Is Anthony Ha trustworthy?”\nSean:\nStill not a yes!\nKirsten:\nI think that people would say that you are trustworthy. I will say that question, while provocative, doesn't just encapsulate what this trial was about. I would zoom out even more and say this is a fundamental question [for] a lot of tech journalists, policymakers, and more and more consumers, about all the AI labs. It's really come down to trust, because we don't have the insight, necessarily — these are all privately held companies, there's a lot behind the veil still.\nMaybe when they all IPO, we can get a peek, but it is fundamentally about trust and misuse, and do we believe the intent? And what I would throw back is, sometimes the intent can be worthy, noble, and still misused. It can still end up as a bit of a shit show. I think it's more than who trusts Sam Altman — although that was very interesting in this trial — but more of that bigger question that we can apply to the entire industry.\nSean:\nI'll say it: I don't trust him. But you know, I don't trust most people, so I guess that's just the baseline.\nWe’ll see where this goes. The trial wraps up today. I've been very curious to hear how the jury decides this all. I think at the start of this, a big motivator of this was Elon Musk trying to sling mud, at a perceived rival and someone who he feels slighted him. And I don't know if we know enough yet to say that that was completely accomplished, and whether or not he has a shot at winning. But I think all these people came out of this looking a little bit worse.\nAnthony:\nAnd just to get specific, why this is coming up this week is that [Altman] was on the stand and he was basically getting grilled about some statements he's made in the past, in testimony to [Congress], basically saying he didn't have any equity in OpenAI. And that is not true because he had a stake through Y Combinator, which he used to run. And tried to brush that off by saying, “I assume that everybody understands what it means to be a passive investor in a VC fund.” And I think [Elon Musk’s] lawyer, somewhat fairly, said “Really? You think the congressman who was interviewing you knew that?”\nKirsten:\nYeah, I mean, he was playing the whole semantics game. What I thought was so interesting about [this] is the style of how Sam Altman answered questions [compared to] Elon Musk on the stand.\nSo Elon Musk, in many, many, many scenarios and many instances, we can point to the fact that he put something out on Twitter that was a lie or a bit of a fib, and on the stand corrected the record. So there's a history of, I would say, non-truthfulness-slash-lying, blatant or otherwise, in Elon Musk's world, but how he treated it was incredibly combative and very different than Altman who really took this [attitude of], “I'm working on it,” and tried to seem sort of affable and I don't know if it’ll work for him.\nBecause it really comes down to the core facts, and hopefully that's what the jury pays attention to. But I thought that that was really interesting — both being untruthful, but how they dealt with it was very different.",
+    "content_source": "readability",
+    "content_chars": 5389,
+    "content_excerpt": "Lawyers for Elon Musk and OpenAI made their closing arguments this week, and now it’s up to jurors to decide whether OpenAI did anything wrong as it’s transformed into\na slightly-more-for-profit\norganization.\nBut as Kirsten Korosec, Sean O’Kane, and I noted on the latest episode of\nTechCrunch’s Equity podcast\n, a big theme in the trial’s final days was\nwhether OpenAI CEO Sam Altman is trustworthy\n— for example, Musk’s attorney Steve Molo grilled Altman about whether statements he’d made during congressional testimony were truthful.\nKirsten noted that Musk has\nmade plenty of misleading statements of his own",
+    "title_zh": "为什么信任是 Elon Musk-OpenAI 试验中的一个大问题",
+    "summary_zh": "审判最后几天的一个重要主题是 OpenAI 首席执行官 Sam Altman 是否值得信任",
+    "ai_summary": "审判最后几天的一个重要主题是 OpenAI 首席执行官 Sam Altman 是否值得信任"
+  },
+  {
     "id": "5c90a84245fe",
     "title": "Revamped Siri will reportedly offer auto-deleting chats",
     "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
@@ -4555,49 +4609,6 @@
     "content_excerpt": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会\n一水\n2026-05-11\n14:32:05\n来源：\n量子位\n老黄又当博士了。\n在卡内基梅隆大学（CMU）最新一届毕业典礼上，这位英伟达掌门人被授予科学与技术荣誉博士学位，并向5800多名毕业生发表雨中演讲。\nP.S. 这已经是他拿到的第7个荣誉博士学位了。\n作为全球AI浪潮最核心的推手，他讲了一句注定刷屏的话："
   },
   {
-    "id": "v2ex-1211876",
-    "title": "我做了个小硬件，突破限制，彻底解决 iPhone 骚扰电话拦截效果差的问题",
-    "url": "https://www.v2ex.com/t/1211876",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-05-11T06:18:47",
-    "summary": "大家好啊，我是拦截猫 APP 作者，拦截猫是 iPhone 上的骚扰电话拦截 APP ，但是苹果系统限制很恶心，很难做到良好的拦截效果。 于是我们经过一年的研发和调研，找到了最佳的解决方案，就是这款硬件。 只有 U 盘大小，可以通过 APP 进行配置，用硬件辅助拦截骚扰电话。 简单来说：硬件会模拟蓝牙耳机协议(所以供电就行，不是必须插手机)，通过蓝牙通道获取来电号码，再结合你配置的规则进行识别与处理。 唯一缺点，拦截距离 5-8 米，随身携带很麻烦，很适合固定场所，我们也在研究如何缩小，做成便携设备。 - 硬件具体介绍请看： https://www.wolai.com/lanjiemao/3D",
-    "collected_at": "2026-05-12T02:14:21.231243",
-    "content_text": "大家好啊，我是拦截猫 APP 作者，拦截猫是 iPhone 上的骚扰电话拦截 APP ，但是苹果系统限制很恶心，很难做到良好的拦截效果。\n于是我们经过一年的研发和调研，找到了最佳的解决方案，就是这款硬件。\n只有 U 盘大小，可以通过 APP 进行配置，用硬件辅助拦截骚扰电话。\n简单来说：硬件会模拟蓝牙耳机协议(所以供电就行，不是必须插手机)，通过蓝牙通道获取来电号码，再结合你配置的规则进行识别与处理。\n唯一缺点，拦截距离 5-8 米，随身携带很麻烦，很适合固定场所，我们也在研究如何缩小，做成便携设备。\n-\n硬件具体介绍请看： https://www.wolai.com/lanjiemao/3DiUSCMhTv2chPbvSruhKR\n-\nApp Store : https://itunes.apple.com/app/6476010032?platform=iphone\n另外也感谢大家一直以来的支持 ❤️\n猫短信和电话相关功能，基本已经做得差不多了。\n不过猫后面还会有新的方向，接下来会开始尝试：「专注反诈」。\n一些新的功能和产品，也会在后面陆续和大家见面。\n接下来请欣赏我们的使用图",
-    "content_source": "trafilatura",
-    "content_chars": 498,
-    "content_excerpt": "大家好啊，我是拦截猫 APP 作者，拦截猫是 iPhone 上的骚扰电话拦截 APP ，但是苹果系统限制很恶心，很难做到良好的拦截效果。\n于是我们经过一年的研发和调研，找到了最佳的解决方案，就是这款硬件。\n只有 U 盘大小，可以通过 APP 进行配置，用硬件辅助拦截骚扰电话。\n简单来说：硬件会模拟蓝牙耳机协议(所以供电就行，不是必须插手机)，通过蓝牙通道获取来电号码，再结合你配置的规则进行识别与处理。\n唯一缺点，拦截距离 5-8 米，随身携带很麻烦，很适合固定场所，我们也在研究如何缩小，做成便携设备。\n-\n硬件具体介绍请看： https://www.wolai.com/lanjiemao/3DiUSCMhTv2chPbvSruhKR\n-\nApp Store : https://itunes.apple.com/app/6476010032?platform=iphone\n另外也感谢大家一直以来的支持 ❤️"
-  },
-  {
-    "id": "0f6c2f91c5b1",
-    "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
-    "url": "https://www.qbitai.com/2026/05/415186.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-11T05:14:35",
-    "summary": "陶哲轩：但「消化」属于人类",
-    "collected_at": "2026-05-11T09:27:06.926783",
-    "content_text": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果\n陶哲轩：但「消化」属于人类\nJay 闻乐 发自 凹非寺\n量子位 | 公众号 QbitAI\n如果AI的数学水平继续按目前速度发展，我们（数学研究者）很快会面临一场危机。\n数学最高奖菲尔兹奖得主——Timothy Gowers，在最新体验到ChatGPT 5.5 Pro后，替学生们拉响了红色警报。\n其对博士生的影响，尤为紧迫。\n事情是这样的，这位剑桥大学的数学大牛，最近搞到了尊贵的 5.5 Pro「优速通」权限。\n拿到新玩具后，Gowers随手把几道加法数论的公开难题丢给了AI，想瞅瞅怎么个事。\n但接下来发生的事，完全超出了他的预料。\n不到两个小时，小GPT独立完成了一项他认为「完全够格写进博士论文」的数学成果。\n全程，Gowers教授没有提供任何数学层面的指导。\n唯一需要他做的事就是：\n嗯你这个想法不错，你展开试试？\n可以啊，能不能帮我写成LaTeX预印本格式？\n这一刻，Gowers 真切地感受到了当代年轻人那种窒息的焦虑——\n当AI已经能独立攻克这种水平的难题，正在读博的年轻数学家们，该何去何从？\n连他都给不出清晰的答案。\n唯一能做的，就是尽可能快地为学生们找到新出路。\n在AGI真的来临之前，重新找到数学学习的真正价值，然后迅速转向。\n对学生负有责任的数学系，应该紧急为此做好准备。\n但先别焦虑，因为另一位菲尔兹奖得主——陶哲轩，有很多想跟大家说的。\n毕竟，他可谓是AI和数学交界线的先锋了，前段时间还联合创立了一个AI4S组织，就是想帮助年轻人寻找AI时代新出路。\n无独有偶，陶哲轩刚刚也发出了自己的最新感悟：\n数学证明的「消化」问题，才是AI时代人类数学家最不可替代的价值所在。\n两位当世最顶尖的数学家，面对同一场风暴，给出了不同角度的思考。\n不过，相比陶哲轩，Gowers这次的reaction或许更有看头。\n毕竟陶哲轩已经是「AI老玩家」了hh，相对来说比较淡定。\nGowers这次是真有点「瘫软」了（bushi），直接怒发了一篇超级长文。\n真的很长很长……\n以下是整理好的，更方便大家阅读的版本。\nEnjoy。\n菲尔兹奖得主的ChatGPT 5.5 Pro数学实验\n故事的起点，其实是一篇挺有意思的论文。\n加法数论大佬Mel Nathanson写了篇论文，里面列了一堆关于整数集合求和性质的公开问题。\n这类问题的特点是方向明确，难度适中，数量又多，本来是留给刚入门的博士生练手、冲第一篇顶刊的黄金素材。\n结果被Gowers拿来为难ChatGPT 5.5 Pro了。\n他丢给AI的问题大概是这样的：\n给定一个整数集合A，已知它有k个元素（|A|=k），也知道它的二重求和集（简单说就是集合里所有元素两两相加得到的新集合，记为2A）有多少个元素，那A的直径最小能是多少？\nNathanson自己已经证明了一个指数级的上界（2^k-1），但一直怀疑还能优化。\nChatGPT 5.5 Pro思考了17分钟零5秒。\n然后它给出了一个二次上界的构造，而且是理论上最优的。\n它的核心思路是用Sidon集（一种求和集大小最大化的特殊集合）和等差数列做组合构造。\n咱通俗点说，就像搭积木，AI选了两种特殊积木。\n一种叫Sidon集，里面任意两个不同元素的和都不一样，能让求和集规模最大化。\n另一种是咱们上学都学过的等差数列，把这两种积木巧妙组合起来，就搭出了满足条件的最小直径集合。\nNathanson原本的证明用了归纳法，本质上也在做类似组合积木的事，但用的是2的幂次这种效率较低的Sidon集。\n但就像用大积木搭小房子，难免浪费空间，所以才得到了指数级的大直径。\nChatGPT 5.5 Pro则是直接换了一种已知的更高效Sidon集。\n这种集合的直径是二次的（简单说就是k个元素的话，直径大概是k²级别），比指数级（2^k）小了不止一个数量级，相当于用精致的小积木精准搭房，空间利用率直接拉满。\n可能有朋友会说，这不就是把已有的数学工具重新拼了一下吗？\n还真没错。\n但Gowers自己也承认，相当多的人类数学研究，本质上也是在组合已有的知识和证明技巧。\n关键在于，Nathanson本人没有想到这一步，而ChatGPT想到了。\nGowers接着又问了一个相关的升级版问题——\n把二重求和集换成限制求和集，也就是这个集合里的元素两两相加时，要求两个元素不能是同一个，其他条件不变，还能不能找到最小直径？\n这个问题毫无悬念也被解决了。\n然后他让ChatGPT把两个结果合并写成一篇学术笔记，47分钟后，一份标准的LaTeX预印本就出来了。\n然后事情开始变得更有意思，Gowers又上了难度，问了一般情形下k重求和集的直径问题。\n这个问题要难得多，因为对于一般的k，我们甚至不完全知道哪些求和集大小是可以被实现的，连基本的构造框架都缺。\n不过好在麻省理工学院（MIT）的学生Isaac Rajagopal已经做了开创性工作，他证明了h重求和集直径的指数级依赖关系。\nGowers想看看GPT 5.5 Pro能不能在Isaac的基础上做改进，没想到，AI直接上演了两连跳操作，还独创了k-解离集合构造。\n接下来发生的事，按时间线捋一下:\n- 第一轮，ChatGPT思考了16分41秒，基于解离集合的创新思路把上界从指数级改进到了亚指数级。\n- 第二轮，Gowers让它写成预印本，花了47分39秒。\n- 第三轮，Isaac本人看了，认为论证看起来是对的，而且论证逻辑严谨，k-解离集合的运用很巧妙。\n- 第四轮，Gowers贪心了，问ChatGPT能不能进一步推到多项式界。\n- 第五轮，ChatGPT思考了13分33秒，提出微调k-解离集合可以做到，但有几个技术细节需要验证。\n- 第六轮，Gowers让它自己验证，9分12秒后搞定核心卡点。\n- 第七轮，写成预印本，31分40秒。\n- 第八轮，Isaac再次审阅，判断结论基本成立。而且他特别指出，不只是逐行正确，在思路层面也是对的，也就是说ChatGPT确实贡献了新的想法。\n而整个过程，Gowers的数学输入为零。\n他做的全部工作就是当一个项目经理（数学版）——\n提出需求，确认方向，要求交付。\n数学本身，全是ChatGPT在做。\nAI提高了数学博士生入门门槛\n这件事如果只是一个酷炫的demo，倒也还好。\n但Gowers看到的是两个正在逼近的危机。\n首先，一个很现实的问题是，这个AI搞出来的结果该怎么处理？\n如果是人类数学家做出来的，这完全够得上发表。\n但现在主要工作是AI完成的——\narXiv已经明确拒绝AI生成内容，传统期刊显然也不会接受。\n那它该放在哪？\nGowers自己提了一个设想，也许应该建一个专门的AI数学成果仓库，有一定的审核流程。\n比如需要人类数学家确认正确性，或者经过形式化证明助手验证，但也不要让审核本身变成巨大的工作量。\n坦率的讲，这个问题目前没有答案，所以现在这个成果就挂在Gowers的博客上，靠一个链接存在着。\n成果归属问题之外，才是Gowers真正焦虑的地方——\n数学培养体系被釜底抽薪。\n训练博士生做研究，最经典的路径就是给新手一个难度适中的公开问题入门。\nNathanson论文里的那些问题，原本就是完美的素材。\n但现在，ChatGPT 5.5 Pro两个小时就解决了。\n这直接把入门门槛抬高了，因为以前你只需要证明一个没人证过的东西，现在你得证明一个AI也证不了的东西。\nGowers倒也没有完全悲观，他给出了两个缓冲空间。\n一个是，博士生也可以用AI。\n未来科研门槛可以不再是硬刚「AI解不出的题」，而是在人机协作下，做出AI单独做不到的成果。\nGowers自己最近也在大量做这种人机协作的数学研究，他说AI确实能提供有用的贡献，但还没到能独立产生game-changing想法的地步。\n另一个是，AI最容易突破的其实是组合数学。\n因为组合学本质上是从问题出发的反向推理，而其他数学分支更多是从想法出发的正向探索。\n后者需要判断什么观察是有趣的、什么方向值得深入，这种审美判断对AI来说可能更难，目前仍是人类占优。\n但他也特意强调以上都只适用于当下的AI，大模型迭代太快，现在的判断可能几个月就过时。\n而且还扎心了一波：\n如果一个人做数学的目的是把自己的名字永远刻在某个定理或定义上，追求「冠名永生」，那这种时代红利可能很快就会彻底消失，对所有人都一样。\nGowers用一个思想实验点透本质：\n假设一个数学家通过和AI长时间对话解决了一个重大问题，数学家起了引导作用，但主要想法和全部技术工作都是AI完成的，我们会认为这是这位数学家的重大成就吗？\nGowers的答案是：不会。\n既然如此，那AI时代学数学还有什么意义？\nGowers说，就像优秀的程序员比普通人更擅长Vibe coding，真正做过研究的数学家也会更擅长和AI协作。因为你对问题解决过程本身的理解越深，你用AI的能力就越强。\n数学本身是一种高度可迁移的底层思维能力，未来数学研究者或许失去了独享定理冠名的学术荣誉，但沉淀的思维功底，会是AI时代最好的个人底气。\n陶哲轩的三层金字塔\n其实吧，关于AI对数学研究的冲击，陶哲轩看到的很早很早。\n今天，他提出了一个「金字塔」，将数学问题的解决拆分为三个组成部分\n- 证明生成：构造出一个完整的证明。\n- 证明验证：确认证明是正确的。\n- 证明消化：真正理解这个证明在说什么，为什么是对的，它揭示了什么更深的结构。\n前两个，AI正在以惊人的速度实现自动化。\n但第三个——消化——远远没有被解决。\n这将引发一种前所未有的「认知过载」：\n证明像不要钱一样被大量生成，甚至机器都能帮你验算完了，但没有人真正消化它们。\n陶哲轩称其为「证明消化不良」（proof indigestion）。\n对此，或许会有人提议：\n那就把第三步也自动化掉嘛，训练AI用更好的数学写作风格来呈现证明，让它更容易被理解。\n但陶哲轩的意思是，盲目优化「可读性」指标，可能反而让最终产物变得更差。\n他用烹饪作类比。\n我们咀嚼食物，是为了帮助消化。烹饪技术可以让食物更嫩，减少咀嚼的需要。\n但如果你决定彻底优化消化过程、把「需要咀嚼的量」到最低，那逻辑上的最优解就是——把所有食物丢进搅拌机，通过管子直接灌进胃里。\n这在技术上确实解决了消化问题。但没人想这么吃饭，不管身体还是精神都会出大问题的。\n吃饭的价值从来不只是摄入营养。\n感官体验，还有社交场景，还有咀嚼本身带来的满足感……这些附加产物，才是人类最享受的东西。\n优化掉所有摩擦，你得到的不是更好的饮食，而是一根饲料管。\n数学也一样。\n分清楚什么是数学学习中，「必须」经历的摩擦。\n有些证明中的「难度」，是人为制造的。\n措辞不清晰、结构混乱……这些「人工难度」，用AI读论文确实可以消除，就像把一块肉腌制一下再上桌。\n但还有一种，属于「自然难度」。\n它本来就应该是难的。\n读者需要「咀嚼」它，才能获得真正的理解，并在这一过程中迸发新的灵感。\n这就像陶哲轩之前在播客说的，他会故意在日程表中空出一段时间，用来「不期而遇」。\n看到这里，有人可能还会说：让AI解决一切，继续优化评判标准，把「自然难度」也纳入考量不就好了？\n但事实上，不是所有问题都能被当做一个「优化问题」——只要无限迭代，到最后得到的结果，就一定是我们想要的。\n人类对待食物思路就不是这样。\n米其林大厨手工制作的料理，至今仍然比机器加工的食品更受珍视，即使后者安全、好看、易消化、方便、口味也不差。\n不是说加工食品没有用处。\n只是，没有人会认真地提议，用它来完全取代人类的烹饪艺术。\n这叫「烟火气」，是必须人类去赋予的。\n不要掉进搅拌机\n两位菲尔兹奖得主，面对同一场风暴，看到的是不同的东西。\nGowers看到的是危机。\n那些原本为年轻数学家准备的「入门赛道」，正在被AI碾平。培养体系的地基在动摇，学术发表的规则在失效。\n新人的路在何方？\n对此，陶哲轩其实也没有答案，他给出的，是边界。\nAI能生成证明、能验证证明，但「消化」，至少目前，还是独属于人类。\n不是AI做不到，而是……\n我们不能交出去。\n这不是单纯的知识型任务，「消化」这件事，触及到智能本身。\n这真是个属于「意义」的时代。\nAI正在一步步把我们逼到墙角，一次又一次无止境地追问：\n到底什么才是独属于人类的、最珍贵的东西？\n在数学领域，这个东西可能是陶哲轩所说的那种有益的「自然难度」。\n那些必须靠自己咀嚼、煎熬地探索，才能真正变成你一部分的知识。\n或许，其他领域同样如此。\n搅拌机可以把一切打碎。\n但有些东西，永远需要人亲自去做。\n不要沦为黑客帝国里，被插着管子的生物电池。\n参考链接：\n[1]https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/\n[2]https://x.com/wtgowers/status/2052830948685676605\n[3]https://mathstodon.xyz/@tao/116551624228986501\n- 不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件2026-05-09\n- 小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪2026-04-29\n- 一台中国空间相机，打破索尼富士Adobe的影像垄断2026-04-27\n- AI开始接管实验室了！玻尔·跃迁实验室：试剂、设备、数据一个入口搞定，1800+设备即插即用2026-04-18",
-    "content_source": "trafilatura",
-    "content_chars": 5624,
-    "content_excerpt": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果\n陶哲轩：但「消化」属于人类\nJay 闻乐 发自 凹非寺\n量子位 | 公众号 QbitAI\n如果AI的数学水平继续按目前速度发展，我们（数学研究者）很快会面临一场危机。\n数学最高奖菲尔兹奖得主——Timothy Gowers，在最新体验到ChatGPT 5.5 Pro后，替学生们拉响了红色警报。\n其对博士生的影响，尤为紧迫。\n事情是这样的，这位剑桥大学的数学大牛，最近搞到了尊贵的 5.5 Pro「优速通」权限。\n拿到新玩具后，Gowers随手把几道加法数论的公开难题丢给了AI，想瞅瞅怎么个事。\n但接下来发生的事，完全超出了他的预料。"
-  },
-  {
-    "id": "v2ex-1211874",
-    "title": "婚纱照好贵,基本上都 2/3K,跟对象看了看婚纱写真也不错,几百块,有拍过的哥们吗?",
-    "url": "https://www.v2ex.com/t/1211874",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-05-11T06:14:58",
-    "summary": "每个人都告诉我俩拍个贵贵的婚纱照没啥用,自己也不会打开看 我对象也不追求这个,有几张照片,留个纪念就行 看了看婚纱照太贵了,最基础也得 2.3k 然后搜索发现有情侣婚纱写真,几百块,室内拍,两三套,几十张,底片全送 不知道有拍过的老哥吗?有啥子需要注意的嘛? 还有给我推荐 AI 婚纱照生成的哈哈",
-    "collected_at": "2026-05-12T02:14:21.231279",
-    "content_text": "每个人都告诉我俩拍个贵贵的婚纱照没啥用,自己也不会打开看\n我对象也不追求这个,有几张照片,留个纪念就行\n看了看婚纱照太贵了,最基础也得 2.3k\n然后搜索发现有情侣婚纱写真,几百块,室内拍,两三套,几十张,底片全送\n不知道有拍过的老哥吗?有啥子需要注意的嘛?\n还有给我推荐 AI 婚纱照生成的哈哈\nSupplement 1 · 11h 30m ago\n首先说一下我对象的意思,她也是程序员,也比较前卫,她是同意 AI 生成或者婚纱写真的,她和我一样觉得花个大几千搞个婚纱照没有必要,又热又累,之后朋友也不看,自己也不看(每个人都告诉我没有必要拍个很好的婚纱照,包括刚去云南那边花了大几万拍完的同事,听人劝也吃饱饭). 可能直接没有接触过摄影价格,看了一下大几千初始感觉还是比较贵的.也不是说出不起这个钱,只是觉得不值这个钱,毕竟结婚少不了一二十万的,我俩就秉承着该省省该花花,多买黄金,多去旅游. 我俩的婚礼也是打算极简一点的婚礼,想着做个 vlog,找一家比较好的酒店,讲两句,开席,吃饭就行!就是希望不那么累的开开心心的结个婚,不会过分的看中面子. 但是我觉得 AI 还是要分场景使用,我觉得花个大几百拍个写真就不错,自己确实也不怎么会拍照,也没有那么多的服装,花几个小时拍一下也是一些真的回忆,我还打算带着我家狗子一起拍一下,体验一下. 再次感谢大家热心回复.",
-    "content_source": "trafilatura",
-    "content_chars": 583,
-    "content_excerpt": "每个人都告诉我俩拍个贵贵的婚纱照没啥用,自己也不会打开看\n我对象也不追求这个,有几张照片,留个纪念就行\n看了看婚纱照太贵了,最基础也得 2.3k\n然后搜索发现有情侣婚纱写真,几百块,室内拍,两三套,几十张,底片全送\n不知道有拍过的老哥吗?有啥子需要注意的嘛?\n还有给我推荐 AI 婚纱照生成的哈哈\nSupplement 1 · 11h 30m ago\n首先说一下我对象的意思,她也是程序员,也比较前卫,她是同意 AI 生成或者婚纱写真的,她和我一样觉得花个大几千搞个婚纱照没有必要,又热又累,之后朋友也不看,自己也不看(每个人都告诉我没有必要拍个很好的婚纱照,包括刚去云南那边花了大几万拍完的同事,听人劝也吃饱饭). 可能直接没有接触过摄影价格,看了一下大几千初始感觉还是比较贵的.也不是说出不起这个钱,只是觉得不值这个钱,毕竟结婚少不了一二十万的,我俩就秉承着该省省该花花,多买黄金,多去旅游. 我俩的婚礼也是打算极简一点的婚礼,想着做个 vlog,找一家比较好的酒店,讲两句,开席,吃饭就行!就是希望不那么累的开开心心的结个婚,不会过分的看中面子. 但是我觉得 AI 还是要分场景使用,我觉得花个大几百拍个写真就不错,自己确实也不怎么会拍照,也没有那么多的服装,花几个小时拍一下也是一些真的回忆,我还打算带着我家狗子一起拍一下,体验一下. 再次感谢大家热心回复."
-  },
-  {
     "id": "hn-48085821",
     "title": "Local AI needs to be the norm",
     "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
@@ -4606,21 +4617,7 @@
     "published": "2026-05-10T17:19:28Z",
     "summary": "Local AI needs to be the norm",
     "points": 1894,
-    "collected_at": "2026-05-17T18:59:10.468434"
-  },
-  {
-    "id": "v2ex-1211856",
-    "title": "满血中转， codex 0.1 超低倍率分组，注册赠送两千万 token！求蹬，使劲蹬！",
-    "url": "https://www.v2ex.com/t/1211856",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-05-11T05:23:10",
-    "summary": "🌐 官网直达： https://shunfen6.win 1. ⚡ 真满血官方 GPT5.5 渠道 全程对接官方纯正 GPT5.5 算力池，严格进行关键特征校验。100% 还原官方完整推理能力、代码能力、深度创作与复杂逻辑运算水平，真正做到满血不缩水，全程智商在线。 2. 🛠️ 全开发者场景优化，计费透明 全站兼容标准 OpenAI 接口格式，可直接适配主流客户端与插件，无需复杂配置，即填即用。专属 GPT5.5 优化链路，针对长文本、多轮对话、复杂推理场景深度适配。计费规则公开透明，无隐藏倍率、无暗坑虚标，消费清晰可查。 🎉 V 站用户专属福利：新用户注册即赠送$10 ，在本帖回复您的注册邮",
-    "collected_at": "2026-05-11T09:29:26.910434",
-    "content_text": "🌐 官网直达： https://shunfen6.win\n-\n⚡ 真满血官方 GPT5.5 渠道\n全程对接官方纯正 GPT5.5 算力池，严格进行关键特征校验。100% 还原官方完整推理能力、代码能力、深度创作与复杂逻辑运算水平，真正做到满血不缩水，全程智商在线。\n-\n🛠️ 全开发者场景优化，计费透明\n全站兼容标准 OpenAI 接口格式，可直接适配主流客户端与插件，无需复杂配置，即填即用。专属 GPT5.5 优化链路，针对长文本、多轮对话、复杂推理场景深度适配。计费规则公开透明，无隐藏倍率、无暗坑虚标，消费清晰可查。\n🎉 V 站用户专属福利：新用户注册即赠送$10 ，在本帖回复您的注册邮箱，即可免费再领取 $10 美元平台余额！\n🎰 欧皇抽奖：本贴将随机抽取一位幸运用户，赠送 $50 刀永久额度！\n💰 充值方式与售后承诺\n支付渠道：支持 支付宝 便捷支付。\n平台承诺：所有算力保真满血，杜绝降智阉割。",
-    "content_source": "trafilatura",
-    "content_chars": 406,
-    "content_excerpt": "🌐 官网直达： https://shunfen6.win\n-\n⚡ 真满血官方 GPT5.5 渠道\n全程对接官方纯正 GPT5.5 算力池，严格进行关键特征校验。100% 还原官方完整推理能力、代码能力、深度创作与复杂逻辑运算水平，真正做到满血不缩水，全程智商在线。\n-\n🛠️ 全开发者场景优化，计费透明\n全站兼容标准 OpenAI 接口格式，可直接适配主流客户端与插件，无需复杂配置，即填即用。专属 GPT5.5 优化链路，针对长文本、多轮对话、复杂推理场景深度适配。计费规则公开透明，无隐藏倍率、无暗坑虚标，消费清晰可查。\n🎉 V 站用户专属福利：新用户注册即赠送$10 ，在本帖回复您的注册邮箱，即可免费再领取 $10 美元平台余额！\n🎰 欧皇抽奖：本贴将随机抽取一位幸运用户，赠送 $50 刀永久额度！\n💰 充值方式与售后承诺"
+    "collected_at": "2026-05-18T02:37:05.728820"
   },
   {
     "id": "hn-48019219",
@@ -4631,7 +4628,7 @@
     "published": "2026-05-05T07:34:55Z",
     "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "points": 1755,
-    "collected_at": "2026-05-17T18:59:10.468463"
+    "collected_at": "2026-05-18T02:37:05.728847"
   },
   {
     "id": "hn-47679121",
@@ -4642,7 +4639,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-17T18:59:10.468548"
+    "collected_at": "2026-05-18T02:37:05.728924"
   },
   {
     "id": "hn-47363754",
@@ -4653,7 +4650,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-17T18:59:10.468649"
+    "collected_at": "2026-05-18T02:37:05.729013"
   },
   {
     "id": "hn-47340079",
@@ -4664,7 +4661,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-17T18:59:10.468263"
+    "collected_at": "2026-05-18T02:37:05.728650"
   },
   {
     "id": "hn-47225130",
@@ -4675,7 +4672,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-17T18:59:10.468725"
+    "collected_at": "2026-05-18T02:37:05.729052"
   },
   {
     "id": "hn-47136179",
@@ -4686,7 +4683,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-17T18:59:10.468368"
+    "collected_at": "2026-05-18T02:37:05.728756"
   },
   {
     "id": "hn-46990729",
@@ -4697,7 +4694,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-17T18:59:10.468335"
+    "collected_at": "2026-05-18T02:37:05.728724"
   },
   {
     "id": "hn-45941596",
@@ -4708,7 +4705,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-17T18:59:10.468743"
+    "collected_at": "2026-05-18T02:37:05.729064"
   },
   {
     "id": "hn-45930151",
@@ -4719,7 +4716,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-17T18:59:10.468788"
+    "collected_at": "2026-05-18T02:37:05.729101"
   },
   {
     "id": "hn-44972151",
@@ -4730,7 +4727,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-17T18:59:10.468490"
+    "collected_at": "2026-05-18T02:37:05.728872"
   },
   {
     "id": "hn-44396518",
@@ -4741,7 +4738,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-17T18:59:10.468616"
+    "collected_at": "2026-05-18T02:37:05.728985"
   },
   {
     "id": "hn-44314423",
@@ -4752,7 +4749,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-17T18:59:10.468663"
+    "collected_at": "2026-05-18T02:37:05.729025"
   },
   {
     "id": "hn-44163063",
@@ -4763,7 +4760,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-17T18:59:10.468309"
+    "collected_at": "2026-05-18T02:37:05.728698"
   },
   {
     "id": "hn-42910910",
@@ -4774,7 +4771,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-17T18:59:10.468504"
+    "collected_at": "2026-05-18T02:37:05.728884"
   },
   {
     "id": "hn-41392128",
@@ -4785,7 +4782,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-17T18:59:10.468407"
+    "collected_at": "2026-05-18T02:37:05.728794"
   },
   {
     "id": "hn-41386319",
@@ -4796,7 +4793,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-17T18:59:10.468420"
+    "collected_at": "2026-05-18T02:37:05.728807"
   },
   {
     "id": "hn-41069829",
@@ -4807,7 +4804,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-17T18:59:10.468802"
+    "collected_at": "2026-05-18T02:37:05.729114"
   },
   {
     "id": "hn-41046773",
@@ -4818,7 +4815,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-17T18:59:10.468296"
+    "collected_at": "2026-05-18T02:37:05.728686"
   },
   {
     "id": "hn-40767459",
@@ -4829,7 +4826,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-17T18:59:10.468816"
+    "collected_at": "2026-05-18T02:37:05.729126"
   },
   {
     "id": "hn-39918245",
@@ -4840,7 +4837,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-17T18:59:10.468758"
+    "collected_at": "2026-05-18T02:37:05.729076"
   },
   {
     "id": "hn-39526057",
@@ -4851,7 +4848,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-17T18:59:10.468281"
+    "collected_at": "2026-05-18T02:37:05.728672"
   },
   {
     "id": "hn-38544729",
@@ -4862,7 +4859,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-17T18:59:10.468347"
+    "collected_at": "2026-05-18T02:37:05.728736"
   },
   {
     "id": "hn-37021160",
@@ -4873,7 +4870,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-17T18:59:10.468518"
+    "collected_at": "2026-05-18T02:37:05.728896"
   },
   {
     "id": "hn-31812259",
@@ -4884,7 +4881,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-17T18:59:10.468676"
+    "collected_at": "2026-05-18T02:37:05.729036"
   },
   {
     "id": "hn-18249755",
@@ -4895,7 +4892,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-17T18:59:10.468475"
+    "collected_at": "2026-05-18T02:37:05.728859"
   },
   {
     "id": "hn-17022963",
@@ -4906,7 +4903,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-17T18:59:10.468448"
+    "collected_at": "2026-05-18T02:37:05.728834"
   },
   {
     "id": "hn-15892066",
@@ -4917,7 +4914,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-17T18:59:10.468635"
+    "collected_at": "2026-05-18T02:37:05.729002"
   },
   {
     "id": "hn-6830566",
@@ -4928,6 +4925,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-17T18:59:10.468770"
+    "collected_at": "2026-05-18T02:37:05.729086"
   }
 ]

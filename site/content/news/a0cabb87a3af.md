@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）"
 summary_zh = ""
 tags = []
-list_page = 26
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->
