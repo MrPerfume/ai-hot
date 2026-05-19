@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://arstechnica.com/ai/2026/05/amazon-employees
 summary = "Article URL: https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/ Comments URL: https://news.ycombinator.com/item?id=48110529 Points: 211 # Comments: 220"
 summary_zh = "文章网址：https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-Pressure-to-use-ai-tools/ 评论网址：https://…"
 tags = []
-list_page = 27
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

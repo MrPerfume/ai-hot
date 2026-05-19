@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-19 03:31:07
+🕐 **最近更新**：2026-05-19 10:37:34
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,24 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [埃隆·马斯克 (Elon Musk) 输掉了对萨姆·奥尔特曼 (Sam Altman) 和 OpenAI 的诉讼](https://aihot.bt199.com/news/f568df07558f/)
-   - 埃隆·马斯克 (Elon Musk) 声称自己受到 OpenAI 联合创始人虐待的说法失败了，因为九名加州陪审员一致裁定…
-   - `TechCrunch AI · 2026-05-18`
+1. [这就是埃隆·马斯克 (Elon Musk) 败诉 OpenAI 的原因](https://aihot.bt199.com/news/9b154231c9e4/)
+   - 周一，马斯克诉奥特曼一案的陪审团对埃隆·马斯克造成了重大打击，一致做出咨询裁决，认为他起诉 OpenAI 的时间太晚了…
+   - `MIT Tech Review · 2026-05-19`
 
 2. [马斯克诉奥特曼案证明人工智能是由错误的人领导的](https://aihot.bt199.com/news/3be90d994a82/)
    - 今年的科技审判“马斯克诉奥特曼”最终是一场控制权之争。埃隆·马斯克 (Elon Musk) 认为，山姆·奥尔特曼 (Sa…
    - `The Verge AI · 2026-05-18`
 
-3. [本周对谷歌有什么期待](https://aihot.bt199.com/news/824e77ca4c6b/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…
-   - `MIT Tech Review · 2026-05-18`
-
-4. [埃隆·马斯克 (Elon Musk) 败诉山姆·奥尔特曼 (Sam Altman)](https://aihot.bt199.com/news/4f2f8f4da2b7/)
+3. [埃隆·马斯克 (Elon Musk) 败诉山姆·奥尔特曼 (Sam Altman)](https://aihot.bt199.com/news/4f2f8f4da2b7/)
    - 经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而…
    - `The Verge AI · 2026-05-18`
 
-5. [Anduril 和 Meta 致力于制造战争智能眼镜](https://aihot.bt199.com/news/981e2ce3b8c4/)
-   - 国防科技公司 Anduril 分享了有关其与 Meta 合作开发的军用增强现实耳机原型的新细节，包括通过眼动追踪和语音命…
+4. [本周对谷歌有什么期待](https://aihot.bt199.com/news/824e77ca4c6b/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…
    - `MIT Tech Review · 2026-05-18`
 
 
@@ -119,6 +115,8 @@
 ---
 
 MIT License
+
+
 
 
 

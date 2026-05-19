@@ -20,7 +20,7 @@ ai_summary = "随着人工智能推动电力需求，硅谷最受欢迎的滑雪
 summary = "Lake Tahoe, Silicon Valley's favorite ski spot, is about to get hit with higher energy prices as AI drives demand for electricity."
 summary_zh = "随着人工智能推动电力需求，硅谷最受欢迎的滑雪胜地太浩湖即将受到能源价格上涨的打击"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

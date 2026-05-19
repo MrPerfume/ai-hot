@@ -1,21 +1,123 @@
 [
   {
-    "id": "d023da2950a3",
-    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "id": "17608ae975e6",
+    "title": "小红书 vibe coding 平台（Muse）之高可用人机共创 Agentic 系统架构实践｜AICon上海",
+    "url": "https://www.infoq.cn/article/0cMu1bsEszkZDf09OP2M?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-19T10:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-19T02:35:46.424190",
+    "content_text": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，AICon全球人工智能开发与应用大会将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n小红书 AI Coding 总架构师郑鑫祺已确认出席 “企业级研发体系的重构” 专题，并发表题为《小红书 vibe coding 平台（Muse）之高可用人机共创 Agentic 系统架构实践》的主题分享。AI 深度嵌入研发全流程、重构企业级研发体系，已成为大厂提效的共识方向。小红书在内部构建了面向不同人群的 Coding Agent 矩阵，其中 Muse 承担“面向非研发职能线、全程零代码”的最难一环——从需求表达、架构生成、开发实现到视觉验收、交付上线全链路打通。这种场景下传统 Workflow 编排与单 Agent + 长 Prompt 架构都难以兼顾“长任务稳定执行”和“用户随时介入表达”，对系统架构提出了高可用、高精度、强协作的多重要求。该框架摒弃以“对话流”为核心的传统设计，转向以“状态管理”为核心的 agentic 架构：通过双通道人机协作模型分离“陪聊”与“干活”、通过子任务化的上下文工程对抗注意力衰减、通过编程护航在每一步产物上做精度兜底与质量保障、通过分阶段约束注入把企业设计规范与工程合规作为硬约束落地。\n目前 Muse 已覆盖小红书全部职能线，在主流 AI Coding 产品中率先实现非研发独立完成从创意到可上线代码的全链路 NoCode 交付，验证了“人机协同新型研发范式”在企业级场景的可行性与工程路径。在本次分享中，郑鑫祺将对此展开详细介绍。\n郑鑫祺，小红书 AI Coding 总架构师，2023 年前专注前端基础设施与研效工具建设，主导过 Cloud IDE、多个企业级前端应用框架（H5、小程序、跨端）和工程效能工具的设计与落地，呈任蚂蚁大前端业务团队总架构师，支撑过健康码、行业云等战役级项目的技术架构。2023 年开始转向 AI Agentic 系统工程方向，专注 AI 原生工具链与企业级 AI 应用解决方案，在 AI 应用精度工程领域有深入实践与洞察。2025 年担任小红书大前端 AI Coding 联合共建项目总架构师，并带大家建设公司 Vibe Coding 自研平台（Muse）并 0-1 自研 AI 应用框架，目前继续在 PE-Infra 团队负责 Muse 产品以及 PE 工具链的整体技术架构。他在本次会议的详细演讲内容如下：\n演讲提纲：\n企业级研发体系重构的视角下，Muse 在做什么\nCoding Agent 矩阵的整体格局：面向研发的 cli 侧 CodeAgent + harness + 面向非研发的端到端 Vibe Coding 平台\nMuse 的定位：非研发职能线（PM、设计、运营、数据等）从需求到上线的全链路 NoCode 通路\n为什么这是矩阵中最难的一环：用户不会写代码也无法手动兜底，系统必须自己把事情做对\nAI 嵌入研发全流程的真实形态：需求理解 → 架构生成 → 代码实现 → 视觉/逻辑校验 → 合规检查 → 交付上线\n为什么\"企业级 + 面向非研发\"的 Vibe Coding 必须重做架构\n三个无法回避的架构挑战：长任务一致性、人机协作冲突、创作与交付的双重气质\n为什么 Workflow 编排走不远、为什么单 Agent + 长 Prompt 也走不远\n企业级确定性诉求与模型概率性输出的根本冲突\n架构核心：从\"对话流\"到\"状态管理\"的范式转变\nWorkflow 思维 vs Agentic 思维：现实场景天然是状态机而非线性流程\nMuse 的核心抽象：会话状态、任务状态、产物状态的三层解耦\n状态驱动下的恢复、续跑、回滚能力如何保障高可用\n人机共创的双通道协作模型\nCase：用户随口一句\"这个颜色好看吗\"把整个任务带偏的真实事故\n解法：把\"陪聊通道\"与\"任务通道\"做物理隔离，由意图识别层做分发\n用户感受是\"随时能说话\"，系统保障的是\"任务不跑偏\"\n踩坑：早期共享上下文设计导致 AI 频繁跑偏，后期通道隔离后稳定性显著改善\nAI 驱动的智能质量保障：用编程护航替代 Prompt 祈祷\nCase：AI 不用指定组件库自己\"造轮子\"——产物级校验与自动修正回路\nCase：长任务下 AI 越做越偏——子任务拆解 + 上下文压缩 + 结论传递\nCase：企业知识注入不是\"把文档扔给模型\"——组件库/设计规范/代码仓的预处理与索引\n关键设计：每一次模型产出都要经过\"编程层\"的硬校验，错了就拦下来不进下一步——这是 AI 时代的\"持续质量保障\"形态\n创作发散 × 交付严谨：分阶段的约束注入与企业合规落地\n创作阶段：用户的\"赛博朋克风格\"\"动态粒子效果\"等 taste 优先\n交付阶段：自动切换到严格模式，企业设计规范与工程标准作为硬约束注入\n把\"研发合规\"翻译成 AI 能理解的硬约束：组件库白名单、API 调用规范、代码风格、安全/隐私红线\n同一个系统，两种气质，通过阶段化 policy 实现\n高可用的工程化保障\n长任务的断点续跑与失败恢复机制\n上下文爆炸下的注意力管理：动态裁剪、摘要传递、子 Agent 隔离\n多用户并发下的资源调度与任务编排\n踩过的典型坑与经验沉淀\n过度依赖 Prompt 工程，复杂任务下上限很低\n共享上下文导致 AI 跑偏，必须做通道与任务级隔离\n把 Agentic 当 Workflow 来设计，最终都要重写\n知识注入要做工程化预处理，原始 PDF/Figma/代码仓直接喂模型几乎无效\n效果与展望\nMuse 在小红书内部的落地情况与反馈\n这套架构对企业级 Coding Agent 的贡献情况\n对 Agentic 系统架构演进方向的思考\n听众收益：\n看到一个真实落地的企业级 Coding Agent 矩阵全貌，理解面向研发与面向非研发的两类 Agent 在矩阵中如何分工与互补与融合\n获得一套面向企业级生产环境的 Agentic 系统架构方法论，理解为什么\"对话流\"思维不够、\"状态管理\"才是核心\n学习人机共创双通道模型的设计思路，掌握如何让用户随时介入而不破坏任务执行稳定性，是\"人机协同新型研发范式\"的具体可借鉴形态\n获得 AI 驱动质量保障的实战 case 与解法：组件库约束失效、长任务上下文衰减、企业知识注入等典型问题的处理经验\n理解如何把企业研发合规要求（设计规范、组件库白名单、安全红线）翻译成 AI 能理解并稳定遵守的硬约束\n学习面向非研发用户的 Vibe Coding 产品架构思路，包括用户意图理解、任务编排、产物兜底的端到端设计\n了解 Agentic 系统在高可用层面的工程化保障：断点续跑、上下文管理、异常恢复等关键能力的落地经验\n除此之外，本次大会还策划了端侧 AI、物理与数字空间智能化、世界模型与多模态智能突破、Agent 架构与工程化实践、Agent 安全与可信治理、企业级研发体系重构、AI 原生数据工程、AI 时代的个人提效与组织变革等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。\n更多详情可扫码或联系票务经理 13269078023 进行咨询。",
+    "content_source": "trafilatura",
+    "content_chars": 3181,
+    "content_excerpt": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，AICon全球人工智能开发与应用大会将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n小红书 AI Coding 总架构师郑鑫祺已确认出席 “企业级研发体系的重构” 专题，并发表题为《小红书 vibe coding 平台（Muse）之高可用人机共创 Agentic 系统架构实践》的主题分享。AI 深度嵌入研发全流程、重构企业级研发体系，已成为大厂提效的共识方向。小红书在内部构建了面向不同人群的 Coding Agent 矩阵，其中 Muse 承担“面向非研发职能线、全程零代码”的最难一环——从需求表达、架构生成、开发实现到视觉验收、交付上线全链路打通。这种场景下传统 Workflow 编排与单 Agent + 长 Prompt 架构都难以兼顾“长任务稳定执行”和“用户随时介入表达”，对系统架构提出了高可用、高精度、强协作的多重要求。该框架摒弃以“对话流”为核心的传统设计，转向以“状态管理”为核心的 agentic 架构：通过双通道人机协作模型分离“陪聊”与“干活”、通过子任务化的上下文工程对抗注意力衰减、通过编程护航在每一步产物上做精度兜底与质量保障、通过分阶段约束注入把企业设计规范与工程合规作为硬约束落地。\n目前 Muse 已覆盖小红书全部职能线，在主流 AI Coding 产品中率先实现非研发独立完成从创意到可上线代码的全链路 NoCode 交付，验证了“人机协同新型研发范式”在企业级场景的可行性与工程路径。在本次分享中，郑鑫祺将对此展开详细介绍。\n郑鑫祺，小红书 AI Coding 总架构师，2023 年前专注前端基础设施与研效工具建设，主导过 Cloud IDE、多个企业级前端应用框架（H5、小程序、跨端）和工程效能工具的设计与落地，呈任蚂蚁大前端业务团队总架构师，支撑过健康码、行业云等战役级项目的技术架构。2023 年开始转向 AI Agentic 系统工程方向，专注 AI 原生工具链与企业级 AI 应用解决方案，在 AI 应用精度工程领域有深入实践与洞察。2025 年担任小红书大前端 AI Coding 联合共建项目总架构师，并带大家建设公司 Vibe Coding 自研平台（Muse）并 0-1 自研 AI 应用框架，目前继续在 PE-Infra 团队负责 Muse 产品以及 PE 工具链的整体技术架构。他在本次会议的详细演讲内容如下：\n演讲提纲：\n企业级研发体系重构的视角下，Muse 在做什么\nCoding Agent 矩阵的整体格局：面向研发的 cli 侧 CodeAgent + harness + 面向非研发的端到端 Vibe Coding 平台\nMuse 的定位：非研发职能线（PM、设计、运营、数据等）从需求到上线的全链路 NoCode 通路\n为什么这是矩阵中最难的一环：用户不会写代码也无法手动兜底，系统必须自己把事情做对"
+  },
+  {
+    "id": "6c90f95bf5d5",
+    "title": "产能将激增，前三星芯片负责人预测明年下半年内存将显著降价",
+    "url": "https://36kr.com/newsflashes/3815597194010113?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-19T02:26:10",
+    "summary": "周二，韩国国家工程院第285届NAEK论坛上，三星电子设备解决方案部门常任顾问、三星半导体（DS）部门前总裁庆桂显（Kye-hyun Kyung）表示，中国企业正在积极扩大产能，随着存储芯片供应量的激增，市场格局可能会在明年下半年或2028年上半年发生转变。他补充称，如果大型科技公司的资本支出回报率下降，就有可能削减投资。这样，不仅价格会下降，内存需求本身在2028年后也可能萎缩。（财联社）",
+    "collected_at": "2026-05-19T02:35:45.195353"
+  },
+  {
+    "id": "9b154231c9e4",
+    "title": "Here’s why Elon Musk lost his suit against OpenAI",
+    "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-19T00:53:10",
+    "summary": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk an",
+    "collected_at": "2026-05-19T02:35:42.463019",
+    "content_text": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.\nMusk announced on X that he will be appealing the decision. “The judge & jury never actually ruled on the merits of the case, just on a calendar technicality,” he wrote.\nOpenAI was cofounded by Musk and a group of researchers in 2015 as a nonprofit with a mission to develop AI for the benefit of humanity, unconstrained by a need to generate financial returns. Musk donated $38 million to the company during its early days, allegedly on the basis that OpenAI CEO Sam Altman and president Greg Brockman had promised to keep the company a nonprofit committed to the mission.\nMusk brought two claims against OpenAI. First, he argued that Altman and Brockman breached the charitable trust he created through his donations by breaking their promise to keep the company a nonprofit and creating a for-profit subsidiary that ballooned over the years. Second, he argued that Altman and Brockman unjustly enriched themselves at Musk’s expense. He sued OpenAI in 2024.\nMusk asked the court to unwind a 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles.\nOpenAI argued that the time for Musk to sue the company had run out before he brought the case. The statute of limitations on the breach of charitable trust claim is three years, while the statute of limitations on the unjust enrichment claim is two years. This means that Musk should have discovered, or had reason to discover, Altman and Brockman’s alleged breach of charitable trust no earlier than 2021 and their alleged unjust enrichment no earlier than 2022.\nWhile Musk argued he discovered that Altman and Brockman had broken their promise only in 2022, OpenAI claimed that Musk had reason to think this well before 2021.\nMusk told the jury that he has gone through “three phases” in his beliefs about OpenAI: In phase one, he was “enthusiastically supportive” of the company. In phase two, “I started to lose confidence that they were telling me the truth,” he said. In phase three, “I’m sure they’re looting the nonprofit.”\nHere’s a deeper dive into a timeline of the events as testified in the trial. You can read my dispatches from all three weeks of the trial here and here and here.\n2017: Musk proposes creating a for-profit subsidiary\nIn 2017, two years after OpenAI was founded, Musk and the other cofounders tried to create a for-profit subsidiary to raise enough capital to build artificial general intelligence—powerful AI that can compete with humans on most cognitive tasks. They fought a bitter power battle over who would get to control the entity. Musk also proposed merging OpenAI with his electric-car company, Tesla.\nDuring the trial, OpenAI’s lawyers pressed Musk on these discussions, suggesting that Musk knew in 2017 about Altman and Brockman’s plans to pivot the company—even participating in such plans—and had reason to sue then.\n“I was not opposed to there being a small for-profit that provides funding to the nonprofit,” Musk told the jury, “as long as the tail didn’t wag the dog.”\n2019: OpenAI creates a for-profit subsidiary with capped profits\nIn 2019, OpenAI created a for-profit subsidiary, under which employees and investors would receive a capped return on their investment. At the same time, the company secured a $1 billion investment from Microsoft. OpenAI argued that Musk again had reason to sue the company then.\nBut Musk testified that he didn’t think the move was violating the nonprofit’s mission. “If you’ve got a capped-profit situation, it hasn’t violated the nonprofit’s goal,” Musk told the jury earlier in the trial. “There was no basis for me to file a lawsuit at that time.”\n2020: Microsoft snags an exclusive license\nIn 2020, when Microsoft secured an exclusive license to OpenAI’s GPT-3 model, Musk posted on X: “This does seem like the opposite of open. OpenAI is essentially captured by Microsoft.” OpenAI once again argued that Musk had reason to sue then.\nBut Musk testified that after reading the post, Altman reassured him that “OpenAI was staying on the mission as a nonprofit.” Musk said although he was skeptical, he still had no reason to sue the company at that point.\n2022: Microsoft prepares to invest $10 billion in OpenAI\nIt was only in 2022, Musk testified, that he discovered OpenAI had abandoned its nonprofit mission. At that time, Microsoft was preparing to invest $10 billion in OpenAI—a deal that closed in 2023.\n“I was disturbed to see OpenAI with a $20B valuation,” Musk texted Altman after reading the news. “This is a bait and switch.”\nMusk told the jury this was the moment that made him realize “the for-profit is the tail wagging the dog.” He thought Microsoft would give $10 billion only if it expected “a very big financial return.” He argued that this was the point he realized “OpenAI had become, for all intents and purposes, a for-profit company with a $20 billion valuation.”\n“The 2023 deal was different,” Steven Molo, one of Musk’s lawyers, hammered home during his closing argument.\nThe jury sides with OpenAI\nIt was up to the jury to decide whether the evidence supported Musk’s claim that he first realized in 2023 that OpenAI was no longer a nonprofit committed to its mission. In the verdict announced today, they found Musk did in fact have reason to think that he was being misled by Altman and Brockman before 2021. They did not address whether he was in fact misled.\nCourts often decide cases on procedural grounds like statutes of limitations when they can, because it can be the cleaner way to resolve a case than to grapple with its merits.\nMusk has said he will appeal the decision to the Ninth Circuit Court of Appeals, a federal appellate court that reviews decisions from district courts in California and other states.\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nWant to understand the current state of AI? Check out these charts.\nAccording to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.\n10 Things That Matter in AI Right Now\nMIT Technology Review's authoritative overview of the 10 technologies, emerging trends, bold ideas, and powerful movements in AI in 2026.\nMusk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models\nMusk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+    "content_source": "trafilatura",
+    "content_chars": 7018,
+    "content_excerpt": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.\nMusk announced on X that he will be appealing the decision. “The judge & jury never actually ruled on the merits of the case, just on a calendar technicality,” he wrote.\nOpenAI was cofounded by Musk and a group of researchers in 2015 as a nonprofit with a mission to develop AI for the benefit of humanity, unconstrained by a need to generate financial returns. Musk donated $38 million to the company during its early days, allegedly on the basis that OpenAI CEO Sam Altman and president Greg Brockman had promised to keep the company a nonprofit committed to the mission.\nMusk brought two claims against OpenAI. First, he argued that Altman and Brockman breached the charitable trust he created through his donations by breaking their promise to keep the company a nonprofit and creating a for-profit subsidiary that ballooned over the years. Second, he argued that Altman and Brockman unjustly enriched themselves at Musk’s expense. He sued OpenAI in 2024.\nMusk asked the court to unwind a 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles.\nOpenAI argued that the time for Musk to sue the company had run out before he brought the case. The statute of limitations on the breach of charitable trust claim is three years, while the statute of limitations on the unjust enrichment claim is two years. This means that Musk should have discovered, or had reason to discover, Altman and Brockman’s alleged breach of charitable trust no earlier than 2021 and their alleged unjust enrichment no earlier than 2022.\nWhile Musk argued he discovered that Altman and Brockman had broken their promise only in 2022, OpenAI claimed that Musk had reason to think this well before 2021.\nMusk told the jury that he has gone through “three phases” in his beliefs about OpenAI: In phase one, he was “enthusiastically supportive” of the company. In phase two, “I started to lose confidence that they were telling me the truth,” he said. In phase three, “I’m sure they’re looting the nonprofit.”\nHere’s a deeper dive into a timeline of the events as testified in the trial. You can read my dispatches from all three weeks of the trial here and here and here.\n2017: Musk proposes creating a for-profit subsidiary",
+    "title_zh": "这就是埃隆·马斯克 (Elon Musk) 败诉 OpenAI 的原因",
+    "summary_zh": "周一，马斯克诉奥特曼一案的陪审团对埃隆·马斯克造成了重大打击，一致做出咨询裁决，认为他起诉 OpenAI 的时间太晚了，因此，他的主张受到适用时效法规的限制。美国地区法官伊冯·冈萨雷斯·罗杰斯立即接受了这一请求。 麝香",
+    "ai_summary": "周一，马斯克诉奥特曼一案的陪审团对埃隆·马斯克造成了重大打击，一致做出咨询裁决，认为他起诉 OpenAI 的时间太晚了…"
+  },
+  {
+    "id": "ac764f460228",
+    "title": "鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目",
+    "url": "https://36kr.com/p/3814860909600261?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-19T02:00:00",
+    "summary": "文｜王欣逸 编辑｜邱晓芬 一句话介绍 鲸跃动力成立于2026年，以「数据+模型+末端执行」闭环，提供面向场景、可快速部署的Robo Labor（机器人劳动力），让物理劳动力像AWS算力一样，可订阅、可弹性扩容、开箱即用，替代人类从事高危、繁重、脏乱、重复（Deadly/Difficult/Dirty/Duplicate）的物理作业。 融资进展 近日，鲸跃动力已完成由星海图独家领投的数千万元种子轮融资，深渡资本担任独家财务顾问。 本轮融资将用于团队增长、产品的量产交付、专家技能的研发以及数采运营相关工作。 星海图表示：“具身智能的下半场，拼的是‘数据效率×模型泛化×末端执行’的系统能力。鲸跃动力",
+    "collected_at": "2026-05-19T02:35:45.194005",
+    "content_text": "文｜王欣逸\n编辑｜邱晓芬\n一句话介绍\n鲸跃动力成立于2026年，以「数据+模型+末端执行」闭环，提供面向场景、可快速部署的Robo Labor（机器人劳动力），让物理劳动力像AWS算力一样，可订阅、可弹性扩容、开箱即用，替代人类从事高危、繁重、脏乱、重复（Deadly/Difficult/Dirty/Duplicate）的物理作业。\n融资进展\n近日，鲸跃动力已完成由星海图独家领投的数千万元种子轮融资，深渡资本担任独家财务顾问。\n本轮融资将用于团队增长、产品的量产交付、专家技能的研发以及数采运营相关工作。\n星海图表示：“具身智能的下半场，拼的是‘数据效率×模型泛化×末端执行’的系统能力。鲸跃动力锚定数据主线，专注在真实场景实现快速交付迭代，与我们追求物理世界数据闭环的理念高度一致。团队兼具数据、模型与交付的稀缺基因，这种团队组合在行业里并不多见，因此我们看好它从高质量数据出发走向全球领先的具身智能应用先锋。”\n产品及业务\n鲸跃动力瞄准To B市场，围绕数据，专注在真实场景实现快速交付迭代，提供了「数据+模型+末端执行器」的软硬件一体化解决方案。\n在海外，Sunday、‌Generalist AI、Genesis AI等公司的实践，验证了数据是具身智能规模化落地的第一性原理，并收敛在了「Ego-centric+UMI」，即「第一人称视角+通用操作接口」的数据方案。\n鲸跃动力创始人李广宇认为，过度追求超大模型的复杂度没有必要，只需在真实数据、场景化模型、末端执行形成闭环，即可快速实现工程化交付与规模化落地。\n因此，鲸跃动力采用了\n「数据采集能力+模型能力+灵巧操作深度认知」\n模式，实现具身智能在场景中的落地。\n鲸跃动力的核心壁垒主要体现在以下三个层面：\n1.\n自研Ego-centric+UMI数据采集系统：\n能实现亚毫米级位姿定位与亚毫秒级多源时间同步，覆盖视觉、力觉、位姿与环境交互信号，并在端侧实时场景理解分析，保证数据质量。\n2.\n百万小时数据管线与人类在环策略：\n建立数据管线，具备百万小时级清洗、标注、分析能力。通过大规模真实数据覆盖复杂工况，同时引入Human-in-the-Loop（人类介入决策）范式，通过人工的即时纠偏能力，保证机器人在Day 1可用的前提下持续进化。\n3.\n自研3D世界模型和专家技能：\n包括深度空间理解与精准移动操作能力，并在数据底座之上构建高保真物理认知引擎。基于这一模式，机器人不只是做到“识别物体”，还能做到理解重力、摩擦、形变趋势与交互边界，真正实现从“感知-执行”到“认知-预测-自适应”的范式跃迁。\n△鲸跃动力的数据采集可视化，图源：企业提供\n据介绍，鲸跃动力的业务模式也得到了客户和产业方的认可，以物料搬运装卸（Material Handling）的应用场景为例，客户可以将机器人无缝嵌入现有的业务流，实现室内外全场景自主移动、高精度搬运与柔性装卸、标准载具操作等能力，切实解决行业痛点。\n目前鲸跃动力已和制造和物流行业的多家头部企业开展了合作，推动其产品在多个场景落地。\n团队介绍\n鲸跃动力CEO李广宇博士毕业于美国南加州大学（USC）电子工程系，曾任北京人形机器人创新中心具身数据与灵巧操作负责人，从0到1搭建灵巧操作与具身数据团队，主导RoboMIND多模态具身数据集、具身智能体“慧思开物”等标杆项目，在数据与模型层面有丰富的积累；此前在滴滴、轻舟智航主导构建百万级自动驾驶数据闭环与仿真系统，兼具具身智能与自动驾驶双重产业实战经验。\n△鲸跃动力创始人兼CEO李广宇博士，图源：企业提供\n核心团队覆盖数据、模型、硬件、软件、全球化商务全链条，由来自极智嘉、新石器、轻舟智航、北京人形、理想、小米、滴滴等头部企业的核心骨干组成。团队成员毕业于USC、清华、浙大、中科大等顶尖高校，在机器人学、强化学习与多模态大模型领域具备深厚积累，还拥有RoboMaster等顶级赛事冠军。\n团队具备丰富的海外研发、合规认证与本地化部署经验，拥有从前沿研发到万台量产、百万级数据交付的完整落地能力。\nFounder思考\n一家公司必须成为细分领域的最优解，才能长期赢得竞争。\nTo B的残酷性在于，有一台能跑的机器人是不够的，有一台单位经济模型（UE）为正的机器人也不够。必须成为细分领域的最优解，才能长期赢得竞争。\n产品能真正落地的关键在于：企业高度了解现有工作流，能将产品严丝合缝嵌入业务链条，并在人力消耗最大、ROI最显性的环节下刀，硬件设计需要接地气，数据采集敢于野蛮生长，才能逐渐跑通场景、价值验证、数据回流与产品迭代的闭环。\n目前，行业壁垒正从单点算法转向系统能力，企业核心的竞争点在于：一是“单位泛化能力的数据成本”，二是“场景规模化部署密度”。\n数据效率决定了我们能否以极低的边际成本，将机器人的操作能力泛化至新物料、新载具与新场地；落地密度则决定了能否在单一场景内形成规模效应。\n未来的赢家，会是那些能用最精准数据撬动最大泛化边界、并用最高密度占领核心场景的“场景型机器人公司”。\n目前，硬件供应链日趋成熟，数据基建规模化，大模型、Agent能力爆发，新的AI驱动范式有望让机器人公司从传统“项目制定制集成”转向“标准化产品公司”。\n让机器人企业能够以产品化的思维定义硬件、以Agent的逻辑交付价值，在垂类场景中将智能化做到极致，配合标准化硬件与清晰的产品定义，完全有能力实现高爆发、规模化的商业出货。\n全球产业对柔性、低成本、高可靠物理劳动力的需求从未衰减。\n具身智能将重演自动驾驶的演进轨迹，从早期Robotaxi（无人驾驶出租车）的尝试，到辅助驾驶的规模化量产，再到无人配送、干线物流、矿卡等垂直场景的延伸。对具身智能而言，其也将延续验证期、工程收敛期到商业爆发期的路径发展。\n鲸跃动力在打造一个生态友好的通用的技能平台，我们擅长数据驱动、闭环以及落地部署的环节，更关注“末端执行器+技能”的组合价值，我们希望客户在接上硬件、打通系统和传感器之后，直接调技能就能解决需求。\n封面来源｜企业提供\n欢迎交流～\n扫码加入「智涌AI交流群」",
+    "content_source": "readability",
+    "content_chars": 2509,
+    "content_excerpt": "文｜王欣逸\n编辑｜邱晓芬\n一句话介绍\n鲸跃动力成立于2026年，以「数据+模型+末端执行」闭环，提供面向场景、可快速部署的Robo Labor（机器人劳动力），让物理劳动力像AWS算力一样，可订阅、可弹性扩容、开箱即用，替代人类从事高危、繁重、脏乱、重复（Deadly/Difficult/Dirty/Duplicate）的物理作业。\n融资进展\n近日，鲸跃动力已完成由星海图独家领投的数千万元种子轮融资，深渡资本担任独家财务顾问。\n本轮融资将用于团队增长、产品的量产交付、专家技能的研发以及数采运营相关工作。\n星海图表示：“具身智能的下半场，拼的是‘数据效率×模型泛化×末端执行’的系统能力。鲸跃动力锚定数据主线，专注在真实场景实现快速交付迭代，与我们追求物理世界数据闭环的理念高度一致。团队兼具数据、模型与交付的稀缺基因，这种团队组合在行业里并不多见，因此我们看好它从高质量数据出发走向全球领先的具身智能应用先锋。”\n产品及业务\n鲸跃动力瞄准To B市场，围绕数据，专注在真实场景实现快速交付迭代，提供了「数据+模型+末端执行器」的软硬件一体化解决方案。"
+  },
+  {
+    "id": "v2ex-1213663",
+    "title": "做了一个免费的 AI 公益站，今天重新开放注册，送 50 刀额度兑换码",
+    "url": "https://www.v2ex.com/t/1213663",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-19T00:10:38",
+    "summary": "免费的 AI 公益站，今天重新开放注册 https://cngpt.net 这个站原本是基于我自己的大模型中转站 Claude360 搭建的，主要提供 Claude 、GPT 等模型服务。最近我这边自建的 GPT Pro 号池还有不少余量，资源消耗不完，所以开放了一部分额度，做成公益站，免费提供给大家体验和使用。 目前站内可用模型包括 GPT-5.3 / GPT-5.4 / GPT-5.5 等模型，也会根据实际资源情况动态调整。 需要兑换码的朋友，欢迎在评论区留下你的站内 ID ，我看到后会手动给大家加一些额度。 需要提前说明一下：因为服务器、账号池和资源负载都有限，后续可能会根据实际使用情况",
+    "collected_at": "2026-05-19T02:35:47.269331",
+    "content_text": "免费的 AI 公益站，今天重新开放注册\nhttps://cngpt.net\n这个站原本是基于我自己的大模型中转站 Claude360 搭建的，主要提供 Claude 、GPT 等模型服务。最近我这边自建的 GPT Pro 号池还有不少余量，资源消耗不完，所以开放了一部分额度，做成公益站，免费提供给大家体验和使用。\n目前站内可用模型包括 GPT-5.3 / GPT-5.4 / GPT-5.5 等模型，也会根据实际资源情况动态调整。\n需要兑换码的朋友，欢迎在评论区留下你的站内 ID ，我看到后会手动给大家加一些额度。\n需要提前说明一下：因为服务器、账号池和资源负载都有限，后续可能会根据实际使用情况动态调整可用模型、额度或并发策略，还请大家理解。公益站的初衷是让更多人能低成本甚至免费体验到好用的模型服务，也希望大家合理使用，不要滥用资源。\n欢迎大家试用，也欢迎反馈问题或建议。",
+    "content_source": "readability",
+    "content_chars": 390,
+    "content_excerpt": "免费的 AI 公益站，今天重新开放注册\nhttps://cngpt.net\n这个站原本是基于我自己的大模型中转站 Claude360 搭建的，主要提供 Claude 、GPT 等模型服务。最近我这边自建的 GPT Pro 号池还有不少余量，资源消耗不完，所以开放了一部分额度，做成公益站，免费提供给大家体验和使用。\n目前站内可用模型包括 GPT-5.3 / GPT-5.4 / GPT-5.5 等模型，也会根据实际资源情况动态调整。\n需要兑换码的朋友，欢迎在评论区留下你的站内 ID ，我看到后会手动给大家加一些额度。\n需要提前说明一下：因为服务器、账号池和资源负载都有限，后续可能会根据实际使用情况动态调整可用模型、额度或并发策略，还请大家理解。公益站的初衷是让更多人能低成本甚至免费体验到好用的模型服务，也希望大家合理使用，不要滥用资源。\n欢迎大家试用，也欢迎反馈问题或建议。"
+  },
+  {
+    "id": "95d121610237",
+    "title": "清华大学深圳国际研究生院与英博数科举行GPU云平台应用论坛暨校企智算合作签约仪式",
+    "url": "https://36kr.com/newsflashes/3815566042488322?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-19T01:54:29",
+    "summary": "近期，恰逢清华大学深圳国际研究生院二十五周年，“智算赋能·云启新程”GPU云平台应用论坛暨校企智算合作签约仪式在清华大学深圳国际研究生院举行。活动围绕GPU云平台应用、高校科研算力需求、校企智算合作等议题展开深入交流，并完成校企合作签约与免费云算力交付。据了解，英博数科是国内较早专注于AI智算服务的企业之一，长期围绕GPU云服务、智算基础设施建设与运营、平台化算力服务等方向持续布局。",
+    "collected_at": "2026-05-19T02:35:45.195542"
+  },
+  {
+    "id": "0cb88f747704",
+    "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-18T23:18:10",
+    "summary": "Article URL: https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html Comments URL: https://news.ycombinator.com/item?id=48187201 Points: 117 # Comments: 70",
+    "collected_at": "2026-05-19T02:35:43.504667",
+    "content_text": "Pope Leo XIVâs first encyclical, Magnifica humanitas, on preserving the human person in the age of artificial intelligence, will be released on May 25. A presentation event with the Pope and various speakers is scheduled for the same day at the Vatican.\nVatican News\nPope Leo XIVâs first Encyclical Letter\nMagnifica humanitas,\non preserving the human person in the age of artificial intelligence, will be released on May 25, 2026.\nIt bears the Popeâs signature dated May 15th, 135th anniversary of the publication of Pope Leo XIIIâs encyclical\nRerum novarum\n.\nMagnifica humanitas\nwill be presented on the day of its release at 11:30 a.m. at the Vaticanâs Synod Hall.\nThe Pope will be present, along with several speakers: Cardinal Víctor Manuel Fernández, Prefect of the Dicastery for the Doctrine of the Faith; Cardinal Michael Czerny, S.J., Prefect of the Dicastery for Promoting Integral Human Development; Professor Anna Rowlands, a theologian and professor at Durham University (United Kingdom); Christopher Olah, co-founder of Anthropic (USA) and head of research on the interpretability of artificial intelligence; and Professor Leocadie Lushombo, I.T., professor of political theology and Catholic social thought at the Jesuit School of Theology / Santa Clara University in California (USA).\nCardinal Secretary of State Pietro Parolin will offer closing remarks, followed by an address and blessing by Pope Leo XIV.",
+    "content_source": "readability",
+    "content_chars": 1433,
+    "content_excerpt": "Pope Leo XIVâs first encyclical, Magnifica humanitas, on preserving the human person in the age of artificial intelligence, will be released on May 25. A presentation event with the Pope and various speakers is scheduled for the same day at the Vatican.\nVatican News\nPope Leo XIVâs first Encyclical Letter\nMagnifica humanitas,\non preserving the human person in the age of artificial intelligence, will be released on May 25, 2026.\nIt bears the Popeâs signature dated May 15th, 135th anniversary of the publication of Pope Leo XIIIâs encyclical\nRerum novarum\n.\nMagnifica humanitas\nwill be presented on the day of its release at 11:30 a.m. at the Vaticanâs Synod Hall.",
+    "title_zh": "Anthrotic 联合创始人将与教皇利奥十四世一起发表人工智能通谕",
+    "summary_zh": "文章网址：https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclal-magnifica- humanitas.html 评论网址：https://…",
+    "ai_summary": "文章网址：https://www.vaticannews.va/en/pope/news/2026-05/pope-le…"
+  },
+  {
+    "id": "d8859cfa6328",
+    "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+    "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
     "source": "TechCrunch AI",
     "lang": "en",
     "priority": 1,
-    "published": "2026-05-18T19:27:52",
-    "summary": "Stainless, a New York-based startup, will wind down all hosted products as part of the acquisition.",
-    "collected_at": "2026-05-18T19:29:32.716356",
-    "content_text": "Anthropic announced Monday it has acquired Stainless, a startup founded by former Stripe engineer Alex Rattray whose software is widely used by rival AI labs, including OpenAI and Google.\nAnthropic didn’t disclose terms of the deal. However, The Information\nreported\nlast week that Anthropic was in talks to acquire Stainless, which is backed by Sequoia Capital and Andreessen Horowitz, for more than $300 million.\nThe acquisition will take a key infrastructure supplier out of the hands of Anthropic’s competitors. The company told TechCrunch it will wind down\nall hosted Stainless products\n, including its SDK generator. An Anthropic spokesperson said Stainless customers will still own the SDKs they’ve generated to date, and have full rights to modify and extend them however they wish.\nThe New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.\nRattray\ndeveloped software\nthat could take API specifications and turn them into production-ready SDKs across multiple programming languages, including Python, TypeScript, Kotlin, Go, and Java. It became a popular tool because the platform automatically updates the SDKs as APIs change and eliminated the time-consuming process of manually maintaining them.\nThe technology is particularly valuable to\ncompanies\nlike Anthropic, OpenAI, Google, Replicate, Runway, and Cloudflare that are building AI agents that can connect to external software and complete tasks on behalf of users. Stainless’s SDK tools are an easy way to build and maintain those connections — but going forward, the tools will only be available to Anthropic, not its competitors.\nAccording to Anthropic, Stainless software has powered the generation of every official Anthropic SDK since the earliest days of its API.\n“I started Stainless because SDKs deserve as much care as the APIs they wrap,” Rattray said\nin a press release\nposted Monday. “Anthropic was one of the first teams to bet on this with us. We have been watching what developers have built on Claude over the last few years, which made bringing our teams together an easy decision. The team gets to keep doing the work we love, on the platform where it matters most.”",
+    "published": "2026-05-18T21:29:31",
+    "summary": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it.",
+    "collected_at": "2026-05-19T02:35:42.107515",
+    "content_text": "Drug discovery is one of the most expensive pursuits in modern industry. Finding a single viable molecule can take a decade and cost billions, and most candidates still don’t make it. A generation of AI startups has promised to fix that — most have made the problem less painful for researchers, who are already technically sophisticated enough to use the tools.\nBut SandboxAQ thinks the bottleneck isn’t the models. It’s the interface.\nThe company has teamed up with Anthropic to integrate its scientific AI models directly into Claude — putting powerful drug discovery and materials science tools behind a conversational interface that requires no specialized computing infrastructure to use.\nFounded roughly five years ago as an Alphabet spinout, SandboxAQ counts Eric Schmidt, Google’s former CEO, as its chairman. The company, which has raised\nmore than $950 million from investors\n, has built out a number of different business lines, including\na cybersecurity business\n.\nOne of the more unique things SandboxAQ does, however, is produce large quantitative models, or LQMs. These proprietary models are “physics-grounded,” meaning they’re built on the rules of the physical world rather than patterns in text. They can run quantum chemistry calculations and simulate both molecular dynamics and microkinetics, the study of how chemical reactions unfold at the molecular level. That matters because it tells researchers how candidate molecules are likely to behave before anyone sets foot in a lab.\n“Trained on real-world lab data and scientific equations, LQMs are AI models engineered for the quantitative economy, a $50+ trillion sector spanning biopharma, financial services, energy, and advanced materials,” the company said in a news release that strongly suggests Sandbox AQ isn’t building another chatbot or code assistant — it’s chasing the economy that AI is supposed to transform.\nChai Discovery\nand\nIsomorphic Labs\n— both well-funded bets on better models — have focused on the science. SandboxAQ is focused on who can actually use it.\n“For the first time, we have a frontier [quantitative] model on a frontier LLM that someone can access in natural language,” Nadia Harhen, SandboxAQ’s general manager of AI simulation, told TechCrunch. Previously, users of SandboxAQ’s LQMs would have had to provide their own digital infrastructure to run the models.\nSandboxAQ’s customers tend to be computational scientists, research scientists, or experimentalists. Generally, these people work at large pharmaceutical or industrial companies and are searching for new materials that can become marketable products.\n“Our customers come to us because they’ve tried all the other software out there, and the complexity of their problem is such that it didn’t work or didn’t yield positive results for them when that translation went to take place in the real world,” said Harhen.",
     "content_source": "readability",
-    "content_chars": 2320,
-    "content_excerpt": "Anthropic announced Monday it has acquired Stainless, a startup founded by former Stripe engineer Alex Rattray whose software is widely used by rival AI labs, including OpenAI and Google.\nAnthropic didn’t disclose terms of the deal. However, The Information\nreported\nlast week that Anthropic was in talks to acquire Stainless, which is backed by Sequoia Capital and Andreessen Horowitz, for more than $300 million.\nThe acquisition will take a key infrastructure supplier out of the hands of Anthropic’s competitors. The company told TechCrunch it will wind down\nall hosted Stainless products\n, including its SDK generator. An Anthropic spokesperson said Stainless customers will still own the SDKs they’ve generated to date, and have full rights to modify and extend them however they wish.\nThe New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.\nRattray\ndeveloped software",
-    "title_zh": "Anthropic 收购了 OpenAI、Google 和 Cloudflare 使用的开发工具初创公司",
-    "summary_zh": "作为收购的一部分，总部位于纽约的初创公司不锈钢将逐步关闭所有托管产品",
-    "ai_summary": "作为收购的一部分，总部位于纽约的初创公司不锈钢将逐步关闭所有托管产品"
+    "content_chars": 2883,
+    "content_excerpt": "Drug discovery is one of the most expensive pursuits in modern industry. Finding a single viable molecule can take a decade and cost billions, and most candidates still don’t make it. A generation of AI startups has promised to fix that — most have made the problem less painful for researchers, who are already technically sophisticated enough to use the tools.\nBut SandboxAQ thinks the bottleneck isn’t the models. It’s the interface.\nThe company has teamed up with Anthropic to integrate its scientific AI models directly into Claude — putting powerful drug discovery and materials science tools behind a conversational interface that requires no specialized computing infrastructure to use.\nFounded roughly five years ago as an Alphabet spinout, SandboxAQ counts Eric Schmidt, Google’s former CEO, as its chairman. The company, which has raised\nmore than $950 million from investors\n, has built out a number of different business lines, including\na cybersecurity business\n.\nOne of the more unique things SandboxAQ does, however, is produce large quantitative models, or LQMs. These proprietary models are “physics-grounded,” meaning they’re built on the rules of the physical world rather than patterns in text. They can run quantum chemistry calculations and simulate both molecular dynamics and microkinetics, the study of how chemical reactions unfold at the molecular level. That matters because it tells researchers how candidate molecules are likely to behave before anyone sets foot in a lab.\n“Trained on real-world lab data and scientific equations, LQMs are AI models engineered for the quantitative economy, a $50+ trillion sector spanning biopharma, financial services, energy, and advanced materials,” the company said in a news release that strongly suggests Sandbox AQ isn’t building another chatbot or code assistant — it’s chasing the economy that AI is supposed to transform.",
+    "title_zh": "SandboxAQ 将其药物发现模型带给 Claude——无需计算机博士学位",
+    "summary_zh": "Chai Discovery 和 Isomorphic Labs 等其他风险投资支持的公司也竞相构建更好的模型。 SandboxAQ 认为，访问是更大的障碍，而克劳德可以解决这个问题",
+    "ai_summary": "Chai Discovery 和 Isomorphic Labs 等其他风险投资支持的公司也竞相构建更好的模型。 San…"
   },
   {
     "id": "3be90d994a82",
@@ -36,22 +138,22 @@
     "ai_summary": "今年的科技审判“马斯克诉奥特曼”最终是一场控制权之争。埃隆·马斯克 (Elon Musk) 认为，山姆·奥尔特曼 (Sa…"
   },
   {
-    "id": "824e77ca4c6b",
-    "title": "What to expect from Google this week",
-    "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
-    "source": "MIT Tech Review",
+    "id": "d023da2950a3",
+    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "source": "TechCrunch AI",
     "lang": "en",
-    "priority": 2,
-    "published": "2026-05-18T17:35:43",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at G",
-    "collected_at": "2026-05-18T19:29:32.897720",
-    "content_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.\nI’ll also be paying close attention to any moves Google makes in health and medicine. Google is doing some of the best research out there on LLM-based health tools, but OpenAI has defined the health AI conversation since the release of ChatGPT Health in January. Google has announced that it will be making its AI-powered Health Coach publicly available tomorrow, but promotional material suggests that the tool is geared more toward providing advice on topics such as fitness and diet than to addressing users’ medical concerns. Is this another area where Google has fallen behind, or is the company exercising appropriate caution in a high-stakes domain?\nThe drama\nWhile Google fans congregate down in Mountain View, roughly 30 miles north in Oakland the Elon Musk v. Sam Altman trial will be wrapping up. The past few months have seen more than their fair share of AI CEO drama—before the trial, the animosity between Altman and Anthropic CEO Dario Amodei took center stage as Anthropic and OpenAI worked to negotiate deals with the US Department of Defense. But DeepMind’s Hassabis has, for the most part, steered clear of such drama. He effectively presents himself as a Nobel Prize-winning nerd, and if he has written screeds about any of his peers, they haven’t been leaked to the press or appeared in legal discovery.\nThat’s not to say that Google is controversy free. Last month, a group of 600 employees, many of whom work for DeepMind, sent a letter to CEO Sundar Pichai protesting an impending DoD deal. Google signed that deal the next day. Hassabis, Pichai, and all the other big names will surely do their best to skirt these and other touchy subjects while on stage, but controversies will worm their way in regardless. It will be interesting to see whether Google can maintain its veneer of neutrality.\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nWant to understand the current state of AI? Check out these charts.\nAccording to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.\n10 Things That Matter in AI Right Now\nMIT Technology Review's authoritative overview of the 10 technologies, emerging trends, bold ideas, and powerful movements in AI in 2026.\nMusk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models\nMusk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
-    "content_source": "trafilatura",
-    "content_chars": 5860,
-    "content_excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.",
-    "title_zh": "本周对谷歌有什么期待",
-    "summary_zh": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其年度开发者大会 I/O 时，它将在基础模型竞赛中以明显的第三名的身份出现。一年前，在G",
-    "ai_summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…"
+    "priority": 1,
+    "published": "2026-05-18T19:27:52",
+    "summary": "Stainless, a New York-based startup, will wind down all hosted products as part of the acquisition.",
+    "collected_at": "2026-05-18T19:29:32.716356",
+    "content_text": "Anthropic announced Monday it has acquired Stainless, a startup founded by former Stripe engineer Alex Rattray whose software is widely used by rival AI labs, including OpenAI and Google.\nAnthropic didn’t disclose terms of the deal. However, The Information\nreported\nlast week that Anthropic was in talks to acquire Stainless, which is backed by Sequoia Capital and Andreessen Horowitz, for more than $300 million.\nThe acquisition will take a key infrastructure supplier out of the hands of Anthropic’s competitors. The company told TechCrunch it will wind down\nall hosted Stainless products\n, including its SDK generator. An Anthropic spokesperson said Stainless customers will still own the SDKs they’ve generated to date, and have full rights to modify and extend them however they wish.\nThe New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.\nRattray\ndeveloped software\nthat could take API specifications and turn them into production-ready SDKs across multiple programming languages, including Python, TypeScript, Kotlin, Go, and Java. It became a popular tool because the platform automatically updates the SDKs as APIs change and eliminated the time-consuming process of manually maintaining them.\nThe technology is particularly valuable to\ncompanies\nlike Anthropic, OpenAI, Google, Replicate, Runway, and Cloudflare that are building AI agents that can connect to external software and complete tasks on behalf of users. Stainless’s SDK tools are an easy way to build and maintain those connections — but going forward, the tools will only be available to Anthropic, not its competitors.\nAccording to Anthropic, Stainless software has powered the generation of every official Anthropic SDK since the earliest days of its API.\n“I started Stainless because SDKs deserve as much care as the APIs they wrap,” Rattray said\nin a press release\nposted Monday. “Anthropic was one of the first teams to bet on this with us. We have been watching what developers have built on Claude over the last few years, which made bringing our teams together an easy decision. The team gets to keep doing the work we love, on the platform where it matters most.”",
+    "content_source": "readability",
+    "content_chars": 2320,
+    "content_excerpt": "Anthropic announced Monday it has acquired Stainless, a startup founded by former Stripe engineer Alex Rattray whose software is widely used by rival AI labs, including OpenAI and Google.\nAnthropic didn’t disclose terms of the deal. However, The Information\nreported\nlast week that Anthropic was in talks to acquire Stainless, which is backed by Sequoia Capital and Andreessen Horowitz, for more than $300 million.\nThe acquisition will take a key infrastructure supplier out of the hands of Anthropic’s competitors. The company told TechCrunch it will wind down\nall hosted Stainless products\n, including its SDK generator. An Anthropic spokesperson said Stainless customers will still own the SDKs they’ve generated to date, and have full rights to modify and extend them however they wish.\nThe New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.\nRattray\ndeveloped software",
+    "title_zh": "Anthropic 收购了 OpenAI、Google 和 Cloudflare 使用的开发工具初创公司",
+    "summary_zh": "作为收购的一部分，总部位于纽约的初创公司不锈钢将逐步关闭所有托管产品",
+    "ai_summary": "作为收购的一部分，总部位于纽约的初创公司不锈钢将逐步关闭所有托管产品"
   },
   {
     "id": "4f2f8f4da2b7",
@@ -70,6 +172,24 @@
     "title_zh": "埃隆·马斯克 (Elon Musk) 败诉山姆·奥尔特曼 (Sam Altman)",
     "summary_zh": "经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而第三项索赔因其中一项索赔被驳回而失败。这里的评审团是顾问评审团，[&",
     "ai_summary": "经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而…"
+  },
+  {
+    "id": "824e77ca4c6b",
+    "title": "What to expect from Google this week",
+    "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-18T17:35:43",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at G",
+    "collected_at": "2026-05-18T19:29:32.897720",
+    "content_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.\nI’ll also be paying close attention to any moves Google makes in health and medicine. Google is doing some of the best research out there on LLM-based health tools, but OpenAI has defined the health AI conversation since the release of ChatGPT Health in January. Google has announced that it will be making its AI-powered Health Coach publicly available tomorrow, but promotional material suggests that the tool is geared more toward providing advice on topics such as fitness and diet than to addressing users’ medical concerns. Is this another area where Google has fallen behind, or is the company exercising appropriate caution in a high-stakes domain?\nThe drama\nWhile Google fans congregate down in Mountain View, roughly 30 miles north in Oakland the Elon Musk v. Sam Altman trial will be wrapping up. The past few months have seen more than their fair share of AI CEO drama—before the trial, the animosity between Altman and Anthropic CEO Dario Amodei took center stage as Anthropic and OpenAI worked to negotiate deals with the US Department of Defense. But DeepMind’s Hassabis has, for the most part, steered clear of such drama. He effectively presents himself as a Nobel Prize-winning nerd, and if he has written screeds about any of his peers, they haven’t been leaked to the press or appeared in legal discovery.\nThat’s not to say that Google is controversy free. Last month, a group of 600 employees, many of whom work for DeepMind, sent a letter to CEO Sundar Pichai protesting an impending DoD deal. Google signed that deal the next day. Hassabis, Pichai, and all the other big names will surely do their best to skirt these and other touchy subjects while on stage, but controversies will worm their way in regardless. It will be interesting to see whether Google can maintain its veneer of neutrality.\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nWant to understand the current state of AI? Check out these charts.\nAccording to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.\n10 Things That Matter in AI Right Now\nMIT Technology Review's authoritative overview of the 10 technologies, emerging trends, bold ideas, and powerful movements in AI in 2026.\nMusk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models\nMusk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+    "content_source": "trafilatura",
+    "content_chars": 5860,
+    "content_excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.",
+    "title_zh": "本周对谷歌有什么期待",
+    "summary_zh": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其年度开发者大会 I/O 时，它将在基础模型竞赛中以明显的第三名的身份出现。一年前，在G",
+    "ai_summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…"
   },
   {
     "id": "f568df07558f",
@@ -324,6 +444,24 @@
     "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。马斯克诉奥特曼第三周：马斯克和奥特曼…"
   },
   {
+    "id": "4c7cc299e16c",
+    "title": "Voice AI Systems Are Vulnerable to Hidden Audio Attacks",
+    "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-18T11:51:05",
+    "summary": "Article URL: https://spectrum.ieee.org/voice-ai-audio-attacks Comments URL: https://news.ycombinator.com/item?id=48178378 Points: 110 # Comments: 29",
+    "collected_at": "2026-05-19T02:35:43.504816",
+    "content_text": "AI-powered voice and audio tools are becoming increasingly embedded in daily life, from digital assistants to smart speakers and customer service bots.\nAdvances in large audio-language models (LALMs), which can both analyze and generate audio, now make it possible to control devices using voice commands, transcribe meetings automatically, or identify a song playing in the background. These models are also increasingly equipped with the ability to communicate with external services and operate other applications and tools.\nBut these tools can be “hijacked” through imperceptible sounds embedded in audio, forcing them to execute unauthorized commands without a user’s knowledge. New research due to be presented at the IEEE Symposium on Security and Privacy in San Francisco next week shows that a modified audio clip undetectable by human ears can manipulate a model’s behavior with an average success rate of 79 to 96 percent. The clips are designed to work regardless of what instructions the user provides alongside the audio, meaning they can be reused to attack the same model multiple times.\nThe authors tested the approach against 13 leading open models, including commercial AI voice services from Microsoft and Mistral, and showed they could coax models into conducting sensitive web searches, downloading files from attacker-controlled sources, and sending emails containing user data.\n“It takes just half an hour to train this signal, and then, because this signal is context-agnostic, you can use it to attack the target model whenever you want, no matter what the user says,” says lead author Meng Chen, a Ph.D. student at Zhejiang University in China.\nHow adversarial audio injects attacks\nThe research builds on years of work into “adversarial audio examples”—audio manipulated to deceive machine learning models. Previous work focused primarily on how these files could induce incorrect predictions in models that perform one-way tasks like speech recognition or audio classification.\nWhat singles out this new work, Chen says, is that it targets generative models capable of producing responses and taking actions. Their technique, dubbed AudioHijack, exploits a critical security flaw in LALM design: Because these models can receive instructions in audio format, malicious instructions can be hidden in manipulated clips to elicit a wide range of undesirable behaviors.\nMany previous attacks on generative models required the attacker to have complete control over both the final audio input and original instructions given to the model, essentially acting as the user. Here, the attacker manipulates only the audio data being processed by the model, which makes it possible to attack a model while it’s being used by someone else.\nReal-world examples include hiding malicious instructions in online videos, music clips, or voice notes that users query an AI about, or broadcasting malicious audio on a Zoom call that is then uploaded to AI transcription services. Chen says the team’s more recent, unpublished studies have also demonstrated the ability to inject their malicious audio into a live voice chat with an AI in real time.\nThe researchers used a tried-and-tested approach to creating adversarial examples. This involves adjusting the numerical values that represent the waveform in the digital audio file in ways that don’t significantly alter how it sounds, but elicit unintended behaviors in the model when it processes the data. The technique relies on an optimization algorithm that repeatedly tweaks an audio clip, measures the impact on the model’s response, and then uses this signal to further adjust the audio until the model does what the attacker wants.\nTargeting generative AI audio models\nApplying this to generative models poses a major challenge. Older AI provides fine-grained feedback on how tiny changes to raw audio affect responses. Generative models, however, break audio into chunks and assign them to numerical representations called “tokens,” mapping each snippet to the closest match.\nThis coarser process makes it harder to tell whether a manipulation has moved the model closer to the desired behavior, confounding the optimization algorithm. So Chen and colleagues devised a way to approximate the fine-grained feedback required for the optimization algorithm to adjust the manipulation.\nThis required full access to the model, restricting the researchers to open models with publicly available weights. They found, however, that attacks developed for open models transferred to commercial models from Microsoft and Mistral that share the same underlying architecture.\nIn response to a request for comment, a Microsoft spokesperson said, “We appreciate the researchers’ work to advance understanding of this type of technique. This study evaluates model resilience through controlled, direct interactions with the model itself, which helps inform our approach to building model resiliency. In practice, AI models are often integrated into user applications, and we offer developers tools and guidance they can use to implement additional layers of protection that help safeguard users.”\nMistral did not reply to a request for comment by the time of publication.\nMaking AudioHijack more effective\nAttacking proprietary closed models from companies like OpenAI and Anthropic is much harder, Chen says, given limited public information about their architectures. But these models often use open-source components—such as pre-trained audio encoders—that can be targeted similarly, something the team is currently investigating.\nTo ensure the attack works, regardless of what instructions the user provides alongside the malicious audio clip, the researchers paired the audio clip with different user instructions on each round of the optimization process.\nThey also found a way to commandeer the model’s attention mechanism, the component that helps the model identify the parts of the audio that are relevant to the task it’s been set to perform. The researchers introduced a measure of how much attention the model pays to the adversarial audio versus the user’s own instructions at each step, feeding this into the optimization process to produce samples that draw more attention from the model.\nTo make the manipulations harder to detect by a human listener, the researchers used a technique they had developed previously, which makes changes to the audio sound like natural reverberation. This is harder for humans to detect than earlier approaches that added noise to the original signal.\nTesting on today’s AI audio models\nThe team demonstrated six categories of attack: making the model claim it cannot process audio, refusing user requests, responding with false information, inserting malicious links, altering the model’s persona, and triggering unauthorized tool use.\nAnd worryingly, the approach proved resistant to common defenses. Providing models with examples of malicious instructions to watch out for reduced attack success by just 7 percent, while asking the model to reflect on whether its response matched the user’s instructions caught only 28 percent of attacks.\n“These single-point defenses struggle to resist our attack because we found it’s very hard for these models to distinguish the normal user intent and our adversary attack,” Chen says.\nThe only effective tactic was monitoring the models’ internal attention mechanisms to detect AudioHijack’s attempts to steer attention toward the malicious audio. However, the researchers showed that an attacker aware of this defense can dial back the attention manipulation at the expense of a small reduction in attack success.\nIn the real world, this kind of audio attack will face additional challenges such as compression and various post-processing mechanisms that could degrade signals, says Eugene Bagdasarian, an assistant professor of computer science at the University of Massachusetts Amherst. But he says that multi-modal attacks on AI models remain an essentially unsolved problem.\n“With text data we can understand that something is wrong (special characters, suspicious sentences, etc.). Audio modality is really challenging to comprehend because of how limited our hearing is,” he writes in an email.\n- How to Silently Hack a Smart Speaker - IEEE Spectrum ›\n- Why AI Keeps Falling for Prompt Injection Attacks ›\n- This AI Can Tell What You’re Typing Based on the Sound ›\nEdd Gent is a freelance science and technology writer based in Bengaluru, India. His writing focuses on emerging technologies across computing, engineering, energy and bioscience. He's on Twitter at @EddytheGent and email at edd dot gent at outlook dot com. His PGP fingerprint is ABB8 6BB3 3E69 C4A7 EC91 611B 5C12 193D 5DFC C01B. His public key is here. DM for Signal info.",
+    "content_source": "trafilatura",
+    "content_chars": 8794,
+    "content_excerpt": "AI-powered voice and audio tools are becoming increasingly embedded in daily life, from digital assistants to smart speakers and customer service bots.\nAdvances in large audio-language models (LALMs), which can both analyze and generate audio, now make it possible to control devices using voice commands, transcribe meetings automatically, or identify a song playing in the background. These models are also increasingly equipped with the ability to communicate with external services and operate other applications and tools.\nBut these tools can be “hijacked” through imperceptible sounds embedded in audio, forcing them to execute unauthorized commands without a user’s knowledge. New research due to be presented at the IEEE Symposium on Security and Privacy in San Francisco next week shows that a modified audio clip undetectable by human ears can manipulate a model’s behavior with an average success rate of 79 to 96 percent. The clips are designed to work regardless of what instructions the user provides alongside the audio, meaning they can be reused to attack the same model multiple times.\nThe authors tested the approach against 13 leading open models, including commercial AI voice services from Microsoft and Mistral, and showed they could coax models into conducting sensitive web searches, downloading files from attacker-controlled sources, and sending emails containing user data.\n“It takes just half an hour to train this signal, and then, because this signal is context-agnostic, you can use it to attack the target model whenever you want, no matter what the user says,” says lead author Meng Chen, a Ph.D. student at Zhejiang University in China.\nHow adversarial audio injects attacks\nThe research builds on years of work into “adversarial audio examples”—audio manipulated to deceive machine learning models. Previous work focused primarily on how these files could induce incorrect predictions in models that perform one-way tasks like speech recognition or audio classification.\nWhat singles out this new work, Chen says, is that it targets generative models capable of producing responses and taking actions. Their technique, dubbed AudioHijack, exploits a critical security flaw in LALM design: Because these models can receive instructions in audio format, malicious instructions can be hidden in manipulated clips to elicit a wide range of undesirable behaviors.\nMany previous attacks on generative models required the attacker to have complete control over both the final audio input and original instructions given to the model, essentially acting as the user. Here, the attacker manipulates only the audio data being processed by the model, which makes it possible to attack a model while it’s being used by someone else.\nReal-world examples include hiding malicious instructions in online videos, music clips, or voice notes that users query an AI about, or broadcasting malicious audio on a Zoom call that is then uploaded to AI transcription services. Chen says the team’s more recent, unpublished studies have also demonstrated the ability to inject their malicious audio into a live voice chat with an AI in real time.",
+    "title_zh": "语音人工智能系统容易受到隐藏音频攻击",
+    "summary_zh": "文章网址：https://spectrum.ieee.org/voice-ai-audio-attacks 评论网址：https://news.ycombinator.com/item?id=48178378 积分：110 # 评论：29",
+    "ai_summary": "文章网址：https://spectrum.ieee.org/voice-ai-audio-attacks 评论网址：h…"
+  },
+  {
     "id": "0add0cf70295",
     "title": "Java近期资讯：GraalVM、Spring AI、JobRunr、GlassFish、Grails、Groovy和Quarkus Agent MCP",
     "url": "https://www.infoq.cn/article/lMqQqYKIxvjYR1EvE80d?utm_source=rss&utm_medium=article",
@@ -511,7 +649,11 @@
     "lang": "zh",
     "published": "2026-05-18T03:49:27",
     "summary": "AI 肯定对我们工作是帮助极大的，这样说是因为有同事找这位实习生测试个设备用原厂 demo 能否联通。结果他居然不用 demo 测试直接打开 openclaw 直接开问了。明明上周自己已经使用五天了，遇见只是个链接的小测试还是要问 AI ，连尝试的意愿都没有，让我很失望。 该实习生相处阶段没任何问题，只说工作，实习期还有一个月左右。",
-    "collected_at": "2026-05-18T19:29:37.125203"
+    "collected_at": "2026-05-18T19:29:37.125203",
+    "content_text": "AI 肯定对我们工作是帮助极大的，这样说是因为有同事找这位实习生测试个设备用原厂 demo 能否联通。结果他居然不用 demo 测试直接打开 openclaw 直接开问了。明明上周自己已经使用五天了，遇见只是个链接的小测试还是要问 AI ，连尝试的意愿都没有，让我很失望。\n该实习生相处阶段没任何问题，只说工作，实习期还有一个月左右。\nSupplement 1 · 34 mins ago\n昨天开会加聚餐一直没时间看，没想到会有这么人留言。\n我不是拒绝 AI ，我是第一批 GPT3 用户，首批注册多麻烦大家都知道的，gpt claude kiro cursor 都开过正价会员，现在还开着正价 gemini 和 gpt pro 。 我昨天恼火的点在于： 设备已经搞了一周了，其他同事让他用现成 demo 链接测试一下，他下意识还是打开 AI 工具去问。 如果沉迷 AI ，对设备 对业务都不熟悉的话，我是要考虑是否留下此人的。我们还偶尔出差会与客户讨论，总不能跟客户讨论的时候带着电脑还打开 AI 吧，，，\n我们用 AI ，是遇到问题再去问，或者说你明白业务逻辑让他帮你写，我并不认可一个新人极度依赖 AI 能有什么好的结果，我会给他机会，但是老板那一关绝对过不去，就这样吧，一个月后看他自己。",
+    "content_source": "trafilatura",
+    "content_chars": 548,
+    "content_excerpt": "AI 肯定对我们工作是帮助极大的，这样说是因为有同事找这位实习生测试个设备用原厂 demo 能否联通。结果他居然不用 demo 测试直接打开 openclaw 直接开问了。明明上周自己已经使用五天了，遇见只是个链接的小测试还是要问 AI ，连尝试的意愿都没有，让我很失望。\n该实习生相处阶段没任何问题，只说工作，实习期还有一个月左右。\nSupplement 1 · 34 mins ago\n昨天开会加聚餐一直没时间看，没想到会有这么人留言。\n我不是拒绝 AI ，我是第一批 GPT3 用户，首批注册多麻烦大家都知道的，gpt claude kiro cursor 都开过正价会员，现在还开着正价 gemini 和 gpt pro 。 我昨天恼火的点在于： 设备已经搞了一周了，其他同事让他用现成 demo 链接测试一下，他下意识还是打开 AI 工具去问。 如果沉迷 AI ，对设备 对业务都不熟悉的话，我是要考虑是否留下此人的。我们还偶尔出差会与客户讨论，总不能跟客户讨论的时候带着电脑还打开 AI 吧，，，\n我们用 AI ，是遇到问题再去问，或者说你明白业务逻辑让他帮你写，我并不认可一个新人极度依赖 AI 能有什么好的结果，我会给他机会，但是老板那一关绝对过不去，就这样吧，一个月后看他自己。"
   },
   {
     "id": "88c22085cb93",
@@ -4495,104 +4637,6 @@
     "content_excerpt": "自己改了下 mihomo 内核,支持接入 tailscale 网络了,链接:\nhttps://github.com/cyenxchen/mihomo\n如果你用的安卓可以使用我改过的 clashmi,这样就可以同时翻墙+访问家里网络了,链接:\nhttps://github.com/cyenxchen/clashmi\n我个人自用了几天,没发现什么大问题,当然有问题了也欢迎带日志反馈.\n配置示例:\nproxies:\n- name: ts-mihomo\ntype: tailscale\nauth-key: tskey-auth-xxxxx"
   },
   {
-    "id": "195c30b99264",
-    "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
-    "url": "https://www.qbitai.com/2026/05/416056.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-12T06:06:38",
-    "summary": "快手，可能要亲手拆出第二家“快手”了。",
-    "collected_at": "2026-05-12T08:28:46.858351",
-    "content_text": "估值200亿美元！可灵AI被曝剥离快手单独融资\nhenry\n2026-05-12\n14:06:38\n来源：\n量子位\nhenry 发自 凹非寺\n量子位 | 公众号 QbitAI\n快手，可能要亲手拆出第二家“快手”了。\nThe Information爆料，快手正计划分拆旗下视频生成模型可灵AI，目标估值\n200亿美元\n，并计划明年启动IPO。\n这个数字有多夸张？另一个快手一样夸张。\n因为截至5月11日港股收盘，快手科技市值约2243亿港元，约合290亿美元。\n换句话说，快手准备把一个估值接近自己7成的业务，从体内切出去，单独融资，单独上市。\nAI视频生成做了两年，快手终于不准备把它继续当一个工具了，而是一家新的公司。\n可灵AI，启动！\n200亿美元，接近快手市值的七成\nThe Information援引两位知情人士的消息，可灵正在以200亿美元与潜在投资方洽谈Pre-IPO融资，融资规模约20亿美元。\n《晚点LatePost》补充了一个时间细节：交易尚未完成，腾讯出现在了潜在投资方名单里。\n截至5月11日港股收盘时，快手科技收跌-2.55%，市值约为2243亿港元，折合约288亿美元。\n也就是说，单拎出可灵，它的估值已经接近快手整体的70%。\n作为参照，目前全球估值最高的视频生成独立产品是Runway，根据PitchBook数据，最新估值约35.5亿美元。\n可灵如果交易完成，估值将达到Runway的五倍以上，坐上全球视频生成模型估值第一的位置。\n资本愿意给出这个价格，不是因为故事讲得好，是因为它已经开始赚钱了。\n3月，快手CEO程一笑在财报电话会上披露，按1月营收测算，可灵年化收入(ARR)已突破3亿美元。两个月后，这个数字翻了一倍。\n据相关信息披露，4月底可灵ARR已经达到5亿美元。而知情人士给出了IPO预期是：明年Q1启动上市流程时，可灵ARR有望达到13亿美元。\n200亿美元的估值，正是基于这个预期。\n可以说，作为已经验证过商业化的视频生成赛道，资本估值，正在被重新拉到一个全新的量级。\n可灵是什么，快两年时间走到了哪里\n可灵2024年6月上线，是快手AI团队自研的视频生成大模型。\n上线的时间点其实很微妙。那时候，Sora刚刚把全球惊了一圈，但迟迟没有开放。\n可灵几乎是踩着这个空窗期，第一个真正面向公众开放的高质量视频生成产品之一。\n它一度被海外开发者称为：中国最像Sora的产品。但快两年过去，可灵已经不只是“中国版Sora”了，而是以一门真正全球化的生意。\n知情人士透露，今年Q1可灵收入约7500万美元，大部分来自北美等海外市场。\n2026年初，可灵更是在海外突然“起飞”。\n根据Sensor Tower数据，它已经在全球40多个国家和地区的Apple Store和Google Play艺术与设计类下载榜拿下第一，其中在韩国和俄罗斯，可灵更一度登顶iPhone图形与设计类应用收入榜。\n模型迭代速度也不慢。2024年6月发布1.0，目前已经到3.0 Omni版本，可灵已经支持4K直出，并进入全球AI视频第一梯队。\n在具体的商业化路径上，可灵一方面靠用户订阅，另一方面通过API，向广告、电商、影视、动漫、游戏等企业客户按调用量收费。在一众还在烧钱讲故事的AI产品里，可灵已经开始自己赚钱了。\n为什么要切出去\n表面上看，这是一次融资。但背后，快手面对的其实是三层压力。\n第一层是估值重构。\n可灵继续放在快手体系内，市场给它的估值逻辑，依然是短视频公司。拆出去，就不一样了。\n快手还是短视频+电商公司。可灵，则会被按AI公司重新定价。两套估值体系，乘数完全不同。\n而最近的市场环境，也给了窗口。今年以来，智谱、MiniMax等AI概念股表现强劲。与此同时，阿里巴巴和百度也被曝正在考虑拆分芯片业务推动IPO。\n越来越多大厂开始发现：AI，不能再按“一个业务部门”来定价了，还得是“另一家公司”。\n第二层是资源压力。\n视频生成的竞争已经不是模型层面，是算力层面。\n字节跳动的Seedance 2.0上线后，高峰期一度有9万人排队，等待时间超过10小时。\n连字节这种AI基建投入最激进的公司，都开始感受到算力压力。\n据报道，字节2026年资本支出计划继续提高，AI基础设施支出规模将突破2000亿元。\n再看快手。2025年，快手总收入1428亿元，经调整净利润206亿元。\n而字节和阿里的收入规模，都早已超过万亿元。\n说得直接一点：AI视频这场战争，已经开始拼弹药了。把可灵切出去，本质上就是让它自己去融资，自己去补弹。\n第三层是人才。\n今天，中国AI行业最贵的一批人，可能已经不是大模型团队，而是视频生成团队。\n去年，张迪从快手离职，转投阿里，快乐似小马。\n2025年底，快手第一次为可灵单独设立期权池。有知情人士透露，如果未来IPO估值达到400亿美元，团队激励还会进一步加码。\n这个逻辑，其实和字节给豆包团队单独发“豆包股”，以及DeepSeek用融资绑定核心技术团队，是同一套打法。\n把人留住最好的方式，从来不是工资，而是给他一家看得见估值的公司。\nOne more thing\n那么话说回来，200亿美元估值的可灵，到底贵不贵？\n相比快手，贵。相比AI公司，不贵。关键看你拿它跟谁比。\n据悉，月之暗面（Kimi）刚刚完成新一轮约20亿美元融资，投后估值突破200亿美元。\nDeepSeek则传出新一轮融资消息，市场给出的估值已经来到约450亿美元。\n阶跃星辰刚刚完成近25亿美元融资，今年年底计划港股上市，上市预期估值约100亿美元。\n如果把时间再往前拨一点，会发现一个更有意思的变化。过去，国内大模型公司的估值，业内通常有一个默认算法：\n拿OpenAI和Anthropic做锚。\n按最新融资，OpenAI估值约\n8520亿美元\n，Anthropic最新市场报价已经来到\n近乎1万亿美元。\n有不少观点认为，中国头部大模型公司的合理估值，大约是它们的\n1%—2%。\n也就是说：85亿到200亿美元，就理应是“中国大模型第一梯队”的合理估值。\n但现在，这个天花板已经被明显抬高。\n智谱和MiniMax港股上市仅一个多月，市值就一度双双站上\n3000亿港元\n，折合都接近\n400亿美元，\n已经来到OpenAI估值的约5%。\n换句话说，过去那套1%-2%估值锚，已经明显不够用了。\n所以真正变贵的，可能不是可灵，\n整个中国AI，已经被重新定价了。\n当然，可灵和Kimi、DeepSeek、阶跃之间，还有一个更本质的区别：\n前者卖的是视频生成，后者卖的是通用大模型能力。一个是垂直赛道，一个是平台能力。\n同一把估值尺，放在垂直赛道上，200亿美元未必是溢价。\n它更像是资本在押注一件事：\nAI视频生成，不会只是一个功能，而会是一门独立生意。\n（看看现在短视频平台满天飞的AI视频你就知道了）\n放在快手体系里，200亿美元的可灵，像第二个快手。\n放在今天的AI牌桌上，它甚至还没坐到最贵的那一桌。\n但毫无疑问，可灵一旦分拆上市就会是标志性事件，这条最早由OpenAI Sora开创的赛道，Sora都没了，可灵却完成商业飞轮上市了。\n参考链接\n[1]https://www.theinformation.com/articles/chinas-kuaishou-plans-spin-kling-ai-video-unit-20-billion-valuation\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 3191,
-    "content_excerpt": "估值200亿美元！可灵AI被曝剥离快手单独融资\nhenry\n2026-05-12\n14:06:38\n来源：\n量子位\nhenry 发自 凹非寺\n量子位 | 公众号 QbitAI\n快手，可能要亲手拆出第二家“快手”了。\nThe Information爆料，快手正计划分拆旗下视频生成模型可灵AI，目标估值"
-  },
-  {
-    "id": "v2ex-1212128",
-    "title": "感觉 AI Coding 比古法编程累多了",
-    "url": "https://www.v2ex.com/t/1212128",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-05-12T04:54:21",
-    "summary": "上午的一个需求排期，本来评估的 5 天，产品一句：“这个用 AI 几个小时就能生成吧”，排期当场被砍到 2 天。 有了 AI 开发确实是快了，但问题也变多了。如：边界、权限、脏数据、线上兼容...... 最后还是得靠人来兜底。 之前用 cc opus4.6 + codex gpt5.5 ，cc 负责做，codex 负责审核，还勉强能顶住，现在不让用了，统一采购了 qoder + 百炼 coding plan (qwen3.5-plus)，用起来真的一言难尽...... 从古法编程进化到 AI 分析需求、架构设计、生成代码、review 、AI 测试和上线，到现在前端、后端、移动端一个人包圆，感",
-    "collected_at": "2026-05-13T02:29:17.725795",
-    "content_text": "上午的一个需求排期，本来评估的 5 天，产品一句：“这个用 AI 几个小时就能生成吧”，排期当场被砍到 2 天。\n有了 AI 开发确实是快了，但问题也变多了。如：边界、权限、脏数据、线上兼容...... 最后还是得靠人来兜底。\n之前用 cc opus4.6 + codex gpt5.5 ，cc 负责做，codex 负责审核，还勉强能顶住，现在不让用了，统一采购了 qoder + 百炼 coding plan (qwen3.5-plus)，用起来真的一言难尽......\n从古法编程进化到 AI 分析需求、架构设计、生成代码、review 、AI 测试和上线，到现在前端、后端、移动端一个人包圆，感觉工作比之前累多了。\n大家有没有这种感觉呢？",
-    "content_source": "trafilatura",
-    "content_chars": 322,
-    "content_excerpt": "上午的一个需求排期，本来评估的 5 天，产品一句：“这个用 AI 几个小时就能生成吧”，排期当场被砍到 2 天。\n有了 AI 开发确实是快了，但问题也变多了。如：边界、权限、脏数据、线上兼容...... 最后还是得靠人来兜底。\n之前用 cc opus4.6 + codex gpt5.5 ，cc 负责做，codex 负责审核，还勉强能顶住，现在不让用了，统一采购了 qoder + 百炼 coding plan (qwen3.5-plus)，用起来真的一言难尽......\n从古法编程进化到 AI 分析需求、架构设计、生成代码、review 、AI 测试和上线，到现在前端、后端、移动端一个人包圆，感觉工作比之前累多了。\n大家有没有这种感觉呢？"
-  },
-  {
-    "id": "d3b5b5ad9510",
-    "title": "Thinking Machines wants to build an AI that actually listens while it talks",
-    "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-12T04:52:35",
-    "summary": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
-    "collected_at": "2026-05-12T08:31:03.522550",
-    "content_text": "Thinking Machines Lab, the AI startup founded last year by former OpenAI CTO Mira Murati, on Monday announced something called\ninteraction models\n, which, at its essence, sounds like AI that can interrupt you.\nRight now, every AI model you’ve ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it’s more like a phone call than a text chain.\nThe technical term for this is “full duplex,” and the company claims its model, TML-Interaction-Small, responds in 0.40 seconds, which is roughly the speed of natural human conversation and significantly faster than comparable models from OpenAI and Google.\nStill, this is a research preview, not a product. The company isn’t releasing it to the public yet. A “limited research preview” is coming in the next few months, it says, with a wider release set for later this year.\nSo what to make of it? We’re not sure. The\nbenchmarks\nare impressive and the underlying idea — that interactivity should be native to a model — is definitely interesting. Whether the real-world experience lives up to the technical claims is something we won’t know until people can actually use it.",
-    "content_source": "readability",
-    "content_chars": 1276,
-    "content_excerpt": "Thinking Machines Lab, the AI startup founded last year by former OpenAI CTO Mira Murati, on Monday announced something called\ninteraction models\n, which, at its essence, sounds like AI that can interrupt you.\nRight now, every AI model you’ve ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it’s more like a phone call than a text chain.\nThe technical term for this is “full duplex,” and the company claims its model, TML-Interaction-Small, responds in 0.40 seconds, which is roughly the speed of natural human conversation and significantly faster than comparable models from OpenAI and Google.\nStill, this is a research preview, not a product. The company isn’t releasing it to the public yet. A “limited research preview” is coming in the next few months, it says, with a wider release set for later this year.\nSo what to make of it? We’re not sure. The\nbenchmarks\nare impressive and the underlying idea — that interactivity should be native to a model — is definitely interesting. Whether the real-world experience lives up to the technical claims is something we won’t know until people can actually use it.",
-    "title_zh": "Thinking Machines 希望构建一个能够在说话时真正倾听的人工智能",
-    "summary_zh": "目前，您使用过的每个人工智能模型都以相同的方式工作。你说话，它听。它会回应，你听着。 Thinking Machines 正试图通过构建一个模型来改变这种情况，该模型可以处理您的输入并同时生成响应，因此它更像是电话而不是文本链",
-    "ai_summary": "目前，您使用过的每个人工智能模型都以相同的方式工作。你说话，它听。它会回应，你听着。 Thinking Machines…"
-  },
-  {
-    "id": "5f1fa249a525",
-    "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
-    "url": "https://www.qbitai.com/2026/05/416034.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-12T04:02:50",
-    "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
-    "collected_at": "2026-05-12T08:28:46.858374",
-    "content_text": "OpenClaw低调更新重磅版本，龙虾长手长脚了\n梦瑶\n2026-05-12\n12:02:50\n来源：\n量子位\n梦瑶 发自 凹非寺\n量子位 | 公众号 QbitAI\n友友们，小声问一句，OpenClaw更新还有人关注吗？\n关不关注不重要了，重要的是给大家同步一下，龙虾刚刚长出\n手脚\n了！\n依旧是那个龙虾之父Peter，这次带来了全新的Computer Use工具\nPeekaboo v3\n版本——\n直接把过去Agent类产品只能简单执行，但没法直接操控桌面的问题一把《梭哈》：\nPeekaboo v3不仅能在MAC电脑上实现\n像素级截图\n，还能读取电脑上每个UI的位置。\n甚至嘛，它几乎还能完成人类能做的任何操作，比如\n点击、输入文字、按快捷键\n这些也能做了……\n下面这位网友，直接就是让Peekaboo v3做了一个简单的「Computer Use」烟雾测试。\n让Hermes操作计算器、Peekaboo读屏幕结果、Python独立验证答案是否正确，一气呵成成功通过。\n兴致来了挡都挡不住，人家立刻立flag：\n好玩好玩，下一步我还要让Peekaboo自动翻找以前写过的邮件！（尝鲜ing…\n眼睛+手脚都齐了，现在这虾啊，是真的能在咱Mac上替我们打工了？？？\n龙虾这下也长出「手」和「脚」了\n事实上，Peekaboo（翻译：躲猫猫）已经不是一个新产品了。\n早在OpenClaw大火之前，去年11月份左右，Peter就动了给Agent\n装手脚\n的心思。\n当时陆陆续续憋了v3.0.0-beta1到beta4好几个测试版，前后差不多磨了快半年的时间。\n直到最近这两天，（不知道是不是感觉再不更点啥龙虾就被大家忘记了，我瞎说的） 直接开启「狂更模式」\nv3.1.0、v3.1.1、v3.1.2开始一个疯狂大更新……\n那问题来了，这个躲猫猫，Peekaboo到底是个啥东西呢？\n一句话说就是：\n给你的Mac装一双带有眼睛和手的工具包，能让AI agent看到屏幕，也能操作鼠标键盘。\n（省流版）\n大家之前如过有用过龙虾或者Agent产品，应该能感觉到一个bug点——\nAgent确实能帮我们打开网页、跑个流程，可一旦涉及到屏幕上更细的操作，比如戳那个按钮、拖那个文件、把这段字敲到那个输入框里……\n它就开始《装瞎》，最后那一步还得咱自己上手操刀。\n看不下去的Peter清楚地知道，AI要想在Mac上动手，必须有一个能看屏幕、能操作鼠标键盘的工具，这恰好就是Peekaboo。\n这次给Peekaboo v3做的事儿，就是把这道墙凿穿：\n让Agent真的能看，也真的能动，从指手画脚的甲方，变成真的能下场干活的乙方。（doge）\n首先是「看」的能力。\nPeekaboo v3不仅能实现像窗口、全屏、菜单栏的像素级截图、还能读取macOS上每个UI元素的位置、类型、label等，真·慧眼识珠屏幕了。\n其实是「动」这事儿上。\n像点击、输入文字、按快捷键、滚动、拖拽、切窗口、切桌面（Space）、戳Dock、点系统弹窗……\n一整套真人用Mac才会干的事，它现在自己就能干，真·能kuku上手干活儿了。\n但是Agent光能看和动还不够，Peekaboo v3真正让人觉得开大的还在「下面」——\n在能力调用上，其支持\n自然语言Agent模式\n，所以在提示词指令上我们可以直接用大白话甩任务就行。\n第二个蛮实用也非常聪明的设计，就是能把所有能力打包成\nMCP\n，喂给你常用的AI工具。\n例如我们在Cursor里写代码，跑起来UI出bug了，以前得自己截屏发给Cursor让它看。\n但现在Cursor自己就能截图、自己看、自己改、自己再跑一遍验证，真·全程不用插手。\n（躲猫猫这名字还是含蓄了，感觉堪称蜘蛛网了…一招鲜吃遍天N个产品了也是…)\nPeekaboo v3的正确打开方式\n友友们非常关心的问题来了——那这Peekaboo v3到底咋用捏？\n好消息是，Peekaboo为同一套能力，准备了四种不同的「打开方式」。\n写代码的、用AI编程的、纯用Mac的、做App的，四拨人各取所需，丰俭由人啊丰俭由人～\n第一种，如果屏幕前的友友想写脚本自动化干活，直接用\nHomebrew安装方法\n就完事儿了～\nbrew\ninstall steipete/tap/peekaboo\npeekaboo\n--version\n第二种，如果屏幕前的友友日常在用Claude Code、Cursor、Codex这类AI编程工具。\n那这个最香，因为Peekaboo可以直接当成\nMCP server\n接进去：\nnpx\n-y\n@steipete\n/peekaboo mcp\n第三种，如果你就是个普通Mac用户，不想搞那些命令行——\n去GitHub Releases下载Mac桌面版app就行，有可视化反馈，权限管理也是图形界面，很友好。\n第四种，如果你是Swift开发者，想把它当库嵌到自己App里，直接Swift Package引一下就好了～\n对了，对于想在OpenClaw实用其能力的友友来说，直接「Skill」一下子就ok。\n相当于给虾装了个操作Mac的插件，装好之后录屏、辅助功能这些Mac权限走OpenClaw一次性过，不用再单独给Peekaboo开一遍～\n最后想说的是，Peter这波这么着急地狠狠更新一波，说实话也挺能理解……\n这两年像Anthropic的Computer Use、OpenAI自家的Operator、各种browser-use工具全在卷「AI操作电脑」这条路子。\n开源Agent领域热起来了，各种Computer Use替代方案开始疯狂冒头了。\n他必须快啊，才能避免被后来者追上，也算是给自己在OpenAI的Agent工作提供个最强本地验证平台吧？（我猜哈\n（这套「内外兼修」的打法好啊，妙啊）\nPeekaboo v3的一箩筐链接发下面了，感兴趣的友友可以try try～\n参考链接：\n[1]https://peekaboo.sh/\n[2]https://github.com/openclaw/Peekaboo\n[3]https://x.com/search?q=Peekaboo&src=typed_query\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 2696,
-    "content_excerpt": "OpenClaw低调更新重磅版本，龙虾长手长脚了\n梦瑶\n2026-05-12\n12:02:50\n来源：\n量子位\n梦瑶 发自 凹非寺\n量子位 | 公众号 QbitAI\n友友们，小声问一句，OpenClaw更新还有人关注吗？\n关不关注不重要了，重要的是给大家同步一下，龙虾刚刚长出"
-  },
-  {
-    "id": "3bf3bef7570f",
-    "title": "Walulu：用六个月撕开一条新赛道",
-    "url": "https://36kr.com/p/3805761383751427?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-12T03:46:38",
-    "summary": "文丨果脯 近日，成都雨之灵动科技有限公司（后称雨之灵动）宣布完成总额数千万人民币的天使轮及Pre-A轮融资。 目前其投资方阵容已颇为亮眼，包含KK集团、4399、科大讯飞和一家知名财务投资机构，涵盖了财务资本、渠道资源、游戏行业及AI技术四大维度。做到这种程度，基本已经覆盖了一家AI消费品公司的所需的核心拼图。 雨之灵动能同时吸引到这四类资方，一定程度上说明他们的项目不仅打动了财务投资人的直觉，也获得了产品方对其产品的市场期望。 雨之灵动的核心产品是AI仿生毛绒宠物Walulu。在公司创始人兼CEO顾小毛的愿景中，他们希望将Walulu打造成“AI时代的宝可梦”。 这并非雨之灵动最早的想法。2",
-    "collected_at": "2026-05-12T08:31:05.526423",
-    "content_text": "文丨果脯\n近日，成都雨之灵动科技有限公司（后称雨之灵动）宣布完成总额数千万人民币的天使轮及Pre-A轮融资。\n目前其投资方阵容已颇为亮眼，包含KK集团、4399、科大讯飞和一家知名财务投资机构，涵盖了财务资本、渠道资源、游戏行业及AI技术四大维度。做到这种程度，基本已经覆盖了一家AI消费品公司的所需的核心拼图。\n雨之灵动能同时吸引到这四类资方，一定程度上说明他们的项目不仅打动了财务投资人的直觉，也获得了产品方对其产品的市场期望。\n雨之灵动的核心产品是AI仿生毛绒宠物Walulu。在公司创始人兼CEO顾小毛的愿景中，他们希望将Walulu打造成“AI时代的宝可梦”。\n这并非雨之灵动最早的想法。2023年，他们决定ALL in AI时，首选的方向是自研垂类大模型。团队第一时间自购GPU并组建算法团队，持续交付了多个百万级的政府与B端项目。\n同期，他们也开始探索2C路径，依托AI视频生成能力产出过多个爆款内容，单视频最高曾获得千万级曝光。后续他们还计划构建一站式IP生成平台，签约了多个工作室和个人创作者。\n公司官网的AI视频创作案例展示\n但当产线真正跑起来，CEO顾小毛意识到一个相当致命的问题：纯线上模式很难形成稳定的商业闭环，内容数据可能很好看，实际的变现路径却始终模糊。\n也是在这时候，团队逐渐发现，现有的AI能力更需要一个物理载体，一个用户愿意付费的产品。哪怕是自创的爆款IP，也一样需要一个能落地的具体形态，否则IP本身只能停留在流量层面，无法转化为真正的品牌资产。\n于是，他们开始从自己过去的经验里寻找答案。在此之前，雨之灵动的核心团队成员已经在游戏领域深耕了十多年，曾推出过毛利过亿的单款产品，负责过的产品不去重注册用户超10亿。有了从零到亿的完整产品周期经验，他们对用户付费意愿、产品迭代节奏、运营逻辑方向都已经有了一套自我总结而成的方法论。哪怕ALL in AI，自己也不应该放弃这些团队磨合了近十年的优势。\n具体到决策上，他们放弃了“技术找场景”的思路，而是更加强调“场景找技术”——比如将AI技术引入潮玩市场，打造AI玩具。\n一方面，潮玩市场现在已经有了明确的需求基础，宝可梦、三丽鸥、泡泡玛特等公司也已经用实际的成绩验证了审美消费和收藏消费的潜力。另一方面，AI技术又恰好可以解决传统毛绒玩具缺乏互动性，“只能看，不能玩”的短板。两者相结合，天然就具有极大的差异化竞争优势。\nWalulu产品介绍\n敲定这个方向后，他们立刻放弃手头底层大模型的工作，转而选择接入市面上成熟的AI能力，并将全部精力投入产品定义与IP运营上面。没有了底层研发的包袱，团队得以完全围绕用户需求来设计产品，选择技术方案，从而只用六个月就完成产品从立项到上架的全过程。\n选择这一方向，很大程度上也为雨之灵动规避了未来潜在的大量竞争。大多AI创业公司的路径都是“重技术、轻产品”，即先建壁垒，再找场景。而雨之灵动决定把心思放在产品身上后，他们与这些公司的关系自然也从竞争者变成了可选择的合作对象。\n公司能迅速敲定多轮融资，也是相同的道理。对财务投资机构而言，团队展示了可验证的商业能力；对KK集团和4399而言，团队选择了一条不与他们竞争、而是与他们互补的路径；对科大讯飞而言，则是在语音技术落地场景上的协同。四家机构的组合，本质上是对这条路径的集体认可。做70分的通用产品，比做90分的垂直产品更难能持久。这句话被团队反复引用，也是他们选择这条路径的底层逻辑。\nWalulu就是雨之灵动基于这套思考后的产物。\n大多数AI玩具的思路都是AI先行，厂商往往会想办法先堆叠语音、情绪识别等功能，再想办法让它成为一个具体的产品。但雨之灵动的思路完全相反，他们希望先让用户认可Walulu，觉得它可爱，想抱走，再告诉他们这只小猫其实还会说话，会撒娇，会在你不开心的时候跑过来蹭你。说白了，Walulu首先得是一只让人想拥有的潮玩，其次才是一个AI玩具。\nWalulu产品介绍\n如此一来，Walulu的设计路径自然就变得清晰。\n首先是形象设计。团队借助过往沉淀下来的 AI 能力，在短视频平台上不断验证不同的 IP 角色：通过播放、点赞、评论，以及“想买同款”这类更直接的需求反馈，判断哪些形象真的能打动用户。只有经过市场验证、数据优异的形象，才会被推进到下一阶段。\nWalulu 正是这样一只从众多候选形象里脱颖而出的猫。它的实体产品还没有成型时，一条化妆相关视频就已经获得全网 3000 万次曝光；另一条从蛋壳中探身而出的视频，也在抖音累计拿下了 60 万点赞。评论区里，许多用户已经开始追问“怎么买”“哪里有卖”。但彼时，产品甚至还没有进入开模阶段。\nWalulu抖音官号的高播放量视频\n之后团队找到了潮玩行业内的首席设计师，结合设计师的设计理念和AI辅助创作，前后共打磨了100多版形象，调整甚至具体到了眼睛大小、耳朵角度、毛绒质地，乃至整体圆润度等日常不易察觉的细节。\n其次则是产品的加分细节。比如团队专门找了一位知名的配音老师，录制Walulu在不同情景、情绪下的叫声——哪怕最终听起来都只是一声“喵”。相对应的，他们也为Walulu设计了一系列丰富的动作行为，通过声音、动作构建出一整套属于生物的行为动作逻辑。用户拍打它，Walulu会表达委屈；轻轻抚摸它，Walulu则会向主人开始撒娇。\n最后还有成长记忆系统。CEO顾小毛将这一功能描述为\"数字生命的继承\"：Walulu会记录与主人的互动数据，持续学习并更新记忆，随着使用时长增加，它对主人习惯与喜好的了解也在加深。配合OTA在线升级，产品体验理论上会持续演进，用户黏性有赖于这一系统的实际表现。\n说白了，所有的一切，都是为了能让Walulu“活”起来——事实上他们也确实做到了。在线下销售时，除了夸Walulu可爱，不少用户下意识会以为它是一只真的猫。\n后续的销售数据也证明了雨之灵动这个方向完全正确。2025年国庆期间，雨之灵动在北京王府井喜悦购物中心开设首家品牌旗舰店，首批备货仅300多只，团队当时对销量并无把握。结果Walulu在3天内就全部售罄，后续几天只能以预售方式满足需求，甚至店内的展示样机也被顾客买走。2025年圣诞节期间，成都环球中心X11联名店开业；今年五一期间，重庆某知名景点也已开出西南地区首家品牌旗舰店。目前，Walulu已入驻多家潮玩集合店连锁品牌，其中包含头部渠道，线下品牌影响力正在逐步扩大。\nWalulu北京王府井旗舰店\n线上1到2月销售旺季期间，单日销量同样已达到数百只。这个数字基本验证了特定价格区间内用户的付费意愿，于是雨之灵动也不再保留，将Walulu推进到全面销售阶段，并同步开启海外市场布局。\nWalulu线上渠道的销售热度\n据CEO顾小毛所述，他们将出海分为三个阶段：第一阶段以自营电商为主，产品已完成美国、欧洲、日本等主要市场的合规认证，将以众筹、亚马逊、独立站等方式打开市场；第二阶段是与海外渠道合作，目前已在日本与一家代理商达成合作，每年保底销售10万台；第三阶段是为海外客户定制符合当地市场需求的IP形象，例如澳洲树袋熊等，但仍然延续Walulu的设计语言和风格，保证品牌调性。\n当然，现在的Walulu并非终点，雨之灵动仍在持续迭代产品。比如挂件版Walulu已进入开发阶段，瞄准更轻量、更低价的市场切入；2.0版本将配置电子屏眼睛，交互形式将从纯语音扩展到视觉反馈；IP衍生品也已提上日程。\n此外，公司已启动与知名IP的联名合作，近期将推出加菲猫版与大熊猫版Walulu，目标是与宝可梦、迪士尼这类世界顶级IP合作推出AI联名款。联名合作的方向也不只限于IP本身，还包括与科技公司、消费品牌、地方政府与文旅局等多个领域。这意味着Walulu的商业模式正在从卖产品扩展到卖IP，用联名款建立品牌认知，用授权费获得规模化收入，已经逐步构建出自己的品牌影响力。\n加菲猫联名\n而接下来他们所面临的挑战也会更多更大——当这个品类被验证可以赚钱，涌入的跟进者会迅速拉低平均利润。\nWalulu目前最大的护城河有两个：一是先发优势，已经有了经市场验证的产品和一定的用户认知；二是IP运营能力，这是一套需要时间积累的软实力，无法被技术直接复制。但这两个护城河都不够深，大厂一旦决定进入，供应链会在短时间内完成复制，届时Walulu还能不能维持现在的溢价能力，取决于品牌能不能真正建立起来。\n这是一场关于时间的竞争。六个月，团队用这个速度回答了一个关于能力的问题；接下来，他们需要用更快的速度回答一个关于壁垒的问题。能否在竞争者蜂拥而至之前，把品牌认知这件事做实，是决定这家公司能走多远的关键。\n一个值得注意的细节是，Pre-A轮的主要投资方同样是天使轮的投资方，只有少量份额给到新投资方，这意味着天使轮投资方几乎最大程度地行使了优先认购权，通常只有在对公司发展现状高度认可时才会出现。对雨之灵动而言，这轮融资的意义不只是拿到钱，更是拿到了进入产业圈的入场券。四家机构的背书本身就是一张名片，无论在渠道合作还是人才招聘上，这张名片都能帮团队打开一些原本不容易打开的门。\n本文首发自\n“36氪游戏”\n。",
-    "content_source": "readability",
-    "content_chars": 3753,
-    "content_excerpt": "文丨果脯\n近日，成都雨之灵动科技有限公司（后称雨之灵动）宣布完成总额数千万人民币的天使轮及Pre-A轮融资。\n目前其投资方阵容已颇为亮眼，包含KK集团、4399、科大讯飞和一家知名财务投资机构，涵盖了财务资本、渠道资源、游戏行业及AI技术四大维度。做到这种程度，基本已经覆盖了一家AI消费品公司的所需的核心拼图。\n雨之灵动能同时吸引到这四类资方，一定程度上说明他们的项目不仅打动了财务投资人的直觉，也获得了产品方对其产品的市场期望。\n雨之灵动的核心产品是AI仿生毛绒宠物Walulu。在公司创始人兼CEO顾小毛的愿景中，他们希望将Walulu打造成“AI时代的宝可梦”。\n这并非雨之灵动最早的想法。2023年，他们决定ALL in AI时，首选的方向是自研垂类大模型。团队第一时间自购GPU并组建算法团队，持续交付了多个百万级的政府与B端项目。\n同期，他们也开始探索2C路径，依托AI视频生成能力产出过多个爆款内容，单视频最高曾获得千万级曝光。后续他们还计划构建一站式IP生成平台，签约了多个工作室和个人创作者。\n公司官网的AI视频创作案例展示\n但当产线真正跑起来，CEO顾小毛意识到一个相当致命的问题：纯线上模式很难形成稳定的商业闭环，内容数据可能很好看，实际的变现路径却始终模糊。\n也是在这时候，团队逐渐发现，现有的AI能力更需要一个物理载体，一个用户愿意付费的产品。哪怕是自创的爆款IP，也一样需要一个能落地的具体形态，否则IP本身只能停留在流量层面，无法转化为真正的品牌资产。"
-  },
-  {
-    "id": "v2ex-1212045",
-    "title": "自用 Codex 站（今天继续福利分组--5.12）",
-    "url": "https://www.v2ex.com/t/1212045",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-05-12T01:16:29",
-    "summary": "plus+free 号池（现基本都是 plus 号池，上新渠道），自用不了，推出来略微回收一下成本。 模型支持有 GPT 全家桶 价格如下： 按量付费：0.08 元/刀，随充随用，日/周不限。 自己注册的号池，没有任何映射，无虚标不掺水。有问题及时处理，属实包退款。 https://www.loomex.top 今天福利分组升级到 1500 刀了熬 评论留 邮箱或者 ID ，今天继续分享福利分组共用 1500 刀，先到先得，用完删除分组不进行通知熬（自用哈）",
-    "collected_at": "2026-05-12T08:31:07.125751"
-  },
-  {
-    "id": "7c21e3d34f0d",
-    "title": "太阳能：已与多家算力企业沟通对接，尝试开展绿电直连项目合作",
-    "url": "https://36kr.com/newsflashes/3805649433534215?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-12T01:46:47",
-    "summary": "36氪获悉，太阳能在业绩说明会上表示，公司积极关注绿电相关产业发展情况，正在积极开发算力中心供电及算力储能业务，已与多家算力企业开展了沟通对接，尝试开展绿电直连项目合作。",
-    "collected_at": "2026-05-12T02:14:19.136792"
-  },
-  {
     "id": "hn-48085821",
     "title": "Local AI needs to be the norm",
     "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
@@ -4601,18 +4645,7 @@
     "published": "2026-05-10T17:19:28Z",
     "summary": "Local AI needs to be the norm",
     "points": 1896,
-    "collected_at": "2026-05-18T19:29:36.948629"
-  },
-  {
-    "id": "a0cabb87a3af",
-    "title": "微软给OpenAI的营收分成付款目前上限设为380亿美元",
-    "url": "https://36kr.com/newsflashes/3805623314701826?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-12T01:33:09",
-    "summary": "据报道，微软给OpenAI的营收分成付款目前上限设为380亿美元。在与微软最新达成的合作交易中，OpenAI到2030年将共计节省970亿美元。（财联社）",
-    "collected_at": "2026-05-12T02:14:19.136881"
+    "collected_at": "2026-05-19T02:35:46.964645"
   },
   {
     "id": "hn-48019219",
@@ -4623,22 +4656,7 @@
     "published": "2026-05-05T07:34:55Z",
     "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "points": 1755,
-    "collected_at": "2026-05-18T19:29:36.948650"
-  },
-  {
-    "id": "ce3279a27662",
-    "title": "8点1氪丨美国总统特朗普：非常期待中国之行 ；OPPO发布母亲节文案事件问责通告；快手计划分拆可灵AI，融资20亿美元",
-    "url": "https://36kr.com/p/3805557782486785?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-12T00:16:27",
-    "summary": "今日热点导览 天舟十号货运飞船与空间站组合体完成交会对接 国家广播电视总局：4月经备案国产电视动画片51部、9659分钟 任天堂股价因Switch 2游戏前景不佳大幅下跌 千问与淘宝打通，正式上线AI购物 TOP3大新闻 美国总统特朗普：非常期待中国之行 外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。 当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。(央视新闻) OPPO就母亲节文案事件发布问责通告，高级副总裁职级直降两级 5月11日，界面新闻独家",
-    "collected_at": "2026-05-12T02:14:19.135407",
-    "content_text": "今日热点导览\n天舟十号货运飞船与空间站组合体完成交会对接\n国家广播电视总局：4月经备案国产电视动画片51部、9659分钟\n任天堂股价因Switch 2游戏前景不佳大幅下跌\n千问与淘宝打通，正式上线AI购物\nTOP3大新闻\n美国总统特朗普：非常期待中国之行\n外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。\n当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。(央视新闻)\nOPPO就母亲节文案事件发布问责通告，高级副总裁职级直降两级\n5月11日，界面新闻独家获悉，就OPPO因母亲节不当文案事件，OPPO5月11日内部正式发布问责通告，对相关责任人进行了定级处罚。其中，OPPO中国区业务负责人段要辉负最终管理责任，职级直降两级；其余相关管理人员也均做出处分决定。知情人士表示，此次处罚“属于OPPO历史上罕见严厉的处罚力度”。（界面新闻）\n快手计划分拆可灵AI，融资20亿美元，腾讯参与\n快手计划分拆旗下视频生成大模型业务可灵AI以200亿美元估值融资，截至5月11日港股收盘整个快手公司目前的市值不到290亿美元。据悉，可灵当前的年化收入(ARR)已经达到5亿美元，已比春节前翻倍。这一轮可灵计划融资20亿美元，正与腾讯等投资方商谈，目前交易尚未close。若交易完成，可灵将是目前全球估值最高的视频生成大模型独立产品。(晚点LatePost)\n大公司/大事件\n美股三大指数小幅收涨，存储芯片股走强\n36氨获悉，5月11日收盘，美股三大指数均小幅收涨，道指涨0.19%，标普500指数涨0.19%，纳指涨0.1%。其中，标普500指数、纳指续创新高。存储芯片股走强，高通涨超8%，西部数据涨超7%，美光科技涨超6%，英特尔涨超3%英伟达涨约2%，均创下历史收盘新高。热门中概股多数上涨，理想汽车涨近5%，百度、小鹏集团、蔚来涨超3%，京东涨超1%，拼多多、网易、哔哩哔哩小幅上涨，爱奇艺跌超2%，阿里巴巴跌超1%。\n兴福电子：SK海力士系IPO前股东持股500万股，公司电子级高纯红磷仍处于技术研发阶段\n36氪获悉，兴福电子公告，经自查，公司生产经营正常，控股股东及实控人不存在应披露而未披露的重大事项。针对媒体报道“SK海力士(无锡)投资有限公司一季度新进前十大流通股东”公司澄清该股东系IPO前股东，持股500万股，于1月22日解禁，持股数量未变，不排除后续减持可能。此外，市场传闻“电子级高纯红磷已实现销售”不实，该产品仍处技术研发阶段，商业化存在不确定性。公司提示，当前市盈率104.23倍，高于行业均值58.15倍，投资者需注意风险。\n微信“显示足迹”灰度测试引热议，客服澄清：非查询访客功能\n近日，有网友发现，微信状态目前正在进行“显示足迹”功能的灰度测试。不少网友担忧，微信或将支持访客查询，相关话题迅速冲上微博热搜。对此，新浪科技向腾讯客服进行求证，对方表示，“显示足迹功能正在iOS客户端进行灰度测试，主要面向已更新至较新版本（如iOS 8.0.73）的活跃用户。若当前使用的是其他操作系统或版本，暂时无法体验该功能。”腾讯客服强调，“微信暂无查询访客功能，目前所有功能都以保护用户隐私为前提设计。”（新浪科技）\nST百利：涉嫌信息披露违法违规，证监会决定对公司立案\n36氪获悉，ST百利公告，公司于2026年5月11日收到中国证监会下发的《立案告知书》，因涉嫌信息披露违法违规，证监会决定对公司立案。目前公司生产经营正常，将积极配合调查并履行信息披露义务。\n京沪高铁：调整京沪高速线、合蚌高速线动车组列车公布票价\n36氪获悉，京沪高铁公告，公司决定对京沪高速线、合蚌高速线动车组列车公布票价进行优化调整，时速300~350km/h、200~250km/h及以下的动车组列车公布票价上浮20%。各站间执行票价将以公布票价为上限，实行不同幅度折扣浮动。此次调整旨在完善市场化票价机制，提升客运服务品质，但对公司业绩影响存在不确定性。\n贾跃亭被任命为FF全球CEO\n5月11日，法拉第未来Faraday Future（简称\"FF\"）宣布一系列人事调整：公司董事会任命公司创始人贾跃亭先生为FF全球CEO，Jerry Wang为FF全球执行董事长；同意Matthias Aydt辞去全球Co-CEO职务，并任命独立董事Chad Chen为首席独立董事。Matthias Aydt将暂时以内部顾问身份继续服务于公司，具体新职务正与公司管理层另行商议中，公司对Matthias多年来对FF的付出表示由衷的感谢。以上任命及调整已于2026年5月5日起生效。（新浪科技）\n网购平台出现大量AI买家秀，专家称该行为已涉嫌违规虚假宣传\n近期，不少电商平台评论区出现大量AI生成的精美“买家秀”，但消费者收到的实物却与买家秀相差甚远，且“AI买家秀”并未标注AI生成等字样。记者调查发现，多数电商平台虽在规则中明确要求，买家发布的评价内容、图片需为所购买商品的真实内容，禁止编造用户评价，但在实际执行中，审核机制不完善的问题较为突出。一些卖家甚至故意使用AI生成模特图或买家秀，就是为了误导消费者购买。\n专家表示，商家故意用AI生成错误图片并误导消费者，该行为已涉嫌违规虚假宣传。AI买家秀乱象的治理，不是仅靠单一主体就能够完成的，消费者、商家、平台、监管部门需协同发力。电商平台应完善审核机制，需强制商家对AI生成相关素材明确标注。消费者需提高辨别意识，遭遇“货不对板”等情况及时维权。（央视新闻）\n奇瑞回应“进军日本市场”\n5月11日，有消息称，奇瑞汽车与日本汽车用品巨头澳德巴克斯（AUTOBACS SEVEN）等合作，将在日本销售中国生产的纯电动汽车（EV）。具体而言，奇瑞和澳德巴克斯及其他合资方已成立合资公司，并通过该合资公司旗下的开发销售公司EMT（位于横滨）推出自己的EV品牌。第1款EV计划于2027年开始在日本交付，利用奇瑞在中国市场积累的技术，搭载高级驾驶辅助等功能，具体价格将在今后确定，但会瞄准主流市场。对此，奇瑞汽车回应称，奇瑞只是作为多个股东方之一，投资了EMT项目，并不参与经营管理。（第一财经）\n英国计划到2035年吸引990亿英镑海外养老金资金投入重点项目\n英国政府宣布一项计划，目标是到2035年吸引990亿英镑海外养老金资金投入英国重点项目。就在数周前，政府刚刚艰难推动养老金法案在议会获得通过。英国将设立一个由投资办公室牵头的全新“超级基金专项小组”（Supers Unit），旨在加强协作、简化流程，吸引澳大利亚养老基金投向英国基建、房地产及私募市场等增长领域。（新浪财经）\n天舟十号货运飞船与空间站组合体完成交会对接\n据中国载人航天工程办公室消息，天舟十号货运飞船入轨后顺利完成状态设置，于北京时间2026年5月11日13时11分，成功对接于空间站天和核心舱后向端口。交会对接完成后，天舟十号将转入组合体飞行段。后续，神舟二十一号航天员乘组将进入天舟十号货运飞船，按计划开展货物转运等相关工作。（央视新闻）\n国家广播电视总局：4月经备案国产电视动画片51部、9659分钟\n36氪获悉，国家广播电视总局发布关于2026年4月全国国产电视动画片制作备案公示的通知，2026年4月，经备案的全国国产电视动画片为51部、9659分钟。按所占比例大小排名，备案的国产电视动画片题材依次为：童话题材、教育题材、其他题材、文化题材、科幻题材、历史题材。\n小米汽车碰撞风险检测专利公布\n36氪获悉，天眼查知识产权信息显示，近日，小米汽车科技有限公司申请的“一种碰撞风险检测方法、装置、设备、介质及程序产品”专利公布。摘要显示，本公开涉及智能驾驶领域，该方法包括：获取障碍物信息、车辆规划路线和目标区域；响应于障碍物信息和车辆规划路线存在重叠区域，基于目标区域对重叠区域进行障碍物入侵检测；响应于确定重叠区域存在障碍物侵入，启动车辆的避障策略。本公开实施方式，针对车辆规划路线中是否真实存在障碍物侵入进行了确认，并在确认车辆规划路线中真实存在障碍物侵入时启动车辆的避障策略，从而可以避免障碍物感知错误引起的对车辆避障功能的误启动。通过本公开所提供的方法，可以有效减少车辆避障功能误启动对用户在驾驶过程中的干扰，提升用户的驾驶体验。\n山西调整住房公积金贷款和提取政策\n5月11日，记者从山西省省级机关住房资金管理中心了解到，为降低购房消费成本、放宽购房提取公积金条件，2026年5月10日起，山西延长个人住房公积金贷款年限，住房公积金贷款期限按整年计算，最长不得超过30年，且贷款到期日不超过借款申请人68周岁。同时，调整“商转公贷款”及“部分商转公贷款”的住房消费行为时间限制，缴存职工于2026年5月10日以前通过商业银行发放的商业住房按揭贷款购买太原市住房的，贷款房屋取得不动产权证书后，符合山西省省级机关住房资金管理中心其他贷款条件的，可以申请办理商业住房按揭贷款转公积金贷款及部分转公积金贷款。另外，调整购房类提取住房公积金政策，职工购买住房，凭5年以内的《商品房买卖合同》或《不动产权证书》可分别办理1次住房公积金提取，累计提取金额不超过实际支付的购房款。（央视新闻）\n任天堂股价因Switch 2游戏前景不佳大幅下跌\n5月11日，任天堂公司在东京股市股价下跌10%，跌至2024年8月以来的最低点，股价创下三个月来最大跌幅，此前该公司预测硬件和软件销量将下滑，这表明Switch 2尚未形成可持续的需求循环。 据报道，任天堂表示，预计在截至明年3月的财年中，Switch 2的硬件销量将下降17%，软件销量将下降11%。与此同时，由于存储芯片及其他材料成本上升，该公司被迫宣布对Switch 2、初代Switch、在线订阅服务及扑克牌进行涨价。（界面新闻）\n香港政府拟提议首阶段发放至少1万个网约车牌照\n信报援引知情人士报道称，香港政府最快周一向立法会提交文件，提议发放至少1万个网约车牌照作为起步规模。报道称，政府计划在今年内将网约车服务合法化，目标是在第四季度启动合法运营。香港政府认为，无论是Uber提议的3万个牌照，还是出租车行业提议的3600个牌照，都不是可行的方案。（新浪财经）\n苹果A20 Pro将迎来两大升级\n据行业爆料，苹果A20 Pro将迎来两大核心升级。首先在制程工艺上，这款芯片将采用台积电最新的2nm工艺。从现有3nm制程升级至2nm，意味着在芯片尺寸基本不变的前提下，A20 Pro能够实现更强性能输出，同时运行能效大幅提升。 其次，A20 Pro还将首次引入WMCM先进封装工艺。这也是苹果首度在iPhone处理器上落地该项技术，其核心逻辑是在晶圆切割之前，就完成SoC、内存等多芯片的垂直堆叠与电路互联，整体整合完毕后再切割为独立芯片，具备无中介层、互联距离短、集成度拉满的特点。（新浪财经）\n短剧出海爆发式增长，AI译制服务成为行业刚需\n近两年，海外短剧市场迎来爆发式增长，海外各大短剧应用下载量、用户规模一路飙升，而中国企业已成为这场全球短剧热潮中的核心玩家。公开数据显示，2025年中国出海短剧应用下载量占全球短剧产品下载量的80%以上。不只是应用占据主流，海外热播的短剧内容，亦有相当一部分源自国内成品剧的译制输出。随着短剧出海全面提速，规模化、高效率的译制需求急剧增长，AI译制服务成为行业刚需。“人工每月仅能翻译约10部短剧，成本1500元至3000元/部；而我们的AI译制服务每月可轻松完成超1000部短剧翻译，成本300元至500元/部。效率大幅提升，成本显著降低。”杭州小影创新科技股份有限公司（下称“小影科技”）业务副总裁吴婉萱向记者表示。（证券时报）\n上市进行时\n共享微出行平台Neutron申请美股IPO，拟募资2.5亿美元\n运营Lime品牌的电动滑板车及电动自行车租赁平台Neutron Holdings于上周五向美国证券交易委员会（SEC）公开递交上市申请，预计首次公开发行（IPO）募资规模可达2.5亿美元。\n国仪量子科创板IPO过会\n36氪获悉，上交所网站显示，科创板拟上市企业国仪量子技术（合肥）股份有限公司的首发申请获得上市委会议通过。\n长盈精密向港交所提交上市申请书\n36氪获悉，据港交所文件，深圳市长盈精密技术股份有限公司向港交所提交上市申请书，独家保荐人为中金公司\n中芯国际发行股份购买资产获上交所重组委会议通过\n36氪获悉，据上交所，上海证券交易所并购重组审核委员会2026年第5次审议会议于2026年5月11日召开，审议结果为中芯国际集成电路制造有限公司（发行股份购买资产）符合重组条件和信息披露要求。\nAI最前沿\n千问与淘宝打通，正式上线AI购物\n36氪获悉，5月11日，千问与淘宝全面打通。用户打开千问App，与AI对话，即可完成淘宝上的商品挑选、对比及下单购买；打开淘宝App，点击“千问AI购物助手”，即可AI购物，并使用AI试穿、AI算优惠、AI低价帮抢等功能。\n美图“无痕改字”AI功能支持中、英、日、韩、泰等多语种\n36氪获悉，近日，美图公司旗下美图影像研究院（MT Lab）6篇论文获ICLR、CVPR、ICML三大国际顶会录用。其中，聚焦场景文本编辑的研究入选ICML 2026，相关技术已落地为美图设计室App和美图秀秀PC版“无痕改字”功能。该功能突破传统改字的预设词表限制，支持中、英、日、韩、泰等多语种，并能保持字体风格与画面质感一致，无明显拼接痕迹。\n腾讯云：QClaw正式上线“文件空间”功能\n36氪获悉，据腾讯云官微，今天，QClaw正式上线“文件空间”功能。只需一次授权，QClaw就能将本地文件、腾讯文档、ima知识库一站式全面打通。从找资料、AI加工，到最终产出和协作，全部在一个工作台里闭环。\nAI创作平台灵珠正式开启第二次内测\n36氪获悉，5月11日，AI创作平台灵珠正式开启第二次内测。本次内测带来三大升级：一是取消邀请码限制，所有用户均可直接登录体验；二是正式环境全面接入DeepSeek V4大模型，需求分析环节效率提升约3倍，用户提交创意后，系统分析并优化需求的时间从原来的近20秒缩短到不到5秒；三是对登录界面和应用广场界面进行了全面优化。\n波兰电商平台Allegro与OpenAI达成合作，将生成式AI引入购物体验\n5月11日，波兰主流电商平台Allegro正式宣布与OpenAI开展技术合作，计划将生成式人工智能应用于其电商生态系统。通过此次合作，Allegro旨在利用OpenAI的技术模型优化基础功能，包括改进搜索结果的准确性、提升个性化推荐质量以及升级智能客服响应速度。（界面新闻）\n大公司财报\n百济神州：第一季度净利润为16.08亿元，同比扭亏为盈\n36氪获悉，百济神州发布2026年一季度业绩报告。报告显示，2026年第一季度实现营业收入105.44亿元，同比增长31.0%；归属于上市公司股东的净利润为16.08亿元，上年同期亏损，同比扭亏为盈。业绩变动主要系产品收入增长和费用管理推动了经营效率的提升。\n投融资\n“Uncharted Dynamics”完成数百万美元种子轮融资\n36氪获悉，具身智能底层基础设施公司Uncharted Dynamics已完成数百万美元种子轮融资，由险峰长青领投。资金将用于高精度多体动力学求解器的研发及北美市场拓展。\n“星锐医药”完成近4000万美元B+轮融资\n36氪获悉，“星锐医药”宣布完成近4000万美元B+轮融资。本轮融资由产业基金联合高瓴创投、LYFE Capital (洲嶺资本）、礼来亚洲基金（LAV)、夏尔巴投资、源码资本及春华资本共同参投。本次募集资金将重点用于加速体内细胞治疗（in vivo CAR-T） 多条管线的临床开发进程、推进肺部、肠道及神经系统等肝外递送平台的搭建，巩固并强化公司在mRNA治疗领域的创新研发布局。\n“维他动力”完成Pre-A轮融资，金额达到5亿元\n36氪独家获悉，“维他动力”近期完成Pre-A轮融资，金额达到5亿元，由东方嘉富，华泰紫金，复星锐正联合领投，上汽集团旗下尚颀资本，明荟致远共同参与投资，凯辉基金、今日资本、高瓴创投、渶策资本、BV百度风投、柏睿资本等老股东继续投资。这也是消费级具身智能领域最大单笔融资。维他动力也开启了量产交付，其首款产品“Vbot超能机器狗”已于5月8日正式启动交付，首批500台产品已下线。除了将四足狗送进家庭场景外，维他动力也正在开启人形机器人的产品研发。\n“鹿明机器人”完成数亿元A1及A2轮融资\n36氪获悉，近日，“鹿明机器人”宣布，连续完成A1及A2两轮融资。其中A1轮融资由三菱电机智能制造科技（中国）集团有限公司（统筹在中国的工业自动化事业，以下简称“三菱电机”）领投，老股东普华资本、吴中金控等超额跟投，A2轮融资由三菱电机继续领投，恒生电子、海高集团、昆石投资等产业方跟投。两轮融资完成后，公司累计融资近10亿元。融资将用于公司具身大模型研发和场景拓展的持续投入。\n情侣“花钱算账”小调查\n亲密关系中，谈心动容易，谈钱却总显得格外微妙。约会谁买单、共同开销要不要AA、同居后的房租生活费如何分摊……有人觉得感情不该锱铢必较，算得太清楚会冲淡亲密感；也有人坚持明算账才是长久之道，收支清晰反而能减少矛盾。\n金钱一定是情感中绕不开的一道难题。你能接受伴侣实行AA制吗？双方收入差距会不会影响花钱分摊方式？你们是否曾因为买单失衡、开销观念不同产生争执？欢迎扫码参与小调查，和我们聊聊亲密关系里关于金钱的那些纠结与看法。\n情侣“花钱算账”小调查\n整理\n｜徐嘉彤",
-    "content_source": "readability",
-    "content_chars": 7260,
-    "content_excerpt": "今日热点导览\n天舟十号货运飞船与空间站组合体完成交会对接\n国家广播电视总局：4月经备案国产电视动画片51部、9659分钟\n任天堂股价因Switch 2游戏前景不佳大幅下跌\n千问与淘宝打通，正式上线AI购物\nTOP3大新闻\n美国总统特朗普：非常期待中国之行\n外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。\n当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。(央视新闻)\nOPPO就母亲节文案事件发布问责通告，高级副总裁职级直降两级"
+    "collected_at": "2026-05-19T02:35:46.964677"
   },
   {
     "id": "hn-47679121",
@@ -4649,7 +4667,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-18T19:29:36.948717"
+    "collected_at": "2026-05-19T02:35:46.964767"
   },
   {
     "id": "hn-47363754",
@@ -4660,7 +4678,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-18T19:29:36.948800"
+    "collected_at": "2026-05-19T02:35:46.964884"
   },
   {
     "id": "hn-47340079",
@@ -4671,7 +4689,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-18T19:29:36.948499"
+    "collected_at": "2026-05-19T02:35:46.964458"
   },
   {
     "id": "hn-47225130",
@@ -4682,7 +4700,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-18T19:29:36.948833"
+    "collected_at": "2026-05-19T02:35:46.964935"
   },
   {
     "id": "hn-47136179",
@@ -4693,7 +4711,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-18T19:29:36.948599"
+    "collected_at": "2026-05-19T02:35:46.964600"
   },
   {
     "id": "hn-46990729",
@@ -4704,7 +4722,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-18T19:29:36.948557"
+    "collected_at": "2026-05-19T02:35:46.964539"
   },
   {
     "id": "hn-45941596",
@@ -4715,7 +4733,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-18T19:29:36.948863"
+    "collected_at": "2026-05-19T02:35:46.964949"
   },
   {
     "id": "hn-45930151",
@@ -4726,7 +4744,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-18T19:29:36.948896"
+    "collected_at": "2026-05-19T02:35:46.964995"
   },
   {
     "id": "hn-44972151",
@@ -4737,7 +4755,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-18T19:29:36.948672"
+    "collected_at": "2026-05-19T02:35:46.964706"
   },
   {
     "id": "hn-44396518",
@@ -4748,7 +4766,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-18T19:29:36.948774"
+    "collected_at": "2026-05-19T02:35:46.964848"
   },
   {
     "id": "hn-44314423",
@@ -4759,7 +4777,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-18T19:29:36.948810"
+    "collected_at": "2026-05-19T02:35:46.964898"
   },
   {
     "id": "hn-44163063",
@@ -4770,7 +4788,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-18T19:29:36.948538"
+    "collected_at": "2026-05-19T02:35:46.964512"
   },
   {
     "id": "hn-42910910",
@@ -4781,7 +4799,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-18T19:29:36.948681"
+    "collected_at": "2026-05-19T02:35:46.964720"
   },
   {
     "id": "hn-41392128",
@@ -4792,7 +4810,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-18T19:29:36.948610"
+    "collected_at": "2026-05-19T02:35:46.964616"
   },
   {
     "id": "hn-41386319",
@@ -4803,7 +4821,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-18T19:29:36.948620"
+    "collected_at": "2026-05-19T02:35:46.964631"
   },
   {
     "id": "hn-41069829",
@@ -4814,7 +4832,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-18T19:29:36.948906"
+    "collected_at": "2026-05-19T02:35:46.965010"
   },
   {
     "id": "hn-41046773",
@@ -4825,7 +4843,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-18T19:29:36.948528"
+    "collected_at": "2026-05-19T02:35:46.964497"
   },
   {
     "id": "hn-40767459",
@@ -4836,7 +4854,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-18T19:29:36.948916"
+    "collected_at": "2026-05-19T02:35:46.965025"
   },
   {
     "id": "hn-39918245",
@@ -4847,7 +4865,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-18T19:29:36.948875"
+    "collected_at": "2026-05-19T02:35:46.964964"
   },
   {
     "id": "hn-39526057",
@@ -4858,7 +4876,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-18T19:29:36.948517"
+    "collected_at": "2026-05-19T02:35:46.964481"
   },
   {
     "id": "hn-38544729",
@@ -4869,7 +4887,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-18T19:29:36.948566"
+    "collected_at": "2026-05-19T02:35:46.964552"
   },
   {
     "id": "hn-37021160",
@@ -4880,7 +4898,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-18T19:29:36.948692"
+    "collected_at": "2026-05-19T02:35:46.964735"
   },
   {
     "id": "hn-31812259",
@@ -4891,7 +4909,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-18T19:29:36.948819"
+    "collected_at": "2026-05-19T02:35:46.964915"
   },
   {
     "id": "hn-18249755",
@@ -4902,7 +4920,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-18T19:29:36.948659"
+    "collected_at": "2026-05-19T02:35:46.964690"
   },
   {
     "id": "hn-17022963",
@@ -4913,7 +4931,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-18T19:29:36.948640"
+    "collected_at": "2026-05-19T02:35:46.964661"
   },
   {
     "id": "hn-15892066",
@@ -4924,7 +4942,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-18T19:29:36.948790"
+    "collected_at": "2026-05-19T02:35:46.964869"
   },
   {
     "id": "hn-6830566",
@@ -4935,6 +4953,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-18T19:29:36.948883"
+    "collected_at": "2026-05-19T02:35:46.964977"
   }
 ]

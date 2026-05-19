@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "13F报告显示，高瓴一季度建仓叮咚买菜、迈威尔科技，增持唯品会、英特尔、康宁公司、英伟达、高意公司Coherent、台积电、Lumentum等。（财联社）"
 summary_zh = ""
 tags = []
-list_page = 9
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

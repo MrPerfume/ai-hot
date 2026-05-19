@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://jpain.io/god-damn-ai-is-making-me-dumb/ 评
 summary = "Article URL: https://jpain.io/god-damn-ai-is-making-me-dumb/ Comments URL: https://news.ycombinator.com/item?id=48139148 Points: 436 # Comments: 267"
 summary_zh = "文章网址：https://jpain.io/god-damn-ai-is-making-me-dumb/ 评论网址：https://news.ycombinator.com/item?id=48139148 积分：436 # 评论：267"
 tags = []
-list_page = 16
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->
