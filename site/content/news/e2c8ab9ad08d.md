@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://archestra.ai/blog/only-responsible-ai 评�
 summary = "Article URL: https://archestra.ai/blog/only-responsible-ai Comments URL: https://news.ycombinator.com/item?id=48181125 Points: 288 # Comments: 136"
 summary_zh = "文章网址：https://archestra.ai/blog/only-responsible-ai 评论网址：https://news.ycombinator.com/item?id=48181125 积分：288 # 评论：136"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

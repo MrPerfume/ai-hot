@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

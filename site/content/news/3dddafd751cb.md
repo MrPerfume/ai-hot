@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "36氪获悉，在5月13日举办的Create2026百度AI开发者大会上，百度搭子DuMate全新推出移动端App。据了解，DuMate将百度AI搜索、秒哒、伐谋、百科等核心产品能力集成为可随时调用的内置技能，同时强化长程任务执行与主动决策能力"
 summary_zh = ""
 tags = []
-list_page = 27
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

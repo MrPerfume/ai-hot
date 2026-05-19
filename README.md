@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-19 17:33:08
+🕐 **最近更新**：2026-05-19 22:45:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,21 +16,17 @@
 
 ## 🔥 今日热点
 
-1. [这就是埃隆·马斯克 (Elon Musk) 败诉 OpenAI 的原因](https://aihot.bt199.com/news/9b154231c9e4/)
-   - 周一，马斯克诉奥特曼一案的陪审团对埃隆·马斯克造成了重大打击，一致做出咨询裁决，认为他起诉 OpenAI 的时间太晚了…
+1. [了解现代网络犯罪格局](https://aihot.bt199.com/news/6dfb885ed4e2/)
+   - 2025 年全年，慧与观察到网络犯罪分子的运作方式发生了重大变化。通过分析现实世界的威胁，我们的 HPE 威胁实验室在其…
    - `MIT Tech Review · 2026-05-19`
 
-2. [马斯克诉奥特曼案证明人工智能是由错误的人领导的](https://aihot.bt199.com/news/3be90d994a82/)
+2. [双子座有成为副驾驶的危险](https://aihot.bt199.com/news/4dd4fb882725/)
+   - 双子座有一个令人毛骨悚然的问题。几年前，那个闪闪发光的小图标开始出现在我们所有的 Google 应用程序中。双子座在你的…
+   - `The Verge AI · 2026-05-19`
+
+3. [马斯克诉奥特曼案证明人工智能是由错误的人领导的](https://aihot.bt199.com/news/3be90d994a82/)
    - 今年的科技审判“马斯克诉奥特曼”最终是一场控制权之争。埃隆·马斯克 (Elon Musk) 认为，山姆·奥尔特曼 (Sa…
    - `The Verge AI · 2026-05-18`
-
-3. [埃隆·马斯克 (Elon Musk) 败诉山姆·奥尔特曼 (Sam Altman)](https://aihot.bt199.com/news/4f2f8f4da2b7/)
-   - 经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而…
-   - `The Verge AI · 2026-05-18`
-
-4. [本周对谷歌有什么期待](https://aihot.bt199.com/news/824e77ca4c6b/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…
-   - `MIT Tech Review · 2026-05-18`
 
 
 ## 🤖 AI 简报
@@ -115,6 +111,8 @@
 ---
 
 MIT License
+
+
 
 
 
