@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "36氪获悉，京东宣布将于6月1日晚8点推出全网首档AI购物直播晚会《京东618·赛博联欢会》。据了解，晚会将以AI数字人形象演绎多个经典IP。"
 summary_zh = ""
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

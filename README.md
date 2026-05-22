@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-22 22:26:32
+🕐 **最近更新**：2026-05-23 03:33:12
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,23 +16,27 @@
 
 ## 🔥 今日热点
 
-1. [谷歌不再是真正的谷歌了，六个值得尝试的搜索引擎](https://aihot.bt199.com/news/7d8088891c85/)
-   - 谷歌即将看起来非常不同，如果你不喜欢人工智能概述功能，那么你不会喜欢即将到来的东西
-   - `TechCrunch AI · 2026-05-21`
+1. [你不能再用谷歌搜索“忽视”这个词](https://aihot.bt199.com/news/7e9de1698fc8/)
+   - 谷歌搜索的人工智能更新后，“忽视”这个词现在有效地打破了搜索界面
+   - `TechCrunch AI · 2026-05-22`
 
-2. [为什么你会用人工智能混音来不尊重你最喜欢的艺术家？](https://aihot.bt199.com/news/d13076162bb5/)
-   - 人工智能翻唱和混音歌曲已经成为互联网上的一大祸害。 Spotify、YouTube、TikTok 和 Instagram…
+2. [我们尝试了谷歌的人工智能眼镜，它们就快到了](https://aihot.bt199.com/news/3db5dbae3cb2/)
+   - 谷歌演示了 Android XR 眼镜原型，该眼镜将由 Gemini 驱动的翻译、导航和其他信息直接覆盖到您的视野中
+   - `TechCrunch AI · 2026-05-22`
+
+3. [Elon，别再试图让 Grok 发生了](https://aihot.bt199.com/news/5e435b725c5f/)
+   - 关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…
    - `The Verge AI · 2026-05-22`
 
-3. [三星存储芯片员工今年协商奖金34万美元](https://aihot.bt199.com/news/eb49e510a787/)
-   - 三星与曾威胁罢工的半导体员工达成的临时协议的细节已经浮出水面。据报道，这笔交易使一些员工有资格获得平均每年 34 万美元…
+4. [谷歌的人工智能搜索太糟糕了，它可以“忽略”你正在寻找的内容](https://aihot.bt199.com/news/955ca9a5f55f/)
+   - 谷歌的人工智能概述现在遇到了一个有趣的问题。截至撰写本文时，如果您搜索术语“忽略”，则“AI 概述”部分不会显示通常由…
    - `The Verge AI · 2026-05-22`
 
-4. [黑客组织正在以前所未有的规模毒害开源代码](https://aihot.bt199.com/news/682b115b447c/)
+5. [黑客组织正在以前所未有的规模毒害开源代码](https://aihot.bt199.com/news/682b115b447c/)
    - GitHub 只是 TeamPCP 的最新受害者，该团伙发起了一系列软件供应链攻击
    - `Ars Technica AI · 2026-05-22`
 
-5. [令人震惊地展示了在公共 GitHub 存储库中发现的愚蠢、秘密的 CISA 凭证](https://aihot.bt199.com/news/ca3eef7aa463/)
+6. [令人震惊地展示了在公共 GitHub 存储库中发现的愚蠢、秘密的 CISA 凭证](https://aihot.bt199.com/news/ca3eef7aa463/)
    - 自 2025 年 11 月以来，SSH 密钥、明文密码和其他敏感数据一直在增加
    - `Ars Technica AI · 2026-05-19`
 
@@ -119,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 

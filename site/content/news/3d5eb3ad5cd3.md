@@ -20,7 +20,7 @@ ai_summary = "这家科技巨头表示，它意识到大多数人会在多种设
 summary = "The tech giant says it's aware that most people shop across multiple devices, many retailers, and over the course of many days, which is why it's launching Universal Cart."
 summary_zh = "这家科技巨头表示，它意识到大多数人会在多种设备、多家零售商和多天的时间内进行购物，这就是它推出通用购物车的原因"
 tags = []
-list_page = 22
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->

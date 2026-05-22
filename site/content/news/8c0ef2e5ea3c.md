@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "今日，优必选创始人周剑正式开通社交媒体，并宣布公司推出消费级人形机器人品牌优世界UWORLD。"
 summary_zh = ""
 tags = []
-list_page = 16
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

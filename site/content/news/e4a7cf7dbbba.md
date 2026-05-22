@@ -20,7 +20,7 @@ ai_summary = "回收初创公司正在利用人工智能来提高铝等关键矿
 summary = "Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal."
 summary_zh = "回收初创公司正在利用人工智能来提高铝等关键矿物的回收率，旨在建立一个巨大的金属来源"
 tags = []
-list_page = 7
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

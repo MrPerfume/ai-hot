@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.tomshardware.com/tech-industry/artifici
 summary = "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role Comments URL: https://news.ycombinator.com/item?id=48206241 Poin"
 summary_zh = "文章网址：https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praise-commencemen…"
 tags = []
-list_page = 15
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

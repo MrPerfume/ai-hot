@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://annas-archive.gl/blog/llms-txt.html 评论�
 summary = "Article URL: https://annas-archive.gl/blog/llms-txt.html Comments URL: https://news.ycombinator.com/item?id=48234413 Points: 334 # Comments: 177"
 summary_zh = "文章网址：https://annas-archive.gl/blog/llms-txt.html 评论网址：https://news.ycombinator.com/item?id=48234413 积分：334 # 评论：177"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->
