@@ -20,7 +20,7 @@ ai_summary = "Spotify 将让您根据提示生成每日或每周简报"
 summary = "Spotify will let you generate daily or weekly briefs based on your prompts"
 summary_zh = "Spotify 将让您根据提示生成每日或每周简报"
 tags = []
-list_page = 4
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

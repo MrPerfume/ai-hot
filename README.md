@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-22 16:55:06
+🕐 **最近更新**：2026-05-22 22:26:32
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,23 +20,19 @@
    - 谷歌即将看起来非常不同，如果你不喜欢人工智能概述功能，那么你不会喜欢即将到来的东西
    - `TechCrunch AI · 2026-05-21`
 
-2. [圆桌会议：人工智能能否学会理解世界？](https://aihot.bt199.com/news/bf40a95dd6a6/)
-   - 收听会议或观看以下内容 人工智能公司希望构建能够理解外部世界并克服法学硕士局限性的系统。最近的发展使世界模型成为人工智能…
-   - `MIT Tech Review · 2026-05-21`
+2. [为什么你会用人工智能混音来不尊重你最喜欢的艺术家？](https://aihot.bt199.com/news/d13076162bb5/)
+   - 人工智能翻唱和混音歌曲已经成为互联网上的一大祸害。 Spotify、YouTube、TikTok 和 Instagram…
+   - `The Verge AI · 2026-05-22`
 
-3. [埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 围绕 OpenAI 之争的所有最新动态](https://aihot.bt199.com/news/74cdffe7e5df/)
-   - 萨姆·奥尔特曼 (Sam Altman) 和埃隆·马斯克 (Elon Musk) 正在一场高风险的试验中对峙，这场试验可…
-   - `The Verge AI · 2026-05-21`
+3. [三星存储芯片员工今年协商奖金34万美元](https://aihot.bt199.com/news/eb49e510a787/)
+   - 三星与曾威胁罢工的半导体员工达成的临时协议的细节已经浮出水面。据报道，这笔交易使一些员工有资格获得平均每年 34 万美元…
+   - `The Verge AI · 2026-05-22`
 
-4. [在绝望时期，毕业生通过羞辱科技首席执行官找到希望](https://aihot.bt199.com/news/32ece92680df/)
-   - 大学毕业生在毕业典礼上对那些赞扬人工智能的企业高管发出嘘声和质问，而真正对此感到惊讶的人似乎只有高管本身。在一系列病毒视…
-   - `The Verge AI · 2026-05-21`
+4. [黑客组织正在以前所未有的规模毒害开源代码](https://aihot.bt199.com/news/682b115b447c/)
+   - GitHub 只是 TeamPCP 的最新受害者，该团伙发起了一系列软件供应链攻击
+   - `Ars Technica AI · 2026-05-22`
 
-5. [人工智能时代的创造力扩展](https://aihot.bt199.com/news/13fdcf243334/)
-   - 讲故事是人类 DNA 的核心，源于我们表达理想、警告、希望和经历的冲动。技术始终贯穿于媒介和传播之中：从早期人类对用于洞…
-   - `MIT Tech Review · 2026-05-21`
-
-6. [令人震惊地展示了在公共 GitHub 存储库中发现的愚蠢、秘密的 CISA 凭证](https://aihot.bt199.com/news/ca3eef7aa463/)
+5. [令人震惊地展示了在公共 GitHub 存储库中发现的愚蠢、秘密的 CISA 凭证](https://aihot.bt199.com/news/ca3eef7aa463/)
    - 自 2025 年 11 月以来，SSH 密钥、明文密码和其他敏感数据一直在增加
    - `Ars Technica AI · 2026-05-19`
 
@@ -123,6 +119,8 @@
 ---
 
 MIT License
+
+
 
 
 
