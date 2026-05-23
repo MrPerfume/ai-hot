@@ -1,5 +1,23 @@
 [
   {
+    "id": "32e0243942b6",
+    "title": "Ferrari is using IBM’s AI to create F1 superfans",
+    "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-23T15:08:00",
+    "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+    "collected_at": "2026-05-23T19:00:49.726994",
+    "content_text": "Two years ago, IBM realized there was one glaring omission in its roster of sports partnerships: Formula One.\nFormula One has become one of the world’s most popular sports, especially in the U.S., where Netflix’s “Drive to Survive” documented the working lives of F1 drivers and turned them into mainstream celebrities. The tech-centric sport has also become a\nhot ticket for tech companies\nlike AWS, Oracle, and Anthropic, which partner with teams for sponsorship visibility and to provide data analytics and AI tools that can deliver a competitive edge.\nSo when IBM went looking for its next major sports partnership, it’s no wonder the company picked F1 and one of its most iconic teams,\nScuderia Ferrari HP\n.\n“They’re the winningest team in history,” Kameryn Stanhouse, IBM’s Vice President of Sports and Entertainment Partnerships, told TechCrunch.\nAt the heart of this partnership, however, is what has led other teams to start working with tech giants: access to more sophisticated tech solutions that can help them make the most of, especially, artificial intelligence. In fact, one of the best parts of sports, Stanhouse said, is how much data is available and can be used to help people get comfortable with AI.\n“They actually see how it serves them,” she said of how AI is used in sports storytelling.\nThe IBM-Ferrari partnership centers on that idea of storytelling, enhancing fan engagement by overhauling the technology powering the Ferrari fan app. To help with this, Ferrari hired Stefano Pallard in the newly titled role “head of fan development,” who said the challenge the team wanted to tackle was not just reaching fans, but “making each of them feel like we know them.”\n“That starts with taking the data we get from the track and turning it into content that is easy to follow and engaging,” he told TechCrunch.\nTeams\nprocess millions of data points\nper second during each race, capturing every movement of the driver and the car. Turning this into content that fans can engage with is just one way that advanced enterprise AI can help businesses better interact with their consumers.\nAmong the 11 teams, Ferrari is one of the few (alongside the likes of McLaren and Williams) to have a standalone fan app strategy rather than lean on social media or the official F1 platforms instead, showing how the sport is slowly starting to capitalize on its growing global fandom.\nImage Credits:\nIBM\nSome of the changes to the Ferrari app were simple, like offering it in Italian. Even though Ferrari is an Italian company and many of its fans are Italian, their fan app was not available in Italian until the IBM partnership.\nStanhouse said the old Ferrari fan app was a place where people went to find race details and then leave. This new app has games where fans can play with others in the app, new AI-written race summaries, more behind-the-scenes stories about the team and the drivers, a place to make predictions, and an AI companion for fans to ask questions.\n“There are two drivers, but did you know it takes 24 people working simultaneously in two seconds to change a tire?” Stanhouse said, adding that storytelling helps fans feel closer to the team.\nUnlike other sports apps IBM has built, Stanhouse said the Ferrari app’s main focus is storytelling because it wants fans to stay engaged with it all year long, rather than for a few weeks a year, as with tournaments like the Masters. Engagement data for the app has been trending upward since IBM came into the scene, Stanhouse said, citing a 62% increase in engagement over race weekends as an example.\nPallard said the team then uses AI to analyze engagement signals in the app, such as which content people like to read and the sentiment of the messages fans send.\n“That helps us understand what resonates most with the Tifosi [the fan nickname for Ferrari] and it directly informs how we shape our storytelling and how we deliver content,” he said.\nThe team hopes to dive deeper into personalization and create more immersive fan experiences.\nThe app developers also took into account Ferrari’s fanbase, which is much more diverse than it was even five years ago. F1 released\nstats last year showing\nthat 75% of new fans were women, many of whom were Gen Z. A particular draw for women is the F1 Academy, an all-female racing series that aims to develop the next generation of women drivers. But these new fans, much like the old, are after one thing — more.\n“They are asking for more data, more insight, more features, and we have to be able to deliver that,” Pallard said. “With IBM, the vision for the next five years is to make every fan feel like the experience was built for them, whether they have been with us for 30 years or 30 days. That is how you build loyalty that lasts.”",
+    "content_source": "readability",
+    "content_chars": 4766,
+    "content_excerpt": "Two years ago, IBM realized there was one glaring omission in its roster of sports partnerships: Formula One.\nFormula One has become one of the world’s most popular sports, especially in the U.S., where Netflix’s “Drive to Survive” documented the working lives of F1 drivers and turned them into mainstream celebrities. The tech-centric sport has also become a\nhot ticket for tech companies\nlike AWS, Oracle, and Anthropic, which partner with teams for sponsorship visibility and to provide data analytics and AI tools that can deliver a competitive edge.\nSo when IBM went looking for its next major sports partnership, it’s no wonder the company picked F1 and one of its most iconic teams,\nScuderia Ferrari HP\n.\n“They’re the winningest team in history,” Kameryn Stanhouse, IBM’s Vice President of Sports and Entertainment Partnerships, told TechCrunch.\nAt the heart of this partnership, however, is what has led other teams to start working with tech giants: access to more sophisticated tech solutions that can help them make the most of, especially, artificial intelligence. In fact, one of the best parts of sports, Stanhouse said, is how much data is available and can be used to help people get comfortable with AI.\n“They actually see how it serves them,” she said of how AI is used in sports storytelling.",
+    "title_zh": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+    "summary_zh": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+    "ai_summary": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验"
+  },
+  {
     "id": "c016cd61be01",
     "title": "OpenAI 详解规模化低延迟语音 AI 的 WebRTC 架构",
     "url": "https://www.infoq.cn/article/HzTpYj4SIqzFOHybIO2q?utm_source=rss&utm_medium=article",
@@ -31,6 +49,24 @@
     "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
     "summary_zh": "Elon Muks 的 xAI 全力投入天然气，而 SpaceX 则痴迷于轨道数据中心。他承诺的“太阳能电力经济”怎么了？",
     "ai_summary": "Elon Muks 的 xAI 全力投入天然气，而 SpaceX 则痴迷于轨道数据中心。他承诺的“太阳能电力经济”怎么了…"
+  },
+  {
+    "id": "5b51f0847714",
+    "title": "Making Deep Learning Go Brrrr from First Principles (2022)",
+    "url": "https://horace.io/brrr_intro.html",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-05-23T11:50:22",
+    "summary": "Article URL: https://horace.io/brrr_intro.html Comments URL: https://news.ycombinator.com/item?id=48246889 Points: 118 # Comments: 43",
+    "collected_at": "2026-05-23T19:00:52.910148",
+    "content_text": "So, you want to improve the performance of your deep learning model. How might you approach such a task? Often, folk fall back to a grab-bag of tricks that might've worked before or saw on a tweet. \"Use in-place operations! Set gradients to None! Install PyTorch 1.10.0 but not 1.10.1!\"\nIt's understandable why users often take such an ad-hoc approach performance on modern systems (particularly deep learning) often feels as much like alchemy as it does science. That being said, reasoning from first principles can still eliminate broad swathes of approaches, thus making the problem much more approachable.\nFor example, getting good performance on a dataset with deep learning also involves a lot of guesswork. But, if your training loss is way lower than your test loss, you're in the \"overfitting\" regime, and you're wasting your time if you try to increase the capacity of your model. Or, if your training loss is identical to your validation loss, you're wasting your time if you try to regularize your model.\nSimilarly, you can understand efficiency of your deep learning regime as consisting of 3 different components.\nCompute: Time spent on your GPU computing actual floating point operations (FLOPS)\nMemory: Time spent transferring tensors within a GPU\nOverhead: Everything else\nJust like with training ML models, knowing what regime you're in allows you to narrow in on optimizations that matters. For example, if you're spending all of your time doing memory transfers (i.e. you are in an\nmemory-bandwidth bound\nregime), then increasing the FLOPS of your GPU won't help. On the other hand, if you're spending all of your time performing big chonky matmuls (i.e. a\ncompute-bound\nregime), then rewriting your model logic into C++ to reduce overhead won't help.\nSo, if you want to keep your GPUs going brrrr, let's discuss the three components your system might be spending time on - compute, memory bandwidth, and overhead.\nBehind the bitter lesson is a legion of engineers keeping GPUs running efficiently. Image from\nGwern\nNote: Most of this post will use GPUs and PyTorch as examples (as I work on the PyTorch team), but the principles almost all generalize across hardware and frameworks.\nOne perspective on optimizing deep learning systems is that we'd like to maximize the time in the compute-bound regime. You paid for all of those 312 teraflops, and ideally, you'd\nget\nthose 312 teraflops. But, in order to get your money's worth out of your expensive matrix multiplication, you need to reduce the amount of time spent in the other parts.\nBut why the focus on maximizing compute and not say, memory bandwidth? The reason is simple - you can reduce the overhead or memory costs, but you (mostly) can't reduce the computation required without changing the actual operations you're performing.\nExacerbating the difficulty of maximizing compute utilization is the rate at which compute grows compared to memory bandwidth. Take\nthis table\non CPU FLOPS doubling times vs. memory bandwidth doubling times\nOne way to think about compute is as a factory. We send instructions to our factory (overhead), send it materials (memory-bandwidth), all to keep our factory running efficiently (compute).\nSo, if our factory increases efficiency faster than the rate at which we can supply it materials, it becomes harder for our factory to achieve its peak efficiency.\nEven though our factory's size (FLOPS) doubled - if our bandwidth can't keep up then our performance isn't also going to double\nAlong with implying permanent job security for ML systems engineers, this growing difficulty in utilizing our compute also makes understanding our bottlenecks even more important.\nOne more addendum about FLOPS. Modern machine learning accelerators all have hardware specialized for matrix-multiplication, such as Nvidia's \"Tensor Cores\".\nSo, if you aren't doing matrix multiplication, you'll only be able to achieve 19.5 teraflops instead of the stated 312. Note that this isn't unique to GPUs - in fact, TPUs are even\nless\ngeneral than GPUs.\nThe fact that GPUs are so much slower at everything that isn't a matrix multiply might seem problematic at first - what about our other operators like layer norm or activation functions? Well, the truth is, those operators are just rounding errors in terms of FLOPS. For example, let's look at this table of FLOP counts on BERT for different operator types from\nthis paper\n, where \"Tensor Contraction\" = matmuls.\nYou can see that altogether, our non-matmul ops only make up 0.2% of our FLOPS, so it doesn't matter that our GPU computes non-matmul ops 15x slower.\nBut, in this case, the normalization and pointwise ops actually achieve\n250x less FLOPS and 700x less FLOPS\nthan our matmuls respectively.\nSo why do our non-matmul ops take so much more time than they should?\nGoing back to our analogy, the culprit is often how long it takes to transport materials to and from the factory. In other words, the memory bandwidth.\nBandwidth\nBandwidth costs are essentially the cost paid to move data from one place to another. This might be moving the data from CPU to GPU, from one node to another, or even from CUDA global memory to CUDA shared memory. This last one, in particular, is what we'll be focusing on here, and is typically referred to as \"bandwidth cost\" or \"memory bandwidth cost\".\nThe other two (typically referred to as \"data transfer costs\" and \"network costs\" respectively) are certainly important, but going into distributed performance would cause me to never finish this post.\nTo understand what the memory bandwidth cost is, let's head back to our factory analogy.\nAlthough our factory is where we do the actual work, it's not suitable as a bulk storage unit. A large part of this is that since we're doing actual work here, all the storage is optimized for being fast to actually\nuse\n(SRAM), instead of having a lot of it.\nSo, where do we store the actual results and materials? The typical approach is to have a warehouse, probably somewhere where land is cheap and we have a lot of space (DRAM). Then, we can ship supplies to and from our factories (memory bandwidth).\nThis cost of moving stuff to and from our compute units is what's called the \"memory bandwidth\" cost. As an aside, your GPU's DRAM is what shows up in\nnvidia-smi\n, and is the primary quantity responsible for your lovely \"CUDA Out of Memory' errors.\nOne thing to note is that every single time we perform a GPU kernel, we need to move our data from and back to our GPU's DRAM (i.e. our warehouse).\nNow, imagine what happens when we perform an unary operation like\ntorch.cos\n. We need to ship our data from our storage to the warehouse, then perform a tiny bit of computation for each piece of data, and then ship that storage back. Shipping things around is quite expensive. As a result, nearly all of our time here is spent shipping data around, and\nnot\non the actual computation itself.\nSince we're spending all of our time on memory-bandwidth, such an operation is called a\nmemory-bound operation\n, and it means that we're not spending a lot of time on compute.\nOk, so that's not ideal. What can we do about it? Let's take a look at how a sequence of operators might look.\nHere's how a sequence of pointwise operators might look like.\nHey! This is a very stupid arrangement. Why are we sending the same data to global memory and then back to the compute units, over and over? We should just keep the data at the factory, perform all of our compute, and then send it back!\nInstead of sending our triangle back to global memory just to read it back again, we instead just do all of our operations in one go.\nThis is operator fusion - the most important optimization in deep learning compilers. Simply put, instead of writing our data to global memory just to read it again, we elide the extra memory accesses by performing several computations at once.\nFor example, if we perform\nx.cos().cos()\n, usually we need to perform 4 global reads and writes.\nx1\n=\nx\n.\ncos\n(\n)\nx2\n=\nx1\n.\ncos\n(\n)\nBut, with operator fusion, we only need 2 global memory reads and writes! So operator fusion will speed it up by 2x.\nx2\n=\nx\n.\ncos\n(\n)\n.\ncos\n(\n)\nMuch better.\nThere are a couple of caveats that make this a bit tricky. First of all, the GPU needs to know what's going to happen next when performing the current operation. So, you can't do this optimization in eager-mode, where PyTorch runs operators one at a time. Second, we actually need to generate CUDA code for this, which opens up a whole new can of worms.\nNot all operator fusion is as simple as pointwise operators. You can fuse pointwise operators onto reductions, or pointwise operators onto matrix multiplication. Even matrix multiplication itself can be thought of as fusing a broadcasting multiply followed by a reduction.\nIf you're interested in writing custom CUDA kernels, it's likely that this is where you'll see the most benefit. Any 2 PyTorch operators present an opportunity for fusion, thus saving the memory bandwidth costs of reading/writing out to global memory between them. In addition, many existing compilers can often perform \"simple\" fusions - NVFuser and XLA being two examples. However, automated systems are no match for human ingenuity, so if you want to try out writing some custom CUDA kernels yourself,\nTriton\nis a great place to start.\nFinally, operator fusion leads to some surprising consequences. For one, a fused\nx.cos().cos()\nwill take nearly the exact same time as calling\nx.cos()\nby itself. This is why activation functions are nearly all the same cost, despite\ngelu\nobviously consisting of many more operations than\nrelu\n.\nThis fact leads to some interesting consequences for rematerialization/activation checkpointing. Essentially, doing extra recomputation might lead to\nless\nmemory-bandwidth, and thus less runtime. Thus, we can lower both memory\nand\nruntime through rematerialization, which we leveraged to build a neat min-cut optimization pass in AOTAutograd. You can read more about it\nhere\n(might also go into it in a future blog post!)\nReasoning about Memory-Bandwidth Costs\nWhen it come to reasoning about whether your operation is memory-bandwidth bound, a calculator can go a long way.\nFor simple operators, it's feasible to reason about your memory bandwidth directly. For example, an A100 has 1.5 terabytes/second of global memory bandwidth, and can perform 19.5 teraflops/second of compute. So, if you're using 32 bit floats (i.e. 4 bytes), you can load in 400 billion numbers in the same time that the GPU can perform 20 trillion operations. Moreover, to perform a simple unary operator (like multiplying a tensor by 2), we actually need to\nwrite\nthe tensor back to global memory.\nSo... until you're doing about a hundred operations in your unary operator, you'll be spending more time performing memory accesses than actual compute.\nWith the help of a fusing compiler like NVFuser, it's actually fairly easy to measure this ourselves! You can see the code in Colab\nhere\n.\nIf you take a PyTorch function like\ndef\nf\n(\nx\n:\nTensor\n[\nN\n]\n)\n:\nfor\n_\nin\nrange\n(\nrepeat\n)\n:\nx\n=\nx\n*\n2\nreturn\nx\nand benchmark it with a fusing compiler, we can then calculate the FLOPS and memory bandwidth achieved for various values of\nrepeat\n. Increasing\nrepeat\nis an easy way of increasing our amount of compute\nwithout\nincreasing our memory accesses - this is also known as increasing\ncompute intensity\n.\nSpecifically, let's say we benchmark this code, and find the number of iterations we perform per second. Then, as a function of N (the size of our tensor), we'll perform\n2*N\nmemory accesses, and\nN * repeat\nFLOP. So, the memory bandwidth achieved would be\nbytes_per_elem * 2 * N * itrs_per_second\n, and FLOPS achieved would be\nN * repeat * itrs_per_second\n.\nNow, let's plot the runtime, flops, and memory bandwidth achieved as a function of the compute intensity. Note that everything is on a log-log scale.\nFirst, notice that the runtime doesn't increase noticeably\nat all\nuntil we're performing 64 multiplications. That means that up until that point, we're mostly memory-bandwidth bound - our compute is mostly sitting idle.\nAs a result, we start off by achieving a measly 0.2 teraflops. As we double the compute intensity, this number grows linearly, until we get close to our peak of 9.75 teraflops . Once we're close to our peak teraflops, we are considered to be \"compute bound\".\nFinally, you can see that our memory bandwidth achieved starts out near the peak, and as we increase our compute intensity it starts to drop. This is exactly what we should expect, as we're spending more and more time performing actual compute instead of accessing memory.\nIn this case, it's easy to see when we're compute-bound and when we're memory-bound. For\nrepeat < 32\n, we're saturating our memory-bandwidth while our compute is underutilized. Conversely, once\nrepeat > 64\n, we see that we're saturating our compute (i.e. achieving close to peak FLOPS), while our utilized memory bandwidth starts to drop.\nFor larger systems, it's often more difficult to say whether you're compute bound or memory-bandwidth bound, often since they contain a mix of compute-bound and memory-bound components.\nOne common approach to measuring how compute-bound you are is to measure your achieved FLOPS as a percentage of peak FLOPS. For example, if you're achieving 80% of your peak FLOPS, then you know that you're at least 80% compute bound, which is pretty good! The rest of your time is probably spent doing memory-bandwidth operations.\nHowever, in addition to memory-bandwidth costs, there's one more thing that might cause your GPUs to not go brrrrr.\nOverhead is when your code is spending time doing anything that's\nnot\ntransferring tensors or computing things. For example, time spent in the Python interpreter? Overhead. Time spent in the PyTorch framework? Overhead. Time spent launching CUDA kernels (but not executing them)? Also... overhead.\nThe primary reason overhead is such a pernicious problem is that modern GPUs are\nreally\nfast. An A100 can perform 312\ntrillion\nfloating point operations per second (312 TeraFLOPS). In comparison, Python is\nreally\nslooooowwww. Benchmarking locally, Python can perform 32 million additions in one second.\nThat means that in the time that Python can perform a\nsingle\nFLOP, an A100 could have chewed through\n9.75 million FLOPS\n.\nEven worse, the Python interpreter isn't even the only source of overhead - frameworks like PyTorch also have many layers of dispatch before you get to your actual kernel. If you perform the same experiment with PyTorch, we can only get 280 thousand operations per second. Of course, tiny tensors aren't what PyTorch is built for, but... if you are using tiny tensors (such as in scientific computing), you might find PyTorch incredibly slow compared to C++.\nFor example, look at this flamegraph profile of PyTorch performing a single addition. That box right there? That's what's performing the actual computation. Everything else is pure overhead.\nGiven this, you might be shocked that anybody uses PyTorch at all, but keep in mind that modern deep learning models are often performing\nmassive\noperations. Moreover, frameworks like PyTorch execute\nasynchronously\n. That is, while PyTorch is running a CUDA kernel, it can continue and queue up more CUDA kernels behind it. So, as long as PyTorch can \"run ahead\" of the CUDA kernels, most of the framework overhead gets completely hidden!\nIf our GPU operators are big enough, then our CPU can run ahead of the GPU (and thus the CPU overhead is irrelevant). On the other hand, if our GPU operators are too small, then our GPU is going to spend most of its time as an expensive paperweight.\nSo, how do you tell if you're in this regime? Well, since overhead generally doesn't scale with problem size (while compute and memory do), the easiest way to tell is to simply increase the size of your data. If that doesn't increase the runtime proportionally, you're overhead bound. For example, if you double your batch size but your runtime only increases by 10%, you're likely overhead bound.\nAnother way is to use the PyTorch profiler. Here, the pink lines actually show how the CPU kernels match up with the GPU kernels.\nLots of gaps on the GPU while it's waiting for CPU overhead\nOur CPU runs wayyy ahead of the GPU\nAnother aside - the \"GPU-Util\" (\nnot \"Volatile GPU-Util\"\n) entry in nvidia-smi is basically measuring what percentage of the bottom row is actually running a GPU kernel. So that's another good way of eyeballing overhead.\nThe primary reason this overhead exists is due to all of the flexibility frameworks like PyTorch have. Essentially, a lot of time needs to be spent on \"figuring out what to do\".\nThis might be from Python (looking up attributes or dispatching to the right function) or code in PyTorch (all of PyTorch's\ndispatcher\n). For example, when you do\na + b\n, the following steps need to happen.\nPython needs to look up what\n__add__\ndispatches to on\na\n.\nPyTorch needs to determine many attributes of the tensor (such as dtype, device, and whether autograd is needed) to determine which kernel to call.\nPyTorch needs to actually launch the kernel.\nFundamentally, this overhead comes from the flexibility of being able to do something different at each step. If you don't need this flexibility, one way of resolving this flexibility is by tracing it out, like with\njit.trace\n,\nFX\n, or\njax.jit\n. Or, alternately, you could do it at an even lower level with something like\nCUDA Graphs\n.\nUnfortunately, this comes at the cost of losing flexibility. One approach I'm excited about that could get us the best of both worlds is to write something more along the lines of a \"real\" JIT by introspecting at the VM level. See\nTorchDynamo\nfor more on this.\nIf you want to speed up your deep learning system, the most important thing is to understand what the bottleneck in your model is. That bottleneck determines what the appropriate way of speeding up your system is.\nOften, I see researchers and other folks interested in speeding up their PyTorch code try things out blindly without an understanding of what regime you're in.\nPerformance Regime\nPlausible Solutions\nOverhead-Bound\nTracing, Operator Fusion, don't use Python, a\nreal\nJIT :^)\nBandwidth-Bound\nOperator Fusion\nCompute-Bound\nUse Tensor Cores, give Nvidia more money\nOf course, arguably, users needing to think about this stuff at all reflects a failure on the part of the framework. PyTorch's compiler or profile APIs haven't always been the ... easiest to work with, although it is an active area of focus.\nRegardless, I find understanding of basic principles of systems to nearly always be useful - hopefully this was useful to you as well.\nPS: If you like this article, I will be putting much of my future writing at\nthonking.ai\nThanks to Emily Shen, Qian Huang, and folks on EleutherAI for reading earlier drafts of this blog post and providing feedback.\n@article{he2022brrrrfromfirstprinciples,\nauthor={Horace He},\ntitle={Making Deep Learning Go Brrrr From First Principles},\nyear={2022},\nurl={https://horace.io/brrr_intro.html},\n}",
+    "content_source": "readability",
+    "content_chars": 19127,
+    "content_excerpt": "So, you want to improve the performance of your deep learning model. How might you approach such a task? Often, folk fall back to a grab-bag of tricks that might've worked before or saw on a tweet. \"Use in-place operations! Set gradients to None! Install PyTorch 1.10.0 but not 1.10.1!\"\nIt's understandable why users often take such an ad-hoc approach performance on modern systems (particularly deep learning) often feels as much like alchemy as it does science. That being said, reasoning from first principles can still eliminate broad swathes of approaches, thus making the problem much more approachable.\nFor example, getting good performance on a dataset with deep learning also involves a lot of guesswork. But, if your training loss is way lower than your test loss, you're in the \"overfitting\" regime, and you're wasting your time if you try to increase the capacity of your model. Or, if your training loss is identical to your validation loss, you're wasting your time if you try to regularize your model.\nSimilarly, you can understand efficiency of your deep learning regime as consisting of 3 different components.\nCompute: Time spent on your GPU computing actual floating point operations (FLOPS)\nMemory: Time spent transferring tensors within a GPU\nOverhead: Everything else\nJust like with training ML models, knowing what regime you're in allows you to narrow in on optimizations that matters. For example, if you're spending all of your time doing memory transfers (i.e. you are in an\nmemory-bandwidth bound\nregime), then increasing the FLOPS of your GPU won't help. On the other hand, if you're spending all of your time performing big chonky matmuls (i.e. a",
+    "title_zh": "从第一原理开始让深度学习变得精彩 (2022)",
+    "summary_zh": "文章网址：https://horace.io/brrr_intro.html 评论网址：https://news.ycombinator.com/item?id=48246889 积分：118 # 评论：43",
+    "ai_summary": "文章网址：https://horace.io/brrr_intro.html 评论网址：https://news.yco…"
   },
   {
     "id": "b01ec93d479b",
@@ -221,7 +257,11 @@
     "lang": "zh",
     "published": "2026-05-23T02:25:10",
     "summary": "你们各种 AI 工具订阅费加起来多少了？",
-    "collected_at": "2026-05-23T13:07:56.007516"
+    "collected_at": "2026-05-23T13:07:56.007516",
+    "content_text": "@\nwinnerczwx 我是 dario 还是啥啊，我是真的同情这种“你想把节奏往哪儿带”的思维方式。\nOP 说开销多了，钱没多，我就举我的例子来作为一个 OP 观点对应的参考以及我自己的想法。\n本身 AI 目前这个形式对于独立开发就是会造成生产力提升但是市场扩张不匹配，竞争烈度加剧，注意力被稀释，推广成本上涨。对 AI 部分的支出会侵蚀利润。就是这么简单的道理。上面说赚了十几被订阅的钱，靠的估计也不是 AI ，而是靠自己的营销，他现在把自己的订阅改成 20 美金的，还能把这个数值拉一波。\n普通开发本来在之前的时代就不算什么，现在更是路边一条。还带节奏，绝了。",
+    "content_source": "trafilatura",
+    "content_chars": 284,
+    "content_excerpt": "@\nwinnerczwx 我是 dario 还是啥啊，我是真的同情这种“你想把节奏往哪儿带”的思维方式。\nOP 说开销多了，钱没多，我就举我的例子来作为一个 OP 观点对应的参考以及我自己的想法。\n本身 AI 目前这个形式对于独立开发就是会造成生产力提升但是市场扩张不匹配，竞争烈度加剧，注意力被稀释，推广成本上涨。对 AI 部分的支出会侵蚀利润。就是这么简单的道理。上面说赚了十几被订阅的钱，靠的估计也不是 AI ，而是靠自己的营销，他现在把自己的订阅改成 20 美金的，还能把这个数值拉一波。\n普通开发本来在之前的时代就不算什么，现在更是路边一条。还带节奏，绝了。"
   },
   {
     "id": "86ba7c5bdfdf",
@@ -4674,94 +4714,6 @@
     "ai_summary": "随着亚马逊将其助手扩展为个性化人工智能内容平台，亚马逊的 Alexa+ 现在可以按需生成定制人工智能播客"
   },
   {
-    "id": "f96194922ec5",
-    "title": "Coder Agents让企业能够在自托管基础设施上运行AI编码工作流",
-    "url": "https://www.infoq.cn/article/QY3s00D8dEh7NdrT7GmH?utm_source=rss&utm_medium=article",
-    "source": "InfoQ AI",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-05-18T14:14:00",
-    "summary": "点击查看原文>",
-    "collected_at": "2026-05-18T09:45:59.609281",
-    "content_text": "Coder Agents 是一个\n模型中立的平台，旨在让组织在自己的基础设施上运行AI编码智能体\n，而不是依赖基于云的服务。这使团队能够对代码、数据和执行环境保持完全控制。\nCoder Agents 试图通过将运行智能体的基础设施与其使用的 AI 模型分离开来，打破智能体工具与模型提供商之间的紧耦合关系，因为这种耦合往往会导致厂商锁定。它提供了一层编排能力，使团队能够在统一平台上标准化工作流，同时仍保留选择和切换模型的灵活性。\n智能仍然来自模型本身，但智能体如何执行、工作空间和算力如何被配置，以及行为如何被控制，都可以在整个组织内实现一致。\nCoder Agents 提供了对话式界面和 API，可用于分配诸如编写代码、生成测试或创建 pull request 之类的任务，这些任务既可以前台执行，也可以作为后台任务运行。它把模型访问、提示词管理、执行策略和可观测性统一纳入集中控制。该 API 还支持更复杂的自动化工作流，并且可以从 CI/CD 流水线、GitHub Actions、Slack 以及其他集成系统中触发。\nCoder 首席执行官 Rob Whiteley 在 LinkedIn 上指出，\n构建一个智能体并不是最难的部分\n。真正的复杂性在于如何安全、可靠地运行智能体，这需要对模型、工具、代码仓库、依赖项、上下文和防护机制进行精细管理。\n这正是我们构建 Coder Agents 的原因。它解决了如何在你选择的模型之上、在你选择的基础设施上运行并行智能体的问题。\n除了支持自托管部署之外，Coder 还支持把这些智能体运行在 Coder Workspaces 之中。该公司表示，这会让已经在使用 Claude Code、Cursor 或 Codex 等第三方工具工作流的组织更容易采用这种方式，从而能够在不打断现有工作流的前提下，逐步过渡到一种更灵活、更集中、也更适合自托管的方法。\nCoder Agents 并不是自托管 AI 智能体的唯一选择。尤其值得注意的是，\nCursor Agents也支持自托管云智能体\n，能够并行运行多项软件任务。\nCursor 云智能体运行在隔离的虚拟机中，每个虚拟机都带有终端、浏览器和完整桌面环境。它们会克隆你的代码仓库，搭建开发环境，编写并测试代码，推送变更等待审查，而且无论你是否在线，它们都会继续工作。\n虽然同属一个类别，但 Coder 指出，Cursor Agents 与 Coder Agents 在设计时考虑的优先级并不相同。从更广泛的视角来看，现有与模型无关的 AI 控制平面解决方案还包括\nTrueFoundry\n和\nFiddler\n等平台。\n查看英文原文：\nCoder Agents Enable Running AI Coding Workflows on Self-Hosted Infrastructure",
-    "content_source": "readability",
-    "content_chars": 1194,
-    "content_excerpt": "Coder Agents 是一个\n模型中立的平台，旨在让组织在自己的基础设施上运行AI编码智能体\n，而不是依赖基于云的服务。这使团队能够对代码、数据和执行环境保持完全控制。\nCoder Agents 试图通过将运行智能体的基础设施与其使用的 AI 模型分离开来，打破智能体工具与模型提供商之间的紧耦合关系，因为这种耦合往往会导致厂商锁定。它提供了一层编排能力，使团队能够在统一平台上标准化工作流，同时仍保留选择和切换模型的灵活性。\n智能仍然来自模型本身，但智能体如何执行、工作空间和算力如何被配置，以及行为如何被控制，都可以在整个组织内实现一致。\nCoder Agents 提供了对话式界面和 API，可用于分配诸如编写代码、生成测试或创建 pull request 之类的任务，这些任务既可以前台执行，也可以作为后台任务运行。它把模型访问、提示词管理、执行策略和可观测性统一纳入集中控制。该 API 还支持更复杂的自动化工作流，并且可以从 CI/CD 流水线、GitHub Actions、Slack 以及其他集成系统中触发。\nCoder 首席执行官 Rob Whiteley 在 LinkedIn 上指出，\n构建一个智能体并不是最难的部分\n。真正的复杂性在于如何安全、可靠地运行智能体，这需要对模型、工具、代码仓库、依赖项、上下文和防护机制进行精细管理。\n这正是我们构建 Coder Agents 的原因。它解决了如何在你选择的模型之上、在你选择的基础设施上运行并行智能体的问题。"
-  },
-  {
-    "id": "dbfe3cfc9f22",
-    "title": "重塑主流PC，第三代英特尔酷睿开启全民AI轻薄本时代",
-    "url": "https://www.qbitai.com/2026/05/419585.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-18T13:16:45",
-    "summary": "芯片与系统级双重创新",
-    "collected_at": "2026-05-18T14:56:48.989275",
-    "content_text": "重塑主流PC，第三代英特尔酷睿开启全民AI轻薄本时代\n量子位的朋友们\n2026-05-18\n21:16:45\n来源：\n量子位\n在今日举办的新品分享会上，英特尔表示第三代英特尔® 酷睿™ 处理器将为“全民AI轻薄本”提供核心算力与AI引擎，重塑主流PC体验。同时，英特尔亦通过“Firefly萤火虫计划”，联合产业链上下游伙伴推动系统级创新，为用户带来更智能、高效、便捷的日常计算体验。预计全球合作伙伴将陆续推出超过70款基于该平台的创新设计。\n英特尔副总裁、中国区软件工程和客户端产品事业部总经理高嵩表示：“半导体制程、计算架构与AI技术的飞速演进，正在重塑PC的未来。基于芯片和系统层面的双重创新，第三代英特尔酷睿处理器将长效续航、瞬时响应和AI能力，扩展至更广泛的主流消费市场，让用户在每一次开合与触碰中，尽情享受卓越体验。”\n芯片级创新，第三代家族持续扩展\nAI时代，主流PC用户对智能的迫切需求，正驱动着技术创新与普及。第三代英特尔酷睿处理器以重塑主流PC体验为核心，为更广泛的用户带来更加触手可及的智能体验。\n基于Intel 18A制程，第三代酷睿将为用户带来集持久续航、迅捷响应、卓越AI能力于一体的全新AI轻薄本体验。其功耗降低多达64%，图形AI性能获得了高达2.7倍的提升，同时还是首款支持端云混合AI的英特尔酷睿处理器，拥有高达40 TOPS的平台算力，让主流PC拥有强大的AI能力1。\n英特尔中国区客户端与平台销售业务部总经理宗晔表示：“当AI从概念走向日常，PC也正在从‘工具’进化为‘智能体验入口’。基于第三代英特尔酷睿处理器，我们携手广泛生态伙伴共同打造了‘全民AI轻薄本’，它能够承载从家庭到职场、从学习到创造的全场景需求，以轻薄形态适配多样人生阶段，为用户提供随时在线的个性化体验”\n系统级创新，为AI轻薄本注入新活力\n新一代主流PC的非凡体验，不止源于芯片本身，也来自全面的系统级创新。英特尔联合生态伙伴发起的“Firefly萤火虫计划”，通过深度融合手机生态的优势，从产品设计、元器件选型、成本结构进行协同创新，驱动主流PC实现性能、质感与体验的系统性升级。\n与前一代产品相比，优化后的PCB面积缩小5%，器件数量减少7% 2。此外，针对第三代酷睿平台特性制定并推广了标准化主板与I/O板的连接；推动主板核心电路模块化，做到“一次优化、全局受益”，大幅提升了设计研发效率。以成本效益为核心的精益设计，使新一代产品能覆盖广泛的价位段，为用户呈现“轻、美、净、薄”的AI轻薄本。\n日常计算体验升级，覆盖不同人生阶段\n通过打造集流畅性能、智能交互、轻巧设计、简便操作、稳定可靠于一体的PC设备，第三代酷睿正推动着主流PC从单一场景的“传统轻薄本”，转变为面向大众、融入日常的“全民AI轻薄本”。其多元应用场景如下：\n家长的智能伴学助手：\n利用本地AI能力拆解作业难题，帮助家长轻松讲题、归纳错题。流畅的多任务能力，让全家人的计算需求并行不悖，陪伴更省心、成长更安心。\n学生的全天工学伙伴：\n轻薄机身、持久续航确保全天移动生产力；可靠性能让电脑流畅运行本地AI，面对轻度游戏、影音娱乐也能游刃有余，校园生活，从容面对。\n职场新人的效率秘诀：\n本地AI助力完成会议纪要、数据分析等日常工作，轻薄机身与持久续航让差旅无压力，流畅运行确保关键时刻不卡顿，助新人快速站稳职场。\n创业者的高效生产力中心：\n运用本地AI算力将内容创作、数据整理分析等事务化繁为简；高速传输能力确保跨设备畅通无阻，让创业者专注于业务开拓与创意打磨。\n银发族的数字生活帮手：\n包括语音助手在内的自然智能体交互方式，让查菜谱、看照片、视频通话等操作变得简单直观，让科技温暖相伴，便捷生活触手可及。\n活动现场，包括华硕、七彩虹、荣耀、惠普、联想、畅网、铭凡在内的领先合作伙伴展示了搭载第三代英特尔酷睿处理器的产品设计，涵盖PC、AI NAS等3。此外，第三代酷睿处理器还将创新拓展至多元化的边缘场景，以丰富的特性和多样的形态，让主流市场用户享受非凡体验。\n转载来源：英特尔\n本文为量子位获授权转载，观点仅为原作者所有。\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 1848,
-    "content_excerpt": "重塑主流PC，第三代英特尔酷睿开启全民AI轻薄本时代\n量子位的朋友们\n2026-05-18\n21:16:45\n来源：\n量子位\n在今日举办的新品分享会上，英特尔表示第三代英特尔® 酷睿™ 处理器将为“全民AI轻薄本”提供核心算力与AI引擎，重塑主流PC体验。同时，英特尔亦通过“Firefly萤火虫计划”，联合产业链上下游伙伴推动系统级创新，为用户带来更智能、高效、便捷的日常计算体验。预计全球合作伙伴将陆续推出超过70款基于该平台的创新设计。\n英特尔副总裁、中国区软件工程和客户端产品事业部总经理高嵩表示：“半导体制程、计算架构与AI技术的飞速演进，正在重塑PC的未来。基于芯片和系统层面的双重创新，第三代英特尔酷睿处理器将长效续航、瞬时响应和AI能力，扩展至更广泛的主流消费市场，让用户在每一次开合与触碰中，尽情享受卓越体验。”\n芯片级创新，第三代家族持续扩展\nAI时代，主流PC用户对智能的迫切需求，正驱动着技术创新与普及。第三代英特尔酷睿处理器以重塑主流PC体验为核心，为更广泛的用户带来更加触手可及的智能体验。"
-  },
-  {
-    "id": "961d391e877a",
-    "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
-    "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-05-18T12:49:54",
-    "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840 Comments URL: https://news.ycombinator.com/item?id=48179029 Points: 137 # Comments: 71",
-    "collected_at": "2026-05-18T19:29:33.755341",
-    "content_text": "MOST POPULAR\nEVENTS\n-\nThe Hardware Crunch: How Supply Chain Turbulence Is Forcing a New IT Playbook\nInfrastructure teams are facing a perfect storm: extended hardware lead times, rising costs driven by AI demand, and accelerated platform timelines.\n-\nFrom Prompt to Exploit: How LLMs Are Changing API Attacks\nModern applications are API-driven, interconnected, and often over-permissioned, making them an ideal target for AI-assisted attacks.\n-\nIdentity Resilience: The New Mandate for Cyber Survival\nJoin Druva experts for a compelling deep dive into what it takes to build an identity-first recovery strategy in this new threat landscape.\n-\nIdentity Resilience: The New Mandate for Cyber Survival\nJoin Druva experts for a compelling deep dive into what it takes to build an identity-first recovery strategy in this new threat landscape.\n-\nUnfriendly Followers: The Black Market For Your Identity\nThey’ll reveal how attackers use your profile as intel and show you how to make yourself harder to target\n-\nHow Agents are Reshaping AI Security\nAI adoption is accelerating and with it comes a new security challenge.\n-\nHow Agents are Reshaping AI Security\nAI adoption is accelerating and with it comes a new security challenge.\n-\nAI Found the Problem. Now What?\nAI is transforming the software development lifecycle, helping teams identify and remediate vulnerabilities before they reach production.\n-\nAgentic AI at Scale: From Pilot to Production\nJoin us to learn how to unlock real ROI by driving adoption of AI at scale.\n-\nSecurity\nLinux kernel flaw opens root-only files to unprivileged users\nPlus ModuleJail, a radical proposal for minimizing the impact of similar bugs\n-\nNetworks\nEurope tests laser links as satellite comms outgrow radio\nGreek mountaintop ground station aims infrared beams at CubeSats in ESA-backed optical networking trial\n-\nCyber-crime\nDutch cops’ shame game works wonders as most wanted scammers now turned in\nGame Over?! gamified the identification of scammers who sought thrills from terrorising the elderly\n-\nAI + ML\n'Big AI' is subverting regulations just like tobacco and oil firms\nResearchers warn that regulatory capture means industry concerns trump those of citizens\n-\nSecurity\nTanStack weighs invitation-only pull requests after supply chain attack\nShai-Hulud worm exploited GitHub Actions misconfiguration to poison shared cache, now project weighing nuclear option on unsolicited contributions\n-\noffbeat\nYes, you can serve a website from a $1 microcontroller\nWell, page is more accurate, but the source code is available if you want to try doing something even crazier\n-\nSecurity\nLinux kernel flaw opens root-only files to unprivileged users\nPlus ModuleJail, a radical proposal for minimizing the impact of similar bugs\n-\nNetworks\nEurope tests laser links as satellite comms outgrow radio\nGreek mountaintop ground station aims infrared beams at CubeSats in ESA-backed optical networking trial\n-\nCyber-crime\nDutch cops’ shame game works wonders as most wanted scammers now turned in\nGame Over?! gamified the identification of scammers who sought thrills from terrorising the elderly\n-\nAI + ML\n'Big AI' is subverting regulations just like tobacco and oil firms\nResearchers warn that regulatory capture means industry concerns trump those of citizens\n-\nYes, you can serve a website from a $1 microcontroller\nWell, page is more accurate, but the source code is available if you want to try doing something even crazier\n-\nLinux kernel flaw opens root-only files to unprivileged users\nPlus ModuleJail, a radical proposal for minimizing the impact of similar bugs\n-\nEurope tests laser links as satellite comms outgrow radio\nGreek mountaintop ground station aims infrared beams at CubeSats in ESA-backed optical networking trial\n-\nDutch cops’ shame game works wonders as most wanted scammers now turned in\nGame Over?! gamified the identification of scammers who sought thrills from terrorising the elderly\n-\n'Big AI' is subverting regulations just like tobacco and oil firms\nResearchers warn that regulatory capture means industry concerns trump those of citizens\n-\nTanStack weighs invitation-only pull requests after supply chain attack\nShai-Hulud worm exploited GitHub Actions misconfiguration to poison shared cache, now project weighing nuclear option on unsolicited contributions\n-\nEurope built sovereign clouds to escape US control. Then forgot about the processors\n-\nNobody believes the 'criminals and scumbags' who hacked Canvas really deleted stolen student data\n-\nEurope wants out from under US tech – but first it has to find the exits\n-\nGNOME may rule Ubuntu Resolute Raccoon, but X.org isn't roadkill yet\n-\nOpenClaw, but in containers: Meet NanoClaw\n-\nOpen source registries don't have enough money to implement basic security\n-\nContain your Windows apps inside Linux Windows\n-\nThe Linux mid-life crisis that's an opportunity for Tux-led transformation\n-\nToo much AI for some, too little for others: Why AMD can't win with investors\n-\nHow agentic AI can strain modern memory hierarchies",
-    "content_source": "trafilatura",
-    "content_chars": 5028,
-    "content_excerpt": "MOST POPULAR\nEVENTS\n-\nThe Hardware Crunch: How Supply Chain Turbulence Is Forcing a New IT Playbook\nInfrastructure teams are facing a perfect storm: extended hardware lead times, rising costs driven by AI demand, and accelerated platform timelines.\n-\nFrom Prompt to Exploit: How LLMs Are Changing API Attacks\nModern applications are API-driven, interconnected, and often over-permissioned, making them an ideal target for AI-assisted attacks.\n-\nIdentity Resilience: The New Mandate for Cyber Survival",
-    "title_zh": "Domo CDO 表示，AI FOMO 已经够了，慢慢来吧",
-    "summary_zh": "文章网址：https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840 评论网址：https://…",
-    "ai_summary": "文章网址：https://www.theregister.com/ai-ml/2026/05/17/enough-wit…"
-  },
-  {
-    "id": "635f4603e550",
-    "title": "网易有道旗下多项产品服务接入DeepSeek-V4",
-    "url": "https://36kr.com/newsflashes/3814758816587523?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-05-18T12:29:17",
-    "summary": "36氪获悉，网易有道宣布旗下核心产品矩阵全面接入DeepSeek-V4，覆盖有道词典、有道翻译、有道AI答疑笔、虚拟人口语教练应用Hi Echo、企业级大模型聚合平台ThinkFlow等系列产品和服务，全面升级个性化语言学习、理科答疑、AI 工具辅助等核心场景，为用户带来更智能、更便捷的使用体验。",
-    "collected_at": "2026-05-18T14:59:16.930509"
-  },
-  {
-    "id": "8b6352c28fd9",
-    "title": "AI eats the world (Spring 26) [pdf]",
-    "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-05-18T12:49:28",
-    "summary": "Article URL: https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf Comments URL: https://news.ycombinator.com/item?id=48179021 Points: 100 # Comments: 52",
-    "collected_at": "2026-05-18T14:59:13.107568",
-    "title_zh": "人工智能吞噬世界（春季 26）[pdf]",
-    "summary_zh": "文章网址：https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Sprin…",
-    "ai_summary": "文章网址：https://static1.squarespace.com/static/50363cf324ac8e90…"
-  },
-  {
-    "id": "1772d95289d2",
-    "title": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
-    "url": "https://www.qbitai.com/2026/05/419528.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-05-18T12:18:30",
-    "summary": "生成论文远比消化容易",
-    "collected_at": "2026-05-18T14:56:48.989313",
-    "content_text": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议\n听雨\n2026-05-18\n20:18:30\n来源：\n量子位\n听雨 发自 凹非寺\n量子位 | 公众号 QbitAI\n上传AI水论文，被查实者\n封禁一年\n。\n后续投稿须先通过同行评审，才有资格重新踏入arXiv。\n这是arXiv计算机科学版块主席\nThomas Dietterich\n在X上刚刚公开的新规，语气干脆，不带商量。\n若论文中存在作者未核查LLM生成内容的确凿证据，所有署名作者一并受罚，没有例外。\n消息一出，\n陶哲轩\n也亲自下场评论。\n这位数学界最活跃的AI拥抱者，专门在Mathstodon发文，用自己此前提出的四条建议框架逐一对照新政，总结为一句话：\n在生成论文比消化论文容易得多的时代，这个方向是对的。\n网友则炸开了锅，有人鼓掌，说早就该这么干。\n也有人反问：你会在2005年禁止用互联网进行研究的文章吗？\n还有人提出质疑：这样的连坐制度，是要求论文的每一位合著者都必须检查每一条引用吗？\narXiv最严新规：签名即担责\n物理、数学、计算机科学领域，绝大多数论文在进入同行评审之前，都要先在arXiv挂出预印本。\n它是全球学术流通最核心的基础设施之一，正在推进从康奈尔大学剥离、转型独立非营利机构，有望获得更多资源和动力主动出手治理。\narXiv这次出手，核心逻辑只有一句话：\n签名即担责，无论内容如何生成\n。\nThomas Dietterich的原话是这样的：\n如果生成式AI工具产生了不当语言、抄袭内容、偏见内容、错误、错误引用或误导性内容，且这些内容被纳入科学著作，责任由全体作者承担。\n我们最近对此类行为的惩罚标准进行了明确。\n注意，新政不是禁止用AI。用AI润色、用AI辅助查文献，都没有问题。\n但arXiv卡的是另一条线：\n你有没有认真读过自己署名的论文\n。\n什么算「确凿证据」？Dietterich列了几种典型情形。\n幻觉引用，也就是引用了根本不存在的论文。\nLLM元评论残留，比如稿件里留着「这是一段200字摘要，是否需要修改？」之类的字样。\n占位符未填，比如表格里还写着「请用实验真实数据填入此处」。\n如果正式提交的论文里还存在这些低级错误，只能说明作者十分粗心，根本没有认真检查自己的论文。\n这样的证据被抓到，也意味着论文中的其他内容并不值得信任。\n一旦被查实，后果是被arXiv封禁一年，解封后的所有新投稿须先通过正规期刊同行评审才可上传。\n而且封号连坐，所有署名作者一起受罚。\nDietterich表示，这是个「一击即止」的规定，但作者可以提出申诉。\n内部流程上也会先由版主记录问题，然后由分区主席确认后才能实施处罚。\n不得不说，arXiv这次虽然惩罚的都是低级错误，但出手确实挺狠的。\n陶哲轩附议：论文生成远比消化容易\n新政太火，陶哲轩也闻讯赶来建言献策。\n他在Mastodon上发了一组帖子回应此事，用自己在一次演讲中提出的四条建议作为框架，逐一对照arXiv新政。\n这四条建议分别是：\n1、在传统工作流中明确并严格执行AI辅助的许可边界；\n2、降低对「抢先发表」和「仅仅解决问题」的强调，转而重视「消化成果」；\n3、为重度使用AI的贡献者设计新的挑战，使其仍然能产生真实学术价值；\n4、无论传统还是非传统工作流，都要明确说清项目目标\n（包括显性和隐性目标）\n及其背后的原因。\n他的总体判断是：\n新政与前两条建议高度契合\n。\narXiv这次划定的责任边界，正是建议一的落地，明确了什么叫「许可范围内的AI辅助」。\n而整个新政背后的逻辑，对应的正是建议二的核心主张。\n他抛出了一个关键判断：在这个时代，\n生成一篇论文远比消化一篇论文容易\n。\n任何将传统科学机构的平衡重新倾向于消化的努力，都是值得欢迎的。\n至于建议三，陶哲轩认为已经有了自然出口。\nviXra等平台对AI辅助投稿几乎不设限，可以作为未经消化内容的独立存档地。\n但他的定性也很清楚：这类平台专注于「生产」而非「消化」，不应被纳入正统学术引用链，不应出现在arXiv或期刊的参考文献里。\n换句话说，想靠AI批量产出论文的人，有地方去，但别想进正统学术体系。\n不过，有网友在帖子下留言指出，这个「出口」已经堵死了。\nviXra自己也禁止了AI生成论文，并另建了ai.viXra.org专门接收此类内容。\n建议四则指向了一个更根本的问题：预印本平台究竟为谁服务？\n陶哲轩的判断是，作者和读者的需求是共生的，必须同时照顾到。\n他的原话是这样的：\n一个只服务于作者的平台会被大量低质量投稿填满，而读者并不愿意阅读；一个只服务于读者的平台会劝退作者进行繁琐的投稿过程。\n鉴于论文生成和理解之间出现了新的阻抗失配，质量门槛现在必然要提高，但这最终对双方都是有益的变化。\n啥意思呢？\n意思就是说，生成一篇论文的成本在急速下降，但消化一篇论文的成本并没有改变。\n两端的落差越来越大，如果平台不提高门槛，就只能眼睁睁看着读者被淹没在垃圾里。\n但同时，陶哲轩也点出了新政管不住的问题。\n「争先为首」\n的文化是系统性病根，是整个学术评价体系造成的，\narXiv单方面出手治不了根\n。\n从各方反馈来看，物理学界的问题可能比数学界更严重。\nAI论文泛滥有多严重\narXiv此次出手，是因为用AI写论文已经成为了普遍现象。\n2025年发表于Nature Human Behaviour的一项研究示，计算机科学领域约五分之一的论文含有LLM修改的明显痕迹，且ChatGPT发布后数月内出现急剧攀升。\n这还只是摘要，正文里的比例只会更高。\narXiv每个月收到的AI生成综述论文，已达数百篇量级。\n历史上，综述论文本是由领域内资深学者撰写的稀缺内容。\n现在，任何人用AI短时间内就能生成一篇，批量投稿，让志愿审稿人疲于奔命。\narXiv早在2025年10月就出过一记重拳，禁止计算机科学类未经同行评审的综述和立场论文直接上传，要求先过期刊关。\n此次封号政策，又是进一步升级。\n学术会议也没能幸免。\n2026年1月，AI检测机构GPTZero分析了NeurIPS 2025超过4000篇录用论文，\n在至少53篇中发现了数百条AI幻觉引用\n，且这些论文全部通过了三位以上审稿人的评审。\n此外，问题也从论文蔓延到了考场。\n普林斯顿大学\n最新宣布，\n废除延续133年、允许学生无监考参加考试的荣誉制度\n，从今年夏季起恢复现场监考。\n直接原因是，教务长Michael Gordin来信，大量教授和学生反映「考试作弊已经普遍化」。\n如今，教授们将不得不监考学生的考试，并报告任何违反学校学术诚信政策的行为。\n去年一项针对约500名普林斯顿高年级学生的调查数据，触目惊心：\n超过27%的人承认曾借助ChatGPT等AI模型作弊\n，约半数知悉有同学违反了荣誉准则。\n学生自己描述的作弊现场是：\n「如果考试在笔记本上，随时可以切到另一个窗口；如果是纸质蓝皮书，就躲在桌下用手机。」\n133年的荣誉制度，信任学生，不设监考。结果AI把这份信任直接击穿了。\narXiv的封号令，和普林斯顿的监考令，都有一个共同点：\nAI大幅压低了「生产」的门槛，但也给了越来越多人偷懒和取巧的机会。\n但这种偷懒和取巧，有着根本性损害。\n当AI开始水论文、开始替代学生作弊，人类科学和文明的黄昏似乎就要到来了。\nAI的能力边界，由它所消化的人类知识决定。水论文大量涌入训练数据，AI学到的就是低质量信息，然后生成更多水论文，再进入下一轮训练。\n这个循环一旦锁死，那论文本身就不再是知识的载体，而成了信息的噪音。\n发论文完全流为形式，AI输入人类用AI水的论文，最后再输出给更多人…\n文明就被锁死了。\n科幻小说《三体》里，外星文明为了阻止地球文明进化，用智子锁住了科学进化的可能性。\n而现在，如果AI水论文成为了普遍，何尝不是人类自己锁住了自己？\n这是另一种智子，\n「这是人类的落日。」\n参考链接：\n[1]https://x.com/tdietterich/status/2055000956144935055\n[2]https://mathstodon.xyz/@tao/116590271196962848\n[3]https://futurism.com/future-society/princeton-shambles-ai-cheating\n[4]https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
-    "content_source": "readability",
-    "content_chars": 3633,
-    "content_excerpt": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议\n听雨\n2026-05-18\n20:18:30\n来源：\n量子位\n听雨 发自 凹非寺\n量子位 | 公众号 QbitAI\n上传AI水论文，被查实者\n封禁一年"
-  },
-  {
     "id": "hn-48153379",
     "title": "I believe there are entire companies right now under AI psychosis",
     "url": "https://twitter.com/mitchellh/status/2055380239711457578",
@@ -4770,7 +4722,7 @@
     "published": "2026-05-15T20:26:47Z",
     "summary": "https:&#x2F;&#x2F;xcancel.com&#x2F;mitchellh&#x2F;status&#x2F;2055380239711457578https:&#x2F;&#x2F;hachyderm.io&#x2F;@mitchellh&#x2F;116580433508108130",
     "points": 2102,
-    "collected_at": "2026-05-23T13:07:55.722053"
+    "collected_at": "2026-05-23T19:00:56.433192"
   },
   {
     "id": "hn-48085821",
@@ -4780,8 +4732,8 @@
     "lang": "en",
     "published": "2026-05-10T17:19:28Z",
     "summary": "Local AI needs to be the norm",
-    "points": 1902,
-    "collected_at": "2026-05-23T13:07:55.722119"
+    "points": 1903,
+    "collected_at": "2026-05-23T19:00:56.433254"
   },
   {
     "id": "hn-48019219",
@@ -4792,7 +4744,7 @@
     "published": "2026-05-05T07:34:55Z",
     "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "points": 1755,
-    "collected_at": "2026-05-23T13:07:55.722149"
+    "collected_at": "2026-05-23T19:00:56.433282"
   },
   {
     "id": "hn-47679121",
@@ -4803,7 +4755,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-23T13:07:55.722235"
+    "collected_at": "2026-05-23T19:00:56.433365"
   },
   {
     "id": "hn-47363754",
@@ -4814,7 +4766,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-23T13:07:55.722339"
+    "collected_at": "2026-05-23T19:00:56.433468"
   },
   {
     "id": "hn-47340079",
@@ -4825,7 +4777,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-23T13:07:55.721927"
+    "collected_at": "2026-05-23T19:00:56.433064"
   },
   {
     "id": "hn-47225130",
@@ -4836,7 +4788,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-23T13:07:55.722384"
+    "collected_at": "2026-05-23T19:00:56.433511"
   },
   {
     "id": "hn-47136179",
@@ -4847,7 +4799,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-23T13:07:55.722077"
+    "collected_at": "2026-05-23T19:00:56.433215"
   },
   {
     "id": "hn-46990729",
@@ -4858,7 +4810,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-23T13:07:55.722020"
+    "collected_at": "2026-05-23T19:00:56.433160"
   },
   {
     "id": "hn-45941596",
@@ -4869,7 +4821,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-23T13:07:55.722397"
+    "collected_at": "2026-05-23T19:00:56.433523"
   },
   {
     "id": "hn-45930151",
@@ -4880,7 +4832,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-23T13:07:55.722440"
+    "collected_at": "2026-05-23T19:00:56.433564"
   },
   {
     "id": "hn-44972151",
@@ -4891,7 +4843,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-23T13:07:55.722176"
+    "collected_at": "2026-05-23T19:00:56.433307"
   },
   {
     "id": "hn-44396518",
@@ -4902,7 +4854,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-23T13:07:55.722305"
+    "collected_at": "2026-05-23T19:00:56.433435"
   },
   {
     "id": "hn-44314423",
@@ -4913,7 +4865,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-23T13:07:55.722353"
+    "collected_at": "2026-05-23T19:00:56.433481"
   },
   {
     "id": "hn-44163063",
@@ -4924,7 +4876,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-23T13:07:55.721994"
+    "collected_at": "2026-05-23T19:00:56.433113"
   },
   {
     "id": "hn-42910910",
@@ -4935,7 +4887,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-23T13:07:55.722190"
+    "collected_at": "2026-05-23T19:00:56.433319"
   },
   {
     "id": "hn-41392128",
@@ -4946,7 +4898,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-23T13:07:55.722092"
+    "collected_at": "2026-05-23T19:00:56.433228"
   },
   {
     "id": "hn-41386319",
@@ -4957,7 +4909,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-23T13:07:55.722106"
+    "collected_at": "2026-05-23T19:00:56.433242"
   },
   {
     "id": "hn-41069829",
@@ -4968,7 +4920,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-23T13:07:55.722454"
+    "collected_at": "2026-05-23T19:00:56.433577"
   },
   {
     "id": "hn-41046773",
@@ -4979,7 +4931,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-23T13:07:55.721976"
+    "collected_at": "2026-05-23T19:00:56.433100"
   },
   {
     "id": "hn-40767459",
@@ -4990,7 +4942,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-23T13:07:55.722468"
+    "collected_at": "2026-05-23T19:00:56.433591"
   },
   {
     "id": "hn-39918245",
@@ -5001,7 +4953,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-23T13:07:55.722411"
+    "collected_at": "2026-05-23T19:00:56.433536"
   },
   {
     "id": "hn-39526057",
@@ -5012,7 +4964,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-23T13:07:55.721956"
+    "collected_at": "2026-05-23T19:00:56.433086"
   },
   {
     "id": "hn-38544729",
@@ -5023,7 +4975,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-23T13:07:55.722032"
+    "collected_at": "2026-05-23T19:00:56.433172"
   },
   {
     "id": "hn-37021160",
@@ -5034,7 +4986,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-23T13:07:55.722204"
+    "collected_at": "2026-05-23T19:00:56.433332"
   },
   {
     "id": "hn-31812259",
@@ -5045,7 +4997,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-23T13:07:55.722366"
+    "collected_at": "2026-05-23T19:00:56.433492"
   },
   {
     "id": "hn-18249755",
@@ -5056,7 +5008,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-23T13:07:55.722161"
+    "collected_at": "2026-05-23T19:00:56.433293"
   },
   {
     "id": "hn-17022963",
@@ -5067,7 +5019,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-23T13:07:55.722134"
+    "collected_at": "2026-05-23T19:00:56.433268"
   },
   {
     "id": "hn-15892066",
@@ -5078,7 +5030,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-23T13:07:55.722326"
+    "collected_at": "2026-05-23T19:00:56.433455"
   },
   {
     "id": "hn-6830566",
@@ -5089,6 +5041,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-23T13:07:55.722423"
+    "collected_at": "2026-05-23T19:00:56.433547"
   }
 ]

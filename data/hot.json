@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-05-23T13:09:47.374599",
+  "updated_at": "2026-05-23T19:02:32.535246",
   "total": 6,
   "hot_list": [
+    {
+      "title": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "name": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "title_zh": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-05-23",
+      "time": "2026-05-23",
+      "description": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "subtitle": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "ai_summary": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "category": "资讯",
+      "news_id": "32e0243942b6",
+      "internal_url": "https://aihot.bt199.com/news/32e0243942b6/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
       "name": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "049609b07c31",
       "internal_url": "https://aihot.bt199.com/news/049609b07c31/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能被用来复活死去飞行员的声音",
-      "name": "人工智能被用来复活死去飞行员的声音",
-      "title_zh": "人工智能被用来复活死去飞行员的声音",
-      "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "subtitle": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "ai_summary": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "category": "资讯",
-      "news_id": "fd275f985643",
-      "internal_url": "https://aihot.bt199.com/news/fd275f985643/",
       "type_label": "📰 新闻"
     },
     {
@@ -113,6 +113,24 @@
   ],
   "top_20": [
     {
+      "title": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "name": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "title_zh": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-05-23",
+      "time": "2026-05-23",
+      "description": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "subtitle": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "ai_summary": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "category": "资讯",
+      "news_id": "32e0243942b6",
+      "internal_url": "https://aihot.bt199.com/news/32e0243942b6/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
       "name": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
       "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
@@ -128,24 +146,6 @@
       "category": "资讯",
       "news_id": "049609b07c31",
       "internal_url": "https://aihot.bt199.com/news/049609b07c31/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能被用来复活死去飞行员的声音",
-      "name": "人工智能被用来复活死去飞行员的声音",
-      "title_zh": "人工智能被用来复活死去飞行员的声音",
-      "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "subtitle": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "ai_summary": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "category": "资讯",
-      "news_id": "fd275f985643",
-      "internal_url": "https://aihot.bt199.com/news/fd275f985643/",
       "type_label": "📰 新闻"
     },
     {
@@ -229,6 +229,24 @@
   },
   "items": [
     {
+      "title": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "name": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "title_zh": "法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝",
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-05-23",
+      "time": "2026-05-23",
+      "description": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "subtitle": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "ai_summary": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验",
+      "category": "资讯",
+      "news_id": "32e0243942b6",
+      "internal_url": "https://aihot.bt199.com/news/32e0243942b6/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
       "name": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
       "title_zh": "埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能",
@@ -244,24 +262,6 @@
       "category": "资讯",
       "news_id": "049609b07c31",
       "internal_url": "https://aihot.bt199.com/news/049609b07c31/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能被用来复活死去飞行员的声音",
-      "name": "人工智能被用来复活死去飞行员的声音",
-      "title_zh": "人工智能被用来复活死去飞行员的声音",
-      "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "subtitle": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "ai_summary": "人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问",
-      "category": "资讯",
-      "news_id": "fd275f985643",
-      "internal_url": "https://aihot.bt199.com/news/fd275f985643/",
       "type_label": "📰 新闻"
     },
     {

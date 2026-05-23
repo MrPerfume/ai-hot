@@ -20,7 +20,7 @@ ai_summary = "Stability Audio 3.0小型模型可以在设备上运行并生成�
 summary = "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks."
 summary_zh = "Stability Audio 3.0小型模型可以在设备上运行并生成两分钟长的曲目"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

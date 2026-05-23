@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-05-23 21:09:47
+🕐 **最近更新**：2026-05-24 03:02:32
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能](https://aihot.bt199.com/news/049609b07c31/)
-   - Elon Muks 的 xAI 全力投入天然气，而 SpaceX 则痴迷于轨道数据中心。他承诺的“太阳能电力经济”怎么了…
+1. [法拉利正在利用 IBM 的 AI 打造 F1 超级粉丝](https://aihot.bt199.com/news/32e0243942b6/)
+   - IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验
    - `TechCrunch AI · 2026-05-23`
 
-2. [人工智能被用来复活死去飞行员的声音](https://aihot.bt199.com/news/fd275f985643/)
-   - 人们在驾驶舱记录的频谱图图像上使用人工智能来重建它们，迫使 NTSB 暂时阻止对其记录系统的访问
-   - `TechCrunch AI · 2026-05-22`
+2. [埃隆·马斯克（Elon Musk）放弃了（在地球上）太阳能](https://aihot.bt199.com/news/049609b07c31/)
+   - Elon Muks 的 xAI 全力投入天然气，而 SpaceX 则痴迷于轨道数据中心。他承诺的“太阳能电力经济”怎么了…
+   - `TechCrunch AI · 2026-05-23`
 
 3. [谷歌新的万物互联人工智能模型非常疯狂](https://aihot.bt199.com/news/b01ec93d479b/)
    - 去年，我深度伪造了我孩子的毛绒动物，让它看起来像是他的毛绒鹿在度假。这是一个实验，看看我是否可以重现谷歌正在运行的双子座…
@@ -123,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 
