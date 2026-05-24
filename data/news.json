@@ -1,5 +1,64 @@
 [
   {
+    "id": "1f8fbf027cb5",
+    "title": "破局多端困境，拥抱 AI 变革：飞猪跨端技术的过去、现在与未来｜AICon上海",
+    "url": "https://www.infoq.cn/article/0FPPymvSNjV9LbAIhXxO?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-24T10:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-24T02:34:06.347202",
+    "content_text": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n飞猪高级技术专家陈立宝已确认出席 “\nAI 时代的移动端开发范式变迁\n” 专题，并发表题为《\n破局多端困境，拥抱 AI 变革：飞猪跨端技术的过去、现在与未来\n》的主题分享。本次分享将介绍飞猪用户技术面需要解决核心问题，兼容并包解决性能体验，动态化效率两大重点目标。拆解基于飞猪 meshup app 架构设计及多样化业务差别的跨端框架技术选型原因，设计，过程，收获。更重要的部分是面向大模型时代，AI 编程带来的变与不变，技术方案展望，及设计实现路径。\n陈立宝，飞猪移动端高级技术专家，长期从事手机移动设备研发，及移动互联网应用研发。聚焦在互联网应用的极致用户体验，研发效率提升，和端智能化技术方向，持续推动飞猪跨端动态化解决方案演进。他在本次会议的详细演讲内容如下：\n演讲提纲：\n跨端技术的核心目标及飞猪业务特色化要求\n极致用户体验 &动态发布能力\n跨移动操作系统的同时，跨应用（飞猪客户端，淘宝，支付宝）要求\nMeshup App 的架构设计特色\n境内外技术生态的差异化要求\n技术方案演进历程\n极致体验要求解决方案：DX、原生、Flutter\n跨应用技术解决方案：Weex、React、小程序\nvibe code 时代的未来展望设计\n面向 AI 的，一端代码 To 多端运营 转变为 需求 To AI 多端实现的设计可以成为现实。升级方向探讨\nDesign to code，需求 To Code 共同演进到 用户侧研发 Agent 的全研发生命周期引入\n选择适合 100% 生码的 UI 实现方案。核心是动态发布能力范围扩大\n建设需求+设计+业务知识库的研发 Agent。核心是 AI 理解、AI 实现\n匹配串联调试、测试、集成、发布、监控，风险应急的 AI 研发工具链；及海量的 Skill 基础能力匹配支撑\n跨端研发工程师专型为跨端生态工具研发工程师\n听众收益：\n了解飞猪跨端技术方案可借鉴的内容\n学习 AI 背景下跨端技术框架设计方案\n除此之外，本次大会还策划了\n端侧 AI、物理与数字空间智能化\n、\n世界模型与多模态智能突破\n、\nAgent 架构与工程化实践\n、\nAgent 安全与可信治理\n、\n企业级研发体系重构\n、\nAI 原生数据工程\n、\nAI 时代的个人提效与组织变革\n等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。\n8 折倒计时进入最后一周，现在报名立减 1160，查看更多详情可扫码或联系票务经理 13269078023 进行咨询。",
+    "content_source": "readability",
+    "content_chars": 1346,
+    "content_excerpt": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，\nAICon全球人工智能开发与应用大会\n将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\n飞猪高级技术专家陈立宝已确认出席 “\nAI 时代的移动端开发范式变迁\n” 专题，并发表题为《\n破局多端困境，拥抱 AI 变革：飞猪跨端技术的过去、现在与未来\n》的主题分享。本次分享将介绍飞猪用户技术面需要解决核心问题，兼容并包解决性能体验，动态化效率两大重点目标。拆解基于飞猪 meshup app 架构设计及多样化业务差别的跨端框架技术选型原因，设计，过程，收获。更重要的部分是面向大模型时代，AI 编程带来的变与不变，技术方案展望，及设计实现路径。\n陈立宝，飞猪移动端高级技术专家，长期从事手机移动设备研发，及移动互联网应用研发。聚焦在互联网应用的极致用户体验，研发效率提升，和端智能化技术方向，持续推动飞猪跨端动态化解决方案演进。他在本次会议的详细演讲内容如下："
+  },
+  {
+    "id": "a186b37fe8f9",
+    "title": "华泰证券：看好2026年起交换芯片在AI驱动下开启二次成长",
+    "url": "https://36kr.com/newsflashes/3822612389941383?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-05-24T02:00:17",
+    "summary": "华泰证券研报称，作为数据中心互联的核心组件，交换芯片用于处理数据交换和报文转发，占交换机成本比例达30%以上。华泰证券看好2026年起交换芯片在AI驱动下开启二次成长：1.万卡级以上集群需要更加稳定可靠的网络系统，推动数据中心Scale out交换机向更高容量、速率发展，Scale out交换芯片有望量价齐升；2.超节点架构或为国产算力追赶海外算力的破局之道，超节点放大集群内Scale up作用，交换芯片配比通常高于Scale out，未来或催生大量交换芯片需求。华泰证券测算2028年国产交换芯片市场空间有望达到242亿元，2026—2028年CAGR为96%，建议关注海外龙头及国内自研技术领",
+    "collected_at": "2026-05-24T02:34:04.769451",
+    "content_text": "华泰证券研报称，作为数据中心互联的核心组件，交换芯片用于处理数据交换和报文转发，占交换机成本比例达30%以上。华泰证券看好2026年起交换芯片在AI驱动下开启二次成长：1.万卡级以上集群需要更加稳定可靠的网络系统，推动数据中心Scale out交换机向更高容量、速率发展，Scale out交换芯片有望量价齐升；2.超节点架构或为国产算力追赶海外算力的破局之道，超节点放大集群内Scale up作用，交换芯片配比通常高于Scale out，未来或催生大量交换芯片需求。华泰证券测算2028年国产交换芯片市场空间有望达到242亿元，2026—2028年CAGR为96%，建议关注海外龙头及国内自研技术领先的芯片商。",
+    "content_source": "trafilatura",
+    "content_chars": 306,
+    "content_excerpt": "华泰证券研报称，作为数据中心互联的核心组件，交换芯片用于处理数据交换和报文转发，占交换机成本比例达30%以上。华泰证券看好2026年起交换芯片在AI驱动下开启二次成长：1.万卡级以上集群需要更加稳定可靠的网络系统，推动数据中心Scale out交换机向更高容量、速率发展，Scale out交换芯片有望量价齐升；2.超节点架构或为国产算力追赶海外算力的破局之道，超节点放大集群内Scale up作用，交换芯片配比通常高于Scale out，未来或催生大量交换芯片需求。华泰证券测算2028年国产交换芯片市场空间有望达到242亿元，2026—2028年CAGR为96%，建议关注海外龙头及国内自研技术领先的芯片商。"
+  },
+  {
+    "id": "a063a6259a41",
+    "title": "大规模工程支撑场景下的多智能体系统设计：Grab 实践案例",
+    "url": "https://www.infoq.cn/article/7DfZeiQH0zm08P88xIw9?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-05-24T08:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-05-24T02:34:06.347241",
+    "content_text": "Grab 分析数据仓库（ADW）团队推出了一套\n多智能体 AI 系统，用于自动化大规模数据平台中的工程支持工作流\n，目标是减少重复性运维工作并提升问题解决效率。这套系统主要处理内部的工程请求，包括数据仓库故障排查、SQL 调试和平台支持等相关工作，帮助工程师将精力转向具有更高价值的开发工作。\nADW 平台服务超一千名内部用户，管理着 15000 多张数据表，是 Grab 核心分析基础设施的重要组成部分。随着使用量增长，工程团队发现大量运维精力被重复性支持任务和临时问题排查所消耗，挤占了平台优化迭代与系统架构设计的工作时间。\nGrab 分析部门负责人\nSneh Agrawal\n在 LinkedIn 帖子中指出：\nGrab 中央数据团队正在利用多智能体系统实现重复性运维工作的自动化，每月可节省数百个工程工时。这一转变有效释放了核心工程人力，推动团队从被动应急处理的“救火”模式转向深耕高价值的系统构建工作。\n为此，团队搭建了一个多智能体架构，将收到的工程请求划分成调查与增强两大核心工作流。调查工作流专门用于处理各类问题诊断工作，包括查询分析、日志检索、数据表结构查询以及问题整理汇总；增强工作流则专注于生成可执行的输出，如代码变更、SQL 修复和待审查的自动合并请求。\n多智能体架构技术栈（来源：\nGrab 技术博客\n）\n该系统采用基于 LangGraph 的工作流引擎进行编排，结合 FastAPI 服务，协调各智能体之间的路由、工具执行和状态管理。请求首先会被分类，然后路由至负责上下文检索、代码搜索或解决方案生成的专门智能体。每个智能体的职责受到严格约束，以便减少判定偏差，提升输出结果的稳定性。\n智能体工作流，使用 Supervisor 控制通信流和任务委派（来源：\nGrab 技术博客\n）\nGrab 的工程师表示：\n调查路径与增强路径的分离有效降低了智能体推理的复杂度，并提升了生产工作流的可靠性。\n一项关键的架构决策是对工具生态进行了整合。系统最初在数据访问、日志和代码系统中使用了 30 多个内部工具，后来经过筛选，精简为一个工具集合，既提升了整体可维护性，也降低了智能体在选择工具时的不确定性。工具层包括受控的 SQL 执行、元数据访问、日志检索系统，以及与基于 Git 工作流的集成。\n系统设计也考虑到了安全与治理。SQL 执行由验证层进行约束，敏感数据处理流程包含了检测和缓解暴露风险的机制。此外，所有产生代码变更的增强工作流在部署前均需经过人工审核，确保自动化输出始终处于工程监督之下。\n上下文管理是一项重要的技术挑战。多步骤智能体推理需要在交互过程中保持相关状态，同时还要符合词元的使用限制。系统通过结构化上下文压缩与选择性检索策略解决这一问题，让智能体在不突破使用限制的同时保留必要的信息。\n这套系统有效减少了工程师处理常规支持任务的时间，同时缩短了各类常见问题的处理周期。目前官方尚未公布具体量化性能数据，但团队表示，工程人力正逐步从被动应急处理转向平台构建与系统改进。\n查看英文原文\n：\nhttps://www.infoq.com/news/2026/05/grab-multi-agent-support-system/",
+    "content_source": "readability",
+    "content_chars": 1330,
+    "content_excerpt": "Grab 分析数据仓库（ADW）团队推出了一套\n多智能体 AI 系统，用于自动化大规模数据平台中的工程支持工作流\n，目标是减少重复性运维工作并提升问题解决效率。这套系统主要处理内部的工程请求，包括数据仓库故障排查、SQL 调试和平台支持等相关工作，帮助工程师将精力转向具有更高价值的开发工作。\nADW 平台服务超一千名内部用户，管理着 15000 多张数据表，是 Grab 核心分析基础设施的重要组成部分。随着使用量增长，工程团队发现大量运维精力被重复性支持任务和临时问题排查所消耗，挤占了平台优化迭代与系统架构设计的工作时间。\nGrab 分析部门负责人\nSneh Agrawal\n在 LinkedIn 帖子中指出：\nGrab 中央数据团队正在利用多智能体系统实现重复性运维工作的自动化，每月可节省数百个工程工时。这一转变有效释放了核心工程人力，推动团队从被动应急处理的“救火”模式转向深耕高价值的系统构建工作。\n为此，团队搭建了一个多智能体架构，将收到的工程请求划分成调查与增强两大核心工作流。调查工作流专门用于处理各类问题诊断工作，包括查询分析、日志检索、数据表结构查询以及问题整理汇总；增强工作流则专注于生成可执行的输出，如代码变更、SQL 修复和待审查的自动合并请求。\n多智能体架构技术栈（来源："
+  },
+  {
+    "id": "v2ex-1215013",
+    "title": "openai 周限又重置了，已经放弃 claude 了",
+    "url": "https://www.v2ex.com/t/1215013",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-24T00:04:42",
+    "summary": "好订阅，不易封号，gpt5.5 和 codex 使用体验顶级，额度量大管饱，还经常找理由重置额度，针对正规订阅的付费用户，体验感觉各方面都比 A\\要好，claudecode 的优势感觉现在也不明显了，codex 已经取消上下文小圆圈显示，让你尽情使用，其自动上下文压缩目前在一众工具默认配置里也是顶尖的，订阅的性价比我觉得比国内一众的 plan 套餐还要好",
+    "collected_at": "2026-05-24T02:34:06.960634",
+    "content_text": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好",
+    "content_source": "readability",
+    "content_chars": 293,
+    "content_excerpt": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好"
+  },
+  {
     "id": "32e0243942b6",
     "title": "Ferrari is using IBM’s AI to create F1 superfans",
     "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
@@ -4630,22 +4689,15 @@
     "collected_at": "2026-05-18T14:59:18.290206"
   },
   {
-    "id": "bc1f08a7020e",
-    "title": "Amazon Alexa Plus can now create AI-generated podcasts",
-    "url": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
-    "source": "The Verge AI",
+    "id": "hn-48153379",
+    "title": "I believe there are entire companies right now under AI psychosis",
+    "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+    "source": "Hacker News",
     "lang": "en",
-    "priority": 1,
-    "published": "2026-05-18T15:55:25",
-    "summary": "Alexa Plus, Amazon's upgraded AI assistant, can now generate podcasts on \"virtually any topic,\" according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to s",
-    "collected_at": "2026-05-18T19:29:32.804715",
-    "content_text": "Alexa Plus, Amazon’s upgraded AI assistant, can now generate podcasts on “virtually any topic,” according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to steer the conversation and adjust its length before it starts generating the episode.\nAmazon Alexa Plus can now create AI-generated podcasts\nWith Alexa Podcasts, a pair of AI-generated hosts break down the topic of your choice.\nWith Alexa Podcasts, a pair of AI-generated hosts break down the topic of your choice.\nSome “Alexa Podcast” examples shared by Amazon have two AI-generated hosts talking about the history of the Roman Empire, new music, and expectations for the World Cup. Amazon says you can also ask Alexa Plus to generate audio lessons about the Apollo missions, or create a podcast episode about a new hobby, like photography. The feature is similar to the AI-generated podcasts you can create using NotebookLM, a capability Microsoft Edge also snapped up in a recent update.\nAmazon says the AI-generated podcast episodes will draw information from the 200 news publications the company has partnered with, including Reuters, the Associated Press, the Washington Post, Vox, and Politico. Amazon rolled out Alexa Plus to all users in the US in February and has since embedded the assistant into its online marketplace.\nYou’ll receive a notification on your Echo Show device and the Alexa app once the episode is finished. You can tap the notification to play the episode, as well as access it through the Music and More section on the Echo Show, or with the Alexa app.",
-    "content_source": "trafilatura",
-    "content_chars": 1681,
-    "content_excerpt": "Alexa Plus, Amazon’s upgraded AI assistant, can now generate podcasts on “virtually any topic,” according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to steer the conversation and adjust its length before it starts generating the episode.\nAmazon Alexa Plus can now create AI-generated podcasts\nWith Alexa Podcasts, a pair of AI-generated hosts break down the topic of your choice.\nWith Alexa Podcasts, a pair of AI-generated hosts break down the topic of your choice.\nSome “Alexa Podcast” examples shared by Amazon have two AI-generated hosts talking about the history of the Roman Empire, new music, and expectations for the World Cup. Amazon says you can also ask Alexa Plus to generate audio lessons about the Apollo missions, or create a podcast episode about a new hobby, like photography. The feature is similar to the AI-generated podcasts you can create using NotebookLM, a capability Microsoft Edge also snapped up in a recent update.\nAmazon says the AI-generated podcast episodes will draw information from the 200 news publications the company has partnered with, including Reuters, the Associated Press, the Washington Post, Vox, and Politico. Amazon rolled out Alexa Plus to all users in the US in February and has since embedded the assistant into its online marketplace.\nYou’ll receive a notification on your Echo Show device and the Alexa app once the episode is finished. You can tap the notification to play the episode, as well as access it through the Music and More section on the Echo Show, or with the Alexa app.",
-    "title_zh": "Amazon Alexa Plus 现在可以创建人工智能生成的播客",
-    "summary_zh": "根据周一的公告，亚马逊升级后的人工智能助手 Alexa Plus 现在可以生成“几乎任何主题”的播客。亚马逊表示，通过更新，你可以给 Alexa Plus 一个主题，人工智能助手将概述其人工智能主机计划谈论的内容，让你能够",
-    "ai_summary": "根据周一的公告，亚马逊升级后的人工智能助手 Alexa Plus 现在可以生成“几乎任何主题”的播客。亚马逊表示，通过更…"
+    "published": "2026-05-15T20:26:47Z",
+    "summary": "https:&#x2F;&#x2F;xcancel.com&#x2F;mitchellh&#x2F;status&#x2F;2055380239711457578https:&#x2F;&#x2F;hachyderm.io&#x2F;@mitchellh&#x2F;116580433508108130",
+    "points": 2102,
+    "collected_at": "2026-05-24T02:34:06.647341"
   },
   {
     "id": "13886a738598",
@@ -4663,22 +4715,15 @@
     "content_excerpt": "当地时间 5 月 14 日，Anthropic 以中美 AI 竞争为由发布长文，呼吁进一步收紧芯片出口限制。\n同一天稍早时候，路透社报道称，美国已批准约 10 家中国公司购买英伟达专为中国市场定制的 H200 芯片。报道提到的公司包括阿里、腾讯、字节、京东等。不过，这批许可尚未转化为实际交付。\nAnthropic 直接指出，训练前沿 AI 模型最关键的资源是先进芯片，也就是算力。美国目前的优势建立在 NVIDIA、AMD、TSMC 等“民主国家产业链”之上。但如果不进一步收紧管制，美国在 2028 年前可能会失去主导权，中国 AI 实验室的模型能力可能追到只落后美国几个月。\nAnthropic 还引用了一组数据，称按总处理性能计算，华为在 2026 年的算力产出仅相当于英伟达的 4%，到 2027 年更是降至 2%。\n在 Anthropic 的框架里，中美 AI 竞争被拆解为四条线：第一是智能，即谁能开发出最强大的 AI 模型；第二是国内采用，即谁能更有效地把 AI 整合进商业和公共部门；第三是全球分发，即谁能部署支撑世界经济运行的全球 AI 技术栈；第四是韧性，即谁能在 AI 带来的经济社会转型中维持稳定和连续性。\n其中，模型智能被认为是最重要的一条，而这也是 Anthropic 收入的重要基石。\nAnthropic 认为，当前中国 AI 实验室之所以仍能接近美国模型能力，主要依靠三类因素：世界级人才、先进算力，以及通过大规模“蒸馏攻击”提取其前沿模型能力。为此，Anthropic 还提出，应明确将“蒸馏攻击”非法化，并加强情报共享；同时推动美国“可信 AI 技术栈”出口，抢占全球南方市场。\n一边阻止先进芯片外流，Anthropic 一边正在斥巨资解决自身面临的巨大算力短缺问题，同时通过频繁调整产品价格，让用户来承担算力短缺带来的影响。\n又又又调价，开发者气疯了\n在算力持续紧张的背景下，Anthropic 再一次调整了定价策略。"
   },
   {
-    "id": "e2c8ab9ad08d",
-    "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
-    "url": "https://archestra.ai/blog/only-responsible-ai",
-    "source": "Hacker News AI",
+    "id": "hn-48085821",
+    "title": "Local AI needs to be the norm",
+    "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+    "source": "Hacker News",
     "lang": "en",
-    "priority": 2,
-    "published": "2026-05-18T15:24:19",
-    "summary": "Article URL: https://archestra.ai/blog/only-responsible-ai Comments URL: https://news.ycombinator.com/item?id=48181125 Points: 288 # Comments: 136",
-    "collected_at": "2026-05-18T19:29:33.755308",
-    "content_text": "Discussion on\nHacker News\n:\nThe End of Open Source as We Know It\nWhen a few months ago GitHub shared statistics about\ncelebrating an enormous contribution of AI in their product metrics\n, completely missing the point of degraded contribution quality, we already felt that things were going south.\nThe first worrying moment was the\nissue we posted with a $900 bounty\n. We were hoping to motivate someone to contribute and bring shiny new \"MCP Apps\" support to our platform. We quickly got the attention of legitimate contributors proposing plans, asking questions, submitting attempts — but soon...\nAI bots arrived and blew up the issue, taking it to\n253 comments total\n, poisoning the conversation with pointless \"implementation plans\" and even pure aggression toward the maintainers!\nAI accounts started flooding not just this issue — but the entire repo. Every sloppy comment triggered a notification for every team member watching the repo. Our GitHub notifications became a wall of noise. Real conversations from contributors like @ethanwater, @developerfred, and @Geetk172 — people actively working on bounties — were getting buried.\nLater, the problem took the form of an epidemic. For example, just for the issue to add x.ai provider support to Archestra, we received\n27 pull requests\n, most of which\ncontributors didn't even try testing\n.\nOne of our team members had to spend\nhalf a day every week cleaning AI garbage out of the repo\n, removing untested PRs and closing hallucinated issues. When we forgot to do so, our repo quickly became a place completely unfriendly to legitimate contributors.\nFighting Back\nAt first, we tried to calculate the \"reputation\" of contributors and built\n\"London-Cat\"\n, a tiny bot calculating a contributor's reputation based on merged PRs and a few other signals (\nexample\n). It obviously didn't stop the spam, but it helped us figure out \"who is who\".\nAs a next step, we built an \"AI sheriff\" (\nexample\n), which obviously closed a few legitimate PRs 🤦.\nThe constant flow of useless AI comments and proposals was only getting worse, turning legitimate contributors away and making us reconsider: should we stop\nmotivating contributions with bounties\n? Should we stop\ngiving fun test tasks to our job candidates\n?\nWe've decided that we need to fight back and insist on making our repo a comfortable and safe space for legitimate contributors, responsible AI users, newbies, and seasoned engineers.\nToday we're\nblocking the ability to create issues, open PRs, and leave comments for those who didn't go through the onboarding\n.\nContributor onboarding, five steps to get whitelisted\nIt's a nuclear option, yes. It's especially sensitive for a VC-backed startup that is measured thoroughly by GitHub activity, but we have to pull the trigger:\nwe value quality over quantity. We don't value metrics pumped by AI slop.\nWe want Archestra to be a great piece of software that everyone can contribute to, without it being swallowed by AI bots.\nDoing It in GitHub\nThere is no straightforward way to whitelist those who can comment or create PRs on an open source repo, so we had to hack around.\nThere is a setting called \"Limit to prior contributors.\" Simple rule: if you haven't previously committed to\nmain\n, you can't comment on issues or PRs.\nPrior contributors setting\nThe setting can't tell the difference between an AI bot and a real developer who signed up to work on a bounty. Both are \"not prior contributors.\" Both get locked out.\nGitHub defines \"prior contributor\" as someone whose GitHub account is the\nauthor\nof a commit on\nmain\n. Git commits have two identity fields —\nauthor\nand\ncommitter\n— and they can be different people.\nYou can create a commit attributed to someone else using Git's\n--author\nflag. If the email matches their GitHub account, GitHub links the commit to their profile and grants them contributor status.\nEvery GitHub account has a noreply email:\n<id>+<username>@users.noreply.github.com\n. Look up the ID via the API and commit:\ngh api\nusers\n/their-username --jq\n'.id'\ngit commit \\\n--author=\n\"their-username <ID+their-username@users.noreply.github.com>\"\n\\\n-m\n\"chore: add their-username to external contributors\"\nPush to\nmain\n, and they can comment immediately.\nCommit attributed to external user\nThe external user shows up as the\nauthor\n, our account as the\ncommitter\n. That's all GitHub needs to consider them a prior contributor.\nThe full flow:\nOnboarding on our website with ethical AI rules and a CAPTCHA:\nhttps://archestra.ai/contributor-onboard\nA GitHub Action that fires on submission, looks up the user's GitHub ID, adds their handle to an\nEXTERNAL_CONTRIBUTORS.md\nfile, and pushes a commit to\nmain\nauthored under their account.\nThe user becomes whitelisted and gets access to the repo.\nFinal Words\nWhile GitHub reports massive metric growth — a substantial part of which is AI-generated — we as an open source project team have to do the heavy lifting of cleaning up AI slop from our repository and come up with esoteric workarounds to keep the level of legitimacy of our open source audience.\nSlop is not only demotivating contributors who want to spend their time doing good and have to break through the wall of noise instead, it's also bringing a substantial security risk, as it happened\nin the LiteLLM repo\nwhen attackers tried to steer the conversation using AI bots.\nDear community, it's time to have a serious talk about the effect AI has on open source.",
-    "content_source": "readability",
-    "content_chars": 5439,
-    "content_excerpt": "Discussion on\nHacker News\n:\nThe End of Open Source as We Know It\nWhen a few months ago GitHub shared statistics about\ncelebrating an enormous contribution of AI in their product metrics\n, completely missing the point of degraded contribution quality, we already felt that things were going south.\nThe first worrying moment was the\nissue we posted with a $900 bounty\n. We were hoping to motivate someone to contribute and bring shiny new \"MCP Apps\" support to our platform. We quickly got the attention of legitimate contributors proposing plans, asking questions, submitting attempts — but soon...",
-    "title_zh": "我们使用 Git 的 –author 标志在 GitHub 存储库中阻止了 AI 机器人垃圾邮件",
-    "summary_zh": "文章网址：https://archestra.ai/blog/only-responsible-ai 评论网址：https://news.ycombinator.com/item?id=48181125 积分：288 # 评论：136",
-    "ai_summary": "文章网址：https://archestra.ai/blog/only-responsible-ai 评论网址：http…"
+    "published": "2026-05-10T17:19:28Z",
+    "summary": "Local AI needs to be the norm",
+    "points": 1903,
+    "collected_at": "2026-05-24T02:34:06.647407"
   },
   {
     "id": "2776e1e96186",
@@ -4696,46 +4741,6 @@
     "content_excerpt": "引言：时隔 13 年再同框！雷军用小米 17 Pro 与马斯克合影，马斯克 Wink 表情太俏皮；传蜜雪 CEO 朋友圈隔空回复黄仁勋，“大佬同款”销量暴增；兼职也能拿期权？MiniMax 推出国内首个 AI Fellowship 招聘项目；月之暗面 Kimi 后训练团队研究员离职，曾为 K2.5 贡献者；曝林俊旸离职后创立新 AI 实验室，首轮估值 20 亿美元；腾讯总裁：腾讯跟硅谷公司不一样，没有大裁员计划；小米：面向全球 AI 用户免费发放 token 权益，计划在 30 天发 100 万亿 token；360 内部启动“龙虾计划”：每人 1 亿 token 自动到账；买 Token 真成了交话费，上海电信首发 Token 资费套餐……\n行业热点\n时隔 13 年再同框！雷军用小米 17 Pro 与马斯克合影，马斯克 Wink 表情太俏皮\n5 月 14 日消息，日前，十余家美国知名企业高管随美国总统特朗普访华，其中包括苹果 CEO 蒂姆·库克、英伟达 CEO 黄仁勋、特斯拉 CEO 埃隆·马斯克等。公开报道显示，特朗普于 5 月 13 日晚抵达北京，开始对中国进行国事访问。据媒体报道，马斯克、库克等美国科技企业高管出席了在人民大会堂金色大厅举行的欢迎宴会。\n现场视频显示，在商界晚宴中，中美商界大佬齐聚现场，不少企业家纷纷上前和马斯克合影。小米 CEO 雷军也主动上前，在与马斯克握手后，轻拍了下他的肩膀，微微半蹲下身，拿出小米 17 Pro 开启自拍模式与马斯克同框合影，期间马斯克还调皮地做出了一个 wink😉 的表情，气氛轻松。整个过程中马斯克一直坐在座位上，并未起身，有网友戏称“雷军真是马斯克迷弟”，也有网友形容马斯克“仿佛喝懵了”，引起热议。\n对此，优客工场创始人毛大庆在微信群聊中给出了解释。他表示，根据可靠信源，马斯克在晚宴前的表现并非网传的饮酒过量，而是受时差影响。晚宴举行时间对应美国东部时间凌晨 2 至 3 点，加上长途跨国飞行后未充分休息，身体处于极度疲劳状态。“不起身、反应慢”的表现，本质是高强度跨国行程下时差反应的直接体现。\n公开信息显示，雷军与马斯克的行业交流可追溯至十余年前。2013 年，雷军曾前往美国拜访马斯克，实地参观特斯拉总部工厂，并首次与马斯克合影。此次在特朗普访华欢迎宴会上互动合影，也意味着两人时隔 13 年再度同框。\n传蜜雪 CEO 朋友圈隔空回复黄仁勋，“大佬同款”销量暴增\n日前，有网友拍到，英伟达 CEO 黄仁勋一行人现身北京南锣鼓巷的蜜雪冰城门店，点了两杯蜜桃四季春，由随行人员扫码付款，品尝后对饮品竖起大拇指，随后在店门口与游客合影互动，引发路人驻足围观。\n随后，有消息称蜜雪冰城 CEO 张渊在朋友圈晒出黄仁勋喝“蜜桃四季春”的照片，并配文：“最顶级的显卡，往往需要最纯粹的散热方式。”"
   },
   {
-    "id": "3a9b0386203c",
-    "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
-    "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-18T14:56:47",
-    "summary": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
-    "collected_at": "2026-05-18T14:59:03.588481",
-    "content_text": "Amazon announced the latest update to Alexa+ on Monday: the ability to generate podcast episodes on demand.\nThe new feature, called “Alexa Podcasts,” is rolling out to customers in the U.S. today. Amazon describes the capability as a way to “turn any topic you’re curious about into a podcast episode, ready in minutes.”\nTo use the feature, all users have to do is ask Alexa+ to create a podcast about a topic they’re interested in. Users don’t need to upload documents, write scripts, or plan anything ahead of time. Instead, Alexa+ researches the request, gathers information, and generates a quick overview of what the episode will cover. From there, users can tweak things like the length, tone, and focus of the episode.\nOnce finalized, Alexa+ uses AI-generated host voices to narrate the podcast. When the episode is ready, users get a notification through their Echo Show device and inside the Alexa app. Episodes are also saved in the app’s “Music” and “More” sections so they can be replayed later.\nThe feature is another example of how Amazon is trying to turn Alexa+ into more than just a voice assistant. Instead of only answering questions or controlling smart home devices, Alexa+ is starting to act more like a personalized AI content creator.\nAt the same time, the launch is likely to spark some debate. AI-generated voices and automated content continue to raise questions around ethics, accuracy, and the future of traditional creators. There are also concerns about how reliable AI-generated podcasts will be, especially when covering news or complex topics.\nAmazon emphasized its partnerships with major news organizations to improve content accuracy and reliability. The company says Alexa+ can access real-time information through agreements with outlets including the Associated Press, Reuters, The Washington Post, Time, Forbes, Business Insider, Politico, USA Today, Condé Nast, Hearst, and Vox Media, alongside more than 200 local newspapers across the U.S.\nBeyond podcasts, Amazon says it is exploring additional forms of personalized AI audio, including custom news briefings and content generated from users’ own documents and shared information.",
-    "content_source": "trafilatura",
-    "content_chars": 2175,
-    "content_excerpt": "Amazon announced the latest update to Alexa+ on Monday: the ability to generate podcast episodes on demand.\nThe new feature, called “Alexa Podcasts,” is rolling out to customers in the U.S. today. Amazon describes the capability as a way to “turn any topic you’re curious about into a podcast episode, ready in minutes.”\nTo use the feature, all users have to do is ask Alexa+ to create a podcast about a topic they’re interested in. Users don’t need to upload documents, write scripts, or plan anything ahead of time. Instead, Alexa+ researches the request, gathers information, and generates a quick overview of what the episode will cover. From there, users can tweak things like the length, tone, and focus of the episode.\nOnce finalized, Alexa+ uses AI-generated host voices to narrate the podcast. When the episode is ready, users get a notification through their Echo Show device and inside the Alexa app. Episodes are also saved in the app’s “Music” and “More” sections so they can be replayed later.\nThe feature is another example of how Amazon is trying to turn Alexa+ into more than just a voice assistant. Instead of only answering questions or controlling smart home devices, Alexa+ is starting to act more like a personalized AI content creator.\nAt the same time, the launch is likely to spark some debate. AI-generated voices and automated content continue to raise questions around ethics, accuracy, and the future of traditional creators. There are also concerns about how reliable AI-generated podcasts will be, especially when covering news or complex topics.\nAmazon emphasized its partnerships with major news organizations to improve content accuracy and reliability. The company says Alexa+ can access real-time information through agreements with outlets including the Associated Press, Reuters, The Washington Post, Time, Forbes, Business Insider, Politico, USA Today, Condé Nast, Hearst, and Vox Media, alongside more than 200 local newspapers across the U.S.\nBeyond podcasts, Amazon says it is exploring additional forms of personalized AI audio, including custom news briefings and content generated from users’ own documents and shared information.",
-    "title_zh": "亚马逊新的 Alexa+ 支持功能可以生成播客剧集",
-    "summary_zh": "随着亚马逊将其助手扩展为个性化人工智能内容平台，亚马逊的 Alexa+ 现在可以按需生成定制人工智能播客",
-    "ai_summary": "随着亚马逊将其助手扩展为个性化人工智能内容平台，亚马逊的 Alexa+ 现在可以按需生成定制人工智能播客"
-  },
-  {
-    "id": "hn-48153379",
-    "title": "I believe there are entire companies right now under AI psychosis",
-    "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-05-15T20:26:47Z",
-    "summary": "https:&#x2F;&#x2F;xcancel.com&#x2F;mitchellh&#x2F;status&#x2F;2055380239711457578https:&#x2F;&#x2F;hachyderm.io&#x2F;@mitchellh&#x2F;116580433508108130",
-    "points": 2102,
-    "collected_at": "2026-05-23T19:00:56.433192"
-  },
-  {
-    "id": "hn-48085821",
-    "title": "Local AI needs to be the norm",
-    "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-05-10T17:19:28Z",
-    "summary": "Local AI needs to be the norm",
-    "points": 1903,
-    "collected_at": "2026-05-23T19:00:56.433254"
-  },
-  {
     "id": "hn-48019219",
     "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
@@ -4744,7 +4749,7 @@
     "published": "2026-05-05T07:34:55Z",
     "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "points": 1755,
-    "collected_at": "2026-05-23T19:00:56.433282"
+    "collected_at": "2026-05-24T02:34:06.647441"
   },
   {
     "id": "hn-47679121",
@@ -4755,7 +4760,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-23T19:00:56.433365"
+    "collected_at": "2026-05-24T02:34:06.647547"
   },
   {
     "id": "hn-47363754",
@@ -4766,7 +4771,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-23T19:00:56.433468"
+    "collected_at": "2026-05-24T02:34:06.647656"
   },
   {
     "id": "hn-47340079",
@@ -4777,7 +4782,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-23T19:00:56.433064"
+    "collected_at": "2026-05-24T02:34:06.647233"
   },
   {
     "id": "hn-47225130",
@@ -4788,7 +4793,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-23T19:00:56.433511"
+    "collected_at": "2026-05-24T02:34:06.647701"
   },
   {
     "id": "hn-47136179",
@@ -4799,7 +4804,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-23T19:00:56.433215"
+    "collected_at": "2026-05-24T02:34:06.647364"
   },
   {
     "id": "hn-46990729",
@@ -4810,7 +4815,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-23T19:00:56.433160"
+    "collected_at": "2026-05-24T02:34:06.647307"
   },
   {
     "id": "hn-45941596",
@@ -4821,7 +4826,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-23T19:00:56.433523"
+    "collected_at": "2026-05-24T02:34:06.647714"
   },
   {
     "id": "hn-45930151",
@@ -4832,7 +4837,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-23T19:00:56.433564"
+    "collected_at": "2026-05-24T02:34:06.647758"
   },
   {
     "id": "hn-44972151",
@@ -4843,7 +4848,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-23T19:00:56.433307"
+    "collected_at": "2026-05-24T02:34:06.647469"
   },
   {
     "id": "hn-44396518",
@@ -4854,7 +4859,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-23T19:00:56.433435"
+    "collected_at": "2026-05-24T02:34:06.647622"
   },
   {
     "id": "hn-44314423",
@@ -4865,7 +4870,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-23T19:00:56.433481"
+    "collected_at": "2026-05-24T02:34:06.647669"
   },
   {
     "id": "hn-44163063",
@@ -4876,7 +4881,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-23T19:00:56.433113"
+    "collected_at": "2026-05-24T02:34:06.647281"
   },
   {
     "id": "hn-42910910",
@@ -4887,7 +4892,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-23T19:00:56.433319"
+    "collected_at": "2026-05-24T02:34:06.647482"
   },
   {
     "id": "hn-41392128",
@@ -4898,7 +4903,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-23T19:00:56.433228"
+    "collected_at": "2026-05-24T02:34:06.647379"
   },
   {
     "id": "hn-41386319",
@@ -4909,7 +4914,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-23T19:00:56.433242"
+    "collected_at": "2026-05-24T02:34:06.647393"
   },
   {
     "id": "hn-41069829",
@@ -4920,7 +4925,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-23T19:00:56.433577"
+    "collected_at": "2026-05-24T02:34:06.647772"
   },
   {
     "id": "hn-41046773",
@@ -4931,7 +4936,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-23T19:00:56.433100"
+    "collected_at": "2026-05-24T02:34:06.647267"
   },
   {
     "id": "hn-40767459",
@@ -4942,7 +4947,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-23T19:00:56.433591"
+    "collected_at": "2026-05-24T02:34:06.647787"
   },
   {
     "id": "hn-39918245",
@@ -4953,7 +4958,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-23T19:00:56.433536"
+    "collected_at": "2026-05-24T02:34:06.647728"
   },
   {
     "id": "hn-39526057",
@@ -4964,7 +4969,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-23T19:00:56.433086"
+    "collected_at": "2026-05-24T02:34:06.647253"
   },
   {
     "id": "hn-38544729",
@@ -4975,7 +4980,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-23T19:00:56.433172"
+    "collected_at": "2026-05-24T02:34:06.647320"
   },
   {
     "id": "hn-37021160",
@@ -4986,7 +4991,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-23T19:00:56.433332"
+    "collected_at": "2026-05-24T02:34:06.647497"
   },
   {
     "id": "hn-31812259",
@@ -4997,7 +5002,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-23T19:00:56.433492"
+    "collected_at": "2026-05-24T02:34:06.647683"
   },
   {
     "id": "hn-18249755",
@@ -5008,7 +5013,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-23T19:00:56.433293"
+    "collected_at": "2026-05-24T02:34:06.647453"
   },
   {
     "id": "hn-17022963",
@@ -5019,7 +5024,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-23T19:00:56.433268"
+    "collected_at": "2026-05-24T02:34:06.647425"
   },
   {
     "id": "hn-15892066",
@@ -5030,7 +5035,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-23T19:00:56.433455"
+    "collected_at": "2026-05-24T02:34:06.647642"
   },
   {
     "id": "hn-6830566",
@@ -5041,6 +5046,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-23T19:00:56.433547"
+    "collected_at": "2026-05-24T02:34:06.647740"
   }
 ]
