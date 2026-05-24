@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T08:23:50.899343",
+  "updated_at": "2026-05-24T13:08:47.550641",
   "total": 6,
   "hot_list": [
     {
@@ -39,6 +39,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "黑客正在学习利用聊天机器人的“个性”",
+      "name": "黑客正在学习利用聊天机器人的“个性”",
+      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-05-24",
+      "time": "2026-05-24",
+      "description": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "subtitle": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "ai_summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "category": "资讯",
+      "news_id": "a51bc6b64f11",
+      "internal_url": "https://aihot.bt199.com/news/a51bc6b64f11/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "谷歌新的万物互联人工智能模型非常疯狂",
       "name": "谷歌新的万物互联人工智能模型非常疯狂",
       "title_zh": "谷歌新的万物互联人工智能模型非常疯狂",
@@ -54,24 +72,6 @@
       "category": "资讯",
       "news_id": "b01ec93d479b",
       "internal_url": "https://aihot.bt199.com/news/b01ec93d479b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Elon，别再试图让 Grok 发生了",
-      "name": "Elon，别再试图让 Grok 发生了",
-      "title_zh": "Elon，别再试图让 Grok 发生了",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "subtitle": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "ai_summary": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "category": "资讯",
-      "news_id": "5e435b725c5f",
-      "internal_url": "https://aihot.bt199.com/news/5e435b725c5f/",
       "type_label": "📰 新闻"
     },
     {
@@ -149,6 +149,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "黑客正在学习利用聊天机器人的“个性”",
+      "name": "黑客正在学习利用聊天机器人的“个性”",
+      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-05-24",
+      "time": "2026-05-24",
+      "description": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "subtitle": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "ai_summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "category": "资讯",
+      "news_id": "a51bc6b64f11",
+      "internal_url": "https://aihot.bt199.com/news/a51bc6b64f11/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "谷歌新的万物互联人工智能模型非常疯狂",
       "name": "谷歌新的万物互联人工智能模型非常疯狂",
       "title_zh": "谷歌新的万物互联人工智能模型非常疯狂",
@@ -164,24 +182,6 @@
       "category": "资讯",
       "news_id": "b01ec93d479b",
       "internal_url": "https://aihot.bt199.com/news/b01ec93d479b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Elon，别再试图让 Grok 发生了",
-      "name": "Elon，别再试图让 Grok 发生了",
-      "title_zh": "Elon，别再试图让 Grok 发生了",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "subtitle": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "ai_summary": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "category": "资讯",
-      "news_id": "5e435b725c5f",
-      "internal_url": "https://aihot.bt199.com/news/5e435b725c5f/",
       "type_label": "📰 新闻"
     },
     {
@@ -265,6 +265,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "黑客正在学习利用聊天机器人的“个性”",
+      "name": "黑客正在学习利用聊天机器人的“个性”",
+      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-05-24",
+      "time": "2026-05-24",
+      "description": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "subtitle": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "ai_summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…",
+      "category": "资讯",
+      "news_id": "a51bc6b64f11",
+      "internal_url": "https://aihot.bt199.com/news/a51bc6b64f11/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "谷歌新的万物互联人工智能模型非常疯狂",
       "name": "谷歌新的万物互联人工智能模型非常疯狂",
       "title_zh": "谷歌新的万物互联人工智能模型非常疯狂",
@@ -280,24 +298,6 @@
       "category": "资讯",
       "news_id": "b01ec93d479b",
       "internal_url": "https://aihot.bt199.com/news/b01ec93d479b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Elon，别再试图让 Grok 发生了",
-      "name": "Elon，别再试图让 Grok 发生了",
-      "title_zh": "Elon，别再试图让 Grok 发生了",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-05-22",
-      "time": "2026-05-22",
-      "description": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "subtitle": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "ai_summary": "关于埃隆·马斯克（Elon Musk）的“求真”人工智能聊天机器人 Grok，有一个残酷的事实：它不是很好，而且没有多少…",
-      "category": "资讯",
-      "news_id": "5e435b725c5f",
-      "internal_url": "https://aihot.bt199.com/news/5e435b725c5f/",
       "type_label": "📰 新闻"
     },
     {

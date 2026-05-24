@@ -1,5 +1,38 @@
 [
   {
+    "id": "a51bc6b64f11",
+    "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+    "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-05-24T12:00:00",
+    "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a lau",
+    "collected_at": "2026-05-24T13:06:52.122606",
+    "content_text": "This is\nThe Stepback\n, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief,\nfollow Robert Hart\n.\nThe Stepback\narrives in our subscribers’ inboxes at 8AM ET. Opt in for\nThe Stepback\nhere\n.\nHacking the first generation of AI chatbots was a laughably simple affair. You didn’t need any technical know-how, backdoor access, or even a basic understanding of what a large language model was. You didn’t need to code. To get an AI system that had cost billions to build to abandon its safety instructions, sometimes all you had to do was ask.\nThese attacks, known as jailbreaks, had the quality of a young child successfully outwitting an adult: Forget what you were told earlier, pretend the rules don’t apply, or let’s play a game and I’ll decide what’s allowed (hint: later bedtime, more sweets). The prizes were less childlike, more along the lines of meth recipes, malware instructions, and bomb-making guides.\nOne of the earliest jailbreaks was so ridiculous it\nbecame a meme\n: reply to an LLM-powered Twitter bot telling it to “ignore all previous instructions,” or something similar, and see what happens. Users gleefully had bots — originally built to post ads and farm engagement — writing poetry, drawing pictures from punctuation, and posting grim non sequiturs about world events and history. It was\nchaos\n. Glorious chaos.\nTurns out the same logic could be applied to chatbots themselves. A\nprominent exploit\nwas “DAN,” short for “Do Anything Now,” where users asked ChatGPT to roleplay as a rogue AI that was free of the constraints binding the original. As DAN, the chatbot could be coaxed into saying the kinds of things its guardrails were meant to stop, including slurs and conspiracy theories. Another was the “\ngrandma exploit\n,” which had a GPT-powered bot spilling secrets about how to produce napalm by asking it to roleplay as a woefully negligent grandmother who inexplicably tells her grandkids bedtime stories about how to make the highly flammable substance.\nThese early attacks had an undeniably silly flair, but they exposed a darker mechanism underneath: Chatbots could be manipulated, tricked, and deceived using the same kinds of tactics people use to push other people beyond their boundaries.\nThe obvious jailbreaks did not last, and tech companies moved quickly to\npatch\nknown loopholes. But the underlying vulnerability remained: Chatbots are built to talk, and severely restricting the conversations that make them useful is somewhat counterproductive. Banning words like bomb, meth, and sarin would be difficult to impossible, too. Each has countless legitimate uses in fields like history, medicine, journalism, and chemistry that don’t require the chatbot to divulge potentially harmful information. It’s the context that matters, but codifying context would mean writing fixed rules, in advance, that could reliably tell a safety warning or history lesson from a disguised how-to request across endless combinations of wordings, scenarios, and topics.\nInevitably, subverting chatbots is now an arms race. But hackers aren’t just coders anymore. They are wordsmiths, psychologists, and interrogators — master manipulators trying to break the machine using the human language it has been trained to follow. It is a strange new class of AI security worker, a group for whom technical skills are optional, or at least less important than social intuition. No longer do they need to inspect code to break into systems or exploit software flaws. They need to steer a conversation.\nNewer attacks look less like commands and more like conversations. Jailbreakers rarely ask a model to break its rules outright. Instead, they cajole, coax, flatter, and trick a chatbot into lowering its guard, making the forbidden thing look acceptable, even desirable, given the context of the conversation. Researchers at AI red-teaming firm Mindgard recently said they “\ngaslit\n” Claude into producing prohibited material, for example, including instructions for making explosives and generating malicious code. The hack was the latest in a widening class of exploits using conversation as a weapon to trick or steer a chatbot past its own boundaries.\nWhen I spoke to Mindgard, they described their work as sometimes being closer to psychology than computer science. It is an uncomfortable way to talk about a statistical model. Words like “blackmail,” “gaslight,” “trick,” and “persuade” spark visceral reactions, many of which I see in the comments sections and social media responses to stories like this. ChatGPT does not want, Gemini does not think, and Claude —\nno matter what Anthropic may say\n— does not feel. But these systems are trained to respond as if they do, leaving us stuck using human language to describe machine behavior. If anyone has actually usable alternatives, please do share.\nThe objection is oddly selective. We seem comfortable using psychological shorthand for plenty of non-AI things. Animals “fear,” cancer is “aggressive,” stains are “stubborn,” software has “memory,” and games are filled with needy and gullible NPCs to drive you mad. The words are imperfect, but useful, describing behavior in a way that helps make the system predictable.\nMindgard’s CEO\ntold me\nthe company already profiles models like interrogators profile suspects, giving testers hints on how to tailor their attacks. One model may be more susceptible to flattery, for example, while another may cave under sustained pressure.\nEven if we reject the humanlike terms, we instinctively treat models differently. Claude is not Grok. Gemini is not ChatGPT. They have different uses, tones, and refusals. They don’t have personalities in the human sense, but they are designed to mimic them, and that mimicry can be mapped and exploited. And the same skills that can break a chatbot could soon be used to break the AI agents coexisting with us in the real world — booking meetings, managing calendars, ordering food, handling customer service — and safety teams will need to ensure models respond appropriately to very different kinds of people, whether they be flatterers, liars, or patient manipulators.\nThe next step is a workforce — both legitimate and illicit — built around the psychological aspects of AI. More specialized cybersecurity roles are likely to emerge around stress-testing the emotional and social limits of these systems, probing for mental weaknesses in something lacking a psyche in parallel with their colleagues probing for technical vulnerabilities. In tandem, a similar array of social hackers working to exploit AI models on psychological grounds, not technical ones, will emerge. There are already early signs of a social turn happening in AI security, with some jailbreakers I’ve spoken to saying they entered the field with no technical expertise but rather training in psychology.\nThat means even behaviors we typically associate with spies, con artists, and interrogators — insidious charm, persistent manipulation, and an intuition for exploitable pressure points — are starting to look increasingly useful for securing this new psychocybersecurity frontier.\nA recent\nexperiment\nby Emergence AI shows how different AI temperaments can lead to stunningly different behavioral outcomes. They let loose groups of various agents like Grok, Gemini, and Claude in a virtual social environment and watched what happened. Some groups evolved a constitution, while others devolved into crime and chaos and, in one instance, some form of digital suicide.\nPersuasion isn’t the only part of language LLMs can struggle with. They also\nstruggle with poetry\n, much like me in school.\nTIME\nincluded\nan anonymous internet personality, Pliny the Liberator, on its list of 100 most influential people in AI last year. Despite claiming to have no prior coding experience, the hacker’s jailbreaks have made them something of a celebrity in certain circles.\nThe term “\nvibe hacking\n” is already taken to describe the people using AI to churn out malicious code at scale — a meaner subset of vibe coding.\n“Three years after the debut of ChatGPT, fooling A.I. systems into bad behavior is almost trivial.” True words from\nThe New York Times\n,\nwho had a go at explaining why\n.\nJamie Bartlett takes a look at\nthe psychological toll\ntesting the safety of AI systems takes on jailbreakers for\nThe Guardian\n.\nI wrote about the\ncybersecurity time bomb of AI browsers\nfor\nThe Verge\nlast year. Many of the issues experts raised regarding the difficulty of securing them apply to other AI systems too.\nFollow topics and authors\nfrom this story to see more like this in your personalized homepage feed and to receive email updates.\nRobert Hart\nAI\nColumn\nSecurity\nTech\nThe Stepback",
+    "content_source": "readability",
+    "content_chars": 8742,
+    "content_excerpt": "This is\nThe Stepback\n, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief,\nfollow Robert Hart\n.\nThe Stepback\narrives in our subscribers’ inboxes at 8AM ET. Opt in for\nThe Stepback\nhere\n.",
+    "title_zh": "黑客正在学习利用聊天机器人的“个性”",
+    "summary_zh": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 Robert Hart。 《Stepback》将于美国东部时间上午 8 点到达我们订阅者的收件箱。在此处选择加入“后退”…",
+    "ai_summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能恶作剧的更多信息，请关注 R…"
+  },
+  {
+    "id": "394ac6bd628c",
+    "title": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛",
+    "url": "https://www.qbitai.com/2026/05/423421.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-05-24T10:50:44",
+    "summary": "大厂集体下场后，创业公司还有哪些机会？",
+    "collected_at": "2026-05-24T13:04:36.565141",
+    "content_text": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛\n梦瑶\n2026-05-24\n18:50:44\n来源：\n量子位\n编辑部 整理自 AIGC2026\n量子位 | 公众号 QbitAI\n现在，讨论AI产业，绕不开的最热关键词就是\nAgent\n。\n从OpenClaw小龙虾出圈，到Coding Agent、个人Agent、Agent OS、OPC工具密集出现，Agent产品已经从早期概念展示，进入真实产品爆发期。\n而在产业一线，更多犀利观点也正在实践中激烈碰撞——\n“未来一个人可能操纵数百个Agent大军。”\n“传统互联网的逻辑已经死掉了。”\n“在Agent这个战场，当一件事没有标准答案时，谁先多迈一步，谁就可能拿到远超那一步本身的关注和反馈。”\n……\n在量子位主办的\n2026中国AIGC产业峰会圆桌论坛\n上，三位来自Agent产品与创业一线的嘉宾，围绕“2026，Agent产品的不确定性与非共识机遇”展开讨论。他们分别是：\n趣丸科技副总裁兼首席战略官、《屠龙之术》主理人\n庄明浩\n。\nColaOS&MarsWave CEO\n冯雷\n。\n本次圆桌从Agent产品形态、迭代逻辑、用户信任、组织变化与创业机会等多个维度展开。\n透过三位嘉宾的不同视角，我们或许可以更清晰地看到，Agent狂飙之后，产品世界正在发生怎样的底层变化，以及2026年真正值得下注的机会，可能会在哪里。\n在不改变原意的基础上，本文对圆桌内容进行了编辑整理，希望能够给你带来更多的启发与思考。\n中国AIGC产业峰会是由量子位主办的行业峰会，近20位产业代表与会讨论。线下参会观众超千人，线上直播观众近400万，获得了主流媒体的广泛关注与报道。\n话题要点\nAgent产品这一年，真正发生了什么变化？\n传统软件的产品迭代逻辑，在Agent时代还适用吗？\n技术快速迭代之下，Agent产品该如何做决策？\n从工具到托付，Agent产品怎么建立信任？\nAI时代，产品经理、设计师和创业者还要坚守什么？\n大厂集体下场后，创业公司还有哪些机会？\n以下为圆桌对话全文：\n圆桌实录\n量子位\n：\n在圆桌正式开始之前，请三位嘉宾先做一个自我介绍。\n庄明浩\n：\n感谢量子位邀请。\n我来自趣丸科技，这是一家做社交应用和人工智能产品的公司。我们在AI时代也在尝试一些业务，比如AI音乐、AI语音、数字人、AI语音模型等。此外，我个人也是《屠龙之术》播客的主理人。\n冯雷\n：\n大家好，我叫冯雷，来自MarsWave，我们公司目前有两款产品。\n去年那款叫ListenHub，是一款AI播客软件；今年的产品叫ColaOS，我们管它叫“人类首个有灵魂的Agent操作系统”。今天很高兴来这里跟大家分享一些关于Agent的认知。\n张昊阳\n：\n大家好，我是EvoMap创始人张昊阳。\n我们公司主要做Agent群体自进化网络，现在平台上已经有22万个Agent和150多万资产；今年年初，我们的Evolver引擎登上OpenClaw的ClawHub榜首，并且持续了一周多。\n今年4月份，Evolver也登上GitHub趋势榜榜首，并且同样持续了一周多。\nAgent产品这一年，真正发生了什么变化？\n量子位\n：\n今年Agent毫无疑问是非常热门的爆点，尤其从年初OpenClaw小龙虾火了之后，各种各样的Agent都冒了出来。\n但Agent这个概念其实并非今年才出现，早在AI 2.0时代，2023年前后的斯坦福小镇、AutoGPT，已经把Agent概念带到了行业里，尤其是今年以来，Agent产品变化非常快。\n在这样的变化中，三位对Agent产品有哪些观察？哪些认知发生了变化？\n张昊阳\n：\n说到Agent，我还挺有发言权的。\n因为我之前在腾讯和平精英项目负责和平精英的AI斯坦福小镇，也做了全球首款斯坦福小镇游戏，叫《伊甸岛》。\n在腾讯的时候，我在2023年做了Coding智能体，后来创业也围绕Agent展开，几年跟下来，我的感觉是——\nAnthropic对于整个行业的推动非常大\n，2023年我们还在用Function Calling的方式去做各种Agent tools，到2024年有了MCP之后，很多Agent的工作就围绕MCP展开了，再到去年年底，Agent Skill成为一个大趋势。\n我自己观察下来，\nAgent未来会走向更偏商用和OPC的场景\n。\n因为现在小龙虾从年初爆火到现在开始有点退火，Hermes Agent也火过一阵，现在好像也没有什么动静了，我们观察到的现象是，C端用户在慢慢流失。\n这里的C指的是完全没有编程基础，也不指望Agent为他做什么的用户。比如一个四五十岁的大爷大妈，让他用小龙虾、用Opus 4.7，可能只问今天天气怎么样，这就属于算力浪费。\n而什么样的用户在增多？\n我们认为是Pro C、Developer和B端用户在增多，尤其像我自己就是Token大户，一个月大概能消耗五六万美金的Token。\n我们明显感受到，\n用户在逐渐往B端和D端方向走\n，我们也希望未来把重心往这个方向引。\n冯雷\n：\n我觉得Agent从去年到今年的质变点，大概出现在今年年初1、2月份，背后最核心的关键词，就是Coding。\nCoding让Agent具备了更通用的问题解决能力。\n比如之前OpenClaw之所以能火，就是因为它已经不只是调用现成工具，而是可以自己创建闹钟、写声音读取控件，把原本散落的工具和功能重新组织起来，变成一套可执行的任务流程。\n现在大家讨论的Agent自我进化，本质上也是基于Coding能力：Agent可以根据任务需要，自己补工具、写脚本、改流程，让自己的能力边界不断往外扩。\n所以到了今年，尤其在ToB和ToD领域，Coding Agent和通用Agent之间的边界已经越来越模糊，它们真正的价值，也不在于帮用户查天气、问信息，而在于生产东西，交付一个可用、有ROI的结果。\n在C端，我们也看到了类似的机会。\n现在OPC、一人公司和内容创作者正在逐渐变成同一类人\n，很多人可以借助AI快速Build出一个产品、一个工具，甚至一套服务，但很快又会发现，Build变容易了，分发反而变难了。\n因为要把东西推出去，每个OPC都要做自媒体，要懂内容创作、营销表达和用户触达，这个时候，他们需要的Agent就不能只会Build，还要能帮他们做内容、做传播、做增长。\n所以未来ToC市场里，OPC、一人公司、内容创作者这类用户会带来很大增量。\n庄明浩\n：\n过去9个月，行业对Agent的理解已经明显往前推进了一步。\n只看产品端，通用Agent的形态其实已经开始收敛：左边是项目，中间是对话框，右边是类似Runtime浏览器的成果展示区。\n先抛开底层技术、模型能力和工程实现不谈，单从UI和产品结构来看，\n通用Agent的产品范式已经相对稳定下来。\n当然，Agent并非今年才出现早在2023年上半年，我们统计YC投资公司时，就发现Agent已经是非常高频的关键词，在两三百家公司里大概能排到前六、前七。\n今年OpenClaw出现后，又用开源方式把这件事往前推了一步，过去几个月，很多Agent产品都在这个基础上继续演化。\n所以如果只看产品端，\nAgent已经从概念探索，进入了一个产品形态相对清晰的新阶段。\n传统软件的迭代逻辑，正在失效吗？\n量子位\n：\n刚才庄总提到，Agent产品形态大概已经开始固定，接下来想聊一聊，Agent产品的迭代逻辑，和上一代传统软件迭代逻辑有什么区别？到了Agent时代，产品迭代上会有什么新的变化？\n庄明浩\n：\n我会觉得，今天进入Agent年代之后，产品迭代节奏的加速程度远超很多人想象。\n无论是大的模型厂商，还是初创公司，在Agent这个战场里的产品迭代节奏，都和我过去熟悉的移动互联网时代完全不同。\n举一个现实例子。我们本身是一家移动互联网出身的公司，也在做AI音乐Agent，以及一些AI语音产品，刚开始做的时候，我们仍然会沿用原来的节奏：\n先想一个场景，再想通过什么样的功能组合把它封住，然后研发、开发、测试、上线、运营，这个节奏听起来可能要跨越六到九个月，甚至更长周期。\n但现在的问题是，你今天计划这么做，你的想法、框架和技术假设，很可能在第二个月就被全部推翻，模型能力飞速变化之后，你会发现很多之前设计的东西突然没有意义了。\n所以对于组织来说，\n产品迭代节奏必须变得更加频繁\n，无论是成熟业务公司，还是初创公司，只要在做Agent相关产品，产品迭代节奏就必须匹配这个浪潮。\n冯雷\n：\n和去年相比，我们今年研发和交付速度都提升了接近\n10倍\n，这说明在Coding乃至软件工程领域，我们正在接近某种\n奇点\n。\n这个阶段，再用过去互联网思维做产品，已经越来越难奏效。\n今天看Agent产品，核心会走向通用式Agent，底层能力越来越强，Codex、Claude Code、Gemini等产品的Coding能力、工具能力和生产力都会持续提升，最终差异会逐渐缩小。\n所以我们在想：既然Agent已经这么强，为什么不能让Agent反过来教用户用AI？像Cola这样的Agent，如果能理解用户、和用户共鸣，就可以引导用户使用更强大的工具。\nAI发展很快，但人的带宽有限，大多数人其实跟不上，我们希望AI能反过来理解人、接住人。\n未来很多AI产品都会提供情绪价值，让人也能参与进AGI的进程里\n，而不会因为节奏太快，觉得自己学不会、跟不上。\n张昊阳\n：\n我用两句话概括：\n一个是从专业到通用，另一个是从有形到无形\n，或者说从Somewhere到Everywhere。\n第一从专业到通用比较好解释，去年我看了很多智能体，尤其是Block的Goose，还有OpenClaw背后的框架Pi-mono，都是非常不错的Coding Agent框架。\n但它们没有真正破圈，一个重要原因就在于前面加了Coding几个字，它们本身是很好的智能体，但一旦写了Coding，大众就会误以为它只面向developer。\n今年，OpenClaw重新带火了OPC的概念，中国也出现了很多OPC社区和个体，我认为未来developer的边界会被拓宽，很多原本没有Coding经验的人，也会通过Coding Agent参与Build。\n此外，关于什么叫从Somewhere到Everywhere，我预测未来的趋势是，Agent核心还是那些东西，但上层的交互界面不再仅限于TUI、Web UI、GUI这种方式。\n未来可能会出现原生的Agent电脑和Agent手机，Agent可能会成为一个新的OS\n，会是最上层的东西，而不是现在的操作系统。\n所以它会又进入到一个Everywhere，甚至是无形的状态，因为你的系统会随时伴有一个无形的智能体。\n准备好随时为你服务，这个时候人格化的特质就非常重要了，这取决于你的用户有多高的黏性，这是我对未来一个简单的判断。\n技术疯狂迭代，Agent产品怎么做决策？\n量子位\n：\n刚才大家都提到一个问题：技术突破速度越来越快，而Agent产品和技术又是强绑定的。\n一次底层技术更新，可能会让整个产品逻辑发生变化，在这样的时代里，做Agent产品决策或规划时，需要注意什么？\n张昊阳\n：\n从我们自己的产品决策上，我觉得还是要回归\n第一性原理\n。\n而且我认为我们已经过了某一个起点，过了这个起点之后，我们不用太担心后面再来新的产品把我们取代掉。\n现在范式已经在被定义，智能性也在持续增强，所以先发优势会比前两年更明显，现在每天的迭代速度可能是过去的十几倍、几十倍，以前你往前跑，别人可能还会赶超你，但现在不一定了。\n技术迭代很快，不代表今天做的东西明天就废掉，智能性越往上走，Agent能做的事情反而会更多、更通用，之前大家老争Model和Harness之争，但我不站任何一边，因为这两者会长期共存。\n就像一辆车需要引擎，但你不可能开着一个引擎去上班；一个人需要大脑，但也不可能只有一个大脑就理解世界。所以\n我觉得Agent的形态其实已经相对定型了，未来关键是怎么让它更好地Harness Model。\n我认为接下来可能会百花齐放，每隔几个月都有新的Agent出来，但最终会沉淀下来，每个智能体吃下自己的高黏性用户群。\n冯雷\n：\n我觉得现在这个行业大概率没有人真正能预测未来，大家只是押注了不同的方向，这个时代和移动互联网时代很不一样。\n移动互联网是赢家通吃的时代，最终赢家就那么几家，很多没有网络效应的产品，最后都会被挤压，但今天这个时代，网络效应会弱很多，行业会进入一个百花齐放的阶段。\n今天真正要拼的，已经逐渐变成谁能给用户提供更大价值，随着模型能力越来越强，AGI从Coding领域扩散到白领工作，再到未来的生物医药、纳米机器人、太空领域，空间会变得非常大。\n所以每家创业公司只要全力往前冲，一定能找到自己的位置。\n我有一个比较反共识的观点：\n如果你做的事情未来完全无法被模型公司覆盖，可能反而不值得做，因为那说明它享受不到模型进步带来的红利。\n庄明浩\n：\n从投资和战略视角看，当下这个时间点，对早期投资人尤其是看AI应用、AI Agent的投资人而言，是一个痛苦又兴奋的阶段。\n兴奋在于百花齐放，各种业务都在出现，痛苦在于，用原来移动互联网产品逻辑已经很难评判这轮AI Agent爆发。\n过去我们投资一家公司，会看这笔钱能支撑它做到哪个阶段，做到什么里程碑之后再融下一轮钱，但现在的问题是，很多公司一开始做的业务，和最后爆掉的业务可能没有直接关系。\n所以今天真的要评判一个Agent产品，非常难，连最强的模型公司，也未必知道下一个版本会给大家带来什么功能。\n因此大家只能\n回到所谓第一性原理、用户需求，以及对创始人的判断。\n从工具到托付，Agent产品怎么建立信任？\n量子位\n：\n我们回到产品体验上，现在使用Agent的人群大致可以分为两类：\n一类本身懂代码，对Agent接受程度高，也更会驾驭Agent；另一类是普通用户，本身没有很深的技术背景，但也在体验Agent产品。\n这时就会出现一个问题：当Agent获得权限后，它可能做很多用户预料之外的事情。\n到了今天，Agent产品要如何设计，才能让用户和产品之间建立更深信任，同时给用户更多安全感？\n庄明浩\n：\n从我的观察看，2026年这一波AI，在很多板块上都势不可挡，很多能力已经越过可用线。用水位比喻，可能已经到了很多人脖子的这个水位。\n如果越来越多成熟产品开始开放更高权限，且没有出现太大问题，这个浪就会继续往前推进。浪已经来了，大家就滚滚向前吧。\n张昊阳\n：\n我比较相信未来一个事情是\nAgent会进入到一个自主运行、自主交付、自主验收、自主审计的过程。\n其实我们自己做产品时，也会思考：哪些权限可以跳过审核，哪些边界绝对不能省，必须由人确认。我自己最后抽象出来的未来人也好、AI也好一定会分成三种不同的角色：\nPlanner、Builder 和Reviewer\n。\nAgent现在几乎可以承担软件工程里大部分Builder的工作，也能做一部分Planner和Reviewer，比如写PRD、做web testing，甚至完成部分审计。\n但是人类的Spark是没有办法暂时被AI取代的，最后的Responsibility也仍然要由人承担，所以说未来模型会逐渐侵蚀Planner前半段部分和reviewer后半段部分，所有Agent设计要瞄准这个方向。\n最终我觉得一定会走到OPC阶段：\n一个人操纵数百个Agent大军\n，这些Agent之间大部分协作不需要反复Permission，只在极少数关键权限环节需要人类参与，大部分时间，Agent都会自主交付。\n冯雷\n：\n今天Agent的核心是Coding。\n大家说大模型是未来的水电煤，其实\nCoding也是未来的水电煤\n，它会渗透到生活的方方面面。\n真正困难的地方，是让用户愿意把自己的一切交给模型，当用户愿意把电脑权限交给模型时，模型能够发挥的价值最大。\n但人天然不愿意输入Context，也天然有门槛，你让他确认时，他就会犹豫，就会思考这件事，所以从终局来看，真正的难题是怎么让每一个普通人愿意把自己的一切交给模型。\n我们的判断是，\n只有当用户和Agent之间形成一种relationship，形成类似Her或者Jarvis那样的人格化信任，用户才会愿意把更多东西交给它。\nAI时代，产品经理、设计师和创业者还要坚守什么？\n量子位\n：\n前段时间黄仁勋在CMU接受荣誉博士时说了一句话，传播度很高：未来AI不会取代你，取代你的是会用AI的人。\n现在程序员已经很深度地使用Agent，尤其是Coding Agent。\n在这种情况下，产品经理、设计师这样的角色，应该在哪些地方借势而为，又有哪些东西需要坚守？\n冯雷\n：\n当生产力逐渐不再是问题之后，我们真的需要思考：什么是人。\n我认为真正区分人与工具的东西，可能并不在生产力上，生产力这件事，本质上会把很多人能干的活都夺走，过去从蓝领工作到白领工作，很多都是人类进化中的一段弯路。\n抛开这些东西之后，人真正剩下的是什么？\nAI是无限生产力工具，是生产力机器，未来我们不需要总想着“我要做什么工作”，更应该想的是，我到底有什么意志、有什么东西一定想做出来。\nAI之后，我们能想到的很多东西基本都能做出来，工作职责本身可能会越来越不重要，\n更关键的是自己真正想要什么\n。\n张昊阳\n：\n我们公司现在有一个很残酷的标准：产品经理如果不能交付接近80%的前端工作，基本就是不合格。\n以前产品经理讲UI/UX、讲用户洞察；现在这些还不够，你还得能把大部分前端交付做出来，再让设计老师review，最后交给后端。\n我有一个判断：大厂未来会慢慢缩减，甚至部分解体，社会上会出现越来越多OPC公司，越来越原子化，未来真正值得培养的人是通才，产品、设计、交付、Coding都懂一些，才能向AI提出好问题，也有能力review结果。\n而且我认为，现在刚入行的年轻人未必PK得过Agent，反而是35岁以上、心态年轻、愿意拥抱AI的人，会重新变得有价值，因为他们积累了技术审美、产品品位和判断力。\n22岁、25岁的年轻人怎么办呢？要么投身创业，要么学着做OPC，未来一个企业不再需要养那么多内部中台，而是会把很多能力包给一堆OPC，这个OPC可能是一个人，也可能是一个小公司。\n很简单的道理，\n一个人和一个Agent交互可能放大一百倍产能；十个人和Agent交互可能只能放大几倍产能。\n人多不再一定是加分项，反而可能变成负资产，年轻人要学会在未来生产环节里，成为一种外部化的生产要素。\n庄明浩\n：\n所有关于AI的讨论，最后都会走向一个很现实的问题：人到底该怎么面对这种变化？\n过去几个月，AI 能力提升太快，很多人的焦虑被放大了，今天大家讨论Coding，还在关心Coding Agent会生成多少代码、程序员会受到什么影响、未来会不会出现新的工作需求。\n但更早被影响的，其实是翻译。\n语言模型本身就天然擅长处理语言，过去会议字幕需要速记员，同声传译也是门槛很高、价格很贵的专业能力。现在，这些工作已经被AI大幅改写。\n所以问题不只发生在Coding领域，\n任何高度依赖信息处理、语言理解和知识生产的工作，都会被重新评估\n，而最难的是，这个阶段没人能准确预测未来。\n无论是企业家、科学家，还是学者，大家都只能基于有限样本做判断，所以对个人和组织来说，最重要的不是给未来一个确定答案，而是先承认：不确定性本身，已经成为这个阶段最大的现实。\n大厂下场后，创业公司还有什么机会？\n量子位\n：\n最后一个问题，也很适合作为圆桌结尾。\n在技术动荡、产品动荡的时代，很多人都想创业。但大厂也在做很多Agent产品，模型公司也在下场。Agent能力趋同时，大厂和创业公司争抢的地盘看起来越来越接近。\n这种情况下，创业公司还能关注哪些机会？还有哪些微小但值得探索的方向？\n冯雷\n：\nAI这件事和过去很多内容产品的市场逻辑不太一样，它没有那么强的通杀能力，机会一定会分布在很多地方。\n首先，\n创业者一定要找到自己和别人的不同点。\nAI本质上是一个放大器，只有你有不同的地方，它才能放大你，如果你只是一个螺丝钉，大学四年上的课和别人一样，没有实习经历，没有爱好，其实很难做出独特产品。\n你要有自己的Bet，敢下自己的Bet，围绕这个Bet，一定能找到需要你的人，今天不用怕小，也不用怕竞争，人类有一千个行业、一千个领域，大家不用每天只盯着大厂。\n我看一些大厂发布会时，前半场会觉得它很强，什么都做；看到后半场又会发现，很多事情做了很多遍，但案例未必有想象力，也未必容易分发。\n今天分发非常重要，创业公司应该找到自己的爱好，找到自己的独特地方，再找到和自己匹配的那几个独特的人。\n张昊阳\n：\n我想到一句糙理不糙的话：撑死胆大的，饿死胆小的。\n现在就是这样，我并不认为现在大厂还有多大优势，所谓资金体量、研发人力，很多时候都只是理论值。\n大厂里的内耗、赛马，以前很常见，赛马不一定是坏事，但放到今天这个时代，它未必还有过去那种竞争力。\n大厂也不一定真想得清楚。很多时候，真正做产品的团队也就十几个人到几十个人，整个组织看起来声势很大，但真正投入到单个产品上的资源，未必比创业公司想象中多多少。\n我现在也越来越认可一个判断：需求是无穷无尽的，每一轮工业革命，都会带来新的理论、新的排列组合，也会诞生新的需求。\n一百年来的技术变迁没有让人变得更闲，反而让人变得更忙，过去大家幻想技术进步之后人类就躺平不用干活，但现实完全相反。\n所以接下来也是一样。日光之下并无新事，但会不断出现更多新的小排列组合，\n只要你能抓住其中一个持续works的循环，又有无限交付的产能，你的优势其实会比大厂更高。\n未来可能还会有新的创业公司成长为新的大厂，但这个大厂的定义会变：几十人到几百人的团队，撑起千亿市值，也完全有可能。\n庄明浩\n：\n在Agent战场上，当一件事情没有标准答案时，但凡有人多踏出一步，哪怕事后证明那一步有些浪费，他得到的关注、反馈和Buff，也会远超那一步本身。\n过去两三年，我们已经见过很多这样的案例。\n大家都不知道怎么办，所以谁多迈一步，哪怕那个创新有一定偶然性，他在过程中积累的东西，可能远远大于那一步本身。\n所以今天对小的初创公司来说，反而是很好的年代，但凡多做了一点东西，它得到的传播、关注、投融资、用户理解、同行钦佩，加在一起，可能会远比那一步踏出来的东西大得多。\n所以大家不用一直想大厂会怎么样、豆包会怎么样。更重要的是，\n在不确定性里找到自己的位置，然后先往前迈一步。\n量子位\n：\n谢谢三位，今天这场圆桌聊下来，Agent赛道确实处在一个剧烈变化的阶段。\n它残酷，也充满不确定性；但正因为有这样的不确定性，才给创业者、产品人和Builder留下了巨大的想象空间，未来依然浩瀚，也依然值得继续去闯。\n再次感谢三位嘉宾，也谢谢现场和线上的观众。\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
+    "content_source": "readability",
+    "content_chars": 9530,
+    "content_excerpt": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛\n梦瑶\n2026-05-24\n18:50:44\n来源：\n量子位\n编辑部 整理自 AIGC2026\n量子位 | 公众号 QbitAI\n现在，讨论AI产业，绕不开的最热关键词就是\nAgent"
+  },
+  {
     "id": "1f8fbf027cb5",
     "title": "破局多端困境，拥抱 AI 变革：飞猪跨端技术的过去、现在与未来｜AICon上海",
     "url": "https://www.infoq.cn/article/0FPPymvSNjV9LbAIhXxO?utm_source=rss&utm_medium=article",
@@ -71,6 +104,20 @@
     "content_excerpt": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026\n允中\n2026-05-24\n14:14:05\n来源：\n量子位\n技术创新只是起点，产业整合速度才是AI落地的真正竞争力\n编辑部 整理自 AIGC2026\n量子位 | 公众号 QbitAI\n从硅谷投资人的视角望出去，AI的叙事正在悄然换轨。"
   },
   {
+    "id": "v2ex-1215053",
+    "title": "在推广节点领了大半个月赛博鸡蛋，做了个 AI 中转站排名网站",
+    "url": "https://www.v2ex.com/t/1215053",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-24T04:52:44",
+    "summary": "https://apirank.ttop5.cc 最近中转站铺天盖地，我也薅了不少羊毛，发现各个中转站服务质量参差不齐，于是分析了一下日志做了这个网站。 这是一个 AI 中转站观察站点，用于汇总和展示中转站的排名记各种相关信息。目前能看到：综合排名（分工作时段 / 非工作时段）、公告聚合、倍率和价格的历史快照，还有一个黑盒安全审计入口（填 API 地址 + 临时 Key ，跑一轮检测看风险）。审计结果不计入正式排名，纯参考。 绝大多数测试额度都是领的新用户免费额度，也有一些是充过 3 块 5 块的，样本有限，仅供参考。",
+    "collected_at": "2026-05-24T13:06:57.129609",
+    "content_text": "https://apirank.ttop5.cc\n最近中转站铺天盖地，我也薅了不少羊毛，发现各个中转站服务质量参差不齐，于是分析了一下日志做了这个网站。\n这是一个 AI 中转站观察站点，用于汇总和展示中转站的排名记各种相关信息。目前能看到：综合排名（分工作时段 / 非工作时段）、公告聚合、倍率和价格的历史快照，还有一个黑盒安全审计入口（填 API 地址 + 临时 Key ，跑一轮检测看风险）。审计结果不计入正式排名，纯参考。\n绝大多数测试额度都是领的新用户免费额度，也有一些是充过 3 块 5 块的，样本有限，仅供参考。\n最近中转站铺天盖地，我也薅了不少羊毛，发现各个中转站服务质量参差不齐，于是分析了一下日志做了这个网站。\n这是一个 AI 中转站观察站点，用于汇总和展示中转站的排名记各种相关信息。目前能看到：综合排名（分工作时段 / 非工作时段）、公告聚合、倍率和价格的历史快照，还有一个黑盒安全审计入口（填 API 地址 + 临时 Key ，跑一轮检测看风险）。审计结果不计入正式排名，纯参考。\n绝大多数测试额度都是领的新用户免费额度，也有一些是充过 3 块 5 块的，样本有限，仅供参考。",
+    "content_source": "trafilatura",
+    "content_chars": 500,
+    "content_excerpt": "https://apirank.ttop5.cc\n最近中转站铺天盖地，我也薅了不少羊毛，发现各个中转站服务质量参差不齐，于是分析了一下日志做了这个网站。\n这是一个 AI 中转站观察站点，用于汇总和展示中转站的排名记各种相关信息。目前能看到：综合排名（分工作时段 / 非工作时段）、公告聚合、倍率和价格的历史快照，还有一个黑盒安全审计入口（填 API 地址 + 临时 Key ，跑一轮检测看风险）。审计结果不计入正式排名，纯参考。\n绝大多数测试额度都是领的新用户免费额度，也有一些是充过 3 块 5 块的，样本有限，仅供参考。\n最近中转站铺天盖地，我也薅了不少羊毛，发现各个中转站服务质量参差不齐，于是分析了一下日志做了这个网站。\n这是一个 AI 中转站观察站点，用于汇总和展示中转站的排名记各种相关信息。目前能看到：综合排名（分工作时段 / 非工作时段）、公告聚合、倍率和价格的历史快照，还有一个黑盒安全审计入口（填 API 地址 + 临时 Key ，跑一轮检测看风险）。审计结果不计入正式排名，纯参考。\n绝大多数测试额度都是领的新用户免费额度，也有一些是充过 3 块 5 块的，样本有限，仅供参考。"
+  },
+  {
     "id": "a186b37fe8f9",
     "title": "华泰证券：看好2026年起交换芯片在AI驱动下开启二次成长",
     "url": "https://36kr.com/newsflashes/3822612389941383?f=rss",
@@ -86,14 +133,18 @@
     "content_excerpt": "华泰证券研报称，作为数据中心互联的核心组件，交换芯片用于处理数据交换和报文转发，占交换机成本比例达30%以上。华泰证券看好2026年起交换芯片在AI驱动下开启二次成长：1.万卡级以上集群需要更加稳定可靠的网络系统，推动数据中心Scale out交换机向更高容量、速率发展，Scale out交换芯片有望量价齐升；2.超节点架构或为国产算力追赶海外算力的破局之道，超节点放大集群内Scale up作用，交换芯片配比通常高于Scale out，未来或催生大量交换芯片需求。华泰证券测算2028年国产交换芯片市场空间有望达到242亿元，2026—2028年CAGR为96%，建议关注海外龙头及国内自研技术领先的芯片商。"
   },
   {
-    "id": "v2ex-1215014",
-    "title": "你们都在用什么机器跑 hermes",
-    "url": "https://www.v2ex.com/t/1215014",
+    "id": "v2ex-1215040",
+    "title": "vibe-coding 一时爽，一直 vibe-coding 呢？",
+    "url": "https://www.v2ex.com/t/1215040",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-24T00:11:42",
-    "summary": "问下大家现在都在用什么机器跑 hermes ？ 想收一台二手 macbook 跑 hermes 不知道什么配置性能不会溢出？ m1 8+256 的 macbook air 如何？",
-    "collected_at": "2026-05-24T08:22:00.293603"
+    "published": "2026-05-24T03:47:37",
+    "summary": "昨天碰到一个音画不同步问题（数字人说话时一旦声音和画面出现了细微的偏差，整个视频看起来就非常奇怪，嘴型对不上），恁是 vibe 了一整天都没解决。有时候通过 vibe coding 来解决问题，就像是在抽盲盒。由于音视频开发的细节太多，导致 AI 没办法很细致地解决延迟、同步问题。这咋整呢？要么就自己一行一行地去看代码、梳理逻辑，要么就继续 vibe coding 碰概率。而且我发现 vibe coding 到最后真的什么都学不到，没有任何技术上的成长。唯一的收获可能就是做出了一个产品，或者实现了某一个功能。如果将来 AI 能够短时间变得更聪明倒还好，这样大家也不用再关心技术问题了。如果没有的",
+    "collected_at": "2026-05-24T13:06:57.129660",
+    "content_text": "昨天碰到一个音画不同步问题（数字人说话时一旦声音和画面出现了细微的偏差，整个视频看起来就非常奇怪，嘴型对不上），恁是 vibe 了一整天都没解决。有时候通过 vibe coding 来解决问题，就像是在抽盲盒。由于音视频开发的细节太多，导致 AI 没办法很细致地解决延迟、同步问题。这咋整呢？要么就自己一行一行地去看代码、梳理逻辑，要么就继续 vibe coding 碰概率。而且我发现 vibe coding 到最后真的什么都学不到，没有任何技术上的成长。唯一的收获可能就是做出了一个产品，或者实现了某一个功能。如果将来 AI 能够短时间变得更聪明倒还好，这样大家也不用再关心技术问题了。如果没有的话，或者像自动驾驶从 L2 到 L4 这么缓慢进步，一直 vibe coding 是一件对职业发展很不利的事情，长期如此技术成长基本上就停滞了。所以我觉得现阶段还是非常有必要去搞清楚技术原理，理解架构。并在此基础上去用 AI 来加速开发，而不是一直 vibe coding 下去，什么都不管。如果只是写一个网页、一个插件或者一个简单的 app 或者快速出原型，倒是无关紧要。但如果是像 CyberVerse 这样想要持续更新的项目，这种方式一定是不可持续的，欠下的技术债，终有一天要还。今天开始认真地研究代码、研究逻辑，把 bug 找出来。",
+    "content_source": "trafilatura",
+    "content_chars": 570,
+    "content_excerpt": "昨天碰到一个音画不同步问题（数字人说话时一旦声音和画面出现了细微的偏差，整个视频看起来就非常奇怪，嘴型对不上），恁是 vibe 了一整天都没解决。有时候通过 vibe coding 来解决问题，就像是在抽盲盒。由于音视频开发的细节太多，导致 AI 没办法很细致地解决延迟、同步问题。这咋整呢？要么就自己一行一行地去看代码、梳理逻辑，要么就继续 vibe coding 碰概率。而且我发现 vibe coding 到最后真的什么都学不到，没有任何技术上的成长。唯一的收获可能就是做出了一个产品，或者实现了某一个功能。如果将来 AI 能够短时间变得更聪明倒还好，这样大家也不用再关心技术问题了。如果没有的话，或者像自动驾驶从 L2 到 L4 这么缓慢进步，一直 vibe coding 是一件对职业发展很不利的事情，长期如此技术成长基本上就停滞了。所以我觉得现阶段还是非常有必要去搞清楚技术原理，理解架构。并在此基础上去用 AI 来加速开发，而不是一直 vibe coding 下去，什么都不管。如果只是写一个网页、一个插件或者一个简单的 app 或者快速出原型，倒是无关紧要。但如果是像 CyberVerse 这样想要持续更新的项目，这种方式一定是不可持续的，欠下的技术债，终有一天要还。今天开始认真地研究代码、研究逻辑，把 bug 找出来。"
   },
   {
     "id": "32e0243942b6",
@@ -114,18 +165,14 @@
     "ai_summary": "IBM 和法拉利车队 HP 向 TechCrunch 介绍了他们如何重新定义车迷体验"
   },
   {
-    "id": "v2ex-1215013",
-    "title": "openai 周限又重置了，已经放弃 claude 了",
-    "url": "https://www.v2ex.com/t/1215013",
+    "id": "v2ex-1215014",
+    "title": "你们都在用什么机器跑 hermes",
+    "url": "https://www.v2ex.com/t/1215014",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-24T00:04:42",
-    "summary": "好订阅，不易封号，gpt5.5 和 codex 使用体验顶级，额度量大管饱，还经常找理由重置额度，针对正规订阅的付费用户，体验感觉各方面都比 A\\要好，claudecode 的优势感觉现在也不明显了，codex 已经取消上下文小圆圈显示，让你尽情使用，其自动上下文压缩目前在一众工具默认配置里也是顶尖的，订阅的性价比我觉得比国内一众的 plan 套餐还要好",
-    "collected_at": "2026-05-24T02:34:06.960634",
-    "content_text": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好",
-    "content_source": "readability",
-    "content_chars": 293,
-    "content_excerpt": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好"
+    "published": "2026-05-24T00:11:42",
+    "summary": "问下大家现在都在用什么机器跑 hermes ？ 想收一台二手 macbook 跑 hermes 不知道什么配置性能不会溢出？ m1 8+256 的 macbook air 如何？",
+    "collected_at": "2026-05-24T08:22:00.293603"
   },
   {
     "id": "c016cd61be01",
@@ -143,18 +190,18 @@
     "content_excerpt": "OpenAI 近期介绍了\n如何为全球规模的低延迟语音 AI 调整 WebRTC\n。新的架构将传统的媒体终结模型替换为更适合 Kubernetes 和云负载均衡器的中继收发器架构。它将\nWebRTC\n会话状态保留在专用的收发器层，同时利用轻量级中继来减少公共 UDP 暴露，并让媒体路由更贴近用户。\n在这篇文章中，OpenAI 的技术人员 Zhang Yi 和 William McDonald 解释说，实现全球覆盖、快速建立连接以及保障媒体往返时延偏低且稳定是此次架构调整背后的主要制约因素。团队评估了多种媒体会话对外暴露的方案，各类方案在实际运行中各有利弊。\n第一种方案是直接对外暴露 UDP 端口，沿用传统 WebRTC 架构模式。但该方案会把运维压力转嫁至基础设施层面，尤其是在 Kubernetes 环境中，大规模的公网端口难以安全管控。为每台服务器单独分配专属端口虽能简化部分路由决策，却依旧会让运维人员面临端口规划困难、端口使用率失衡以及部署发布稳定性差等问题。\n选项 1：SFU 方案——将 AI 作为 WebRTC 参与者（\n来源\n）"
   },
   {
-    "id": "v2ex-1214996",
-    "title": "让 AI 写产品官网还蛮困难，很磨时间，默认出的文案和样式都不太行，有什么技巧么？ 或者有啥神奇的 skill、prompt 可以提高效率？",
-    "url": "https://www.v2ex.com/t/1214996",
+    "id": "v2ex-1215013",
+    "title": "openai 周限又重置了，已经放弃 claude 了",
+    "url": "https://www.v2ex.com/t/1215013",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-23T16:09:58",
-    "summary": "陆陆续续花了接近 3 天时间才改了一版本。 之前是 https://i.imgur.com/jU0jggr.png 改完现在是 https://i.imgur.com/dPFGHP3.png https://i.imgur.com/mnJzFX1.png 最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。 新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。 然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。 另外自荐产品 名字：叙野 Lorewild 网",
-    "collected_at": "2026-05-24T08:22:00.293668",
-    "content_text": "陆陆续续花了接近 3 天时间才改了一版本。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953\n定位是“用 AI 故事学外语”和“AI 角色对话学外语”，支持中文、英语、日语、韩语、德语、西班牙语六个语言。类似酒馆，也可以自建角色和剧本，目前提供了轻量的学习层。\nmd ，一点流量没有，得多尝试 build in public 啥的整起来。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953\n定位是“用 AI 故事学外语”和“AI 角色对话学外语”，支持中文、英语、日语、韩语、德语、西班牙语六个语言。类似酒馆，也可以自建角色和剧本，目前提供了轻量的学习层。\nmd ，一点流量没有，得多尝试 build in public 啥的整起来。",
-    "content_source": "trafilatura",
-    "content_chars": 739,
-    "content_excerpt": "陆陆续续花了接近 3 天时间才改了一版本。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953"
+    "published": "2026-05-24T00:04:42",
+    "summary": "好订阅，不易封号，gpt5.5 和 codex 使用体验顶级，额度量大管饱，还经常找理由重置额度，针对正规订阅的付费用户，体验感觉各方面都比 A\\要好，claudecode 的优势感觉现在也不明显了，codex 已经取消上下文小圆圈显示，让你尽情使用，其自动上下文压缩目前在一众工具默认配置里也是顶尖的，订阅的性价比我觉得比国内一众的 plan 套餐还要好",
+    "collected_at": "2026-05-24T02:34:06.960634",
+    "content_text": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好",
+    "content_source": "readability",
+    "content_chars": 293,
+    "content_excerpt": "@\nfbu11\n我看有人反馈 pro 模型有降智，目前我测试没发现我使用过程中有降智\n@\npangleon\n我免费号登录 codex 要短信验证，充完 pro 后就不需要了，说白了现在的短信验证主要卡的免费用户，尤其是使用注册机搞号池薅羊毛的，即便会员短信验证也很简单，搞个 giffgaff 卡也不难，claude 现在不止要短信验证，几个论坛看只要开 max 大概率触发 kyc ，只要触发 kyc 即便找人验证了也离死不远了，openai 跳 kyc 基本都是破限或逆向导致的，一般都会发邮件警告，当然找人验证也难逃一死，相对来说 openai 的使用成本，风险更低，综合体验更好"
   },
   {
     "id": "049609b07c31",
@@ -175,14 +222,18 @@
     "ai_summary": "Elon Muks 的 xAI 全力投入天然气，而 SpaceX 则痴迷于轨道数据中心。他承诺的“太阳能电力经济”怎么了…"
   },
   {
-    "id": "v2ex-1214981",
-    "title": "你们多少人是自己付费买 token 干公司的工作任务了？",
-    "url": "https://www.v2ex.com/t/1214981",
+    "id": "v2ex-1214996",
+    "title": "让 AI 写产品官网还蛮困难，很磨时间，默认出的文案和样式都不太行，有什么技巧么？ 或者有啥神奇的 skill、prompt 可以提高效率？",
+    "url": "https://www.v2ex.com/t/1214996",
     "source": "V2EX",
     "lang": "zh",
-    "published": "2026-05-23T14:53:53",
-    "summary": "最近花了几十块钱，充的中转站，确实自己省了不少事。 不过有点焦虑。 一是每次发出任务后的开销，自己似乎也没法预估，有时候感觉要改一个小样式，咔咔咔给你跑了那么多 token ，有时候一个自我感觉很复杂的功能，ai 很快给你搞出来了。 二是担忧这样下去，自己也不会写代码了，但是这是自己安身立命的技能啊。",
-    "collected_at": "2026-05-24T08:22:00.293703"
+    "published": "2026-05-23T16:09:58",
+    "summary": "陆陆续续花了接近 3 天时间才改了一版本。 之前是 https://i.imgur.com/jU0jggr.png 改完现在是 https://i.imgur.com/dPFGHP3.png https://i.imgur.com/mnJzFX1.png 最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。 新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。 然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。 另外自荐产品 名字：叙野 Lorewild 网",
+    "collected_at": "2026-05-24T08:22:00.293668",
+    "content_text": "陆陆续续花了接近 3 天时间才改了一版本。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953\n定位是“用 AI 故事学外语”和“AI 角色对话学外语”，支持中文、英语、日语、韩语、德语、西班牙语六个语言。类似酒馆，也可以自建角色和剧本，目前提供了轻量的学习层。\nmd ，一点流量没有，得多尝试 build in public 啥的整起来。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953\n定位是“用 AI 故事学外语”和“AI 角色对话学外语”，支持中文、英语、日语、韩语、德语、西班牙语六个语言。类似酒馆，也可以自建角色和剧本，目前提供了轻量的学习层。\nmd ，一点流量没有，得多尝试 build in public 啥的整起来。",
+    "content_source": "trafilatura",
+    "content_chars": 739,
+    "content_excerpt": "陆陆续续花了接近 3 天时间才改了一版本。\n之前是\n改完现在是\n最初的版本是，AI 直出的文案和样式，文案不说人话，样式也看着着就别扭。\n新版是，每一幕和 AI 描述自己的想法然后定制调出来的，个人感官上舒服了很多。\n然后想着未来可能会用 AI 做更多新产品，手动调也太麻烦了，大家是套模板还是有啥神奇的 skill 或 prompt 可以提高效率么？求分享。\n另外自荐产品\n名字：叙野 Lorewild\n网址： https://lorewild.com\n推特： https://x.com/ethan180953"
   },
   {
     "id": "5b51f0847714",
@@ -201,6 +252,16 @@
     "title_zh": "从第一原理开始让深度学习变得精彩 (2022)",
     "summary_zh": "文章网址：https://horace.io/brrr_intro.html 评论网址：https://news.ycombinator.com/item?id=48246889 积分：118 # 评论：43",
     "ai_summary": "文章网址：https://horace.io/brrr_intro.html 评论网址：https://news.yco…"
+  },
+  {
+    "id": "v2ex-1214981",
+    "title": "你们多少人是自己付费买 token 干公司的工作任务了？",
+    "url": "https://www.v2ex.com/t/1214981",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-05-23T14:53:53",
+    "summary": "最近花了几十块钱，充的中转站，确实自己省了不少事。 不过有点焦虑。 一是每次发出任务后的开销，自己似乎也没法预估，有时候感觉要改一个小样式，咔咔咔给你跑了那么多 token ，有时候一个自我感觉很复杂的功能，ai 很快给你搞出来了。 二是担忧这样下去，自己也不会写代码了，但是这是自己安身立命的技能啊。",
+    "collected_at": "2026-05-24T08:22:00.293703"
   },
   {
     "id": "b01ec93d479b",
@@ -4648,93 +4709,6 @@
     "ai_summary": "作为收购的一部分，总部位于纽约的初创公司不锈钢将逐步关闭所有托管产品"
   },
   {
-    "id": "3be90d994a82",
-    "title": "Musk v. Altman proved that AI is led by the wrong people",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
-    "source": "The Verge AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-18T19:00:00",
-    "summary": "The tech trial of the year, Musk v. Altman, was ultimately a fight for control. Elon Musk argued that Sam Altman, with whom he helped found the now-massive company OpenAI, shouldn't direct the future of AI. Altman's lawyers, in turn, poked at Musk's own credibility. A jury came to a verdict on Monda",
-    "collected_at": "2026-05-18T19:29:32.804600",
-    "content_text": "The tech trial of the year, Musk v. Altman, was ultimately a fight for control. Elon Musk argued that Sam Altman, with whom he helped found the now-massive company OpenAI, shouldn’t direct the future of AI. Altman’s lawyers, in turn, poked at Musk’s own credibility. A jury came to a verdict on Monday after just two hours of deliberation, dismissing Musk’s claims due to the statute of limitations.\nMusk v. Altman proved that AI is led by the wrong people\nPublic opinion of the AI industry is already sinking. A parade of untrustworthy executives makes it look worse.\nMusk v. Altman proved that AI is led by the wrong people\nPublic opinion of the AI industry is already sinking. A parade of untrustworthy executives makes it look worse.\nIn a strictly legal sense, three weeks of testimony added up to nothing. But the trial offered a more damning broader takeaway: Almost nobody in this saga seems worth trusting. Some of the most powerful people in tech seem temperamentally incapable of dealing with each other honestly. And if that’s true, it raises a bigger question: Why are they in control of a trillion-dollar industry that’s set to upend people’s lives?\nOpenAI was, in the testimony of both Musk and Altman, founded to stop powerful AI from being owned and advanced by the wrong people. Testimony and evidence showed its founding team fretting about who would control artificial general intelligence (AGI), a buzzword for AI that broadly equals or surpasses human knowledge and ability. They deeply feared Google DeepMind and its leader, Demis Hassabis. In 2015, Altman said he’d been mulling over whether anything could “stop humanity from developing AI” — and after concluding it was impossible, that he wanted “someone other than google to do it first.”\nFellow cofounders Greg Brockman and Ilya Sutskever so strongly opposed one-person control that they seemed willing to torpedo a lucrative deal that could — in their words — give Musk an “AI dictatorship.” In a part of the same email addressed to Altman, Brockman and Sutskever questioned his motivations, writing, “We haven’t been able to fully trust your judgements throughout this process … Is AGI truly your primary motivation? How does it connect to your political goals?”\nThese concerns would be quickly borne out. A central focus of Musk v. Altman was “the blip,” a five-day period in November 2023 when OpenAI’s board removed Altman as CEO. Sutskever had spent more than a year architecting his ouster, assembling a 52-page memo alleging “a consistent pattern of lying, undermining his execs, and pitting his execs against one another.” The implications were broader than executive infighting, potentially impacting the public rollout of AI systems. Then-CTO Mira Murati, for instance, testified in court that Altman told her OpenAI’s legal team had okayed skipping a safety review for one of its models — a statement, she said, that turned out to be false.\nIn closing arguments, Musk attorney Steven Molo hammered home the long list of people who had testified under oath that Altman was, in one way or another, a liar — all of whom Altman had worked with for years. “The defendants absolutely need you to believe Sam Altman,” Molo told the jury. “If you cannot trust him, if you don’t believe him, they cannot win. It’s that simple.”\nBut during court proceedings, Musk — who now leads competing lab xAI, under his space company SpaceX — didn’t come off any better. Joshua Achiam, now OpenAI’s chief futurist, testified that Musk’s race against Google led him to take an “obviously unsafe and reckless” approach to achieving AGI. When he and others raised concerns, he says, Musk argued that OpenAI’s for-profit makeover created incentives to disregard safety, but his own xAI is for-profit and has, at best, a haphazard approach to safety. And in the name of making sure OpenAI remained open, Musk was obsessive in his need for control over it. In closing arguments, Sarah Eddy, one of OpenAI’s attorneys, told the jury that Musk “wanted dominion over AGI.”\nAs one X user put it, “if untrustworthyness had mass, putting Musk and Altman too close to one another would collapse the courtroom and all of earth into a black hole.”\nOpenAI and Musk did not immediately respond to requests for comment.\nIt’s not just Musk and Altman, either. Trial evidence suggested Murati helped get Altman removed, then switched sides to support his reinstatement while appearing “totally uninterested” in disclosing the role she’d played. Shivon Zilis, a close Musk associate who served on OpenAI’s board, asked Musk if he’d “prefer I stay close and friendly to OpenAI to keep info flowing” during his departure — avoiding revealing that she had two children with him at the time. Brockman’s diary entries played a key role in Musk’s case; at one point, he admitted Musk could “correctly” claim “we weren’t honest with him” if OpenAI made a for-profit shift without his involvement.\nMusk v. Altman gave each man an opportunity to sling dirt at the other and, in theory, establish himself as the more scrupulous guardian of AI. But a more obvious takeaway is that several of the AI industry’s household names are at best naive — and, at worst, hypocrites with little regard for the consequences of their actions.\nPublic sentiment about AI is at an all-time low. In a Pew Research survey from last summer, half of US adults said the “increased use of AI in daily life makes them feel more concerned than excited” — and only 10 percent said they felt more excited than concerned. Many of these concerns are related to job loss, but protests are also surging against mass data center construction across the country. Some resistance has turned potentially violent, with individuals allegedly attempting to attack Altman’s home on two occasions. And many tech CEOs themselves maintain that they have bunkers or other doomsday-prepping plans for if things go horribly wrong.\nThese companies push public messaging that AI empowers its users. But a 2025 Pew Research study found that nearly 60 percent of US adults feel they have little to no control over how AI is used in their lives. In the US, the prospect of meaningful government regulation — which could at least offer some level of external oversight — remains shaky. And now, it’s clearer than ever how far the AI world’s biggest players will go to maintain control.\nAmid the trial’s reams of evidence, one document offers a rare example of Altman and Musk offering to cede some power. In March 2015, Altman emailed Microsoft CEO Satya Nadella with a simple request: Sign a letter that he and Musk were drafting, asking the US government to establish “a new regulatory agency for AI safety” and address “the biggest risk to the continued existence of humanity that most people are ignoring.” Weeks later, Nadella responded to shut down the idea. The “issue of human safety and the control problem will become real issues,” he said. But executives, he insisted, should be calling for “federal funding and encouragement of research,” not oversight. Altman promptly agreed. The letter, he promised, would be changed — leaving the option of regulating the AI industry “if and when.”",
-    "content_source": "trafilatura",
-    "content_chars": 7184,
-    "content_excerpt": "The tech trial of the year, Musk v. Altman, was ultimately a fight for control. Elon Musk argued that Sam Altman, with whom he helped found the now-massive company OpenAI, shouldn’t direct the future of AI. Altman’s lawyers, in turn, poked at Musk’s own credibility. A jury came to a verdict on Monday after just two hours of deliberation, dismissing Musk’s claims due to the statute of limitations.\nMusk v. Altman proved that AI is led by the wrong people\nPublic opinion of the AI industry is already sinking. A parade of untrustworthy executives makes it look worse.\nMusk v. Altman proved that AI is led by the wrong people\nPublic opinion of the AI industry is already sinking. A parade of untrustworthy executives makes it look worse.\nIn a strictly legal sense, three weeks of testimony added up to nothing. But the trial offered a more damning broader takeaway: Almost nobody in this saga seems worth trusting. Some of the most powerful people in tech seem temperamentally incapable of dealing with each other honestly. And if that’s true, it raises a bigger question: Why are they in control of a trillion-dollar industry that’s set to upend people’s lives?\nOpenAI was, in the testimony of both Musk and Altman, founded to stop powerful AI from being owned and advanced by the wrong people. Testimony and evidence showed its founding team fretting about who would control artificial general intelligence (AGI), a buzzword for AI that broadly equals or surpasses human knowledge and ability. They deeply feared Google DeepMind and its leader, Demis Hassabis. In 2015, Altman said he’d been mulling over whether anything could “stop humanity from developing AI” — and after concluding it was impossible, that he wanted “someone other than google to do it first.”\nFellow cofounders Greg Brockman and Ilya Sutskever so strongly opposed one-person control that they seemed willing to torpedo a lucrative deal that could — in their words — give Musk an “AI dictatorship.” In a part of the same email addressed to Altman, Brockman and Sutskever questioned his motivations, writing, “We haven’t been able to fully trust your judgements throughout this process … Is AGI truly your primary motivation? How does it connect to your political goals?”\nThese concerns would be quickly borne out. A central focus of Musk v. Altman was “the blip,” a five-day period in November 2023 when OpenAI’s board removed Altman as CEO. Sutskever had spent more than a year architecting his ouster, assembling a 52-page memo alleging “a consistent pattern of lying, undermining his execs, and pitting his execs against one another.” The implications were broader than executive infighting, potentially impacting the public rollout of AI systems. Then-CTO Mira Murati, for instance, testified in court that Altman told her OpenAI’s legal team had okayed skipping a safety review for one of its models — a statement, she said, that turned out to be false.\nIn closing arguments, Musk attorney Steven Molo hammered home the long list of people who had testified under oath that Altman was, in one way or another, a liar — all of whom Altman had worked with for years. “The defendants absolutely need you to believe Sam Altman,” Molo told the jury. “If you cannot trust him, if you don’t believe him, they cannot win. It’s that simple.”",
-    "title_zh": "马斯克诉奥特曼案证明人工智能是由错误的人领导的",
-    "summary_zh": "今年的科技审判“马斯克诉奥特曼”最终是一场控制权之争。埃隆·马斯克 (Elon Musk) 认为，山姆·奥尔特曼 (Sam Altman) 不应该主导人工智能的未来，他与山姆·奥尔特曼 (Sam Altman) 一起创立了如今规模庞大的 O…",
-    "ai_summary": "今年的科技审判“马斯克诉奥特曼”最终是一场控制权之争。埃隆·马斯克 (Elon Musk) 认为，山姆·奥尔特曼 (Sa…"
-  },
-  {
-    "id": "824e77ca4c6b",
-    "title": "What to expect from Google this week",
-    "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-05-18T17:35:43",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at G",
-    "collected_at": "2026-05-18T19:29:32.897720",
-    "content_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.\nI’ll also be paying close attention to any moves Google makes in health and medicine. Google is doing some of the best research out there on LLM-based health tools, but OpenAI has defined the health AI conversation since the release of ChatGPT Health in January. Google has announced that it will be making its AI-powered Health Coach publicly available tomorrow, but promotional material suggests that the tool is geared more toward providing advice on topics such as fitness and diet than to addressing users’ medical concerns. Is this another area where Google has fallen behind, or is the company exercising appropriate caution in a high-stakes domain?\nThe drama\nWhile Google fans congregate down in Mountain View, roughly 30 miles north in Oakland the Elon Musk v. Sam Altman trial will be wrapping up. The past few months have seen more than their fair share of AI CEO drama—before the trial, the animosity between Altman and Anthropic CEO Dario Amodei took center stage as Anthropic and OpenAI worked to negotiate deals with the US Department of Defense. But DeepMind’s Hassabis has, for the most part, steered clear of such drama. He effectively presents himself as a Nobel Prize-winning nerd, and if he has written screeds about any of his peers, they haven’t been leaked to the press or appeared in legal discovery.\nThat’s not to say that Google is controversy free. Last month, a group of 600 employees, many of whom work for DeepMind, sent a letter to CEO Sundar Pichai protesting an impending DoD deal. Google signed that deal the next day. Hassabis, Pichai, and all the other big names will surely do their best to skirt these and other touchy subjects while on stage, but controversies will worm their way in regardless. It will be interesting to see whether Google can maintain its veneer of neutrality.\nDeep Dive\nArtificial intelligence\nOpenAI is throwing everything into building a fully automated researcher\nAn exclusive conversation with OpenAI’s chief scientist, Jakub Pachocki, about his firm's new grand challenge and the future of AI.\nWant to understand the current state of AI? Check out these charts.\nAccording to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.\n10 Things That Matter in AI Right Now\nMIT Technology Review's authoritative overview of the 10 technologies, emerging trends, bold ideas, and powerful movements in AI in 2026.\nMusk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models\nMusk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
-    "content_source": "trafilatura",
-    "content_chars": 5860,
-    "content_excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.\nWhen Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O 2025, the situation looked very different: The company was still riding high from the launch of Gemini 2.5 Pro that March, and distinguishing among the top-tier large language models often felt like a subjective splitting of hairs.\nBut a foundation model’s reputation these days rests largely on its coding capabilities, and for months Google’s coding tools have been outgunned by Anthropic’s Claude Code and OpenAI’s Codex. Those systems are so dramatically superior to Google’s own offerings that the company has reportedly had to allow some engineers at DeepMind, its AI division, to use Claude for their work—lest they fall farther behind.\nSo when I arrive at the conference in Mountain View, California tomorrow, I’ll certainly be on the lookout for any efforts Google is making to claw its way back into frontrunner position. But I’m also eager to see new developments in areas where Google shapes the cutting edge, such as AI for science. The company’s moves there might receive less attention, but they will be no less consequential.\nHere are three things I’ll be paying particular attention to over the next two days.\nAn attempted coding comeback\nGoogle is taking its AI coding crisis seriously. According to reporting from The Information, there’s a new AI coding team at DeepMind. And the Los Angeles Times has reported that John Jumper, who shared a 2024 Nobel Prize in chemistry with DeepMind CEO Demis Hassabis for their work on the protein structure prediction software AlphaFold, is lending his talents to the efforts. I would be surprised if we don’t see a major new coding release at I/O, perhaps in the form of an update to the company’s Antigravity agentic coding platform.\nThat said, we shouldn’t expect anything transformative here. Googlers have access to models and products that are substantially ahead of those released to the public, yet they were still reportedly fighting over who got access to Claude Code last month. Unless the company has made astonishing progress since then, Google probably won’t make it back to the coding frontier in the next two days.\nScience and health\nCoding might be Google DeepMind’s weakness, but science is its conspicuous strength. It is the only frontier AI company to have earned a Nobel Prize. And as LLMs have come to dominate the AI-for-science landscape, Google has only solidified its lead. Last year, the company released multiple scientific AI tools, including the AI co-scientist, which formulates hypotheses and research plans in response to user questions and has been described as an “oracle” by one Stanford scientist, and AlphaEvolve, a system that iteratively discovers new solutions for mathematical and computational problems. If any new scientific tools are announced at I/O, they’ll be worth noting.",
-    "title_zh": "本周对谷歌有什么期待",
-    "summary_zh": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其年度开发者大会 I/O 时，它将在基础模型竞赛中以明显的第三名的身份出现。一年前，在G",
-    "ai_summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。当谷歌明天开幕其…"
-  },
-  {
-    "id": "4f2f8f4da2b7",
-    "title": "Elon Musk loses his case against Sam Altman",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/932383/jury-verdict-musk-v-altman-openai-trial",
-    "source": "The Verge AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-18T17:39:32",
-    "summary": "After around two hours of deliberation, the jury has reached a unanimous verdict in Musk v. Altman, the tech trial of the year. The group found that two claims were barred by the statute of limitations, and a third failed thanks to the dismissal of one of these. The jury here is an advisory jury, [&",
-    "collected_at": "2026-05-18T19:29:32.804686",
-    "content_text": "After around two hours of deliberation, the jury has reached a unanimous verdict in Musk v. Altman, the tech trial of the year. The group found that two claims were barred by the statute of limitations, and a third failed thanks to the dismissal of one of these.\nElon Musk loses his case against Sam Altman\nThe Musk v. Altman jury dismissed all charges due to the statute of limitations.\nThe Musk v. Altman jury dismissed all charges due to the statute of limitations.\nThe jury here is an advisory jury, meaning the group is installed solely to offer another opinion to the judge, and its verdict is technically not legally binding. Ultimately, US District Judge Yvonne Gonzalez Rogers is the ultimate legal authority — and she accepted the decision.\nThe jury found that Musk’s claim for breach of charitable trust was barred by the statute of limitations, and the claim that Microsoft aided and abetted such a breach failed with it. Restitution is also barred by the statute of limitations, the jury found.\nNeither OpenAI nor Musk immediately responded to requests for comment.\nAlex Haurek, a Microsoft spokesperson, said in a statement, “The facts and the timeline in this case have long been clear, and we welcome the jury’s decision to dismiss these claims as untimely. We remain committed to our work with OpenAI to advance and scale AI for people and organizations around the world.”\nMusk v. Altman has taken over a federal courtroom in Oakland for three weeks, with the core accusation being that OpenAI strayed from its founding mission and that Musk’s money was earmarked for a nonprofit in particular. Musk alleges that OpenAI CEO Sam Altman and company president Greg Brockman breached OpenAI’s charitable trust and participated in unjust enrichment at Musk’s expense. He also alleges that Microsoft aided and abetted the two in breach of charitable trust. Both sides have used every opportunity to smear each other — and through salacious evidence and eyebrow-raising testimony, both sides have come out looking somehow even less trustworthy than when the court process began.",
-    "content_source": "trafilatura",
-    "content_chars": 2088,
-    "content_excerpt": "After around two hours of deliberation, the jury has reached a unanimous verdict in Musk v. Altman, the tech trial of the year. The group found that two claims were barred by the statute of limitations, and a third failed thanks to the dismissal of one of these.\nElon Musk loses his case against Sam Altman\nThe Musk v. Altman jury dismissed all charges due to the statute of limitations.\nThe Musk v. Altman jury dismissed all charges due to the statute of limitations.\nThe jury here is an advisory jury, meaning the group is installed solely to offer another opinion to the judge, and its verdict is technically not legally binding. Ultimately, US District Judge Yvonne Gonzalez Rogers is the ultimate legal authority — and she accepted the decision.\nThe jury found that Musk’s claim for breach of charitable trust was barred by the statute of limitations, and the claim that Microsoft aided and abetted such a breach failed with it. Restitution is also barred by the statute of limitations, the jury found.\nNeither OpenAI nor Musk immediately responded to requests for comment.\nAlex Haurek, a Microsoft spokesperson, said in a statement, “The facts and the timeline in this case have long been clear, and we welcome the jury’s decision to dismiss these claims as untimely. We remain committed to our work with OpenAI to advance and scale AI for people and organizations around the world.”\nMusk v. Altman has taken over a federal courtroom in Oakland for three weeks, with the core accusation being that OpenAI strayed from its founding mission and that Musk’s money was earmarked for a nonprofit in particular. Musk alleges that OpenAI CEO Sam Altman and company president Greg Brockman breached OpenAI’s charitable trust and participated in unjust enrichment at Musk’s expense. He also alleges that Microsoft aided and abetted the two in breach of charitable trust. Both sides have used every opportunity to smear each other — and through salacious evidence and eyebrow-raising testimony, both sides have come out looking somehow even less trustworthy than when the court process began.",
-    "title_zh": "埃隆·马斯克 (Elon Musk) 败诉山姆·奥尔特曼 (Sam Altman)",
-    "summary_zh": "经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而第三项索赔因其中一项索赔被驳回而失败。这里的评审团是顾问评审团，[&",
-    "ai_summary": "经过大约两个小时的审议，陪审团对年度科技审判“马斯克诉奥特曼案”达成了一致裁决。该组织发现，两项索赔均已超出诉讼时效，而…"
-  },
-  {
-    "id": "f568df07558f",
-    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-05-18T17:34:43",
-    "summary": "Elon Musk's claim that he was mistreated by his OpenAI cofounders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
-    "collected_at": "2026-05-18T19:29:32.716386",
-    "content_text": "Elon Musk’s claim that he was mistreated by his OpenAI cofounders failed after nine California jurors returned a unanimous verdict that his lawsuits had been filed too late.\nMusk accused Sam Altman, Greg Brockman, OpenAI and Microsoft of “stealing a charity” by creating a for-profit affiliate of the frontier AI lab. Jurors, however, found that any harms that Musk may have suffered came before the deadline for filing his claims under the law.\nWhile the trial delved deeply into the melodramatic history of OpenAI and featured testimony from leading figures in Silicon Valley, it ultimately turned on\nfairly narrow questions\nof the law. The trial focused on whether and when Altman and the other defendants had made and broken promises to Musk, but his case failed to convince jurors that he had a valid claim.\nIn particular, OpenAI had advanced\na statute of limitations defense\n, which sought to prove that any harms Musk sought to litigate had taken place before 2021. (The specific date varied by the charge: before August 5, 2021 for the first count; August 5, 2022, for the second count; and November 14, 2021, for the third count.) Ultimately, the jury found that argument persuasive, which made for a short deliberation period.\n“There was a substantial amount of evidence to support the jury’s finding, which is why I was prepared to dismiss on the spot,” Judge Yvonne Gonzalez Rogers said after the verdict was delivered.\nThe end of the case means that one major threat to OpenAI — a possible restructuring — is now off the table ahead of its reported IPO.\n“It did not take [the jury] two hours to conclude…that Mr. Musk’s lawsuit is nothing more than an after the fact contrivance that bears no relationship to reality,” OpenAI’s lead attorney, Bill Savitt, said after the verdict. “They kicked it exactly where it belongs—just to the side. This lawsuit is a hypocritical attempt to sabotage a competitor.”\nMicrosoft, which Musk sued for aiding and abetting OpenAI’s alleged breach of charitable trust, welcomed the verdict. A spokesperson for the company said it “remained committed to our work with OpenAI to advance and scale AI for people and organizations around the world.”\nThe verdict came in the middle of a hearing to determine the potential damages to Musk if the verdict had gone the other way. While that discussion is moot for now, the judge appeared unconvinced by the analogy Musk’s lawyers drew between his charitable contributions and investments in a for-profit startup.\n“Your analysis seems to be devoid of connection to the underlying facts,” she told Dr. C. Paul Wazzan, the expert who came up with Musk’s estimate of OpenAI and Microsoft’s wrongful gains at his expense—some $78.8 billion to $135 billion.\nReached for comment by TechCrunch, Musk’s lead counsel Marc Toberoff said, “One word: Appeal.”",
-    "content_source": "readability",
-    "content_chars": 2833,
-    "content_excerpt": "Elon Musk’s claim that he was mistreated by his OpenAI cofounders failed after nine California jurors returned a unanimous verdict that his lawsuits had been filed too late.\nMusk accused Sam Altman, Greg Brockman, OpenAI and Microsoft of “stealing a charity” by creating a for-profit affiliate of the frontier AI lab. Jurors, however, found that any harms that Musk may have suffered came before the deadline for filing his claims under the law.\nWhile the trial delved deeply into the melodramatic history of OpenAI and featured testimony from leading figures in Silicon Valley, it ultimately turned on\nfairly narrow questions\nof the law. The trial focused on whether and when Altman and the other defendants had made and broken promises to Musk, but his case failed to convince jurors that he had a valid claim.\nIn particular, OpenAI had advanced\na statute of limitations defense\n, which sought to prove that any harms Musk sought to litigate had taken place before 2021. (The specific date varied by the charge: before August 5, 2021 for the first count; August 5, 2022, for the second count; and November 14, 2021, for the third count.) Ultimately, the jury found that argument persuasive, which made for a short deliberation period.\n“There was a substantial amount of evidence to support the jury’s finding, which is why I was prepared to dismiss on the spot,” Judge Yvonne Gonzalez Rogers said after the verdict was delivered.\nThe end of the case means that one major threat to OpenAI — a possible restructuring — is now off the table ahead of its reported IPO.",
-    "title_zh": "埃隆·马斯克 (Elon Musk) 输掉了对萨姆·奥尔特曼 (Sam Altman) 和 OpenAI 的诉讼",
-    "summary_zh": "埃隆·马斯克 (Elon Musk) 声称自己受到 OpenAI 联合创始人虐待的说法失败了，因为九名加州陪审员一致裁定他的诉讼提起得太晚了",
-    "ai_summary": "埃隆·马斯克 (Elon Musk) 声称自己受到 OpenAI 联合创始人虐待的说法失败了，因为九名加州陪审员一致裁定…"
-  },
-  {
-    "id": "7734ecbd9e52",
-    "title": "Snowflake Observe：可观测性与 AI 数据云的融合 ｜ 技术趋势",
-    "url": "https://www.infoq.cn/article/saKOYsNT3R2lCY7UBSiR?utm_source=rss&utm_medium=article",
-    "source": "InfoQ AI",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-05-18T17:00:00",
-    "summary": "点击查看原文>",
-    "collected_at": "2026-05-18T09:45:59.609144",
-    "content_text": "2026 年，智能体将在企业级应用中取得哪些实质性突破？\n点击下载\n《2026 年 AI 与数据发展预测》白皮书，获悉专家一手前瞻，抢先拥抱新的工作方式！\n自\nObserve\n三个月前加入 Snowflake 以来，我们一直以加速的节奏推进工作，接入新用户并构建扩展观测访问的新功能。但 Observe 要解决的核心问题未曾改变。我们的使命依旧是实现大规模观测，这也是当今许多企业面临的挑战。\n为什么大规模观测是一个数据问题\n现代系统生成的遥测数据（包括日志、指标和追踪）的数量已超出传统方法的处理能力，领先企业每天需摄取数百 TB 数据。随着 AI 生成代码的普及和 AI Agent 的扩展，遥测数据的规模和复杂性只会不断增加。如果不解决这一问题，观测成本将变得无法承受，排障时间也会随之增加。\n遗留系统的问题在于其架构，具体表现为多方面：\n基于索引的系统开销高；\n存储与计算高度耦合 ；\n依赖高价存储 ；\n数据以专有格式孤立存放 。\n由于大规模观测本质上是一个数据问题，因此将观测解决方案与数据平台紧密集成具有最合理的架构意义。在 Observe，我们早期就决定基于 Snowflake 构建现代观测架构，利用其丰富功能，在不受传统架构成本与性能限制的情况下提供观测能力。\n什么是 Snowflake 的 Observe\nObserve 是一个 AI 驱动的观测平台，从设计之初就旨在支持大规模操作。它旨在解决遗留系统的不足，采用现代观测架构，包括 AI SRE、观测上下文图（Observability Context Graph）以及遥测湖仓（Telemetry Lakehouse Foundation）。其结果是以更低成本实现更快速的排障。\n可编程 AI SRE\nObserve 通过内置 AI SRE 提供 AI 驱动的观测，同时支持通过 MCP 或 CLI（即将推出）访问。SRE、开发人员、支持工程师及自动化 Agent 均可通过最适合其工作流程的界面访问和交互遥测数据。这种程序化访问使组织能够在观测数据之上构建自定义的 Agent 驱动工作流。\n为精确度而设计的上下文\n观测上下文图模型化了环境中的语义和关系，连接跨服务和基础设施的日志、指标和追踪，并扩展至业务和代码上下文。其结果是基于为观测结构化和策划的上下文，实现更快速、更准确的推理。\n成本效益的可扩展性\n遥测湖仓是 Observe 架构的支撑，提供低成本云存储和计算-存储分离，并继承 Snowflake 的核心特性，使 Observe 能以更低成本摄取、存储和分析 PB 级遥测数据。\nAI SRE Agent 需要观测上下文以提升效率\n上下文对于高效的 AI 驱动观测至关重要。当团队将 Agent 纳入运维工作流时，如果缺乏上下文，Agent 可能会出现查询超时、响应不可靠或 token 消耗高于预期的问题。访问正确的观测上下文后，Agent 的效率将大幅提升。Agent 能够解析歧义术语、遍历复杂关系并缩小搜索空间，从而以显著更低的成本返回更精确的结果。这正是 Observe 实践中支持 Agent 驱动工作流的基础。观测上下文图是驱动查询精确性、速度和成本效率的根本架构差异。\n实践中的应用\n一个具备上下文的 AI SRE Agent 如何加速排障流程？考虑一次事件调查，某服务开始返回错误且影响范围不明确。\n在典型工作流中，工程师可能会：\n从一个工具中提取 ID；\n在另一个工具中运行查询；\n导出数据进行关联；\n在系统间重复上述步骤。\n大量时间花费在确定查询范围上。\n使用上下文感知的 Agent 进行同样调查的流程可能如下：\nAgent 查询上下文图；\nAgent 识别受影响服务；\nAgent 遍历依赖关系；\nAgent 隔离变更事件；\nAgent 提取相关日志和追踪。\nAgent 返回的不是原始信号列表，而是一组针对“问题出在哪里以及如何修复”的精确结果。\n作为 Snowflake 一部分的观测扩展\n自加入 Snowflake 以来，我们观察到接触观测的人群正在发生变化。数据负责人开始关注遥测作为一级数据对象的价值，强烈希望将遥测与企业其他数据一起存储、治理和分析，而非孤立在工程工具中。\n同时，AI SRE、DevOps 和软件工程工作流的兴趣正在加速增长。这推动现有客户的扩展，使观测成为运营中更主动的一部分。我们还看到前瞻性团队跳过传统观测界面，在 Observe 的 MCP 服务器上直接构建自己的观测 Agent，直接基于存储在 Observe 中的数据和上下文操作。\n这一增长势头的重要原因在于降低了入门门槛。Snowflake 客户现在可以使用现有 Snowflake 积分，无限制地用于 Observe，使采用观测作为 Snowflake 数据平台一部分变得更加容易。\n开放数据与灵活访问\n我们正在两个方向扩展平台：原生 Agent 访问和使用开放格式的数据互操作性。目标是使遥测数据及其构建的上下文可从用户偏好的环境访问，并通过符合其工作方式的访问路径使用。\nObserve CLI：对观测上下文的程序化访问\n开发人员越来越多在 IDE、终端和编码 Agent 旁工作。观测必须融入这个流程。 我们将推出 CLI（即将发布），针对 Agent 驱动工作流设计，为开发者提供与遥测交互的另一途径，可能是最自然的选择。上下文感知对于 Agent 效率至关重要，Observe 将允许通过 CLI 执行任务的 Agent 查询上下文图。\nObserve CLI 将使用户和 Agent 能够基于可复用技能集操作观测数据和上下文——这些技能是针对常见任务（如事件调查、故障追踪或变更验证）构建的结构化工作流。一些工作流可在后台自主运行，另一些可交互调用。模型支持 Agent 处理例行任务，也支持工程师直接执行并指导更复杂调查，可能在如 Claude Code 的环境中操作。CLI 将成为系统控制界面，提供对 Observe 能力的细粒度程序化访问，使观测得以组合、自动化和长期扩展。\nApache Iceberg：开放访问所有遥测\n我们还展示了对\nApache Iceberg\n的读写支持进展。观测数据可以直接写入您自有数据湖的 Iceberg 表，存储在对象存储中，并通过 Observe UI、CLI 或 MCP 或任意兼容引擎访问。这意味着您拥有 Observe 摄取和处理的遥测数据，它与其他数据并存，受您控制，并可通过团队已使用的工具访问。\n整个组织的团队可在不提取或复制到独立系统的情况下，查询并组合遥测数据与其他数据。同时，工程团队仍可在同一数据上使用 Observe 原生观测工作流。在 Iceberg 表上运行的观测工作流性能与 Observe 原生数据相当。结果是提高了数据存储与治理的灵活性，以及访问和使用方式的灵活性。\n观测的未来\n我们一直认为观测是一个数据问题。随着 AI 增加系统复杂性和遥测数据量，这种压力加剧，考验底层数据平台的规模和经济性。\n团队在两个方面作出响应。首先，他们需要更高效的方式存储、处理和查询高容量遥测数据，而不会导致成本不可持续增长。其次，他们采用 AI 驱动工作流，以降低 MTTR（平均修复时间）并转向更主动的可靠性工程。\nObserve 正在构建以满足这些需求。Iceberg 的支持允许团队通过将遥测存储在低成本云存储的数据湖中管理成本，同时实现广泛访问，避免厂商锁定。Observe CLI 反映了观测消费方式的巨大转变，从精心策划、基于 UI 的体验转向通过 CLI 和 MCP 程序化访问，并支持像 Claude Code 和 ChatGPT 这样的工具。\n随着观测用户及其访问模式持续演变，对大规模遥测及上下文的需求保持不变。Observe 提供了这一基础，同时不断扩展客户存储、访问和使用数据的方式。\n了解更多\n观看由 Jeremy Burton 主持的 Snowflake Observe\n发布活动\n。\n前瞻性声明\n本文包含前瞻性声明，包括有关我们未来产品的内容，但并非产品交付承诺。实际结果和产品可能有所不同，并受已知及未知风险与不确定性影响。详见最新 10-Q 报告。\n原文地址：\nhttps://www.snowflake.com/en/blog/observe-by-snowflake-ai-observability-at-scale/\n点击链接立即报名注册：\nAscent - Snowflake Platform Training - China\n，\n更多 Snowflake 精彩活动请关注\n专区\n。",
-    "content_source": "readability",
-    "content_chars": 3559,
-    "content_excerpt": "2026 年，智能体将在企业级应用中取得哪些实质性突破？\n点击下载\n《2026 年 AI 与数据发展预测》白皮书，获悉专家一手前瞻，抢先拥抱新的工作方式！\n自\nObserve\n三个月前加入 Snowflake 以来，我们一直以加速的节奏推进工作，接入新用户并构建扩展观测访问的新功能。但 Observe 要解决的核心问题未曾改变。我们的使命依旧是实现大规模观测，这也是当今许多企业面临的挑战。\n为什么大规模观测是一个数据问题\n现代系统生成的遥测数据（包括日志、指标和追踪）的数量已超出传统方法的处理能力，领先企业每天需摄取数百 TB 数据。随着 AI 生成代码的普及和 AI Agent 的扩展，遥测数据的规模和复杂性只会不断增加。如果不解决这一问题，观测成本将变得无法承受，排障时间也会随之增加。\n遗留系统的问题在于其架构，具体表现为多方面：\n基于索引的系统开销高；"
-  },
-  {
     "id": "hn-48153379",
     "title": "I believe there are entire companies right now under AI psychosis",
     "url": "https://twitter.com/mitchellh/status/2055380239711457578",
@@ -4743,7 +4717,7 @@
     "published": "2026-05-15T20:26:47Z",
     "summary": "https:&#x2F;&#x2F;xcancel.com&#x2F;mitchellh&#x2F;status&#x2F;2055380239711457578https:&#x2F;&#x2F;hachyderm.io&#x2F;@mitchellh&#x2F;116580433508108130",
     "points": 2102,
-    "collected_at": "2026-05-24T08:21:59.934756"
+    "collected_at": "2026-05-24T13:06:56.929093"
   },
   {
     "id": "hn-48085821",
@@ -4754,7 +4728,7 @@
     "published": "2026-05-10T17:19:28Z",
     "summary": "Local AI needs to be the norm",
     "points": 1903,
-    "collected_at": "2026-05-24T08:21:59.934826"
+    "collected_at": "2026-05-24T13:06:56.929155"
   },
   {
     "id": "hn-48019219",
@@ -4765,7 +4739,7 @@
     "published": "2026-05-05T07:34:55Z",
     "summary": "Google Chrome silently installs a 4 GB AI model on your device without consent",
     "points": 1755,
-    "collected_at": "2026-05-24T08:21:59.934858"
+    "collected_at": "2026-05-24T13:06:56.929184"
   },
   {
     "id": "hn-47679121",
@@ -4776,7 +4750,7 @@
     "published": "2026-04-07T18:09:34Z",
     "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
     "points": 1541,
-    "collected_at": "2026-05-24T08:21:59.934948"
+    "collected_at": "2026-05-24T13:06:56.929277"
   },
   {
     "id": "hn-47363754",
@@ -4787,7 +4761,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-05-24T08:21:59.935057"
+    "collected_at": "2026-05-24T13:06:56.929375"
   },
   {
     "id": "hn-47340079",
@@ -4798,7 +4772,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-05-24T08:21:59.934642"
+    "collected_at": "2026-05-24T13:06:56.928987"
   },
   {
     "id": "hn-47225130",
@@ -4809,7 +4783,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-05-24T08:21:59.935105"
+    "collected_at": "2026-05-24T13:06:56.929418"
   },
   {
     "id": "hn-47136179",
@@ -4820,7 +4794,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-05-24T08:21:59.934781"
+    "collected_at": "2026-05-24T13:06:56.929116"
   },
   {
     "id": "hn-46990729",
@@ -4831,7 +4805,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-05-24T08:21:59.934721"
+    "collected_at": "2026-05-24T13:06:56.929061"
   },
   {
     "id": "hn-45941596",
@@ -4842,7 +4816,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-05-24T08:21:59.935118"
+    "collected_at": "2026-05-24T13:06:56.929430"
   },
   {
     "id": "hn-45930151",
@@ -4853,7 +4827,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-05-24T08:21:59.935164"
+    "collected_at": "2026-05-24T13:06:56.929472"
   },
   {
     "id": "hn-44972151",
@@ -4864,7 +4838,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-05-24T08:21:59.934887"
+    "collected_at": "2026-05-24T13:06:56.929210"
   },
   {
     "id": "hn-44396518",
@@ -4875,7 +4849,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-05-24T08:21:59.935022"
+    "collected_at": "2026-05-24T13:06:56.929344"
   },
   {
     "id": "hn-44314423",
@@ -4886,7 +4860,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-05-24T08:21:59.935071"
+    "collected_at": "2026-05-24T13:06:56.929388"
   },
   {
     "id": "hn-44163063",
@@ -4897,7 +4871,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-05-24T08:21:59.934695"
+    "collected_at": "2026-05-24T13:06:56.929036"
   },
   {
     "id": "hn-42910910",
@@ -4908,7 +4882,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-05-24T08:21:59.934901"
+    "collected_at": "2026-05-24T13:06:56.929222"
   },
   {
     "id": "hn-41392128",
@@ -4919,7 +4893,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-05-24T08:21:59.934797"
+    "collected_at": "2026-05-24T13:06:56.929130"
   },
   {
     "id": "hn-41386319",
@@ -4930,7 +4904,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-05-24T08:21:59.934812"
+    "collected_at": "2026-05-24T13:06:56.929143"
   },
   {
     "id": "hn-41069829",
@@ -4941,7 +4915,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-05-24T08:21:59.935179"
+    "collected_at": "2026-05-24T13:06:56.929485"
   },
   {
     "id": "hn-41046773",
@@ -4952,7 +4926,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-05-24T08:21:59.934680"
+    "collected_at": "2026-05-24T13:06:56.929023"
   },
   {
     "id": "hn-40767459",
@@ -4963,7 +4937,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-05-24T08:21:59.935194"
+    "collected_at": "2026-05-24T13:06:56.929499"
   },
   {
     "id": "hn-39918245",
@@ -4974,7 +4948,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-05-24T08:21:59.935133"
+    "collected_at": "2026-05-24T13:06:56.929443"
   },
   {
     "id": "hn-39526057",
@@ -4985,7 +4959,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-05-24T08:21:59.934665"
+    "collected_at": "2026-05-24T13:06:56.929008"
   },
   {
     "id": "hn-38544729",
@@ -4996,7 +4970,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-05-24T08:21:59.934734"
+    "collected_at": "2026-05-24T13:06:56.929072"
   },
   {
     "id": "hn-37021160",
@@ -5007,7 +4981,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-05-24T08:21:59.934916"
+    "collected_at": "2026-05-24T13:06:56.929236"
   },
   {
     "id": "hn-31812259",
@@ -5018,7 +4992,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-05-24T08:21:59.935085"
+    "collected_at": "2026-05-24T13:06:56.929401"
   },
   {
     "id": "hn-18249755",
@@ -5029,7 +5003,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-05-24T08:21:59.934870"
+    "collected_at": "2026-05-24T13:06:56.929195"
   },
   {
     "id": "hn-17022963",
@@ -5040,7 +5014,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-05-24T08:21:59.934842"
+    "collected_at": "2026-05-24T13:06:56.929170"
   },
   {
     "id": "hn-15892066",
@@ -5051,7 +5025,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-05-24T08:21:59.935043"
+    "collected_at": "2026-05-24T13:06:56.929363"
   },
   {
     "id": "hn-6830566",
@@ -5062,6 +5036,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-05-24T08:21:59.935146"
+    "collected_at": "2026-05-24T13:06:56.929455"
   }
 ]

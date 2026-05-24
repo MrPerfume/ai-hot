@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://isaiprofitable.com/ 评论网址：https://
 summary = "Article URL: https://isaiprofitable.com/ Comments URL: https://news.ycombinator.com/item?id=48243863 Points: 223 # Comments: 173"
 summary_zh = "文章网址：https://isaiprofitable.com/ 评论网址：https://news.ycombinator.com/item?id=48243863 积分：223 # 评论：173"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

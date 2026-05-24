@@ -20,7 +20,7 @@ ai_summary = "批评人士指出，美国参议院候选人提起的诉讼缺乏
 summary = "Critics note a lack of factual support in lawsuit filed by US Senate candidate."
 summary_zh = "批评人士指出，美国参议院候选人提起的诉讼缺乏事实支持"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
