@@ -17,6 +17,11 @@ HOT = ROOT / 'data' / 'hot.json'
 BRIEFING = ROOT / 'data' / 'briefing.json'
 RISING = ROOT / 'data' / 'rising.json'
 META = ROOT / 'data' / 'meta.json'
+DAILY = ROOT / 'data' / 'daily.json'
+TOOLS = ROOT / 'data' / 'tools.json'
+MODELS = ROOT / 'data' / 'models.json'
+AGENTS = ROOT / 'data' / 'agents.json'
+NEWS = ROOT / 'data' / 'news.json'
 
 
 def _clean_hot_summary(item):
@@ -38,9 +43,23 @@ def _site_link(path=''):
     return build_site_url(path)
 
 
+def _json_count(path):
+    if not path.exists():
+        return 0
+    data = json.loads(path.read_text(encoding='utf-8'))
+    if isinstance(data, list):
+        return len(data)
+    if isinstance(data, dict):
+        value = data.get('items') or data.get('top_20') or data.get('hot_list') or []
+        return len(value)
+    return 0
+
+
 def _item_link(item, fallback='/'):
     if item.get('type') == 'news' and item.get('news_id'):
         return _site_link(f"/news/{item.get('news_id')}/")
+    if item.get('type') == 'tool' and item.get('id'):
+        return _site_link(f"/tools/{item.get('id')}/")
     internal_url = str(item.get('internal_url') or '').strip()
     if internal_url:
         parsed = urlparse(internal_url)
@@ -68,6 +87,20 @@ def update_readme_links():
     text = text.replace('https://example.github.io/ai-hot', site_url())
     text = re.sub(r'更新频率-[^)\s]+-blue', '更新频率-每天08%3A30-blue', text)
     text = text.replace('每6小时', '每天 08:30')
+    counts = {
+        'tools': _json_count(TOOLS),
+        'models': _json_count(MODELS),
+        'agents': _json_count(AGENTS),
+        'news': _json_count(NEWS),
+    }
+    text = re.sub(r'工具-\d+-orange', f'工具-{counts["tools"]}-orange', text)
+    text = re.sub(r'模型-\d+-lightgrey', f'模型-{counts["models"]}-lightgrey', text)
+    text = re.sub(r'Agent-\d+-purple', f'Agent-{counts["agents"]}-purple', text)
+    text = re.sub(r'新闻-\d+-red', f'新闻-{counts["news"]}-red', text)
+    text = re.sub(r'AI工具（\d+）', f'AI工具（{counts["tools"]}）', text)
+    text = re.sub(r'AI模型（\d+）', f'AI模型（{counts["models"]}）', text)
+    text = re.sub(r'AI Agent（\d+）', f'AI Agent（{counts["agents"]}）', text)
+    text = re.sub(r'AI新闻（\d+）', f'AI新闻（{counts["news"]}）', text)
     hot = json.loads(HOT.read_text(encoding='utf-8'))
     briefing = json.loads(BRIEFING.read_text(encoding='utf-8')) if BRIEFING.exists() else {}
     rising = json.loads(RISING.read_text(encoding='utf-8')) if RISING.exists() else {}
@@ -100,6 +133,19 @@ def update_readme_links():
     briefing_block = f'''## 🤖 AI 简报\n\n> {emoji} {summary}\n\n`基于 {news_count} 条新闻 · {date}`\n\n👉 [打开最新 HTML 日报 →]({_site_link('/reports/latest.html')}) · [看完整 AI 新闻 →]({_site_link('/news/')})'''
 
     text = _upsert_section(text, '## 🤖 AI 简报', briefing_block)
+
+    daily = json.loads(DAILY.read_text(encoding='utf-8')) if DAILY.exists() else {}
+    spotlight = daily.get('spotlight') or {}
+    if spotlight:
+        spotlight_link = _item_link(spotlight, '/tools/')
+        spotlight_block = f'''## ⭐ 今日精选
+
+**[{spotlight.get('name', '今日精选')}]({spotlight_link})**
+- {spotlight.get('description', '今天值得先看的 AI 项目')}
+- `{spotlight.get('pricing', '查看详情')}`
+
+👉 [去网站直接体验更多精选工具 →]({_site_link('/tools/')})'''
+        text = _upsert_section(text, '## ⭐ 今日精选', spotlight_block)
 
     rising_items = rising.get('items') or []
     rising_lines = []

@@ -4,7 +4,7 @@
 
 ## 项目定位
 
-- 项目用途：基于 `laolaoshiren/ai-hot` fork，每天生成 AI 热点 HTML 日报并发布到 GitHub Pages。
+- 项目用途：基于 `laolaoshiren/ai-hot` fork，每天用轻量采集链生成 AI 热点 HTML 日报并发布到 GitHub Pages。
 - 目标用户：个人每日浏览 AI 新闻、模型、工具和 Agent 动态。
 - 当前阶段：轻量自动化日报，不接入 SignalForge。
 - 成功标准：GitHub Actions 每天北京时间 08:30 生成并发布 `/reports/latest.html` 和每日归档。
@@ -16,12 +16,15 @@
 - 不恢复根目录 `CNAME`，不写死 `aihot.bt199.com` 作为站点发布域名。
 - 日报页面放在 `site/static/reports/`，必须是可独立访问的自包含 HTML。
 - 自动化流程先跑数据聚合、测试和质量门禁，再生成日报。
+- 每日任务使用 `scripts/light_daily_aggregate.py`，不再依赖上游仓库或源站是否更新。
+- 轻量链只抓公开 RSS/API，不使用登录态、Cookie 或私有账号。
 - 定时任务是 GitHub Actions cron，`30 0 * * *` 对应北京时间 08:30；允许平台有几分钟延迟。
 
 ## 常用命令
 
 ```bash
 python -m unittest discover -s tests -p 'test_*.py'
+python scripts/light_daily_aggregate.py
 python scripts/generate_daily_report_html.py
 python scripts/quality_gate.py
 ```
