@@ -78,14 +78,23 @@
                 {{ $hotTarget = "_self" }}
                 {{ $hotRel = "" }}
             {{ end }}
+            {{ $displayTitle := $item.title | default "" }}
+            {{ with $item.title_zh }}{{ $displayTitle = . }}{{ end }}
+            {{ $titleEn := $item.title_en | default $item.title | default "" }}
+            {{ $summaryZh := or $item.ai_summary $item.summary_zh $matchedNews.ai_summary $matchedNews.summary_zh $item.subtitle $matchedNews.summary }}
+            {{ $summaryEn := or $item.summary_en $item.summary $matchedNews.summary_en $matchedNews.summary }}
             <a href="{{ $hotHref }}"{{ if $hotTarget }} target="{{ $hotTarget }}"{{ end }}{{ if $hotRel }} rel="{{ $hotRel }}"{{ end }} class="hot-item" style="text-decoration:none;color:inherit">
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
-                    <div class="hot-title">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</div>
-                    {{ if or $item.ai_summary (and $matchedNews.id (or $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary)) }}
-                    <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.6">⚡ {{ or $item.ai_summary $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary }}</div>
-                    {{ else if $item.subtitle }}
-                    <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.5">{{ $item.subtitle }}</div>
+                    <div class="hot-title">{{ $displayTitle }}</div>
+                    {{ if and $titleEn (ne (lower $titleEn) (lower $displayTitle)) }}
+                    <div class="hot-meta" style="color:var(--text3);margin-top:3px;line-height:1.5">English: {{ $titleEn }}</div>
+                    {{ end }}
+                    {{ if $summaryZh }}
+                    <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.6">⚡ {{ $summaryZh }}</div>
+                    {{ end }}
+                    {{ if and $summaryEn $summaryZh (ne (lower $summaryEn) (lower $summaryZh)) }}
+                    <div class="hot-meta" style="color:var(--text3);margin-top:3px;line-height:1.5">EN summary: {{ $summaryEn }}</div>
                     {{ end }}
                     <div class="hot-meta" style="margin-top:6px">
                         {{ with $item.source }}<span class="hot-badge">{{ . }}</span>{{ end }}
@@ -113,23 +122,28 @@
                 {{ $mustReadSource := or (eq .source "机器之心") (eq .source "量子位") (eq .source "新智元") (eq .source "TechCrunch AI") (eq .source "The Verge AI") (eq .source "MIT Tech Review") (eq .source "VentureBeat AI") (eq .source "InfoQ AI") }}
                 {{ $noise := or (in $title "大会") (in $title "开幕") (in $title "峰会") (in $title "论坛") (in $title "学者") (in $title "实习生") (in $title "招聘") (in $title "品牌") (in $title "发布会") (in $summary "大会") (in $summary "峰会") (in $summary "论坛") (in $summary "学者") (in $summary "实习生") (in $summary "招聘") }}
                 {{ if and (lt $count 8) $mustReadSource (not $noise) }}
+                {{ $newsDisplayTitle := .title | default "" }}
+                {{ with .title_zh }}{{ $newsDisplayTitle = . }}{{ end }}
+                {{ $newsTitleEn := .title_en | default .title | default "" }}
+                {{ $newsSummaryZh := or .ai_summary .summary_zh }}
+                {{ $newsSummaryEn := or .summary_en .summary }}
                 <div class="hot-item">
                     <div class="hot-content">
                         <div class="hot-title">
-                            <a href="{{ relURL "/news/" }}{{ .id }}/">{{ with .title_zh }}{{ . }}{{ else }}{{ .title }}{{ end }}</a>
+                            <a href="{{ relURL "/news/" }}{{ .id }}/">{{ $newsDisplayTitle }}</a>
                         </div>
+                        {{ if and $newsTitleEn (ne (lower $newsTitleEn) (lower $newsDisplayTitle)) }}
+                        <div class="hot-meta" style="color:var(--text3);margin-top:2px">English: {{ $newsTitleEn }}</div>
+                        {{ end }}
                         <div class="hot-meta">
                             {{ .source }}
                             {{ with .published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}
                         </div>
-                        {{ if .ai_summary }}
-                            {{ if gt (len .ai_summary) 50 }}
-                            <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
-                            {{ else if .summary }}
-                            <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
-                            {{ end }}
-                        {{ else if .summary }}
-                        <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
+                        {{ if $newsSummaryZh }}
+                        <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ $newsSummaryZh }}</div>
+                        {{ end }}
+                        {{ if and $newsSummaryEn $newsSummaryZh (ne (lower $newsSummaryEn) (lower $newsSummaryZh)) }}
+                        <div class="hot-meta" style="color:var(--text3);margin-top:2px">EN summary: {{ $newsSummaryEn | truncate 160 "..." }}</div>
                         {{ end }}
                     </div>
                 </div>
