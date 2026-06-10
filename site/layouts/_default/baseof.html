@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ partial "seo.html" . }}
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "favicon.png" | relURL }}">
     <style>
         :root {
             --bg: #0d1117; --bg2: #161b22; --bg3: #21262d;
@@ -275,7 +275,7 @@
     <header>
         <div class="container header-inner">
             <div>
-                <div class="logo"><img src="/logos/logo.png" alt="AI热榜"> AI热榜 <span>每天 08:30 更新</span></div>
+                <div class="logo"><img src="{{ "logos/logo.png" | relURL }}" alt="AI热榜"> AI热榜 <span>每天 08:30 更新</span></div>
             </div>
             <nav>
                 {{ range .Site.Menus.main }}
