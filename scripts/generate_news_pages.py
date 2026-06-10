@@ -125,13 +125,15 @@ def build_page(item, list_page=1):
     news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
     slug = item.get('slug') or news_id
     title = item.get('title') or slug
-    title_zh = clean_title_zh(item.get('title_zh') or title, title)
+    title_en = item.get('title_en') or title
+    title_zh = clean_title_zh(item.get('title_zh') or title, title_en)
     source = item.get('source', '')
     published = item.get('published', '')
     url = item.get('url', '')
     ai_summary = clean_summary(item.get('ai_summary') or '')
     summary_zh = clean_summary(item.get('summary_zh') or '')
     summary = clean_summary(item.get('summary') or '')
+    summary_en = clean_summary(item.get('summary_en') or summary)
     lang = item.get('lang', '')
     if str(lang).lower() == 'en' and looks_bad_en_summary(ai_summary):
         ai_summary = ''
@@ -140,15 +142,12 @@ def build_page(item, list_page=1):
     seo_title = single_line(f'{title_zh}｜AI资讯解读 - AI热榜')
     seo_description = single_line(intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。')
 
-    raw_body = item.get('rewrite_body') or item.get('article_body') or item.get('content_rewrite') or item.get('content_excerpt') or item.get('content_text') or ''
-    raw_body = str(raw_body or '').replace('\r', '\n')
-    raw_body = re.sub(r'\n{3,}', '\n\n', raw_body).strip()
-    if not raw_body:
-        raw_body = intro
-
-    if '\n\n' not in raw_body:
-        raw_body = raw_body.replace('。', '。\n\n').replace('！', '！\n\n').replace('？', '？\n\n').replace('. ', '.\n\n')
-        raw_body = re.sub(r'\n{3,}', '\n\n', raw_body).strip()
+    body_parts = ['## 中文速读', '', intro]
+    if title_en and title_en.strip().lower() != title_zh.strip().lower():
+        body_parts.extend(['', '## English Original', '', f'**Title:** {title_en}'])
+        if summary_en and summary_en.strip().lower() != intro.strip().lower():
+            body_parts.extend(['', summary_en])
+    raw_body = '\n'.join(body_parts).strip()
 
     lines = [
         '+++',
@@ -163,7 +162,7 @@ def build_page(item, list_page=1):
         '[params]',
         f'id = "{esc(news_id)}"',
         f'name = "{esc(title_zh)}"',
-        f'title_en = "{esc(title)}"',
+        f'title_en = "{esc(title_en)}"',
         f'original_url = "{esc(url)}"',
         f'source = "{esc(source)}"',
         f'published = "{esc(published)}"',
@@ -172,6 +171,7 @@ def build_page(item, list_page=1):
         f'ai_summary = "{esc(ai_summary)}"',
         f'summary = "{esc(summary)}"',
         f'summary_zh = "{esc(summary_zh)}"',
+        f'summary_en = "{esc(summary_en)}"',
         f'tags = {toml_array(tags)}',
         f'list_page = {int(list_page)}',
         '+++',

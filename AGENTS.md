@@ -15,6 +15,7 @@
 - GitHub Pages 使用默认域名：`https://<owner>.github.io/<repo>/`。
 - 不恢复根目录 `CNAME`，不写死 `aihot.bt199.com` 作为站点发布域名。
 - 日报页面放在 `site/static/reports/`，必须是可独立访问的自包含 HTML。
+- 日报和热点新闻默认使用中英对照：中文标题/速读在前，英文原题/摘要保留在后。
 - 自动化流程先跑数据聚合、测试和质量门禁，再生成日报。
 - 每日任务使用 `scripts/light_daily_aggregate.py`，不再依赖上游仓库或源站是否更新。
 - 轻量链只抓公开 RSS/API，不使用登录态、Cookie 或私有账号。

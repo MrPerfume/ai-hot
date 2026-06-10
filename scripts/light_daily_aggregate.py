@@ -14,6 +14,7 @@ import math
 import os
 import re
 import shutil
+import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -39,6 +40,10 @@ SH_TZ = ZoneInfo("Asia/Shanghai")
 USER_AGENT = "MrPerfume-ai-hot-daily/1.0 (+https://github.com/MrPerfume/ai-hot)"
 NEWS_LOOKBACK_DAYS = int(os.environ.get("AI_HOT_NEWS_LOOKBACK_DAYS", "10"))
 MODEL_LOOKBACK_DAYS = int(os.environ.get("AI_HOT_MODEL_LOOKBACK_DAYS", "10"))
+TRANSLATE_ENABLED = os.environ.get("AI_HOT_TRANSLATE", "1").strip() != "0"
+TRANSLATE_LIMIT = int(os.environ.get("AI_HOT_TRANSLATE_LIMIT", "20"))
+TRANSLATE_SLEEP_SECONDS = float(os.environ.get("AI_HOT_TRANSLATE_SLEEP_SECONDS", "0.2"))
+TRANSLATION_CACHE = DATA / "translation_cache.json"
 
 RSS_SOURCES = [
     {"name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "lang": "en", "priority": 10},
@@ -148,6 +153,10 @@ def clean_text(value: Any, limit: int = 500) -> str:
     return text
 
 
+def has_zh(text: Any) -> bool:
+    return any("\u4e00" <= ch <= "\u9fff" for ch in str(text or ""))
+
+
 def stable_id(url: str, prefix: str = "") -> str:
     digest = hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
     return f"{prefix}{digest}" if prefix else digest
@@ -211,18 +220,110 @@ def is_ai_related(title: str, summary: str) -> bool:
 
 def title_for_reader(title: str, source: str, lang: str) -> str:
     title = clean_text(title, 120)
-    if lang == "zh" or any("\u4e00" <= ch <= "\u9fff" for ch in title):
+    if lang == "zh" or has_zh(title):
         return title
     return title
 
 
+def fallback_zh_title(title: str) -> str:
+    return clean_text(f"AI 动态：{title}", 120)
+
+
+def fallback_zh_summary(title: str, source: str) -> str:
+    return clean_text(f"中文速读：这条来自 {source} 的 AI 动态关注「{title}」。建议结合英文原文查看具体细节。", 220)
+
+
 def summary_for_reader(title: str, summary: str, source: str, lang: str) -> str:
     summary = clean_text(summary, 220)
-    if lang == "zh" or any("\u4e00" <= ch <= "\u9fff" for ch in summary):
+    if lang == "zh" or has_zh(summary):
         return summary or title
-    if summary:
-        return f"来自 {source}：{summary}"
-    return f"来自 {source}：{title}"
+    return fallback_zh_summary(title, source)
+
+
+def translation_key(text: str) -> str:
+    return hashlib.sha1(f"en|zh-CN|{text}".encode("utf-8")).hexdigest()
+
+
+def translate_en_to_zh(text: str, cache: dict[str, str]) -> str:
+    text = clean_text(text, 420)
+    if not text:
+        return ""
+    if has_zh(text):
+        return text
+    if not TRANSLATE_ENABLED:
+        return ""
+    key = translation_key(text)
+    if cache.get(key):
+        return cache[key]
+    try:
+        response = requests.get(
+            "https://api.mymemory.translated.net/get",
+            params={"q": text, "langpair": "en|zh-CN"},
+            headers={"User-Agent": USER_AGENT},
+            timeout=20,
+        )
+        response.raise_for_status()
+        data = response.json()
+        translated = clean_text((data.get("responseData") or {}).get("translatedText"), 420)
+        if translated and has_zh(translated) and translated.lower() != text.lower():
+            cache[key] = translated
+            if TRANSLATE_SLEEP_SECONDS > 0:
+                time.sleep(TRANSLATE_SLEEP_SECONDS)
+            return translated
+    except Exception as exc:
+        print(f"  ⚠️ translate failed: {exc}")
+    return ""
+
+
+def bilingualize_news(news: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    cache = read_json(TRANSLATION_CACHE, {})
+    if not isinstance(cache, dict):
+        cache = {}
+    translated_count = 0
+    changed_cache = False
+
+    for index, item in enumerate(news):
+        title = clean_text(item.get("title"), 160)
+        summary = clean_text(item.get("summary"), 260)
+        source = str(item.get("source") or "公开来源")
+        lang = str(item.get("lang") or "").lower()
+        item["title_en"] = title
+        item["summary_en"] = summary
+
+        if lang == "zh" or has_zh(title):
+            item["title_zh"] = item.get("title_zh") or title
+        elif index < TRANSLATE_LIMIT:
+            before = len(cache)
+            translated = translate_en_to_zh(title, cache)
+            changed_cache = changed_cache or len(cache) != before
+            if translated:
+                item["title_zh"] = translated
+                translated_count += 1
+            else:
+                item["title_zh"] = fallback_zh_title(title)
+        else:
+            item["title_zh"] = fallback_zh_title(title)
+
+        if lang == "zh" or has_zh(summary):
+            item["summary_zh"] = item.get("summary_zh") or summary or item["title_zh"]
+        elif index < TRANSLATE_LIMIT and summary:
+            before = len(cache)
+            translated = translate_en_to_zh(summary, cache)
+            changed_cache = changed_cache or len(cache) != before
+            if translated:
+                item["summary_zh"] = translated
+                translated_count += 1
+            else:
+                item["summary_zh"] = fallback_zh_summary(title, source)
+        else:
+            item["summary_zh"] = fallback_zh_summary(title, source)
+
+        item["ai_summary"] = item["summary_zh"]
+        item["bilingual"] = True
+
+    if changed_cache:
+        write_json(TRANSLATION_CACHE, cache)
+    return news, translated_count
 
 
 def source_counts(items: list[dict[str, Any]]) -> dict[str, int]:
@@ -259,6 +360,7 @@ def collect_rss_news() -> list[dict[str, Any]]:
                 items.append({
                     "id": item_id,
                     "title": title,
+                    "title_en": title,
                     "title_zh": title_zh,
                     "url": url,
                     "source": source["name"],
@@ -266,6 +368,7 @@ def collect_rss_news() -> list[dict[str, Any]]:
                     "priority": source["priority"],
                     "published": published,
                     "summary": summary,
+                    "summary_en": summary,
                     "summary_zh": summary_zh,
                     "ai_summary": summary_zh,
                     "collected_at": now_sh().isoformat(timespec="seconds"),
@@ -303,6 +406,7 @@ def collect_hn_news() -> list[dict[str, Any]]:
             items.append({
                 "id": f"hn-{hit.get('objectID')}",
                 "title": title,
+                "title_en": title,
                 "title_zh": title,
                 "url": url,
                 "source": "Hacker News",
@@ -310,6 +414,7 @@ def collect_hn_news() -> list[dict[str, Any]]:
                 "priority": min(8, 3 + points // 80),
                 "published": published,
                 "summary": summary,
+                "summary_en": summary,
                 "summary_zh": summary,
                 "ai_summary": summary,
                 "points": points,
@@ -344,6 +449,7 @@ def hot_from_news(news: list[dict[str, Any]]) -> dict[str, Any]:
         news_id = item.get("id")
         hot_items.append({
             "title": item.get("title"),
+            "title_en": item.get("title_en") or item.get("title"),
             "name": item.get("title_zh") or item.get("title"),
             "title_zh": item.get("title_zh") or item.get("title"),
             "url": item.get("url"),
@@ -355,6 +461,9 @@ def hot_from_news(news: list[dict[str, Any]]) -> dict[str, Any]:
             "description": item.get("ai_summary") or item.get("summary_zh") or item.get("summary"),
             "subtitle": item.get("ai_summary") or item.get("summary_zh") or item.get("summary"),
             "ai_summary": item.get("ai_summary") or item.get("summary_zh") or item.get("summary"),
+            "summary": item.get("summary"),
+            "summary_en": item.get("summary_en") or item.get("summary"),
+            "summary_zh": item.get("summary_zh") or item.get("ai_summary"),
             "category": "资讯",
             "news_id": news_id,
             "internal_url": build_site_url(f"/news/{news_id}/") if news_id else "",
@@ -555,6 +664,8 @@ def sync_site_data() -> str:
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     count = 0
     for path in DATA.glob("*.json"):
+        if path.name == "translation_cache.json":
+            continue
         shutil.copy2(path, SITE_DATA / path.name)
         count += 1
     return f"同步 {count} 个 JSON 到 site/data"
@@ -604,6 +715,8 @@ def main() -> int:
     news = dedupe_news(rss_news + hn_news)
     if len(news) < 5:
         raise SystemExit(f"采集到的新闻过少：{len(news)}")
+    news, translated_count = bilingualize_news(news)
+    results["双语增强"] = f"✅ {translated_count} 段翻译"
     write_json(DATA / "news.json", news)
     results["写入新闻"] = f"✅ {len(news)} 条"
 

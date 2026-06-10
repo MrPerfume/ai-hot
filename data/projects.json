@@ -5,11 +5,11 @@
     "display_name": "ECC",
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 211912,
+    "stars": 211921,
     "language": "JavaScript",
     "created_at": "2026-01-18T00:51:51Z",
-    "updated_at": "2026-06-10T01:32:37Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "updated_at": "2026-06-10T01:41:48Z",
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-1024554267",
@@ -17,11 +17,11 @@
     "display_name": "hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 188858,
+    "stars": 188865,
     "language": "Python",
     "created_at": "2025-07-22T22:22:28Z",
-    "updated_at": "2026-06-10T01:32:10Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:42:22Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-614765452",
@@ -33,7 +33,7 @@
     "language": "Python",
     "created_at": "2023-03-16T09:21:07Z",
     "updated_at": "2026-06-10T01:09:39Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-658928958",
@@ -45,7 +45,7 @@
     "language": "Go",
     "created_at": "2023-06-26T19:39:32Z",
     "updated_at": "2026-06-10T01:23:05Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-574523116",
@@ -53,11 +53,11 @@
     "display_name": "prompts.chat",
     "url": "https://github.com/f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 163476,
+    "stars": 163477,
     "language": "HTML",
     "created_at": "2022-12-05T13:54:13Z",
-    "updated_at": "2026-06-10T01:23:37Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "updated_at": "2026-06-10T01:36:48Z",
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-155220641",
@@ -69,7 +69,7 @@
     "language": "Python",
     "created_at": "2018-10-29T13:56:00Z",
     "updated_at": "2026-06-10T01:14:55Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-132464395",
@@ -77,11 +77,11 @@
     "display_name": "JavaGuide",
     "url": "https://github.com/Snailclimb/JavaGuide",
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 156254,
+    "stars": 156255,
     "language": "JavaScript",
     "created_at": "2018-05-07T13:27:00Z",
-    "updated_at": "2026-06-10T01:15:19Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:40:31Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-599320067",
@@ -93,7 +93,7 @@
     "language": "Python",
     "created_at": "2023-02-08T22:28:03Z",
     "updated_at": "2026-06-10T01:31:02Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-626805178",
@@ -101,11 +101,11 @@
     "display_name": "dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 144591,
+    "stars": 144593,
     "language": "TypeScript",
     "created_at": "2023-04-12T07:40:24Z",
-    "updated_at": "2026-06-10T01:30:21Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:42:22Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-701547123",
@@ -113,11 +113,11 @@
     "display_name": "open-webui",
     "url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 140864,
+    "stars": 140865,
     "language": "Python",
     "created_at": "2023-10-06T22:08:27Z",
-    "updated_at": "2026-06-10T01:20:42Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "updated_at": "2026-06-10T01:41:49Z",
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-943398999",
@@ -125,11 +125,11 @@
     "display_name": "system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev…",
-    "stars": 139174,
+    "stars": 139181,
     "language": "",
     "created_at": "2025-03-05T16:38:29Z",
-    "updated_at": "2026-06-10T01:30:14Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:41:55Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-552661142",
@@ -141,7 +141,7 @@
     "language": "Python",
     "created_at": "2022-10-17T02:58:36Z",
     "updated_at": "2026-06-10T01:18:27Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-787076358",
@@ -149,11 +149,11 @@
     "display_name": "firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 130756,
+    "stars": 130757,
     "language": "TypeScript",
     "created_at": "2024-04-15T21:02:29Z",
-    "updated_at": "2026-06-10T01:28:33Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "updated_at": "2026-06-10T01:39:43Z",
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-612354784",
@@ -161,11 +161,11 @@
     "display_name": "llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
-    "stars": 115809,
+    "stars": 115811,
     "language": "C++",
     "created_at": "2023-03-10T18:58:00Z",
-    "updated_at": "2026-06-10T01:30:53Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "updated_at": "2026-06-10T01:39:29Z",
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-793375104",
@@ -177,7 +177,7 @@
     "language": "Python",
     "created_at": "2024-04-29T05:30:25Z",
     "updated_at": "2026-06-10T01:27:25Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-1075372545",
@@ -185,11 +185,11 @@
     "display_name": "agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with pers…",
-    "stars": 108919,
+    "stars": 108925,
     "language": "Shell",
     "created_at": "2025-10-13T12:12:29Z",
-    "updated_at": "2026-06-10T01:31:14Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:42:20Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-968197216",
@@ -201,7 +201,7 @@
     "language": "TypeScript",
     "created_at": "2025-04-17T17:04:31Z",
     "updated_at": "2026-06-10T01:05:52Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-881458615",
@@ -209,11 +209,11 @@
     "display_name": "browser-use",
     "url": "https://github.com/browser-use/browser-use",
     "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "stars": 97983,
+    "stars": 97986,
     "language": "Python",
     "created_at": "2024-10-31T16:00:56Z",
-    "updated_at": "2026-06-10T01:25:12Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:38:37Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-669879380",
@@ -225,7 +225,7 @@
     "language": "Jupyter Notebook",
     "created_at": "2023-07-23T18:15:57Z",
     "updated_at": "2026-06-10T01:30:53Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-695864515",
@@ -237,7 +237,7 @@
     "language": "Python",
     "created_at": "2023-09-24T13:19:31Z",
     "updated_at": "2026-06-10T01:19:52Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-909213664",
@@ -248,8 +248,8 @@
     "stars": 84798,
     "language": "Python",
     "created_at": "2024-12-28T03:31:08Z",
-    "updated_at": "2026-06-10T01:32:08Z",
-    "collected_at": "2026-06-10T09:32:43+08:00"
+    "updated_at": "2026-06-10T01:36:33Z",
+    "collected_at": "2026-06-10T09:42:46+08:00"
   },
   {
     "id": "github-730534580",
@@ -261,7 +261,7 @@
     "language": "Python",
     "created_at": "2023-12-12T06:13:13Z",
     "updated_at": "2026-06-10T01:31:42Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-1048065319",
@@ -272,8 +272,8 @@
     "stars": 81487,
     "language": "JavaScript",
     "created_at": "2025-08-31T20:50:03Z",
-    "updated_at": "2026-06-10T01:13:09Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "updated_at": "2026-06-10T01:39:11Z",
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-643445235",
@@ -281,11 +281,11 @@
     "display_name": "lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-    "stars": 78429,
+    "stars": 78430,
     "language": "TypeScript",
     "created_at": "2023-05-21T07:19:12Z",
-    "updated_at": "2026-06-10T01:30:30Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "updated_at": "2026-06-10T01:37:53Z",
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-771302083",
@@ -297,7 +297,7 @@
     "language": "Python",
     "created_at": "2024-03-13T03:33:31Z",
     "updated_at": "2026-06-10T01:29:25Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-107111421",
@@ -309,7 +309,7 @@
     "language": "MDX",
     "created_at": "2017-10-16T10:12:36Z",
     "updated_at": "2026-06-10T00:20:42Z",
-    "collected_at": "2026-06-10T09:32:41+08:00"
+    "collected_at": "2026-06-10T09:42:43+08:00"
   },
   {
     "id": "github-621803253",
@@ -321,7 +321,7 @@
     "language": "TypeScript",
     "created_at": "2023-03-31T12:23:09Z",
     "updated_at": "2026-06-10T01:03:31Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-834369920",
@@ -329,11 +329,11 @@
     "display_name": "minimind",
     "url": "https://github.com/jingyaogong/minimind",
     "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
-    "stars": 51442,
+    "stars": 51441,
     "language": "Python",
     "created_at": "2024-07-27T04:34:12Z",
-    "updated_at": "2026-06-10T01:27:07Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "updated_at": "2026-06-10T01:32:55Z",
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-26783295",
@@ -345,7 +345,7 @@
     "language": "Lua",
     "created_at": "2014-11-17T23:56:08Z",
     "updated_at": "2026-06-09T23:55:05Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-21467110",
@@ -357,7 +357,7 @@
     "language": "Python",
     "created_at": "2014-07-03T15:15:40Z",
     "updated_at": "2026-06-09T07:08:25Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-178626720",
@@ -369,7 +369,7 @@
     "language": "Python",
     "created_at": "2019-03-31T00:45:57Z",
     "updated_at": "2026-06-09T18:44:17Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-837911756",
@@ -381,7 +381,7 @@
     "language": "Python",
     "created_at": "2024-08-04T12:15:06Z",
     "updated_at": "2026-06-09T23:29:30Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-912559512",
@@ -393,7 +393,7 @@
     "language": "TypeScript",
     "created_at": "2025-01-05T22:47:49Z",
     "updated_at": "2026-06-09T23:58:37Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-607289185",
@@ -405,7 +405,7 @@
     "language": "C#",
     "created_at": "2023-02-27T17:39:42Z",
     "updated_at": "2026-06-09T23:57:45Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   },
   {
     "id": "github-525592995",
@@ -417,6 +417,6 @@
     "language": "TypeScript",
     "created_at": "2022-08-17T01:04:27Z",
     "updated_at": "2026-06-10T01:03:32Z",
-    "collected_at": "2026-06-10T09:32:39+08:00"
+    "collected_at": "2026-06-10T09:42:42+08:00"
   }
 ]

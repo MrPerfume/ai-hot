@@ -76,6 +76,14 @@ def pick_summary(item: dict[str, Any]) -> str:
     )
 
 
+def pick_title_en(item: dict[str, Any]) -> str:
+    return squash(item.get("title_en") or item.get("title") or "", 120)
+
+
+def pick_summary_en(item: dict[str, Any]) -> str:
+    return squash(item.get("summary_en") or item.get("summary") or "", 220)
+
+
 def internal_url_from_item(item: dict[str, Any], kind: str | None = None) -> str:
     if item.get("type") == "news" and item.get("news_id"):
         return build_site_url(f"/news/{item['news_id']}/")
@@ -133,17 +141,31 @@ def render_item_list(
     kind: str | None = None,
     limit: int = 5,
     meta_fields: tuple[str, ...] = ("source", "time", "detail", "tags"),
+    bilingual: bool = False,
 ) -> str:
     if not items:
         return '<p class="empty">暂无可展示数据。</p>'
 
     rows = []
     for index, item in enumerate(items[:limit], start=1):
-        title = escape(pick_title(item))
-        summary = escape(pick_summary(item))
+        title_raw = pick_title(item)
+        summary_raw = pick_summary(item)
+        title = escape(title_raw)
+        summary = escape(summary_raw)
         href = escape(internal_url_from_item(item, kind))
         meta = escape(meta_bits(item, meta_fields))
         summary_html = f'<p class="summary">{summary}</p>' if summary else ""
+        original_html = ""
+        if bilingual:
+            title_en = pick_title_en(item)
+            summary_en = pick_summary_en(item)
+            title_en_html = ""
+            summary_en_html = ""
+            if title_en and title_en.strip().lower() != title_raw.strip().lower():
+                title_en_html = f'<p class="original"><span>English title</span>{escape(title_en)}</p>'
+            if summary_en and summary_en.strip().lower() != summary_raw.strip().lower():
+                summary_en_html = f'<p class="original"><span>English summary</span>{escape(summary_en)}</p>'
+            original_html = title_en_html + summary_en_html
         meta_html = f'<p class="meta">{meta}</p>' if meta else ""
         rows.append(
             f"""
@@ -152,6 +174,7 @@ def render_item_list(
               <div>
                 <h3><a href="{href}">{title}</a></h3>
                 {summary_html}
+                {original_html}
                 {meta_html}
               </div>
             </article>
@@ -305,6 +328,22 @@ def render_report(
     }}
     h3 {{ margin: 0; font-size: 17px; line-height: 1.35; letter-spacing: 0; }}
     .summary {{ margin: 7px 0 0; color: #3f4d5f; }}
+    .original {{
+      margin: 7px 0 0;
+      color: #596579;
+      font-size: 14px;
+      line-height: 1.55;
+      border-left: 2px solid var(--line);
+      padding-left: 10px;
+    }}
+    .original span {{
+      display: inline-block;
+      margin-right: 6px;
+      color: var(--accent-2);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }}
     .meta {{ margin: 7px 0 0; color: var(--muted); font-size: 13px; }}
     .source-row {{ display: flex; flex-wrap: wrap; gap: 8px; }}
     .ideas {{ margin: 0; padding-left: 22px; }}
@@ -343,7 +382,7 @@ def render_report(
 
     <section>
       <h2>热点 Top 5</h2>
-      {render_item_list(hot_items, kind="news", limit=5, meta_fields=("source", "time", "detail", "tags"))}
+      {render_item_list(hot_items, kind="news", limit=5, meta_fields=("source", "time", "detail", "tags"), bilingual=True)}
     </section>
 
     <section class="grid">
@@ -476,6 +515,7 @@ def generate_daily_report(root: Path | None = None) -> dict[str, Path]:
         tools=tools,
         agents=agents,
     )
+    html = re.sub(r"[ \t]+$", "", html, flags=re.MULTILINE)
 
     archive_path = reports_dir / f"{report_date}-ai-daily.html"
     latest_path = reports_dir / "latest.html"

@@ -1,31 +1,38 @@
 +++
-title = "Designing the hf CLI as an agent-optimized way to work with the Hub"
-description = "来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub"
-seo_title = "Designing the hf CLI as an agent-optimized way to work with the Hub｜AI资讯解读 - AI热榜"
-seo_description = "来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub"
-seo_keywords = "Designing the hf CLI as an agent-optimized way to work with the Hub, Hugging Face Blog, AI新闻, AI资讯, AI热榜"
+title = "AI 动态：Designing the hf CLI as an agent-optimized way to work with the Hub"
+description = "中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细"
+seo_title = "AI 动态：Designing the hf CLI as an agent-optimized way to work with the Hub｜AI资讯解读 - AI热榜"
+seo_description = "中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细"
+seo_keywords = "AI 动态：Designing the hf CLI as an agent-optimized way to work with the Hub, Hugging Face Blog, AI新闻, AI资讯, AI热榜"
 slug = "4da7ced3f30a"
 type = "news"
 
 [params]
 id = "4da7ced3f30a"
-name = "Designing the hf CLI as an agent-optimized way to work with the Hub"
+name = "AI 动态：Designing the hf CLI as an agent-optimized way to work with the Hub"
 title_en = "Designing the hf CLI as an agent-optimized way to work with the Hub"
 original_url = "https://huggingface.co/blog/hf-cli-for-agents"
 source = "Hugging Face Blog"
 published = "2026-06-04T08:00:00"
 lang = "en"
-intro = "来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub"
-ai_summary = "来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub"
+intro = "中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细节。"
+ai_summary = "中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细节。"
 summary = ""
-summary_zh = "来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub"
+summary_zh = "中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细节。"
+summary_en = ""
 tags = []
 list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-来自 Hugging Face Blog：Designing the hf CLI as an agent-optimized way to work with the Hub
+## 中文速读
+
+中文速读：这条来自 Hugging Face Blog 的 AI 动态关注「Designing the hf CLI as an agent-optimized way to work with the Hub」。建议结合英文原文查看具体细节。
+
+## English Original
+
+**Title:** Designing the hf CLI as an agent-optimized way to work with the Hub
 
 ## 🔗 原始来源
 

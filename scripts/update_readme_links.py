@@ -24,10 +24,23 @@ AGENTS = ROOT / 'data' / 'agents.json'
 NEWS = ROOT / 'data' / 'news.json'
 
 
+def _truncate(text, limit):
+    if len(text) <= limit:
+        return text
+    return text[:limit - 1].rstrip() + '…'
+
+
 def _clean_hot_summary(item):
-    text = (item.get('ai_summary') or item.get('subtitle') or item.get('description') or '').strip()
+    text = (item.get('summary_zh') or item.get('ai_summary') or item.get('subtitle') or item.get('description') or '').strip()
     text = re.sub(r'\s+', ' ', text)
-    return text[:80]
+    text = re.sub(r'^中文速读[:：]\s*', '', text)
+    return _truncate(text, 80)
+
+
+def _clean_hot_summary_en(item):
+    text = (item.get('summary_en') or item.get('summary') or '').strip()
+    text = re.sub(r'\s+', ' ', text)
+    return _truncate(text, 100)
 
 
 def _format_hot_meta(item):
@@ -114,11 +127,17 @@ def update_readme_links():
     for rank, item in enumerate(items[:10], start=1):
         target = _item_link(item)
         title = item.get('title_zh') or item.get('title') or item.get('name') or '未命名'
+        title_en = item.get('title_en') or item.get('title') or ''
         summary_line = _clean_hot_summary(item)
+        summary_en = _clean_hot_summary_en(item)
         meta_line = _format_hot_meta(item)
         hot_lines.append(f'{rank}. [{title}]({target})')
+        if title_en and title_en.strip().lower() != title.strip().lower():
+            hot_lines.append(f'   - English: {title_en}')
         if summary_line:
-            hot_lines.append(f'   - {summary_line}')
+            hot_lines.append(f'   - 中文速读：{summary_line}')
+        if summary_en and summary_en.strip().lower() != summary_line.strip().lower():
+            hot_lines.append(f'   - EN summary: {summary_en}')
         if meta_line:
             hot_lines.append(f'   - `{meta_line}`')
         hot_lines.append('')

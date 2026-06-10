@@ -26,6 +26,10 @@ def records(data):
     return []
 
 
+def has_zh(text):
+    return any('\u4e00' <= ch <= '\u9fff' for ch in str(text or ''))
+
+
 def parse_dt(value):
     text = str(value or '').strip()
     if not text:
@@ -91,6 +95,8 @@ def check_news_and_hot(errors):
     for idx, item in enumerate(hot[:10], 1):
         title = item.get('title_zh') or item.get('title') or ''
         summary = item.get('ai_summary') or item.get('subtitle') or item.get('description') or ''
+        title_en = item.get('title_en') or item.get('title') or ''
+        summary_zh = item.get('summary_zh') or item.get('ai_summary') or ''
         nid = item.get('news_id')
         if item.get('type') != 'news':
             errors.append(f'hot #{idx} not news: {title}')
@@ -100,6 +106,12 @@ def check_news_and_hot(errors):
             errors.append(f'hot #{idx} missing url: {title}')
         if not summary:
             errors.append(f'hot #{idx} missing summary: {title}')
+        if not title_en:
+            errors.append(f'hot #{idx} missing English title: {title}')
+        if not has_zh(title):
+            errors.append(f'hot #{idx} missing Chinese title/label: {title}')
+        if not has_zh(summary_zh):
+            errors.append(f'hot #{idx} missing Chinese summary: {title}')
         if too_old(item.get('time') or item.get('detail'), MAX_VISIBLE_NEWS_AGE_DAYS):
             errors.append(f'hot #{idx} stale: {title} ({item.get("time") or item.get("detail")})')
         if not nid:

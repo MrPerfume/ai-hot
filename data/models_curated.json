@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T09:32:45+08:00",
+  "updated_at": "2026-06-10T09:42:49+08:00",
   "total": 14,
   "categories": [
     {
@@ -112,7 +112,7 @@
       "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
       "freshness": "2026-06-05",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 160 / downloads 1784",
+      "why": "Hugging Face trending 收录，likes 162 / downloads 1784",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -262,7 +262,7 @@
       "url": "https://huggingface.co/ByteDance/Bernini-R",
       "freshness": "2026-06-01",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 193 / downloads 281",
+      "why": "Hugging Face trending 收录，likes 194 / downloads 281",
       "meta": "image-text-to-video",
       "tags": [
         "safetensors",

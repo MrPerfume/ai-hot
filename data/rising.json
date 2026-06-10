@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T09:32:45+08:00",
+  "updated_at": "2026-06-10T09:42:49+08:00",
   "window_days": 30,
   "candidate_count": 16,
   "items": [
@@ -9,8 +9,8 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "type": "project",
-      "stars": 211912,
-      "score": 211912,
+      "stars": 211921,
+      "score": 211921,
       "window_days": 30,
       "reason": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
@@ -20,8 +20,8 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "type": "project",
-      "stars": 188858,
-      "score": 188858,
+      "stars": 188865,
+      "score": 188865,
       "window_days": 30,
       "reason": "The agent that grows with you"
     },
@@ -53,8 +53,8 @@
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "type": "project",
-      "stars": 163476,
-      "score": 163476,
+      "stars": 163477,
+      "score": 163477,
       "window_days": 30,
       "reason": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
     },
@@ -75,8 +75,8 @@
       "url": "https://github.com/Snailclimb/JavaGuide",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "type": "project",
-      "stars": 156254,
-      "score": 156254,
+      "stars": 156255,
+      "score": 156255,
       "window_days": 30,
       "reason": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发"
     },
