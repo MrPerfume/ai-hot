@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aihot.bt199.com/sitemap.xml
+Sitemap: https://MrPerfume.github.io/ai-hot/sitemap.xml

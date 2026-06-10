@@ -1,9 +1,13 @@
-name: 6-Hour AI Data Aggregation
+name: Daily AI Data Aggregation
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+  AI_HOT_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
 
 jobs:
   aggregate:
@@ -34,14 +38,17 @@ jobs:
       - name: Run Quality Gate
         run: python scripts/quality_gate.py
 
+      - name: Generate Daily HTML Report
+        run: python scripts/generate_daily_report_html.py
+
       - name: Commit & Push
         run: |
           git config user.name "AI热榜 Bot"
           git config user.email "bot@airebang.com"
-          git add data/ site/data/ README.md site/content/news/ site/content/tools/ site/static/ scripts/ .github/workflows/aggregate.yml
+          git add data/ site/data/ README.md site/content/news/ site/content/tools/ site/static/ scripts/ tests/ .github/workflows/
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "🔄 [auto] 数据更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+            git commit -m "📰 [auto] AI日报 $(date +'%Y-%m-%d')"
             git push
           fi

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 AI热榜 - 主聚合器 v3.1
-每6小时运行一次，采集+AI增强
+每天 08:30 运行一次，采集+AI增强
 """
 
 import os

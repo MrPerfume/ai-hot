@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1 style="font-size:1px;color:transparent;position:absolute;pointer-events:none">AI热榜 - 每6小时更新的中文AI工具导航站</h1>
+<h1 style="font-size:1px;color:transparent;position:absolute;pointer-events:none">AI热榜 - 每天 08:30 更新的中文AI工具导航站</h1>
 
 <div class="grid">
 <div>
@@ -31,7 +31,7 @@
 
     <!-- 今日热点 -->
     <div class="card" style="border-color:var(--accent)">
-        <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每6h更新</span></div>
+        <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每日更新</span></div>
         {{ $hot := site.Data.hot }}
         {{ if $hot }}
             {{ $items := $hot.items }}
@@ -302,8 +302,8 @@
         </div>
         {{ end }}
         <div style="font-size:12px;color:var(--text3);margin-top:8px">
-            <p>每6小时自动更新</p>
-            <p>08:00 / 14:00 / 20:00 / 02:00</p>
+            <p>每天北京时间 08:30 自动更新</p>
+            <p><a href="{{ relURL "/reports/latest.html" }}">打开最新 HTML 日报</a></p>
         </div>
     </div>
 </div>
@@ -508,7 +508,7 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
             + '<strong style="color:var(--accent)">' + news.length + '</strong> 条新闻<br>'
             + '🔥 其中 <strong>' + trending + '</strong> 个热门工具 · '
             + '🎁 <strong>' + freeTools + '</strong> 个有免费额度<br>'
-            + '📰 每6小时自动更新，数据开源透明';
+            + '📰 每天 08:30 自动更新，数据开源透明';
     }
 })();
 
@@ -582,7 +582,7 @@ updateCheckinUI();
 // 分享功能
 function shareToWeixin() {
     const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent('AI热榜 - 每6小时更新的中文AI工具导航站');
+    const title = encodeURIComponent('AI热榜 - 每天 08:30 更新的中文AI工具导航站');
     // 微信分享需要使用微信JS-SDK，这里提供复制链接的方式
     copyLink();
     alert('链接已复制，请在微信中粘贴分享给朋友！');
@@ -590,13 +590,13 @@ function shareToWeixin() {
 
 function shareToWeibo() {
     const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每6小时更新，涵盖AI模型、工具、Agent、新闻。');
+    const title = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每天 08:30 更新，涵盖AI模型、工具、Agent、新闻。');
     window.open('https://service.weibo.com/share/share.php?url=' + url + '&title=' + title, '_blank');
 }
 
 function shareToTwitter() {
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每6小时自动更新，涵盖AI模型、工具、Agent、新闻。#AI #人工智能');
+    const text = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每天 08:30 自动更新，涵盖AI模型、工具、Agent、新闻。#AI #人工智能');
     window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + text, '_blank');
 }
 

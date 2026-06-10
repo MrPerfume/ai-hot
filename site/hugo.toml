@@ -1,12 +1,12 @@
-baseURL = "https://aihot.bt199.com/"
+baseURL = "https://MrPerfume.github.io/ai-hot/"
 languageCode = "zh-CN"
-title = "AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐"
+title = "AI热榜 - 每天 08:30 更新 | AI工具大全·AI导航·AI工具推荐"
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 paginate = 20
 
 [params]
-  description = "AI热榜 - 中文AI世界实时热榜。收录1000+AI工具、AI模型、AI Agent，每6小时自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
+  description = "AI热榜 - 中文AI世界日报。收录1000+AI工具、AI模型、AI Agent，每天 08:30 自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
   keywords = "AI热榜, AI工具, AI导航, AI工具大全, AI工具推荐, 免费AI工具, AI写作, AI绘画, AI编程, 大模型, 国产大模型, AI Agent"
   author = "AI热榜"
 
@@ -53,16 +53,21 @@ paginate = 20
   weight = 5
 
 [[menu.main]]
+  name = "🗞️ 日报"
+  url = "/reports/latest.html"
+  weight = 6
+
+[[menu.main]]
   name = "🏢 提供商"
   url = "/providers/"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "🔍 搜索"
   url = "/search/"
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   name = "⚔️ 对比"
   url = "/compare/"
-  weight = 8
+  weight = 9

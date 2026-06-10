@@ -3,6 +3,11 @@ import json
 import re
 from pathlib import Path
 
+try:
+    from site_config import build_site_url
+except ImportError:  # pragma: no cover - used when imported as scripts.*
+    from scripts.site_config import build_site_url
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / 'data'
 HOT_PATH = DATA_DIR / 'hot.json'
@@ -76,7 +81,7 @@ def enrich_hot_data():
                 candidate = best
         if candidate:
             item['news_id'] = candidate.get('id')
-            item['internal_url'] = f"https://aihot.bt199.com/news/{candidate.get('id')}/"
+            item['internal_url'] = build_site_url(f"/news/{candidate.get('id')}/")
             item['ai_summary'] = candidate.get('ai_summary') or candidate.get('summary_zh') or candidate.get('summary') or item.get('subtitle', '')
             item['title_zh'] = candidate.get('title_zh') or candidate.get('title') or item.get('title', '')
             matched += 1
@@ -84,6 +89,10 @@ def enrich_hot_data():
     hot['items'] = items
     if 'top_20' in hot:
         hot['top_20'] = items[:20]
+    for key in ('hot_list', 'top_20', 'items'):
+        for item in hot.get(key) or []:
+            if item.get('type') == 'news' and item.get('news_id'):
+                item['internal_url'] = build_site_url(f"/news/{item.get('news_id')}/")
     HOT_PATH.write_text(json.dumps(hot, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     return f'热点新闻站内化补全 {matched} 条'
 

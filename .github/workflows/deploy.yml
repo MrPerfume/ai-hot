@@ -7,9 +7,12 @@ on:
       - 'site/**'
       - 'data/**'
   workflow_run:
-    workflows: ["6-Hour AI Data Aggregation"]
+    workflows: ["Daily AI Data Aggregation"]
     types: [completed]
   workflow_dispatch:
+
+env:
+  AI_HOT_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
 
 jobs:
   deploy:
@@ -55,12 +58,14 @@ jobs:
       - name: Sync data to Hugo
         run: cp -r data/* site/data/
 
+      - name: Refresh static URLs and reports
+        run: |
+          python scripts/generate_sitemap.py
+          python scripts/generate_daily_report_html.py
+
       - name: Build
         working-directory: site
-        run: hugo --minify
-
-      - name: Create CNAME
-        run: echo "aihot.bt199.com" > site/public/CNAME
+        run: hugo --minify --baseURL "${AI_HOT_SITE_URL}/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

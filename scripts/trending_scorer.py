@@ -7,6 +7,11 @@ import os
 import json
 from datetime import datetime
 
+try:
+    from site_config import build_site_url
+except ImportError:  # pragma: no cover - used when imported as scripts.*
+    from scripts.site_config import build_site_url
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 CATEGORY_MAP = {
@@ -119,7 +124,7 @@ def compute_trending():
                 'ai_summary': desc[:120],
                 'category': '资讯',
                 'news_id': n.get('id'),
-                'internal_url': f"https://aihot.bt199.com/news/{n.get('id')}/" if n.get('id') else '',
+                'internal_url': build_site_url(f"/news/{n.get('id')}/") if n.get('id') else '',
             })
 
     seen = {}

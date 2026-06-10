@@ -6,10 +6,14 @@ from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+try:
+    from site_config import build_site_url, site_url
+except ImportError:  # pragma: no cover - used when imported as scripts.*
+    from scripts.site_config import build_site_url, site_url
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
 SITE_DIR = ROOT / 'site' / 'static'
-BASE_URL = 'https://aihot.bt199.com'
 SH_TZ = ZoneInfo('Asia/Shanghai')
 
 
@@ -19,7 +23,7 @@ def today_str():
 
 def build_url(loc: str, priority: str, changefreq: str, lastmod: str):
     return {
-        'loc': BASE_URL + loc,
+        'loc': build_site_url(loc),
         'lastmod': lastmod,
         'changefreq': changefreq,
         'priority': priority,
@@ -40,6 +44,13 @@ def write_sitemap(filename: str, urls):
     out = SITE_DIR / filename
     out.write_text(xml, encoding='utf-8')
     return out
+
+
+def write_robots():
+    (SITE_DIR / 'robots.txt').write_text(
+        f'User-agent: *\nAllow: /\n\nSitemap: {build_site_url("/sitemap.xml")}\n',
+        encoding='utf-8',
+    )
 
 
 def generate_sitemap():
@@ -79,11 +90,12 @@ def generate_sitemap():
     index_xml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for name in ['sitemap-pages.xml', 'sitemap-tools.xml', 'sitemap-news.xml']:
         index_xml += '  <sitemap>\n'
-        index_xml += f'    <loc>{BASE_URL}/{name}</loc>\n'
+        index_xml += f'    <loc>{site_url()}/{name}</loc>\n'
         index_xml += f'    <lastmod>{today}</lastmod>\n'
         index_xml += '  </sitemap>\n'
     index_xml += '</sitemapindex>'
     (SITE_DIR / 'sitemap.xml').write_text(index_xml, encoding='utf-8')
+    write_robots()
 
     print(f'  ✓ 页面 sitemap: {len(page_urls)} 个URL')
     print(f'  ✓ 工具 sitemap: {len(tool_urls)} 个URL')
