@@ -110,7 +110,7 @@ def parse_report_date(meta: dict[str, Any], briefing: dict[str, Any]) -> str:
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", forced):
         return forced
 
-    candidates = [meta.get("last_update"), briefing.get("date")]
+    candidates = [briefing.get("date"), meta.get("last_update")]
     for value in candidates:
         text = str(value or "").strip()
         if not text:
