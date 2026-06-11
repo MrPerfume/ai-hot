@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-06-10T09:42:49.799554",
-  "date": "2026-06-10",
+  "updated_at": "2026-06-11T13:41:38.819751",
+  "date": "2026-06-11",
   "spotlight": {
-    "name": "Codex (ChatGPT)",
-    "url": "https://chatgpt.com",
+    "name": "Devin",
+    "url": "https://devin.ai",
     "type": "agent",
-    "description": "OpenAI内置编程智能体，可在沙盒中执行代码",
-    "pricing": "ChatGPT Pro $200/月",
+    "description": "全球首个AI软件工程师，能独立完成编程任务",
+    "pricing": "$500/月",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "MemPalace",
-      "url": "https://github.com/MemPalace/mempalace",
+      "name": "OpenMythos",
+      "url": "https://github.com/kyegomez/OpenMythos",
       "type": "agent",
-      "description": "最强开源 AI 记忆系统，号称性能超越 Mem0 等方案，且完全免费开源",
+      "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
       "pricing": "免费",
-      "category": "平台 Agent"
+      "category": "研究 Agent"
     },
     {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "url": "https://github.com/features/copilot",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "tool",
-      "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
-      "pricing": "$10/月 个人 / $19/月 企业",
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "pricing": "按 API 使用量计费",
       "category": "编程"
     },
     {
-      "id": "suno",
-      "name": "Suno",
-      "url": "https://suno.com",
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
       "type": "tool",
-      "description": "AI 音乐生成工具，输入文字生成歌曲",
-      "pricing": "免费 + Pro $10/月",
-      "category": "音乐"
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "pricing": "开源免费",
+      "category": "编程"
     }
   ]
 }

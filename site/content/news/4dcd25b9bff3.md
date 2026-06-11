@@ -21,7 +21,7 @@ summary = "Anthropic just announced Claude Fable 5, a new AI model it said is th
 summary_zh = "中文速读：这条来自 The Verge AI 的 AI 动态关注「Anthropic releases its first Mythos-class model Claude Fable」。建议结合英文原文查看具体细节。"
 summary_en = "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely available. According to the company, Fable 5 \"shows exceptional performance in software engineering, knowledge work, and vision,\" with its lead…"
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,16 +1,15 @@
 {
-  "date": "2026-06-10",
-  "content": "今天 AI 动态主要集中在模型能力、产品与应用、Agent 和自动化。值得先看：Nextdoor的工程师如何使用Codex无限制地构建；Codex为Notion解锁了什么；智能时代的产业政策。",
-  "news_count": 71,
+  "date": "2026-06-11",
+  "content": "今天 AI 动态主要集中在模型能力、安全与治理、基础设施与算力。值得先看：AI 动态：Access OpenAI models and Codex through your Oracle cloud commitment；AI 动态：PRC-linked influence operations are targeting AI debates in the US；AI 动态：AI agent runs amok in Fedora and elsewhere。",
+  "news_count": 63,
   "sources": {
-    "OpenAI News": 18,
-    "TechCrunch AI": 15,
-    "Hugging Face Blog": 10,
-    "The Verge AI": 9,
-    "量子位": 8,
-    "MIT Tech Review": 8,
-    "Google AI": 2,
-    "Hacker News": 1
+    "OpenAI News": 17,
+    "TechCrunch AI": 17,
+    "The Verge AI": 10,
+    "量子位": 9,
+    "MIT Tech Review": 6,
+    "Hacker News": 2,
+    "Google AI": 2
   },
   "emoji": "⚡"
 }

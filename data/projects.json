@@ -5,11 +5,11 @@
     "display_name": "ECC",
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 211921,
+    "stars": 212881,
     "language": "JavaScript",
     "created_at": "2026-01-18T00:51:51Z",
-    "updated_at": "2026-06-10T01:41:48Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:39:23Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-1024554267",
@@ -17,11 +17,11 @@
     "display_name": "hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 188865,
+    "stars": 190214,
     "language": "Python",
     "created_at": "2025-07-22T22:22:28Z",
-    "updated_at": "2026-06-10T01:42:22Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:40:57Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-614765452",
@@ -29,11 +29,11 @@
     "display_name": "AutoGPT",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 184861,
+    "stars": 184889,
     "language": "Python",
     "created_at": "2023-03-16T09:21:07Z",
-    "updated_at": "2026-06-10T01:09:39Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T04:48:34Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-658928958",
@@ -41,11 +41,11 @@
     "display_name": "ollama",
     "url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 173715,
+    "stars": 173818,
     "language": "Go",
     "created_at": "2023-06-26T19:39:32Z",
-    "updated_at": "2026-06-10T01:23:05Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:35:23Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-574523116",
@@ -53,11 +53,11 @@
     "display_name": "prompts.chat",
     "url": "https://github.com/f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 163477,
+    "stars": 163544,
     "language": "HTML",
     "created_at": "2022-12-05T13:54:13Z",
-    "updated_at": "2026-06-10T01:36:48Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T04:35:43Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-155220641",
@@ -65,11 +65,11 @@
     "display_name": "transformers",
     "url": "https://github.com/huggingface/transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "stars": 161459,
+    "stars": 161491,
     "language": "Python",
     "created_at": "2018-10-29T13:56:00Z",
-    "updated_at": "2026-06-10T01:14:55Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:20:25Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-132464395",
@@ -77,11 +77,11 @@
     "display_name": "JavaGuide",
     "url": "https://github.com/Snailclimb/JavaGuide",
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 156255,
+    "stars": 156296,
     "language": "JavaScript",
     "created_at": "2018-05-07T13:27:00Z",
-    "updated_at": "2026-06-10T01:40:31Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T04:41:50Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-599320067",
@@ -89,11 +89,11 @@
     "display_name": "langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 149465,
+    "stars": 149519,
     "language": "Python",
     "created_at": "2023-02-08T22:28:03Z",
-    "updated_at": "2026-06-10T01:31:02Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:30:20Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-626805178",
@@ -101,11 +101,11 @@
     "display_name": "dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 144593,
+    "stars": 144786,
     "language": "TypeScript",
     "created_at": "2023-04-12T07:40:24Z",
-    "updated_at": "2026-06-10T01:42:22Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:37:02Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-701547123",
@@ -113,11 +113,11 @@
     "display_name": "open-webui",
     "url": "https://github.com/open-webui/open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "stars": 140865,
+    "stars": 141032,
     "language": "Python",
     "created_at": "2023-10-06T22:08:27Z",
-    "updated_at": "2026-06-10T01:41:49Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:33:03Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-943398999",
@@ -125,11 +125,11 @@
     "display_name": "system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev…",
-    "stars": 139181,
+    "stars": 139608,
     "language": "",
     "created_at": "2025-03-05T16:38:29Z",
-    "updated_at": "2026-06-10T01:41:55Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:30:55Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-552661142",
@@ -137,11 +137,11 @@
     "display_name": "langchain",
     "url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 138901,
+    "stars": 138998,
     "language": "Python",
     "created_at": "2022-10-17T02:58:36Z",
-    "updated_at": "2026-06-10T01:18:27Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:26:21Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-787076358",
@@ -149,11 +149,11 @@
     "display_name": "firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "stars": 130757,
+    "stars": 131233,
     "language": "TypeScript",
     "created_at": "2024-04-15T21:02:29Z",
-    "updated_at": "2026-06-10T01:39:43Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:41:27Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-612354784",
@@ -161,11 +161,11 @@
     "display_name": "llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "description": "LLM inference in C/C++",
-    "stars": 115811,
+    "stars": 115989,
     "language": "C++",
     "created_at": "2023-03-10T18:58:00Z",
-    "updated_at": "2026-06-10T01:39:29Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "updated_at": "2026-06-11T05:39:54Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-793375104",
@@ -173,11 +173,11 @@
     "display_name": "awesome-llm-apps",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-    "stars": 114069,
+    "stars": 114218,
     "language": "Python",
     "created_at": "2024-04-29T05:30:25Z",
-    "updated_at": "2026-06-10T01:27:25Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:27:38Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-1075372545",
@@ -185,11 +185,11 @@
     "display_name": "agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with pers…",
-    "stars": 108925,
+    "stars": 110663,
     "language": "Shell",
     "created_at": "2025-10-13T12:12:29Z",
-    "updated_at": "2026-06-10T01:42:20Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:39:48Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-968197216",
@@ -197,11 +197,11 @@
     "display_name": "gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105101,
+    "stars": 105150,
     "language": "TypeScript",
     "created_at": "2025-04-17T17:04:31Z",
-    "updated_at": "2026-06-10T01:05:52Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T04:57:30Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-881458615",
@@ -209,11 +209,11 @@
     "display_name": "browser-use",
     "url": "https://github.com/browser-use/browser-use",
     "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "stars": 97986,
+    "stars": 98200,
     "language": "Python",
     "created_at": "2024-10-31T16:00:56Z",
-    "updated_at": "2026-06-10T01:38:37Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:35:52Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-669879380",
@@ -221,11 +221,11 @@
     "display_name": "LLMs-from-scratch",
     "url": "https://github.com/rasbt/LLMs-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-    "stars": 96925,
+    "stars": 96985,
     "language": "Jupyter Notebook",
     "created_at": "2023-07-23T18:15:57Z",
-    "updated_at": "2026-06-10T01:30:53Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:37:50Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-695864515",
@@ -233,23 +233,23 @@
     "display_name": "Deep-Live-Cam",
     "url": "https://github.com/hacksider/Deep-Live-Cam",
     "description": "real time face swap and one-click video deepfake with only a single image",
-    "stars": 93685,
+    "stars": 93715,
     "language": "Python",
     "created_at": "2023-09-24T13:19:31Z",
-    "updated_at": "2026-06-10T01:19:52Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:36:19Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
-    "id": "github-909213664",
-    "name": "TauricResearch/TradingAgents",
-    "display_name": "TradingAgents",
-    "url": "https://github.com/TauricResearch/TradingAgents",
-    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "stars": 84798,
+    "id": "github-770153867",
+    "name": "harry0703/MoneyPrinterTurbo",
+    "display_name": "MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "stars": 85323,
     "language": "Python",
-    "created_at": "2024-12-28T03:31:08Z",
-    "updated_at": "2026-06-10T01:36:33Z",
-    "collected_at": "2026-06-10T09:42:46+08:00"
+    "created_at": "2024-03-11T02:57:34Z",
+    "updated_at": "2026-06-11T05:39:43Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-730534580",
@@ -257,11 +257,11 @@
     "display_name": "ragflow",
     "url": "https://github.com/infiniflow/ragflow",
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 82319,
+    "stars": 82429,
     "language": "Python",
     "created_at": "2023-12-12T06:13:13Z",
-    "updated_at": "2026-06-10T01:31:42Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:40:58Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-1048065319",
@@ -269,11 +269,11 @@
     "display_name": "claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sess…",
-    "stars": 81487,
+    "stars": 81687,
     "language": "JavaScript",
     "created_at": "2025-08-31T20:50:03Z",
-    "updated_at": "2026-06-10T01:39:11Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:37:59Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-643445235",
@@ -281,11 +281,11 @@
     "display_name": "lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-    "stars": 78430,
+    "stars": 78475,
     "language": "TypeScript",
     "created_at": "2023-05-21T07:19:12Z",
-    "updated_at": "2026-06-10T01:37:53Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T05:41:23Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-771302083",
@@ -293,11 +293,11 @@
     "display_name": "OpenHands",
     "url": "https://github.com/OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 76335,
+    "stars": 76429,
     "language": "Python",
     "created_at": "2024-03-13T03:33:31Z",
-    "updated_at": "2026-06-10T01:29:25Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:40:48Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-107111421",
@@ -305,11 +305,11 @@
     "display_name": "Front-End-Checklist",
     "url": "https://github.com/thedaviddias/Front-End-Checklist",
     "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
-    "stars": 72866,
+    "stars": 72885,
     "language": "MDX",
     "created_at": "2017-10-16T10:12:36Z",
-    "updated_at": "2026-06-10T00:20:42Z",
-    "collected_at": "2026-06-10T09:42:43+08:00"
+    "updated_at": "2026-06-11T04:42:04Z",
+    "collected_at": "2026-06-11T13:41:38+08:00"
   },
   {
     "id": "github-621803253",
@@ -317,11 +317,11 @@
     "display_name": "Flowise",
     "url": "https://github.com/FlowiseAI/Flowise",
     "description": "Build AI Agents, Visually",
-    "stars": 53439,
+    "stars": 53466,
     "language": "TypeScript",
     "created_at": "2023-03-31T12:23:09Z",
-    "updated_at": "2026-06-10T01:03:31Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:26:23Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-834369920",
@@ -329,11 +329,23 @@
     "display_name": "minimind",
     "url": "https://github.com/jingyaogong/minimind",
     "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
-    "stars": 51441,
+    "stars": 51521,
     "language": "Python",
     "created_at": "2024-07-27T04:34:12Z",
-    "updated_at": "2026-06-10T01:32:55Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:38:22Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
+  },
+  {
+    "id": "github-344190478",
+    "name": "microsoft/AI-For-Beginners",
+    "display_name": "AI-For-Beginners",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "description": "12 Weeks, 24 Lessons, AI for All!",
+    "stars": 48058,
+    "language": "Jupyter Notebook",
+    "created_at": "2021-03-03T16:27:36Z",
+    "updated_at": "2026-06-11T05:26:48Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-26783295",
@@ -341,11 +353,11 @@
     "display_name": "kong",
     "url": "https://github.com/Kong/kong",
     "description": "🦍 The API and AI Gateway",
-    "stars": 43554,
+    "stars": 43560,
     "language": "Lua",
     "created_at": "2014-11-17T23:56:08Z",
-    "updated_at": "2026-06-09T23:55:05Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T01:03:13Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-21467110",
@@ -353,11 +365,11 @@
     "display_name": "spaCy",
     "url": "https://github.com/explosion/spaCy",
     "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
-    "stars": 33643,
+    "stars": 33648,
     "language": "Python",
     "created_at": "2014-07-03T15:15:40Z",
-    "updated_at": "2026-06-09T07:08:25Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:09:53Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-178626720",
@@ -365,11 +377,11 @@
     "display_name": "pytorch-lightning",
     "url": "https://github.com/Lightning-AI/pytorch-lightning",
     "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
-    "stars": 31178,
+    "stars": 31180,
     "language": "Python",
     "created_at": "2019-03-31T00:45:57Z",
-    "updated_at": "2026-06-09T18:44:17Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T03:25:38Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-837911756",
@@ -377,11 +389,11 @@
     "display_name": "Jobs_Applier_AI_Agent_AIHawk",
     "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
     "description": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
-    "stars": 29878,
+    "stars": 29883,
     "language": "Python",
     "created_at": "2024-08-04T12:15:06Z",
-    "updated_at": "2026-06-09T23:29:30Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T05:28:03Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-912559512",
@@ -389,11 +401,11 @@
     "display_name": "sim",
     "url": "https://github.com/simstudioai/sim",
     "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
-    "stars": 28739,
+    "stars": 28753,
     "language": "TypeScript",
     "created_at": "2025-01-05T22:47:49Z",
-    "updated_at": "2026-06-09T23:58:37Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T04:48:46Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   },
   {
     "id": "github-607289185",
@@ -401,22 +413,10 @@
     "display_name": "semantic-kernel",
     "url": "https://github.com/microsoft/semantic-kernel",
     "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
-    "stars": 28087,
+    "stars": 28097,
     "language": "C#",
     "created_at": "2023-02-27T17:39:42Z",
-    "updated_at": "2026-06-09T23:57:45Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
-  },
-  {
-    "id": "github-525592995",
-    "name": "invoke-ai/InvokeAI",
-    "display_name": "InvokeAI",
-    "url": "https://github.com/invoke-ai/InvokeAI",
-    "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven…",
-    "stars": 27398,
-    "language": "TypeScript",
-    "created_at": "2022-08-17T01:04:27Z",
-    "updated_at": "2026-06-10T01:03:32Z",
-    "collected_at": "2026-06-10T09:42:42+08:00"
+    "updated_at": "2026-06-11T03:05:01Z",
+    "collected_at": "2026-06-11T13:41:37+08:00"
   }
 ]

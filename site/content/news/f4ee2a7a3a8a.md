@@ -21,7 +21,7 @@ summary = "OpenAI launches the Economic Research Exchange to study AI’s impact
 summary_zh = "中文速读：这条来自 OpenAI News 的 AI 动态关注「Introducing the OpenAI Economic Research Exchange」。建议结合英文原文查看具体细节。"
 summary_en = "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects."
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

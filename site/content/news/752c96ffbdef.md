@@ -21,7 +21,7 @@ summary = "May AI recap"
 summary_zh = "中文速读：这条来自 Google AI 的 AI 动态关注「The latest AI news we announced in May 2026」。建议结合英文原文查看具体细节。"
 summary_en = "May AI recap"
 tags = []
-list_page = 7
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->
