@@ -1,15 +1,16 @@
 {
-  "date": "2026-06-11",
-  "content": "今天 AI 动态主要集中在模型能力、安全与治理、基础设施与算力。值得先看：AI 动态：Access OpenAI models and Codex through your Oracle cloud commitment；AI 动态：PRC-linked influence operations are targeting AI debates in the US；AI 动态：AI agent runs amok in Fedora and elsewhere。",
-  "news_count": 63,
+  "date": "2026-06-12",
+  "content": "今天 AI 动态主要集中在模型能力、Agent 和自动化、产品与应用。值得先看：克劳德·法布尔（ Claude Fable ）无情地积极主动；BBVA将人工智能置于OpenAI银行业务的核心；OpenAI收购ONA。",
+  "news_count": 61,
   "sources": {
     "OpenAI News": 17,
-    "TechCrunch AI": 17,
-    "The Verge AI": 10,
+    "TechCrunch AI": 13,
     "量子位": 9,
-    "MIT Tech Review": 6,
+    "The Verge AI": 9,
+    "Hugging Face Blog": 7,
+    "MIT Tech Review": 3,
     "Hacker News": 2,
-    "Google AI": 2
+    "Google AI": 1
   },
   "emoji": "⚡"
 }

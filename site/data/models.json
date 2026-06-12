@@ -1,13 +1,119 @@
 [
   {
+    "id": "hf-google--diffusiongemma-26B-A4B-it",
+    "name": "google/diffusiongemma-26B-A4B-it",
+    "display_name": "diffusiongemma-26B-A4B-it",
+    "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+    "author": "google",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 514,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "diffusion_gemma",
+      "image-text-to-text",
+      "conversational",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-06-09T12:40:12.000Z",
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-unsloth--diffusiongemma-26B-A4B-it-GGUF",
+    "name": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
+    "display_name": "diffusiongemma-26B-A4B-it-GGUF",
+    "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
+    "author": "unsloth",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 184,
+    "downloads": 0,
+    "tags": [
+      "gguf",
+      "gemma4",
+      "unsloth",
+      "gemma",
+      "google",
+      "diffusion_gemma",
+      "image-text-to-text",
+      "base_model:google/diffusiongemma-26B-A4B-it",
+      "base_model:quantized:google/diffusiongemma-26B-A4B-it",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ],
+    "created_at": "2026-06-10T14:19:12.000Z",
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-nvidia--diffusiongemma-26B-A4B-it-NVFP4",
+    "name": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+    "display_name": "diffusiongemma-26B-A4B-it-NVFP4",
+    "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+    "author": "nvidia",
+    "pipeline_tag": "text-generation",
+    "likes": 38,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "diffusion_gemma",
+      "nvidia",
+      "ModelOpt",
+      "DiffusionGemma-26B-A4B-IT",
+      "quantized",
+      "NVFP4",
+      "nvfp4",
+      "text-generation",
+      "conversational",
+      "base_model:google/diffusiongemma-26B-A4B-it",
+      "base_model:quantized:google/diffusiongemma-26B-A4B-it",
+      "license:apache-2.0",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ],
+    "created_at": "2026-06-10T16:00:45.000Z",
+    "source": "Hugging Face text-generation",
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-zai-org--SCAIL-2",
+    "name": "zai-org/SCAIL-2",
+    "display_name": "SCAIL-2",
+    "url": "https://huggingface.co/zai-org/SCAIL-2",
+    "author": "zai-org",
+    "pipeline_tag": "image-to-video",
+    "likes": 119,
+    "downloads": 0,
+    "tags": [
+      "diffusers",
+      "character-animation",
+      "video-generation",
+      "pose-driven",
+      "diffusion",
+      "image-to-video",
+      "arxiv:2512.05905",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-06-09T07:18:27.000Z",
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
     "id": "hf-unsloth--gemma-4-12B-it-qat-GGUF",
     "name": "unsloth/gemma-4-12B-it-qat-GGUF",
     "display_name": "gemma-4-12B-it-qat-GGUF",
     "url": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF",
     "author": "unsloth",
     "pipeline_tag": "any-to-any",
-    "likes": 171,
-    "downloads": 127332,
+    "likes": 202,
+    "downloads": 148252,
     "tags": [
       "transformers",
       "gguf",
@@ -25,7 +131,48 @@
     ],
     "created_at": "2026-06-05T10:35:42.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-silx-ai--Quasar-Preview",
+    "name": "silx-ai/Quasar-Preview",
+    "display_name": "Quasar-Preview",
+    "url": "https://huggingface.co/silx-ai/Quasar-Preview",
+    "author": "silx-ai",
+    "pipeline_tag": "text-generation",
+    "likes": 58,
+    "downloads": 38,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "quasar_long",
+      "text-generation",
+      "silx-ai",
+      "quasar-preview",
+      "quasar",
+      "foundation-model",
+      "moe",
+      "18b",
+      "2b-active",
+      "long-context",
+      "bittensor",
+      "sn24",
+      "decentralized-training",
+      "distillation",
+      "hybrid-transformer",
+      "loop-transformer",
+      "safe-nope",
+      "drope",
+      "conversational",
+      "custom_code",
+      "en",
+      "ar",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-06-08T20:11:24.000Z",
+    "source": "Hugging Face text-generation",
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-XiaomiMiMo--MiMo-V2.5-Pro-FP4-DFlash",
@@ -34,8 +181,8 @@
     "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
     "author": "XiaomiMiMo",
     "pipeline_tag": "text-generation",
-    "likes": 68,
-    "downloads": 48,
+    "likes": 88,
+    "downloads": 660,
     "tags": [
       "transformers",
       "safetensors",
@@ -59,8 +206,8 @@
       "region:us"
     ],
     "created_at": "2026-06-08T04:32:32.000Z",
-    "source": "Hugging Face text-generation",
-    "collected_at": "2026-06-10T09:42:49+08:00"
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-unsloth--gemma-4-26B-A4B-it-qat-GGUF",
@@ -69,8 +216,8 @@
     "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF",
     "author": "unsloth",
     "pipeline_tag": "image-text-to-text",
-    "likes": 115,
-    "downloads": 96059,
+    "likes": 143,
+    "downloads": 129110,
     "tags": [
       "transformers",
       "gguf",
@@ -88,7 +235,7 @@
     ],
     "created_at": "2026-06-05T10:35:42.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-bosonai--higgs-audio-v3-tts-4b",
@@ -97,8 +244,8 @@
     "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
     "author": "bosonai",
     "pipeline_tag": "text-to-speech",
-    "likes": 282,
-    "downloads": 16207,
+    "likes": 366,
+    "downloads": 19948,
     "tags": [
       "transformers",
       "safetensors",
@@ -216,7 +363,34 @@
     ],
     "created_at": "2026-06-04T05:37:32.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-CohereLabs--North-Mini-Code-1.0",
+    "name": "CohereLabs/North-Mini-Code-1.0",
+    "display_name": "North-Mini-Code-1.0",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+    "author": "CohereLabs",
+    "pipeline_tag": "text-generation",
+    "likes": 309,
+    "downloads": 1859,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "cohere2_moe",
+      "text-generation",
+      "conversational",
+      "chat",
+      "code",
+      "agent",
+      "license:apache-2.0",
+      "eval-results",
+      "deploy:azure",
+      "region:us"
+    ],
+    "created_at": "2026-06-05T02:38:01.000Z",
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-google--gemma-4-12B-it-qat-q4_0-gguf",
@@ -225,8 +399,8 @@
     "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf",
     "author": "google",
     "pipeline_tag": "any-to-any",
-    "likes": 114,
-    "downloads": 63049,
+    "likes": 130,
+    "downloads": 96749,
     "tags": [
       "transformers",
       "gguf",
@@ -240,75 +414,7 @@
     ],
     "created_at": "2026-06-05T00:28:47.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
-  },
-  {
-    "id": "hf-CohereLabs--North-Mini-Code-1.0",
-    "name": "CohereLabs/North-Mini-Code-1.0",
-    "display_name": "North-Mini-Code-1.0",
-    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-    "author": "CohereLabs",
-    "pipeline_tag": "text-generation",
-    "likes": 162,
-    "downloads": 1784,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "cohere2_moe",
-      "text-generation",
-      "conversational",
-      "chat",
-      "code",
-      "agent",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "created_at": "2026-06-05T02:38:01.000Z",
-    "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
-  },
-  {
-    "id": "hf-nvidia--NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "display_name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-    "author": "nvidia",
-    "pipeline_tag": "text-generation",
-    "likes": 175,
-    "downloads": 56864,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "nvidia",
-      "pytorch",
-      "nemotron-3",
-      "latent-moe",
-      "mtp",
-      "conversational",
-      "en",
-      "fr",
-      "es",
-      "it",
-      "de",
-      "pt",
-      "ja",
-      "ko",
-      "hi",
-      "ar",
-      "zh",
-      "he",
-      "dataset:nvidia/nemotron-post-training-v3",
-      "dataset:nvidia/nemotron-pre-training-datasets",
-      "license:other",
-      "eval-results",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-06-03T14:50:04.000Z",
-    "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-nvidia--NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
@@ -317,8 +423,8 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
     "author": "nvidia",
     "pipeline_tag": "text-generation",
-    "likes": 153,
-    "downloads": 71818,
+    "likes": 169,
+    "downloads": 91117,
     "tags": [
       "transformers",
       "safetensors",
@@ -353,7 +459,50 @@
     ],
     "created_at": "2026-06-03T14:54:33.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
+  },
+  {
+    "id": "hf-nvidia--NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "display_name": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "author": "nvidia",
+    "pipeline_tag": "text-generation",
+    "likes": 198,
+    "downloads": 59066,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "nemotron_h",
+      "text-generation",
+      "nvidia",
+      "pytorch",
+      "nemotron-3",
+      "latent-moe",
+      "mtp",
+      "conversational",
+      "en",
+      "fr",
+      "es",
+      "it",
+      "de",
+      "pt",
+      "ja",
+      "ko",
+      "hi",
+      "ar",
+      "zh",
+      "he",
+      "dataset:nvidia/nemotron-post-training-v3",
+      "dataset:nvidia/nemotron-pre-training-datasets",
+      "license:other",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-06-03T14:50:04.000Z",
+    "source": "Hugging Face trending",
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-mindlab-research--Macaron-V1-Preview-749B",
@@ -362,8 +511,8 @@
     "url": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
     "author": "mindlab-research",
     "pipeline_tag": "text-generation",
-    "likes": 47,
-    "downloads": 1003,
+    "likes": 53,
+    "downloads": 1052,
     "tags": [
       "transformers",
       "safetensors",
@@ -388,7 +537,7 @@
     ],
     "created_at": "2026-06-05T10:00:59.000Z",
     "source": "Hugging Face text-generation",
-    "collected_at": "2026-06-10T09:42:49+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-nex-agi--Nex-N2-mini",
@@ -397,8 +546,8 @@
     "url": "https://huggingface.co/nex-agi/Nex-N2-mini",
     "author": "nex-agi",
     "pipeline_tag": "text-generation",
-    "likes": 110,
-    "downloads": 748,
+    "likes": 166,
+    "downloads": 1222,
     "tags": [
       "transformers",
       "safetensors",
@@ -412,7 +561,7 @@
     ],
     "created_at": "2026-06-04T04:59:34.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-nex-agi--Nex-N2-Pro",
@@ -421,8 +570,8 @@
     "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
     "author": "nex-agi",
     "pipeline_tag": "text-generation",
-    "likes": 161,
-    "downloads": 783,
+    "likes": 208,
+    "downloads": 1185,
     "tags": [
       "transformers",
       "safetensors",
@@ -437,7 +586,7 @@
     ],
     "created_at": "2026-06-03T03:15:13.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   },
   {
     "id": "hf-Comfy-Org--Ideogram-4",
@@ -446,7 +595,7 @@
     "url": "https://huggingface.co/Comfy-Org/Ideogram-4",
     "author": "Comfy-Org",
     "pipeline_tag": "",
-    "likes": 112,
+    "likes": 136,
     "downloads": 0,
     "tags": [
       "comfyui",
@@ -455,52 +604,6 @@
     ],
     "created_at": "2026-06-03T13:49:29.000Z",
     "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
-  },
-  {
-    "id": "hf-jdopensource--JoyAI-Echo",
-    "name": "jdopensource/JoyAI-Echo",
-    "display_name": "JoyAI-Echo",
-    "url": "https://huggingface.co/jdopensource/JoyAI-Echo",
-    "author": "jdopensource",
-    "pipeline_tag": "text-to-video",
-    "likes": 114,
-    "downloads": 4502,
-    "tags": [
-      "ltx-video",
-      "JoyAI-Echo",
-      "text-to-video",
-      "video-generation",
-      "audio-video-generation",
-      "long-video",
-      "multi-shot",
-      "dmd",
-      "license:other",
-      "region:us"
-    ],
-    "created_at": "2026-06-02T02:32:45.000Z",
-    "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
-  },
-  {
-    "id": "hf-ByteDance--Bernini-R",
-    "name": "ByteDance/Bernini-R",
-    "display_name": "Bernini-R",
-    "url": "https://huggingface.co/ByteDance/Bernini-R",
-    "author": "ByteDance",
-    "pipeline_tag": "image-text-to-video",
-    "likes": 194,
-    "downloads": 281,
-    "tags": [
-      "safetensors",
-      "bernini_renderer",
-      "image-text-to-video",
-      "arxiv:2605.22344",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "created_at": "2026-06-01T03:04:03.000Z",
-    "source": "Hugging Face trending",
-    "collected_at": "2026-06-10T09:42:48+08:00"
+    "collected_at": "2026-06-12T13:18:28+08:00"
   }
 ]

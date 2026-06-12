@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-11T13:41:38+08:00",
+  "updated_at": "2026-06-12T13:18:28+08:00",
   "window_days": 30,
-  "candidate_count": 8,
+  "candidate_count": 16,
   "items": [
     {
       "id": "github-1136590548",
@@ -9,8 +9,8 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "type": "project",
-      "stars": 212881,
-      "score": 212881,
+      "stars": 213683,
+      "score": 213683,
       "window_days": 30,
       "reason": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
@@ -20,8 +20,8 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "type": "project",
-      "stars": 190214,
-      "score": 190214,
+      "stars": 191192,
+      "score": 191192,
       "window_days": 30,
       "reason": "The agent that grows with you"
     },
@@ -31,8 +31,8 @@
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "type": "project",
-      "stars": 184889,
-      "score": 184889,
+      "stars": 184894,
+      "score": 184894,
       "window_days": 30,
       "reason": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
     },
@@ -42,8 +42,8 @@
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "type": "project",
-      "stars": 173818,
-      "score": 173818,
+      "stars": 173916,
+      "score": 173916,
       "window_days": 30,
       "reason": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     },
@@ -53,8 +53,8 @@
       "url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "type": "project",
-      "stars": 163544,
-      "score": 163544,
+      "stars": 163597,
+      "score": 163597,
       "window_days": 30,
       "reason": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
     },
@@ -64,8 +64,8 @@
       "url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "type": "project",
-      "stars": 161491,
-      "score": 161491,
+      "stars": 161516,
+      "score": 161516,
       "window_days": 30,
       "reason": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
     },
@@ -75,8 +75,8 @@
       "url": "https://github.com/Snailclimb/JavaGuide",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "type": "project",
-      "stars": 156296,
-      "score": 156296,
+      "stars": 156325,
+      "score": 156325,
       "window_days": 30,
       "reason": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发"
     },
@@ -86,8 +86,8 @@
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "type": "project",
-      "stars": 149519,
-      "score": 149519,
+      "stars": 149569,
+      "score": 149569,
       "window_days": 30,
       "reason": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
     }
