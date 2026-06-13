@@ -21,7 +21,7 @@ summary = "Deezer will now scan your playlists on other streaming platforms to d
 summary_zh = "中文速读：这条来自 The Verge AI 的 AI 动态关注「Deezer launches an AI music detector for other streaming services」。建议结合英文原文查看具体细节。"
 summary_en = "Deezer will now scan your playlists on other streaming platforms to detect AI-generated music. Deezer was the first of the big streaming services to start labeling AI-generated music. It even offered its tech to other platforms, but it doesn't seem like it ha…"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

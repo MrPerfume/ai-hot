@@ -21,7 +21,7 @@ summary = "OpenAI supports the EU Code of Practice on AI content transparency, a
 summary_zh = "OpenAI支持欧盟关于人工智能内容透明度的行为准则，推进出处标准和工具，以帮助人们理解人工智能生成的内容。"
 summary_en = "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T13:18:28+08:00",
-  "total": 17,
+  "updated_at": "2026-06-13T13:08:04+08:00",
+  "total": 18,
   "categories": [
     {
       "id": "watch",
@@ -17,7 +17,7 @@
       "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
       "freshness": "2026-06-09",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 514 / downloads 0",
+      "why": "Hugging Face trending 收录，likes 628 / downloads 20669",
       "meta": "image-text-to-text",
       "tags": [
         "transformers",
@@ -31,12 +31,31 @@
     {
       "category": "watch",
       "source": "Hugging Face",
+      "name": "Kimi-K2.7-Code",
+      "provider": "moonshotai",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "freshness": "2026-06-11",
+      "badge": "今日关注",
+      "why": "Hugging Face trending 收录，likes 367 / downloads 0",
+      "meta": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "kimi_k25",
+        "image-feature-extraction",
+        "compressed-tensors"
+      ],
+      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+      "category": "watch",
+      "source": "Hugging Face",
       "name": "diffusiongemma-26B-A4B-it-GGUF",
       "provider": "unsloth",
       "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
       "freshness": "2026-06-10",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 184 / downloads 0",
+      "why": "Hugging Face trending 收录，likes 215 / downloads 17666",
       "meta": "image-text-to-text",
       "tags": [
         "gguf",
@@ -50,12 +69,31 @@
     {
       "category": "watch",
       "source": "Hugging Face",
+      "name": "Qwopus3.6-27B-Coder-MTP-GGUF",
+      "provider": "Jackrong",
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
+      "freshness": "2026-06-12",
+      "badge": "今日关注",
+      "why": "Hugging Face trending 收录，likes 117 / downloads 0",
+      "meta": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "gguf",
+        "llama.cpp",
+        "image-text-to-text",
+        "vision"
+      ],
+      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+      "category": "watch",
+      "source": "Hugging Face",
       "name": "diffusiongemma-26B-A4B-it-NVFP4",
       "provider": "nvidia",
       "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
       "freshness": "2026-06-11",
       "badge": "今日关注",
-      "why": "Hugging Face text-generation 收录，likes 38 / downloads 0",
+      "why": "Hugging Face text-generation 收录，likes 45 / downloads 9812",
       "meta": "text-generation",
       "tags": [
         "safetensors",
@@ -69,12 +107,31 @@
     {
       "category": "watch",
       "source": "Hugging Face",
+      "name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "provider": "yuxinlu1",
+      "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "freshness": "2026-06-10",
+      "badge": "今日关注",
+      "why": "Hugging Face text-generation 收录，likes 41 / downloads 886",
+      "meta": "text-generation",
+      "tags": [
+        "gguf",
+        "gemma4",
+        "coding",
+        "code",
+        "reasoning"
+      ],
+      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+      "category": "watch",
+      "source": "Hugging Face",
       "name": "SCAIL-2",
       "provider": "zai-org",
       "url": "https://huggingface.co/zai-org/SCAIL-2",
       "freshness": "2026-06-09",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 119 / downloads 0",
+      "why": "Hugging Face trending 收录，likes 141 / downloads 0",
       "meta": "image-to-video",
       "tags": [
         "diffusers",
@@ -88,12 +145,28 @@
     {
       "category": "watch",
       "source": "Hugging Face",
+      "name": "Realism_Engine_Ideogram_4",
+      "provider": "RazzzHF",
+      "url": "https://huggingface.co/RazzzHF/Realism_Engine_Ideogram_4",
+      "freshness": "2026-06-10",
+      "badge": "今日关注",
+      "why": "Hugging Face trending 收录，likes 85 / downloads 0",
+      "meta": "model",
+      "tags": [
+        "license:unknown",
+        "region:us"
+      ],
+      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+      "category": "watch",
+      "source": "Hugging Face",
       "name": "gemma-4-12B-it-qat-GGUF",
       "provider": "unsloth",
       "url": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF",
       "freshness": "2026-06-05",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 202 / downloads 148252",
+      "why": "Hugging Face trending 收录，likes 207 / downloads 208889",
       "meta": "any-to-any",
       "tags": [
         "transformers",
@@ -112,7 +185,7 @@
       "url": "https://huggingface.co/silx-ai/Quasar-Preview",
       "freshness": "2026-06-09",
       "badge": "今日关注",
-      "why": "Hugging Face text-generation 收录，likes 58 / downloads 38",
+      "why": "Hugging Face text-generation 收录，likes 60 / downloads 200",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -131,7 +204,7 @@
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
       "freshness": "2026-06-08",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 88 / downloads 660",
+      "why": "Hugging Face trending 收录，likes 97 / downloads 2607",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -150,7 +223,7 @@
       "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF",
       "freshness": "2026-06-05",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 143 / downloads 129110",
+      "why": "Hugging Face trending 收录，likes 148 / downloads 221174",
       "meta": "image-text-to-text",
       "tags": [
         "transformers",
@@ -169,7 +242,7 @@
       "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
       "freshness": "2026-06-04",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 366 / downloads 19948",
+      "why": "Hugging Face trending 收录，likes 392 / downloads 29347",
       "meta": "text-to-speech",
       "tags": [
         "transformers",
@@ -188,7 +261,7 @@
       "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
       "freshness": "2026-06-05",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 309 / downloads 1859",
+      "why": "Hugging Face trending 收录，likes 335 / downloads 4054",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -207,7 +280,7 @@
       "url": "https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf",
       "freshness": "2026-06-05",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 130 / downloads 96749",
+      "why": "Hugging Face trending 收录，likes 134 / downloads 175635",
       "meta": "any-to-any",
       "tags": [
         "transformers",
@@ -226,7 +299,7 @@
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
       "freshness": "2026-06-03",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 169 / downloads 91117",
+      "why": "Hugging Face text-generation 收录，likes 172 / downloads 152791",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -245,7 +318,7 @@
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
       "freshness": "2026-06-03",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 198 / downloads 59066",
+      "why": "Hugging Face text-generation 收录，likes 203 / downloads 67203",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -259,31 +332,12 @@
     {
       "category": "watch",
       "source": "Hugging Face",
-      "name": "Macaron-V1-Preview-749B",
-      "provider": "mindlab-research",
-      "url": "https://huggingface.co/mindlab-research/Macaron-V1-Preview-749B",
-      "freshness": "2026-06-05",
-      "badge": "今日关注",
-      "why": "Hugging Face text-generation 收录，likes 53 / downloads 1052",
-      "meta": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "glm_moe_dsa",
-        "text-generation",
-        "macaron"
-      ],
-      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-    },
-    {
-      "category": "watch",
-      "source": "Hugging Face",
       "name": "Nex-N2-mini",
       "provider": "nex-agi",
       "url": "https://huggingface.co/nex-agi/Nex-N2-mini",
       "freshness": "2026-06-04",
       "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 166 / downloads 1222",
+      "why": "Hugging Face trending 收录，likes 182 / downloads 2839",
       "meta": "text-generation",
       "tags": [
         "transformers",
@@ -291,42 +345,6 @@
         "qwen3_5_moe",
         "image-text-to-text",
         "text-generation"
-      ],
-      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-    },
-    {
-      "category": "watch",
-      "source": "Hugging Face",
-      "name": "Nex-N2-Pro",
-      "provider": "nex-agi",
-      "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-      "freshness": "2026-06-03",
-      "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 208 / downloads 1185",
-      "meta": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "text-generation"
-      ],
-      "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-    },
-    {
-      "category": "watch",
-      "source": "Hugging Face",
-      "name": "Ideogram-4",
-      "provider": "Comfy-Org",
-      "url": "https://huggingface.co/Comfy-Org/Ideogram-4",
-      "freshness": "2026-06-03",
-      "badge": "今日关注",
-      "why": "Hugging Face trending 收录，likes 136 / downloads 0",
-      "meta": "model",
-      "tags": [
-        "comfyui",
-        "license:other",
-        "region:us"
       ],
       "icon_url": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
     }

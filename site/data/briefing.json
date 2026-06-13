@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-12",
-  "content": "今天 AI 动态主要集中在模型能力、Agent 和自动化、产品与应用。值得先看：克劳德·法布尔（ Claude Fable ）无情地积极主动；BBVA将人工智能置于OpenAI银行业务的核心；OpenAI收购ONA。",
-  "news_count": 61,
+  "date": "2026-06-13",
+  "content": "今天 AI 动态主要集中在模型能力、开源生态、产品与应用。值得先看：开源AI必胜；面向下一个工作时代的全新OpenAI学院课程；我们已暂停对Claude Mythos 5和Claude Fable 5的访问权限。",
+  "news_count": 53,
   "sources": {
     "OpenAI News": 17,
-    "TechCrunch AI": 13,
-    "量子位": 9,
-    "The Verge AI": 9,
+    "TechCrunch AI": 11,
     "Hugging Face Blog": 7,
-    "MIT Tech Review": 3,
-    "Hacker News": 2,
+    "The Verge AI": 7,
+    "量子位": 5,
+    "Hacker News": 4,
+    "MIT Tech Review": 1,
     "Google AI": 1
   },
   "emoji": "⚡"
